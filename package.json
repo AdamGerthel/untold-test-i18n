@@ -1,0 +1,14 @@
+{
+  "name": "untold-data",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "update": "node scripts/update.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
