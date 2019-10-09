@@ -49,6 +49,7 @@ const init = async function () {
   } catch (error) {
     console.log(error)
   } finally {
+    console.log('Content updated 💫')
     process.exit()
   }
 }
@@ -81,8 +82,6 @@ const downloadMedia = function (id, url) {
 
 const getResource = function (resource) {
   return new Promise((resolve, reject) => {
-    console.log('Getting', resource)
-
     req({
       method: 'GET',
       qs: {
