@@ -56,7 +56,6 @@ const init = async function () {
 }
 
 const downloadMedia = function (entity, fileFormat) {
-  const transform = 'c_scale,q_auto:good,w_1000/'
   const file = fs.createWriteStream(`media/${entity._id}.${fileFormat}`)
 
   return new Promise((resolve, reject) => {
