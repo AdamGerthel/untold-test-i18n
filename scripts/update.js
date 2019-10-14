@@ -36,14 +36,13 @@ const init = async function () {
     await fs.promises.writeFile('content/index.js', `module.exports = {${contentIndex}\n}`)
 
     // Download and save media files
-    const format = 'jpg'
-    const transform = 'c_scale,q_auto:good,w_1000/'
+    const fileFormat = 'png'
     const media = JSON.parse(data[resources.indexOf('media')])
-    await Promise.all(media.data.map(entity => downloadMedia(entity._id, format, transform, entity.remote_url)))
+    await Promise.all(media.data.map(entity => downloadMedia(entity, fileFormat)))
 
     // Generate index file for media files
     const mediaIndex = media.data.reduce((total, entity) => {
-      total = total + `\n  '${entity._id}': require('./${entity._id}.${format}'),`
+      total = total + `\n  '${entity._id}': require('./${entity._id}.${fileFormat}'),`
       return total
     }, '')
 
@@ -56,16 +55,16 @@ const init = async function () {
   }
 }
 
-const downloadMedia = function (id, format, transform, url) {
-  const middle = 'upload/'
-  const splitUrl = url.split(middle)
-  const file = fs.createWriteStream(`media/${id}.${format}`)
-  const end = splitUrl[1].split('.')
-  const uri = splitUrl[0] + middle + transform + end[0] + '.' + format
+const downloadMedia = function (entity, fileFormat) {
+  const transform = 'c_scale,q_auto:good,w_1000/'
+  const file = fs.createWriteStream(`media/${entity._id}.${fileFormat}`)
 
   return new Promise((resolve, reject) => {
-    request({
-      uri: uri,
+    req({
+      url: `media/${entity._id}`,
+      qs: {
+        width: 600
+      },
       headers: {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
         'Accept-Encoding': 'gzip, deflate, br',
