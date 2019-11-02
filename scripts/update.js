@@ -57,6 +57,7 @@ const init = async function () {
 
 const downloadMedia = function (entity, fileFormat) {
   const file = fs.createWriteStream(`media/${entity._id}.${fileFormat}`)
+  console.log(`Fetching media/${entity._id}?width=600...`)
 
   return new Promise((resolve, reject) => {
     req({
@@ -77,6 +78,7 @@ const downloadMedia = function (entity, fileFormat) {
     })
     .pipe(file)
     .on('finish', () => {
+      console.log(`Fetched media/${entity._id}?width=600`)
       resolve()
     })
     .on('error', (error) => {
