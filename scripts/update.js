@@ -62,7 +62,8 @@ const downloadMedia = function (entity, fileFormat) {
     req({
       url: `media/${entity._id}`,
       qs: {
-        width: 600
+        width: 600,
+        invalidate: true
       },
       headers: {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
