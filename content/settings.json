@@ -1,3 +1,39 @@
 {
-  "data": {}
+  "data": {
+    "defaultData": {
+      "character": {
+        "strength": 1,
+        "charisma": 1,
+        "resilience": 1,
+        "agility": 1,
+        "perception": 1
+      },
+      "movement": {
+        "location": "5c7d46a0fd6b494077456b05"
+      }
+    },
+    "levels": [
+      40,
+      80,
+      180,
+      320,
+      520,
+      750,
+      1000,
+      1300,
+      1650,
+      2050,
+      2500,
+      3100,
+      3800,
+      4600,
+      5500,
+      6500,
+      7600,
+      8800,
+      10100
+    ],
+    "_id": "5c7d3821fd6b494c07456b00",
+    "__v": 0
+  }
 }

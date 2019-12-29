@@ -1,6 +1,2693 @@
 {
-  "total": 0,
-  "limit": 0,
+  "total": 103,
+  "limit": 1500,
   "skip": 0,
-  "data": []
+  "data": [
+    {
+      "_id": "5c817e240e37485f1bc601e1",
+      "name": "Gray Dog",
+      "strength": 2,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 2,
+      "health": 10,
+      "armor": 0,
+      "experience": 20,
+      "damage": {
+        "min": 1,
+        "max": 1.7
+      },
+      "_created": "2019-03-07T20:25:08.253Z",
+      "__v": 0,
+      "_updated": "2019-06-08T08:27:48.499Z",
+      "level": 4,
+      "bargain": [],
+      "attacksPerSecond": 1.2
+    },
+    {
+      "_id": "5c80303b0e374858f8c6017e",
+      "name": "Wild Dog",
+      "strength": 1,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 1,
+      "health": 6,
+      "armor": 0,
+      "experience": 20,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 1,
+        "max": 2
+      },
+      "_created": "2019-03-06T20:40:27.448Z",
+      "__v": 0,
+      "_updated": "2019-09-20T14:24:47.928Z",
+      "level": 2,
+      "bargain": []
+    },
+    {
+      "_id": "5c85d3f30e3748205fc6035c",
+      "strength": 2,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 1,
+      "health": 12,
+      "armor": 5,
+      "experience": 30,
+      "damage": {
+        "min": 1,
+        "max": 4
+      },
+      "_created": "2019-03-11T03:20:19.163Z",
+      "__v": 0,
+      "_updated": "2019-06-08T08:24:45.787Z",
+      "name": "Swordsman of Woe",
+      "level": 3,
+      "bargain": [],
+      "attacksPerSecond": 0.7
+    },
+    {
+      "_id": "5c869283bbdb6b1bf15865e2",
+      "name": "Berserker of Woe",
+      "strength": 2,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 1,
+      "perception": 1,
+      "armor": 5,
+      "experience": 30,
+      "damage": {
+        "min": 1,
+        "max": 2
+      },
+      "_created": "2019-03-11T16:53:23.766Z",
+      "__v": 0,
+      "_updated": "2019-06-08T08:25:48.521Z",
+      "level": 3,
+      "bargain": [],
+      "health": 14,
+      "attacksPerSecond": 0.9
+    },
+    {
+      "_id": "5c869a7abbdb6bfda058660e",
+      "name": "Alchemist of Woe",
+      "strength": 1,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 3,
+      "perception": 1,
+      "health": 8,
+      "armor": 0,
+      "experience": 20,
+      "damage": {
+        "min": 1,
+        "max": 2
+      },
+      "_created": "2019-03-11T17:27:22.496Z",
+      "__v": 0,
+      "_updated": "2019-06-08T08:34:01.393Z",
+      "level": 3,
+      "bargain": [],
+      "attacksPerSecond": 0.7
+    },
+    {
+      "_id": "5c869a09bbdb6b717658660d",
+      "name": "Maceman of Woe",
+      "perception": 1,
+      "agility": 1,
+      "resilience": 1,
+      "charisma": 1,
+      "strength": 4,
+      "health": 16,
+      "armor": 1,
+      "experience": 30,
+      "attacksPerSecond": 0.45,
+      "damage": {
+        "min": 1,
+        "max": 6
+      },
+      "_created": "2019-03-11T17:25:29.394Z",
+      "__v": 0,
+      "_updated": "2019-06-08T08:33:10.073Z",
+      "level": 4,
+      "bargain": []
+    },
+    {
+      "_id": "5c869b49bbdb6b483f58663b",
+      "name": "Assassin of Woe",
+      "strength": 1,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 2,
+      "health": 10,
+      "armor": 0,
+      "experience": 30,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 1,
+        "max": 2
+      },
+      "_created": "2019-03-11T17:30:49.970Z",
+      "__v": 0,
+      "_updated": "2019-06-08T08:32:24.168Z",
+      "loot": "5c86d948bbdb6b695e5868e8",
+      "level": 3,
+      "bargain": []
+    },
+    {
+      "_id": "5c86bef6bbdb6b42665867f1",
+      "name": "Guardian of Woe",
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 1,
+      "perception": 1,
+      "health": 16,
+      "armor": 1,
+      "experience": 30,
+      "damage": {
+        "min": 1,
+        "max": 8
+      },
+      "_created": "2019-03-11T20:03:02.610Z",
+      "__v": 0,
+      "_updated": "2019-06-08T08:34:20.187Z",
+      "level": 4,
+      "bargain": [],
+      "attacksPerSecond": 0.7
+    },
+    {
+      "_id": "5c8ae564190288b993f94cd9",
+      "name": "Druid Archer",
+      "strength": 1,
+      "charisma": 2,
+      "resilience": 1,
+      "agility": 1,
+      "perception": 3,
+      "health": 10,
+      "armor": 1,
+      "experience": 25,
+      "damage": {
+        "min": 1,
+        "max": 4
+      },
+      "_created": "2019-03-14T23:36:04.563Z",
+      "_updated": "2019-06-08T11:19:46.434Z",
+      "__v": 0,
+      "level": 4,
+      "bargain": [],
+      "attacksPerSecond": 1.2
+    },
+    {
+      "_id": "5c8b205419028820c8f94cda",
+      "name": "Druid Guard",
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 2,
+      "strength": 3,
+      "perception": 2,
+      "health": 12,
+      "armor": 5,
+      "experience": 30,
+      "damage": {
+        "min": 1,
+        "max": 7
+      },
+      "_created": "2019-03-15T03:47:32.789Z",
+      "_updated": "2019-06-13T05:27:43.855Z",
+      "__v": 0,
+      "bargain": [],
+      "loot": "5ca41433379035d082b1cec1",
+      "level": 6,
+      "attacksPerSecond": 0.9
+    },
+    {
+      "_id": "5c8ba99f1902882f2ff94cdb",
+      "name": "Druid Assassin",
+      "strength": 1,
+      "charisma": 3,
+      "resilience": 1,
+      "agility": 3,
+      "perception": 3,
+      "health": 16,
+      "armor": 1,
+      "experience": 50,
+      "damage": {
+        "min": 2,
+        "max": 7
+      },
+      "_created": "2019-03-15T13:33:19.234Z",
+      "_updated": "2019-06-08T11:52:23.143Z",
+      "__v": 0,
+      "loot": "5c9351e73bae8d4ce62b6257",
+      "level": 7,
+      "bargain": [],
+      "attacksPerSecond": 1.5
+    },
+    {
+      "_id": "5cb7bbcdc065f010629435f5",
+      "name": "Ato Triasteen",
+      "strength": 1,
+      "charisma": 4,
+      "resilience": 3,
+      "agility": 4,
+      "perception": 3,
+      "health": 12,
+      "armor": 10,
+      "experience": 10,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 5,
+        "max": 15
+      },
+      "level": 11,
+      "_created": "2019-04-17T23:50:37.296Z",
+      "_updated": "2019-11-11T14:59:18.617Z",
+      "bargain": [
+        {
+          "_id": "5d168b65ebd3dc7ff454cb01",
+          "items": [
+            {
+              "_id": "5d168b65ebd3dc474d54cb04",
+              "item": "5d12279340fcff8734fb7f70"
+            },
+            {
+              "_id": "5d168b65ebd3dc52a454cb03",
+              "item": "5cd26364f7cea27c6b745002"
+            },
+            {
+              "_id": "5d168b65ebd3dc6f6954cb02",
+              "item": "5cd262abf7cea25c17745001"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "loot": "5dc97601f75a974bdd597d5e"
+    },
+    {
+      "_id": "5c8f0664d26f5013ba85f5f4",
+      "name": "Dusk Wolf",
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 2,
+      "health": 12,
+      "armor": 1,
+      "experience": 40,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 1,
+        "max": 5
+      },
+      "_created": "2019-03-18T02:45:56.027Z",
+      "_updated": "2019-06-08T11:23:29.347Z",
+      "__v": 0,
+      "bargain": [],
+      "level": 5
+    },
+    {
+      "_id": "5c92d64b3bae8d70052b5f88",
+      "name": "Shadow Lion",
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 4,
+      "agility": 2,
+      "perception": 2,
+      "health": 18,
+      "experience": 50,
+      "damage": {
+        "max": 4,
+        "min": 4
+      },
+      "armor": 0,
+      "_created": "2019-03-21T00:09:47.267Z",
+      "_updated": "2019-06-09T21:29:22.569Z",
+      "__v": 0,
+      "level": 8,
+      "bargain": [],
+      "attacksPerSecond": 1.7
+    },
+    {
+      "_id": "5c94c358683e5d1e064f2e27",
+      "name": "Druid Scoundrel",
+      "strength": 3,
+      "agility": 2,
+      "charisma": 3,
+      "resilience": 1,
+      "perception": 3,
+      "health": 14,
+      "armor": 2,
+      "experience": 40,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 1,
+        "max": 8
+      },
+      "_created": "2019-03-22T11:13:28.970Z",
+      "_updated": "2019-04-25T07:45:35.067Z",
+      "__v": 0,
+      "loot": "5c94d342683e5d543b4f2e33",
+      "level": 8,
+      "bargain": []
+    },
+    {
+      "_id": "5c9b13cb3790353c3ab1bd6a",
+      "name": "Mountain Lion",
+      "strength": 2,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 3,
+      "perception": 2,
+      "health": 10,
+      "armor": 0,
+      "experience": 25,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 1,
+        "max": 6
+      },
+      "_created": "2019-03-27T06:10:19.461Z",
+      "_updated": "2019-04-25T07:22:36.044Z",
+      "bargain": [],
+      "__v": 0,
+      "level": 5
+    },
+    {
+      "_id": "5c7d8829fd6b492258456b99",
+      "name": "Druid War Chief",
+      "strength": 9,
+      "charisma": 3,
+      "resilience": 6,
+      "agility": 3,
+      "perception": 5,
+      "_created": "2019-03-04T20:18:49.655Z",
+      "__v": 0,
+      "_updated": "2019-06-10T17:05:37.891Z",
+      "health": 20,
+      "armor": 10,
+      "experience": 75,
+      "damage": {
+        "min": 6,
+        "max": 18
+      },
+      "bargain": [],
+      "level": 22,
+      "loot": "5cb7a879c065f061629434e9",
+      "blockChance": 0,
+      "attacksPerSecond": 0.5
+    },
+    {
+      "_id": "5c7d87f4fd6b4935a4456b98",
+      "name": "Rasleen",
+      "resilience": 8,
+      "charisma": 2,
+      "strength": 3,
+      "agility": 6,
+      "perception": 4,
+      "_created": "2019-03-04T20:17:56.999Z",
+      "__v": 0,
+      "_updated": "2019-04-10T15:36:27.865Z",
+      "health": 35,
+      "armor": 4,
+      "experience": 50,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 7,
+        "max": 12
+      },
+      "bargain": [],
+      "level": 19
+    },
+    {
+      "_id": "5c9b90153790350fd5b1bf80",
+      "name": "Arvie Graker",
+      "strength": 1,
+      "charisma": 3,
+      "resilience": 1,
+      "agility": 4,
+      "perception": 1,
+      "health": 6,
+      "armor": 4,
+      "experience": 10,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 2,
+        "max": 4
+      },
+      "_created": "2019-03-27T15:00:37.897Z",
+      "_updated": "2019-04-10T15:36:13.881Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5c9b93573790351a05b1bf87",
+      "level": 6
+    },
+    {
+      "_id": "5ca3f68a3790351522b1ce57",
+      "name": "Druid Swordsman",
+      "strength": 2,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 4,
+      "health": 12,
+      "armor": 5,
+      "experience": 25,
+      "damage": {
+        "min": 2,
+        "max": 4
+      },
+      "_created": "2019-04-02T23:55:54.827Z",
+      "_updated": "2019-06-08T12:11:45.330Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5ca43eea3790357c7eb1cf1e",
+      "level": 6,
+      "attacksPerSecond": 0.7
+    },
+    {
+      "_id": "5ca5caf83790350e2bb1f631",
+      "name": "Druid Gardener",
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 1,
+      "perception": 2,
+      "health": 14,
+      "armor": 1,
+      "experience": 25,
+      "damage": {
+        "min": 1,
+        "max": 8
+      },
+      "_created": "2019-04-04T09:14:32.720Z",
+      "_updated": "2019-06-08T12:13:21.688Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5ca5f496379035016eb1fdff",
+      "level": 6,
+      "attacksPerSecond": 0.5
+    },
+    {
+      "_id": "5c9382f08a2593f906240653",
+      "name": "Lone Merchant",
+      "strength": 2,
+      "charisma": 3,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 4,
+      "health": 10,
+      "armor": 1,
+      "experience": 10,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 1,
+        "max": 5
+      },
+      "_created": "2019-03-21T12:26:24.630Z",
+      "_updated": "2019-05-13T20:53:06.173Z",
+      "__v": 0,
+      "bargain": [
+        {
+          "_id": "5cab81a63790357e31b223fd",
+          "items": [
+            {
+              "_id": "5cab81a6379035479bb22403",
+              "item": "5cab80c6379035dfc8b223fc"
+            },
+            {
+              "_id": "5cab81a6379035383ab22402",
+              "item": "5cab803337903554f2b223fb"
+            },
+            {
+              "_id": "5cab81a6379035b68cb22401",
+              "item": "5cab7f1737903512c8b223f9"
+            },
+            {
+              "_id": "5cab81a6379035063fb22400",
+              "item": "5cab7e533790353dc8b223f8"
+            },
+            {
+              "_id": "5cab81a6379035f5e2b223ff",
+              "item": "5cab7db4379035d0f0b223f7"
+            },
+            {
+              "_id": "5cab81a63790351717b223fe",
+              "item": "5cab7c5e379035ff3eb223f6"
+            },
+            {
+              "_id": "5cd9d6fa3e44eedb3d7abcce",
+              "item": "5cd261b7f7cea232dd745000"
+            },
+            {
+              "_id": "5cd9d9323e44ee00a37abd12",
+              "item": "5cd260f4f7cea2525d744fff"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "level": 8
+    },
+    {
+      "_id": "5cab279e379035ed17b2239e",
+      "name": "Mev",
+      "strength": 4,
+      "charisma": 4,
+      "resilience": 6,
+      "agility": 3,
+      "perception": 2,
+      "health": 22,
+      "armor": 5,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 6,
+        "max": 12
+      },
+      "_created": "2019-04-08T10:51:10.979Z",
+      "_updated": "2019-04-14T16:03:12.585Z",
+      "bargain": [
+        {
+          "_id": "5cb359c0c065f079ab943381",
+          "items": [
+            {
+              "_id": "5cb359c0c065f0628c943386",
+              "item": "5cb3564fc065f08fda94337d"
+            },
+            {
+              "_id": "5cb359c0c065f016a0943385",
+              "item": "5cb35818c065f0135594337e"
+            },
+            {
+              "_id": "5cb359c0c065f02fa4943384",
+              "item": "5cb35965c065f048a294337f"
+            },
+            {
+              "_id": "5cb359c0c065f05d88943383",
+              "item": "5caabbcf37903537d9b22137"
+            },
+            {
+              "_id": "5cb359c0c065f04501943382",
+              "item": "5c935e073bae8df83c2b629a"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "level": 15,
+      "experience": 100,
+      "loot": "5cb33275c065f08343943258"
+    },
+    {
+      "_id": "5cb8c838c065f0d85a9439e8",
+      "name": "Young Prison Guard",
+      "strength": 2,
+      "charisma": 2,
+      "resilience": 3,
+      "agility": 1,
+      "perception": 2,
+      "level": 6,
+      "health": 16,
+      "armor": 3,
+      "experience": 10,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 4,
+        "max": 6
+      },
+      "_created": "2019-04-18T18:55:52.574Z",
+      "_updated": "2019-04-25T07:27:15.584Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5cb91eb9c065f0361a943b47"
+    },
+    {
+      "_id": "5cb8c8a0c065f0c1889439e9",
+      "name": "Prison Warden",
+      "strength": 4,
+      "charisma": 3,
+      "resilience": 4,
+      "agility": 1,
+      "perception": 2,
+      "level": 10,
+      "health": 18,
+      "armor": 4,
+      "experience": 60,
+      "damage": {
+        "min": 6,
+        "max": 11
+      },
+      "_created": "2019-04-18T18:57:36.400Z",
+      "_updated": "2019-06-09T21:45:52.036Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5cb91ccec065f09f7c943b35",
+      "attacksPerSecond": 0.9
+    },
+    {
+      "_id": "5cb8e2e9c065f01019943a01",
+      "name": "Old Prison Guard",
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 5,
+      "agility": 1,
+      "perception": 2,
+      "health": 18,
+      "level": 8,
+      "armor": 3,
+      "experience": 20,
+      "damage": {
+        "min": 6,
+        "max": 8
+      },
+      "_created": "2019-04-18T20:49:45.299Z",
+      "_updated": "2019-06-09T21:37:34.447Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5cb91eb9c065f0361a943b47",
+      "attacksPerSecond": 0.7
+    },
+    {
+      "_id": "5cb9146dc065f04565943b30",
+      "name": "Hooded Prison Guard",
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 4,
+      "agility": 2,
+      "perception": 2,
+      "level": 8,
+      "health": 18,
+      "armor": 5,
+      "experience": 25,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 3,
+        "max": 12
+      },
+      "_created": "2019-04-19T00:21:01.558Z",
+      "_updated": "2019-04-19T12:26:52.116Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5cb91eb9c065f0361a943b47"
+    },
+    {
+      "_id": "5cb91547c065f03579943b31",
+      "name": "Cowled Prison Guard",
+      "strength": 1,
+      "charisma": 1,
+      "perception": 3,
+      "health": 18,
+      "armor": 5,
+      "experience": 25,
+      "attacksPerSecond": 1.3,
+      "damage": {
+        "min": 1,
+        "max": 6
+      },
+      "level": 9,
+      "_created": "2019-04-19T00:24:39.110Z",
+      "_updated": "2019-06-10T16:32:40.297Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5cb91eb9c065f0361a943b47",
+      "agility": 5,
+      "resilience": 3
+    },
+    {
+      "_id": "5cda4c473e44ee55b17abf8c",
+      "name": "Albino Jackal",
+      "strength": 1,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 4,
+      "perception": 4,
+      "level": 8,
+      "health": 14,
+      "armor": 4,
+      "experience": 25,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 1,
+        "max": 12
+      },
+      "_created": "2019-05-14T05:04:07.968Z",
+      "_updated": "2019-09-15T01:56:44.824Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5ce4acc0c3e78f95a55bcbcf",
+      "name": "Knight",
+      "strength": 3,
+      "charisma": 2,
+      "resilience": 3,
+      "agility": 2,
+      "perception": 2,
+      "level": 8,
+      "health": 16,
+      "armor": 8,
+      "experience": 40,
+      "attacksPerSecond": 1.2,
+      "damage": {
+        "min": 5,
+        "max": 9
+      },
+      "_created": "2019-05-22T01:58:24.207Z",
+      "_updated": "2019-06-10T16:36:39.936Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5ced4754c3e78fe0b15beaad"
+    },
+    {
+      "_id": "5ce4ad57c3e78f616d5bcbd0",
+      "name": "Vengeful Knight",
+      "strength": 4,
+      "charisma": 2,
+      "resilience": 3,
+      "agility": 2,
+      "perception": 2,
+      "level": 9,
+      "health": 16,
+      "armor": 9,
+      "experience": 40,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 6,
+        "max": 14
+      },
+      "_created": "2019-05-22T02:00:55.473Z",
+      "_updated": "2019-05-28T15:00:09.945Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5ced4cc3c3e78f353c5beabb"
+    },
+    {
+      "_id": "5ce52292c3e78f82c55bd909",
+      "name": "Mastaba",
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 4,
+      "agility": 4,
+      "perception": 1,
+      "level": 10,
+      "health": 18,
+      "armor": 0,
+      "experience": 35,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 1,
+        "max": 11
+      },
+      "_created": "2019-05-22T10:21:06.822Z",
+      "_updated": "2019-05-22T10:21:06.822Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5ced2decc3e78f2bf85be638",
+      "name": "Starving Pirate",
+      "level": 3,
+      "strength": 1,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 3,
+      "perception": 1,
+      "health": 12,
+      "armor": 0,
+      "experience": 5,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 1,
+        "max": 3
+      },
+      "_created": "2019-05-28T12:47:40.469Z",
+      "_updated": "2019-05-28T12:47:40.469Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cf71702c3e78f3dd85c15fa",
+      "name": "Knight Swordsman",
+      "strength": 4,
+      "level": 9,
+      "resilience": 4,
+      "charisma": 2,
+      "agility": 1,
+      "perception": 2,
+      "attacksPerSecond": 1,
+      "health": 18,
+      "armor": 10,
+      "experience": 40,
+      "damage": {
+        "min": 4,
+        "max": 18
+      },
+      "loot": "5ced4754c3e78fe0b15beaad",
+      "_created": "2019-06-05T01:12:34.273Z",
+      "_updated": "2019-06-05T01:12:34.273Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cf77e92c3e78f5d395c2a1d",
+      "name": "Knife Thug",
+      "level": 10,
+      "charisma": 2,
+      "resilience": 4,
+      "agility": 3,
+      "perception": 2,
+      "health": 20,
+      "armor": 6,
+      "experience": 25,
+      "damage": {
+        "min": 3,
+        "max": 7
+      },
+      "_created": "2019-06-05T08:34:26.984Z",
+      "_updated": "2019-06-13T06:19:30.833Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5cf78465c3e78fce345c2a23",
+      "attacksPerSecond": 1.3,
+      "strength": 3
+    },
+    {
+      "_id": "5cf78c94c3e78f33505c2a76",
+      "name": "Crazed Hoodlum",
+      "strength": 5,
+      "charisma": 1,
+      "resilience": 4,
+      "perception": 1,
+      "agility": 2,
+      "level": 9,
+      "health": 20,
+      "armor": 6,
+      "experience": 25,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 2,
+        "max": 16
+      },
+      "_created": "2019-06-05T09:34:12.549Z",
+      "_updated": "2019-06-10T16:47:14.874Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5cf78ea4c3e78fd97c5c2a85"
+    },
+    {
+      "_id": "5cf78f7dc3e78f44a35c2a93",
+      "name": "Ruthless Knife Thug",
+      "level": 12,
+      "experience": 25,
+      "strength": 6,
+      "charisma": 1,
+      "resilience": 5,
+      "perception": 2,
+      "health": 20,
+      "armor": 10,
+      "damage": {
+        "min": 1,
+        "max": 10
+      },
+      "loot": "5cf78465c3e78fce345c2a23",
+      "_created": "2019-06-05T09:46:37.735Z",
+      "_updated": "2019-06-10T20:40:29.047Z",
+      "bargain": [],
+      "__v": 0,
+      "agility": 2,
+      "attacksPerSecond": 1.5
+    },
+    {
+      "_id": "5d168ff8ebd3dc9d3054cb0b",
+      "name": "Vua the Traitor",
+      "level": 8,
+      "strength": 1,
+      "charisma": 3,
+      "resilience": 3,
+      "agility": 2,
+      "perception": 3,
+      "health": 16,
+      "armor": 4,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 1,
+        "max": 12
+      },
+      "blockChance": 0.16,
+      "experience": 35,
+      "_created": "2019-06-28T22:08:56.689Z",
+      "_updated": "2019-06-28T22:08:56.689Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d16931eebd3dc44d254cb0c",
+      "name": "Yat Phenrae the Fool",
+      "level": 7,
+      "strength": 3,
+      "charisma": 2,
+      "resilience": 3,
+      "agility": 2,
+      "perception": 1,
+      "health": 16,
+      "armor": 4,
+      "damage": {
+        "min": 5,
+        "max": 15
+      },
+      "attacksPerSecond": 1,
+      "blockChance": 0.16,
+      "experience": 30,
+      "_created": "2019-06-28T22:22:22.480Z",
+      "_updated": "2019-06-28T22:22:22.480Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d16be85ebd3dccc8e54cb9f",
+      "name": "Monk Surgeon",
+      "charisma": 10,
+      "strength": 1,
+      "resilience": 1,
+      "agility": 1,
+      "perception": 8,
+      "level": 17,
+      "health": 9,
+      "armor": 0,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 2,
+        "max": 3
+      },
+      "experience": 25,
+      "bargain": [
+        {
+          "_id": "5d16be85ebd3dce82e54cba0",
+          "items": [
+            {
+              "_id": "5d16be85ebd3dc3b5d54cba1",
+              "item": "5cab7f1737903512c8b223f9"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2019-06-29T01:27:33.968Z",
+      "_updated": "2019-06-29T01:27:33.968Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d16d57cebd3dc31b454cc89",
+      "name": "Bootlegger",
+      "level": 10,
+      "strength": 4,
+      "charisma": 4,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 3,
+      "health": 12,
+      "armor": 2,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 6,
+        "max": 12
+      },
+      "experience": 25,
+      "_created": "2019-06-29T03:05:32.325Z",
+      "_updated": "2019-06-29T03:13:53.898Z",
+      "bargain": [
+        {
+          "_id": "5d16d771ebd3dc234454cc8c",
+          "items": [
+            {
+              "_id": "5d16d771ebd3dc427854cc8d",
+              "item": "5d16d680ebd3dcf5f554cc8a"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d16e49cebd3dc1e1154ccc8",
+      "name": "Pale Knife Thug",
+      "level": 8,
+      "strength": 2,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 3,
+      "perception": 4,
+      "health": 14,
+      "armor": 2,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 1,
+        "max": 16
+      },
+      "experience": 30,
+      "loot": "5cf78465c3e78fce345c2a23",
+      "_created": "2019-06-29T04:10:04.836Z",
+      "_updated": "2019-06-29T04:10:04.836Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d1701feebd3dc105b54ce8b",
+      "name": "Arturo the Guardsman",
+      "level": 12,
+      "strength": 4,
+      "charisma": 4,
+      "resilience": 3,
+      "agility": 2,
+      "perception": 3,
+      "health": 30,
+      "armor": 20,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 9,
+        "max": 15
+      },
+      "experience": 50,
+      "_created": "2019-06-29T06:15:26.144Z",
+      "_updated": "2019-09-17T11:25:25.848Z",
+      "bargain": [],
+      "__v": 0,
+      "blockChance": 0,
+      "loot": "5d80c27ce6ecf300baa2b130"
+    },
+    {
+      "_id": "5d172b4eebd3dcd5be54cf5a",
+      "name": "Wounded Bandit",
+      "level": 7,
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 3,
+      "perception": 2,
+      "health": 9,
+      "armor": 2,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 3,
+        "max": 12
+      },
+      "experience": 30,
+      "loot": "5cf78465c3e78fce345c2a23",
+      "_created": "2019-06-29T09:11:42.266Z",
+      "_updated": "2019-06-29T11:05:36.657Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d172d9cebd3dc594d54cf6d",
+      "name": "Vicious Knife Thug",
+      "level": 8,
+      "strength": 2,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 5,
+      "perception": 2,
+      "health": 9,
+      "armor": 2,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 3,
+        "max": 14
+      },
+      "experience": 30,
+      "_created": "2019-06-29T09:21:32.711Z",
+      "_updated": "2019-06-29T11:05:22.284Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5cf78465c3e78fce345c2a23"
+    },
+    {
+      "_id": "5d1f3b955892bb3555eabb56",
+      "name": "Nomad Sentry",
+      "level": 8,
+      "charisma": 1,
+      "strength": 2,
+      "resilience": 3,
+      "agility": 3,
+      "perception": 3,
+      "health": 16,
+      "armor": 4,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 1,
+        "max": 10
+      },
+      "_created": "2019-07-05T11:59:17.712Z",
+      "_updated": "2019-07-05T11:59:43.996Z",
+      "bargain": [],
+      "__v": 0,
+      "experience": 30
+    },
+    {
+      "_id": "5d441b2f8335b47a8f8849e8",
+      "name": "Nomad Healer",
+      "level": 8,
+      "perception": 3,
+      "charisma": 6,
+      "strength": 1,
+      "resilience": 1,
+      "agility": 1,
+      "health": 12,
+      "armor": 0,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 5,
+        "max": 7
+      },
+      "experience": 10,
+      "bargain": [
+        {
+          "_id": "5d441b2f8335b43bd38849e9",
+          "items": [
+            {
+              "_id": "5d441b2f8335b424828849ea",
+              "item": "5cf7b0dec3e78f6c805c2de2"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2019-08-02T11:14:55.349Z",
+      "_updated": "2019-08-02T11:28:16.557Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d441bb68335b44fca8849eb",
+      "name": "Tribal Elder",
+      "level": 16,
+      "perception": 10,
+      "agility": 1,
+      "resilience": 7,
+      "charisma": 1,
+      "strength": 1,
+      "health": 22,
+      "armor": 3,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 1,
+        "max": 12
+      },
+      "experience": 25,
+      "_created": "2019-08-02T11:17:10.982Z",
+      "_updated": "2019-08-02T11:17:10.982Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d4439d38335b4bdac884b3c",
+      "name": "Bandit War Lord",
+      "level": 10,
+      "strength": 3,
+      "charisma": 3,
+      "resilience": 3,
+      "agility": 3,
+      "perception": 2,
+      "health": 16,
+      "armor": 6,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 1,
+        "max": 16
+      },
+      "blockChance": 0.2,
+      "experience": 50,
+      "_created": "2019-08-02T13:25:39.019Z",
+      "_updated": "2019-09-04T13:08:37.800Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5d443cd88335b43f95884b43"
+    },
+    {
+      "_id": "5d4445638335b45397884b69",
+      "name": "Soldier",
+      "level": 7,
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 3,
+      "agility": 2,
+      "perception": 1,
+      "health": 16,
+      "armor": 15,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 1,
+        "max": 17
+      },
+      "experience": 25,
+      "_created": "2019-08-02T14:14:59.335Z",
+      "_updated": "2019-08-02T14:14:59.335Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d4445b78335b4aaaf884b6a",
+      "name": "Field Commander",
+      "level": 9,
+      "charisma": 3,
+      "strength": 6,
+      "resilience": 2,
+      "agility": 1,
+      "perception": 1,
+      "attacksPerSecond": 1,
+      "health": 14,
+      "armor": 18,
+      "damage": {
+        "min": 1,
+        "max": 18
+      },
+      "experience": 30,
+      "_created": "2019-08-02T14:16:23.278Z",
+      "_updated": "2019-08-02T14:16:23.278Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d44462d8335b40ff6884b6b",
+      "name": "Injured Soldier",
+      "level": 7,
+      "strength": 3,
+      "resilience": 1,
+      "charisma": 1,
+      "agility": 3,
+      "perception": 2,
+      "health": 10,
+      "armor": 14,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 2,
+        "max": 10
+      },
+      "experience": 20,
+      "_created": "2019-08-02T14:18:21.934Z",
+      "_updated": "2019-08-02T14:18:21.934Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d4ad8538335b417a4884edb",
+      "name": "Injured Bandit",
+      "level": 5,
+      "strength": 1,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 5,
+      "perception": 1,
+      "attacksPerSecond": 1.5,
+      "armor": 2,
+      "health": 12,
+      "damage": {
+        "min": 1,
+        "max": 8
+      },
+      "experience": 15,
+      "_created": "2019-08-07T13:55:31.797Z",
+      "_updated": "2019-08-07T13:58:15.249Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5d4ad8e38335b460ee884edc"
+    },
+    {
+      "_id": "5d54a1b18335b4bde2885128",
+      "name": "Calvino the Boatman",
+      "strength": 2,
+      "charisma": 2,
+      "resilience": 3,
+      "agility": 3,
+      "perception": 5,
+      "level": 11,
+      "health": 16,
+      "armor": 0,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 3,
+        "max": 6
+      },
+      "experience": 10,
+      "_created": "2019-08-15T00:05:05.513Z",
+      "_updated": "2019-08-15T00:05:05.513Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d54a2468335b475c2885129",
+      "name": "Chief Hadrian Trout",
+      "strength": 6,
+      "charisma": 4,
+      "resilience": 6,
+      "agility": 2,
+      "perception": 4,
+      "level": 18,
+      "health": 22,
+      "armor": 14,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 6,
+        "max": 17
+      },
+      "blockChance": 0.2,
+      "experience": 75,
+      "_created": "2019-08-15T00:07:34.616Z",
+      "_updated": "2019-08-15T00:07:34.616Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d54b9508335b454e68851b1",
+      "name": "Fisherman",
+      "level": 6,
+      "strength": 2,
+      "charisma": 2,
+      "resilience": 2,
+      "agility": 2,
+      "perception": 2,
+      "health": 14,
+      "armor": 1,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 4,
+        "max": 6
+      },
+      "experience": 5,
+      "_created": "2019-08-15T01:45:52.237Z",
+      "_updated": "2019-08-15T02:36:59.368Z",
+      "bargain": [
+        {
+          "_id": "5d54c54b8335b4740d8851d3",
+          "items": [
+            {
+              "_id": "5d54c54b8335b4728f8851d4",
+              "item": "5d54c51a8335b4959d8851d1"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d5f754d8335b479c78854df",
+      "name": "Concubine",
+      "level": 8,
+      "strength": 1,
+      "charisma": 3,
+      "resilience": 1,
+      "agility": 4,
+      "perception": 3,
+      "health": 12,
+      "armor": 1,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 1,
+        "max": 9
+      },
+      "experience": 25,
+      "_created": "2019-08-23T05:10:37.405Z",
+      "_updated": "2019-09-04T13:10:17.961Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5d4ad8e38335b460ee884edc"
+    },
+    {
+      "_id": "5d9bb921ba4a3f516d31183d",
+      "name": "Stingray",
+      "level": 1,
+      "strength": 1,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 1,
+      "perception": 1,
+      "health": 1,
+      "armor": 0,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 5,
+        "max": 5
+      },
+      "experience": 50,
+      "_created": "2019-10-07T22:16:01.719Z",
+      "_updated": "2019-10-07T22:16:01.720Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5da37ba3356ecd6560701603",
+      "name": "Sage Ephemeron",
+      "level": 25,
+      "strength": 4,
+      "charisma": 8,
+      "resilience": 4,
+      "agility": 5,
+      "perception": 8,
+      "health": 25,
+      "armor": 10,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 9,
+        "max": 15
+      },
+      "experience": 75,
+      "_created": "2019-10-13T19:31:47.521Z",
+      "_updated": "2019-10-13T19:31:47.521Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5da38924356ecd64df701b0e",
+      "name": "Father",
+      "level": 5,
+      "strength": 2,
+      "charisma": 3,
+      "resilience": 2,
+      "agility": 1,
+      "perception": 1,
+      "health": 12,
+      "armor": 1,
+      "attacksPerSecond": 0.1,
+      "damage": {
+        "min": 1,
+        "max": 1
+      },
+      "experience": 0,
+      "_created": "2019-10-13T20:29:24.801Z",
+      "_updated": "2019-10-13T20:45:59.034Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5da38954356ecd81ea701b0f",
+      "name": "Mother",
+      "level": 6,
+      "strength": 1,
+      "charisma": 3,
+      "resilience": 1,
+      "agility": 1,
+      "perception": 4,
+      "health": 10,
+      "armor": 1,
+      "damage": {
+        "min": 1,
+        "max": 1
+      },
+      "experience": 0,
+      "_created": "2019-10-13T20:30:12.841Z",
+      "_updated": "2019-10-13T20:46:18.984Z",
+      "bargain": [],
+      "__v": 0,
+      "attacksPerSecond": 0.1
+    },
+    {
+      "_id": "5da3e229c55b7f2b4af53064",
+      "name": "Ephemeral Guard",
+      "level": 12,
+      "strength": 4,
+      "charisma": 4,
+      "resilience": 3,
+      "agility": 2,
+      "perception": 3,
+      "health": 26,
+      "armor": 10,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 6,
+        "max": 15
+      },
+      "experience": 25,
+      "_created": "2019-10-14T02:49:13.598Z",
+      "_updated": "2019-10-14T03:13:34.501Z",
+      "bargain": [
+        {
+          "_id": "5da3e7dec55b7f81bef530bb",
+          "items": [
+            {
+              "_id": "5da3e7dec55b7f1337f530bd",
+              "item": "5da3e75fc55b7fd69cf530ba"
+            },
+            {
+              "_id": "5da3e7dec55b7f1eb2f530bc",
+              "item": "5d12279340fcff8734fb7f70"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5da43b21c55b7f80c9f53285",
+      "name": "Fortune Seeker",
+      "level": 7,
+      "strength": 1,
+      "charisma": 2,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 5,
+      "health": 12,
+      "armor": 3,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 1,
+        "max": 12
+      },
+      "experience": 10,
+      "_created": "2019-10-14T09:08:49.175Z",
+      "_updated": "2019-10-14T09:08:49.175Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5da6d064ff2c1927bbdb282c",
+      "name": "Druid Ranger",
+      "level": 10,
+      "strength": 3,
+      "charisma": 2,
+      "resilience": 3,
+      "agility": 3,
+      "perception": 3,
+      "health": 24,
+      "armor": 15,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 8,
+        "max": 12
+      },
+      "experience": 25,
+      "_created": "2019-10-16T08:10:12.028Z",
+      "_updated": "2019-10-16T08:10:12.028Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5db1dbe4ff2c195773db2f99",
+      "name": "Cowled Knife Thug",
+      "level": 10,
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 4,
+      "perception": 3,
+      "health": 30,
+      "armor": 12,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 6,
+        "max": 12
+      },
+      "experience": 20,
+      "_created": "2019-10-24T17:14:12.730Z",
+      "_updated": "2019-11-01T15:50:31.848Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5db200d7ff2c198d52db33ec",
+      "name": "Rogue Archer",
+      "level": 11,
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 4,
+      "perception": 5,
+      "health": 28,
+      "armor": 15,
+      "damage": {
+        "min": 8,
+        "max": 12
+      },
+      "attacksPerSecond": 1.5,
+      "experience": 20,
+      "_created": "2019-10-24T19:51:51.230Z",
+      "_updated": "2019-11-01T01:47:42.216Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5d4ad8e38335b460ee884edc"
+    },
+    {
+      "_id": "5db25d2bff2c198951db4d86",
+      "name": "Lawless Colossus",
+      "level": 12,
+      "strength": 7,
+      "charisma": 1,
+      "resilience": 6,
+      "agility": 1,
+      "perception": 1,
+      "attacksPerSecond": 0.5,
+      "health": 40,
+      "armor": 25,
+      "damage": {
+        "min": 20,
+        "max": 25
+      },
+      "experience": 30,
+      "_created": "2019-10-25T02:25:47.309Z",
+      "_updated": "2019-10-31T22:43:57.780Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5d4ad8e38335b460ee884edc"
+    },
+    {
+      "_id": "5dba3f56ff2c19053ddb6090",
+      "name": "Bodyguard",
+      "strength": 4,
+      "level": 10,
+      "charisma": 1,
+      "resilience": 3,
+      "agility": 3,
+      "perception": 3,
+      "health": 35,
+      "armor": 10,
+      "attacksPerSecond": 1.2,
+      "damage": {
+        "min": 5,
+        "max": 15
+      },
+      "experience": 20,
+      "_created": "2019-10-31T01:56:38.304Z",
+      "_updated": "2019-10-31T01:57:35.605Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dba412cff2c1966abdb60bd",
+      "name": "The Other Bodyguard",
+      "level": 10,
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 3,
+      "agility": 3,
+      "perception": 4,
+      "health": 40,
+      "armor": 5,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 6,
+        "max": 14
+      },
+      "experience": 20,
+      "_created": "2019-10-31T02:04:28.914Z",
+      "_updated": "2019-10-31T02:04:28.914Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dbb1b8eff2c19059bdb68a8",
+      "name": "Drunken Smuggler",
+      "level": 8,
+      "strength": 2,
+      "charisma": 4,
+      "resilience": 2,
+      "agility": 2,
+      "perception": 2,
+      "health": 15,
+      "armor": 8,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 6,
+        "max": 12
+      },
+      "experience": 20,
+      "_created": "2019-10-31T17:36:14.460Z",
+      "_updated": "2019-10-31T22:43:04.847Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5d4ad8e38335b460ee884edc"
+    },
+    {
+      "_id": "5dbb6448ff2c195241db6ec4",
+      "name": "The Ironclad Vagrant",
+      "level": 35,
+      "strength": 10,
+      "charisma": 5,
+      "resilience": 10,
+      "agility": 6,
+      "perception": 8,
+      "health": 250,
+      "armor": 75,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 20,
+        "max": 30
+      },
+      "experience": 500,
+      "_created": "2019-10-31T22:46:32.492Z",
+      "_updated": "2019-10-31T22:46:32.492Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5def21c2f75a9766e059fc2e",
+      "name": "Madam Brimstone",
+      "level": 8,
+      "strength": 1,
+      "charisma": 5,
+      "resilience": 1,
+      "agility": 3,
+      "perception": 2,
+      "health": 12,
+      "armor": 2,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 5,
+        "max": 8
+      },
+      "experience": 10,
+      "_created": "2019-12-10T04:40:34.437Z",
+      "_updated": "2019-12-10T05:15:10.275Z",
+      "bargain": [
+        {
+          "_id": "5def29def75a972b4559fc53",
+          "items": [
+            {
+              "_id": "5def29def75a97329559fc54",
+              "item": "5def297ff75a97ff0359fc51"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5def2231f75a9729ad59fc2f",
+      "name": "Brothel Guard",
+      "level": 9,
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 3,
+      "agility": 2,
+      "perception": 3,
+      "health": 25,
+      "armor": 4,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 6,
+        "max": 12
+      },
+      "experience": 15,
+      "_created": "2019-12-10T04:42:25.694Z",
+      "_updated": "2019-12-12T06:55:08.570Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5df1e43ff75a97fdd65a050d"
+    },
+    {
+      "_id": "5d54b90d8335b46a278851b0",
+      "name": "Blacksmith",
+      "level": 9,
+      "strength": 3,
+      "charisma": 5,
+      "resilience": 2,
+      "agility": 1,
+      "perception": 2,
+      "health": 14,
+      "armor": 10,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 7,
+        "max": 10
+      },
+      "blockChance": 0.15,
+      "experience": 10,
+      "_created": "2019-08-15T01:44:45.084Z",
+      "_updated": "2019-08-15T03:32:55.056Z",
+      "bargain": [
+        {
+          "_id": "5d54d24a8335b4754d885214",
+          "items": [
+            {
+              "_id": "5d54d24a8335b4706c88521a",
+              "item": "5d54cd178335b4ed5988520e"
+            },
+            {
+              "_id": "5d54d24a8335b45d5e885219",
+              "item": "5d54cbca8335b44e5788520d"
+            },
+            {
+              "_id": "5d54d24a8335b4b7b7885218",
+              "item": "5d54ce838335b402a788520f"
+            },
+            {
+              "_id": "5d54d24a8335b4cf92885217",
+              "item": "5d54ca588335b423b088520c"
+            },
+            {
+              "_id": "5d54d24a8335b40254885216",
+              "item": "5d54c8c08335b437ca88520a"
+            },
+            {
+              "_id": "5d54d24a8335b40c25885215",
+              "item": "5d54c9a98335b44f6588520b"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d54ba5d8335b4e0b68851b2",
+      "name": "Carpenter",
+      "level": 9,
+      "strength": 2,
+      "charisma": 5,
+      "resilience": 2,
+      "agility": 2,
+      "perception": 2,
+      "health": 14,
+      "armor": 3,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 2,
+        "max": 4
+      },
+      "experience": 5,
+      "_created": "2019-08-15T01:50:21.830Z",
+      "_updated": "2019-08-15T06:26:21.141Z",
+      "bargain": [
+        {
+          "_id": "5d54f5ba8335b4d4d788526c",
+          "items": [
+            {
+              "_id": "5d54f5ba8335b439c988526d",
+              "item": "5c8ee630d26f50027f85f3c0"
+            },
+            {
+              "_id": "5d54f9628335b4fa56885271",
+              "item": "5c8e8003153140832b805840"
+            },
+            {
+              "_id": "5d54f9628335b431a5885270",
+              "item": "5d54f7028335b4572f88526e"
+            },
+            {
+              "_id": "5d54fb0d8335b405b0885276",
+              "item": "5d54fabf8335b44ccb885273"
+            },
+            {
+              "_id": "5d54fb0d8335b45a0b885275",
+              "item": "5d12279340fcff8734fb7f70"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d559b6d8335b45e6b885325",
+      "name": "Lone Fisherman",
+      "level": 4,
+      "strength": 2,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 2,
+      "perception": 1,
+      "health": 14,
+      "armor": 1,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 4,
+        "max": 6
+      },
+      "experience": 5,
+      "_created": "2019-08-15T17:50:37.821Z",
+      "_updated": "2019-08-15T17:56:52.373Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5d559cd48335b4d30e885328"
+    },
+    {
+      "_id": "5d5f77c48335b4b6808854e0",
+      "name": "One-eyed Knife Thug",
+      "level": 6,
+      "strength": 2,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 4,
+      "perception": 1,
+      "health": 14,
+      "armor": 1,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 1,
+        "max": 10
+      },
+      "experience": 20,
+      "_created": "2019-08-23T05:21:08.318Z",
+      "_updated": "2019-09-04T13:07:32.711Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5d4ad8e38335b460ee884edc"
+    },
+    {
+      "_id": "5d5f78178335b445818854e1",
+      "name": "Merciless Knife Thug",
+      "level": 7,
+      "strength": 2,
+      "charisma": 1,
+      "resilience": 3,
+      "agility": 3,
+      "perception": 2,
+      "health": 16,
+      "armor": 1,
+      "attacksPerSecond": 1,
+      "damage": {
+        "max": 12,
+        "min": 5
+      },
+      "experience": 20,
+      "_created": "2019-08-23T05:22:31.543Z",
+      "_updated": "2019-09-04T13:10:01.607Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5d4ad8e38335b460ee884edc"
+    },
+    {
+      "_id": "5d5f78618335b477ab8854e2",
+      "name": "Swift Knife Thug",
+      "level": 8,
+      "strength": 1,
+      "charisma": 2,
+      "resilience": 1,
+      "agility": 6,
+      "perception": 2,
+      "health": 12,
+      "armor": 1,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 3,
+        "max": 9
+      },
+      "experience": 20,
+      "_created": "2019-08-23T05:23:45.433Z",
+      "_updated": "2019-09-04T13:09:38.173Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5d4ad8e38335b460ee884edc"
+    },
+    {
+      "_id": "5d5f78b48335b42b558854e3",
+      "name": "Brutish Knife Thug",
+      "level": 9,
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 5,
+      "agility": 1,
+      "perception": 2,
+      "health": 20,
+      "armor": 5,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 1,
+        "max": 15
+      },
+      "experience": 20,
+      "_created": "2019-08-23T05:25:08.446Z",
+      "_updated": "2019-09-04T13:08:51.988Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5d4ad8e38335b460ee884edc"
+    },
+    {
+      "_id": "5d5f79268335b45b588854e4",
+      "name": "Scarred Knife Thug",
+      "level": 10,
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 3,
+      "agility": 3,
+      "perception": 4,
+      "health": 16,
+      "armor": 5,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 1,
+        "max": 13
+      },
+      "experience": 20,
+      "_created": "2019-08-23T05:27:02.311Z",
+      "_updated": "2019-09-04T13:07:50.006Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5d4ad8e38335b460ee884edc"
+    },
+    {
+      "_id": "5d54b8b98335b42f838851af",
+      "name": "Tailor",
+      "level": 5,
+      "strength": 1,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 2,
+      "charisma": 3,
+      "health": 12,
+      "armor": 1,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 1,
+        "max": 4
+      },
+      "experience": 5,
+      "_created": "2019-08-15T01:43:21.232Z",
+      "_updated": "2019-09-14T16:04:41.942Z",
+      "bargain": [
+        {
+          "_id": "5d7d0e6de6ecf383d2a2a399",
+          "items": [
+            {
+              "_id": "5d7d0e6de6ecf34c70a2a3a1",
+              "item": "5d7cf316e6ecf306fea2a2bb"
+            },
+            {
+              "_id": "5d7d0e6de6ecf30d45a2a3a0",
+              "item": "5d7cf3c5e6ecf34eb5a2a2bc"
+            },
+            {
+              "_id": "5d7d0e6de6ecf3b3a6a2a39f",
+              "item": "5d7cf1f1e6ecf3799ca2a2ba"
+            },
+            {
+              "_id": "5d7d0e6de6ecf3b752a2a39e",
+              "item": "5d7cf4aee6ecf349d7a2a2bf"
+            },
+            {
+              "_id": "5d7d0e6de6ecf3003aa2a39d",
+              "item": "5d7cf462e6ecf3544aa2a2be"
+            },
+            {
+              "_id": "5d7d0e6de6ecf3e156a2a39c",
+              "item": "5d7cf434e6ecf347e2a2a2bd"
+            },
+            {
+              "_id": "5d7d0e6de6ecf38690a2a39b",
+              "item": "5d7d0d4be6ecf37225a2a397"
+            },
+            {
+              "_id": "5d7d0e6de6ecf357bfa2a39a",
+              "item": "5d7d0dc9e6ecf39144a2a398"
+            },
+            {
+              "_id": "5d7d0f99e6ecf34c22a2a3a6",
+              "item": "5d7d0ec1e6ecf39618a2a3a2"
+            },
+            {
+              "_id": "5d7d0f99e6ecf3bffaa2a3a5",
+              "item": "5d7d0f3ce6ecf35379a2a3a3"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d823db1b97fb3d1dc7c2ed5",
+      "name": "Hostess",
+      "level": 6,
+      "strength": 1,
+      "charisma": 5,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 1,
+      "health": 15,
+      "armor": 1,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 3,
+        "max": 6
+      },
+      "experience": 5,
+      "_created": "2019-09-18T14:22:41.492Z",
+      "_updated": "2019-09-18T14:34:21.172Z",
+      "bargain": [
+        {
+          "_id": "5d82406db97fb3189e7c2f20",
+          "items": [
+            {
+              "_id": "5d82406db97fb32e6d7c2f24",
+              "item": "5cb35965c065f048a294337f"
+            },
+            {
+              "_id": "5d82406db97fb3b9a07c2f23",
+              "item": "5d823fbbb97fb3331a7c2f1e"
+            },
+            {
+              "_id": "5d82406db97fb369487c2f22",
+              "item": "5d823f5bb97fb34a767c2f1c"
+            },
+            {
+              "_id": "5d82406db97fb34fa37c2f21",
+              "item": "5d16d680ebd3dcf5f554cc8a"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d823d5bb97fb38bd07c2ed4",
+      "name": "Smuggler",
+      "level": 10,
+      "strength": 2,
+      "charisma": 6,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 3,
+      "health": 20,
+      "armor": 3,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 4,
+        "max": 9
+      },
+      "experience": 5,
+      "_created": "2019-09-18T14:21:15.154Z",
+      "_updated": "2019-09-18T16:01:13.925Z",
+      "bargain": [
+        {
+          "_id": "5d8240b9b97fb37b887c2f25",
+          "items": [
+            {
+              "_id": "5d8240b9b97fb3ade67c2f26",
+              "item": "5d8104d2e6ecf308a0a2b6bf"
+            },
+            {
+              "_id": "5d8240dfb97fb336c87c2f28",
+              "item": "5d8186abe6ecf3a4b3a2c87c"
+            },
+            {
+              "_id": "5d824e3c8ec25948ee100751",
+              "item": "5d824e02b97fb3bcc67c2f8e"
+            },
+            {
+              "_id": "5d824e3c8ec2593039100750",
+              "item": "5d824d71b97fb3561f7c2f8d"
+            },
+            {
+              "_id": "5d8254c98ec25955a7100765",
+              "item": "5c935e073bae8df83c2b629a"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d54bb158335b478328851b3",
+      "name": "Junkman",
+      "level": 7,
+      "strength": 1,
+      "charisma": 2,
+      "resilience": 2,
+      "agility": 2,
+      "perception": 4,
+      "health": 14,
+      "armor": 2,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 1,
+        "max": 5
+      },
+      "experience": 5,
+      "_created": "2019-08-15T01:53:25.966Z",
+      "_updated": "2019-09-18T15:57:08.602Z",
+      "bargain": [
+        {
+          "_id": "5d824412b97fb3557a7c2f55",
+          "items": [
+            {
+              "_id": "5d824412b97fb3a5c27c2f56",
+              "item": "5d818559e6ecf31951a2c87a"
+            },
+            {
+              "_id": "5d824fc08ec25902fd100758",
+              "item": "5d824f658ec25911cb100755"
+            },
+            {
+              "_id": "5d824fc08ec2593cdf100757",
+              "item": "5d824ee48ec25988c3100754"
+            },
+            {
+              "_id": "5d8253d48ec259e227100760",
+              "item": "5d8253798ec259648910075c"
+            },
+            {
+              "_id": "5d8253d48ec259051310075f",
+              "item": "5d82525f8ec259504810075a"
+            },
+            {
+              "_id": "5d8253d48ec25945b910075e",
+              "item": "5d8252e88ec259119e10075b"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5dba3ffcff2c19e5f4db609f",
+      "name": "Mantis",
+      "level": 25,
+      "strength": 4,
+      "charisma": 8,
+      "resilience": 2,
+      "agility": 9,
+      "perception": 6,
+      "health": 50,
+      "armor": 5,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 9,
+        "max": 20
+      },
+      "experience": 200,
+      "_created": "2019-10-31T01:59:24.909Z",
+      "_updated": "2019-10-31T01:59:24.909Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dc3ba67f75a97bb97596d92",
+      "name": "Cartel Assassin",
+      "level": 12,
+      "strength": 3,
+      "charisma": 2,
+      "resilience": 2,
+      "agility": 5,
+      "perception": 4,
+      "health": 30,
+      "armor": 10,
+      "damage": {
+        "min": 7,
+        "max": 12
+      },
+      "attacksPerSecond": 1.5,
+      "experience": 30,
+      "_created": "2019-11-07T06:32:07.279Z",
+      "_updated": "2019-11-21T00:26:58.570Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5dd5d9b9f75a97e2b659e245"
+    },
+    {
+      "_id": "5dcec3ccf75a97bb545982b3",
+      "name": "Foreign Soldier",
+      "level": 11,
+      "strength": 6,
+      "charisma": 2,
+      "resilience": 4,
+      "agility": 1,
+      "perception": 2,
+      "health": 30,
+      "armor": 25,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 8,
+        "max": 17
+      },
+      "blockChance": 0.25,
+      "experience": 50,
+      "_created": "2019-11-15T15:27:08.249Z",
+      "_updated": "2019-11-19T16:07:29.523Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5dd3fcfbf75a973ce559881a"
+    },
+    {
+      "_id": "5dd422f5f75a97ec4c598e33",
+      "name": "Foreign Soldier",
+      "level": 10,
+      "strength": 4,
+      "charisma": 2,
+      "resilience": 3,
+      "agility": 2,
+      "perception": 3,
+      "health": 28,
+      "armor": 25,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 7,
+        "max": 15
+      },
+      "blockChance": 0.25,
+      "experience": 50,
+      "loot": "5dd3fcfbf75a973ce559881a",
+      "_created": "2019-11-19T17:14:29.493Z",
+      "_updated": "2019-11-19T17:14:44.729Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dd425d9f75a977e73598f84",
+      "name": "Foreign Soldier",
+      "level": 12,
+      "strength": 6,
+      "charisma": 2,
+      "resilience": 2,
+      "agility": 2,
+      "perception": 4,
+      "health": 26,
+      "armor": 25,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 6,
+        "max": 17
+      },
+      "blockChance": 0.25,
+      "experience": 50,
+      "loot": "5dd3fcfbf75a973ce559881a",
+      "_created": "2019-11-19T17:26:49.680Z",
+      "_updated": "2019-11-19T17:26:49.681Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dd43847f75a971e4a59906d",
+      "name": "Foreign Commander",
+      "level": 12,
+      "strength": 5,
+      "charisma": 4,
+      "resilience": 3,
+      "agility": 2,
+      "perception": 2,
+      "health": 30,
+      "armor": 25,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 9,
+        "max": 16
+      },
+      "blockChance": 0.25,
+      "experience": 50,
+      "loot": "5dd3fcfbf75a973ce559881a",
+      "_created": "2019-11-19T18:45:27.872Z",
+      "_updated": "2019-11-21T01:34:39.220Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dd579e0f75a97595359c90d",
+      "name": "Foreign Skirmisher",
+      "level": 12,
+      "strength": 4,
+      "charisma": 2,
+      "resilience": 2,
+      "agility": 4,
+      "perception": 4,
+      "health": 30,
+      "armor": 15,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 8,
+        "max": 12
+      },
+      "experience": 50,
+      "_created": "2019-11-20T17:37:36.533Z",
+      "_updated": "2019-11-20T17:56:20.811Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5dd57e33f75a97069659c90f"
+    },
+    {
+      "_id": "5de665c1f75a973e9459f1b6",
+      "name": "Innkeeper",
+      "level": 5,
+      "strength": 2,
+      "charisma": 2,
+      "resilience": 2,
+      "agility": 1,
+      "perception": 2,
+      "health": 14,
+      "armor": 1,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 2,
+        "max": 4
+      },
+      "experience": 5,
+      "_created": "2019-12-03T13:40:17.644Z",
+      "_updated": "2019-12-03T13:40:17.644Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de66626f75a979d9b59f1b7",
+      "name": "Maid",
+      "level": 6,
+      "strength": 1,
+      "charisma": 5,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 1,
+      "health": 12,
+      "armor": 1,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 3,
+        "max": 4
+      },
+      "experience": 5,
+      "bargain": [
+        {
+          "_id": "5de66626f75a9793ec59f1b8",
+          "items": [
+            {
+              "_id": "5de66626f75a975ee859f1ba",
+              "item": "5d823fbbb97fb3331a7c2f1e"
+            },
+            {
+              "_id": "5de66626f75a9744df59f1b9",
+              "item": "5d823f5bb97fb34a767c2f1c"
+            },
+            {
+              "_id": "5de6681ef75a977da459f1be",
+              "item": "5de667adf75a9779e659f1bb"
+            },
+            {
+              "_id": "5de66916f75a9780b459f1c4",
+              "item": "5de668ecf75a9707e659f1c1"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2019-12-03T13:41:58.807Z",
+      "_updated": "2019-12-03T13:54:30.620Z",
+      "__v": 0
+    },
+    {
+      "_id": "5de716a5f75a9798c959fb9b",
+      "name": "Armorer",
+      "level": 9,
+      "strength": 4,
+      "charisma": 3,
+      "resilience": 3,
+      "agility": 1,
+      "perception": 2,
+      "health": 30,
+      "armor": 5,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 5,
+        "max": 13
+      },
+      "experience": 25,
+      "_created": "2019-12-04T02:15:01.134Z",
+      "_updated": "2019-12-04T02:15:01.134Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de716edf75a97092559fb9c",
+      "name": "Antiquarian",
+      "level": 12,
+      "strength": 1,
+      "charisma": 5,
+      "resilience": 1,
+      "agility": 1,
+      "perception": 8,
+      "health": 9,
+      "armor": 0,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 1,
+        "max": 5
+      },
+      "experience": 5,
+      "_created": "2019-12-04T02:16:13.805Z",
+      "_updated": "2019-12-04T02:16:13.805Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de71a7df75a97566859fb9d",
+      "name": "Clothier",
+      "level": 5,
+      "strength": 1,
+      "charisma": 5,
+      "resilience": 1,
+      "agility": 1,
+      "perception": 1,
+      "health": 12,
+      "armor": 0,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 1,
+        "max": 4
+      },
+      "experience": 5,
+      "_created": "2019-12-04T02:31:25.433Z",
+      "_updated": "2019-12-04T02:31:25.433Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5def227ff75a9722df59fc30",
+      "name": "Courtesan",
+      "level": 8,
+      "strength": 1,
+      "charisma": 4,
+      "resilience": 2,
+      "agility": 4,
+      "perception": 1,
+      "health": 16,
+      "armor": 1,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 5,
+        "max": 10
+      },
+      "experience": 15,
+      "_created": "2019-12-10T04:43:43.956Z",
+      "_updated": "2019-12-12T21:44:08.392Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5df90f0cf75a9754ab5a104c",
+      "name": "Cleo Verdandi",
+      "level": 13,
+      "strength": 3,
+      "charisma": 4,
+      "resilience": 2,
+      "agility": 4,
+      "perception": 4,
+      "health": 30,
+      "armor": 10,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "max": 15,
+        "min": 4
+      },
+      "experience": 50,
+      "_created": "2019-12-17T17:23:24.026Z",
+      "_updated": "2019-12-25T14:02:01.142Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dfc0101f75a9742615a119d",
+      "name": "Cartel Thug",
+      "level": 9,
+      "strength": 6,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 2,
+      "perception": 2,
+      "health": 28,
+      "armor": 10,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 6,
+        "max": 14
+      },
+      "experience": 20,
+      "_created": "2019-12-19T23:00:17.124Z",
+      "_updated": "2019-12-19T23:00:17.124Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dfc014ff75a975d6a5a119e",
+      "name": "Cartel Enforcer",
+      "level": 11,
+      "strength": 5,
+      "charisma": 1,
+      "resilience": 3,
+      "agility": 2,
+      "perception": 4,
+      "health": 32,
+      "armor": 15,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 5,
+        "max": 18
+      },
+      "experience": 25,
+      "_created": "2019-12-19T23:01:35.450Z",
+      "_updated": "2019-12-19T23:01:35.450Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dfc01c5f75a97521a5a119f",
+      "name": "Cartel Hoodlum",
+      "level": 7,
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 5,
+      "perception": 1,
+      "health": 20,
+      "armor": 10,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 2,
+        "max": 10
+      },
+      "experience": 20,
+      "_created": "2019-12-19T23:03:33.176Z",
+      "_updated": "2019-12-19T23:03:33.176Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dfc40f6f75a97c3365a1506",
+      "level": 12,
+      "name": "Lucian Verdandi",
+      "strength": 8,
+      "charisma": 2,
+      "resilience": 4,
+      "agility": 1,
+      "perception": 1,
+      "health": 40,
+      "armor": 15,
+      "attacksPerSecond": 1,
+      "damage": {
+        "max": 18,
+        "min": 10
+      },
+      "experience": 50,
+      "_created": "2019-12-20T03:33:10.950Z",
+      "_updated": "2019-12-20T11:36:31.907Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5dfcb22af75a973b4f5a152a"
+    }
+  ]
 }

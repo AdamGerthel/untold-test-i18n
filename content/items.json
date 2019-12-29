@@ -1,6 +1,6109 @@
 {
-  "total": 0,
-  "limit": 0,
+  "total": 283,
+  "limit": 1500,
   "skip": 0,
-  "data": []
+  "data": [
+    {
+      "_id": "5c7d58a9fd6b492d64456b3a",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Small Rusty Kitchen Knife",
+      "description": "The blade is shorter than the handle.",
+      "tier": "1",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 1,
+      "damage": {
+        "max": 1,
+        "min": 1
+      },
+      "_created": "2019-03-04T16:56:09.719Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:25:23.977Z",
+      "value": 1
+    },
+    {
+      "_id": "5c7d5992fd6b4983e8456b3b",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Cooking Knife",
+      "description": "The pointy end seems good enough.",
+      "tier": "1",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 1,
+      "damage": {
+        "min": 1.5,
+        "max": 1.5
+      },
+      "_created": "2019-03-04T17:00:02.435Z",
+      "__v": 0,
+      "_updated": "2019-04-21T19:43:21.174Z",
+      "value": 1
+    },
+    {
+      "_id": "5c7d5a1ffd6b49a32d456b3d",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Cutlery",
+      "description": "A small, brittle knife, verging on uselessness.",
+      "tier": "1",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 1,
+      "damage": {
+        "min": 1,
+        "max": 1
+      },
+      "_created": "2019-03-04T17:02:23.728Z",
+      "__v": 0,
+      "value": 1,
+      "_updated": "2019-04-08T16:24:48.974Z"
+    },
+    {
+      "_id": "5c7d5a67fd6b49d927456b3e",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Eating Knife",
+      "description": "It seems to be falling apart on a continuous basis.",
+      "tier": "1",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 1,
+      "damage": {
+        "min": 1,
+        "max": 1
+      },
+      "_created": "2019-03-04T17:03:35.992Z",
+      "__v": 0,
+      "value": 1,
+      "_updated": "2019-04-08T16:24:36.335Z"
+    },
+    {
+      "_id": "5c7d5abafd6b490f8d456b3f",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bread Knife",
+      "description": "Despite its intended purpose, this blade will mangle a loaf of bread.",
+      "tier": "1",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 1,
+      "damage": {
+        "min": 1,
+        "max": 1.5
+      },
+      "_created": "2019-03-04T17:04:58.633Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:24:26.673Z",
+      "value": 1
+    },
+    {
+      "_id": "5c7d653dfd6b4947ff456b6a",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Black Leather Helmet",
+      "description": "Made in a legionnaire-style, slightly different from the usual designs.",
+      "tier": "2",
+      "type": "armor",
+      "slot": [
+        "head"
+      ],
+      "encumbrance": 3,
+      "armor": 4,
+      "_created": "2019-03-04T17:49:49.552Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:24:15.640Z",
+      "value": 25
+    },
+    {
+      "_id": "5c7d65cefd6b4996f3456b6c",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Cheap Leather helmet",
+      "description": "While cheap, it's brand new. Poor quality at its best.",
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "head"
+      ],
+      "encumbrance": 2,
+      "armor": 3,
+      "_created": "2019-03-04T17:52:14.362Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:32:31.058Z",
+      "value": 10
+    },
+    {
+      "_id": "5c7d65eafd6b49ac02456b6d",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Cheap Fur Cloak",
+      "description": "Numerous rodents gave their lives to make this happen.",
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "encumbrance": 4,
+      "armor": 3,
+      "_created": "2019-03-04T17:52:42.851Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:33:31.855Z",
+      "value": 10
+    },
+    {
+      "_id": "5c7d66acfd6b4983e7456b6e",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Large Fur Boots",
+      "description": "Functional, but aesthetically disproportionate.",
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "feet"
+      ],
+      "encumbrance": 4,
+      "armor": 3,
+      "_created": "2019-03-04T17:55:56.868Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:34:37.570Z",
+      "value": 8
+    },
+    {
+      "_id": "5c7d66b9fd6b492e7e456b6f",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Cheap Leather Boots",
+      "description": "Hardly exuberant, these will serve you well across rugged terrain.",
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "feet"
+      ],
+      "encumbrance": 2,
+      "armor": 3,
+      "_created": "2019-03-04T17:56:09.842Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:34:05.054Z",
+      "value": 12
+    },
+    {
+      "_id": "5c7d6709fd6b491231456b70",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Heavy Fur Coat",
+      "description": "Imported from Tundra Barbarous, this was made for warfare.",
+      "tier": "2",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "encumbrance": 3,
+      "armor": 2,
+      "_created": "2019-03-04T17:57:29.203Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:23:39.384Z",
+      "value": 25
+    },
+    {
+      "_id": "5c7d67cefd6b49b561456b71",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Black Linen Cloak",
+      "description": "The favored garment of those who enslaved you.",
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-03-04T18:00:46.068Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:23:59.010Z",
+      "value": 6
+    },
+    {
+      "_id": "5c7d67e0fd6b49074b456b72",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Sturdy Leather Gauntlets",
+      "description": "Fairly good quality. Perhaps a bit bulky.",
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 3,
+      "armor": 4,
+      "_created": "2019-03-04T18:01:04.185Z",
+      "__v": 0,
+      "_updated": "2019-06-09T12:15:15.755Z",
+      "value": 22
+    },
+    {
+      "_id": "5c7d6832fd6b4954df456b73",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Black Leather Boots",
+      "description": "Average quality, neutral design. Can't really go wrong with these.",
+      "tier": "2",
+      "type": "armor",
+      "armor": 4,
+      "encumbrance": 2,
+      "_created": "2019-03-04T18:02:26.875Z",
+      "__v": 0,
+      "_updated": "2019-11-05T03:33:37.008Z",
+      "value": 22
+    },
+    {
+      "_id": "5c7d6891fd6b494212456b74",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Black Silk Tunic",
+      "description": "Quite expensive, yet discrete. The hallmark of true sophistication.",
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-03-04T18:04:01.496Z",
+      "__v": 0,
+      "_updated": "2019-11-05T03:33:58.913Z",
+      "value": 25
+    },
+    {
+      "_id": "5c8042c70e374820e1c601bc",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Factotum's Journal",
+      "description": "A dusty old book",
+      "tier": "1",
+      "type": "scripture",
+      "scripture": "5c80429f0e3748ac7ec601bb",
+      "_created": "2019-03-06T21:59:35.754Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:21:56.346Z",
+      "value": 5
+    },
+    {
+      "_id": "5c7d68b1fd6b496e6a456b75",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Brown Leather Cloak",
+      "description": "This style of cloak has become quite fashionable among the vagrants and highwaymen of Tem Khiris.",
+      "tier": "2",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "encumbrance": 3,
+      "armor": 4,
+      "_created": "2019-03-04T18:04:33.865Z",
+      "__v": 0,
+      "value": 30,
+      "_updated": "2019-04-08T15:05:20.921Z"
+    },
+    {
+      "_id": "5c7d694bfd6b491683456b76",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Black Toga",
+      "description": "Perfect for the southern regions of Tem Khiris.",
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-03-04T18:07:07.267Z",
+      "__v": 0,
+      "value": 6,
+      "_updated": "2019-04-08T15:05:33.539Z"
+    },
+    {
+      "_id": "5c7d695cfd6b49753c456b77",
+      "consumption": {
+        "actions": []
+      },
+      "name": "White Toga",
+      "description": "These are all the rage in the Deadlands of Triniset.",
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-03-04T18:07:24.395Z",
+      "__v": 0,
+      "value": 6,
+      "_updated": "2019-04-08T15:05:44.993Z"
+    },
+    {
+      "_id": "5c7d65b6fd6b493b65456b6b",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Fur Hat",
+      "description": "This'll keep you warm, for sure.",
+      "tier": "1",
+      "type": "armor",
+      "encumbrance": 1,
+      "slot": [
+        "head"
+      ],
+      "armor": 2,
+      "_created": "2019-03-04T17:51:50.937Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:33:48.999Z",
+      "value": 5
+    },
+    {
+      "_id": "5c803d1c0e37485847c6019a",
+      "name": "Red Apple",
+      "description": "Fruit. Restores a small amount of health.",
+      "tier": "1",
+      "type": "food",
+      "consumption": {
+        "uses": 1,
+        "actions": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5c803d1c0e37483cb0c6019b",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-03-06T21:35:24.150Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:19:29.739Z",
+      "value": 1
+    },
+    {
+      "_id": "5c803d8f0e37481dd7c6019c",
+      "name": "Strawberry",
+      "description": "Berry. Restores a small amount of health.",
+      "tier": "1",
+      "type": "food",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5c803d8f0e37487bbbc6019d",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 1
+      },
+      "_created": "2019-03-06T21:37:19.808Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:19:17.851Z",
+      "value": 1
+    },
+    {
+      "_id": "5c803dc90e3748ec29c6019e",
+      "name": "Pear",
+      "description": "Fruit. Restores a small amount of health.",
+      "tier": "1",
+      "type": "food",
+      "consumption": {
+        "uses": 1,
+        "actions": [
+          {
+            "parameters": [
+              "2"
+            ],
+            "_id": "5c803dc90e374886edc6019f",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-03-06T21:38:17.449Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:19:06.798Z",
+      "value": 1
+    },
+    {
+      "_id": "5c803e190e374836d8c601a0",
+      "name": "Dog Steak",
+      "description": "The charred flesh of a wild mongrel. Restores a small amount of health.",
+      "tier": "1",
+      "type": "food",
+      "consumption": {
+        "uses": 1,
+        "actions": [
+          {
+            "parameters": [
+              "5"
+            ],
+            "_id": "5c803e190e37485390c601a1",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-03-06T21:39:37.178Z",
+      "__v": 0,
+      "value": 1,
+      "_updated": "2019-04-08T15:05:54.991Z"
+    },
+    {
+      "_id": "5c817a5d0e37489fdfc601c9",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Hunting Knife",
+      "description": "A formidable weapon, although its jagged edges have grown somewhat dull from frequent use.",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "damage": {
+        "min": 2,
+        "max": 3
+      },
+      "encumbrance": 1,
+      "_created": "2019-03-07T20:09:01.078Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:04:06.834Z",
+      "value": 20
+    },
+    {
+      "_id": "5c8629e90e3748bc27c6035d",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze Broadsword",
+      "description": "This sword has seen better days.",
+      "tier": "1",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 3,
+      "damage": {
+        "min": 5,
+        "max": 6
+      },
+      "_created": "2019-03-11T09:27:05.732Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:21:34.310Z",
+      "value": 16
+    },
+    {
+      "_id": "5c862a760e37483b4dc6035e",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze Longsword",
+      "description": "The blade won't last much longer",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "max": 7,
+        "min": 6
+      },
+      "_created": "2019-03-11T09:29:26.311Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:31:23.767Z",
+      "value": 26
+    },
+    {
+      "_id": "5c862aea0e37484fb7c6035f",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze Gladius",
+      "description": "Good for a few more stabs",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 2,
+      "damage": {
+        "min": 3,
+        "max": 5
+      },
+      "_created": "2019-03-11T09:31:22.398Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:20:52.170Z",
+      "value": 12
+    },
+    {
+      "_id": "5c862c200e3748d350c60360",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze Claymore",
+      "description": "Not very sharp anymore, but it should be heavy enough to crush a skull or two",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "encumbrance": 6,
+      "_created": "2019-03-11T09:36:32.425Z",
+      "__v": 0,
+      "damage": {
+        "min": 9,
+        "max": 12
+      },
+      "_updated": "2019-04-08T16:30:49.252Z",
+      "value": 28
+    },
+    {
+      "_id": "5c862cc10e374821fec60361",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Sabre",
+      "tier": "2",
+      "description": "Undoubtedly, many have fallen prey to this blade",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "min": 6,
+        "max": 8
+      },
+      "_created": "2019-03-11T09:39:13.131Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:30:23.743Z",
+      "value": 35
+    },
+    {
+      "_id": "5c862d6b0e3748dcaac60362",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze Short Blade",
+      "description": "Imagine, all the lives that have been ruined by this old blade",
+      "tier": "1",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 2,
+      "damage": {
+        "max": 4,
+        "min": 3
+      },
+      "_created": "2019-03-11T09:42:03.685Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:33:02.634Z",
+      "value": 14
+    },
+    {
+      "_id": "5c862e660e3748777bc60363",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze Hatchet",
+      "description": "More of a skull-basher than a head-chopper, at this point",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "damage": {
+        "max": 6,
+        "min": 6
+      },
+      "encumbrance": 3,
+      "_created": "2019-03-11T09:46:14.894Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:29:52.098Z",
+      "value": 18
+    },
+    {
+      "_id": "5c862ec00e37484c7ac60364",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze War Axe",
+      "description": "Many battlegrounds ago, this was a pristine weapon",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "min": 6,
+        "max": 8
+      },
+      "_created": "2019-03-11T09:47:44.381Z",
+      "__v": 0,
+      "value": 20,
+      "_updated": "2019-04-08T15:06:14.825Z"
+    },
+    {
+      "_id": "5c862f110e37488ab4c60365",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze Battle Axe",
+      "description": "A two-handed axe, way past its prime",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "encumbrance": 5,
+      "damage": {
+        "min": 7,
+        "max": 10
+      },
+      "_created": "2019-03-11T09:49:05.477Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:29:29.529Z",
+      "value": 22
+    },
+    {
+      "_id": "5c862fde0e3748268fc60366",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze Halberd",
+      "description": "A two-handed polearm. Probably stolen from a dead guardsman",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "encumbrance": 6,
+      "damage": {
+        "min": 10,
+        "max": 11
+      },
+      "_created": "2019-03-11T09:52:30.463Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:20:24.366Z",
+      "value": 26
+    },
+    {
+      "_id": "5c86316c0e3748bcd1c60368",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Hatchet",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "max": 7,
+        "min": 7
+      },
+      "tier": "2",
+      "description": "A trail of severed limbs led to its current state",
+      "_created": "2019-03-11T09:59:08.263Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:29:05.243Z",
+      "value": 24
+    },
+    {
+      "_id": "5c86320d0e37480f1fc60369",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Stone Axe",
+      "description": "Plausibly, this crude weapon was crafted before the Great Cataclysm",
+      "tier": "1",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 5,
+      "damage": {
+        "max": 8,
+        "min": 3
+      },
+      "_created": "2019-03-11T10:01:49.552Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:32:46.916Z",
+      "value": 6
+    },
+    {
+      "_id": "5c86384d0e37486af4c6036a",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze Scepter",
+      "description": "This crude weapon seems ancient",
+      "tier": "1",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "min": 2,
+        "max": 8
+      },
+      "_created": "2019-03-11T10:28:29.877Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:21:14.924Z",
+      "value": 8
+    },
+    {
+      "_id": "5c8638e90e3748e3f5c6036b",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze Mace",
+      "description": "This mace has cracked a few skulls in its day",
+      "tier": "1",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "min": 3,
+        "max": 9
+      },
+      "_created": "2019-03-11T10:31:05.699Z",
+      "__v": 0,
+      "value": 10,
+      "_updated": "2019-04-08T15:06:31.587Z"
+    },
+    {
+      "_id": "5c8639c20e37483059c6036c",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze Flail",
+      "description": "A spiked ball on a chain, attached to a stick. What will they think of next?",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "min": 1,
+        "max": 10
+      },
+      "_created": "2019-03-11T10:34:42.372Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:22:22.771Z",
+      "value": 22
+    },
+    {
+      "_id": "5c863aa70e37487593c6036d",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze Morning Star",
+      "description": "The impact of this weapon will make you see stars",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "min": 3,
+        "max": 12
+      },
+      "_created": "2019-03-11T10:38:31.133Z",
+      "__v": 0,
+      "value": 22,
+      "_updated": "2019-04-08T15:06:47.388Z"
+    },
+    {
+      "_id": "5c863b910e374888abc6036e",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Stone Maul",
+      "description": "A two-handed stone hammer from the dawn of time",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "encumbrance": 10,
+      "damage": {
+        "min": 8,
+        "max": 30
+      },
+      "_created": "2019-03-11T10:42:25.628Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:28:18.084Z",
+      "value": 20
+    },
+    {
+      "_id": "5c866f9f0e37487533c604b0",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Raven Mask",
+      "description": "A white wooden mask, sculpted to resemble a raven's beak, surrounded by a pattern of sharp feathers.",
+      "tier": "5",
+      "type": "armor",
+      "slot": [
+        "head"
+      ],
+      "encumbrance": 2,
+      "armor": 2,
+      "_created": "2019-03-11T14:24:31.362Z",
+      "__v": 0,
+      "_updated": "2019-04-08T13:41:26.934Z"
+    },
+    {
+      "_id": "5c86d6c4bbdb6b44de5868e6",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bone Dagger",
+      "description": "Crude and ominous, like a yellow fang stolen from the jaws of an ancient beast.",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 1,
+      "damage": {
+        "min": 1,
+        "max": 6
+      },
+      "_created": "2019-03-11T21:44:36.077Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:27:56.392Z",
+      "value": 40
+    },
+    {
+      "_id": "5c86d815bbdb6b13055868e7",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Volcanic Stone Dagger",
+      "description": "Made from the elusive red rock, quarried on the Isle of Penance",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 2,
+      "damage": {
+        "min": 3,
+        "max": 8
+      },
+      "_created": "2019-03-11T21:50:13.814Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:25:48.126Z",
+      "value": 60
+    },
+    {
+      "_id": "5c7d6992fd6b497f52456b78",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Red Cloth Sandals",
+      "description": "Cheap and comfortable.",
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "feet"
+      ],
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-03-04T18:08:18.839Z",
+      "__v": 0,
+      "value": 3,
+      "_updated": "2019-04-08T15:06:58.858Z"
+    },
+    {
+      "_id": "5c8a0466c5ffe41d34c268b3",
+      "name": "Raspberry",
+      "description": "Berry. Restores a small amount of health.",
+      "value": 1,
+      "tier": "1",
+      "type": "food",
+      "consumption": {
+        "uses": 1,
+        "actions": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5c8a0466c5ffe42247c268b4",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-03-14T07:36:06.284Z",
+      "_updated": "2019-04-08T16:18:48.076Z",
+      "__v": 0
+    },
+    {
+      "_id": "5c8a0495c5ffe41f05c268b5",
+      "name": "Blueberry",
+      "description": "Berry. Restores a small amount of health.",
+      "value": 1,
+      "tier": "1",
+      "type": "food",
+      "consumption": {
+        "uses": 1,
+        "actions": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5c8a0495c5ffe4c63cc268b6",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-03-14T07:36:53.590Z",
+      "_updated": "2019-04-08T16:18:57.457Z",
+      "__v": 0
+    },
+    {
+      "_id": "5c8bf714190288fb23f94cdc",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Cipher Stone",
+      "description": "A tetrahedron, cut from limestone. Inscriptions cover the stone on all sides. The object can be used to interpret hieroglyphs.",
+      "tier": "4",
+      "type": "tool",
+      "_created": "2019-03-15T19:03:48.496Z",
+      "_updated": "2019-04-08T15:08:20.715Z",
+      "__v": 0,
+      "value": 500
+    },
+    {
+      "_id": "5c8e1ec71902887d41f94cdd",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Key, No. 17",
+      "description": "A heavy iron key from the ruins of Dusk Megalith.",
+      "tier": "5",
+      "type": "tool",
+      "_created": "2019-03-17T10:17:43.121Z",
+      "_updated": "2019-04-08T14:05:26.608Z",
+      "__v": 0
+    },
+    {
+      "_id": "5c8e1f3a1902886809f94cdf",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Key, No. 11",
+      "description": "A heavy iron key from the ruins of Dusk Megalith.",
+      "tier": "5",
+      "type": "tool",
+      "_created": "2019-03-17T10:19:38.594Z",
+      "_updated": "2019-04-08T14:05:30.129Z",
+      "__v": 0
+    },
+    {
+      "_id": "5c8e2159190288bf1bf94ce1",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Heavy Iron Lever",
+      "description": "Stolen from the altar of a subterranean chapel.",
+      "tier": "3",
+      "type": "tool",
+      "_created": "2019-03-17T10:28:41.273Z",
+      "_updated": "2019-04-08T16:20:00.688Z",
+      "__v": 0,
+      "value": 30
+    },
+    {
+      "_id": "5c8e1f091902886448f94cde",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Key, No. 8",
+      "description": "A heavy iron key. You found it among the possessions of a dying forest-dweller.",
+      "type": "tool",
+      "tier": "5",
+      "_created": "2019-03-17T10:18:49.593Z",
+      "_updated": "2019-04-08T14:05:02.950Z",
+      "__v": 0
+    },
+    {
+      "_id": "5c8e8003153140832b805840",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Torch",
+      "description": "Fire. A great discovery, if there ever was one.",
+      "tier": "1",
+      "type": "tool",
+      "_created": "2019-03-17T17:12:35.716Z",
+      "_updated": "2019-04-08T16:19:39.563Z",
+      "__v": 0,
+      "value": 2
+    },
+    {
+      "_id": "5c8ee630d26f50027f85f3c0",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Shovel",
+      "description": "A sturdy old shovel, good for diggin'",
+      "tier": "2",
+      "type": "tool",
+      "_created": "2019-03-18T00:28:32.475Z",
+      "_updated": "2019-04-08T16:18:35.671Z",
+      "__v": 0,
+      "value": 10
+    },
+    {
+      "_id": "5c92e3433bae8d832e2b5fdd",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Death Mask",
+      "description": "A white mask, stolen from a toxic sarcophagus in the catacombs of Dusk Megalith.",
+      "tier": "5",
+      "type": "armor",
+      "slot": [
+        "head"
+      ],
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-03-21T01:05:07.966Z",
+      "_updated": "2019-03-21T01:05:07.966Z",
+      "__v": 0
+    },
+    {
+      "_id": "5c92eb843bae8d75c62b601c",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Emerald",
+      "description": "Green gemstone. Finely cut.",
+      "tier": "3",
+      "type": "treasure",
+      "_created": "2019-03-21T01:40:20.067Z",
+      "_updated": "2019-04-08T16:17:52.871Z",
+      "__v": 0,
+      "value": 90
+    },
+    {
+      "_id": "5c92ebd43bae8d81c32b601d",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Ruby",
+      "description": "Red gemstone. Finely cut.",
+      "tier": "4",
+      "type": "treasure",
+      "_created": "2019-03-21T01:41:40.566Z",
+      "_updated": "2019-04-08T16:17:26.691Z",
+      "__v": 0,
+      "value": 100
+    },
+    {
+      "_id": "5c92ec543bae8dadf22b601e",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Diamond",
+      "description": "A finely cut gemstone. Quite valuable.",
+      "tier": "4",
+      "type": "treasure",
+      "_created": "2019-03-21T01:43:48.962Z",
+      "_updated": "2019-04-08T16:17:00.678Z",
+      "__v": 0,
+      "value": 200
+    },
+    {
+      "_id": "5c92ed9d3bae8d160b2b6021",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Diamond Ring",
+      "description": "This ancient wedding ring was stolen from the crypts of Dusk Megalith.",
+      "tier": "4",
+      "type": "treasure",
+      "_created": "2019-03-21T01:49:17.017Z",
+      "_updated": "2019-05-22T18:25:33.197Z",
+      "__v": 0,
+      "value": 150
+    },
+    {
+      "_id": "5c92ee033bae8da2f12b6022",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Amethyst",
+      "description": "A purple gemstone, finely cut.",
+      "tier": "2",
+      "type": "treasure",
+      "_created": "2019-03-21T01:50:59.200Z",
+      "_updated": "2019-04-08T16:16:02.141Z",
+      "__v": 0,
+      "value": 30
+    },
+    {
+      "_id": "5c92ee603bae8d36b12b6023",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Golden Bracelet",
+      "description": "Adorned with hieroglyphs, this bracelet was stolen from the crypts of Dusk Megalith.",
+      "tier": "3",
+      "type": "treasure",
+      "_created": "2019-03-21T01:52:32.074Z",
+      "_updated": "2019-05-22T18:26:01.711Z",
+      "__v": 0,
+      "value": 50
+    },
+    {
+      "_id": "5c92f8863bae8dfca82b605c",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Broadsword",
+      "description": "Black as night. The blade is sharp.",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "min": 7,
+        "max": 9
+      },
+      "_created": "2019-03-21T02:35:50.415Z",
+      "_updated": "2019-04-19T00:28:57.769Z",
+      "__v": 0,
+      "value": 40
+    },
+    {
+      "_id": "5c92f8ce3bae8dbec42b605d",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Sabre",
+      "description": "The curved blade is sharp.",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "min": 7,
+        "max": 9
+      },
+      "_created": "2019-03-21T02:37:02.820Z",
+      "_updated": "2019-04-08T16:11:49.172Z",
+      "__v": 0,
+      "value": 45
+    },
+    {
+      "_id": "5c92f92b3bae8d8ee72b605e",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Hatchet",
+      "description": "Remarkably well-preserved.",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "min": 8,
+        "max": 8
+      },
+      "_created": "2019-03-21T02:38:35.835Z",
+      "_updated": "2019-04-08T16:13:41.457Z",
+      "__v": 0,
+      "value": 35
+    },
+    {
+      "_id": "5c92f9883bae8daaed2b605f",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron War Axe",
+      "description": "The work of a talented blacksmith.",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 5,
+      "damage": {
+        "min": 9,
+        "max": 9
+      },
+      "_created": "2019-03-21T02:40:08.904Z",
+      "_updated": "2019-04-08T16:13:02.041Z",
+      "__v": 0,
+      "value": 42
+    },
+    {
+      "_id": "5c92fa2c3bae8d4e102b6060",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Flail",
+      "description": "A spiked iron ball, attached to a chain with a handle.",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 5,
+      "damage": {
+        "min": 5,
+        "max": 11
+      },
+      "_created": "2019-03-21T02:42:52.846Z",
+      "_updated": "2019-04-08T16:12:37.354Z",
+      "__v": 0,
+      "value": 45
+    },
+    {
+      "_id": "5c92fa633bae8d78a32b6061",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Morning Star",
+      "description": "A spiked iron club.",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 5,
+      "damage": {
+        "min": 5,
+        "max": 13
+      },
+      "_created": "2019-03-21T02:43:47.094Z",
+      "_updated": "2019-04-08T16:12:19.315Z",
+      "__v": 0,
+      "value": 50
+    },
+    {
+      "_id": "5c92fc163bae8d6b0d2b6062",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Mail",
+      "description": "This heavy suit of armor will provide ample protection.",
+      "tier": "3",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "encumbrance": 7,
+      "armor": 9,
+      "_created": "2019-03-21T02:51:02.568Z",
+      "_updated": "2019-04-17T22:28:35.949Z",
+      "__v": 0,
+      "value": 120
+    },
+    {
+      "_id": "5c92fc783bae8d021a2b6063",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Plate Cuirass",
+      "description": "Slightly rusty. Nevertheless, this heavy armor piece will provide ample protection.",
+      "tier": "3",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "encumbrance": 8,
+      "armor": 10,
+      "_created": "2019-03-21T02:52:40.167Z",
+      "_updated": "2019-04-08T16:10:54.689Z",
+      "__v": 0,
+      "value": 140
+    },
+    {
+      "_id": "5c92fd923bae8d40922b6064",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze War Gauntlets",
+      "description": "These will guard your grip in the heat of battle.",
+      "tier": "3",
+      "type": "armor",
+      "slot": [
+        "hands"
+      ],
+      "encumbrance": 6,
+      "armor": 8,
+      "_created": "2019-03-21T02:57:22.790Z",
+      "_updated": "2019-04-08T15:21:21.593Z",
+      "__v": 0,
+      "value": 72
+    },
+    {
+      "_id": "5c92fe253bae8daa782b6065",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Helmet",
+      "description": "A full helmet, granting both protection and anonymity to its wearer.",
+      "tier": "3",
+      "type": "armor",
+      "slot": [
+        "head"
+      ],
+      "encumbrance": 5,
+      "armor": 6,
+      "_created": "2019-03-21T02:59:49.231Z",
+      "_updated": "2019-04-08T16:09:49.584Z",
+      "__v": 0,
+      "value": 60
+    },
+    {
+      "_id": "5c9317cc3bae8d23f02b60d3",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Small Book",
+      "description": "A leather-bound book, its covers soiled by dirt and damaged by water.",
+      "tier": "1",
+      "type": "scripture",
+      "_created": "2019-03-21T04:49:16.742Z",
+      "_updated": "2019-04-08T16:09:01.292Z",
+      "__v": 0,
+      "scripture": "5c9318383bae8d59302b60d4",
+      "value": 8
+    },
+    {
+      "_id": "5c933ba93bae8d039f2b61ad",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Green Cloak",
+      "description": "A pristine, hooded cloak. The favored garment among druids, earning them the nickname \"green-cloaks\".",
+      "tier": "5",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-03-21T07:22:17.369Z",
+      "_updated": "2019-03-21T08:52:21.419Z",
+      "__v": 0
+    },
+    {
+      "_id": "5c9345343bae8d78ab2b61c6",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Fur Moccasins",
+      "description": "These knee-high moccasins have been sown to resemble wolf paws, with actual claws protruding from the front.",
+      "tier": "3",
+      "type": "armor",
+      "slot": [
+        "feet"
+      ],
+      "encumbrance": 1,
+      "armor": 3,
+      "_created": "2019-03-21T08:03:00.115Z",
+      "_updated": "2019-04-08T16:07:47.298Z",
+      "__v": 0,
+      "value": 30
+    },
+    {
+      "_id": "5c93463d3bae8da4662b61df",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Sickle",
+      "description": "The curved blade is sharp.",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 3,
+      "damage": {
+        "min": 7,
+        "max": 7
+      },
+      "_created": "2019-03-21T08:07:25.905Z",
+      "_updated": "2019-04-08T16:07:16.722Z",
+      "__v": 0,
+      "value": 32
+    },
+    {
+      "_id": "5c93474d3bae8d65752b61e0",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Wolf Gauntlets",
+      "description": "These war gloves have been sown to resemble wolf paws, with claws protruding from the knuckles.",
+      "tier": "3",
+      "type": "armor",
+      "slot": [
+        "hands"
+      ],
+      "encumbrance": 1,
+      "armor": 3,
+      "_created": "2019-03-21T08:11:57.671Z",
+      "_updated": "2019-04-08T15:22:07.524Z",
+      "__v": 0,
+      "value": 35
+    },
+    {
+      "_id": "5c9350813bae8d4a422b6256",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Mask of Nierva",
+      "description": "A thin, circular white mask. Almost featureless, aside from the narrow, horizontal apertures for the eyes and mouth.",
+      "tier": "5",
+      "type": "armor",
+      "slot": [
+        "head"
+      ],
+      "encumbrance": 1,
+      "_created": "2019-03-21T08:51:13.278Z",
+      "_updated": "2019-04-03T01:24:10.938Z",
+      "__v": 0,
+      "armor": 1
+    },
+    {
+      "_id": "5c9353b83bae8db97b2b625a",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Short Sword",
+      "description": "Frequently used, but well-maintained.",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 3,
+      "damage": {
+        "min": 6,
+        "max": 7
+      },
+      "_created": "2019-03-21T09:04:56.495Z",
+      "_updated": "2019-04-08T16:05:10.072Z",
+      "__v": 0,
+      "value": 35
+    },
+    {
+      "_id": "5c9354783bae8d13442b625b",
+      "consumption": {
+        "actions": []
+      },
+      "description": "The curved blade is quite sharp. Elaborately sculpted, the pommel resembles a demonic serpent.",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "name": "Fine Bronze Sabre",
+      "encumbrance": 3,
+      "damage": {
+        "min": 6,
+        "max": 8
+      },
+      "_created": "2019-03-21T09:08:08.625Z",
+      "_updated": "2019-04-08T15:15:22.044Z",
+      "__v": 0,
+      "value": 42
+    },
+    {
+      "_id": "5c9354ed3bae8d221b2b625c",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Gladius",
+      "description": "A well-placed thrust will suffice to vanquish the enemy.",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 2,
+      "damage": {
+        "min": 4,
+        "max": 6
+      },
+      "_created": "2019-03-21T09:10:05.936Z",
+      "_updated": "2019-04-08T15:09:20.186Z",
+      "__v": 0,
+      "value": 25
+    },
+    {
+      "_id": "5c935e073bae8df83c2b629a",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Crude Lock Pick",
+      "description": "This tool can be used to disable simple locks.",
+      "tier": "1",
+      "type": "tool",
+      "_created": "2019-03-21T09:48:55.748Z",
+      "_updated": "2019-04-08T16:04:24.790Z",
+      "__v": 0,
+      "value": 3
+    },
+    {
+      "_id": "5cd21d50f7cea27b81744dac",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Black Diamond",
+      "description": "A finely cut gemstone. Incredibly valuable.",
+      "value": 300,
+      "tier": "4",
+      "type": "treasure",
+      "_created": "2019-05-08T00:05:36.773Z",
+      "_updated": "2019-05-08T00:05:36.773Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cdde300c3e78fe6535bc004",
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Golden Armband",
+      "description": "A thick golden bracelet, shaped like an ouroboros.",
+      "value": 60,
+      "tier": "3",
+      "type": "treasure",
+      "_created": "2019-05-16T22:24:00.586Z",
+      "_updated": "2019-11-04T20:32:24.065Z",
+      "__v": 0
+    },
+    {
+      "_id": "5c9355513bae8d29cf2b625d",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Bracelets",
+      "description": "Faded hieroglyphs adorn these old bracelets.",
+      "tier": "3",
+      "type": "armor",
+      "slot": [
+        "hands"
+      ],
+      "encumbrance": 5,
+      "armor": 7,
+      "_created": "2019-03-21T09:11:45.053Z",
+      "_updated": "2019-04-08T15:21:38.091Z",
+      "__v": 0,
+      "value": 40
+    },
+    {
+      "_id": "5c94c877683e5d734f4f2e28",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Expensive Fur Coat",
+      "description": "White foxes of Tundra Barbarous died for the sake of this ostentatious display.",
+      "tier": "3",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "encumbrance": 2,
+      "armor": 2,
+      "_created": "2019-03-22T11:35:19.451Z",
+      "_updated": "2019-04-08T16:03:50.270Z",
+      "__v": 0,
+      "value": 80
+    },
+    {
+      "_id": "5c94ca69683e5d5f464f2e29",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Crimson Veil",
+      "description": "One of many ways to shroud yourself in mystery.",
+      "tier": "2",
+      "type": "armor",
+      "slot": [
+        "head"
+      ],
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-03-22T11:43:37.135Z",
+      "_updated": "2019-04-08T16:03:25.902Z",
+      "__v": 0,
+      "value": 10
+    },
+    {
+      "_id": "5c94cb89683e5d4a814f2e2a",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Black Leather Gloves",
+      "description": "Quality leather, almost brand new, perfect fit - what more can you ask for?",
+      "tier": "2",
+      "type": "armor",
+      "slot": [
+        "hands"
+      ],
+      "encumbrance": 1,
+      "armor": 2,
+      "_created": "2019-03-22T11:48:25.534Z",
+      "_updated": "2019-04-08T16:02:56.534Z",
+      "__v": 0,
+      "value": 18
+    },
+    {
+      "_id": "5c94cd85683e5d397f4f2e2b",
+      "name": "Strange Fruit",
+      "tier": "5",
+      "type": "medicine",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "-5"
+            ],
+            "_id": "5c94cd85683e5df7464f2e2d",
+            "type": "changeHealth"
+          },
+          {
+            "parameters": [
+              "charisma",
+              "1"
+            ],
+            "_id": "5c94cd85683e5d75034f2e2c",
+            "type": "changeStat"
+          }
+        ],
+        "uses": 1
+      },
+      "_created": "2019-03-22T11:56:53.546Z",
+      "_updated": "2019-04-03T10:18:58.341Z",
+      "__v": 0,
+      "description": "Fruit. Possibly edible. Resembles the shape of a lemon, but slightly smaller with a deep green color."
+    },
+    {
+      "_id": "5c94ce4c683e5d389b4f2e2e",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Punch Dagger",
+      "description": "Some hoodlums are brawlers, some rogues are knife thugs. Some ruffians want the best of both underworlds.",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 1,
+      "damage": {
+        "max": 5,
+        "min": 1
+      },
+      "_created": "2019-03-22T12:00:12.572Z",
+      "_updated": "2019-04-08T15:24:45.988Z",
+      "__v": 0,
+      "value": 18
+    },
+    {
+      "_id": "5c94cee1683e5d12724f2e30",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Butcher Knife",
+      "description": "A cruel weapon.",
+      "tier": "2",
+      "type": "weapon",
+      "encumbrance": 1,
+      "damage": {
+        "min": 4,
+        "max": 4
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "_created": "2019-03-22T12:02:41.603Z",
+      "_updated": "2019-04-08T15:24:28.592Z",
+      "__v": 0,
+      "value": 15
+    },
+    {
+      "_id": "5c94d0eb683e5d210a4f2e31",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Scimitar",
+      "description": "Who could resist such fine curvature? Certainly not humans, or other things made of flesh.",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 3,
+      "damage": {
+        "min": 5,
+        "max": 7
+      },
+      "_created": "2019-03-22T12:11:23.831Z",
+      "_updated": "2019-04-08T16:02:28.251Z",
+      "__v": 0,
+      "value": 30
+    },
+    {
+      "_id": "5c94d260683e5d04a74f2e32",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Rapier",
+      "description": "Requires some finesse.",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 1,
+      "damage": {
+        "min": 2,
+        "max": 5
+      },
+      "_created": "2019-03-22T12:17:36.209Z",
+      "_updated": "2019-04-08T15:24:13.180Z",
+      "__v": 0,
+      "value": 25
+    },
+    {
+      "_id": "5c9b196b3790358e08b1bd6b",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Silver Brooch",
+      "description": "A large silver brooch, setting a sculpted stingray, encapsulated by a wreath of amethysts. The mere sight of this object fills you with dread and disgust.",
+      "tier": "5",
+      "type": "treasure",
+      "_created": "2019-03-27T06:34:19.449Z",
+      "_updated": "2019-03-27T06:34:19.449Z",
+      "__v": 0
+    },
+    {
+      "_id": "5c9b909e3790354c57b1bf81",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Filthy Pipe",
+      "description": "A handy tool, designed to incinerate substances for the purpose of smoke inhalation. This one has been used frequently, to say the least.",
+      "tier": "1",
+      "type": "tool",
+      "_created": "2019-03-27T15:02:54.786Z",
+      "_updated": "2019-04-08T15:26:04.306Z",
+      "__v": 0,
+      "value": 1
+    },
+    {
+      "_id": "5c9b913c37903517f5b1bf82",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Clogs",
+      "description": "Wooden shoes. Somehow, foul odors have been infused into the fibers.",
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "feet"
+      ],
+      "encumbrance": 2,
+      "armor": 2,
+      "_created": "2019-03-27T15:05:32.645Z",
+      "_updated": "2019-04-08T15:22:26.369Z",
+      "__v": 0,
+      "value": 1
+    },
+    {
+      "_id": "5c9b91b33790352c10b1bf83",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Slouch Hat",
+      "description": "A brown hat with a wide brim. The layers of sweat can be analyzed to determine which year this hat was manufactured.",
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "head"
+      ],
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-03-27T15:07:31.299Z",
+      "_updated": "2019-04-08T15:25:02.791Z",
+      "__v": 0,
+      "value": 1
+    },
+    {
+      "_id": "5c9b928c3790355729b1bf86",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Shiv",
+      "description": "A makeshift blade, designed for quick stabbin'",
+      "tier": "1",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 1,
+      "damage": {
+        "min": 1,
+        "max": 4
+      },
+      "_created": "2019-03-27T15:11:08.871Z",
+      "_updated": "2019-04-08T15:25:32.907Z",
+      "__v": 0,
+      "value": 1
+    },
+    {
+      "_id": "5c9c0868379035450eb1c010",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Sackcloth Tunic",
+      "description": "Not the most glamorous of garments.",
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "armor": 1,
+      "encumbrance": 1,
+      "_created": "2019-03-27T23:34:00.141Z",
+      "_updated": "2019-04-08T15:25:19.863Z",
+      "__v": 0,
+      "value": 2
+    },
+    {
+      "_id": "5ca404413790357ad9b1ceba",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Javelin",
+      "tier": "2",
+      "description": "This short spear can be held in one hand.",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 2,
+      "damage": {
+        "min": 2,
+        "max": 7
+      },
+      "_created": "2019-04-03T00:54:25.189Z",
+      "_updated": "2019-04-08T15:23:43.314Z",
+      "__v": 0,
+      "value": 30
+    },
+    {
+      "_id": "5ca404ce379035592ab1cebb",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Halberd",
+      "description": "This heavy polearm is in excellent condition.",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "encumbrance": 6,
+      "damage": {
+        "min": 11,
+        "max": 12
+      },
+      "_created": "2019-04-03T00:56:46.706Z",
+      "_updated": "2019-04-08T15:10:45.224Z",
+      "__v": 0,
+      "value": 40
+    },
+    {
+      "_id": "5ca40537379035a01cb1cebc",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Fine Bronze Halberd",
+      "description": "This heavy polearm seems almost unused.",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "encumbrance": 6,
+      "damage": {
+        "min": 12,
+        "max": 13
+      },
+      "_created": "2019-04-03T00:58:31.591Z",
+      "_updated": "2019-04-08T15:23:18.111Z",
+      "__v": 0,
+      "value": 60
+    },
+    {
+      "_id": "5ca4063c379035798cb1cebd",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Brown Leather Gambeson",
+      "description": "This long-sleeved leather coat affords the wearer with ample protection.",
+      "tier": "3",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "encumbrance": 2,
+      "armor": 4,
+      "_created": "2019-04-03T01:02:52.692Z",
+      "_updated": "2019-04-08T21:01:22.527Z",
+      "__v": 0,
+      "value": 50
+    },
+    {
+      "_id": "5ca40fe137903526e6b1cebe",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Brown Leather Gloves",
+      "description": "Oddly discolored and somewhat odorous, these gloves have definitely seen better days.",
+      "tier": "2",
+      "type": "armor",
+      "slot": [
+        "hands"
+      ],
+      "encumbrance": 1,
+      "armor": 2,
+      "_created": "2019-04-03T01:44:01.125Z",
+      "_updated": "2019-04-08T15:20:08.992Z",
+      "__v": 0,
+      "value": 16
+    },
+    {
+      "_id": "5ca411d937903551f8b1cebf",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Brown Leather Helmet",
+      "description": "This old piece of headgear has been pummeled a few times.",
+      "tier": "2",
+      "type": "armor",
+      "slot": [
+        "head"
+      ],
+      "encumbrance": 2,
+      "armor": 3,
+      "_created": "2019-04-03T01:52:25.529Z",
+      "_updated": "2019-04-08T15:18:04.010Z",
+      "__v": 0,
+      "value": 25
+    },
+    {
+      "_id": "5ca412e8379035f6d8b1cec0",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Brown Leather Boots",
+      "description": "Slightly cumbersome and noticeably odorous, these boots have been worn out from frequent use.",
+      "tier": "2",
+      "type": "armor",
+      "slot": [
+        "feet"
+      ],
+      "encumbrance": 3,
+      "armor": 4,
+      "_created": "2019-04-03T01:56:56.434Z",
+      "_updated": "2019-04-08T15:19:53.493Z",
+      "__v": 0,
+      "value": 18
+    },
+    {
+      "_id": "5ca438713790356b37b1cf1b",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Longsword",
+      "description": "Aside from a few notches on the blade, this sword is in excellent condition.",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "min": 7,
+        "max": 8
+      },
+      "_created": "2019-04-03T04:37:05.069Z",
+      "_updated": "2019-04-08T15:19:32.643Z",
+      "__v": 0,
+      "value": 40
+    },
+    {
+      "_id": "5ca43b9e3790354da9b1cf1c",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Leather Sandals",
+      "description": "Knee-high leather sandals. Thin leather strips afford meagre protection, but allows for nimble movement.",
+      "tier": "2",
+      "type": "armor",
+      "slot": [
+        "feet"
+      ],
+      "encumbrance": 1,
+      "armor": 2,
+      "_created": "2019-04-03T04:50:38.698Z",
+      "_updated": "2019-04-08T15:18:58.673Z",
+      "__v": 0,
+      "value": 16
+    },
+    {
+      "_id": "5ca43e2c37903578f6b1cf1d",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Leather Bracers",
+      "description": "Starting beneath the elbows, these brown leather bracers will protect your forearms and the backsides of your hands.",
+      "tier": "2",
+      "type": "armor",
+      "slot": [
+        "hands"
+      ],
+      "encumbrance": 2,
+      "armor": 3,
+      "_created": "2019-04-03T05:01:32.718Z",
+      "_updated": "2019-04-08T15:18:38.409Z",
+      "__v": 0,
+      "value": 20
+    },
+    {
+      "_id": "5ca47ec13790351289b1d0c4",
+      "name": "Moon Orchid",
+      "description": "Ingredient. A blue flower, unlike anything you've ever seen before. Fragile and beautiful.",
+      "tier": "4",
+      "type": "medicine",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "5"
+            ],
+            "_id": "5ca47ec13790357272b1d0c5",
+            "type": "gainExperience"
+          }
+        ],
+        "uses": 1
+      },
+      "_created": "2019-04-03T09:37:05.978Z",
+      "_updated": "2019-04-08T15:08:06.728Z",
+      "__v": 0,
+      "value": 50
+    },
+    {
+      "_id": "5ca47f3a3790358a93b1d0c6",
+      "name": "Pale Hyacinth",
+      "description": "Ingredient. A white and yellow flower. Incredibly rare.",
+      "tier": "4",
+      "type": "medicine",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "-1"
+            ],
+            "_id": "5ca47f3a379035458eb1d0c7",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 1
+      },
+      "_created": "2019-04-03T09:39:06.890Z",
+      "_updated": "2019-04-08T15:17:47.892Z",
+      "__v": 0,
+      "value": 30
+    },
+    {
+      "_id": "5ca47fcc379035f6ffb1d0c8",
+      "name": "Luminous Rose",
+      "description": "Ingredient. A white rose, famously exuberant in moonlight. Rarely found on Tem Khiris.",
+      "tier": "3",
+      "type": "medicine",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "-1"
+            ],
+            "_id": "5ca47fcc3790355a9cb1d0c9",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 1
+      },
+      "_created": "2019-04-03T09:41:32.173Z",
+      "_updated": "2019-04-08T15:17:31.707Z",
+      "__v": 0,
+      "value": 10
+    },
+    {
+      "_id": "5ca4807d379035e1f4b1d0cd",
+      "name": "Gray Snapdragon",
+      "description": "Ingredient. A gray flower, popular among the nomads of Tem Khiris, who use it for medicinal purposes.",
+      "tier": "2",
+      "type": "medicine",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "3"
+            ],
+            "_id": "5ca4807d3790356915b1d0ce",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 1
+      },
+      "_created": "2019-04-03T09:44:29.617Z",
+      "_updated": "2019-04-08T15:17:10.463Z",
+      "__v": 0,
+      "value": 2
+    },
+    {
+      "_id": "5ca4826c379035b0eeb1d0cf",
+      "name": "Cloud Petal",
+      "description": "Ingredient. Once plucked from the rare flower known as Nierva's Crown, this petal quickly hardens into a pale shard, presently sharp enough to pierce your skin.",
+      "tier": "3",
+      "type": "medicine",
+      "consumption": {
+        "uses": 1,
+        "actions": [
+          {
+            "parameters": [
+              "-5"
+            ],
+            "_id": "5ca4826c37903583efb1d0d0",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-04-03T09:52:44.080Z",
+      "_updated": "2019-04-08T15:15:40.898Z",
+      "__v": 0,
+      "value": 10
+    },
+    {
+      "_id": "5ca483ff37903581f4b1d0d1",
+      "name": "Noxious Weed",
+      "description": "Ingredient. Commonly found on Tem Khiris, these poisonous leaves are frequently used in various medicinal concoctions.",
+      "tier": "1",
+      "type": "medicine",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "-2"
+            ],
+            "_id": "5ca483ff379035b990b1d0d2",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 1
+      },
+      "_created": "2019-04-03T09:59:27.843Z",
+      "_updated": "2019-04-08T15:16:38.107Z",
+      "__v": 0,
+      "value": 1
+    },
+    {
+      "_id": "5ca484f73790351c66b1d0d3",
+      "name": "Toxic Nettle",
+      "description": "Ingredient. Commonly used by medical practitioners among the nomads and druids of Tem Khiris. May counter the adverse effects of other poisonous substances.",
+      "tier": "3",
+      "type": "medicine",
+      "consumption": {
+        "uses": 1,
+        "actions": [
+          {
+            "parameters": [
+              "-2"
+            ],
+            "_id": "5ca484f7379035f0b6b1d0d4",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-04-03T10:03:35.534Z",
+      "_updated": "2019-04-08T15:16:14.747Z",
+      "__v": 0,
+      "value": 5
+    },
+    {
+      "_id": "5ca486213790355c57b1d0d5",
+      "name": "Thorn of Meym",
+      "description": "Ingredient. Taken from the spiky shrub known as Meym's Beard, found exclusively on the Isle of Dusk. Incredibly potent poison can be extracted from these dark branches.",
+      "tier": "4",
+      "type": "medicine",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "-25"
+            ],
+            "_id": "5ca4862137903521bcb1d0d6",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 1
+      },
+      "_created": "2019-04-03T10:08:33.299Z",
+      "_updated": "2019-04-08T15:07:52.964Z",
+      "__v": 0,
+      "value": 40
+    },
+    {
+      "_id": "5ca5ee53379035f0ccb1fdf9",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Leather Shoes",
+      "description": "A pair of sturdy leather shoes. Made for a hard day's work.",
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "feet"
+      ],
+      "encumbrance": 2,
+      "armor": 2,
+      "_created": "2019-04-04T11:45:23.122Z",
+      "_updated": "2019-04-08T15:14:38.454Z",
+      "__v": 0,
+      "value": 8
+    },
+    {
+      "_id": "5ca5efa4379035e7ffb1fdfa",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Circlet",
+      "description": "A crude iron circlet, riddled with impurities.",
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "head"
+      ],
+      "encumbrance": 1,
+      "armor": 2,
+      "_created": "2019-04-04T11:51:00.904Z",
+      "_updated": "2019-04-08T15:13:48.730Z",
+      "__v": 0,
+      "value": 15
+    },
+    {
+      "_id": "5ca5f12e379035d830b1fdfb",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Heavy Bronze Scythe",
+      "description": "In the right hands, this ominous weapon is potentially a force to be reckoned with.",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "encumbrance": 7,
+      "damage": {
+        "min": 1,
+        "max": 15
+      },
+      "_created": "2019-04-04T11:57:34.266Z",
+      "_updated": "2019-04-08T15:08:50.268Z",
+      "__v": 0,
+      "value": 36
+    },
+    {
+      "_id": "5ca5f2273790357b97b1fdfc",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Heavy Iron Scythe",
+      "description": "Black as night, this tool was made to reap souls and crops alike.",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "encumbrance": 8,
+      "damage": {
+        "min": 3,
+        "max": 18
+      },
+      "_created": "2019-04-04T12:01:43.720Z",
+      "_updated": "2019-04-08T15:13:28.606Z",
+      "__v": 0,
+      "value": 54
+    },
+    {
+      "_id": "5caabbcf37903537d9b22137",
+      "name": "Antidote",
+      "description": "Medicine. A small, transparent flask. It contains poison antidote.",
+      "tier": "3",
+      "type": "medicine",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "5"
+            ],
+            "_id": "5caabbcf379035495cb22138",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 2
+      },
+      "_created": "2019-04-08T03:11:11.197Z",
+      "_updated": "2019-04-08T15:11:43.765Z",
+      "__v": 0,
+      "value": 30
+    },
+    {
+      "_id": "5c92ed333bae8daa742b6020",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Silver Chalice",
+      "description": "A ceremonial chalice, stolen from the crypts of Dusk Megalith.",
+      "tier": "2",
+      "type": "treasure",
+      "_created": "2019-03-21T01:47:31.712Z",
+      "_updated": "2019-04-08T15:07:36.412Z",
+      "__v": 0,
+      "value": 40
+    },
+    {
+      "_id": "5caab9b4379035331db22108",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Poems and Pipe Dreams, Vol. II",
+      "description": "A small black book.",
+      "tier": "2",
+      "type": "scripture",
+      "_created": "2019-04-08T03:02:12.904Z",
+      "_updated": "2019-04-08T15:12:11.010Z",
+      "__v": 0,
+      "scripture": "5caababc379035ca90b22109",
+      "value": 10
+    },
+    {
+      "_id": "5ca5f2e6379035a3f9b1fdfd",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Wooden Bracelet",
+      "description": "Sculpted to resemble rooks, wolves and serpentine flames.",
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-04-04T12:04:54.483Z",
+      "_updated": "2019-05-22T18:28:02.006Z",
+      "__v": 0,
+      "value": 10
+    },
+    {
+      "_id": "5c92ec953bae8d24172b601f",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Golden Chalice",
+      "description": "A ceremonial chalice, stolen from the crypts of Dusk Megalith.",
+      "tier": "3",
+      "type": "treasure",
+      "_created": "2019-03-21T01:44:53.212Z",
+      "_updated": "2019-04-08T16:16:43.311Z",
+      "__v": 0,
+      "value": 80
+    },
+    {
+      "_id": "5cab7c5e379035ff3eb223f6",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Studded Leather Cuirass",
+      "description": "Studded black leather. Incredibly robust. The result of fine craftmanship.",
+      "value": 55,
+      "tier": "3",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "encumbrance": 2,
+      "armor": 5,
+      "_created": "2019-04-08T16:52:46.777Z",
+      "_updated": "2019-04-08T16:52:46.777Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cab7db4379035d0f0b223f7",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Dagger",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 1,
+      "damage": {
+        "min": 3,
+        "max": 5
+      },
+      "value": 28,
+      "description": "The quintessential black iron dagger, favored by the rogues and assassins of Tem Khiris.",
+      "_created": "2019-04-08T16:58:28.225Z",
+      "_updated": "2019-05-08T11:55:01.426Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cab7e533790353dc8b223f8",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Scepter",
+      "description": "If nothing else, this weapon commands respect.",
+      "value": 30,
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 5,
+      "damage": {
+        "min": 4,
+        "max": 10
+      },
+      "_created": "2019-04-08T17:01:07.787Z",
+      "_updated": "2019-04-08T17:01:07.787Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cab7f1737903512c8b223f9",
+      "name": "Bandages",
+      "description": "Medical supplies. Enough to mend three wounds.",
+      "value": 5,
+      "tier": "2",
+      "type": "medicine",
+      "consumption": {
+        "uses": 3,
+        "actions": [
+          {
+            "parameters": [
+              "10"
+            ],
+            "_id": "5cab7f1737903587a6b223fa",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-04-08T17:04:23.540Z",
+      "_updated": "2019-04-08T17:04:23.540Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cab803337903554f2b223fb",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Red Cloak",
+      "description": "A red linen cloak. The unusual color makes it slightly less affordable.",
+      "value": 8,
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "body"
+      ],
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-04-08T17:09:07.221Z",
+      "_updated": "2019-04-08T17:09:07.221Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cab80c6379035dfc8b223fc",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Black Turban",
+      "description": "These are supposedly fashionable among Panossian elites.",
+      "value": 3,
+      "tier": "1",
+      "type": "armor",
+      "slot": [
+        "head"
+      ],
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-04-08T17:11:34.167Z",
+      "_updated": "2019-04-08T17:11:34.167Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cacf4673790351829b22756",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Glass Eye",
+      "description": "Green iris. Removed from the left eye socket of a desecrated corpse.",
+      "value": 1,
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-04-09T19:37:11.087Z",
+      "_updated": "2019-05-28T17:09:10.270Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cacf53437903576dbb22757",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Wooden Hand",
+      "description": "A fanciful prosthetic limb. It was accidentally damaged when it was removed from the previous owner, which reduced the functionality of its crude mechanisms.",
+      "value": 10,
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-04-09T19:40:36.346Z",
+      "_updated": "2019-04-09T19:40:36.346Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cacf5c13790357c5bb22758",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Ankle Bracelet",
+      "description": "Fashionable among the native druids on the Isle of Dusk.",
+      "value": 11,
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-04-09T19:42:57.810Z",
+      "_updated": "2019-05-22T18:29:28.430Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cad5a913790354ae0b2285c",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Recipe: Antidote",
+      "tier": "3",
+      "value": 50,
+      "description": "A handwritten recipe has been scrawled on this parchment.",
+      "type": "scripture",
+      "_created": "2019-04-10T02:53:05.632Z",
+      "_updated": "2019-04-10T02:54:47.492Z",
+      "__v": 0,
+      "scripture": "5cad5aec3790353dc5b2285d"
+    },
+    {
+      "_id": "5cad60da3790351127b2285e",
+      "consumption": {
+        "actions": []
+      },
+      "name": "The Transgression of Hieram Vot",
+      "description": "The red covers of this book contain the arguments of three prominent thinkers. The debate concerns the implications of the assassination of Lord Selikro VIII.",
+      "value": 20,
+      "tier": "3",
+      "type": "scripture",
+      "_created": "2019-04-10T03:19:54.094Z",
+      "_updated": "2019-04-24T22:25:37.681Z",
+      "__v": 0,
+      "scripture": "5cad6153379035f74db2285f"
+    },
+    {
+      "_id": "5cae597d01f06a288f493a4b",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Odaia's Book of Memories, vol. 41",
+      "value": 5,
+      "description": "The last journal entries of a druid scholar.",
+      "tier": "2",
+      "type": "scripture",
+      "scripture": "5cae57b101f06a2693493a49",
+      "_created": "2019-04-10T21:00:45.921Z",
+      "_updated": "2019-04-10T21:00:45.921Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb2689cc065f0094d942a40",
+      "name": "Goat's Milk",
+      "description": "Beverage. A corked jug of goat's milk. Restores a small amount of health.",
+      "value": 1,
+      "tier": "1",
+      "type": "food",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "2"
+            ],
+            "_id": "5cb2689cc065f02e9d942a41",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 2
+      },
+      "_created": "2019-04-13T22:54:20.675Z",
+      "_updated": "2019-04-13T22:54:20.675Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb278a0c065f02af7942a97",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Empty Flask",
+      "description": "Glassware. A small corked flask, perfectly clean and transparent.",
+      "value": 1,
+      "tier": "1",
+      "type": "tool",
+      "_created": "2019-04-14T00:02:40.781Z",
+      "_updated": "2019-04-14T00:02:40.781Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb3324ac065f08683943257",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Black Phosphorus",
+      "description": "A unique masterwork morning star, reputedly crafted by the infamous Blacksmith of Woe.",
+      "value": 300,
+      "tier": "4",
+      "type": "weapon",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "min": 8,
+        "max": 18
+      },
+      "_created": "2019-04-14T13:14:50.845Z",
+      "_updated": "2019-04-14T13:43:48.993Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb3564fc065f08fda94337d",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Fine Bronze Cutlass",
+      "description": "The broad blade of this short sabre is remarkably sharp. The pommel is adorned with hieroglyphs.",
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 2,
+      "damage": {
+        "max": 7,
+        "min": 3
+      },
+      "value": 30,
+      "_created": "2019-04-14T15:48:31.079Z",
+      "_updated": "2019-04-14T15:48:31.079Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb35818c065f0135594337e",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Scythe",
+      "description": "The wooden handle has been reinforced with iron bands. The black blade is sharp enough to harvest souls and crops in equal measure.",
+      "value": 40,
+      "tier": "3",
+      "type": "weapon",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "max": 11,
+        "min": 1
+      },
+      "_created": "2019-04-14T15:56:08.745Z",
+      "_updated": "2019-04-14T15:56:08.745Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb35965c065f048a294337f",
+      "name": "Laudanum",
+      "description": "Contraband/Medicine. A glass jar of opium tincture. Relieves pain quite efficiently, existential or otherwise.",
+      "tier": "3",
+      "type": "medicine",
+      "consumption": {
+        "uses": 6,
+        "actions": [
+          {
+            "parameters": [],
+            "_id": "5cb35965c065f01f3b943380",
+            "type": "gainFullHealth"
+          }
+        ]
+      },
+      "value": 50,
+      "_created": "2019-04-14T16:01:41.008Z",
+      "_updated": "2019-04-19T03:08:18.336Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb78489c065f0181b9434de",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Prison Ledger",
+      "description": "A heavy tome, stolen from the prison dungeon of Dusk Megalith.",
+      "value": 10,
+      "tier": "2",
+      "type": "scripture",
+      "scripture": "5cb7841ec065f04aeb9434dd",
+      "_created": "2019-04-17T19:54:49.848Z",
+      "_updated": "2019-04-17T19:54:49.848Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb7a3a3c065f024679434e6",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Trident",
+      "tier": "3",
+      "value": 40,
+      "description": "A heavy bronze Trident, adorned with hieroglyphs.",
+      "type": "weapon",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "damage": {
+        "min": 5,
+        "max": 10
+      },
+      "encumbrance": 4,
+      "_created": "2019-04-17T22:07:31.890Z",
+      "_updated": "2019-04-17T22:07:31.890Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb7a6e7c065f0aa059434e7",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Mask of Celestial Triad",
+      "description": "A heavy iron mask with three faces: a wolf, a wise sage and a woman.",
+      "value": 50,
+      "tier": "3",
+      "type": "armor",
+      "slot": [
+        "head"
+      ],
+      "encumbrance": 6,
+      "armor": 8,
+      "_created": "2019-04-17T22:21:27.056Z",
+      "_updated": "2019-04-17T22:21:27.056Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb7a7b7c065f092659434e8",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Bronze Chainmail",
+      "description": "A full suit of chainmail armor. Old and rusty.",
+      "value": 100,
+      "tier": "3",
+      "type": "armor",
+      "slot": [
+        "body",
+        "feet",
+        "hands"
+      ],
+      "encumbrance": 8,
+      "armor": 16,
+      "_created": "2019-04-17T22:24:55.346Z",
+      "_updated": "2019-04-17T22:24:55.346Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb900b6c065f081bd943a7f",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Master Key",
+      "description": "A heavy iron key. It unlocks the prison of Dusk Megalith.",
+      "type": "tool",
+      "tier": "5",
+      "value": 0,
+      "_created": "2019-04-18T22:56:54.293Z",
+      "_updated": "2019-04-18T22:56:54.293Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb9160dc065f0a88a943b32",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Broadsword",
+      "description": "There are a few notches in this otherwise serviceable blade.",
+      "value": 26,
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 3,
+      "damage": {
+        "min": 6,
+        "max": 7
+      },
+      "_created": "2019-04-19T00:27:57.493Z",
+      "_updated": "2019-04-19T00:27:57.493Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb91a26c065f03801943b33",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Mace",
+      "value": 25,
+      "description": "This blunt weapon has been sculpted to resemble a wolf's paw.",
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 4,
+      "damage": {
+        "min": 3,
+        "max": 9
+      },
+      "_created": "2019-04-19T00:45:26.218Z",
+      "_updated": "2019-04-19T00:45:26.218Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cb92b83c065f0372b943b5d",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Amphora of Red Wine",
+      "description": "A clay vessel, which contains the inebriating substance of red wine.",
+      "value": 8,
+      "tier": "2",
+      "type": "food",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5cb92b83c065f0f750943b5e",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 12
+      },
+      "_created": "2019-04-19T01:59:31.969Z",
+      "_updated": "2019-11-05T02:11:44.487Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cbb8367c065f0fb96944ecd",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Ancient Iron Dagger",
+      "description": "A long dagger with serrated edges, plagued by ancient rust.",
+      "value": 25,
+      "tier": "2",
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 1,
+      "damage": {
+        "min": 2,
+        "max": 5
+      },
+      "_created": "2019-04-20T20:39:03.252Z",
+      "_updated": "2019-04-20T20:39:03.252Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cc12f51c065f025be9464e1",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Mallet",
+      "description": "A large-headed hammer with a wooden handle. This tool of creation and destruction was stolen from the grave of a nameless island-dweller.",
+      "tier": "2",
+      "value": 20,
+      "type": "weapon",
+      "slot": [
+        "mainHand"
+      ],
+      "encumbrance": 2,
+      "damage": {
+        "min": 1,
+        "max": 7
+      },
+      "_created": "2019-04-25T03:53:53.623Z",
+      "_updated": "2019-04-25T03:58:33.296Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cd2282df7cea24c15744e05",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Heavy Iron Scimitar",
+      "description": "A two-handed iron scimitar. The work of a master blacksmith.",
+      "value": 100,
+      "tier": "4",
+      "type": "weapon",
+      "encumbrance": 6,
+      "damage": {
+        "max": 18,
+        "min": 12
+      },
+      "_created": "2019-05-08T00:51:57.499Z",
+      "_updated": "2019-11-04T20:57:36.987Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cd2586df7cea28d1b744fcc",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Pamphlet: The Age of Dusk",
+      "description": "The words of a prophet have been inscribed with common runes on this tattered parchment",
+      "value": 1,
+      "tier": "1",
+      "type": "scripture",
+      "scripture": "5cd25711f7cea245d4744fcb",
+      "_created": "2019-05-08T04:17:49.398Z",
+      "_updated": "2019-05-08T04:17:49.398Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cd260f4f7cea2525d744fff",
+      "slot": [
+        "offHand"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Leather Buckler",
+      "description": "This small, round wooden shield has been reinforced by a coat of stitched wolf hide.",
+      "value": 12,
+      "tier": "2",
+      "type": "shield",
+      "encumbrance": 1,
+      "_created": "2019-05-08T04:54:12.938Z",
+      "_updated": "2019-06-21T14:59:22.179Z",
+      "__v": 0,
+      "blockChance": 0.12
+    },
+    {
+      "_id": "5cd261b7f7cea232dd745000",
+      "slot": [
+        "offHand"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Buckler",
+      "description": "This round small shield is unadorned, but highly useful.",
+      "value": 18,
+      "tier": "2",
+      "type": "shield",
+      "encumbrance": 2,
+      "_created": "2019-05-08T04:57:27.660Z",
+      "_updated": "2019-06-21T14:58:47.134Z",
+      "__v": 0,
+      "blockChance": 0.15
+    },
+    {
+      "_id": "5cd262abf7cea25c17745001",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "offHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Domed Shield of Rook",
+      "description": "A large round wooden shield, adorned by the painted silhouette of a rook.",
+      "value": 14,
+      "tier": "2",
+      "type": "shield",
+      "encumbrance": 3,
+      "_created": "2019-05-08T05:01:31.570Z",
+      "_updated": "2019-06-21T15:49:43.684Z",
+      "__v": 0,
+      "blockChance": 0.16
+    },
+    {
+      "_id": "5cd26364f7cea27c6b745002",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "offHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Domed Shield of Dusk",
+      "description": "A large round wooden shield, adorned with a painted sunset.",
+      "value": 14,
+      "tier": "2",
+      "type": "shield",
+      "encumbrance": 3,
+      "_created": "2019-05-08T05:04:36.601Z",
+      "_updated": "2019-06-21T15:49:08.996Z",
+      "__v": 0,
+      "blockChance": 0.16
+    },
+    {
+      "_id": "5cd2fe93f7cea24a9e74582a",
+      "slot": [
+        "offHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Orb of Reflection",
+      "type": "treasure",
+      "tier": "4",
+      "description": "A spherical mirror, stolen from the Tomb of Hieronymus.",
+      "value": 50,
+      "_created": "2019-05-08T16:06:43.802Z",
+      "_updated": "2019-10-16T09:31:39.167Z",
+      "__v": 0,
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "charisma",
+              "1"
+            ],
+            "_id": "5cdab765c3e78f55d95bb855",
+            "type": "attributes"
+          }
+        ],
+        "description": "A mesmerizing sphere..."
+      }
+    },
+    {
+      "_id": "5cdab440c3e78f57f75bb850",
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rook",
+      "description": "A living rook from the cavernous depths below the Isle of Dusk. A symbol of death, rooks are a bad omen in most places.",
+      "value": 1,
+      "tier": "3",
+      "type": "treasure",
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "perception",
+              "2"
+            ],
+            "_id": "5cdab52dc3e78fae485bb853",
+            "type": "attributes"
+          },
+          {
+            "parameters": [
+              "charisma",
+              "-1"
+            ],
+            "_id": "5cdab52dc3e78fdb675bb852",
+            "type": "attributes"
+          }
+        ],
+        "description": "Perched on your shoulder, the dark rook remains vigilant."
+      },
+      "_created": "2019-05-14T12:27:44.019Z",
+      "_updated": "2019-05-16T17:27:25.794Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cd38285f7cea24517745cff",
+      "slot": [
+        "head"
+      ],
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "charisma",
+              "1"
+            ],
+            "_id": "5cdab699c3e78f619b5bb854",
+            "type": "attributes"
+          }
+        ],
+        "description": "For better or worse, your personal magnetism is amplified by these crown jewels."
+      },
+      "consumption": {
+        "actions": []
+      },
+      "description": "Five black diamonds adorn this priceless golden circlet.",
+      "value": 500,
+      "tier": "4",
+      "type": "treasure",
+      "name": "Jeweled Circlet",
+      "_created": "2019-05-09T01:29:41.002Z",
+      "_updated": "2019-09-18T21:51:35.636Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cd31c97f7cea2056a745932",
+      "slot": [
+        "mainHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Crimson Falcata",
+      "description": "A short-bladed sickle-sword. Made from the elusive red rock, quarried on the Isle of Penance. Crafted by a master blacksmith. Adorned with cryptic runes.",
+      "value": 75,
+      "tier": "4",
+      "type": "weapon",
+      "encumbrance": 4,
+      "damage": {
+        "max": 14,
+        "min": 6
+      },
+      "_created": "2019-05-08T18:14:47.433Z",
+      "_updated": "2019-10-02T00:58:44.003Z",
+      "__v": 0,
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "agility",
+              "1"
+            ],
+            "_id": "5cdab7cbc3e78fd66b5bb856",
+            "type": "attributes"
+          }
+        ],
+        "description": "Unnatural forces linger in the black runes of this red blade."
+      }
+    },
+    {
+      "_id": "5cdde366c3e78f797a5bc005",
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Golden Ankle Bracelet",
+      "description": "Previously worn by the inhabitant of a black pyramid.",
+      "value": 70,
+      "tier": "3",
+      "type": "treasure",
+      "_created": "2019-05-16T22:25:42.009Z",
+      "_updated": "2019-05-22T18:30:41.578Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cdde5cfc3e78f575c5bc006",
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Sapphire Ring",
+      "description": "Shaped like a wreath of serpents, this gold ring is endowed with a sizable gemstone.",
+      "value": 250,
+      "tier": "4",
+      "type": "treasure",
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "charisma",
+              "1"
+            ],
+            "_id": "5cdde5cfc3e78f1aed5bc007",
+            "type": "attributes"
+          }
+        ],
+        "description": "Your confidence grows when you put the ring on your finger."
+      },
+      "_created": "2019-05-16T22:35:59.512Z",
+      "_updated": "2019-11-04T20:40:53.904Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cddf94cc3e78f663e5bc014",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "name": "Wooden Staff",
+      "description": "A long stick made of wood. Nothing more to it, really.",
+      "value": 1,
+      "tier": "1",
+      "type": "weapon",
+      "encumbrance": 3,
+      "damage": {
+        "min": 1,
+        "max": 3
+      },
+      "_created": "2019-05-16T23:59:08.958Z",
+      "_updated": "2019-05-16T23:59:08.958Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cddfaa3c3e78f6efe5bc019",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "name": "Iron Claymore",
+      "type": "weapon",
+      "encumbrance": 7,
+      "damage": {
+        "min": 11,
+        "max": 14
+      },
+      "description": "A heavy two-handed sword. The blade is sharp.",
+      "value": 60,
+      "tier": "3",
+      "_created": "2019-05-17T00:04:51.873Z",
+      "_updated": "2019-05-17T00:04:51.873Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cde01e3c3e78f766c5bc020",
+      "consumption": {
+        "actions": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "name": "Black Iron Gauntlets",
+      "value": 50,
+      "tier": "3",
+      "description": "Heavy iron gauntlets, taken from the lifeless hands of a masked executioner.",
+      "type": "armor",
+      "encumbrance": 7,
+      "armor": 11,
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "1",
+              "2"
+            ],
+            "_id": "5cde01e3c3e78f671d5bc021",
+            "type": "meleeDamage"
+          }
+        ],
+        "description": "For a moment, you are haunted by visions of death..."
+      },
+      "_created": "2019-05-17T00:35:47.023Z",
+      "_updated": "2019-05-17T00:35:47.023Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cde0370c3e78f77235bc022",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "name": "Rusty Iron Chainmail Shirt",
+      "value": 65,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 7,
+      "armor": 11,
+      "description": "Chainmail armor, covering the torso. Old and rusty.",
+      "_created": "2019-05-17T00:42:24.679Z",
+      "_updated": "2019-05-17T00:42:24.679Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce4e45bc3e78f158f5bd1d6",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Bag of Loot",
+      "description": "A burlap sack, filled with a variety of stolen goods.",
+      "value": 50,
+      "tier": "3",
+      "type": "treasure",
+      "_created": "2019-05-22T05:55:39.759Z",
+      "_updated": "2019-05-22T05:55:39.759Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce52540c3e78f175a5bd9a4",
+      "slot": [
+        "head"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Crown of Wildflowers",
+      "tier": "4",
+      "type": "treasure",
+      "value": 40,
+      "description": "A wreath of exuberant and exotic wildflowers, covering a broad range of colors.",
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "2"
+            ],
+            "_id": "5ce52540c3e78f09975bd9a5",
+            "type": "armor"
+          }
+        ],
+        "description": "The smell of brimstone..."
+      },
+      "_created": "2019-05-22T10:32:32.344Z",
+      "_updated": "2019-06-05T04:12:41.264Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce526ddc3e78f3d005bda13",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Silver Candlestick",
+      "description": "Highly ornate. Worth a few coins.",
+      "value": 8,
+      "tier": "2",
+      "type": "treasure",
+      "_created": "2019-05-22T10:39:25.772Z",
+      "_updated": "2019-05-22T10:39:25.772Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce52722c3e78f4b5d5bda14",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Golden Candlestick",
+      "description": "Highly ornate. Worth a fair amount of gold.",
+      "value": 16,
+      "tier": "3",
+      "type": "treasure",
+      "_created": "2019-05-22T10:40:34.601Z",
+      "_updated": "2019-05-22T10:40:34.601Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce5277ac3e78fa7305bda15",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Commemorative Plate",
+      "description": "The porcelain is adorned with illustrations and runes that celebrate the abolition of slavery.",
+      "value": 6,
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-05-22T10:42:02.870Z",
+      "_updated": "2019-05-22T10:42:02.870Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce527e4c3e78f827b5bda16",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "Ruby Bracelet",
+      "description": "A golden bracelet with five sizable, rectangular rubies.",
+      "value": 75,
+      "tier": "4",
+      "type": "treasure",
+      "_created": "2019-05-22T10:43:48.499Z",
+      "_updated": "2019-05-22T10:43:48.499Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce5283fc3e78f05f05bda17",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "Gold Necklace",
+      "description": "A gold chain without additional adornments.",
+      "value": 30,
+      "tier": "3",
+      "type": "treasure",
+      "_created": "2019-05-22T10:45:19.155Z",
+      "_updated": "2019-05-22T10:45:19.155Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce5286fc3e78fb9aa5bda18",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "Silver Necklace",
+      "description": "A simple design. Sterling silver.",
+      "value": 45,
+      "tier": "3",
+      "type": "treasure",
+      "_created": "2019-05-22T10:46:07.315Z",
+      "_updated": "2019-05-22T10:46:07.315Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce52959c3e78fad685bda19",
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Gold Ring",
+      "description": "A golden ring without additional adornments.",
+      "value": 25,
+      "tier": "3",
+      "type": "treasure",
+      "_created": "2019-05-22T10:50:01.332Z",
+      "_updated": "2019-05-22T11:13:05.522Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce529aac3e78fcdde5bda1a",
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Silver ring",
+      "description": "A silver ring with no additional adornments. Sterling.",
+      "value": 22,
+      "tier": "3",
+      "type": "treasure",
+      "_created": "2019-05-22T10:51:22.411Z",
+      "_updated": "2019-05-22T11:13:12.170Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce52a92c3e78fb3b95bda1b",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Jade Idol",
+      "description": "Made from a precious, green mineral. Sculpted to resemble the foreign goddess of beauty known as Rhubeya.",
+      "value": 60,
+      "tier": "3",
+      "type": "treasure",
+      "_created": "2019-05-22T10:55:14.550Z",
+      "_updated": "2019-05-22T10:55:14.550Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce52b51c3e78f76905bda1c",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Framed Portrait",
+      "description": "Oil on canvas. Golden frame. Captures the likeness of Lord Selikro VIII. Painted by an unknown artist during the fourth century.",
+      "value": 80,
+      "tier": "4",
+      "type": "treasure",
+      "_created": "2019-05-22T10:58:25.359Z",
+      "_updated": "2019-05-22T18:33:16.683Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce52c7dc3e78fb9655bda1d",
+      "slot": [
+        "body"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Red Evening Gown",
+      "description": "Sown by a master tailor, this dress is made from the finest Panossian silk.",
+      "value": 35,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "charisma",
+              "1"
+            ],
+            "_id": "5ce52c7dc3e78f03e75bda1f",
+            "type": "attributes"
+          },
+          {
+            "parameters": [
+              "agility",
+              "-1"
+            ],
+            "_id": "5ce52c7dc3e78f5fba5bda1e",
+            "type": "attributes"
+          }
+        ],
+        "description": "The garment hinders your movement, but you feel quite beautiful..."
+      },
+      "_created": "2019-05-22T11:03:25.783Z",
+      "_updated": "2019-05-22T11:13:57.829Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce52d19c3e78f39915bda20",
+      "slot": [
+        "head"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Fraternal Headpiece",
+      "description": "A tall hat which seems comically ornate and elaborate in its design.",
+      "value": 8,
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-05-22T11:06:01.919Z",
+      "_updated": "2019-05-22T11:13:42.305Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce52fcdc3e78f6c915bda6f",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "Ceremonial Sash",
+      "description": "A strange belt made from cloth. The fanciful embroideries are esoteric and suggestive.",
+      "value": 12,
+      "tier": "2",
+      "type": "treasure",
+      "_created": "2019-05-22T11:17:33.783Z",
+      "_updated": "2019-05-22T11:17:33.783Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce5315ec3e78f06105bda70",
+      "consumption": {
+        "actions": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "name": "Black Dress Shoes",
+      "description": "High-heeled shoes made from wood and cloth, with white embroideries of floral patterns.",
+      "value": 10,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "sideEffects": {
+        "description": "The heels emphasize your figure in a positive, but they hinder your movement...",
+        "passives": [
+          {
+            "parameters": [
+              "charisma",
+              "1"
+            ],
+            "_id": "5ce5315ec3e78fa64a5bda72",
+            "type": "attributes"
+          },
+          {
+            "parameters": [
+              "agility",
+              "-1"
+            ],
+            "_id": "5ce5315ec3e78f46545bda71",
+            "type": "attributes"
+          }
+        ]
+      },
+      "_created": "2019-05-22T11:24:14.367Z",
+      "_updated": "2019-05-22T11:24:14.367Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce5354dc3e78f3cce5bdaf0",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Loaf of Bread",
+      "description": "A sturdy loaf of bread. Provides health and nourishment.",
+      "value": 1,
+      "tier": "1",
+      "type": "food",
+      "consumption": {
+        "uses": 8,
+        "actions": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5ce5354dc3e78f2df15bdaf1",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-05-22T11:41:01.344Z",
+      "_updated": "2019-11-05T02:22:45.657Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce53653c3e78f00975bdaf2",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Block of Cheese",
+      "description": "A sizable brick of cheese from the farmlands of Roeburgh. Provides health and nourishment.",
+      "value": 3,
+      "tier": "2",
+      "type": "food",
+      "consumption": {
+        "uses": 10,
+        "actions": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5ce53653c3e78f67925bdaf3",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-05-22T11:45:23.618Z",
+      "_updated": "2019-05-22T11:45:23.618Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce536eec3e78fad0a5bdaf4",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Blue Cheese",
+      "description": "A lump of blue cheese from the Maleqite Lowlands. Provides health and nourishment.",
+      "value": 4,
+      "tier": "3",
+      "type": "food",
+      "consumption": {
+        "uses": 6,
+        "actions": [
+          {
+            "parameters": [
+              "2"
+            ],
+            "_id": "5ce536eec3e78f41635bdaf5",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-05-22T11:47:58.184Z",
+      "_updated": "2019-05-22T11:47:58.184Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce53757c3e78f1caf5bdaf6",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Jug of Water",
+      "description": "A clay vessel which contains clean water from a mountain spring. Provides health and hydration.",
+      "value": 1,
+      "tier": "1",
+      "type": "food",
+      "consumption": {
+        "uses": 2,
+        "actions": [
+          {
+            "parameters": [
+              "2"
+            ],
+            "_id": "5ce53758c3e78f43e45bdaf7",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-05-22T11:49:44.000Z",
+      "_updated": "2019-05-22T15:23:19.077Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ce5715fc3e78ff8c75be0ab",
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Heart of Stone",
+      "description": "Cut from the elusive red rock, famously quarried on the Isle of Penance. Sculpted to resemble a human heart. Found among the ashes of a psychotic druid.",
+      "value": 125,
+      "tier": "4",
+      "type": "treasure",
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "resilience",
+              "1"
+            ],
+            "_id": "5ce5715fc3e78f24505be0ac",
+            "type": "attributes"
+          }
+        ],
+        "description": "Clutching the red rock, you feel invigorated..."
+      },
+      "_created": "2019-05-22T15:57:19.183Z",
+      "_updated": "2019-05-28T12:52:23.964Z",
+      "__v": 0
+    },
+    {
+      "_id": "5c9348883bae8da7cb2b61e5",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Copper Ring",
+      "description": "A simple ring, typically worn by commoners.",
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-03-21T08:17:12.895Z",
+      "_updated": "2019-05-22T18:26:44.324Z",
+      "__v": 0,
+      "value": 10
+    },
+    {
+      "_id": "5ca5f33c379035241fb1fdfe",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Wolf Necklace",
+      "description": "A crude necklace, made from rock pebbles and wolf teeth.",
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-04-04T12:06:20.121Z",
+      "_updated": "2019-05-22T18:28:18.233Z",
+      "__v": 0,
+      "value": 10
+    },
+    {
+      "_id": "5cacf362379035d02cb22754",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Gold Tooth",
+      "description": "Extracted from the mouth of a desecrated corpse.",
+      "value": 1,
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-04-09T19:32:50.425Z",
+      "_updated": "2019-05-22T18:28:45.851Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cacf3cc3790355a8eb22755",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Silver Earrings",
+      "description": "Ripped from the ears of a desecrated corpse.",
+      "value": 14,
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-04-09T19:34:36.009Z",
+      "_updated": "2019-05-22T18:29:01.471Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ced42a4c3e78fe8135beaa8",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "name": "Winged Bronze Helmet",
+      "value": 50,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 5,
+      "armor": 7,
+      "description": "Traditionally worn by the Knights of Roeburgh. The two sections of the visor is held together by a clasp. The metal wings are quite sharp.",
+      "_created": "2019-05-28T14:16:04.265Z",
+      "_updated": "2019-05-28T14:16:04.265Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ced4368c3e78f0e885beaa9",
+      "slot": [
+        "body"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Bronze Plate Cuirass",
+      "description": "Traditionally worn by the Knights of Roeburgh. Slightly dented, but otherwise pristine.",
+      "value": 150,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 8,
+      "armor": 11,
+      "_created": "2019-05-28T14:19:20.944Z",
+      "_updated": "2019-05-28T14:36:14.267Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ced44d3c3e78f3b015beaaa",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "name": "Bronze Plate Greaves",
+      "description": "Traditionally worn by the Knights of Roeburgh. Protects both legs and feet.",
+      "value": 85,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 7,
+      "armor": 9,
+      "_created": "2019-05-28T14:25:23.004Z",
+      "_updated": "2019-05-28T14:25:23.004Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ced45b9c3e78f135e5beaab",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "name": "Bronze Claymore",
+      "description": "A knightly sword with a few notches on the blade.",
+      "value": 50,
+      "tier": "3",
+      "type": "weapon",
+      "damage": {
+        "min": 10,
+        "max": 12
+      },
+      "encumbrance": 6,
+      "_created": "2019-05-28T14:29:13.630Z",
+      "_updated": "2019-05-28T14:29:13.630Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ced4685c3e78f95005beaac",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "name": "Heavy Bronze Broadsword",
+      "description": "A knightly sword used as a sidearm by the mounted cavalry of Roeburgh.",
+      "type": "weapon",
+      "damage": {
+        "min": 6,
+        "max": 9
+      },
+      "encumbrance": 5,
+      "tier": "3",
+      "value": 40,
+      "_created": "2019-05-28T14:32:37.540Z",
+      "_updated": "2019-05-28T14:32:37.540Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ced4946c3e78f3b255beaba",
+      "slot": [
+        "offHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Red Kite Shield",
+      "description": "A large triangular shield. Traditionally used by the mounted cavalry among the Knights of Roeburgh.",
+      "type": "shield",
+      "encumbrance": 5,
+      "tier": "3",
+      "value": 40,
+      "_created": "2019-05-28T14:44:22.475Z",
+      "_updated": "2019-08-02T13:31:14.147Z",
+      "__v": 0,
+      "blockChance": 0.25
+    },
+    {
+      "_id": "5cf77fe1c3e78f52c75c2a1e",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "name": "Brown Tunic",
+      "description": "This tattered linen garment has been soiled by blood and mead.",
+      "value": 3,
+      "tier": "1",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-06-05T08:40:01.290Z",
+      "_updated": "2019-06-05T08:40:01.290Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cf780bdc3e78f65115c2a1f",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "name": "Black Silk Vest",
+      "description": "A comfortable garment. Suitable for milder climates.",
+      "value": 6,
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-06-05T08:43:41.861Z",
+      "_updated": "2019-06-05T08:43:41.861Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cf78189c3e78f16545c2a20",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "name": "Gray Slouch Hat",
+      "description": "A tall hat with a wide brim.",
+      "value": 4,
+      "tier": "1",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-06-05T08:47:05.862Z",
+      "_updated": "2019-06-05T08:47:05.862Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cf781dcc3e78faf9e5c2a21",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "Black Scarf",
+      "description": "A black linen scarf.",
+      "value": 4,
+      "tier": "1",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-06-05T08:48:28.864Z",
+      "_updated": "2019-06-05T08:48:28.864Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cf782a6c3e78fa37a5c2a22",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "name": "Black Leather Gauntlets",
+      "description": "Reinforced leather gauntlets. A perfect fit.",
+      "value": 30,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 3,
+      "armor": 5,
+      "_created": "2019-06-05T08:51:50.234Z",
+      "_updated": "2019-06-05T08:51:50.234Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cf784e1c3e78f5fc05c2a2c",
+      "slot": [
+        "feet"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Black Silk Pantaloons",
+      "description": "A pair of spacious trousers made from fine silk. Sown together with cloth sandals for maximum comfort.",
+      "value": 10,
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-06-05T09:01:21.850Z",
+      "_updated": "2019-06-05T12:11:45.189Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cf786c5c3e78fa2705c2a2d",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "Tusk Medallion",
+      "description": "A strange medallion. Fragments of a shattered boar tusk have been pieced together with an iron chain, forming a crude necklace.",
+      "value": 5,
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-06-05T09:09:25.424Z",
+      "_updated": "2019-06-05T09:09:25.424Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cf7879bc3e78f31535c2a42",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "name": "Iron Punch Dagger",
+      "description": "Some hoodlums are brawlers, some rogues are knife thugs. Some ruffians want the best of both underworlds.",
+      "value": 25,
+      "tier": "3",
+      "type": "weapon",
+      "encumbrance": 1,
+      "damage": {
+        "min": 2,
+        "max": 6
+      },
+      "_created": "2019-06-05T09:12:59.508Z",
+      "_updated": "2019-06-05T09:12:59.508Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cf7b0dec3e78f6c805c2de2",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Miracle Cure",
+      "description": "This glass vial contains a strange brew. It smells like alcohol.",
+      "value": 10,
+      "tier": "2",
+      "type": "medicine",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "-1"
+            ],
+            "_id": "5cf7b0dec3e78f31335c2de3",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 3
+      },
+      "_created": "2019-06-05T12:09:02.448Z",
+      "_updated": "2019-06-05T12:09:02.448Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d16849cebd3dc396b54cb00",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "offHand"
+      ],
+      "name": "Hunting Bow",
+      "description": "A wooden hunting bow, previously owned by a druid from the Isle of Dusk.",
+      "value": 18,
+      "tier": "2",
+      "type": "weapon",
+      "ranged": true,
+      "rangedAmmunition": "5d12279340fcff8734fb7f70",
+      "damage": {
+        "min": 4,
+        "max": 12
+      },
+      "encumbrance": 1,
+      "_created": "2019-06-28T21:20:28.314Z",
+      "_updated": "2019-06-28T21:20:28.314Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d12279340fcff8734fb7f70",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Arrow",
+      "tier": "1",
+      "type": "ammunition",
+      "value": 4,
+      "_created": "2019-06-25T13:54:27.483Z",
+      "_updated": "2019-06-28T21:21:32.412Z",
+      "__v": 0,
+      "description": "A bronze-tipped arrow."
+    },
+    {
+      "_id": "5d16d680ebd3dcf5f554cc8a",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Moonshine",
+      "description": "A painted clay jug. It reeks of foul spirits.",
+      "value": 10,
+      "tier": "2",
+      "type": "food",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5d16d680ebd3dc2f5354cc8b",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 8
+      },
+      "_created": "2019-06-29T03:09:52.853Z",
+      "_updated": "2019-06-29T03:09:52.853Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d441c978335b4064e8849ec",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Dread Root",
+      "tier": "4",
+      "type": "medicine",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "agility",
+              "1"
+            ],
+            "_id": "5d441c978335b434bb8849ed",
+            "type": "changeStat"
+          }
+        ],
+        "uses": 1
+      },
+      "value": 250,
+      "description": "A rare medicinal ingredient, known for its miraculous effects. Some people grow addicted to chewing these dry roots, which have a bitter taste.",
+      "_created": "2019-08-02T11:20:55.155Z",
+      "_updated": "2019-08-02T11:21:52.438Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d443ad98335b4e7c4884b3d",
+      "slot": [
+        "offHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bone Shield",
+      "description": "A small round buckler, made from iron and the bones of animal carcasses. Two boar tusks adorn the center like crossed sabres.",
+      "value": 50,
+      "tier": "3",
+      "type": "shield",
+      "encumbrance": 4,
+      "blockChance": 0.2,
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5d443ad98335b407ee884b3e",
+            "type": "armor"
+          }
+        ],
+        "description": "Cold shivers tingle down your spine..."
+      },
+      "_created": "2019-08-02T13:30:01.179Z",
+      "_updated": "2019-08-02T13:31:33.350Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d443c4f8335b47dbf884b41",
+      "consumption": {
+        "actions": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "Bone Crown",
+      "description": "A cylindrical crown of tall spikes, made from boar tusks and ivory.",
+      "value": 75,
+      "tier": "4",
+      "type": "treasure",
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "2"
+            ],
+            "_id": "5d443c4f8335b417e5884b42",
+            "type": "armor"
+          }
+        ],
+        "description": "Cold shivers tingle down your spine..."
+      },
+      "_created": "2019-08-02T13:36:15.857Z",
+      "_updated": "2019-08-02T13:36:15.857Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d5479a48335b4c9d888506a",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Iron Battle Axe",
+      "description": "A two-handed axe. Faded runes are inscribed across the twin blades of this cumbersome weapon.",
+      "value": 55,
+      "tier": "4",
+      "type": "weapon",
+      "encumbrance": 6,
+      "damage": {
+        "min": 9,
+        "max": 13
+      },
+      "_created": "2019-08-14T21:14:12.103Z",
+      "_updated": "2019-08-14T21:19:47.977Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d547aa68335b4f1ef88506c",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "name": "Iron Helmet",
+      "description": "A heavy iron helmet with a jagged visor, sculpted to resemble the face of a wolf.",
+      "value": 70,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 6,
+      "armor": 9,
+      "_created": "2019-08-14T21:18:30.572Z",
+      "_updated": "2019-08-14T21:18:30.572Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d54c51a8335b4959d8851d1",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Crone River Eel",
+      "description": "Fish. Charred and salted. A cut of Crone River Eel, the main sustenance and livelihood among the fishermen of Set.",
+      "type": "food",
+      "tier": "3",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "6"
+            ],
+            "_id": "5d54c51a8335b466f28851d2",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 1
+      },
+      "value": 8,
+      "_created": "2019-08-15T02:36:10.455Z",
+      "_updated": "2019-08-15T02:36:10.455Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d54c8c08335b437ca88520a",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "name": "Heavy Iron Greaves",
+      "value": 100,
+      "description": "Crudely sculpted and overly cumbersome, these dark iron greaves provide ample protection for the legs.",
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 8,
+      "armor": 12,
+      "_created": "2019-08-15T02:51:44.998Z",
+      "_updated": "2019-08-15T02:51:44.998Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d54c9a98335b44f6588520b",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "name": "Heavy Iron War Gauntlets",
+      "tier": "4",
+      "value": 100,
+      "description": "Dark iron armguards. The heavy, interlocking segments of plate armor extend above the elbows.",
+      "type": "armor",
+      "encumbrance": 9,
+      "armor": 15,
+      "_created": "2019-08-15T02:55:37.286Z",
+      "_updated": "2019-08-15T02:55:37.286Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d54ca588335b423b088520c",
+      "slot": [
+        "head",
+        "body"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Heavy Iron Chainmail",
+      "tier": "4",
+      "value": 150,
+      "description": "Crude and cumbersome, this dark iron chainmail shirt covers the head and torso.",
+      "type": "armor",
+      "armor": 18,
+      "encumbrance": 9,
+      "_created": "2019-08-15T02:58:32.121Z",
+      "_updated": "2019-08-15T03:00:22.639Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d54cbca8335b44e5788520d",
+      "slot": [
+        "mainHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Heavy Iron Mace",
+      "description": "A massive war club, reinforced by iron bolts.",
+      "tier": "3",
+      "value": 50,
+      "type": "weapon",
+      "encumbrance": 7,
+      "damage": {
+        "min": 3,
+        "max": 20
+      },
+      "_created": "2019-08-15T03:04:42.964Z",
+      "_updated": "2019-08-15T03:16:32.639Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d54cd178335b4ed5988520e",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Iron Pike",
+      "description": "A heavy, iron-tipped spear with considerable reach. Intended for two-handed, close combat.",
+      "tier": "3",
+      "value": 30,
+      "type": "weapon",
+      "encumbrance": 8,
+      "damage": {
+        "min": 1,
+        "max": 18
+      },
+      "_created": "2019-08-15T03:10:15.654Z",
+      "_updated": "2019-08-15T03:16:45.775Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d54ce838335b402a788520f",
+      "slot": [
+        "mainHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Iron War Sickle",
+      "description": "A heavy iron sickle. Its outward curvature is disrupted by sharp angles.",
+      "tier": "4",
+      "type": "weapon",
+      "value": 50,
+      "encumbrance": 5,
+      "damage": {
+        "min": 10,
+        "max": 10
+      },
+      "_created": "2019-08-15T03:16:19.440Z",
+      "_updated": "2019-09-05T16:37:20.427Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d54d09a8335b4689b885212",
+      "consumption": {
+        "actions": []
+      },
+      "slot": [
+        "offHand"
+      ],
+      "name": "Black Iron Shield",
+      "description": "A heavy round shield, reinforced by dark iron. Nigh impenetrable, yet cumbersome - the sheer size of it will provide a measure of safety.",
+      "tier": "3",
+      "type": "shield",
+      "encumbrance": 6,
+      "blockChance": 0.17,
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "4"
+            ],
+            "_id": "5d54d09a8335b4a6cb885213",
+            "type": "armor"
+          }
+        ],
+        "description": "Carrying the heavy shield instills a feeling of invulnerability..."
+      },
+      "value": 50,
+      "_created": "2019-08-15T03:25:14.985Z",
+      "_updated": "2019-08-15T03:25:14.985Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d54f7028335b4572f88526e",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Rope",
+      "description": "A tool that can be used for many purposes.",
+      "tier": "3",
+      "value": 15,
+      "type": "tool",
+      "_created": "2019-08-15T06:09:06.469Z",
+      "_updated": "2019-08-15T06:09:06.469Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d54fabf8335b44ccb885273",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Wolf Idol",
+      "description": "Carved from one solid piece of wood, this angular sculpture has been made to resemble the Great Wolf; the god known as Phenris.",
+      "value": 12,
+      "tier": "2",
+      "type": "treasure",
+      "_created": "2019-08-15T06:25:03.822Z",
+      "_updated": "2019-08-15T06:25:03.822Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d559c758335b42267885326",
+      "consumption": {
+        "actions": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "Silver Pendant",
+      "description": "Jewelry. An heirloom pendant with an engraving of a wolf. Previously owned by a fisherman from the Town of Set.",
+      "value": 35,
+      "tier": "3",
+      "type": "treasure",
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5d559c758335b47216885327",
+            "type": "armor"
+          }
+        ],
+        "description": "The pendant inspires a feeling of reverence. Praised be Phenris!"
+      },
+      "_created": "2019-08-15T17:55:01.970Z",
+      "_updated": "2019-08-15T17:55:01.970Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d6fe9ba8335b43d678868dc",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Report One: The Tusk Mob",
+      "description": "A sealed scroll, bearing the insignia of the Roeburgh Militia. It contains a written report by Chief Hadrian Trout.",
+      "value": 1,
+      "tier": "5",
+      "type": "scripture",
+      "scripture": "5d6fe9778335b40cc98868db",
+      "_created": "2019-09-04T16:43:38.923Z",
+      "_updated": "2019-11-01T04:34:39.438Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d6ff0f68335b4897f8868de",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Report Two: The Khiris Cartel",
+      "description": "A sealed scroll, bearing the insignia of the Roeburgh Militia. It contains a written report by Chief Hadrian Trout.",
+      "value": 1,
+      "tier": "5",
+      "type": "scripture",
+      "scripture": "5d6ff0c88335b412518868dd",
+      "_created": "2019-09-04T17:14:30.536Z",
+      "_updated": "2019-11-01T04:34:58.719Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d715ea8e6ecf34e69a286a0",
+      "consumption": {
+        "actions": []
+      },
+      "slot": [
+        "head"
+      ],
+      "name": "Gotterdammerung",
+      "value": 500,
+      "tier": "4",
+      "type": "armor",
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "perception",
+              "-1"
+            ],
+            "_id": "5d715ea8e6ecf3fbeca286a1",
+            "type": "attributes"
+          }
+        ],
+        "description": "The world seems darker now..."
+      },
+      "encumbrance": 8,
+      "armor": 30,
+      "description": "A great helm, crafted from meteoric steel. Two massive horns have been placed on each side. It was discovered in the Underworld beneath Dusk Megalith.",
+      "_created": "2019-09-05T19:14:48.079Z",
+      "_updated": "2019-09-05T19:14:48.079Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d7cf1f1e6ecf3799ca2a2ba",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "name": "Black Tunic",
+      "description": "A black linen tunic of high quality.",
+      "value": 10,
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-09-14T13:58:09.302Z",
+      "_updated": "2019-09-14T13:58:09.302Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d7cf316e6ecf306fea2a2bb",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "name": "Red Tunic",
+      "description": "A red linen tunic of high quality.",
+      "value": 10,
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-09-14T14:03:02.278Z",
+      "_updated": "2019-09-14T14:03:02.279Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d7cf3c5e6ecf34eb5a2a2bc",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "name": "White Tunic",
+      "description": "A white linen tunic of high quality.",
+      "value": 10,
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-09-14T14:05:57.968Z",
+      "_updated": "2019-09-14T14:05:57.969Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d7cf434e6ecf347e2a2a2bd",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "Black Cape",
+      "description": "A black linen cape of a high quality.",
+      "value": 12,
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-09-14T14:07:48.670Z",
+      "_updated": "2019-09-14T14:07:48.670Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d7cf462e6ecf3544aa2a2be",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "White Cape",
+      "description": "A white linen cape of high quality.",
+      "value": 12,
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-09-14T14:08:34.618Z",
+      "_updated": "2019-09-14T14:08:34.618Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d7cf4aee6ecf349d7a2a2bf",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "Red Cape",
+      "description": "A red linen cape of high quality.",
+      "value": 12,
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-09-14T14:09:50.762Z",
+      "_updated": "2019-09-14T14:09:50.762Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d7d0d4be6ecf37225a2a397",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "name": "White Silk Gloves",
+      "description": "Exquisite long gloves, ill-suited for combat.",
+      "value": 15,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-09-14T15:54:51.419Z",
+      "_updated": "2019-09-14T15:54:51.419Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d7d0dc9e6ecf39144a2a398",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "name": "Wool Cap",
+      "description": "A simple hat, for the less discerning gentleman.",
+      "value": 8,
+      "tier": "1",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 2,
+      "_created": "2019-09-14T15:56:57.908Z",
+      "_updated": "2019-09-14T15:56:57.908Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d7d0ec1e6ecf39618a2a3a2",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "name": "Black Beret",
+      "description": "A black beret of high quality.",
+      "value": 9,
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 2,
+      "_created": "2019-09-14T16:01:05.098Z",
+      "_updated": "2019-09-14T16:01:05.098Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d7d0f3ce6ecf35379a2a3a3",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "White Silk Scarf",
+      "description": "Strictly for the fashionable crowd.",
+      "value": 25,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-09-14T16:03:08.230Z",
+      "_updated": "2019-09-14T16:03:08.230Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d7da7a0e6ecf34627a2ac1f",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Clay Tablet",
+      "description": "Strangely exotic, the runes that have been inscribed on this tablet are barely legible.",
+      "value": 50,
+      "tier": "4",
+      "type": "scripture",
+      "scripture": "5d7d9562e6ecf34964a2a790",
+      "_created": "2019-09-15T02:53:20.585Z",
+      "_updated": "2019-09-15T02:53:20.585Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d8104d2e6ecf308a0a2b6bf",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Advanced Lock Pick",
+      "description": "A sophisticated tool, which can be used to disable the most complicated locks.",
+      "value": 150,
+      "tier": "3",
+      "type": "tool",
+      "_created": "2019-09-17T16:07:46.652Z",
+      "_updated": "2019-09-17T16:07:46.652Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d818559e6ecf31951a2c87a",
+      "consumption": {
+        "actions": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "name": "Spiked Gauntlets",
+      "description": "A pair of iron war gauntlets with large spikes protruding from the knuckles.",
+      "value": 150,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 7,
+      "armor": 12,
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "2",
+              "2"
+            ],
+            "_id": "5d818559e6ecf310eda2c87b",
+            "type": "meleeDamage"
+          }
+        ],
+        "description": "Time to do some damage..."
+      },
+      "_created": "2019-09-18T01:16:09.776Z",
+      "_updated": "2019-09-18T01:16:09.776Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d8186abe6ecf3a4b3a2c87c",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Exotic Perfume",
+      "description": "A small glass vial containing a yellow liquid. Rubbing it on your skin will endow you with a pleasant fragrance.",
+      "value": 200,
+      "tier": "4",
+      "type": "medicine",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "charisma",
+              "1"
+            ],
+            "_id": "5d8186abe6ecf38d6ca2c87d",
+            "type": "changeStat"
+          }
+        ],
+        "uses": 1
+      },
+      "_created": "2019-09-18T01:21:47.214Z",
+      "_updated": "2019-09-18T01:22:04.732Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d823f5bb97fb34a767c2f1c",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Panossian Red Wine",
+      "description": "A bottle of red wine, imported from the distant land of Panosa.",
+      "value": 30,
+      "tier": "4",
+      "type": "food",
+      "consumption": {
+        "uses": 6,
+        "actions": [
+          {
+            "parameters": [
+              "5"
+            ],
+            "_id": "5d823f5bb97fb321e97c2f1d",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-09-18T14:29:47.541Z",
+      "_updated": "2019-09-18T14:29:47.541Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d823fbbb97fb3331a7c2f1e",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Phenrisian Cider",
+      "description": "A bottle of pear cider, brewed by the monks of the Phenrisian Monastery.",
+      "value": 10,
+      "tier": "3",
+      "type": "food",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "2"
+            ],
+            "_id": "5d823fbbb97fb312017c2f1f",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 4
+      },
+      "_created": "2019-09-18T14:31:23.209Z",
+      "_updated": "2019-09-18T14:31:23.209Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d824d71b97fb3561f7c2f8d",
+      "slot": [
+        "mainHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Rondel Dagger",
+      "description": "The long blade of this dagger is quite slim. Perfect for stabbing vital organs.",
+      "value": 25,
+      "tier": "3",
+      "type": "weapon",
+      "encumbrance": 1,
+      "damage": {
+        "max": 7,
+        "min": 3
+      },
+      "_created": "2019-09-18T15:29:53.859Z",
+      "_updated": "2019-09-18T15:30:30.193Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d824e02b97fb3bcc67c2f8e",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "name": "Stiletto",
+      "description": "Flesh is the natural habitat of this narrow blade.",
+      "value": 27,
+      "tier": "3",
+      "type": "weapon",
+      "encumbrance": 1,
+      "damage": {
+        "min": 2,
+        "max": 8
+      },
+      "_created": "2019-09-18T15:32:18.483Z",
+      "_updated": "2019-09-18T15:32:18.483Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d824ee48ec25988c3100754",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "name": "Iron Butcher Knife",
+      "description": "The intimidation factor is hard to quantify.",
+      "value": 22,
+      "tier": "3",
+      "type": "weapon",
+      "encumbrance": 2,
+      "damage": {
+        "min": 6,
+        "max": 6
+      },
+      "_created": "2019-09-18T15:36:04.747Z",
+      "_updated": "2019-09-18T15:36:04.747Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d824f658ec25911cb100755",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "Tattered Fur Mantle",
+      "description": "This garment has seen frequent use, yet it will surely provide its wearer with warmth and protection.",
+      "value": 8,
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 3,
+      "armor": 4,
+      "_created": "2019-09-18T15:38:13.492Z",
+      "_updated": "2019-09-18T15:38:13.492Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d82525f8ec259504810075a",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Jar of Ink",
+      "description": "A small glass jar, which contains the black ink of a squid.",
+      "value": 10,
+      "tier": "3",
+      "type": "tool",
+      "_created": "2019-09-18T15:50:55.821Z",
+      "_updated": "2019-09-18T15:50:55.821Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d8252e88ec259119e10075b",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Empty Parchment",
+      "description": "A sheet of goatskin parchment.",
+      "value": 5,
+      "tier": "3",
+      "type": "tool",
+      "_created": "2019-09-18T15:53:12.807Z",
+      "_updated": "2019-09-18T15:53:12.807Z",
+      "__v": 0
+    },
+    {
+      "_id": "5d8253798ec259648910075c",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Quill",
+      "description": "A feather taken from the wing of a goose. Can be used as a writing implement.",
+      "value": 1,
+      "tier": "1",
+      "type": "tool",
+      "_created": "2019-09-18T15:55:37.862Z",
+      "_updated": "2019-09-18T15:55:37.862Z",
+      "__v": 0
+    },
+    {
+      "_id": "5da3e75fc55b7fd69cf530ba",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "offHand"
+      ],
+      "name": "Longbow",
+      "description": "A large wooden bow with exceptional range. This deadly weapon is a work of exquisite craftmanship.",
+      "value": 100,
+      "tier": "4",
+      "type": "weapon",
+      "encumbrance": 4,
+      "damage": {
+        "min": 8,
+        "max": 16
+      },
+      "ranged": true,
+      "rangedAmmunition": "5d12279340fcff8734fb7f70",
+      "_created": "2019-10-14T03:11:27.147Z",
+      "_updated": "2019-10-14T03:11:27.147Z",
+      "__v": 0
+    },
+    {
+      "_id": "5da48c70c55b7f0d26f5349d",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Map of Graefir Island",
+      "description": "A crudely drawn map on a crumpled scrap of parchment. It shows the way to the Tomb of Hieronymus beyond the northern valley of Graefir Island.",
+      "value": 50,
+      "tier": "5",
+      "type": "tool",
+      "_created": "2019-10-14T14:55:44.360Z",
+      "_updated": "2019-10-15T23:00:46.291Z",
+      "__v": 0
+    },
+    {
+      "_id": "5da74a35ff2c19a943db2a04",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "A History of Graefir Island",
+      "description": "A leather-bound book. It contains a druid perspective on the history of Graefir Island, authored by Sage Ephemeron.",
+      "value": 35,
+      "tier": "3",
+      "type": "scripture",
+      "scripture": "5da3e8b3c55b7ff3eef530ea",
+      "_created": "2019-10-16T16:49:57.393Z",
+      "_updated": "2019-10-16T16:49:57.393Z",
+      "__v": 0
+    },
+    {
+      "_id": "5db9f6a0ff2c19fb5edb5f6b",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Bronze Key",
+      "description": "A small key. You found it in the attic of the smuggler's hideout on the Isle of Bast.",
+      "value": 1,
+      "tier": "5",
+      "type": "tool",
+      "_created": "2019-10-30T20:46:24.315Z",
+      "_updated": "2019-10-30T20:46:24.315Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dbb11ddff2c19ac60db687c",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Palefoot Mushroom",
+      "description": "An edible mushroom. Gray and white with dark spots. It can be harvested on the Isle of Bast.",
+      "value": 1,
+      "tier": "2",
+      "type": "food",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "3"
+            ],
+            "_id": "5dbb11ddff2c19dcdfdb687d",
+            "type": "changeHealth"
+          }
+        ],
+        "uses": 3
+      },
+      "_created": "2019-10-31T16:54:53.971Z",
+      "_updated": "2019-10-31T16:57:08.350Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dc07496ff2c194690db8372",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Smuggler's Notebook",
+      "description": "A small black book. It contains journal entries written by the smuggler known as Red Blake.",
+      "value": 1,
+      "tier": "5",
+      "type": "scripture",
+      "scripture": "5dc0746aff2c19a476db8371",
+      "_created": "2019-11-04T18:57:26.947Z",
+      "_updated": "2019-11-04T18:57:26.947Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dc08fd0ff2c192083db8480",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Sapphire",
+      "description": "A blue gemstone, finely cut.",
+      "value": 125,
+      "tier": "4",
+      "type": "treasure",
+      "_created": "2019-11-04T20:53:36.130Z",
+      "_updated": "2019-11-04T20:53:36.131Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd3cc65f75a9767c85984bf",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "name": "Iron Falchion",
+      "description": "A single-edged, one-handed iron sabre. The pommel has been sculpted to resemble a howling wolf.",
+      "value": 50,
+      "tier": "4",
+      "type": "weapon",
+      "encumbrance": 4,
+      "damage": {
+        "min": 8,
+        "max": 11
+      },
+      "_created": "2019-11-19T11:05:09.558Z",
+      "_updated": "2019-11-19T11:05:09.558Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd3cd0cf75a977a445984c0",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "name": "Studded Leather Boots",
+      "description": "Black, reinforced leather boots, previously worn by a young Militia soldier.",
+      "value": 30,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 3,
+      "armor": 8,
+      "_created": "2019-11-19T11:07:56.568Z",
+      "_updated": "2019-11-19T11:07:56.568Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd3cd89f75a9794455984c1",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "Studded Leather Belt",
+      "description": "A robust belt. The buckle has been sculpted to resemble the head of a wolf.",
+      "value": 25,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 3,
+      "_created": "2019-11-19T11:10:01.761Z",
+      "_updated": "2019-11-19T11:10:01.761Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd3ce36f75a973a145984c3",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "name": "Studded Leather Gauntlets",
+      "description": "Black, reinforced leather gauntlets, previously worn by a young Militia soldier.",
+      "value": 28,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 3,
+      "armor": 7,
+      "_created": "2019-11-19T11:12:54.137Z",
+      "_updated": "2019-11-19T11:12:54.137Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd3ce91f75a97d7375984c4",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "name": "Studded Leather Helmet",
+      "description": "A black, reinforced leather helmet, previously worn by a young Militia soldier.",
+      "value": 30,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 3,
+      "armor": 6,
+      "_created": "2019-11-19T11:14:25.257Z",
+      "_updated": "2019-11-19T11:14:25.257Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd3ef66f75a97e41859869b",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "name": "Iron Scale Hauberk",
+      "description": "A short-sleeved shirt of scale mail armor. Originates from the distant continent of Qad'Malon.",
+      "value": 200,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 6,
+      "armor": 10,
+      "_created": "2019-11-19T13:34:30.248Z",
+      "_updated": "2019-11-19T13:34:30.248Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd3f092f75a9747d359869c",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "name": "Iron Scale Helmet",
+      "description": "A nasal helmet with a scale mail coif. Originates from the distant continent of Qad'Malon.",
+      "value": 120,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 6,
+      "armor": 10,
+      "_created": "2019-11-19T13:39:30.428Z",
+      "_updated": "2019-11-19T13:39:30.428Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd3f110f75a97914359869d",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "name": "Iron Scale Gauntlets",
+      "description": "Heavy iron scale war gauntlets. Originates from the distant continent of Qad'Malon.",
+      "value": 85,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 6,
+      "armor": 10,
+      "_created": "2019-11-19T13:41:36.108Z",
+      "_updated": "2019-11-19T13:41:36.108Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd3f23cf75a976c5159869e",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "name": "Iron Scale Greaves",
+      "description": "Elaborately constructed, the interlocking sections of armor plates are reinforced by thick scales. Originates from the distant continent of Qad'Malon.",
+      "value": 150,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 7,
+      "armor": 10,
+      "_created": "2019-11-19T13:46:36.897Z",
+      "_updated": "2019-11-19T13:46:36.897Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd3f340f75a97c5bb59869f",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "name": "Heavy Iron Flail",
+      "description": "A spiked iron ball, attached to a chain with a handle.",
+      "value": 75,
+      "tier": "4",
+      "type": "weapon",
+      "damage": {
+        "max": 16,
+        "min": 5
+      },
+      "encumbrance": 7,
+      "_created": "2019-11-19T13:50:56.227Z",
+      "_updated": "2019-11-19T13:50:56.227Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd3f3d6f75a972a545986a0",
+      "slot": [
+        "mainHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Raven's Beak",
+      "description": "A sharp war hammer. The head has been sculpted to resemble a raven's beak. Originates from the distant continent of Qad'Malon.",
+      "value": 125,
+      "tier": "4",
+      "type": "weapon",
+      "encumbrance": 7,
+      "damage": {
+        "max": 17,
+        "min": 10
+      },
+      "_created": "2019-11-19T13:53:26.961Z",
+      "_updated": "2019-11-19T13:54:08.187Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd3f49cf75a975b705986a1",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "offHand"
+      ],
+      "name": "Red Tower Shield",
+      "description": "A large rectangular shield. The intarsia depicts a golden chimera, symbolic of the imperial power of Qad'Malon.",
+      "value": 80,
+      "tier": "4",
+      "type": "shield",
+      "encumbrance": 8,
+      "blockChance": 0.25,
+      "_created": "2019-11-19T13:56:44.960Z",
+      "_updated": "2019-11-19T13:56:44.960Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd57d72f75a975c1359c90e",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "name": "Black Leather Hauberk",
+      "description": "A shirt made from hardened leather, with studded pauldrons. Originates from the distant continent of Qad'Malon.",
+      "value": 100,
+      "tier": "4",
+      "type": "armor",
+      "armor": 8,
+      "encumbrance": 3,
+      "_created": "2019-11-20T17:52:50.800Z",
+      "_updated": "2019-11-20T17:52:50.800Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd594c6f75a971bde59ca34",
+      "slot": [
+        "head"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Studded Black Leather Helmet",
+      "value": 40,
+      "tier": "4",
+      "description": "A full helmet made from hardened leather. Originates from the distant continent of Qad'Malon.",
+      "type": "armor",
+      "encumbrance": 3,
+      "armor": 8,
+      "_created": "2019-11-20T19:32:22.527Z",
+      "_updated": "2019-11-20T19:32:41.537Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd5d93ff75a9721c459e244",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "name": "Snake Dagger",
+      "description": "A short iron dagger. The handle has been sculpted to resemble a coiled serpent.",
+      "value": 35,
+      "tier": "3",
+      "type": "weapon",
+      "encumbrance": 1,
+      "damage": {
+        "min": 2,
+        "max": 9
+      },
+      "_created": "2019-11-21T00:24:31.555Z",
+      "_updated": "2019-11-21T00:24:31.555Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd7378ef75a97535059eb95",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Coded Message",
+      "description": "A coded message has been written on this parchment. It doesn't make any sense to you. The intented recipient is the lord of Highcastle.",
+      "value": 1,
+      "tier": "5",
+      "type": "tool",
+      "_created": "2019-11-22T01:19:10.633Z",
+      "_updated": "2019-11-22T01:19:10.633Z",
+      "__v": 0
+    },
+    {
+      "_id": "5de667adf75a9779e659f1bb",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Roeburghian White Wine",
+      "description": "A bottle of white wine, originating from the vineyards of Lord's Peninsula.",
+      "value": 20,
+      "tier": "3",
+      "type": "food",
+      "consumption": {
+        "uses": 6,
+        "actions": [
+          {
+            "parameters": [
+              "3"
+            ],
+            "_id": "5de667adf75a97fa1359f1bc",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-12-03T13:48:29.679Z",
+      "_updated": "2019-12-03T13:48:29.679Z",
+      "__v": 0
+    },
+    {
+      "_id": "5de668ecf75a9707e659f1c1",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Maleqite Brandy",
+      "description": "A bottle of fine spirits, imported from the lowlands of Malequiem. Not for the weak of heart.",
+      "value": 25,
+      "tier": "4",
+      "type": "food",
+      "consumption": {
+        "uses": 12,
+        "actions": [
+          {
+            "parameters": [
+              "2"
+            ],
+            "_id": "5de668ecf75a9772df59f1c2",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-12-03T13:53:48.931Z",
+      "_updated": "2019-12-03T13:53:48.931Z",
+      "__v": 0
+    },
+    {
+      "_id": "5de674edf75a97221159f24a",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Room Key",
+      "description": "Runes have been engraved on this small silver key. The inscription reads: \"Room Four\". The key unlocks a private chamber on the second floor of the Stray Wolf Inn.",
+      "value": 10,
+      "tier": "5",
+      "type": "tool",
+      "_created": "2019-12-03T14:45:01.618Z",
+      "_updated": "2019-12-03T19:56:21.660Z",
+      "__v": 0
+    },
+    {
+      "_id": "5de8cff0f75a973a2559fc23",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Brothel Token",
+      "description": "A large copper coin. One side shows a lewd representation of a woman. Runes have been inscribed on the other side of the coin. The inscription reads: “Golden Serpent Parlor House.”",
+      "value": 50,
+      "tier": "1",
+      "type": "tool",
+      "_created": "2019-12-05T09:37:52.954Z",
+      "_updated": "2019-12-10T09:12:04.438Z",
+      "__v": 0
+    },
+    {
+      "_id": "5def297ff75a97ff0359fc51",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Mead",
+      "description": "A corked bottle of honey-wine, which is a popular alcoholic beverage on the western highlands of Tem Khiris.",
+      "value": 5,
+      "tier": "1",
+      "type": "food",
+      "consumption": {
+        "uses": 4,
+        "actions": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5def297ff75a9733dc59fc52",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2019-12-10T05:13:35.815Z",
+      "_updated": "2019-12-10T05:13:35.815Z",
+      "__v": 0
+    }
+  ]
 }

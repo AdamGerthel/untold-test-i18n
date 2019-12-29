@@ -1,6 +1,4414 @@
 {
-  "total": 0,
-  "limit": 0,
+  "total": 165,
+  "limit": 1500,
   "skip": 0,
-  "data": []
+  "data": [
+    {
+      "_id": "5c7d4db2fd6b490fc0456b23",
+      "label": [
+        "Explore the western plains"
+      ],
+      "weight": 2,
+      "map": true,
+      "from": "5c7d46a0fd6b494077456b05",
+      "to": "5c7d4ceffd6b4972fa456b21",
+      "_created": "2019-03-04T16:09:22.749Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5c7d46b8fd6b497bd2456b06",
+              "5c7d46c5132d9400002ecb68",
+              "5c7d4a94132d9400002ecb71",
+              "5c7d4abb132d9400002ecb72"
+            ]
+          ],
+          "_id": "5c7d4e6bfd6b4936fb456b25",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [],
+      "__v": 0,
+      "_updated": "2019-04-15T07:55:31.843Z"
+    },
+    {
+      "_id": "5c7d5022fd6b49f7e7456b2b",
+      "label": [],
+      "map": true,
+      "from": "5c7d4d43fd6b49c1a7456b22",
+      "to": "5c7d46a0fd6b494077456b05",
+      "_created": "2019-03-04T16:19:46.281Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0,
+      "_updated": "2019-03-18T22:00:51.217Z"
+    },
+    {
+      "_id": "5c7d4ddcfd6b4929c7456b24",
+      "label": [
+        "Follow the footprints"
+      ],
+      "weight": 1,
+      "map": true,
+      "from": "5c7d46a0fd6b494077456b05",
+      "to": "5c7d4d43fd6b49c1a7456b22",
+      "_created": "2019-03-04T16:10:04.115Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5c7d46b8fd6b497bd2456b06",
+              "5c7d46c5132d9400002ecb68",
+              "5c7d4a94132d9400002ecb71",
+              "5c7d4abb132d9400002ecb72"
+            ]
+          ],
+          "_id": "5c7d4e88fd6b493467456b26",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5c7d5f339c4a0b000079d375",
+          "scene": "5c7d55fcfd6b49be49456b35",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0,
+      "_updated": "2019-04-14T04:10:06.971Z"
+    },
+    {
+      "_id": "5c7e46238777bd40179e6841",
+      "label": [],
+      "map": true,
+      "from": "5c7d8786fd6b49c4e2456b97",
+      "to": "5c7d4d43fd6b49c1a7456b22",
+      "_created": "2019-03-05T09:49:23.909Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0,
+      "_updated": "2019-03-18T22:00:55.839Z"
+    },
+    {
+      "_id": "5c7e459b8777bdc1a39e683f",
+      "label": [
+        "Cross the shallows"
+      ],
+      "map": true,
+      "from": "5c7d4d43fd6b49c1a7456b22",
+      "to": "5c7d8786fd6b49c4e2456b97",
+      "_created": "2019-03-05T09:47:07.914Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5c7d5e30fd6b4966f5456b52",
+              "5c7d5ec49c4a0b000079d374",
+              "5c7d602c9c4a0b000079d377"
+            ]
+          ],
+          "_id": "5c86dea1bbdb6bb7995868ee",
+          "type": "hasUsedOption"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5c8031eb7c630500000aed6c",
+          "scene": "5c7e45e88777bd437c9e6840",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0,
+      "_updated": "2019-03-18T22:01:16.773Z"
+    },
+    {
+      "_id": "5c8041d20e37486294c601b7",
+      "label": [
+        "Climb the ladder"
+      ],
+      "map": false,
+      "from": "5c8035d00e37480150c6018d",
+      "to": "5c8041b00e37483a86c601b5",
+      "_created": "2019-03-06T21:55:30.254Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0,
+      "_updated": "2019-03-18T22:01:21.614Z"
+    },
+    {
+      "_id": "5c8041ed0e374844f7c601b8",
+      "label": [
+        "Climb back down"
+      ],
+      "map": false,
+      "from": "5c8041b00e37483a86c601b5",
+      "to": "5c8035d00e37480150c6018d",
+      "_created": "2019-03-06T21:55:57.924Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0,
+      "_updated": "2019-03-18T22:01:23.536Z"
+    },
+    {
+      "_id": "5c8036380e3748cea7c6018f",
+      "label": [
+        "Go outside"
+      ],
+      "map": false,
+      "from": "5c8035d00e37480150c6018d",
+      "to": "5c7d8786fd6b49c4e2456b97",
+      "_created": "2019-03-06T21:06:00.184Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5c81845511d8a800003c55e9",
+          "scene": "5c817ede0e3748aba9c601e2",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0,
+      "_updated": "2019-03-18T22:01:25.284Z"
+    },
+    {
+      "_id": "5c7e46ea8777bdea899e6847",
+      "label": [
+        "Follow the footprints"
+      ],
+      "weight": -1,
+      "map": true,
+      "from": "5c7d8786fd6b49c4e2456b97",
+      "to": "5c7e46598777bd4dd69e6842",
+      "_created": "2019-03-05T09:52:42.324Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5c7d871ffd6b49f527456b86",
+              "5c7d888a9c4a0b000079d381",
+              "5cc14c8eecc5d300006cf59d",
+              "5cc14ccdecc5d300006cf59e"
+            ]
+          ],
+          "_id": "5cc1582dc065f06f499465b0",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5c818bf911d8a800003c55f2",
+          "scene": "5c8186d10e37487140c60214",
+          "conditions": [],
+          "maxAccounts": 1
+        },
+        {
+          "_id": "5c81988b11d8a800003c5604",
+          "scene": "5c8197730e3748e47cc60239",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5c8186d10e37487140c60214",
+                  "5c818dd111d8a800003c55f8",
+                  "5c81919211d8a800003c55fb"
+                ]
+              ],
+              "_id": "5c8198cf0e374877dcc6023d",
+              "type": "hasUsedOption"
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0,
+      "_updated": "2019-04-25T06:48:13.310Z"
+    },
+    {
+      "_id": "5c7e46f58777bdc8aa9e6848",
+      "label": [],
+      "map": true,
+      "from": "5c7e46598777bd4dd69e6842",
+      "to": "5c7d8786fd6b49c4e2456b97",
+      "_created": "2019-03-05T09:52:53.817Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0,
+      "_updated": "2019-03-18T22:01:28.541Z"
+    },
+    {
+      "_id": "5c82a8b60e37482696c60264",
+      "label": [],
+      "map": true,
+      "from": "5c7e46818777bd37f59e6844",
+      "to": "5c7e46598777bd4dd69e6842",
+      "_created": "2019-03-08T17:39:02.093Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5c85755f0d6bd30000bcc99d",
+          "scene": "5c85bd410e37485837c60336",
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "_updated": "2019-03-18T22:01:13.826Z"
+    },
+    {
+      "_id": "5ca3a96b3790351da0b1cdc5",
+      "label": [
+        "Follow the footprints"
+      ],
+      "map": true,
+      "from": "5c7e46598777bd4dd69e6842",
+      "to": "5c7e46818777bd37f59e6844",
+      "_created": "2019-04-02T18:26:51.878Z",
+      "_updated": "2019-04-02T18:28:00.274Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5ca3a9a1e05ae4000000bd8a",
+          "scene": "5c85b9b00e37483b92c60322",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cc15b50c065f07c339465b8",
+      "label": [
+        "Approach the shack",
+        "Enter the shack"
+      ],
+      "weight": 2,
+      "map": false,
+      "from": "5c7d8786fd6b49c4e2456b97",
+      "to": "5c8035d00e37480150c6018d",
+      "encounters": [
+        {
+          "_id": "5cc15b1f8fa65f0000e23ed6",
+          "scene": "5cc1576cc065f0c5de9465a9",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "_created": "2019-04-25T07:01:36.231Z",
+      "_updated": "2019-04-25T07:01:36.231Z",
+      "availability": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d013ec10b4b62931a34cf84",
+      "label": [],
+      "weight": 0,
+      "map": true,
+      "from": "5d011f7a0b4b622f9334cf68",
+      "to": "5d011f4d0b4b62513134cf62",
+      "_created": "2019-06-12T18:04:49.125Z",
+      "_updated": "2019-06-12T18:04:49.125Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d139e46ebd3dc978154cad8",
+      "label": [
+        "Enter the Town of Set"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda7408c3e78ff7fc5bb29e",
+      "to": "5d011f7a0b4b622f9334cf68",
+      "_created": "2019-06-26T16:33:10.305Z",
+      "_updated": "2019-06-26T16:33:10.305Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d1a32e7ebd3dccb7b54d2a1",
+      "label": [],
+      "weight": 0,
+      "map": true,
+      "from": "5cda7424c3e78f584d5bb2a0",
+      "to": "5cda73f2c3e78f22075bb29d",
+      "_created": "2019-07-01T16:20:55.626Z",
+      "_updated": "2019-07-01T16:20:55.626Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d1a3626ebd3dc89f154d2a9",
+      "label": [
+        "Approach the camp"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda7424c3e78f584d5bb2a0",
+      "to": "5cda743fc3e78f6e485bb2a2",
+      "_created": "2019-07-01T16:34:46.620Z",
+      "_updated": "2019-07-01T16:34:46.620Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d54a3d38335b4be4b88515d",
+      "label": [
+        "Leave Hadrian's office"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5d54a2af8335b48e2588515a",
+      "to": "5d011f7a0b4b622f9334cf68",
+      "_created": "2019-08-15T00:14:11.772Z",
+      "_updated": "2019-08-15T00:14:11.772Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5c86c8cabbdb6bf6815868e4",
+      "label": [
+        "Go to the Dusk Megalith"
+      ],
+      "map": true,
+      "from": "5c7e46818777bd37f59e6844",
+      "to": "5c86c725bbdb6b79c65868e3",
+      "_created": "2019-03-11T20:44:58.152Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5c866dd20e3748697bc604ab",
+              "5c867693af99c300009fc132"
+            ]
+          ],
+          "_id": "5c8e56f515314052438056b3",
+          "type": "hasSeenNode"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5c87a2e16e364b000068aff4",
+          "scene": "5c86db97bbdb6b8c3c5868ed",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0,
+      "_updated": "2019-03-17T14:17:25.274Z"
+    },
+    {
+      "_id": "5c86ca74bbdb6b18b45868e5",
+      "label": [],
+      "map": true,
+      "from": "5c86c725bbdb6b79c65868e3",
+      "to": "5c7e46818777bd37f59e6844",
+      "_created": "2019-03-11T20:52:04.079Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5c8a09a13ec97f0000c1e764",
+          "scene": "5c8a0965c5ffe4bf1ac268d9",
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "_updated": "2019-03-14T07:58:43.687Z"
+    },
+    {
+      "_id": "5c8e7d631531401787805839",
+      "label": [
+        "Go back down"
+      ],
+      "map": true,
+      "from": "5c8ac984190288866df94cce",
+      "to": "5c8ac9bd19028894c6f94cd0",
+      "_created": "2019-03-17T17:01:23.550Z",
+      "_updated": "2019-04-08T09:04:33.179Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cab02ef90542e00003c5738",
+          "scene": "5cab021d3790351c31b2230b",
+          "conditions": [
+            {
+              "parameters": [
+                0.2
+              ],
+              "_id": "5cab03143790354cffb22311",
+              "type": "random"
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5c8e7f141531404aae80583f",
+      "label": [
+        "Go back to the ruinous pylon"
+      ],
+      "map": true,
+      "from": "5c8ac9d6190288d1c5f94cd1",
+      "to": "5c8ac9bd19028894c6f94cd0",
+      "_created": "2019-03-17T17:08:36.182Z",
+      "_updated": "2019-03-17T17:08:36.182Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5c8fe9723bae8d9d2e2b5e5e",
+      "label": [
+        "Go back upstairs"
+      ],
+      "map": true,
+      "from": "5c8acac119028881aff94cd6",
+      "to": "5c8ac9ef1902884ef7f94cd2",
+      "_created": "2019-03-18T18:54:42.366Z",
+      "_updated": "2019-03-18T19:46:16.881Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5c8fe9eb3bae8d415a2b5e64",
+      "label": [
+        "Go back upstairs"
+      ],
+      "map": true,
+      "from": "5c8acacd1902888d11f94cd7",
+      "to": "5c8aca8d1902883dadf94cd4",
+      "_created": "2019-03-18T18:56:43.098Z",
+      "_updated": "2019-03-18T19:54:51.006Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5c8fe92a3bae8df3bf2b5e5c",
+      "label": [
+        "Go back to the surface"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5c8aca7b19028861c4f94cd3",
+      "to": "5c8ac9bd19028894c6f94cd0",
+      "_created": "2019-03-18T18:53:30.294Z",
+      "_updated": "2019-04-12T11:42:24.120Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5c8fe9c03bae8d62112b5e62",
+      "label": [
+        "Go back to the surface"
+      ],
+      "map": true,
+      "from": "5c8aca8d1902883dadf94cd4",
+      "to": "5c8ac9d6190288d1c5f94cd1",
+      "_created": "2019-03-18T18:56:00.046Z",
+      "_updated": "2019-03-18T20:01:33.875Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5c8fe9483bae8d80872b5e5d",
+      "label": [
+        "Return to the hall of chapels"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5c8ac9ef1902884ef7f94cd2",
+      "to": "5c8aca7b19028861c4f94cd3",
+      "_created": "2019-03-18T18:54:00.366Z",
+      "_updated": "2019-04-12T11:42:13.484Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5caa97a1f794af0000b7f582",
+          "scene": "5caa83c23790355b2db21a58",
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5c8fe9183bae8d33142b5e5b",
+      "label": [
+        "Go downstairs"
+      ],
+      "map": true,
+      "from": "5c8ac9ef1902884ef7f94cd2",
+      "to": "5c8acac119028881aff94cd6",
+      "_created": "2019-03-18T18:53:12.251Z",
+      "_updated": "2019-03-20T21:37:39.802Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5c8fd2503bae8ddc2e2b5e45",
+              "5c8fd2310872ba00000e01a2",
+              "5c92b04792cebe0000e07547"
+            ]
+          ],
+          "_id": "5c92b2a33bae8dd9522b5f6e",
+          "type": "hasUsedOption"
+        }
+      ],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5c8fe9d53bae8d1f502b5e63",
+      "label": [
+        "Go downstairs"
+      ],
+      "map": true,
+      "from": "5c8aca8d1902883dadf94cd4",
+      "to": "5c8acacd1902888d11f94cd7",
+      "_created": "2019-03-18T18:56:21.583Z",
+      "_updated": "2019-03-21T05:41:52.850Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5c8fd3dd3bae8d741f2b5e49",
+              "5c8fd2ab0872ba00000e01a4",
+              "5c9322c7fed6460000b4968e"
+            ]
+          ],
+          "_id": "5c9324203bae8dabb42b610a",
+          "type": "hasUsedOption"
+        }
+      ],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5c8fe9fd3bae8d74a82b5e65",
+      "label": [
+        "Explore the bright passage"
+      ],
+      "map": true,
+      "from": "5c8aca8d1902883dadf94cd4",
+      "to": "5c8acaa219028894d6f94cd5",
+      "_created": "2019-03-18T18:57:01.383Z",
+      "_updated": "2019-03-21T05:49:14.528Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5c8fd3dd3bae8d741f2b5e49",
+              "5c8fd2ab0872ba00000e01a4",
+              "5c9322c7fed6460000b4968e"
+            ]
+          ],
+          "_id": "5c9324413bae8d23592b610b",
+          "type": "hasUsedOption"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5c932556fed6460000b49696",
+          "scene": "5c9325413bae8de2232b6110",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5c9325413bae8de2232b6110",
+                  "5c9324d5fed6460000b49691",
+                  "5c9324e1fed6460000b49692"
+                ]
+              ],
+              "_id": "5c9325a33bae8d719b2b6118",
+              "type": "hasUsedOption",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5c8fe9b13bae8d2c092b5e61",
+      "label": [
+        "Enter the cavern"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5c8ac9d6190288d1c5f94cd1",
+      "to": "5c8aca8d1902883dadf94cd4",
+      "_created": "2019-03-18T18:55:45.671Z",
+      "_updated": "2019-04-14T04:36:58.674Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5ca3b2873790358793b1cddb",
+              "5ca46253e05ae4000000bdaa"
+            ]
+          ],
+          "_id": "5ca4644b3790357c51b1d01b",
+          "type": "hasSeenNode"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5ca49329f166110000987872",
+          "scene": "5ca48f96379035f785b1d128",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5ca48f96379035f785b1d128",
+                  "5ca48e0ff166110000987866",
+                  "5ca48e72f166110000987867",
+                  "5ca48ff4f16611000098786b"
+                ]
+              ],
+              "_id": "5ca4947137903598beb1d14b",
+              "type": "hasSeenOptionOutcome",
+              "negate": true
+            },
+            {
+              "parameters": [
+                "5c8aca8d1902883dadf94cd4"
+              ],
+              "_id": "5ca494713790350496b1d14a",
+              "type": "hasSeenLocation",
+              "negate": true
+            }
+          ]
+        },
+        {
+          "_id": "5ca4932af166110000987873",
+          "scene": "5ca492f8379035ded3b1d13f",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5ca48f96379035f785b1d128",
+                  "5ca48e0ff166110000987866",
+                  "5ca48e72f166110000987867",
+                  "5ca48ff4f16611000098786b"
+                ]
+              ],
+              "_id": "5ca494713790356379b1d148",
+              "type": "hasSeenOptionOutcome",
+              "negate": false
+            },
+            {
+              "parameters": [
+                "5c8aca8d1902883dadf94cd4"
+              ],
+              "_id": "5ca4947137903541f3b1d147",
+              "type": "hasSeenLocation",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5caa521f379035a739b21846",
+      "label": [
+        "Go back to the first chapel"
+      ],
+      "weight": 1,
+      "map": false,
+      "from": "5caa502137903509bcb21826",
+      "to": "5c8aca7b19028861c4f94cd3",
+      "_created": "2019-04-07T19:40:15.042Z",
+      "_updated": "2019-04-12T11:13:20.520Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5caa57013790352cebb2184f",
+      "label": [
+        "Approach the next doorway",
+        "Approach the third chapel"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5caa502137903509bcb21826",
+      "to": "5caa504b3790359864b21827",
+      "_created": "2019-04-07T20:01:05.671Z",
+      "_updated": "2019-04-12T11:36:27.233Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5caa6164f794af0000b7f511",
+          "scene": "5caa615b3790357bd8b218ba",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5caa572a3790352dbcb21850",
+      "label": [
+        "Go back to the second chapel"
+      ],
+      "weight": 1,
+      "map": false,
+      "from": "5caa504b3790359864b21827",
+      "to": "5caa502137903509bcb21826",
+      "_created": "2019-04-07T20:01:46.194Z",
+      "_updated": "2019-04-12T11:36:11.263Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5caa5a8d3790355e9cb21872",
+      "label": [
+        "Explore the end of the hallway",
+        "Approach the dark chamber"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5caa504b3790359864b21827",
+      "to": "5caa506b37903513dcb21829",
+      "_created": "2019-04-07T20:16:13.947Z",
+      "_updated": "2019-04-12T11:36:18.897Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5caa627af794af0000b7f519",
+          "scene": "5caa626a379035d652b218c3",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5caa5aba3790356e9fb21873",
+      "label": [
+        "Go back to the third chapel"
+      ],
+      "weight": 1,
+      "map": false,
+      "from": "5caa506b37903513dcb21829",
+      "to": "5caa504b3790359864b21827",
+      "_created": "2019-04-07T20:16:58.778Z",
+      "_updated": "2019-04-12T11:37:07.736Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5caa50dc3790359872b2182a",
+      "label": [
+        "Approach the next doorway",
+        "Approach the second chapel"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5c8aca7b19028861c4f94cd3",
+      "to": "5caa502137903509bcb21826",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5ca39b06379035d1bbb1cd65",
+              "5ca39957f4de0b0000893730",
+              "5caa45eff794af0000b7f4ef",
+              "5caa477af794af0000b7f4f0"
+            ]
+          ],
+          "_id": "5caa50dc379035b0e2b2182b",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-04-07T19:34:52.054Z",
+      "_updated": "2019-04-12T11:36:22.681Z",
+      "encounters": [
+        {
+          "_id": "5caa5f13f794af0000b7f506",
+          "scene": "5caa5f0337903570d7b218b2",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5c8fe8eb3bae8d116a2b5e5a",
+      "label": [
+        "Explore the first chapel",
+        "Enter the first chapel"
+      ],
+      "weight": -1,
+      "map": true,
+      "from": "5c8aca7b19028861c4f94cd3",
+      "to": "5c8ac9ef1902884ef7f94cd2",
+      "_created": "2019-03-18T18:52:27.289Z",
+      "_updated": "2019-05-09T11:13:00.986Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5ca39b06379035d1bbb1cd65",
+              "5ca39957f4de0b0000893730",
+              "5caa45eff794af0000b7f4ef",
+              "5caa477af794af0000b7f4f0"
+            ]
+          ],
+          "_id": "5caa4f30379035958cb21825",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5caa8bc6f794af0000b7f568",
+          "scene": "5caa83b3379035320bb21a57",
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5c9ba69d379035432cb1bfd6",
+      "label": [
+        "Approach the summit"
+      ],
+      "weight": -2,
+      "map": true,
+      "from": "5c8ac9bd19028894c6f94cd0",
+      "to": "5c8ac984190288866df94cce",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5ca3908a379035f3d7b1cd0e",
+              "5ca3905ef4de0b0000893716",
+              "5ca39524f4de0b0000893727",
+              "5ca395d3f4de0b0000893728"
+            ]
+          ],
+          "_id": "5ca39736379035b932b1cd57",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-03-27T16:36:45.959Z",
+      "_updated": "2019-11-02T14:48:18.258Z",
+      "encounters": [
+        {
+          "_id": "5cab026390542e00003c5737",
+          "scene": "5cab02513790353797b2230c",
+          "conditions": [
+            {
+              "parameters": [
+                0.2
+              ],
+              "_id": "5cab02e33790357e4db2230f",
+              "type": "random"
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5c8e586f1531408318805708",
+      "label": [
+        "Cross the bridge"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5c86c725bbdb6b79c65868e3",
+      "to": "5c8ac9bd19028894c6f94cd0",
+      "_created": "2019-03-17T14:23:43.818Z",
+      "_updated": "2019-11-01T17:05:58.424Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5c8e588075a6820000259ae1",
+          "scene": "5c8e579e1531403d03805706",
+          "conditions": [
+            {
+              "parameters": [
+                "5c8ac9bd19028894c6f94cd0"
+              ],
+              "_id": "5cab14343790353ecdb22347",
+              "type": "hasSeenLocation",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5c9001503bae8d0c3b2b5e72",
+      "label": [],
+      "weight": 1,
+      "map": true,
+      "from": "5c8ac9bd19028894c6f94cd0",
+      "to": "5c86c725bbdb6b79c65868e3",
+      "_created": "2019-03-18T20:36:32.282Z",
+      "_updated": "2019-11-02T14:48:27.769Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cab178390542e00003c576d",
+          "scene": "5cab16c4379035f37bb22350",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5c8e22cc1902884a12f94ce2",
+                  "5caaf31090542e00003c572c"
+                ]
+              ],
+              "_id": "5cab17e23790350997b22361",
+              "type": "hasCompletedObjective"
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cac8b2c379035706eb22677",
+      "label": [
+        "Go back outside"
+      ],
+      "weight": 5000,
+      "map": false,
+      "from": "5cac83eb3790353ecbb2264a",
+      "to": "5c8acaa219028894d6f94cd5",
+      "_created": "2019-04-09T12:08:12.523Z",
+      "_updated": "2019-09-12T14:38:49.905Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cac87573790354d29b22650",
+      "label": [
+        "Approach the tavern"
+      ],
+      "weight": 4,
+      "map": false,
+      "from": "5cac84ec379035285bb2264b",
+      "to": "5cac83eb3790353ecbb2264a",
+      "_created": "2019-04-09T11:51:51.586Z",
+      "_updated": "2019-04-13T23:30:15.608Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cac8dd965797e0000a0ecac",
+          "scene": "5cac8b573790357d89b22678",
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cacc1ec3790354bafb226c8",
+      "label": [
+        "Go upstairs"
+      ],
+      "weight": -99,
+      "map": false,
+      "from": "5cac83eb3790353ecbb2264a",
+      "to": "5cacc1bb37903544b0b226c7",
+      "_created": "2019-04-09T16:01:48.928Z",
+      "_updated": "2019-09-12T14:38:43.663Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5cac8b973790352857b2267a",
+              "5cac8c4e65797e0000a0eca6",
+              "5cacc06af0ac3000003e886a",
+              "5cacc08df0ac3000003e886c"
+            ]
+          ],
+          "_id": "5cacce4d379035d30eb22700",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5cacc7d27ab16200002efe60",
+          "scene": "5cacc31d3790359eceb226ca",
+          "conditions": [
+            {
+              "parameters": [
+                "perception",
+                "greaterThanOrEqual",
+                "2"
+              ],
+              "_id": "5cacc7f93790358e9bb226d6",
+              "type": "stat"
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cacc213379035f85ab226c9",
+      "label": [
+        "Go back downstairs"
+      ],
+      "map": false,
+      "from": "5cacc1bb37903544b0b226c7",
+      "to": "5cac83eb3790353ecbb2264a",
+      "_created": "2019-04-09T16:02:27.299Z",
+      "_updated": "2019-04-09T22:15:17.533Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cad16c77ab16200002efe94",
+          "scene": "5cad0f013790354b2ab22788",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5cacc850379035e26eb226d7",
+                  "5cacc8557ab16200002efe61",
+                  "5cacece57ab16200002efe70",
+                  "5caced077ab16200002efe71"
+                ]
+              ],
+              "_id": "5cad1739379035cddfb227bc",
+              "type": "hasSeenOptionOutcome"
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cb213d0c065f0f23194260c",
+      "label": [
+        "Climb down the rope ladder"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cac855f379035943eb2264c",
+      "to": "5c8acaa219028894d6f94cd5",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5cb2119ec065f03dfe942600",
+              "5cb21131a8d68b00008afa08",
+              "5cb2123ba8d68b00008afa0b",
+              "5cb2129ba8d68b00008afa0c"
+            ]
+          ],
+          "_id": "5cb213d0c065f07a2c94260d",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-04-13T16:52:32.893Z",
+      "_updated": "2019-04-13T16:52:32.893Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cb21365c065f0172594260a",
+      "label": [
+        "Go downstairs"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cac855f379035943eb2264c",
+      "to": "5cb20b1fc065f067219425c1",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5cb2119ec065f03dfe942600",
+              "5cb21131a8d68b00008afa08",
+              "5cb21150a8d68b00008afa09",
+              "5cb21164a8d68b00008afa0a"
+            ]
+          ],
+          "_id": "5cb21365c065f0f47d94260b",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-04-13T16:50:45.969Z",
+      "_updated": "2019-04-13T17:06:31.592Z",
+      "encounters": [
+        {
+          "_id": "5cb216f0a8d68b00008afa14",
+          "scene": "5cb216e6c065f01811942620",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cb2190ac065f05bab942648",
+      "label": [
+        "Go upstairs"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cb20b1fc065f067219425c1",
+      "to": "5cac855f379035943eb2264c",
+      "_created": "2019-04-13T17:14:50.278Z",
+      "_updated": "2019-04-13T17:14:50.278Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cb20dacc065f0d7f89425c4",
+      "label": [
+        "Approach the tower house"
+      ],
+      "weight": 3,
+      "map": false,
+      "from": "5cac84ec379035285bb2264b",
+      "to": "5cac855f379035943eb2264c",
+      "_created": "2019-04-13T16:26:20.038Z",
+      "_updated": "2019-04-13T21:32:20.378Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cb210e4a8d68b00008afa07",
+          "scene": "5cb20dd8c065f023119425c5",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5cb2119ec065f03dfe942600",
+                  "5cb21131a8d68b00008afa08",
+                  "5cb2123ba8d68b00008afa0b",
+                  "5cb2129ba8d68b00008afa0c"
+                ]
+              ],
+              "_id": "5cb21e04c065f05f46942668",
+              "type": "hasSeenOptionOutcome",
+              "negate": true
+            }
+          ]
+        },
+        {
+          "_id": "5cb21dbbdf5d0d0000ab5834",
+          "scene": "5cb21dadc065f06fe594265a",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5cb2119ec065f03dfe942600",
+                  "5cb21131a8d68b00008afa08",
+                  "5cb2123ba8d68b00008afa0b",
+                  "5cb2129ba8d68b00008afa0c"
+                ]
+              ],
+              "_id": "5cb21e04c065f0f8bc942666",
+              "type": "hasSeenOptionOutcome"
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cb220e2c065f0501994266a",
+      "label": [
+        "Go upstairs"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cb20b3fc065f03bfb9425c3",
+      "to": "5cb20b1fc065f067219425c1",
+      "_created": "2019-04-13T17:48:18.602Z",
+      "_updated": "2019-04-13T17:48:18.602Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cb25558c065f08bee9429a1",
+      "label": [
+        "Approach the warehouse"
+      ],
+      "weight": 2,
+      "map": false,
+      "from": "5cac84ec379035285bb2264b",
+      "to": "5cac860137903579c4b2264d",
+      "_created": "2019-04-13T21:32:08.227Z",
+      "_updated": "2019-04-13T22:05:22.149Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cb25d09df5d0d0000ab588a",
+          "scene": "5cb255c2c065f00d1a9429a7",
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cb26f18c065f0f059942a5c",
+      "label": [
+        "Go back outside"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cac860137903579c4b2264d",
+      "to": "5c8acaa219028894d6f94cd5",
+      "_created": "2019-04-13T23:22:00.059Z",
+      "_updated": "2019-04-13T23:22:05.631Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cb27087c065f0e046942a5d",
+      "label": [
+        "Approach the lighthouse"
+      ],
+      "weight": 1,
+      "map": false,
+      "from": "5cac84ec379035285bb2264b",
+      "to": "5cac86723790356c3fb2264e",
+      "_created": "2019-04-13T23:28:07.737Z",
+      "_updated": "2019-04-14T00:53:31.013Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cb28474df5d0d0000ab58be",
+          "scene": "5cb270cdc065f04a34942a5e",
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cb2878dc065f0c532942c33",
+      "label": [
+        "Go back outside"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cac86723790356c3fb2264e",
+      "to": "5c8acaa219028894d6f94cd5",
+      "_created": "2019-04-14T01:06:21.983Z",
+      "_updated": "2019-04-14T01:06:27.947Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cb29e59c065f02de0942e0d",
+      "label": [
+        "Leave the ship"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cb29c28c065f0490b942e01",
+      "to": "5c8acaa219028894d6f94cd5",
+      "_created": "2019-04-14T02:43:37.111Z",
+      "_updated": "2019-04-14T02:43:37.111Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cb29e72c065f094a3942e0e",
+      "label": [
+        "Approach the ship"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5c8acaa219028894d6f94cd5",
+      "to": "5cb29c28c065f0490b942e01",
+      "_created": "2019-04-14T02:44:02.858Z",
+      "_updated": "2019-04-14T02:46:22.936Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cb29eede78b8c0000c8df31",
+          "scene": "5cb29d96c065f09bd0942e04",
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cac86b63790351700b2264f",
+      "label": [
+        "Explore the harbor"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5c8acaa219028894d6f94cd5",
+      "to": "5cac84ec379035285bb2264b",
+      "_created": "2019-04-09T11:49:10.713Z",
+      "_updated": "2019-04-14T12:36:27.665Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cb328ec886e2e00000ada2d",
+          "scene": "5cb328c6c065f0722a943216",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5ca3b2873790358793b1cddb",
+                  "5ca4becb01160700000fb75d"
+                ]
+              ],
+              "_id": "5cb3294bc065f0e28f94321b",
+              "type": "hasSeenNode"
+            },
+            {
+              "parameters": [
+                "5cac83eb3790353ecbb2264a"
+              ],
+              "_id": "5cb3294bc065f0216094321a",
+              "type": "hasSeenLocation"
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cb2192fc065f0e780942649",
+      "label": [
+        "Go downstairs"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cb20b1fc065f067219425c1",
+      "to": "5cb20b3fc065f03bfb9425c3",
+      "_created": "2019-04-13T17:15:27.774Z",
+      "_updated": "2019-04-18T01:54:01.028Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cb7d8219477d700003b19df",
+          "scene": "5cb7d7fcc065f025269436e9",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5cb7bb88c065f01b519435f4",
+                  "5cb7bbdf9477d700003b19b4"
+                ]
+              ],
+              "_id": "5cb7d8b9c065f09b759436f0",
+              "type": "hasSeenNode"
+            },
+            {
+              "parameters": [
+                [
+                  "5cb34567c065f06de194325b",
+                  "5cb34a66886e2e00000ada66"
+                ]
+              ],
+              "_id": "5cb7d8b9c065f069809436ef",
+              "type": "hasSeenNode"
+            },
+            {
+              "parameters": [
+                [
+                  "5cb23c45c065f073c094268a",
+                  "5cb24500df5d0d0000ab5863"
+                ]
+              ],
+              "_id": "5cb7d8b9c065f060549436ee",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cb8da5bc065f0e9f69439ef",
+      "label": [
+        "Enter the prison"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5c8acacd1902888d11f94cd7",
+      "to": "5cb8d92ec065f061819439ea",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5cb7bb88c065f01b519435f4",
+              "5cb7bbdf9477d700003b19b4"
+            ]
+          ],
+          "_id": "5cb8da5bc065f02afd9439f0",
+          "type": "hasSeenNode"
+        }
+      ],
+      "_created": "2019-04-18T20:13:15.322Z",
+      "_updated": "2019-04-18T21:59:00.470Z",
+      "encounters": [
+        {
+          "_id": "5cb8f2d9f797be000047f20f",
+          "scene": "5cb8e229c065f06f2c9439f4",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5cb8e229c065f06f2c9439f4",
+                  "5cb8e3c7f797be000047f1ec"
+                ]
+              ],
+              "_id": "5cb8f324c065f0ea4e943a5d",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cb8f72fc065f0caca943a69",
+      "label": [
+        "Explore the west wing",
+        "Go to the west wing"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cb8d92ec065f061819439ea",
+      "to": "5cb8d952c065f0428b9439eb",
+      "_created": "2019-04-18T22:16:15.021Z",
+      "_updated": "2019-04-19T07:19:29.236Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cb904dbf797be000047f21f",
+          "scene": "5cb8feecc065f0096b943a6b",
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cc0f08bc065f076579463f4",
+      "label": [
+        "Explore the south",
+        "Walk to the southern shore"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5c7d4ceffd6b4972fa456b21",
+      "to": "5cc0f032c065f02e9a9463f3",
+      "_created": "2019-04-24T23:26:03.514Z",
+      "_updated": "2019-04-25T00:13:35.172Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cc0f259d5dd5900006ce79d",
+          "scene": "5cc0f24bc065f0ac0c9463f6",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cc0fb87c065f07fc5946410",
+      "label": [
+        "Go back north"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cc0f032c065f02e9a9463f3",
+      "to": "5c7d4ceffd6b4972fa456b21",
+      "_created": "2019-04-25T00:12:55.322Z",
+      "_updated": "2019-04-25T00:12:55.322Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5c7d5004fd6b49ff7f456b2a",
+      "label": [],
+      "weight": 0,
+      "map": true,
+      "from": "5c7d4ceffd6b4972fa456b21",
+      "to": "5c7d46a0fd6b494077456b05",
+      "_created": "2019-03-04T16:19:16.094Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0,
+      "_updated": "2019-04-25T21:34:46.484Z"
+    },
+    {
+      "_id": "5d13ab4debd3dc49ec54caec",
+      "label": [],
+      "weight": 0,
+      "map": true,
+      "from": "5d011f680b4b6204ec34cf67",
+      "to": "5d011f7a0b4b622f9334cf68",
+      "_created": "2019-06-26T17:28:45.483Z",
+      "_updated": "2019-06-26T17:28:45.483Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d13aefbebd3dc5e1e54caf7",
+      "label": [],
+      "weight": 0,
+      "map": true,
+      "from": "5d011f9d0b4b6231fd34cf6a",
+      "to": "5d011f8d0b4b6201f434cf69",
+      "_created": "2019-06-26T17:44:27.946Z",
+      "_updated": "2019-06-26T17:44:27.946Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d16ad9bebd3dcbe2654cb6d",
+      "label": [
+        "Leave the tavern"
+      ],
+      "weight": 2,
+      "map": false,
+      "from": "5d16a409ebd3dc847654cb53",
+      "to": "5cda73c4c3e78f62235bb29c",
+      "_created": "2019-06-29T00:15:23.126Z",
+      "_updated": "2019-06-29T07:25:05.262Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d16ce38ebd3dc603354cc6e",
+      "label": [
+        "Enter the longhouse"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5d011f9d0b4b6231fd34cf6a",
+      "to": "5d16cdfdebd3dc242954cc6d",
+      "_created": "2019-06-29T02:34:32.553Z",
+      "_updated": "2019-06-29T02:34:40.657Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d1a329eebd3dc04af54d2a0",
+      "label": [
+        "Explore the wilderness"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda73f2c3e78f22075bb29d",
+      "to": "5cda7424c3e78f584d5bb2a0",
+      "_created": "2019-07-01T16:19:42.166Z",
+      "_updated": "2019-07-01T16:19:42.166Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d1a38d4ebd3dc42c854d2aa",
+      "label": [
+        "Leave the camp"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda743fc3e78f6e485bb2a2",
+      "to": "5cda7424c3e78f584d5bb2a0",
+      "_created": "2019-07-01T16:46:12.702Z",
+      "_updated": "2019-07-01T16:58:41.000Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d82003ee6ecf382a5a2c903",
+      "label": [
+        "Go inside"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cda7413c3e78f2fee5bb29f",
+      "to": "5d81fe8ae6ecf309b0a2c8ee",
+      "_created": "2019-09-18T10:00:30.022Z",
+      "_updated": "2019-09-18T10:00:30.022Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de01efbf75a97be1259ec97",
+      "label": [
+        "Explore the boulevard"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00ca6f75a970c8a59ec6c",
+      "to": "5de00c9af75a975e4459ec6b",
+      "availability": [],
+      "_created": "2019-11-28T19:24:43.718Z",
+      "_updated": "2019-11-28T19:24:43.718Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5c9ac2e33790357dd4b1bbe0",
+      "label": [
+        "Enter the cavern"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5c8ac9bd19028894c6f94cd0",
+      "to": "5c8aca7b19028861c4f94cd3",
+      "_created": "2019-03-27T00:25:07.418Z",
+      "_updated": "2019-04-14T04:24:55.046Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5ca393a9f4de0b0000893724",
+          "scene": "5ca39219379035b077b1cd1b",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5ca39219379035b077b1cd1b",
+                  "5ca390c3f4de0b0000893718",
+                  "5ca390d7f4de0b0000893719",
+                  "5ca39164f4de0b000089371d"
+                ]
+              ],
+              "_id": "5ca394be37903518bbb1cd38",
+              "type": "hasSeenOptionOutcome",
+              "negate": true
+            },
+            {
+              "parameters": [
+                "5c8aca7b19028861c4f94cd3"
+              ],
+              "_id": "5ca394be3790358854b1cd37",
+              "type": "hasSeenLocation",
+              "negate": true
+            }
+          ]
+        },
+        {
+          "_id": "5ca393aff4de0b0000893725",
+          "scene": "5ca39395379035ea4ab1cd2d",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5ca39219379035b077b1cd1b",
+                  "5ca390c3f4de0b0000893718",
+                  "5ca390d7f4de0b0000893719",
+                  "5ca39164f4de0b000089371d"
+                ]
+              ],
+              "_id": "5ca394be379035f197b1cd35",
+              "type": "hasSeenOptionOutcome"
+            },
+            {
+              "parameters": [
+                "5c8aca7b19028861c4f94cd3"
+              ],
+              "_id": "5ca394be37903525eeb1cd34",
+              "type": "hasSeenLocation",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5c8e7802153140845f80582c",
+      "label": [
+        "Explore the garden"
+      ],
+      "weight": -1,
+      "map": true,
+      "from": "5c8ac9bd19028894c6f94cd0",
+      "to": "5c8ac9d6190288d1c5f94cd1",
+      "_created": "2019-03-17T16:38:26.454Z",
+      "_updated": "2019-11-02T14:48:03.721Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5ca3908a379035f3d7b1cd0e",
+              "5ca3905ef4de0b0000893716",
+              "5d811e3de3935d000057af28",
+              "5d811e6be3935d000057af29"
+            ]
+          ],
+          "_id": "5d811f55e6ecf39820a2becd",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5ca45459e05ae4000000bda8",
+          "scene": "5ca451c437903549d5b1cf7a",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5c8e22cc1902884a12f94ce2",
+                  "5caaf31090542e00003c572c"
+                ]
+              ],
+              "_id": "5cb7c39dc065f05e3f94360b",
+              "type": "hasCompletedObjective",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
+        },
+        {
+          "_id": "5cb7c3729477d700003b19bf",
+          "scene": "5cb7bb88c065f01b519435f4",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5c8e22cc1902884a12f94ce2",
+                  "5caaf31090542e00003c572c"
+                ]
+              ],
+              "_id": "5cb7c39dc065f09ff1943609",
+              "type": "hasCompletedObjective"
+            },
+            {
+              "parameters": [
+                [
+                  "5cb7a21ac065f03b519434df",
+                  "5cb7a150cf49cc00001e44c1"
+                ]
+              ],
+              "_id": "5cb8b7c0c065f059e09439de",
+              "type": "hasSeenNode"
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5cb8f751c065f06223943a6a",
+      "label": [
+        "Return to the antechamber"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cb8d952c065f0428b9439eb",
+      "to": "5cb8d92ec065f061819439ea",
+      "_created": "2019-04-18T22:16:49.416Z",
+      "_updated": "2019-04-18T22:17:15.680Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cb96bd1c065f0101c943ea0",
+      "label": [
+        "Explore the east wing",
+        "Go to the east wing"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cb8d92ec065f061819439ea",
+      "to": "5cb8d993c065f05a039439ec",
+      "encounters": [
+        {
+          "_id": "5cb96bbc39b3340000d26b76",
+          "scene": "5cb96b5cc065f0f27a943e9e",
+          "conditions": []
+        }
+      ],
+      "_created": "2019-04-19T06:33:53.742Z",
+      "_updated": "2019-04-19T07:19:22.045Z",
+      "availability": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cb98a31c065f05ad6944368",
+      "label": [
+        "Return to the antechamber"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cb8d993c065f05a039439ec",
+      "to": "5cb8d92ec065f061819439ea",
+      "_created": "2019-04-19T08:43:29.693Z",
+      "_updated": "2019-04-19T08:43:29.693Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cb992d9c065f070ca9443da",
+      "label": [
+        "Enter the warden's office"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cb8d92ec065f061819439ea",
+      "to": "5cb8d9dac065f024d89439ed",
+      "_created": "2019-04-19T09:20:25.353Z",
+      "_updated": "2019-04-19T09:58:31.740Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cb99339c065f0c9569443db",
+      "label": [
+        "Return to the antechamber"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cb8d9dac065f024d89439ed",
+      "to": "5cb8d92ec065f061819439ea",
+      "_created": "2019-04-19T09:22:01.439Z",
+      "_updated": "2019-04-19T09:22:01.439Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cb8f011c065f0df15943a57",
+      "label": [
+        "Leave the prison"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cb8d92ec065f061819439ea",
+      "to": "5c8acacd1902888d11f94cd7",
+      "_created": "2019-04-18T21:45:53.282Z",
+      "_updated": "2019-04-19T18:55:48.020Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cb8f332f797be000047f210",
+          "scene": "5cb8e229c065f06f2c9439f4",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5cb8e229c065f06f2c9439f4",
+                  "5cb8e3c7f797be000047f1ec"
+                ]
+              ],
+              "_id": "5cb8f357c065f06a3b943a5f",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ]
+        },
+        {
+          "_id": "5cba192a56ea940000468464",
+          "scene": "5cba191ec065f0a341944c02",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5cb8e229c065f06f2c9439f4",
+                  "5cb8e3c7f797be000047f1ec"
+                ]
+              ],
+              "_id": "5cba19b4c065f00d62944c10",
+              "type": "hasSeenNode"
+            },
+            {
+              "parameters": [
+                [
+                  "5cb91394c065f084f4943b2f",
+                  "5cba0e6c56ea940000468455"
+                ]
+              ],
+              "_id": "5cba19b4c065f0d5ff944c0f",
+              "type": "hasSeenNode"
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5c8fea193bae8d42542b5e66",
+      "label": [],
+      "weight": 0,
+      "map": true,
+      "from": "5c8acaa219028894d6f94cd5",
+      "to": "5c8aca8d1902883dadf94cd4",
+      "_created": "2019-03-18T18:57:29.144Z",
+      "_updated": "2019-04-24T17:04:04.871Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5cab24fa90542e00003c578e",
+          "scene": "5cab24303790358645b22364",
+          "conditions": [
+            {
+              "parameters": [
+                0.2
+              ],
+              "_id": "5cadb5ef379035221bb228b3",
+              "type": "random"
+            },
+            {
+              "parameters": [
+                [
+                  "5cbe4dd4c065f0cf5f94573e",
+                  "5cc07e1d23e78000009eae11"
+                ]
+              ],
+              "_id": "5cc09704c065f05f039461a1",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
+        },
+        {
+          "_id": "5cc096c423e78000009eae1f",
+          "scene": "5cc0969ec065f05bc994619a",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5cbe4dd4c065f0cf5f94573e",
+                  "5cc07e1d23e78000009eae11"
+                ]
+              ],
+              "_id": "5cc09704c065f049db94619f",
+              "type": "hasSeenNode"
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5c8fe9853bae8d3e4f2b5e5f",
+      "label": [
+        "Descend into the Underworld"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5c8ac984190288866df94cce",
+      "to": "5c8acaf3190288c413f94cd8",
+      "_created": "2019-03-18T18:55:01.356Z",
+      "_updated": "2019-05-14T15:09:54.144Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5c8fd1213bae8d0a222b5e3f",
+              "5cdad61d5058f600007b95a0",
+              "5cdad6ee5058f600007b95a2",
+              "5cdad71b5058f600007b95a4"
+            ]
+          ],
+          "_id": "5cdad8f0c3e78f0a935bbcd2",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cc1557bc065f077ef9465a6",
+      "label": [
+        "Take a look behind the shack",
+        "Revisit the grave behind the shack"
+      ],
+      "weight": 2,
+      "map": false,
+      "from": "5c7d8786fd6b49c4e2456b97",
+      "to": "5cc14c27c065f07ded946558",
+      "_created": "2019-04-25T06:36:43.998Z",
+      "_updated": "2019-04-25T07:04:19.739Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5cc1576cc065f0c5de9465a9",
+              "5cc1570adacbbc0000409bb9"
+            ]
+          ],
+          "_id": "5cc158b1c065f002d29465b4",
+          "type": "hasSeenNode"
+        }
+      ],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5cc155a4c065f0cc369465a7",
+      "label": [
+        "Leave it alone"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cc14c27c065f07ded946558",
+      "to": "5c7d8786fd6b49c4e2456b97",
+      "_created": "2019-04-25T06:37:24.328Z",
+      "_updated": "2019-04-25T06:37:24.328Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5c8fe9933bae8d2bc82b5e60",
+      "label": [
+        "Return to the surface"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5c8acaf3190288c413f94cd8",
+      "to": "5c8ac984190288866df94cce",
+      "_created": "2019-03-18T18:55:15.177Z",
+      "_updated": "2019-05-14T15:05:56.272Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d013cac0b4b62ad3134cf6b",
+      "label": [
+        "Explore the Town of Set"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda73c4c3e78f62235bb29c",
+      "to": "5d011f4d0b4b62513134cf62",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5cf7a997c3e78f7b325c2dd1",
+              "5cf7a6ba13f96e00002d852d",
+              "5cf7a74813f96e00002d8533"
+            ]
+          ],
+          "_id": "5d013cac0b4b62b28e34cf6c",
+          "type": "hasUsedOption"
+        }
+      ],
+      "_created": "2019-06-12T17:55:56.903Z",
+      "_updated": "2019-06-12T17:55:56.903Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d013e960b4b626d8f34cf82",
+      "label": [
+        "Approach the shrine"
+      ],
+      "weight": 1,
+      "map": true,
+      "from": "5d011f4d0b4b62513134cf62",
+      "to": "5d011f7a0b4b622f9334cf68",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d013da10b4b629efe34cf79",
+              "5d013d32b00db200003b53f6",
+              "5d013d45b00db200003b53f7",
+              "5d013d58b00db200003b53f8"
+            ]
+          ],
+          "_id": "5d013e960b4b621bb834cf83",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-06-12T18:04:06.523Z",
+      "_updated": "2019-06-12T18:04:06.523Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d013f000b4b62f41634cf85",
+      "label": [
+        "Approach the guard tower"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5d011f4d0b4b62513134cf62",
+      "to": "5d011f8d0b4b6201f434cf69",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d013da10b4b629efe34cf79",
+              "5d013d32b00db200003b53f6",
+              "5d013d45b00db200003b53f7",
+              "5d013d58b00db200003b53f8"
+            ]
+          ],
+          "_id": "5d013f000b4b62393634cf86",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-06-12T18:05:52.652Z",
+      "_updated": "2019-06-12T18:05:52.652Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d139e11ebd3dcdc3e54cad7",
+      "label": [
+        "Leave town"
+      ],
+      "weight": 5,
+      "map": true,
+      "from": "5d011f7a0b4b622f9334cf68",
+      "to": "5cda7408c3e78ff7fc5bb29e",
+      "_created": "2019-06-26T16:32:17.768Z",
+      "_updated": "2019-09-17T20:34:55.322Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5d139fa647ed21000000b05f",
+          "scene": "5d139f88ebd3dca75854cad9",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d13a486ebd3dc424954caea",
+      "label": [
+        "Go to the infirmary"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5d011f7a0b4b622f9334cf68",
+      "to": "5d011f680b4b6204ec34cf67",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d01417f0b4b62970f34cf8b",
+              "5d01412bb00db200003b53fa",
+              "5d139bf147ed21000000b058",
+              "5d13a0e447ed21000000b061"
+            ]
+          ],
+          "_id": "5d13a486ebd3dc59bc54caeb",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-06-26T16:59:50.957Z",
+      "_updated": "2019-06-26T16:59:50.957Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d16a2a1ebd3dc00eb54cb45",
+      "label": [
+        "Approach the galley"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cda73c4c3e78f62235bb29c",
+      "to": "5d168f34ebd3dc4aab54cb09",
+      "_created": "2019-06-28T23:28:33.868Z",
+      "_updated": "2019-11-11T09:13:41.282Z",
+      "availability": [
+        {
+          "parameters": [
+            "5d011f4d0b4b62513134cf62"
+          ],
+          "_id": "5d16a393ebd3dc7de554cb52",
+          "type": "hasSeenLocation"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5dc92612edfc570000c51573",
+          "scene": "5dc4fbbdf75a97787a5970aa",
+          "conditions": [
+            {
+              "parameters": [
+                "5d7cd57de6ecf369a5a2a235"
+              ],
+              "_id": "5dc92645f75a974052597680",
+              "type": "hasCompletedQuest"
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d16ad5bebd3dc2afa54cb6c",
+      "label": [
+        "Approach the tavern"
+      ],
+      "weight": 1,
+      "map": false,
+      "from": "5cda73c4c3e78f62235bb29c",
+      "to": "5d16a409ebd3dc847654cb53",
+      "_created": "2019-06-29T00:14:19.310Z",
+      "_updated": "2019-06-29T00:20:59.228Z",
+      "availability": [
+        {
+          "parameters": [
+            "5d011f4d0b4b62513134cf62"
+          ],
+          "_id": "5d16adcbebd3dc01b054cb6e",
+          "type": "hasSeenLocation"
+        }
+      ],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d16e1eaebd3dc8d1154ccbe",
+      "label": [
+        "Walk the alleyways towards the harbor",
+        "Take the shortcut to the harbor"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5d011f680b4b6204ec34cf67",
+      "to": "5cda73c4c3e78f62235bb29c",
+      "availability": [],
+      "_created": "2019-06-29T03:58:34.041Z",
+      "_updated": "2019-12-12T16:26:22.220Z",
+      "encounters": [
+        {
+          "_id": "5d16ee1fab3c0300005d5724",
+          "scene": "5d16e3f0ebd3dc866d54ccc1",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5d16e3f0ebd3dc866d54ccc1",
+                  "5d16ea00ab3c0300005d5713"
+                ]
+              ],
+              "_id": "5d16ee5debd3dc563654cdc4",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d16e241ebd3dc508354ccbf",
+      "label": [
+        "Take the short-cut to the infirmary"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5cda73c4c3e78f62235bb29c",
+      "to": "5d011f680b4b6204ec34cf67",
+      "availability": [
+        {
+          "parameters": [
+            "5d011f680b4b6204ec34cf67"
+          ],
+          "_id": "5d16e241ebd3dc71ac54ccc0",
+          "type": "hasSeenLocation"
+        }
+      ],
+      "_created": "2019-06-29T04:00:01.893Z",
+      "_updated": "2019-06-29T05:07:23.147Z",
+      "encounters": [
+        {
+          "_id": "5d16ee62ab3c0300005d5725",
+          "scene": "5d16e3f0ebd3dc866d54ccc1",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5d16e3f0ebd3dc866d54ccc1",
+                  "5d16ea00ab3c0300005d5713"
+                ]
+              ],
+              "_id": "5d16eebbebd3dcfb1f54cdc7",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d16dbd4ebd3dcaf6554ccb4",
+      "label": [
+        "Leave town"
+      ],
+      "weight": 5,
+      "map": true,
+      "from": "5d011f8d0b4b6201f434cf69",
+      "to": "5cda73f2c3e78f22075bb29d",
+      "_created": "2019-06-29T03:32:36.581Z",
+      "_updated": "2019-09-17T20:35:06.234Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5d1742a3ad62a20000819e09",
+          "scene": "5d173960ebd3dc15ff54cfea",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5d16db4eebd3dce27754cca9",
+                  "5d1728beab3c0300005d573d",
+                  "5d172929ab3c0300005d573f",
+                  "5d172ca2ab3c0300005d5744"
+                ]
+              ],
+              "_id": "5d174322ebd3dcd3b954d037",
+              "type": "hasSeenOptionOutcome"
+            },
+            {
+              "parameters": [
+                [
+                  "5d173960ebd3dc15ff54cfea",
+                  "5d173afead62a20000819e00"
+                ]
+              ],
+              "_id": "5d174322ebd3dc1f0254d036",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d16dc0aebd3dc4a0954ccb5",
+      "label": [
+        "Travel north to the Town of Set"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda73f2c3e78f22075bb29d",
+      "to": "5d011f8d0b4b6201f434cf69",
+      "_created": "2019-06-29T03:33:30.829Z",
+      "_updated": "2019-06-29T11:57:22.363Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5d174339ad62a20000819e0a",
+          "scene": "5d173960ebd3dc15ff54cfea",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5d16db4eebd3dce27754cca9",
+                  "5d1728beab3c0300005d573d",
+                  "5d172929ab3c0300005d573f",
+                  "5d172ca2ab3c0300005d5744"
+                ]
+              ],
+              "_id": "5d1743a5ebd3dcbe8d54d03a",
+              "type": "hasSeenOptionOutcome"
+            },
+            {
+              "parameters": [
+                [
+                  "5d173960ebd3dc15ff54cfea",
+                  "5d173afead62a20000819e00"
+                ]
+              ],
+              "_id": "5d1743a5ebd3dc7a5b54d039",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d13aeeaebd3dcba7754caf5",
+      "label": [
+        "Find the longhouse"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5d011f8d0b4b6201f434cf69",
+      "to": "5d011f9d0b4b6231fd34cf6a",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d01417f0b4b62970f34cf8b",
+              "5d01412bb00db200003b53fa",
+              "5d139bf147ed21000000b058",
+              "5d13a0e447ed21000000b061"
+            ]
+          ],
+          "_id": "5d13aeeaebd3dcde9754caf6",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-06-26T17:44:10.808Z",
+      "_updated": "2019-06-29T11:32:28.702Z",
+      "encounters": [
+        {
+          "_id": "5d174c039af21100001a3991",
+          "scene": "5d1739dfebd3dce77354cff1",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5d16db4eebd3dce27754cca9",
+                  "5d1728beab3c0300005d573d",
+                  "5d172919ab3c0300005d573e",
+                  "5d172b74ab3c0300005d5743"
+                ]
+              ],
+              "_id": "5d174c4cebd3dc42bb54d071",
+              "type": "hasSeenOptionOutcome"
+            },
+            {
+              "parameters": [
+                [
+                  "5d1739dfebd3dce77354cff1",
+                  "5d174b179af21100001a398c"
+                ]
+              ],
+              "_id": "5d174c4cebd3dc7dcc54d070",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d013f100b4b62142534cf87",
+      "label": [],
+      "weight": 0,
+      "map": true,
+      "from": "5d011f8d0b4b6201f434cf69",
+      "to": "5d011f4d0b4b62513134cf62",
+      "_created": "2019-06-12T18:06:08.502Z",
+      "_updated": "2019-06-29T11:33:48.693Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5d174c5e9af21100001a3992",
+          "scene": "5d1739dfebd3dce77354cff1",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5d16db4eebd3dce27754cca9",
+                  "5d1728beab3c0300005d573d",
+                  "5d172919ab3c0300005d573e",
+                  "5d172b74ab3c0300005d5743"
+                ]
+              ],
+              "_id": "5d174c9cebd3dc5ad554d074",
+              "type": "hasSeenOptionOutcome"
+            },
+            {
+              "parameters": [
+                [
+                  "5d1739dfebd3dce77354cff1",
+                  "5d174b179af21100001a398c"
+                ]
+              ],
+              "_id": "5d174c9cebd3dce5f154d073",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d1f373c5892bb1a80eabb43",
+      "label": [
+        "Go back to the militia camp"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda747ec3e78f14fc5bb2a5",
+      "to": "5cda743fc3e78f6e485bb2a2",
+      "_created": "2019-07-05T11:40:44.752Z",
+      "_updated": "2019-07-05T11:40:44.753Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d1f371c5892bb51eaeabb41",
+      "label": [
+        "Travel to the nomad camp"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda743fc3e78f6e485bb2a2",
+      "to": "5cda747ec3e78f14fc5bb2a5",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d1a34eeebd3dc3e2054d2a3",
+              "5d1a7d42d73a7d000010f514",
+              "5d1f338d39b171000042b290",
+              "5d1f345a39b171000042b294"
+            ]
+          ],
+          "_id": "5d1f371c5892bb3448eabb42",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-07-05T11:40:12.935Z",
+      "_updated": "2019-07-05T16:21:12.116Z",
+      "encounters": [
+        {
+          "_id": "5d1f78bceb4958000014e72e",
+          "scene": "5d1f3b4c5892bb0ab8eabb55",
+          "conditions": [
+            {
+              "parameters": [
+                "5cda747ec3e78f14fc5bb2a5"
+              ],
+              "_id": "5d1f78f85892bbea9beabc55",
+              "type": "hasSeenLocation",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d49f4e08335b46993884e51",
+      "label": [
+        "Follow the tracks"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda747ec3e78f14fc5bb2a5",
+      "to": "5cda7471c3e78f77335bb2a4",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d4427de8335b444ad884a15",
+              "5d49da22af1ffc00001a57c4",
+              "5d49dca0af1ffc00001a57ca",
+              "5d49dd15af1ffc00001a57cd"
+            ]
+          ],
+          "_id": "5d49f4e08335b4173b884e52",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-08-06T21:45:04.607Z",
+      "_updated": "2019-08-06T21:45:04.607Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d49f5008335b4cadd884e53",
+      "label": [
+        "Travel to the nomad camp"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda7471c3e78f77335bb2a4",
+      "to": "5cda747ec3e78f14fc5bb2a5",
+      "_created": "2019-08-06T21:45:36.466Z",
+      "_updated": "2019-08-06T21:45:36.466Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d49fd648335b4be5d884e58",
+      "label": [
+        "Cross the river"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda7453c3e78fd30c5bb2a3",
+      "to": "5cda7471c3e78f77335bb2a4",
+      "availability": [
+        {
+          "parameters": [
+            "5cda7471c3e78f77335bb2a4"
+          ],
+          "_id": "5d49fd648335b44726884e59",
+          "type": "hasSeenLocation"
+        }
+      ],
+      "_created": "2019-08-06T22:21:24.263Z",
+      "_updated": "2019-08-06T22:21:24.263Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d49fd0a8335b42461884e57",
+      "label": [
+        "Swim across the river"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda7471c3e78f77335bb2a4",
+      "to": "5cda7453c3e78fd30c5bb2a3",
+      "_created": "2019-08-06T22:19:54.310Z",
+      "_updated": "2019-09-06T13:12:36.046Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5d4adce6499acc0000aeab57",
+          "scene": "5d4a2e7e8335b45d35884e5e",
+          "conditions": [
+            {
+              "parameters": [
+                "5cda7453c3e78fd30c5bb2a3"
+              ],
+              "_id": "5d5fb1298335b4fe5d885699",
+              "type": "hasSeenLocation",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d54a38b8335b4c52d88515b",
+      "label": [
+        "Visit the office of Chief Hadrian Trout"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5d011f7a0b4b622f9334cf68",
+      "to": "5d54a2af8335b48e2588515a",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d53f5408335b4ed13884f6b",
+              "5d548db158bf480000e34825"
+            ]
+          ],
+          "_id": "5d54a38b8335b46db188515c",
+          "type": "hasSeenNode"
+        }
+      ],
+      "_created": "2019-08-15T00:12:59.079Z",
+      "_updated": "2019-08-15T00:42:39.322Z",
+      "encounters": [
+        {
+          "_id": "5d54aa4358bf480000e34849",
+          "scene": "5d54aa328335b4562f885163",
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d54fd148335b41a2b8852c2",
+      "label": [
+        "Approach the log cabin to the east"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda7408c3e78ff7fc5bb29e",
+      "to": "5cda7413c3e78f2fee5bb29f",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d139d8cebd3dcc39054cad4",
+              "5d139cc847ed21000000b05b",
+              "5d54df8458bf480000e34874",
+              "5d54df9558bf480000e34875"
+            ]
+          ],
+          "_id": "5d54fd148335b40b848852c3",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-08-15T06:35:00.280Z",
+      "_updated": "2019-08-15T06:35:00.280Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d54fd518335b448868852c4",
+      "label": [
+        "Leave the cabin"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda7413c3e78f2fee5bb29f",
+      "to": "5cda7408c3e78ff7fc5bb29e",
+      "_created": "2019-08-15T06:36:01.793Z",
+      "_updated": "2019-08-15T06:36:01.793Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d54fe3b8335b4c4538852c8",
+      "label": [
+        "Head north"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda7432c3e78f123d5bb2a1",
+      "to": "5cda7408c3e78ff7fc5bb29e",
+      "_created": "2019-08-15T06:39:55.002Z",
+      "_updated": "2019-08-15T06:39:55.002Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d55b1d08335b453f4885373",
+      "label": [
+        "Leave the camp"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda7453c3e78fd30c5bb2a3",
+      "to": "5cda7432c3e78f123d5bb2a1",
+      "_created": "2019-08-15T19:26:08.554Z",
+      "_updated": "2019-08-15T19:26:34.735Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d55b1568335b4749e885371",
+      "label": [
+        "Find a way to cross the river"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda7432c3e78f123d5bb2a1",
+      "to": "5cda7453c3e78fd30c5bb2a3",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d54e0768335b4202388526a",
+              "5d54e06d58bf480000e34877",
+              "5d55b016191a920000abdc5d"
+            ]
+          ],
+          "_id": "5d55c1cb8335b425c6885389",
+          "type": "hasUsedOption"
+        }
+      ],
+      "_created": "2019-08-15T19:24:06.572Z",
+      "_updated": "2019-08-23T05:05:40.525Z",
+      "encounters": [
+        {
+          "_id": "5d55b283191a920000abdc64",
+          "scene": "5d55a4958335b4262888536c",
+          "conditions": [
+            {
+              "parameters": [
+                "5cda7453c3e78fd30c5bb2a3"
+              ],
+              "_id": "5d55c3c08335b4448f885393",
+              "type": "hasSeenLocation",
+              "negate": true
+            },
+            {
+              "parameters": [
+                [
+                  "5d4427de8335b444ad884a15",
+                  "5d49da22af1ffc00001a57c4",
+                  "5d49dca0af1ffc00001a57ca",
+                  "5d49dd15af1ffc00001a57cd"
+                ]
+              ],
+              "_id": "5d5f74248335b4f1d48854dd",
+              "type": "hasSeenOptionOutcome",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d54fe138335b421788852c7",
+      "label": [
+        "Approach the lake to the south"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5cda7408c3e78ff7fc5bb29e",
+      "to": "5cda7432c3e78f123d5bb2a1",
+      "_created": "2019-08-15T06:39:15.752Z",
+      "_updated": "2019-08-22T01:00:25.394Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d139d8cebd3dcc39054cad4",
+              "5d139cc847ed21000000b05b",
+              "5d54df8458bf480000e34874",
+              "5d54df9558bf480000e34875"
+            ]
+          ],
+          "_id": "5d5de9298335b462bf8853e9",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5d559d9f191a920000abdc5a",
+          "scene": "5d55991e8335b444b78852ed",
+          "conditions": [
+            {
+              "parameters": [
+                "5cda7453c3e78fd30c5bb2a3"
+              ],
+              "_id": "5d559df38335b4816288536a",
+              "type": "hasSeenLocation",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d16a2c6ebd3dc1f8454cb46",
+      "label": [
+        "Disembark"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5d168f34ebd3dc4aab54cb09",
+      "to": "5cda73c4c3e78f62235bb29c",
+      "_created": "2019-06-28T23:29:10.243Z",
+      "_updated": "2019-11-11T17:34:12.133Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5d53e1ebf78ace00004fd6ec",
+          "scene": "5d53d7ef8335b4d233884f21",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5c82b9330e3748809dc60273",
+                  "5c82b8cf556ece0000d9e5b8"
+                ]
+              ],
+              "_id": "5d53e21a8335b486f2884f38",
+              "type": "isOnObjective"
+            },
+            {
+              "parameters": [
+                [
+                  "5d53f5408335b4ed13884f6b",
+                  "5d547dad58bf480000e3480b"
+                ]
+              ],
+              "_id": "5d7cbd5de6ecf3106da28c0e",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d16ce5debd3dc6d7a54cc6f",
+      "label": [
+        "Go back outside"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5d16cdfdebd3dc242954cc6d",
+      "to": "5d011f9d0b4b6231fd34cf6a",
+      "_created": "2019-06-29T02:35:09.861Z",
+      "_updated": "2019-09-14T21:50:21.558Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5d7d6079fbe7b80000775c7e",
+          "scene": "5d7ce5e7e6ecf359d3a2a29f",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5d7a1604e6ecf3567da28a27",
+                  "5d7cd8f408274400000a33c5",
+                  "5d7cd96e08274400000a33c6",
+                  "5d7cdaef08274400000a33cc"
+                ]
+              ],
+              "_id": "5d7d609de6ecf3ae73a2a425",
+              "type": "hasSeenOptionOutcome"
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5d820075e6ecf31fa8a2c904",
+      "label": [
+        "Go back outside"
+      ],
+      "weight": 2,
+      "map": false,
+      "from": "5d81fe8ae6ecf309b0a2c8ee",
+      "to": "5cda7413c3e78f2fee5bb29f",
+      "_created": "2019-09-18T10:01:25.695Z",
+      "_updated": "2019-09-18T10:04:25.309Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d8200d3e6ecf37fb5a2c905",
+      "label": [
+        "Climb down the ladder"
+      ],
+      "weight": 1,
+      "map": false,
+      "from": "5d81fe8ae6ecf309b0a2c8ee",
+      "to": "5d54b71d8335b4a8d68851ae",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d81ff88e6ecf323aea2c8ef",
+              "5d81fec10fa8550000265721",
+              "5d81ff360fa8550000265725",
+              "5d81ff570fa8550000265726"
+            ]
+          ],
+          "_id": "5d8200d3e6ecf3cea4a2c906",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-09-18T10:02:59.797Z",
+      "_updated": "2019-09-18T10:04:31.456Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d82015fe6ecf339d8a2c908",
+      "label": [
+        "Leave the cellar"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5d54b71d8335b4a8d68851ae",
+      "to": "5d81fe8ae6ecf309b0a2c8ee",
+      "_created": "2019-09-18T10:05:19.348Z",
+      "_updated": "2019-09-18T10:13:40.931Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d9c1a7fba4a3f43fa31198b",
+      "label": [
+        "Follow the nomad"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5d83d17c8ec25986f0100a38",
+      "to": "5d83d1668ec2596997100a37",
+      "encounters": [
+        {
+          "_id": "5d9c1a6f69d03f0000daa1c4",
+          "scene": "5d9c0f54ba4a3f6ab53118c3",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "_created": "2019-10-08T05:11:27.800Z",
+      "_updated": "2019-10-08T05:11:27.800Z",
+      "availability": [],
+      "__v": 0
+    },
+    {
+      "_id": "5da39689a178db6cdca104d0",
+      "label": [
+        "Go back to the rocky shore"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5d83d1668ec2596997100a37",
+      "to": "5d83d17c8ec25986f0100a38",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d9c101bba4a3f79e13118cf",
+              "5da38ee5f9dfef0000901a54",
+              "5da38f71f9dfef0000901a58",
+              "5da38f7ef9dfef0000901a59"
+            ]
+          ],
+          "_id": "5da39689a178dbeb3ba104d1",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-10-13T21:26:33.500Z",
+      "_updated": "2019-10-13T21:26:33.500Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5da3c1f5c55b7f8112f52d01",
+      "label": [
+        "Travel north"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5d83d1668ec2596997100a37",
+      "to": "5d83d1428ec259c17c100a35",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d9c101bba4a3f79e13118cf",
+              "5da3b905dad49c0000e2d015",
+              "5da3b9e8dad49c0000e2d01a",
+              "5da3bfdfdad49c0000e2d01e"
+            ]
+          ],
+          "_id": "5da3c1f5c55b7fdaadf52d02",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-10-14T00:31:49.198Z",
+      "_updated": "2019-10-14T00:31:49.198Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5da3c227c55b7fa2cbf52d03",
+      "label": [
+        "Return to the mansion"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5d83d1428ec259c17c100a35",
+      "to": "5d83d1668ec2596997100a37",
+      "_created": "2019-10-14T00:32:39.105Z",
+      "_updated": "2019-10-14T00:32:39.105Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5da64ff2d2ab9f05e9f90cb1",
+      "label": [
+        "Search for the Tomb of Hieronymus"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5d83d1428ec259c17c100a35",
+      "to": "5d83d11a8ec2594120100a34",
+      "availability": [
+        {
+          "parameters": [
+            "5da48c70c55b7f0d26f5349d",
+            "greaterThanOrEqual",
+            1
+          ],
+          "_id": "5da64ff2d2ab9f846df90cb2",
+          "type": "hasItem"
+        }
+      ],
+      "_created": "2019-10-15T23:02:10.865Z",
+      "_updated": "2019-10-16T08:49:19.189Z",
+      "encounters": [
+        {
+          "_id": "5da6d8d243f4c20000b5dc75",
+          "scene": "5da6d8c9ff2c198ed4db282d",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5da6501dd2ab9f47e7f90cb3",
+      "label": [
+        "Leave"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5d83d11a8ec2594120100a34",
+      "to": "5d83d1428ec259c17c100a35",
+      "_created": "2019-10-15T23:02:53.236Z",
+      "_updated": "2019-10-15T23:02:53.236Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dbc4370ff2c19577bdb7736",
+      "label": [
+        "Follow the country road"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dbc40ebff2c19150fdb772e",
+      "to": "5dbc411bff2c192f44db7731",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5db1efd9ff2c19a060db3234",
+              "5dba2246ab14be00004246e4",
+              "5dba2277ab14be00004246e5",
+              "5dba2290ab14be00004246e6"
+            ]
+          ],
+          "_id": "5dbc4370ff2c198faadb7737",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5dbc436283d31500006161fb",
+          "scene": "5dba2d0eff2c198706db6020",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "_created": "2019-11-01T14:38:40.824Z",
+      "_updated": "2019-11-01T14:38:40.824Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dbc4521ff2c19bd92db7741",
+      "label": [
+        "Follow the country road"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dbc411bff2c192f44db7731",
+      "to": "5dbc40ebff2c19150fdb772e",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5dba3971ff2c19d286db6075",
+              "5dba39799d8d170000356ac4"
+            ]
+          ],
+          "_id": "5dbc4521ff2c19e2e1db7742",
+          "type": "hasSeenNode"
+        }
+      ],
+      "_created": "2019-11-01T14:45:53.459Z",
+      "_updated": "2019-11-01T14:45:53.459Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dbc4df4ff2c19d19fdb77d4",
+      "label": [
+        "Explore the dead forest"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dbc411bff2c192f44db7731",
+      "to": "5dbc410cff2c192303db7730",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5dba3971ff2c19d286db6075",
+              "5dba39799d8d170000356ac4"
+            ]
+          ],
+          "_id": "5dbc4df4ff2c193f1fdb77d5",
+          "type": "hasSeenNode"
+        }
+      ],
+      "_created": "2019-11-01T15:23:32.903Z",
+      "_updated": "2019-11-01T15:23:32.903Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dbc4e15ff2c192f97db77d6",
+      "label": [
+        "Return to the tower"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dbc410cff2c192303db7730",
+      "to": "5dbc411bff2c192f44db7731",
+      "_created": "2019-11-01T15:24:05.985Z",
+      "_updated": "2019-11-01T15:24:05.985Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dbc4eceff2c192946db77d7",
+      "label": [
+        "Explore the northern cliffs"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dbc411bff2c192f44db7731",
+      "to": "5dbc4128ff2c194769db7732",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5dba3971ff2c19d286db6075",
+              "5dba39799d8d170000356ac4"
+            ]
+          ],
+          "_id": "5dbc4eceff2c194064db77d8",
+          "type": "hasSeenNode"
+        }
+      ],
+      "_created": "2019-11-01T15:27:10.271Z",
+      "_updated": "2019-11-01T15:27:10.271Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dbc4ef1ff2c194d67db77d9",
+      "label": [
+        "Return to the tower"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dbc4128ff2c194769db7732",
+      "to": "5dbc411bff2c192f44db7731",
+      "_created": "2019-11-01T15:27:45.195Z",
+      "_updated": "2019-11-01T15:27:45.195Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dbc50d8ff2c19ac45db77db",
+      "label": [
+        "Follow the cliff path"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dbc4128ff2c194769db7732",
+      "to": "5dbc414bff2c19da20db7733",
+      "encounters": [
+        {
+          "_id": "5dbc50be83d3150000616208",
+          "scene": "5db1d09dff2c19045fdb2f53",
+          "conditions": [
+            {
+              "parameters": [
+                "5dbc414bff2c19da20db7733"
+              ],
+              "_id": "5dbc5124ff2c199257db77e0",
+              "type": "hasSeenLocation",
+              "negate": true
+            }
+          ]
+        },
+        {
+          "_id": "5dbc50eb83d3150000616209",
+          "scene": "5db877d8ff2c1950c5db5f4d",
+          "conditions": [
+            {
+              "parameters": [
+                "5dbc414bff2c19da20db7733"
+              ],
+              "_id": "5dbc5124ff2c19c751db77de",
+              "type": "hasSeenLocation"
+            }
+          ]
+        }
+      ],
+      "_created": "2019-11-01T15:35:52.518Z",
+      "_updated": "2019-11-01T15:40:10.370Z",
+      "availability": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dbc5cefff2c19105adb7dec",
+      "label": [
+        "Leave the smuggler's hideout"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dbc414bff2c19da20db7733",
+      "to": "5dbc4128ff2c194769db7732",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5db8764eff2c1985c7db5f4b",
+              "5dbb15647093ec00008ec2d8"
+            ]
+          ],
+          "_id": "5dbc5cefff2c195de3db7ded",
+          "type": "hasSeenNode"
+        }
+      ],
+      "_created": "2019-11-01T16:27:27.036Z",
+      "_updated": "2019-11-01T16:27:27.036Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dbfb687ff2c192a9edb810c",
+      "label": [
+        "Try to find the smuggler's graveyard"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dbc410cff2c192303db7730",
+      "to": "5dbc40fdff2c197097db772f",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5d7cd57de6ecf369a5a2a235",
+              "5d7cd56afd4f2b00002933d7",
+              "5da655fe850bf90000a8b999"
+            ]
+          ],
+          "_id": "5dbfb687ff2c190d55db810d",
+          "type": "hasActivatedQuestObjectiveUpdate"
+        }
+      ],
+      "_created": "2019-11-04T05:26:31.527Z",
+      "_updated": "2019-11-04T05:26:31.527Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dbfb6a2ff2c19262fdb810e",
+      "label": [
+        "Travel north"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dbc40fdff2c197097db772f",
+      "to": "5dbc410cff2c192303db7730",
+      "_created": "2019-11-04T05:26:58.363Z",
+      "_updated": "2019-11-04T05:26:58.364Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5d013dea0b4b62cc4a34cf7e",
+      "label": [],
+      "weight": 0,
+      "map": true,
+      "from": "5d011f4d0b4b62513134cf62",
+      "to": "5cda73c4c3e78f62235bb29c",
+      "_created": "2019-06-12T18:01:14.254Z",
+      "_updated": "2019-11-07T22:19:19.878Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5dc3ef18ad6a4e0000a9bfdd",
+          "scene": "5dc3d191f75a97904f596f58",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5dc3b9a0f75a976218596d91",
+                  "5dc3ba98570d380000eabd1c"
+                ]
+              ],
+              "_id": "5dc3efb2f75a97e23b59706e",
+              "type": "hasSeenNode"
+            },
+            {
+              "parameters": [
+                [
+                  "5dc3b9a0f75a976218596d91",
+                  "5dc3c896570d380000eabd47"
+                ]
+              ],
+              "_id": "5dc3efb2f75a978afc59706d",
+              "type": "hasSeenNode",
+              "negate": true
+            },
+            {
+              "parameters": [
+                [
+                  "5dc3b9a0f75a976218596d91",
+                  "5dc3c039570d380000eabd26"
+                ]
+              ],
+              "_id": "5dc3efb2f75a970e0c59706c",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5dd5d409f75a97a8fa59e240",
+      "label": [
+        "Follow the soldiers"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dd5b9dbf75a97a72b59d7ef",
+      "to": "5dd5b9edf75a97673b59d7f0",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5dd31f11f75a9734fb5982b5",
+              "5dd31f549bfee700005bc726",
+              "5dd31f739bfee700005bc727",
+              "5dd31f7d9bfee700005bc728"
+            ]
+          ],
+          "_id": "5dd5d409f75a97d13959e241",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-11-21T00:02:17.138Z",
+      "_updated": "2019-11-21T00:02:17.138Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dd5d48bf75a97102559e242",
+      "label": [
+        "Keep marching"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dd5b9edf75a97673b59d7f0",
+      "to": "5dd5b9fff75a97460859d7f1",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5dd31f23f75a97148d5982b6",
+              "5dd31fba9bfee700005bc729",
+              "5dd31fec9bfee700005bc72a",
+              "5dd31ff79bfee700005bc72b"
+            ]
+          ],
+          "_id": "5dd5d48bf75a971d9959e243",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-11-21T00:04:27.626Z",
+      "_updated": "2019-11-21T00:04:27.626Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5dd68c6ff75a975b9959ea64",
+      "label": [
+        "Approach the bridge"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dd5b9fff75a97460859d7f1",
+      "to": "5dd5ba2bf75a97123d59d7f2",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5dd31ef2f75a9731d05982b4",
+              "5dd5cfbcba02240000a368fd",
+              "5dd5cfe1ba02240000a368ff",
+              "5dd5d019ba02240000a36901"
+            ]
+          ],
+          "_id": "5dd68c6ff75a97a96e59ea65",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-11-21T13:09:03.742Z",
+      "_updated": "2019-11-21T13:09:03.742Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de01e00f75a9728fd59ec91",
+      "label": [
+        "Cross the bridge"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dd5ba2bf75a97123d59d7f2",
+      "to": "5de00ca6f75a970c8a59ec6c",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5dd5c4c3f75a9785a959d92a",
+              "5dd73d780d48bf000084de7e",
+              "5dd73dca0d48bf000084de81",
+              "5dd73dd50d48bf000084de82"
+            ]
+          ],
+          "_id": "5de01e00f75a976bde59ec92",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5de01de1e14dae0000cc2283",
+          "scene": "5dd5c4f1f75a976a9159d92b",
+          "conditions": []
+        }
+      ],
+      "_created": "2019-11-28T19:20:32.979Z",
+      "_updated": "2019-11-28T19:20:32.979Z",
+      "__v": 0
+    },
+    {
+      "_id": "5de07c5cf75a977fe859ee80",
+      "label": [
+        "Walk to the plaza"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00c9af75a975e4459ec6b",
+      "to": "5de00c78f75a97dcdd59ec69",
+      "_created": "2019-11-29T02:03:08.585Z",
+      "_updated": "2019-11-29T02:08:47.337Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5ddf20a5f75a9791bb59ec2d",
+              "5de0791523cb0b0000f9f860",
+              "5de07ac223cb0b0000f9f863",
+              "5de07b0523cb0b0000f9f866"
+            ]
+          ],
+          "_id": "5de07daff75a97592459eeff",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de07e02f75a97413a59ef00",
+      "label": [
+        "Go back to Highcastle"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00c9af75a975e4459ec6b",
+      "to": "5de00ca6f75a970c8a59ec6c",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5ddf20a5f75a9791bb59ec2d",
+              "5de0791523cb0b0000f9f860",
+              "5de07ac223cb0b0000f9f863",
+              "5de07b0523cb0b0000f9f866"
+            ]
+          ],
+          "_id": "5de07e02f75a97231659ef01",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-11-29T02:10:10.553Z",
+      "_updated": "2019-11-29T02:10:10.553Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de0adc7f75a97781b59f085",
+      "label": [
+        "Leave the Noble Heights"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00ca6f75a970c8a59ec6c",
+      "to": "5dd5ba2bf75a97123d59d7f2",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5dd5c4f1f75a976a9159d92b",
+              "5ddf1764dc36fe0000ee4f4e",
+              "5ddf185ddc36fe0000ee4f57",
+              "5ddf186bdc36fe0000ee4f58"
+            ]
+          ],
+          "_id": "5de0adc7f75a974e0959f086",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-11-29T05:33:59.923Z",
+      "_updated": "2019-11-29T05:37:13.484Z",
+      "encounters": [
+        {
+          "_id": "5de0ae6c9f19580000506ba6",
+          "scene": "5de0ae65f75a97664e59f087",
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5de14ca4f75a97806259f08d",
+      "label": [
+        "Walk down the boulevard"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00c78f75a97dcdd59ec69",
+      "to": "5de00c9af75a975e4459ec6b",
+      "_created": "2019-11-29T16:51:48.464Z",
+      "_updated": "2019-11-29T16:51:48.464Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de14d8cf75a97772659f08e",
+      "label": [
+        "Cross the bridge"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dd5ba2bf75a97123d59d7f2",
+      "to": "5dd5b9fff75a97460859d7f1",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5dd5c4f1f75a976a9159d92b",
+              "5ddf1764dc36fe0000ee4f4e",
+              "5ddf185ddc36fe0000ee4f57",
+              "5ddf186bdc36fe0000ee4f58"
+            ]
+          ],
+          "_id": "5de14d8cf75a97cdda59f08f",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-11-29T16:55:40.599Z",
+      "_updated": "2019-11-29T16:55:40.599Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de14dc1f75a974f0f59f090",
+      "label": [
+        "Leave the city"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dd5b9fff75a97460859d7f1",
+      "to": "5dd5b9edf75a97673b59d7f0",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5dd5c4f1f75a976a9159d92b",
+              "5ddf1764dc36fe0000ee4f4e",
+              "5ddf185ddc36fe0000ee4f57",
+              "5ddf186bdc36fe0000ee4f58"
+            ]
+          ],
+          "_id": "5de14dc1f75a973c6c59f091",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-11-29T16:56:33.730Z",
+      "_updated": "2019-11-29T16:56:33.730Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de14e0ff75a970c2b59f092",
+      "label": [
+        "Return to the ship"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5dd5b9edf75a97673b59d7f0",
+      "to": "5dd5b9dbf75a97a72b59d7ef",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5dd5c4f1f75a976a9159d92b",
+              "5ddf1764dc36fe0000ee4f4e",
+              "5ddf185ddc36fe0000ee4f57",
+              "5ddf186bdc36fe0000ee4f58"
+            ]
+          ],
+          "_id": "5de14e0ff75a97fff259f093",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-11-29T16:57:51.569Z",
+      "_updated": "2019-11-29T16:57:51.569Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de632c4f75a97eb6e59f19d",
+      "label": [
+        "Go to the inn"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5de00c78f75a97dcdd59ec69",
+      "to": "5de63200f75a97db8a59f19a",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5ddf4e3df75a970b6159ec3a",
+              "5ddf4dcc9842cb00005442a5",
+              "5de5b6d7dc5354000067a933",
+              "5de61c56732b3c0000fbfaed"
+            ]
+          ],
+          "_id": "5de632c4f75a97cd0659f19e",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5de632ad3c2749000097653b",
+          "scene": "5de61bd9f75a97b80759f17e",
+          "conditions": []
+        }
+      ],
+      "_created": "2019-12-03T10:02:44.690Z",
+      "_updated": "2019-12-03T10:02:44.690Z",
+      "__v": 0
+    },
+    {
+      "_id": "5de660b3f75a974aba59f1b4",
+      "label": [
+        "Go upstairs"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5de63200f75a97db8a59f19a",
+      "to": "5de65beef75a977bbd59f1b0",
+      "_created": "2019-12-03T13:18:43.073Z",
+      "_updated": "2019-12-03T13:18:43.073Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de660c6f75a97a06759f1b5",
+      "label": [
+        "Go downstairs"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5de65beef75a977bbd59f1b0",
+      "to": "5de63200f75a97db8a59f19a",
+      "_created": "2019-12-03T13:19:02.563Z",
+      "_updated": "2019-12-03T13:19:02.563Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de6b0d9f75a97459b59f6ce",
+      "label": [
+        "Go to your room"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5de65beef75a977bbd59f1b0",
+      "to": "5de69085f75a9710ad59f5f6",
+      "availability": [
+        {
+          "parameters": [
+            "5de674edf75a97221159f24a",
+            "greaterThanOrEqual",
+            1
+          ],
+          "_id": "5de6b0d9f75a97948e59f6cf",
+          "type": "hasItem"
+        }
+      ],
+      "_created": "2019-12-03T19:00:41.570Z",
+      "_updated": "2019-12-03T19:10:54.904Z",
+      "encounters": [
+        {
+          "_id": "5de6b325f7ee5900007b42c2",
+          "scene": "5de6b301f75a9774e659f6d2",
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5de6b0fef75a970ba459f6d0",
+      "label": [
+        "Leave the room"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5de69085f75a9710ad59f5f6",
+      "to": "5de65beef75a977bbd59f1b0",
+      "_created": "2019-12-03T19:01:18.123Z",
+      "_updated": "2019-12-03T19:01:18.123Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de702bcf75a97442159fb87",
+      "label": [
+        "Approach the bell tower"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5de00c78f75a97dcdd59ec69",
+      "to": "5de6beb0f75a97810259fa14",
+      "_created": "2019-12-04T00:50:04.313Z",
+      "_updated": "2019-12-04T00:52:34.450Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5de7032c4029a600006aac17",
+          "scene": "5de6d2e9f75a97718759fac4",
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5de703a6f75a97078359fb89",
+      "label": [
+        "Go back outside"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5de6beb0f75a97810259fa14",
+      "to": "5de00c78f75a97dcdd59ec69",
+      "_created": "2019-12-04T00:53:58.592Z",
+      "_updated": "2019-12-04T00:53:58.592Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de713f6f75a971f1b59fb98",
+      "label": [
+        "Walk to the plaza"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00c68f75a97045459ec68",
+      "to": "5de00c78f75a97dcdd59ec69",
+      "_created": "2019-12-04T02:03:34.061Z",
+      "_updated": "2019-12-04T02:03:34.061Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de713c3f75a9704d459fb96",
+      "label": [
+        "Explore the street to the northwest"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00c78f75a97dcdd59ec69",
+      "to": "5de00c68f75a97045459ec68",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5ddf4e3df75a970b6159ec3a",
+              "5ddf4dcc9842cb00005442a5",
+              "5de5b6d7dc5354000067a933",
+              "5de61c56732b3c0000fbfaed"
+            ]
+          ],
+          "_id": "5de713c3f75a97360b59fb97",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-12-04T02:02:43.380Z",
+      "_updated": "2019-12-04T05:17:59.026Z",
+      "encounters": [
+        {
+          "_id": "5de7416a9f6b9700001b337a",
+          "scene": "5de70638f75a979ed159fb8b",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5de7424ef75a973c2759fbb8",
+      "label": [
+        "Walk down the avenue"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00c68f75a97045459ec68",
+      "to": "5de00c55f75a973f8059ec67",
+      "encounters": [
+        {
+          "_id": "5de7421d9f6b9700001b337b",
+          "scene": "5de73f99f75a97985259fbae",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "_created": "2019-12-04T05:21:18.433Z",
+      "_updated": "2019-12-04T05:21:18.433Z",
+      "availability": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de74308f75a97caea59fbbb",
+      "label": [
+        "Leave the parlor house"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00c55f75a973f8059ec67",
+      "to": "5de00c68f75a97045459ec68",
+      "_created": "2019-12-04T05:24:24.726Z",
+      "_updated": "2019-12-04T05:24:24.726Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de81dc0f75a97bd4f59fbd1",
+      "label": [
+        "Explore the street to the south"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00c78f75a97dcdd59ec69",
+      "to": "5de00c88f75a977c8f59ec6a",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5ddf4e3df75a970b6159ec3a",
+              "5ddf4dcc9842cb00005442a5",
+              "5de5b6d7dc5354000067a933",
+              "5de61c56732b3c0000fbfaed"
+            ]
+          ],
+          "_id": "5de81dc0f75a97fb1959fbd2",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5de81da853743e0000ebcbb3",
+          "scene": "5de81b0df75a9743a059fbbf",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "_created": "2019-12-04T20:57:36.331Z",
+      "_updated": "2019-12-04T20:59:00.471Z",
+      "__v": 0
+    },
+    {
+      "_id": "5de81de0f75a97494559fbd4",
+      "label": [
+        "Walk to the plaza"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00c88f75a977c8f59ec6a",
+      "to": "5de00c78f75a97dcdd59ec69",
+      "_created": "2019-12-04T20:58:08.073Z",
+      "_updated": "2019-12-04T20:58:08.073Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5def2128f75a97e38e59fc2c",
+      "label": [
+        "Enter the parlor house"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5de00c55f75a973f8059ec67",
+      "to": "5de8123cf75a9725a759fbbd",
+      "_created": "2019-12-10T04:38:00.937Z",
+      "_updated": "2019-12-10T04:38:00.937Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5def214cf75a973e0d59fc2d",
+      "label": [
+        "Leave the parlor house"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5de8123cf75a9725a759fbbd",
+      "to": "5de00c55f75a973f8059ec67",
+      "_created": "2019-12-10T04:38:36.011Z",
+      "_updated": "2019-12-10T04:38:36.011Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de632eff75a97196359f1a0",
+      "label": [
+        "Leave the inn"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5de63200f75a97db8a59f19a",
+      "to": "5de00c78f75a97dcdd59ec69",
+      "_created": "2019-12-03T10:03:27.418Z",
+      "_updated": "2019-12-10T08:07:27.287Z",
+      "availability": [],
+      "encounters": [
+        {
+          "_id": "5def52099257a1000020c3ef",
+          "scene": "5de6f2a6f75a970fee59fb5d",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5de6325af75a97258b59f19b",
+                  "5de688914c55110000922c69",
+                  "5de689214c55110000922c70",
+                  "5de68f9a18099c0000ddcd2d"
+                ]
+              ],
+              "_id": "5def523ff75a97710859fcc7",
+              "type": "hasSeenOptionOutcome"
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5df1a5f8f75a9775975a0268",
+      "label": [
+        "Go back to the salon"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5df1a4f6f75a976eb35a0261",
+      "to": "5de8123cf75a9725a759fbbd",
+      "_created": "2019-12-12T02:29:12.482Z",
+      "_updated": "2019-12-12T02:29:12.482Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5df1a591f75a9717ae5a0263",
+      "label": [
+        "Go to the back rooms"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5de8123cf75a9725a759fbbd",
+      "to": "5df1a4f6f75a976eb35a0261",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5def1fdcf75a97028f59fc25",
+              "5def1ffa7c604d0000af9c6a",
+              "5def20207c604d0000af9c6b",
+              "5def20597c604d0000af9c6f"
+            ]
+          ],
+          "_id": "5df1a591f75a9777075a0264",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5df1a573be815c00001400de",
+          "scene": "5df19477f75a977a5d5a024e",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5df19477f75a977a5d5a024e",
+                  "5df1a287be815c00001400d1"
+                ]
+              ],
+              "_id": "5df895c0f75a9729595a0a53",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "_created": "2019-12-12T02:27:29.442Z",
+      "_updated": "2019-12-17T08:45:52.034Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dfc4535f75a9755405a1509",
+      "label": [
+        "Seek out the gambling den",
+        "Return to the gambling den"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5de00c68f75a97045459ec68",
+      "to": "5defa7e2f75a9726fa59ff90",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5dc0af09ff2c19b893db8556",
+              "5dc0aef4f30d06000051ace0",
+              "5df90da61bde2300008d0221"
+            ]
+          ],
+          "_id": "5dfc459bf75a97524d5a1510",
+          "type": "hasActivatedQuestObjectiveUpdate"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5dfc4632d4ca4400003c40c8",
+          "scene": "5dfbf3eff75a9704835a1171",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5dfbf3eff75a9704835a1171",
+                  "5dfc11516c35fc00004d3dc3"
+                ]
+              ],
+              "_id": "5dfc4854f75a97864e5a1528",
+              "type": "hasSeenNode",
+              "negate": true
+            },
+            {
+              "parameters": [
+                [
+                  "5dfbf3eff75a9704835a1171",
+                  "5dfc119e6c35fc00004d3dc4"
+                ]
+              ],
+              "_id": "5dfc4854f75a9764ee5a1527",
+              "type": "hasSeenNode",
+              "negate": true
+            },
+            {
+              "parameters": [
+                [
+                  "5dfbf3eff75a9704835a1171",
+                  "5dfc221c7a36de0000186789"
+                ]
+              ],
+              "_id": "5dfc4854f75a9726375a1526",
+              "type": "hasSeenNode",
+              "negate": true
+            },
+            {
+              "parameters": [
+                [
+                  "5dfbf3eff75a9704835a1171",
+                  "5dfc269e7a36de0000186795"
+                ]
+              ],
+              "_id": "5dfc4854f75a97f0235a1525",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ]
+        },
+        {
+          "_id": "5dfc4746d4ca4400003c40ce",
+          "scene": "5dfc326ff75a9712785a14d7",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5dfbf3eff75a9704835a1171",
+                  "5dfc269e7a36de0000186795"
+                ]
+              ],
+              "_id": "5dfc4854f75a973a4c5a1523",
+              "type": "hasSeenNode",
+              "negate": false
+            }
+          ],
+          "maxAccounts": 1
+        },
+        {
+          "_id": "5dfc47bbd4ca4400003c40d0",
+          "scene": "5dfc3486f75a97a3fa5a14f9",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5dfbf3eff75a9704835a1171",
+                  "5dfc11516c35fc00004d3dc3"
+                ]
+              ],
+              "_id": "5dfc4854f75a977d6d5a1521",
+              "type": "hasSeenNode"
+            }
+          ]
+        },
+        {
+          "_id": "5dfc4826d4ca4400003c40d2",
+          "scene": "5dfc3451f75a9719ae5a14f8",
+          "conditions": []
+        }
+      ],
+      "_updated": "2019-12-26T01:49:18.648Z",
+      "_created": "2019-12-20T03:52:59.826Z"
+    },
+    {
+      "_id": "5e0349b5c7c1d73dd20c471f",
+      "label": [
+        "Leave the gambling den"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5defa7e2f75a9726fa59ff90",
+      "to": "5de00c68f75a97045459ec68",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5dfbf3b0f75a97acfd5a1170",
+              "5dfce56fbb155d000018c18f",
+              "5e02c2f0a89cdb0000022504"
+            ]
+          ],
+          "_id": "5e0349b5c7c1d742b50c4720",
+          "type": "hasUsedOption"
+        }
+      ],
+      "_created": "2019-12-25T11:36:21.289Z",
+      "_updated": "2019-12-26T01:30:42.373Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e035e63c7c1d76d990c47dd",
+      "label": [
+        "Enter the office"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5defa7e2f75a9726fa59ff90",
+      "to": "5e0350acc7c1d722610c47d0",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5e034afac7c1d73a810c4770",
+              "5e034c8d46e611000006fcfd",
+              "5e034c9946e611000006fcfe",
+              "5e034cb046e611000006fcff"
+            ]
+          ],
+          "_id": "5e035e63c7c1d734030c47de",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2019-12-25T13:04:35.517Z",
+      "_updated": "2019-12-25T13:04:35.518Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e035e7bc7c1d73dba0c47df",
+      "label": [
+        "Leave the office"
+      ],
+      "weight": 0,
+      "map": false,
+      "from": "5e0350acc7c1d722610c47d0",
+      "to": "5defa7e2f75a9726fa59ff90",
+      "_created": "2019-12-25T13:04:59.477Z",
+      "_updated": "2019-12-25T13:04:59.477Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    }
+  ]
 }
