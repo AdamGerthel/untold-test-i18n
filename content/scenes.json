@@ -62990,11 +62990,9 @@
                 {
                   "_id": "5dba280eab14be0000424703",
                   "event": {
-                    "type": "narrative",
+                    "type": "node",
                     "parameters": [
-                      [
-                        "You travel east along the northern coast of Roe Island. Calvino’s wooden raft provides no refuge from the ocean winds. Eventually, you continue southeast across Delph River until you reach the Harbor of Bast, where the prows of sunken ships mark their watery graves."
-                      ]
+                      "5dba2730ab14be00004246fb"
                     ]
                   },
                   "actions": [],
@@ -63042,7 +63040,7 @@
           ]
         }
       ],
-      "_updated": "2019-12-27T00:18:12.615Z",
+      "_updated": "2019-12-27T00:50:58.465Z",
       "_created": "2019-09-14T16:11:58.925Z"
     },
     {
@@ -67655,10 +67653,11 @@
               ],
               "availability": []
             }
-          ]
+          ],
+          "background": "5dd70e76f75a979c4a59eaf0"
         }
       ],
-      "_updated": "2019-11-11T18:11:16.690Z",
+      "_updated": "2019-12-27T01:06:39.775Z",
       "_created": "2019-10-31T00:12:41.400Z"
     },
     {
@@ -72907,7 +72906,7 @@
       ],
       "name": "Set Path Encounter: Ambush",
       "_created": "2019-11-07T08:10:57.288Z",
-      "_updated": "2019-11-07T10:15:05.771Z",
+      "_updated": "2019-12-27T01:12:06.632Z",
       "nodes": [
         {
           "narrative": [
@@ -73471,7 +73470,8 @@
           ]
         }
       ],
-      "__v": 0
+      "__v": 0,
+      "background": "5dd70e76f75a9777bd59eaf5"
     },
     {
       "_id": "5dc4f9c2f75a9762f55970a8",
@@ -75491,7 +75491,8 @@
               ],
               "availability": []
             }
-          ]
+          ],
+          "background": "5df2a8acf75a97e6625a0789"
         },
         {
           "narrative": [
@@ -75520,7 +75521,8 @@
               ],
               "availability": []
             }
-          ]
+          ],
+          "background": "5df2a8acf75a97fecd5a0788"
         },
         {
           "narrative": [
@@ -75707,7 +75709,7 @@
           ]
         }
       ],
-      "_updated": "2019-11-12T04:22:58.257Z",
+      "_updated": "2019-12-27T00:53:25.830Z",
       "_created": "2019-11-08T07:22:58.698Z"
     },
     {
@@ -77247,8 +77249,17 @@
     {
       "_id": "5dd31ef2f75a9731d05982b4",
       "autoSave": {
-        "save": false,
-        "conditions": []
+        "save": true,
+        "conditions": [
+          {
+            "parameters": [
+              "5dd31ef2f75a9731d05982b4"
+            ],
+            "_id": "5e06174cc7c1d730540c4968",
+            "type": "hasSeenScene",
+            "negate": true
+          }
+        ]
       },
       "npcs": [
         "5dcec3ccf75a97bb545982b3",
@@ -77259,7 +77270,7 @@
       ],
       "name": "Scenario 3: Burning City",
       "_created": "2019-11-18T22:45:06.357Z",
-      "_updated": "2019-11-21T11:47:28.394Z",
+      "_updated": "2019-12-27T14:38:04.622Z",
       "nodes": [
         {
           "narrative": [

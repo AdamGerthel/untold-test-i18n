@@ -4,26 +4,6 @@
   "skip": 0,
   "data": [
     {
-      "_id": "5c7d4ceffd6b4972fa456b21",
-      "name": "Western Plains",
-      "area": "5c7d45f4fd6b495555456b03",
-      "_created": "2019-03-04T16:06:07.063Z",
-      "states": [
-        {
-          "_id": "5c7d5066fd6b49f8c2456b2d",
-          "scene": "5c7d4f19fd6b495721456b27",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "_updated": "2019-10-13T20:57:49.079Z",
-      "coordinates": {
-        "x": 134,
-        "y": 549
-      },
-      "background": "5da38f7cc55b7f7e25f52877"
-    },
-    {
       "_id": "5c7d46a0fd6b494077456b05",
       "name": "Beach",
       "area": "5c7d45f4fd6b495555456b03",
@@ -31,7 +11,9 @@
       "states": [
         {
           "_id": "5c7d5054fd6b490fee456b2c",
-          "scene": "5c7d46b8fd6b497bd2456b06",
+          "scene": [
+            "5c7d46b8fd6b497bd2456b06"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -45,7 +27,9 @@
         },
         {
           "_id": "5c7d52cefd6b494dd2456b30",
-          "scene": "5c7d52bffd6b498d91456b2e",
+          "scene": [
+            "5c7d52bffd6b498d91456b2e"
+          ],
           "conditions": []
         }
       ],
@@ -65,7 +49,9 @@
       "states": [
         {
           "_id": "5c7d6b1cfd6b4960a3456b79",
-          "scene": "5c7d5e30fd6b4966f5456b52",
+          "scene": [
+            "5c7d5e30fd6b4966f5456b52"
+          ],
           "conditions": []
         }
       ],
@@ -78,64 +64,6 @@
       "background": "5da38f7cc55b7fb198f52872"
     },
     {
-      "_id": "5c8035d00e37480150c6018d",
-      "name": "Shack Interior",
-      "area": "5c7d45f4fd6b495555456b03",
-      "coordinates": {
-        "x": 0,
-        "y": 0
-      },
-      "_created": "2019-03-06T21:04:16.404Z",
-      "states": [
-        {
-          "_id": "5c8042070e37481555c601b9",
-          "scene": "5c8036670e37482ec0c60190",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "_updated": "2019-10-14T07:18:01.535Z",
-      "background": "5da38f7cc55b7f4e34f52876"
-    },
-    {
-      "_id": "5c8041b00e37483a86c601b5",
-      "name": "Loft (Abandoned Shack)",
-      "area": "5c7d45f4fd6b495555456b03",
-      "coordinates": {
-        "x": 0,
-        "y": 0
-      },
-      "_created": "2019-03-06T21:54:56.651Z",
-      "states": [
-        {
-          "_id": "5c80420f0e3748756ec601ba",
-          "scene": "5c8041c20e37481c75c601b6",
-          "conditions": [
-            {
-              "parameters": [
-                [
-                  "5c8041c20e37481c75c601b6",
-                  "5c8041c77c630500000aed77",
-                  "5c8042ff7c630500000aed78"
-                ]
-              ],
-              "_id": "5c8044480e37480bc4c601c6",
-              "type": "hasUsedOption",
-              "negate": true
-            }
-          ]
-        },
-        {
-          "_id": "5c8044480e37483364c601c4",
-          "scene": "5c8043bd0e374810d0c601c2",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "_updated": "2019-10-14T07:18:21.205Z",
-      "background": "5da38f7cc55b7f4e34f52876"
-    },
-    {
       "_id": "5c7e46818777bd37f59e6844",
       "name": "Grove",
       "area": "5c7d45f4fd6b495555456b03",
@@ -143,7 +71,9 @@
       "states": [
         {
           "_id": "5c82c4080e3748d269c6028f",
-          "scene": "5c85bbb80e3748263ac60333",
+          "scene": [
+            "5c85bbb80e3748263ac60333"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -161,7 +91,9 @@
         },
         {
           "_id": "5c8e54fa153140e592805686",
-          "scene": "5c8e541c15314008ed805685",
+          "scene": [
+            "5c8e541c15314008ed805685"
+          ],
           "conditions": []
         }
       ],
@@ -172,26 +104,6 @@
       },
       "_updated": "2019-10-13T20:57:16.351Z",
       "background": "5da38f7cc55b7f243ff5287a"
-    },
-    {
-      "_id": "5c8ac984190288866df94cce",
-      "name": "Triad Apex",
-      "area": "5c8a77b3190288bd85f94cc9",
-      "coordinates": {
-        "x": 197,
-        "y": 62
-      },
-      "_created": "2019-03-14T21:37:08.368Z",
-      "_updated": "2019-11-02T10:40:16.313Z",
-      "states": [
-        {
-          "_id": "5c8ff0ef3bae8dd8502b5e6b",
-          "scene": "5c8fd1213bae8d0a222b5e3f",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5dbd5cfeff2c198020db7e30"
     },
     {
       "_id": "5c8ac9bd19028894c6f94cd0",
@@ -206,7 +118,9 @@
       "states": [
         {
           "_id": "5ca3976537903589ebb1cd58",
-          "scene": "5ca3908a379035f3d7b1cd0e",
+          "scene": [
+            "5ca3908a379035f3d7b1cd0e"
+          ],
           "conditions": []
         }
       ],
@@ -226,92 +140,14 @@
       "states": [
         {
           "_id": "5c8feea03bae8dd50f2b5e68",
-          "scene": "5c8fd2503bae8ddc2e2b5e45",
+          "scene": [
+            "5c8fd2503bae8ddc2e2b5e45"
+          ],
           "conditions": []
         }
       ],
       "__v": 0,
       "background": "5dbd7faaff2c1923a6db7f20"
-    },
-    {
-      "_id": "5c8aca7b19028861c4f94cd3",
-      "name": "Chapels",
-      "area": "5c8a77b3190288bd85f94cc9",
-      "coordinates": {
-        "x": 148,
-        "y": 285
-      },
-      "_created": "2019-03-14T21:41:15.126Z",
-      "_updated": "2019-11-02T10:43:02.352Z",
-      "states": [
-        {
-          "_id": "5ca39b1c37903537b7b1cd67",
-          "scene": "5ca39b06379035d1bbb1cd65",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5dbd5d9bff2c194c3bdb7e5e"
-    },
-    {
-      "_id": "5c8acac119028881aff94cd6",
-      "name": "Catacombs",
-      "area": "5c8a77b3190288bd85f94cc9",
-      "coordinates": {
-        "x": 112,
-        "y": 391
-      },
-      "_created": "2019-03-14T21:42:25.031Z",
-      "_updated": "2019-11-02T13:13:49.489Z",
-      "states": [
-        {
-          "_id": "5c8ff1c13bae8dd7002b5e6e",
-          "scene": "5c8fd28d3bae8d2f362b5e47",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5dbd80e3ff2c191859db7f40"
-    },
-    {
-      "_id": "5cac84ec379035285bb2264b",
-      "name": "Walkway",
-      "area": "5c8a77b3190288bd85f94cc9",
-      "coordinates": {
-        "x": 298,
-        "y": 337
-      },
-      "_created": "2019-04-09T11:41:32.933Z",
-      "_updated": "2019-11-02T13:24:29.140Z",
-      "states": [
-        {
-          "_id": "5cac8c0c3790356ee7b2267c",
-          "scene": "5cac8b6c379035de09b22679",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5dbd7fabff2c198160db7f23"
-    },
-    {
-      "_id": "5cac855f379035943eb2264c",
-      "name": "Tower House 3F",
-      "area": "5c8a77b3190288bd85f94cc9",
-      "coordinates": {
-        "x": 301,
-        "y": 340
-      },
-      "_created": "2019-04-09T11:43:27.697Z",
-      "_updated": "2019-11-02T13:25:13.034Z",
-      "states": [
-        {
-          "_id": "5cb211b2c065f0bd99942604",
-          "scene": "5cb2119ec065f03dfe942600",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5dbd7fabff2c198160db7f23"
     },
     {
       "_id": "5de00c55f75a973f8059ec67",
@@ -326,7 +162,9 @@
       "states": [
         {
           "_id": "5de7427ff75a97499e59fbba",
-          "scene": "5de7407af75a97d86f59fbb4",
+          "scene": [
+            "5de7407af75a97d86f59fbb4"
+          ],
           "conditions": []
         }
       ],
@@ -345,7 +183,9 @@
       "states": [
         {
           "_id": "5de7135df75a977a4759fb95",
-          "scene": "5de705a2f75a97c51059fb8a",
+          "scene": [
+            "5de705a2f75a97c51059fb8a"
+          ],
           "conditions": []
         }
       ],
@@ -364,7 +204,9 @@
       "states": [
         {
           "_id": "5de81d5df75a97423859fbd0",
-          "scene": "5de81b4ef75a97a4ca59fbc7",
+          "scene": [
+            "5de81b4ef75a97a4ca59fbc7"
+          ],
           "conditions": []
         }
       ],
@@ -383,7 +225,9 @@
       "states": [
         {
           "_id": "5de01e2bf75a97475a59ec94",
-          "scene": "5ddf190ff75a974ac259ec1c",
+          "scene": [
+            "5ddf190ff75a974ac259ec1c"
+          ],
           "conditions": []
         }
       ],
@@ -416,6 +260,28 @@
       "__v": 0
     },
     {
+      "_id": "5c8ac984190288866df94cce",
+      "name": "Triad Apex",
+      "area": "5c8a77b3190288bd85f94cc9",
+      "coordinates": {
+        "x": 197,
+        "y": 62
+      },
+      "_created": "2019-03-14T21:37:08.368Z",
+      "_updated": "2019-11-02T10:40:16.313Z",
+      "states": [
+        {
+          "_id": "5c8ff0ef3bae8dd8502b5e6b",
+          "scene": [
+            "5c8fd1213bae8d0a222b5e3f"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5dbd5cfeff2c198020db7e30"
+    },
+    {
       "_id": "5c7e46598777bd4dd69e6842",
       "name": "Forest Camp",
       "area": "5c7d45f4fd6b495555456b03",
@@ -423,7 +289,9 @@
       "states": [
         {
           "_id": "5c81957c0e3748eaf7c60235",
-          "scene": "5c8192350e37487297c60230",
+          "scene": [
+            "5c8192350e37487297c60230"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -437,7 +305,9 @@
         },
         {
           "_id": "5ca36ca63790356fa7b1cd0a",
-          "scene": "5c8535e90e3748827cc602bc",
+          "scene": [
+            "5c8535e90e3748827cc602bc"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -470,7 +340,9 @@
       "states": [
         {
           "_id": "5ca3993b3790351b88b1cd64",
-          "scene": "5ca39865379035833cb1cd59",
+          "scene": [
+            "5ca39865379035833cb1cd59"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -487,7 +359,9 @@
         },
         {
           "_id": "5ca46e003790354207b1d023",
-          "scene": "5ca46511379035533eb1d01c",
+          "scene": [
+            "5ca46511379035533eb1d01c"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -513,7 +387,9 @@
         },
         {
           "_id": "5ca47a2b3790358776b1d04a",
-          "scene": "5ca4653c379035bd49b1d01d",
+          "scene": [
+            "5ca4653c379035bd49b1d01d"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -543,26 +419,6 @@
       "background": "5dbd8059ff2c1997b4db7f25"
     },
     {
-      "_id": "5cac860137903579c4b2264d",
-      "name": "Warehouse",
-      "coordinates": {
-        "x": 302,
-        "y": 341
-      },
-      "area": "5c8a77b3190288bd85f94cc9",
-      "_created": "2019-04-09T11:46:09.231Z",
-      "_updated": "2019-11-02T13:25:42.959Z",
-      "states": [
-        {
-          "_id": "5cb260bdc065f0091c942a3e",
-          "scene": "5cb255dcc065f0d6079429a8",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5dbd7fabff2c198160db7f23"
-    },
-    {
       "_id": "5cacc1bb37903544b0b226c7",
       "name": "Tavern 2F",
       "coordinates": {
@@ -575,7 +431,9 @@
       "states": [
         {
           "_id": "5cacc9373790354caab226d9",
-          "scene": "5cacc850379035e26eb226d7",
+          "scene": [
+            "5cacc850379035e26eb226d7"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -592,7 +450,9 @@
         },
         {
           "_id": "5cacf0a0379035cf1db2272c",
-          "scene": "5cacf036379035b275b2272a",
+          "scene": [
+            "5cacf036379035b275b2272a"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -611,26 +471,6 @@
       "background": "5dbd7fabff2c198160db7f23"
     },
     {
-      "_id": "5cb20b1fc065f067219425c1",
-      "name": "Tower House 2F",
-      "area": "5c8a77b3190288bd85f94cc9",
-      "coordinates": {
-        "x": 305,
-        "y": 344
-      },
-      "_created": "2019-04-13T16:15:27.248Z",
-      "_updated": "2019-11-02T13:25:08.255Z",
-      "states": [
-        {
-          "_id": "5cb21579c065f0a0cd942617",
-          "scene": "5cb2152fc065f00e57942615",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5dbd7fabff2c198160db7f23"
-    },
-    {
       "_id": "5cac86723790356c3fb2264e",
       "name": "Lighthouse",
       "area": "5c8a77b3190288bd85f94cc9",
@@ -643,7 +483,9 @@
       "states": [
         {
           "_id": "5cb27225c065f004df942a65",
-          "scene": "5cb271f7c065f0d449942a63",
+          "scene": [
+            "5cb271f7c065f0d449942a63"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -660,7 +502,9 @@
         },
         {
           "_id": "5cb2897ac065f0e5ed942c3d",
-          "scene": "5cb2890dc065f03c39942c3b",
+          "scene": [
+            "5cb2890dc065f03c39942c3b"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -691,7 +535,9 @@
       "states": [
         {
           "_id": "5cac8d2c379035e97eb2267e",
-          "scene": "5cac8b973790352857b2267a",
+          "scene": [
+            "5cac8b973790352857b2267a"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -708,7 +554,9 @@
         },
         {
           "_id": "5cb35008c065f05c29943379",
-          "scene": "5cb34f87c065f062f3943377",
+          "scene": [
+            "5cb34f87c065f062f3943377"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -739,7 +587,9 @@
       "states": [
         {
           "_id": "5c8ff0cb3bae8d57bb2b5e6a",
-          "scene": "5c8fd42f3bae8dfc4c2b5e4b",
+          "scene": [
+            "5c8fd42f3bae8dfc4c2b5e4b"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -756,7 +606,9 @@
         },
         {
           "_id": "5cb7ced2c065f05312943642",
-          "scene": "5cb7ce6ac065f00987943640",
+          "scene": [
+            "5cb7ce6ac065f00987943640"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -787,7 +639,9 @@
       "states": [
         {
           "_id": "5cb21a0dc065f0bad794264c",
-          "scene": "5cb219f8c065f07cd094264a",
+          "scene": [
+            "5cb219f8c065f07cd094264a"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -804,7 +658,9 @@
         },
         {
           "_id": "5cb7e06cc065f0077c943740",
-          "scene": "5cb7e019c065f083e894373e",
+          "scene": [
+            "5cb7e019c065f083e894373e"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -835,7 +691,9 @@
       "states": [
         {
           "_id": "5c8ff1793bae8d83712b5e6d",
-          "scene": "5c8fd5ab3bae8d00702b5e4d",
+          "scene": [
+            "5c8fd5ab3bae8d00702b5e4d"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -863,7 +721,9 @@
         },
         {
           "_id": "5cb8c45fc065f065f29439e4",
-          "scene": "5cb8c3aec065f082a29439e2",
+          "scene": [
+            "5cb8c3aec065f082a29439e2"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -890,7 +750,9 @@
         },
         {
           "_id": "5cb8f490c065f04ae0943a60",
-          "scene": "5cb8f2cfc065f05aea943a59",
+          "scene": [
+            "5cb8f2cfc065f05aea943a59"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -931,7 +793,9 @@
       "states": [
         {
           "_id": "5cb99b43c065f057fa944446",
-          "scene": "5cb99516c065f0716d9443dc",
+          "scene": [
+            "5cb99516c065f0716d9443dc"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -948,7 +812,9 @@
         },
         {
           "_id": "5cb9b033c065f0cdfe9444fd",
-          "scene": "5cb9af5bc065f01a9f9444fb",
+          "scene": [
+            "5cb9af5bc065f01a9f9444fb"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -979,7 +845,9 @@
       "states": [
         {
           "_id": "5cc15467c065f06b809465a4",
-          "scene": "5cc14e2ec065f0b37d946575",
+          "scene": [
+            "5cc14e2ec065f0b37d946575"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -996,7 +864,9 @@
         },
         {
           "_id": "5cc15467c065f0fb989465a2",
-          "scene": "5cc14fd7c065f01f3794657e",
+          "scene": [
+            "5cc14fd7c065f01f3794657e"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1027,92 +897,14 @@
       "states": [
         {
           "_id": "5cd960b9482c294c64211ffd",
-          "scene": "5cd9607f482c290205211fed",
+          "scene": [
+            "5cd9607f482c290205211fed"
+          ],
           "conditions": []
         }
       ],
       "__v": 0,
       "background": "5dd70d7cf75a977c6359ea8a"
-    },
-    {
-      "_id": "5cda73f2c3e78f22075bb29d",
-      "name": "Abandoned Farm",
-      "area": "5cda73a8c3e78fc3885bb29b",
-      "coordinates": {
-        "x": 112,
-        "y": 168
-      },
-      "_created": "2019-05-14T07:53:22.151Z",
-      "_updated": "2019-12-01T21:57:03.129Z",
-      "states": [
-        {
-          "_id": "5d16dca2ebd3dc89f554ccb8",
-          "scene": "5d16dc81ebd3dcc9d754ccb6",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5de435f1f75a97165259f0e6"
-    },
-    {
-      "_id": "5cda7413c3e78f2fee5bb29f",
-      "name": "Log Cabin",
-      "area": "5cda73a8c3e78fc3885bb29b",
-      "coordinates": {
-        "x": 294,
-        "y": 131
-      },
-      "_created": "2019-05-14T07:53:55.961Z",
-      "_updated": "2019-12-01T21:55:59.486Z",
-      "states": [
-        {
-          "_id": "5d54fd9a8335b4865b8852c6",
-          "scene": "5d54e0558335b47afa885268",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5de435f1f75a9795c059f0e9"
-    },
-    {
-      "_id": "5cda7432c3e78f123d5bb2a1",
-      "name": "Lake Roe",
-      "area": "5cda73a8c3e78fc3885bb29b",
-      "coordinates": {
-        "x": 239,
-        "y": 243
-      },
-      "_created": "2019-05-14T07:54:26.277Z",
-      "_updated": "2019-12-01T21:56:25.507Z",
-      "states": [
-        {
-          "_id": "5d54fd858335b477fa8852c5",
-          "scene": "5d54e0768335b4202388526a",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5de435f1f75a9734ea59f0e0"
-    },
-    {
-      "_id": "5ce3c343c3e78f6c995bc028",
-      "name": "Galley (Ocean)",
-      "area": "5c7d45f4fd6b495555456b03",
-      "coordinates": {
-        "x": 0,
-        "y": 0
-      },
-      "_created": "2019-05-21T09:22:11.020Z",
-      "_updated": "2019-11-21T22:20:00.635Z",
-      "states": [
-        {
-          "_id": "5ce3ea0cc3e78fd9795bc046",
-          "scene": "5ce3c382c3e78f65cf5bc029",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5dd70d7cf75a97bb6c59ea89"
     },
     {
       "_id": "5cb29c28c065f0490b942e01",
@@ -1127,7 +919,9 @@
       "states": [
         {
           "_id": "5cb29e98c065f076c2942e0f",
-          "scene": "5cb29c94c065f0a89e942e02",
+          "scene": [
+            "5cb29c94c065f0a89e942e02"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1155,7 +949,9 @@
         },
         {
           "_id": "5cb7c657c065f0b268943610",
-          "scene": "5cb7c613c065f0676b94360e",
+          "scene": [
+            "5cb7c613c065f0676b94360e"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1182,7 +978,9 @@
         },
         {
           "_id": "5ce3e62dc3e78f37d95bc034",
-          "scene": "5cc09d45c065f02dee946305",
+          "scene": [
+            "5cc09d45c065f02dee946305"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1223,7 +1021,9 @@
       "states": [
         {
           "_id": "5ce462ecc3e78f10955bc86d",
-          "scene": "5ce462dbc3e78f0c395bc86b",
+          "scene": [
+            "5ce462dbc3e78f0c395bc86b"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1240,7 +1040,9 @@
         },
         {
           "_id": "5ce4df01c3e78f3d4d5bd0b2",
-          "scene": "5ce49e2fc3e78fe87a5bcb05",
+          "scene": [
+            "5ce49e2fc3e78fe87a5bcb05"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1259,26 +1061,6 @@
       "background": "5dd70d7cf75a97ccc059ea88"
     },
     {
-      "_id": "5ce4e2d0c3e78fdebe5bd1cf",
-      "name": "Selikro Delta",
-      "area": "5ce461eac3e78f329c5bc869",
-      "coordinates": {
-        "x": 0,
-        "y": 0
-      },
-      "_created": "2019-05-22T05:49:04.387Z",
-      "_updated": "2019-11-21T22:26:26.811Z",
-      "states": [
-        {
-          "_id": "5cee3e53c3e78f4ca25c08bf",
-          "scene": "5ce48d9dc3e78f6f625bca96",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5dd70e76f75a97f66959eaee"
-    },
-    {
       "_id": "5ce48b63c3e78fd9e45bca8f",
       "name": "Cape Ram",
       "area": "5ce461eac3e78f329c5bc869",
@@ -1291,7 +1073,9 @@
       "states": [
         {
           "_id": "5cee3e1dc3e78fea345c08bd",
-          "scene": "5cee3c8fc3e78f4ed75c08b9",
+          "scene": [
+            "5cee3c8fc3e78f4ed75c08b9"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1307,7 +1091,9 @@
         },
         {
           "_id": "5cee3e1dc3e78f0f9a5c08bb",
-          "scene": "5cee3caec3e78f93515c08ba",
+          "scene": [
+            "5cee3caec3e78f93515c08ba"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1326,46 +1112,6 @@
       "background": "5dd70e76f75a97ebaa59eaed"
     },
     {
-      "_id": "5d011f680b4b6204ec34cf67",
-      "name": "Infirmary",
-      "area": "5cda74adc3e78f15685bb2a6",
-      "coordinates": {
-        "x": 249,
-        "y": 75
-      },
-      "_created": "2019-06-12T15:51:04.319Z",
-      "_updated": "2019-11-21T22:22:30.194Z",
-      "states": [
-        {
-          "_id": "5d13a3e6ebd3dc844754cae9",
-          "scene": "5d13a3b0ebd3dce51254cae5",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5dd70d7cf75a9779d959ea8c"
-    },
-    {
-      "_id": "5d011f9d0b4b6231fd34cf6a",
-      "name": "Longhouse",
-      "area": "5cda74adc3e78f15685bb2a6",
-      "coordinates": {
-        "x": 79,
-        "y": 253
-      },
-      "_created": "2019-06-12T15:51:57.637Z",
-      "_updated": "2019-11-21T22:24:41.444Z",
-      "states": [
-        {
-          "_id": "5d13ae43ebd3dc698254caf4",
-          "scene": "5d13ae16ebd3dcaeea54caf2",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5dd70e76f75a97646c59eaf2"
-    },
-    {
       "_id": "5cda73c4c3e78f62235bb29c",
       "name": "Harbor of Set",
       "area": "5cda74adc3e78f15685bb2a6",
@@ -1378,7 +1124,9 @@
       "states": [
         {
           "_id": "5dc925d4f75a9719fe59765d",
-          "scene": "5dc4f77df75a9768a35970a6",
+          "scene": [
+            "5dc4f77df75a9768a35970a6"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1402,7 +1150,9 @@
         },
         {
           "_id": "5dc97c4ef75a978588597e4a",
-          "scene": "5dc4f7c7f75a971c885970a7",
+          "scene": [
+            "5dc4f7c7f75a971c885970a7"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1425,7 +1175,9 @@
         },
         {
           "_id": "5cf7543ec3e78f84c45c2482",
-          "scene": "5cf7541ac3e78f1fcf5c247f",
+          "scene": [
+            "5cf7541ac3e78f1fcf5c247f"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1450,7 +1202,9 @@
         },
         {
           "_id": "5cf7aa10c3e78f0d5e5c2dde",
-          "scene": "5cf7a997c3e78f7b325c2dd1",
+          "scene": [
+            "5cf7a997c3e78f7b325c2dd1"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1474,7 +1228,9 @@
         },
         {
           "_id": "5d16ae2febd3dcda3854cb70",
-          "scene": "5d1680a8ebd3dc67ca54cafc",
+          "scene": [
+            "5d1680a8ebd3dc67ca54cafc"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1512,7 +1268,9 @@
       "states": [
         {
           "_id": "5d16be1eebd3dc3bad54cb9a",
-          "scene": "5d16bd8aebd3dca70854cb94",
+          "scene": [
+            "5d16bd8aebd3dca70854cb94"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1546,7 +1304,9 @@
         },
         {
           "_id": "5d54da6c8335b415c888525d",
-          "scene": "5d54bd438335b4dc058851b4",
+          "scene": [
+            "5d54bd438335b4dc058851b4"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1562,7 +1322,9 @@
         },
         {
           "_id": "5d013dbf0b4b6259f534cf7d",
-          "scene": "5d013da10b4b629efe34cf79",
+          "scene": [
+            "5d013da10b4b629efe34cf79"
+          ],
           "conditions": []
         }
       ],
@@ -1582,7 +1344,9 @@
       "states": [
         {
           "_id": "5d49f2bd8335b44df2884e47",
-          "scene": "5d49edc58335b40762884e44",
+          "scene": [
+            "5d49edc58335b40762884e44"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1600,7 +1364,9 @@
         },
         {
           "_id": "5d49f4608335b40e59884e4c",
-          "scene": "5d49ede28335b415d2884e45",
+          "scene": [
+            "5d49ede28335b415d2884e45"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1618,7 +1384,9 @@
         },
         {
           "_id": "5d1f3a0e5892bbebb8eabb54",
-          "scene": "5d1f39ef5892bbf38feabb52",
+          "scene": [
+            "5d1f39ef5892bbf38feabb52"
+          ],
           "conditions": []
         }
       ],
@@ -1638,7 +1406,9 @@
       "states": [
         {
           "_id": "5d540c448335b4279b884fc6",
-          "scene": "5d53fc8e8335b43ff1884fb9",
+          "scene": [
+            "5d53fc8e8335b43ff1884fb9"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1654,7 +1424,9 @@
         },
         {
           "_id": "5d16b1daebd3dc16d454cb81",
-          "scene": "5d16a772ebd3dc842454cb54",
+          "scene": [
+            "5d16a772ebd3dc842454cb54"
+          ],
           "conditions": []
         }
       ],
@@ -1674,7 +1446,9 @@
       "states": [
         {
           "_id": "5d541d868335b40aa5885001",
-          "scene": "5d541b3d8335b452a2884fff",
+          "scene": [
+            "5d541b3d8335b452a2884fff"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1690,32 +1464,14 @@
         },
         {
           "_id": "5d0141080b4b6238ea34cf8a",
-          "scene": "5d0140e80b4b62446034cf88",
+          "scene": [
+            "5d0140e80b4b62446034cf88"
+          ],
           "conditions": []
         }
       ],
       "__v": 0,
       "background": "5dd70e76f75a97345759eaf1"
-    },
-    {
-      "_id": "5d54b71d8335b4a8d68851ae",
-      "name": "Den of Thieves",
-      "area": "5cda73a8c3e78fc3885bb29b",
-      "coordinates": {
-        "x": 0,
-        "y": 0
-      },
-      "_created": "2019-08-15T01:36:29.201Z",
-      "_updated": "2019-12-01T22:09:29.330Z",
-      "states": [
-        {
-          "_id": "5d81fcfde6ecf383f6a2c8d7",
-          "scene": "5d81577ce6ecf3319ea2c7d3",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5de435f1f75a9795c059f0e9"
     },
     {
       "_id": "5d16cdfdebd3dc242954cc6d",
@@ -1730,7 +1486,9 @@
       "states": [
         {
           "_id": "5dc3a840f75a970c07596d2a",
-          "scene": "5dc3a7fdf75a97b646596d1c",
+          "scene": [
+            "5dc3a7fdf75a97b646596d1c"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1743,7 +1501,9 @@
         },
         {
           "_id": "5d7cdbafe6ecf3100fa2a272",
-          "scene": "5d7a1604e6ecf3567da28a27",
+          "scene": [
+            "5d7a1604e6ecf3567da28a27"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1759,7 +1519,9 @@
         },
         {
           "_id": "5d16cf8bebd3dc2ec554cc74",
-          "scene": "5d16cf58ebd3dc04d254cc70",
+          "scene": [
+            "5d16cf58ebd3dc04d254cc70"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1786,7 +1548,9 @@
       "states": [
         {
           "_id": "5c7e42bc8777bd5bb49e683e",
-          "scene": "5c7d871ffd6b49f527456b86",
+          "scene": [
+            "5c7d871ffd6b49f527456b86"
+          ],
           "conditions": []
         }
       ],
@@ -1811,7 +1575,9 @@
       "states": [
         {
           "_id": "5cc0fb4ec065f03ad894640f",
-          "scene": "5cc0f12ec065f024269463f5",
+          "scene": [
+            "5cc0f12ec065f024269463f5"
+          ],
           "conditions": []
         }
       ],
@@ -1830,33 +1596,15 @@
       "states": [
         {
           "_id": "5c871306bbdb6bd38e586cd3",
-          "scene": "5c871092bbdb6bef97586cc7",
+          "scene": [
+            "5c871092bbdb6bef97586cc7"
+          ],
           "conditions": []
         }
       ],
       "__v": 0,
       "_updated": "2019-10-13T21:18:53.625Z",
       "background": "5da38f7cc55b7f4fd3f52878"
-    },
-    {
-      "_id": "5dbc410cff2c192303db7730",
-      "name": "Dead Forest",
-      "area": "5dbc40c5ff2c19f3c9db772d",
-      "coordinates": {
-        "x": 289,
-        "y": 228
-      },
-      "_created": "2019-11-01T14:28:28.593Z",
-      "_updated": "2019-12-12T20:54:10.926Z",
-      "states": [
-        {
-          "_id": "5dbc4db3ff2c191357db77d3",
-          "scene": "5db1f14dff2c192701db3236",
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5df2a8acf75a9795e95a0785"
     },
     {
       "_id": "5caa504b3790359864b21827",
@@ -1871,7 +1619,9 @@
       "states": [
         {
           "_id": "5caa5798379035ff69b2186b",
-          "scene": "5caa569c3790356c1db2184c",
+          "scene": [
+            "5caa569c3790356c1db2184c"
+          ],
           "conditions": []
         }
       ],
@@ -1891,7 +1641,9 @@
       "states": [
         {
           "_id": "5dd5d32af75a97843959e209",
-          "scene": "5dd31f11f75a9734fb5982b5",
+          "scene": [
+            "5dd31f11f75a9734fb5982b5"
+          ],
           "conditions": []
         }
       ],
@@ -1910,7 +1662,9 @@
       "states": [
         {
           "_id": "5dd5d359f75a97c5e159e20a",
-          "scene": "5dd31f23f75a97148d5982b6",
+          "scene": [
+            "5dd31f23f75a97148d5982b6"
+          ],
           "conditions": []
         }
       ],
@@ -1929,7 +1683,9 @@
       "states": [
         {
           "_id": "5dd5d37ff75a973c0d59e20c",
-          "scene": "5dd31ef2f75a9731d05982b4",
+          "scene": [
+            "5dd31ef2f75a9731d05982b4"
+          ],
           "conditions": []
         }
       ],
@@ -1948,7 +1704,9 @@
       "states": [
         {
           "_id": "5dd68c8ef75a97117a59ea66",
-          "scene": "5dd5c4c3f75a9785a959d92a",
+          "scene": [
+            "5dd5c4c3f75a9785a959d92a"
+          ],
           "conditions": []
         }
       ],
@@ -1967,7 +1725,9 @@
       "states": [
         {
           "_id": "5de01eaaf75a97e87f59ec96",
-          "scene": "5ddf4e3df75a970b6159ec3a",
+          "scene": [
+            "5ddf4e3df75a970b6159ec3a"
+          ],
           "conditions": []
         }
       ],
@@ -1986,7 +1746,9 @@
       "states": [
         {
           "_id": "5de6331ef75a973cfb59f1a1",
-          "scene": "5de6325af75a97258b59f19b",
+          "scene": [
+            "5de6325af75a97258b59f19b"
+          ],
           "conditions": []
         }
       ],
@@ -2005,7 +1767,9 @@
       "states": [
         {
           "_id": "5de66073f75a97559d59f1b3",
-          "scene": "5de6604cf75a97615959f1b1",
+          "scene": [
+            "5de6604cf75a97615959f1b1"
+          ],
           "conditions": []
         }
       ],
@@ -2024,7 +1788,9 @@
       "states": [
         {
           "_id": "5de6afbbf75a9784fe59f6c5",
-          "scene": "5de69110f75a979c6659f5f7",
+          "scene": [
+            "5de69110f75a979c6659f5f7"
+          ],
           "conditions": []
         }
       ],
@@ -2043,7 +1809,9 @@
       "states": [
         {
           "_id": "5de70219f75a979a1a59fb86",
-          "scene": "5de6c816f75a97cd5e59fa15",
+          "scene": [
+            "5de6c816f75a97cd5e59fa15"
+          ],
           "conditions": []
         }
       ],
@@ -2060,7 +1828,9 @@
       "states": [
         {
           "_id": "5df1a4f6f75a97f87f5a0262",
-          "scene": "5df1a491f75a9742085a025f",
+          "scene": [
+            "5df1a491f75a9742085a025f"
+          ],
           "conditions": []
         }
       ],
@@ -2081,7 +1851,9 @@
       "states": [
         {
           "_id": "5d6f10f48335b4ce06885c41",
-          "scene": "5d53f4c38335b48399884f69",
+          "scene": [
+            "5d53f4c38335b48399884f69"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2097,7 +1869,9 @@
         },
         {
           "_id": "5d4adcca8335b4f9f7884f1d",
-          "scene": "5d49fdf78335b43323884e5a",
+          "scene": [
+            "5d49fdf78335b43323884e5a"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2116,7 +1890,9 @@
         },
         {
           "_id": "5d53f4388335b464d0884f63",
-          "scene": "5d53f1e18335b4432d884f5c",
+          "scene": [
+            "5d53f1e18335b4432d884f5c"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2132,7 +1908,9 @@
         },
         {
           "_id": "5d4adcca8335b429ac884f1b",
-          "scene": "5d49fe5e8335b457fd884e5b",
+          "scene": [
+            "5d49fe5e8335b457fd884e5b"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2165,7 +1943,9 @@
       "states": [
         {
           "_id": "5d53fc338335b435a4884fb4",
-          "scene": "5d53f8188335b43dbc884f6c",
+          "scene": [
+            "5d53f8188335b43dbc884f6c"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2181,7 +1961,9 @@
         },
         {
           "_id": "5d72710fe6ecf3b8c2a2891f",
-          "scene": "5d541f958335b4c73088500c",
+          "scene": [
+            "5d541f958335b4c73088500c"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2199,7 +1981,9 @@
         },
         {
           "_id": "5d72710fe6ecf30877a2891d",
-          "scene": "5d541f958335b4c73088500c",
+          "scene": [
+            "5d541f958335b4c73088500c"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2217,7 +2001,9 @@
         },
         {
           "_id": "5d72710fe6ecf354d4a2891b",
-          "scene": "5d541f958335b4c73088500c",
+          "scene": [
+            "5d541f958335b4c73088500c"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2235,7 +2021,9 @@
         },
         {
           "_id": "5d1a3519ebd3dcd93f54d2a5",
-          "scene": "5d1a34eeebd3dc3e2054d2a3",
+          "scene": [
+            "5d1a34eeebd3dc3e2054d2a3"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2254,7 +2042,9 @@
         },
         {
           "_id": "5d53fc338335b4cdbc884fb6",
-          "scene": "5d49ed5b8335b41159884e43",
+          "scene": [
+            "5d49ed5b8335b41159884e43"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2287,7 +2077,9 @@
       "states": [
         {
           "_id": "5da3c1aac55b7f7a06f52d00",
-          "scene": "5da3c11ac55b7fd2b6f52cfd",
+          "scene": [
+            "5da3c11ac55b7fd2b6f52cfd"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2304,7 +2096,9 @@
         },
         {
           "_id": "5da4891bc55b7f1c69f53469",
-          "scene": "5da45236c55b7f2986f532bc",
+          "scene": [
+            "5da45236c55b7f2986f532bc"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2335,7 +2129,9 @@
       "states": [
         {
           "_id": "5dca32f0f75a972990597f93",
-          "scene": "5dca2567f75a974910597f5d",
+          "scene": [
+            "5dca2567f75a974910597f5d"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2351,7 +2147,9 @@
         },
         {
           "_id": "5d9c0e0aba4a3f52363118c2",
-          "scene": "5d9c0de0ba4a3f6edb3118c0",
+          "scene": [
+            "5d9c0de0ba4a3f6edb3118c0"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2368,7 +2166,9 @@
         },
         {
           "_id": "5da53a2c8df2c0bcab9bf8c3",
-          "scene": "5da4ba51c55b7f078df538d4",
+          "scene": [
+            "5da4ba51c55b7f078df538d4"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2399,7 +2199,9 @@
       "states": [
         {
           "_id": "5dbc42ccff2c19e183db7735",
-          "scene": "5db1eff8ff2c19fbcedb3235",
+          "scene": [
+            "5db1eff8ff2c19fbcedb3235"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2416,7 +2218,9 @@
         },
         {
           "_id": "5dbc4413ff2c1906b1db7739",
-          "scene": "5dba5431ff2c19b5e5db64fa",
+          "scene": [
+            "5dba5431ff2c19b5e5db64fa"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2447,7 +2251,9 @@
       "states": [
         {
           "_id": "5dbc42b3ff2c192321db7734",
-          "scene": "5db1efd9ff2c19a060db3234",
+          "scene": [
+            "5db1efd9ff2c19a060db3234"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2464,7 +2270,9 @@
         },
         {
           "_id": "5dbc446bff2c190cd4db773d",
-          "scene": "5dba231eff2c1949afdb5f6f",
+          "scene": [
+            "5dba231eff2c1949afdb5f6f"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2495,7 +2303,9 @@
       "states": [
         {
           "_id": "5caa547f379035c628b2184b",
-          "scene": "5caa53e737903510c6b21847",
+          "scene": [
+            "5caa53e737903510c6b21847"
+          ],
           "conditions": []
         }
       ],
@@ -2515,7 +2325,9 @@
       "states": [
         {
           "_id": "5caa5a5837903537ecb21871",
-          "scene": "5caa5a2c379035aa3eb2186f",
+          "scene": [
+            "5caa5a2c379035aa3eb2186f"
+          ],
           "conditions": []
         }
       ],
@@ -2535,7 +2347,9 @@
       "states": [
         {
           "_id": "5cb90857c065f0d529943aef",
-          "scene": "5cb90820c065f0691d943aec",
+          "scene": [
+            "5cb90820c065f0691d943aec"
+          ],
           "conditions": []
         }
       ],
@@ -2555,7 +2369,9 @@
       "states": [
         {
           "_id": "5cb90833c065f0308c943aee",
-          "scene": "5cb90749c065f00392943acd",
+          "scene": [
+            "5cb90749c065f00392943acd"
+          ],
           "conditions": []
         }
       ],
@@ -2575,7 +2391,9 @@
       "states": [
         {
           "_id": "5cb8dbafc065f0555c9439f3",
-          "scene": "5cb8db1cc065f04c729439f1",
+          "scene": [
+            "5cb8db1cc065f04c729439f1"
+          ],
           "conditions": []
         }
       ],
@@ -2595,7 +2413,9 @@
       "states": [
         {
           "_id": "5c8ff1d03bae8d463d2b5e6f",
-          "scene": "5c8fd3dd3bae8d741f2b5e49",
+          "scene": [
+            "5c8fd3dd3bae8d741f2b5e49"
+          ],
           "conditions": []
         }
       ],
@@ -2615,7 +2435,9 @@
       "states": [
         {
           "_id": "5dbfb32dff2c19dd64db80df",
-          "scene": "5db1f17bff2c195d76db3238",
+          "scene": [
+            "5db1f17bff2c195d76db3238"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2634,7 +2456,9 @@
         },
         {
           "_id": "5dbfb583ff2c19fa8bdb8101",
-          "scene": "5dbfb45bff2c1926cbdb80e0",
+          "scene": [
+            "5dbfb45bff2c1926cbdb80e0"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2667,7 +2491,9 @@
       "states": [
         {
           "_id": "5dc520f5f75a9764af59717b",
-          "scene": "5dc4fc59f75a973a795970ab",
+          "scene": [
+            "5dc4fc59f75a973a795970ab"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2680,7 +2506,9 @@
         },
         {
           "_id": "5d01418e0b4b62ac6c34cf8d",
-          "scene": "5d01417f0b4b62970f34cf8b",
+          "scene": [
+            "5d01417f0b4b62970f34cf8b"
+          ],
           "conditions": []
         }
       ],
@@ -2700,7 +2528,9 @@
       "states": [
         {
           "_id": "5dc95c3ff75a97e6b659770f",
-          "scene": "5dc525a8f75a970b1f597184",
+          "scene": [
+            "5dc525a8f75a970b1f597184"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2713,7 +2543,9 @@
         },
         {
           "_id": "5d16a1dbebd3dc69c254cb43",
-          "scene": "5d168f52ebd3dc020854cb0a",
+          "scene": [
+            "5d168f52ebd3dc020854cb0a"
+          ],
           "conditions": []
         }
       ],
@@ -2733,7 +2565,9 @@
       "states": [
         {
           "_id": "5d54a5d38335b4b072885161",
-          "scene": "5d54a4068335b440d688515e",
+          "scene": [
+            "5d54a4068335b440d688515e"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2747,7 +2581,9 @@
         },
         {
           "_id": "5dc97aaaf75a970d1d597e29",
-          "scene": "5dc4fb40f75a97da215970a9",
+          "scene": [
+            "5dc4fb40f75a97da215970a9"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2775,7 +2611,9 @@
       "states": [
         {
           "_id": "5de152d6f75a97875359f09b",
-          "scene": "5de150ebf75a97282f59f097",
+          "scene": [
+            "5de150ebf75a97282f59f097"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2788,7 +2626,9 @@
         },
         {
           "_id": "5de01e75f75a974a1459ec95",
-          "scene": "5ddf20a5f75a9791bb59ec2d",
+          "scene": [
+            "5ddf20a5f75a9791bb59ec2d"
+          ],
           "conditions": []
         }
       ],
@@ -2807,7 +2647,9 @@
       "states": [
         {
           "_id": "5d1a330aebd3dc8fae54d2a2",
-          "scene": "5d1a30dcebd3dc31b054d29d",
+          "scene": [
+            "5d1a30dcebd3dc31b054d29d"
+          ],
           "conditions": []
         }
       ],
@@ -2827,7 +2669,9 @@
       "states": [
         {
           "_id": "5d82559b8ec259392b10076a",
-          "scene": "5d81ff88e6ecf323aea2c8ef",
+          "scene": [
+            "5d81ff88e6ecf323aea2c8ef"
+          ],
           "conditions": []
         }
       ],
@@ -2847,7 +2691,9 @@
       "states": [
         {
           "_id": "5d49fa348335b4b37b884e56",
-          "scene": "5d49f8c28335b44fec884e54",
+          "scene": [
+            "5d49f8c28335b44fec884e54"
+          ],
           "conditions": []
         }
       ],
@@ -2867,7 +2713,9 @@
       "states": [
         {
           "_id": "5d139dd0ebd3dc368754cad6",
-          "scene": "5d139d8cebd3dcc39054cad4",
+          "scene": [
+            "5d139d8cebd3dcc39054cad4"
+          ],
           "conditions": []
         }
       ],
@@ -2887,7 +2735,9 @@
       "states": [
         {
           "_id": "5df8ecc2f75a97014b5a0fa4",
-          "scene": "5df8b3c7f75a977f7b5a0b1c",
+          "scene": [
+            "5df8b3c7f75a977f7b5a0b1c"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2903,7 +2753,9 @@
         },
         {
           "_id": "5def20dcf75a97769a59fc2b",
-          "scene": "5def1fdcf75a97028f59fc25",
+          "scene": [
+            "5def1fdcf75a97028f59fc25"
+          ],
           "conditions": []
         }
       ],
@@ -2922,7 +2774,9 @@
       "states": [
         {
           "_id": "5dbc5147ff2c19eccfdb77e1",
-          "scene": "5db8521fff2c197004db5e30",
+          "scene": [
+            "5db8521fff2c197004db5e30"
+          ],
           "conditions": []
         }
       ],
@@ -2942,7 +2796,9 @@
       "states": [
         {
           "_id": "5dbc4f1fff2c191a42db77da",
-          "scene": "5db1d0dcff2c197a69db2f55",
+          "scene": [
+            "5db1d0dcff2c197a69db2f55"
+          ],
           "conditions": []
         }
       ],
@@ -2962,7 +2818,9 @@
       "states": [
         {
           "_id": "5da48dadc55b7fdb5cf534db",
-          "scene": "5da48d87c55b7f57f6f534d9",
+          "scene": [
+            "5da48d87c55b7f57f6f534d9"
+          ],
           "conditions": []
         }
       ],
@@ -2982,7 +2840,9 @@
       "states": [
         {
           "_id": "5d9c1a55ba4a3f46aa31198a",
-          "scene": "5d9c101bba4a3f79e13118cf",
+          "scene": [
+            "5d9c101bba4a3f79e13118cf"
+          ],
           "conditions": []
         }
       ],
@@ -3003,7 +2863,9 @@
         {
           "_id": "5e035ef8c7c1d7287f0c47e1",
           "scene": [
-            "5e034afac7c1d73a810c4770"
+            [
+              "5e034afac7c1d73a810c4770"
+            ]
           ],
           "conditions": [
             {
@@ -3020,7 +2882,9 @@
         },
         {
           "_id": "5dfc44b6f75a978d5e5a1508",
-          "scene": "5dfbf3b0f75a97acfd5a1170",
+          "scene": [
+            "5dfbf3b0f75a97acfd5a1170"
+          ],
           "conditions": []
         }
       ],
@@ -3040,7 +2904,9 @@
         {
           "_id": "5e036b8fc7c1d7d9560c47f5",
           "scene": [
-            "5e035d80c7c1d7ba9f0c47db"
+            [
+              "5e035d80c7c1d7ba9f0c47db"
+            ]
           ],
           "conditions": [
             {
@@ -3058,12 +2924,430 @@
         {
           "_id": "5e035db0c7c1d74a1c0c47dc",
           "scene": [
-            "5e035114c7c1d7982e0c47d1"
+            [
+              "5e035114c7c1d7982e0c47d1"
+            ]
           ],
           "conditions": []
         }
       ],
       "__v": 0
+    },
+    {
+      "_id": "5c7d4ceffd6b4972fa456b21",
+      "name": "Western Plains",
+      "area": "5c7d45f4fd6b495555456b03",
+      "_created": "2019-03-04T16:06:07.063Z",
+      "states": [
+        {
+          "_id": "5c7d5066fd6b49f8c2456b2d",
+          "scene": [
+            "5c7d4f19fd6b495721456b27"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "_updated": "2019-10-13T20:57:49.079Z",
+      "coordinates": {
+        "x": 134,
+        "y": 549
+      },
+      "background": "5da38f7cc55b7f7e25f52877"
+    },
+    {
+      "_id": "5c8035d00e37480150c6018d",
+      "name": "Shack Interior",
+      "area": "5c7d45f4fd6b495555456b03",
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      },
+      "_created": "2019-03-06T21:04:16.404Z",
+      "states": [
+        {
+          "_id": "5c8042070e37481555c601b9",
+          "scene": [
+            "5c8036670e37482ec0c60190"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "_updated": "2019-10-14T07:18:01.535Z",
+      "background": "5da38f7cc55b7f4e34f52876"
+    },
+    {
+      "_id": "5c8041b00e37483a86c601b5",
+      "name": "Loft (Abandoned Shack)",
+      "area": "5c7d45f4fd6b495555456b03",
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      },
+      "_created": "2019-03-06T21:54:56.651Z",
+      "states": [
+        {
+          "_id": "5c80420f0e3748756ec601ba",
+          "scene": [
+            "5c8041c20e37481c75c601b6"
+          ],
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5c8041c20e37481c75c601b6",
+                  "5c8041c77c630500000aed77",
+                  "5c8042ff7c630500000aed78"
+                ]
+              ],
+              "_id": "5c8044480e37480bc4c601c6",
+              "type": "hasUsedOption",
+              "negate": true
+            }
+          ]
+        },
+        {
+          "_id": "5c8044480e37483364c601c4",
+          "scene": [
+            "5c8043bd0e374810d0c601c2"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "_updated": "2019-10-14T07:18:21.205Z",
+      "background": "5da38f7cc55b7f4e34f52876"
+    },
+    {
+      "_id": "5c8aca7b19028861c4f94cd3",
+      "name": "Chapels",
+      "area": "5c8a77b3190288bd85f94cc9",
+      "coordinates": {
+        "x": 148,
+        "y": 285
+      },
+      "_created": "2019-03-14T21:41:15.126Z",
+      "_updated": "2019-11-02T10:43:02.352Z",
+      "states": [
+        {
+          "_id": "5ca39b1c37903537b7b1cd67",
+          "scene": [
+            "5ca39b06379035d1bbb1cd65"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5dbd5d9bff2c194c3bdb7e5e"
+    },
+    {
+      "_id": "5c8acac119028881aff94cd6",
+      "name": "Catacombs",
+      "area": "5c8a77b3190288bd85f94cc9",
+      "coordinates": {
+        "x": 112,
+        "y": 391
+      },
+      "_created": "2019-03-14T21:42:25.031Z",
+      "_updated": "2019-11-02T13:13:49.489Z",
+      "states": [
+        {
+          "_id": "5c8ff1c13bae8dd7002b5e6e",
+          "scene": [
+            "5c8fd28d3bae8d2f362b5e47"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5dbd80e3ff2c191859db7f40"
+    },
+    {
+      "_id": "5cac84ec379035285bb2264b",
+      "name": "Walkway",
+      "area": "5c8a77b3190288bd85f94cc9",
+      "coordinates": {
+        "x": 298,
+        "y": 337
+      },
+      "_created": "2019-04-09T11:41:32.933Z",
+      "_updated": "2019-11-02T13:24:29.140Z",
+      "states": [
+        {
+          "_id": "5cac8c0c3790356ee7b2267c",
+          "scene": [
+            "5cac8b6c379035de09b22679"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5dbd7fabff2c198160db7f23"
+    },
+    {
+      "_id": "5cac855f379035943eb2264c",
+      "name": "Tower House 3F",
+      "area": "5c8a77b3190288bd85f94cc9",
+      "coordinates": {
+        "x": 301,
+        "y": 340
+      },
+      "_created": "2019-04-09T11:43:27.697Z",
+      "_updated": "2019-11-02T13:25:13.034Z",
+      "states": [
+        {
+          "_id": "5cb211b2c065f0bd99942604",
+          "scene": [
+            "5cb2119ec065f03dfe942600"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5dbd7fabff2c198160db7f23"
+    },
+    {
+      "_id": "5cac860137903579c4b2264d",
+      "name": "Warehouse",
+      "coordinates": {
+        "x": 302,
+        "y": 341
+      },
+      "area": "5c8a77b3190288bd85f94cc9",
+      "_created": "2019-04-09T11:46:09.231Z",
+      "_updated": "2019-11-02T13:25:42.959Z",
+      "states": [
+        {
+          "_id": "5cb260bdc065f0091c942a3e",
+          "scene": [
+            "5cb255dcc065f0d6079429a8"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5dbd7fabff2c198160db7f23"
+    },
+    {
+      "_id": "5cb20b1fc065f067219425c1",
+      "name": "Tower House 2F",
+      "area": "5c8a77b3190288bd85f94cc9",
+      "coordinates": {
+        "x": 305,
+        "y": 344
+      },
+      "_created": "2019-04-13T16:15:27.248Z",
+      "_updated": "2019-11-02T13:25:08.255Z",
+      "states": [
+        {
+          "_id": "5cb21579c065f0a0cd942617",
+          "scene": [
+            "5cb2152fc065f00e57942615"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5dbd7fabff2c198160db7f23"
+    },
+    {
+      "_id": "5cda73f2c3e78f22075bb29d",
+      "name": "Abandoned Farm",
+      "area": "5cda73a8c3e78fc3885bb29b",
+      "coordinates": {
+        "x": 112,
+        "y": 168
+      },
+      "_created": "2019-05-14T07:53:22.151Z",
+      "_updated": "2019-12-01T21:57:03.129Z",
+      "states": [
+        {
+          "_id": "5d16dca2ebd3dc89f554ccb8",
+          "scene": [
+            "5d16dc81ebd3dcc9d754ccb6"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5de435f1f75a97165259f0e6"
+    },
+    {
+      "_id": "5cda7413c3e78f2fee5bb29f",
+      "name": "Log Cabin",
+      "area": "5cda73a8c3e78fc3885bb29b",
+      "coordinates": {
+        "x": 294,
+        "y": 131
+      },
+      "_created": "2019-05-14T07:53:55.961Z",
+      "_updated": "2019-12-01T21:55:59.486Z",
+      "states": [
+        {
+          "_id": "5d54fd9a8335b4865b8852c6",
+          "scene": [
+            "5d54e0558335b47afa885268"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5de435f1f75a9795c059f0e9"
+    },
+    {
+      "_id": "5cda7432c3e78f123d5bb2a1",
+      "name": "Lake Roe",
+      "area": "5cda73a8c3e78fc3885bb29b",
+      "coordinates": {
+        "x": 239,
+        "y": 243
+      },
+      "_created": "2019-05-14T07:54:26.277Z",
+      "_updated": "2019-12-01T21:56:25.507Z",
+      "states": [
+        {
+          "_id": "5d54fd858335b477fa8852c5",
+          "scene": [
+            "5d54e0768335b4202388526a"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5de435f1f75a9734ea59f0e0"
+    },
+    {
+      "_id": "5ce3c343c3e78f6c995bc028",
+      "name": "Galley (Ocean)",
+      "area": "5c7d45f4fd6b495555456b03",
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      },
+      "_created": "2019-05-21T09:22:11.020Z",
+      "_updated": "2019-11-21T22:20:00.635Z",
+      "states": [
+        {
+          "_id": "5ce3ea0cc3e78fd9795bc046",
+          "scene": [
+            "5ce3c382c3e78f65cf5bc029"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5dd70d7cf75a97bb6c59ea89"
+    },
+    {
+      "_id": "5ce4e2d0c3e78fdebe5bd1cf",
+      "name": "Selikro Delta",
+      "area": "5ce461eac3e78f329c5bc869",
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      },
+      "_created": "2019-05-22T05:49:04.387Z",
+      "_updated": "2019-11-21T22:26:26.811Z",
+      "states": [
+        {
+          "_id": "5cee3e53c3e78f4ca25c08bf",
+          "scene": [
+            "5ce48d9dc3e78f6f625bca96"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5dd70e76f75a97f66959eaee"
+    },
+    {
+      "_id": "5d011f680b4b6204ec34cf67",
+      "name": "Infirmary",
+      "area": "5cda74adc3e78f15685bb2a6",
+      "coordinates": {
+        "x": 249,
+        "y": 75
+      },
+      "_created": "2019-06-12T15:51:04.319Z",
+      "_updated": "2019-11-21T22:22:30.194Z",
+      "states": [
+        {
+          "_id": "5d13a3e6ebd3dc844754cae9",
+          "scene": [
+            "5d13a3b0ebd3dce51254cae5"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5dd70d7cf75a9779d959ea8c"
+    },
+    {
+      "_id": "5d011f9d0b4b6231fd34cf6a",
+      "name": "Longhouse",
+      "area": "5cda74adc3e78f15685bb2a6",
+      "coordinates": {
+        "x": 79,
+        "y": 253
+      },
+      "_created": "2019-06-12T15:51:57.637Z",
+      "_updated": "2019-11-21T22:24:41.444Z",
+      "states": [
+        {
+          "_id": "5d13ae43ebd3dc698254caf4",
+          "scene": [
+            "5d13ae16ebd3dcaeea54caf2"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5dd70e76f75a97646c59eaf2"
+    },
+    {
+      "_id": "5d54b71d8335b4a8d68851ae",
+      "name": "Den of Thieves",
+      "area": "5cda73a8c3e78fc3885bb29b",
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      },
+      "_created": "2019-08-15T01:36:29.201Z",
+      "_updated": "2019-12-01T22:09:29.330Z",
+      "states": [
+        {
+          "_id": "5d81fcfde6ecf383f6a2c8d7",
+          "scene": [
+            "5d81577ce6ecf3319ea2c7d3"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5de435f1f75a9795c059f0e9"
+    },
+    {
+      "_id": "5dbc410cff2c192303db7730",
+      "name": "Dead Forest",
+      "area": "5dbc40c5ff2c19f3c9db772d",
+      "coordinates": {
+        "x": 289,
+        "y": 228
+      },
+      "_created": "2019-11-01T14:28:28.593Z",
+      "_updated": "2019-12-12T20:54:10.926Z",
+      "states": [
+        {
+          "_id": "5dbc4db3ff2c191357db77d3",
+          "scene": [
+            "5db1f14dff2c192701db3236"
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5df2a8acf75a9795e95a0785"
     }
   ]
 }
