@@ -70,7 +70,9 @@
       "encounters": [
         {
           "_id": "5c7d5f339c4a0b000079d375",
-          "scene": "5c7d55fcfd6b49be49456b35",
+          "scene": [
+            "5c7d55fcfd6b49be49456b35"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -115,7 +117,9 @@
       "encounters": [
         {
           "_id": "5c8031eb7c630500000aed6c",
-          "scene": "5c7e45e88777bd437c9e6840",
+          "scene": [
+            "5c7e45e88777bd437c9e6840"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -164,7 +168,9 @@
       "encounters": [
         {
           "_id": "5c81845511d8a800003c55e9",
-          "scene": "5c817ede0e3748aba9c601e2",
+          "scene": [
+            "5c817ede0e3748aba9c601e2"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -199,13 +205,17 @@
       "encounters": [
         {
           "_id": "5c818bf911d8a800003c55f2",
-          "scene": "5c8186d10e37487140c60214",
+          "scene": [
+            "5c8186d10e37487140c60214"
+          ],
           "conditions": [],
           "maxAccounts": 1
         },
         {
           "_id": "5c81988b11d8a800003c5604",
-          "scene": "5c8197730e3748e47cc60239",
+          "scene": [
+            "5c8197730e3748e47cc60239"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -248,7 +258,9 @@
       "encounters": [
         {
           "_id": "5c85755f0d6bd30000bcc99d",
-          "scene": "5c85bd410e37485837c60336",
+          "scene": [
+            "5c85bd410e37485837c60336"
+          ],
           "conditions": []
         }
       ],
@@ -269,7 +281,9 @@
       "encounters": [
         {
           "_id": "5ca3a9a1e05ae4000000bd8a",
-          "scene": "5c85b9b00e37483b92c60322",
+          "scene": [
+            "5c85b9b00e37483b92c60322"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -289,7 +303,9 @@
       "encounters": [
         {
           "_id": "5cc15b1f8fa65f0000e23ed6",
-          "scene": "5cc1576cc065f0c5de9465a9",
+          "scene": [
+            "5cc1576cc065f0c5de9465a9"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -394,7 +410,9 @@
       "encounters": [
         {
           "_id": "5c87a2e16e364b000068aff4",
-          "scene": "5c86db97bbdb6b8c3c5868ed",
+          "scene": [
+            "5c86db97bbdb6b8c3c5868ed"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -413,7 +431,9 @@
       "encounters": [
         {
           "_id": "5c8a09a13ec97f0000c1e764",
-          "scene": "5c8a0965c5ffe4bf1ac268d9",
+          "scene": [
+            "5c8a0965c5ffe4bf1ac268d9"
+          ],
           "conditions": []
         }
       ],
@@ -434,7 +454,9 @@
       "encounters": [
         {
           "_id": "5cab02ef90542e00003c5738",
-          "scene": "5cab021d3790351c31b2230b",
+          "scene": [
+            "5cab021d3790351c31b2230b"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -535,7 +557,9 @@
       "encounters": [
         {
           "_id": "5caa97a1f794af0000b7f582",
-          "scene": "5caa83c23790355b2db21a58",
+          "scene": [
+            "5caa83c23790355b2db21a58"
+          ],
           "conditions": []
         }
       ],
@@ -619,7 +643,9 @@
       "encounters": [
         {
           "_id": "5c932556fed6460000b49696",
-          "scene": "5c9325413bae8de2232b6110",
+          "scene": [
+            "5c9325413bae8de2232b6110"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -664,7 +690,9 @@
       "encounters": [
         {
           "_id": "5ca49329f166110000987872",
-          "scene": "5ca48f96379035f785b1d128",
+          "scene": [
+            "5ca48f96379035f785b1d128"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -691,7 +719,9 @@
         },
         {
           "_id": "5ca4932af166110000987873",
-          "scene": "5ca492f8379035ded3b1d13f",
+          "scene": [
+            "5ca492f8379035ded3b1d13f"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -750,7 +780,9 @@
       "encounters": [
         {
           "_id": "5caa6164f794af0000b7f511",
-          "scene": "5caa615b3790357bd8b218ba",
+          "scene": [
+            "5caa615b3790357bd8b218ba"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -788,7 +820,9 @@
       "encounters": [
         {
           "_id": "5caa627af794af0000b7f519",
-          "scene": "5caa626a379035d652b218c3",
+          "scene": [
+            "5caa626a379035d652b218c3"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -839,7 +873,9 @@
       "encounters": [
         {
           "_id": "5caa5f13f794af0000b7f506",
-          "scene": "5caa5f0337903570d7b218b2",
+          "scene": [
+            "5caa5f0337903570d7b218b2"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -875,7 +911,9 @@
       "encounters": [
         {
           "_id": "5caa8bc6f794af0000b7f568",
-          "scene": "5caa83b3379035320bb21a57",
+          "scene": [
+            "5caa83b3379035320bb21a57"
+          ],
           "conditions": []
         }
       ],
@@ -909,7 +947,9 @@
       "encounters": [
         {
           "_id": "5cab026390542e00003c5737",
-          "scene": "5cab02513790353797b2230c",
+          "scene": [
+            "5cab02513790353797b2230c"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -939,7 +979,9 @@
       "encounters": [
         {
           "_id": "5c8e588075a6820000259ae1",
-          "scene": "5c8e579e1531403d03805706",
+          "scene": [
+            "5c8e579e1531403d03805706"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -968,7 +1010,9 @@
       "encounters": [
         {
           "_id": "5cab178390542e00003c576d",
-          "scene": "5cab16c4379035f37bb22350",
+          "scene": [
+            "5cab16c4379035f37bb22350"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1015,7 +1059,9 @@
       "encounters": [
         {
           "_id": "5cac8dd965797e0000a0ecac",
-          "scene": "5cac8b573790357d89b22678",
+          "scene": [
+            "5cac8b573790357d89b22678"
+          ],
           "conditions": []
         }
       ],
@@ -1049,7 +1095,9 @@
       "encounters": [
         {
           "_id": "5cacc7d27ab16200002efe60",
-          "scene": "5cacc31d3790359eceb226ca",
+          "scene": [
+            "5cacc31d3790359eceb226ca"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1080,7 +1128,9 @@
       "encounters": [
         {
           "_id": "5cad16c77ab16200002efe94",
-          "scene": "5cad0f013790354b2ab22788",
+          "scene": [
+            "5cad0f013790354b2ab22788"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1156,7 +1206,9 @@
       "encounters": [
         {
           "_id": "5cb216f0a8d68b00008afa14",
-          "scene": "5cb216e6c065f01811942620",
+          "scene": [
+            "5cb216e6c065f01811942620"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -1193,7 +1245,9 @@
       "encounters": [
         {
           "_id": "5cb210e4a8d68b00008afa07",
-          "scene": "5cb20dd8c065f023119425c5",
+          "scene": [
+            "5cb20dd8c065f023119425c5"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1212,7 +1266,9 @@
         },
         {
           "_id": "5cb21dbbdf5d0d0000ab5834",
-          "scene": "5cb21dadc065f06fe594265a",
+          "scene": [
+            "5cb21dadc065f06fe594265a"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1261,7 +1317,9 @@
       "encounters": [
         {
           "_id": "5cb25d09df5d0d0000ab588a",
-          "scene": "5cb255c2c065f00d1a9429a7",
+          "scene": [
+            "5cb255c2c065f00d1a9429a7"
+          ],
           "conditions": []
         }
       ],
@@ -1297,7 +1355,9 @@
       "encounters": [
         {
           "_id": "5cb28474df5d0d0000ab58be",
-          "scene": "5cb270cdc065f04a34942a5e",
+          "scene": [
+            "5cb270cdc065f04a34942a5e"
+          ],
           "conditions": []
         }
       ],
@@ -1348,7 +1408,9 @@
       "encounters": [
         {
           "_id": "5cb29eede78b8c0000c8df31",
-          "scene": "5cb29d96c065f09bd0942e04",
+          "scene": [
+            "5cb29d96c065f09bd0942e04"
+          ],
           "conditions": []
         }
       ],
@@ -1369,7 +1431,9 @@
       "encounters": [
         {
           "_id": "5cb328ec886e2e00000ada2d",
-          "scene": "5cb328c6c065f0722a943216",
+          "scene": [
+            "5cb328c6c065f0722a943216"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1409,7 +1473,9 @@
       "encounters": [
         {
           "_id": "5cb7d8219477d700003b19df",
-          "scene": "5cb7d7fcc065f025269436e9",
+          "scene": [
+            "5cb7d7fcc065f025269436e9"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1473,7 +1539,9 @@
       "encounters": [
         {
           "_id": "5cb8f2d9f797be000047f20f",
-          "scene": "5cb8e229c065f06f2c9439f4",
+          "scene": [
+            "5cb8e229c065f06f2c9439f4"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1507,7 +1575,9 @@
       "encounters": [
         {
           "_id": "5cb904dbf797be000047f21f",
-          "scene": "5cb8feecc065f0096b943a6b",
+          "scene": [
+            "5cb8feecc065f0096b943a6b"
+          ],
           "conditions": []
         }
       ],
@@ -1529,7 +1599,9 @@
       "encounters": [
         {
           "_id": "5cc0f259d5dd5900006ce79d",
-          "scene": "5cc0f24bc065f0ac0c9463f6",
+          "scene": [
+            "5cc0f24bc065f0ac0c9463f6"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -1695,7 +1767,9 @@
       "encounters": [
         {
           "_id": "5ca393a9f4de0b0000893724",
-          "scene": "5ca39219379035b077b1cd1b",
+          "scene": [
+            "5ca39219379035b077b1cd1b"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1722,7 +1796,9 @@
         },
         {
           "_id": "5ca393aff4de0b0000893725",
-          "scene": "5ca39395379035ea4ab1cd2d",
+          "scene": [
+            "5ca39395379035ea4ab1cd2d"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1777,7 +1853,9 @@
       "encounters": [
         {
           "_id": "5ca45459e05ae4000000bda8",
-          "scene": "5ca451c437903549d5b1cf7a",
+          "scene": [
+            "5ca451c437903549d5b1cf7a"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1795,7 +1873,9 @@
         },
         {
           "_id": "5cb7c3729477d700003b19bf",
-          "scene": "5cb7bb88c065f01b519435f4",
+          "scene": [
+            "5cb7bb88c065f01b519435f4"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1851,7 +1931,9 @@
       "encounters": [
         {
           "_id": "5cb96bbc39b3340000d26b76",
-          "scene": "5cb96b5cc065f0f27a943e9e",
+          "scene": [
+            "5cb96b5cc065f0f27a943e9e"
+          ],
           "conditions": []
         }
       ],
@@ -1920,7 +2002,9 @@
       "encounters": [
         {
           "_id": "5cb8f332f797be000047f210",
-          "scene": "5cb8e229c065f06f2c9439f4",
+          "scene": [
+            "5cb8e229c065f06f2c9439f4"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1937,7 +2021,9 @@
         },
         {
           "_id": "5cba192a56ea940000468464",
-          "scene": "5cba191ec065f0a341944c02",
+          "scene": [
+            "5cba191ec065f0a341944c02"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -1977,7 +2063,9 @@
       "encounters": [
         {
           "_id": "5cab24fa90542e00003c578e",
-          "scene": "5cab24303790358645b22364",
+          "scene": [
+            "5cab24303790358645b22364"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2002,7 +2090,9 @@
         },
         {
           "_id": "5cc096c423e78000009eae1f",
-          "scene": "5cc0969ec065f05bc994619a",
+          "scene": [
+            "5cc0969ec065f05bc994619a"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2202,7 +2292,9 @@
       "encounters": [
         {
           "_id": "5d139fa647ed21000000b05f",
-          "scene": "5d139f88ebd3dca75854cad9",
+          "scene": [
+            "5d139f88ebd3dca75854cad9"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -2260,7 +2352,9 @@
       "encounters": [
         {
           "_id": "5dc92612edfc570000c51573",
-          "scene": "5dc4fbbdf75a97787a5970aa",
+          "scene": [
+            "5dc4fbbdf75a97787a5970aa"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2314,7 +2408,9 @@
       "encounters": [
         {
           "_id": "5d16ee1fab3c0300005d5724",
-          "scene": "5d16e3f0ebd3dc866d54ccc1",
+          "scene": [
+            "5d16e3f0ebd3dc866d54ccc1"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2355,7 +2451,9 @@
       "encounters": [
         {
           "_id": "5d16ee62ab3c0300005d5725",
-          "scene": "5d16e3f0ebd3dc866d54ccc1",
+          "scene": [
+            "5d16e3f0ebd3dc866d54ccc1"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2388,7 +2486,9 @@
       "encounters": [
         {
           "_id": "5d1742a3ad62a20000819e09",
-          "scene": "5d173960ebd3dc15ff54cfea",
+          "scene": [
+            "5d173960ebd3dc15ff54cfea"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2433,7 +2533,9 @@
       "encounters": [
         {
           "_id": "5d174339ad62a20000819e0a",
-          "scene": "5d173960ebd3dc15ff54cfea",
+          "scene": [
+            "5d173960ebd3dc15ff54cfea"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2491,7 +2593,9 @@
       "encounters": [
         {
           "_id": "5d174c039af21100001a3991",
-          "scene": "5d1739dfebd3dce77354cff1",
+          "scene": [
+            "5d1739dfebd3dce77354cff1"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2534,7 +2638,9 @@
       "encounters": [
         {
           "_id": "5d174c5e9af21100001a3992",
-          "scene": "5d1739dfebd3dce77354cff1",
+          "scene": [
+            "5d1739dfebd3dce77354cff1"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2607,7 +2713,9 @@
       "encounters": [
         {
           "_id": "5d1f78bceb4958000014e72e",
-          "scene": "5d1f3b4c5892bb0ab8eabb55",
+          "scene": [
+            "5d1f3b4c5892bb0ab8eabb55"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2703,7 +2811,9 @@
       "encounters": [
         {
           "_id": "5d4adce6499acc0000aeab57",
-          "scene": "5d4a2e7e8335b45d35884e5e",
+          "scene": [
+            "5d4a2e7e8335b45d35884e5e"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2745,7 +2855,9 @@
       "encounters": [
         {
           "_id": "5d54aa4358bf480000e34849",
-          "scene": "5d54aa328335b4562f885163",
+          "scene": [
+            "5d54aa328335b4562f885163"
+          ],
           "conditions": []
         }
       ],
@@ -2851,7 +2963,9 @@
       "encounters": [
         {
           "_id": "5d55b283191a920000abdc64",
-          "scene": "5d55a4958335b4262888536c",
+          "scene": [
+            "5d55a4958335b4262888536c"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2907,7 +3021,9 @@
       "encounters": [
         {
           "_id": "5d559d9f191a920000abdc5a",
-          "scene": "5d55991e8335b444b78852ed",
+          "scene": [
+            "5d55991e8335b444b78852ed"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2938,7 +3054,9 @@
       "encounters": [
         {
           "_id": "5d53e1ebf78ace00004fd6ec",
-          "scene": "5d53d7ef8335b4d233884f21",
+          "scene": [
+            "5d53d7ef8335b4d233884f21"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -2982,7 +3100,9 @@
       "encounters": [
         {
           "_id": "5d7d6079fbe7b80000775c7e",
-          "scene": "5d7ce5e7e6ecf359d3a2a29f",
+          "scene": [
+            "5d7ce5e7e6ecf359d3a2a29f"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -3072,7 +3192,9 @@
       "encounters": [
         {
           "_id": "5d9c1a6f69d03f0000daa1c4",
-          "scene": "5d9c0f54ba4a3f6ab53118c3",
+          "scene": [
+            "5d9c0f54ba4a3f6ab53118c3"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -3178,7 +3300,9 @@
       "encounters": [
         {
           "_id": "5da6d8d243f4c20000b5dc75",
-          "scene": "5da6d8c9ff2c198ed4db282d",
+          "scene": [
+            "5da6d8c9ff2c198ed4db282d"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -3226,7 +3350,9 @@
       "encounters": [
         {
           "_id": "5dbc436283d31500006161fb",
-          "scene": "5dba2d0eff2c198706db6020",
+          "scene": [
+            "5dba2d0eff2c198706db6020"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -3355,7 +3481,9 @@
       "encounters": [
         {
           "_id": "5dbc50be83d3150000616208",
-          "scene": "5db1d09dff2c19045fdb2f53",
+          "scene": [
+            "5db1d09dff2c19045fdb2f53"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -3369,7 +3497,9 @@
         },
         {
           "_id": "5dbc50eb83d3150000616209",
-          "scene": "5db877d8ff2c1950c5db5f4d",
+          "scene": [
+            "5db877d8ff2c1950c5db5f4d"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -3467,7 +3597,9 @@
       "encounters": [
         {
           "_id": "5dc3ef18ad6a4e0000a9bfdd",
-          "scene": "5dc3d191f75a97904f596f58",
+          "scene": [
+            "5dc3d191f75a97904f596f58"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -3617,7 +3749,9 @@
       "encounters": [
         {
           "_id": "5de01de1e14dae0000cc2283",
-          "scene": "5dd5c4f1f75a976a9159d92b",
+          "scene": [
+            "5dd5c4f1f75a976a9159d92b"
+          ],
           "conditions": []
         }
       ],
@@ -3709,7 +3843,9 @@
       "encounters": [
         {
           "_id": "5de0ae6c9f19580000506ba6",
-          "scene": "5de0ae65f75a97664e59f087",
+          "scene": [
+            "5de0ae65f75a97664e59f087"
+          ],
           "conditions": []
         }
       ],
@@ -3840,7 +3976,9 @@
       "encounters": [
         {
           "_id": "5de632ad3c2749000097653b",
-          "scene": "5de61bd9f75a97b80759f17e",
+          "scene": [
+            "5de61bd9f75a97b80759f17e"
+          ],
           "conditions": []
         }
       ],
@@ -3903,7 +4041,9 @@
       "encounters": [
         {
           "_id": "5de6b325f7ee5900007b42c2",
-          "scene": "5de6b301f75a9774e659f6d2",
+          "scene": [
+            "5de6b301f75a9774e659f6d2"
+          ],
           "conditions": []
         }
       ],
@@ -3939,7 +4079,9 @@
       "encounters": [
         {
           "_id": "5de7032c4029a600006aac17",
-          "scene": "5de6d2e9f75a97718759fac4",
+          "scene": [
+            "5de6d2e9f75a97718759fac4"
+          ],
           "conditions": []
         }
       ],
@@ -4003,7 +4145,9 @@
       "encounters": [
         {
           "_id": "5de7416a9f6b9700001b337a",
-          "scene": "5de70638f75a979ed159fb8b",
+          "scene": [
+            "5de70638f75a979ed159fb8b"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -4022,7 +4166,9 @@
       "encounters": [
         {
           "_id": "5de7421d9f6b9700001b337b",
-          "scene": "5de73f99f75a97985259fbae",
+          "scene": [
+            "5de73f99f75a97985259fbae"
+          ],
           "conditions": [],
           "maxAccounts": 1
         }
@@ -4045,41 +4191,6 @@
       "_updated": "2019-12-04T05:24:24.726Z",
       "availability": [],
       "encounters": [],
-      "__v": 0
-    },
-    {
-      "_id": "5de81dc0f75a97bd4f59fbd1",
-      "label": [
-        "Explore the street to the south"
-      ],
-      "weight": 0,
-      "map": true,
-      "from": "5de00c78f75a97dcdd59ec69",
-      "to": "5de00c88f75a977c8f59ec6a",
-      "availability": [
-        {
-          "parameters": [
-            [
-              "5ddf4e3df75a970b6159ec3a",
-              "5ddf4dcc9842cb00005442a5",
-              "5de5b6d7dc5354000067a933",
-              "5de61c56732b3c0000fbfaed"
-            ]
-          ],
-          "_id": "5de81dc0f75a97fb1959fbd2",
-          "type": "hasSeenOptionOutcome"
-        }
-      ],
-      "encounters": [
-        {
-          "_id": "5de81da853743e0000ebcbb3",
-          "scene": "5de81b0df75a9743a059fbbf",
-          "conditions": [],
-          "maxAccounts": 1
-        }
-      ],
-      "_created": "2019-12-04T20:57:36.331Z",
-      "_updated": "2019-12-04T20:59:00.471Z",
       "__v": 0
     },
     {
@@ -4142,7 +4253,9 @@
       "encounters": [
         {
           "_id": "5def52099257a1000020c3ef",
-          "scene": "5de6f2a6f75a970fee59fb5d",
+          "scene": [
+            "5de6f2a6f75a970fee59fb5d"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -4203,7 +4316,9 @@
       "encounters": [
         {
           "_id": "5df1a573be815c00001400de",
-          "scene": "5df19477f75a977a5d5a024e",
+          "scene": [
+            "5df19477f75a977a5d5a024e"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -4249,7 +4364,9 @@
       "encounters": [
         {
           "_id": "5dfc4632d4ca4400003c40c8",
-          "scene": "5dfbf3eff75a9704835a1171",
+          "scene": [
+            "5dfbf3eff75a9704835a1171"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -4299,7 +4416,9 @@
         },
         {
           "_id": "5dfc4746d4ca4400003c40ce",
-          "scene": "5dfc326ff75a9712785a14d7",
+          "scene": [
+            "5dfc326ff75a9712785a14d7"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -4317,7 +4436,9 @@
         },
         {
           "_id": "5dfc47bbd4ca4400003c40d0",
-          "scene": "5dfc3486f75a97a3fa5a14f9",
+          "scene": [
+            "5dfc3486f75a97a3fa5a14f9"
+          ],
           "conditions": [
             {
               "parameters": [
@@ -4333,7 +4454,9 @@
         },
         {
           "_id": "5dfc4826d4ca4400003c40d2",
-          "scene": "5dfc3451f75a9719ae5a14f8",
+          "scene": [
+            "5dfc3451f75a9719ae5a14f8"
+          ],
           "conditions": []
         }
       ],
@@ -4345,7 +4468,7 @@
       "label": [
         "Leave the gambling den"
       ],
-      "weight": 0,
+      "weight": 1,
       "map": false,
       "from": "5defa7e2f75a9726fa59ff90",
       "to": "5de00c68f75a97045459ec68",
@@ -4363,7 +4486,7 @@
         }
       ],
       "_created": "2019-12-25T11:36:21.289Z",
-      "_updated": "2019-12-26T01:30:42.373Z",
+      "_updated": "2019-12-30T23:31:39.198Z",
       "encounters": [],
       "__v": 0
     },
@@ -4372,7 +4495,7 @@
       "label": [
         "Enter the office"
       ],
-      "weight": 0,
+      "weight": -1,
       "map": false,
       "from": "5defa7e2f75a9726fa59ff90",
       "to": "5e0350acc7c1d722610c47d0",
@@ -4391,7 +4514,7 @@
         }
       ],
       "_created": "2019-12-25T13:04:35.517Z",
-      "_updated": "2019-12-25T13:04:35.518Z",
+      "_updated": "2019-12-30T23:31:09.634Z",
       "encounters": [],
       "__v": 0
     },
@@ -4408,6 +4531,43 @@
       "_updated": "2019-12-25T13:04:59.477Z",
       "availability": [],
       "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5de81dc0f75a97bd4f59fbd1",
+      "label": [
+        "Explore the street to the south"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00c78f75a97dcdd59ec69",
+      "to": "5de00c88f75a977c8f59ec6a",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5ddf4e3df75a970b6159ec3a",
+              "5ddf4dcc9842cb00005442a5",
+              "5de5b6d7dc5354000067a933",
+              "5de61c56732b3c0000fbfaed"
+            ]
+          ],
+          "_id": "5de81dc0f75a97fb1959fbd2",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "_id": "5de81da853743e0000ebcbb3",
+          "scene": [
+            "5de81b0df75a9743a059fbbf"
+          ],
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "_created": "2019-12-04T20:57:36.331Z",
+      "_updated": "2019-12-04T20:59:00.471Z",
       "__v": 0
     }
   ]
