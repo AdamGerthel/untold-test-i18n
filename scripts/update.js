@@ -101,7 +101,8 @@ const getResource = function (resource) {
     req({
       method: 'GET',
       qs: {
-        $limit: 5000
+        $limit: 5000,
+        $sort: '_created'
       },
       url: resource
     }, function (error, response, body) {
