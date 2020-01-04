@@ -35,13 +35,24 @@ const init = async function () {
 
     await fs.promises.writeFile('content/index.js', `module.exports = {${contentIndex}\n}`)
 
-    // Download and save media files
-    const fileFormat = 'png'
     const media = JSON.parse(data[resources.indexOf('media')])
-    await Promise.all(media.data.map(entity => downloadMedia(entity, fileFormat)))
+
+    // Download and save audio
+    const audio = media.data.filter(e => e.type === 'audio')
+    const audioFiles = await Promise.all(audio.map(entity => downloadMedia(entity, 'mp3', {
+      invalidate: true
+    })))
+
+    // Download and save images
+    const images = media.data.filter(e => e.type === 'image')
+    const imageFiles = await Promise.all(images.map(entity => downloadMedia(entity, 'png', {
+      width: 600,
+      invalidate: true
+    })))
 
     // Generate index file for media files
     const mediaIndex = media.data.reduce((total, entity) => {
+      const fileFormat = entity.type === 'image' ? 'png' : 'mp3'
       total = total + `\n  '${entity._id}': require('./${entity._id}.${fileFormat}'),`
       return total
     }, '')
@@ -55,17 +66,15 @@ const init = async function () {
   }
 }
 
-const downloadMedia = function (entity, fileFormat) {
-  const file = fs.createWriteStream(`media/${entity._id}.${fileFormat}`)
-  console.log(`Fetching media/${entity._id}?width=600...`)
+const downloadMedia = function (entity, fileFormat, params) {
+  const fileName = `${entity._id}.${fileFormat}`
+  const file = fs.createWriteStream('media/' + fileName)
+  console.log(`Fetching media/${fileName}...`)
 
   return new Promise((resolve, reject) => {
     req({
-      url: `media/${entity._id}`,
-      qs: {
-        width: 600,
-        invalidate: true
-      },
+      url: `media/${fileName}`,
+      qs: params,
       headers: {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
         'Accept-Encoding': 'gzip, deflate, br',
@@ -78,8 +87,8 @@ const downloadMedia = function (entity, fileFormat) {
     })
     .pipe(file)
     .on('finish', () => {
-      console.log(`Fetched media/${entity._id}?width=600`)
-      resolve()
+      console.log(`Fetched media/${fileName}`)
+      resolve(fileName)
     })
     .on('error', (error) => {
       reject(error)
