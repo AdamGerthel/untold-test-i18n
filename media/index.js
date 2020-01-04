@@ -57,4 +57,13 @@ module.exports = {
   '5df2a8acf75a974ff05a078a': require('./5df2a8acf75a974ff05a078a.png'),
   '5df2a8acf75a97fecd5a0788': require('./5df2a8acf75a97fecd5a0788.png'),
   '5df2a8acf75a976c125a0786': require('./5df2a8acf75a976c125a0786.png'),
+  '5e10ce4576343396915ac8df': require('./5e10ce4576343396915ac8df.mp3'),
+  '5e10ce457634331b535ac8e0': require('./5e10ce457634331b535ac8e0.mp3'),
+  '5e10ce4576343369975ac8e1': require('./5e10ce4576343369975ac8e1.mp3'),
+  '5e10ce5b7634331be65ac8e2': require('./5e10ce5b7634331be65ac8e2.mp3'),
+  '5e10ce5c76343333e95ac8e3': require('./5e10ce5c76343333e95ac8e3.mp3'),
+  '5e10ce5c76343346305ac8e4': require('./5e10ce5c76343346305ac8e4.mp3'),
+  '5e10ce5c7634330dc85ac8e5': require('./5e10ce5c7634330dc85ac8e5.mp3'),
+  '5e10ce5d76343371ba5ac8e6': require('./5e10ce5d76343371ba5ac8e6.mp3'),
+  '5e10ce5d76343333ea5ac8e7': require('./5e10ce5d76343333ea5ac8e7.mp3'),
 }
