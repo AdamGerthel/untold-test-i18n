@@ -10,10 +10,10 @@
       "_created": "2019-03-04T15:39:12.251Z",
       "states": [
         {
-          "_id": "5c7d5054fd6b490fee456b2c",
           "scene": [
             "5c7d46b8fd6b497bd2456b06"
           ],
+          "_id": "5c7d5054fd6b490fee456b2c",
           "conditions": [
             {
               "parameters": [
@@ -26,20 +26,21 @@
           ]
         },
         {
-          "_id": "5c7d52cefd6b494dd2456b30",
           "scene": [
             "5c7d52bffd6b498d91456b2e"
           ],
+          "_id": "5c7d52cefd6b494dd2456b30",
           "conditions": []
         }
       ],
       "__v": 0,
-      "_updated": "2019-10-13T20:56:45.817Z",
+      "_updated": "2020-01-04T17:42:35.350Z",
       "coordinates": {
         "x": 252,
         "y": 509
       },
-      "background": "5da38f7bc55b7fac75f52870"
+      "background": "5da38f7bc55b7fac75f52870",
+      "ambience": "5e10ce5d76343333ea5ac8e7"
     },
     {
       "_id": "5c7d4d43fd6b49c1a7456b22",
@@ -126,28 +127,6 @@
       ],
       "__v": 0,
       "background": "5da38f7bc55b7f5dcaf52871"
-    },
-    {
-      "_id": "5c8ac9ef1902884ef7f94cd2",
-      "name": "Crypts",
-      "area": "5c8a77b3190288bd85f94cc9",
-      "coordinates": {
-        "x": 87,
-        "y": 285
-      },
-      "_created": "2019-03-14T21:38:55.363Z",
-      "_updated": "2019-11-02T13:12:31.869Z",
-      "states": [
-        {
-          "_id": "5c8feea03bae8dd50f2b5e68",
-          "scene": [
-            "5c8fd2503bae8ddc2e2b5e45"
-          ],
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "background": "5dbd7faaff2c1923a6db7f20"
     },
     {
       "_id": "5de00c55f75a973f8059ec67",
@@ -1615,18 +1594,19 @@
         "y": 287
       },
       "_created": "2019-04-07T19:32:27.341Z",
-      "_updated": "2019-11-02T10:43:09.245Z",
+      "_updated": "2020-01-04T18:01:22.135Z",
       "states": [
         {
-          "_id": "5caa5798379035ff69b2186b",
           "scene": [
             "5caa569c3790356c1db2184c"
           ],
+          "_id": "5caa5798379035ff69b2186b",
           "conditions": []
         }
       ],
       "__v": 0,
-      "background": "5dbd5d9bff2c194c3bdb7e5e"
+      "background": "5dbd5d9bff2c194c3bdb7e5e",
+      "music": "5e10ce457634331b535ac8e0"
     },
     {
       "_id": "5dd5b9dbf75a97a72b59d7ef",
@@ -2299,18 +2279,19 @@
         "y": 286
       },
       "_created": "2019-04-07T19:31:45.322Z",
-      "_updated": "2019-11-02T10:43:13.505Z",
+      "_updated": "2020-01-04T18:01:06.939Z",
       "states": [
         {
-          "_id": "5caa547f379035c628b2184b",
           "scene": [
             "5caa53e737903510c6b21847"
           ],
+          "_id": "5caa547f379035c628b2184b",
           "conditions": []
         }
       ],
       "__v": 0,
-      "background": "5dbd5d9bff2c194c3bdb7e5e"
+      "background": "5dbd5d9bff2c194c3bdb7e5e",
+      "music": "5e10ce457634331b535ac8e0"
     },
     {
       "_id": "5caa506b37903513dcb21829",
@@ -2321,18 +2302,19 @@
       },
       "area": "5c8a77b3190288bd85f94cc9",
       "_created": "2019-04-07T19:32:59.896Z",
-      "_updated": "2019-11-02T10:46:19.008Z",
+      "_updated": "2020-01-04T17:59:50.659Z",
       "states": [
         {
-          "_id": "5caa5a5837903537ecb21871",
           "scene": [
             "5caa5a2c379035aa3eb2186f"
           ],
+          "_id": "5caa5a5837903537ecb21871",
           "conditions": []
         }
       ],
       "__v": 0,
-      "background": "5dbd5d9bff2c194c3bdb7e5e"
+      "background": "5dbd5d9bff2c194c3bdb7e5e",
+      "music": "5e10ce457634331b535ac8e0"
     },
     {
       "_id": "5cb8d993c065f05a039439ec",
@@ -2934,20 +2916,21 @@
       "_created": "2019-03-04T16:06:07.063Z",
       "states": [
         {
-          "_id": "5c7d5066fd6b49f8c2456b2d",
           "scene": [
             "5c7d4f19fd6b495721456b27"
           ],
+          "_id": "5c7d5066fd6b49f8c2456b2d",
           "conditions": []
         }
       ],
       "__v": 0,
-      "_updated": "2019-10-13T20:57:49.079Z",
+      "_updated": "2020-01-04T17:56:00.042Z",
       "coordinates": {
         "x": 134,
         "y": 549
       },
-      "background": "5da38f7cc55b7f7e25f52877"
+      "background": "5da38f7cc55b7f7e25f52877",
+      "ambience": "5e10ce5c7634330dc85ac8e5"
     },
     {
       "_id": "5c8035d00e37480150c6018d",
@@ -3022,18 +3005,20 @@
         "y": 285
       },
       "_created": "2019-03-14T21:41:15.126Z",
-      "_updated": "2019-11-02T10:43:02.352Z",
+      "_updated": "2020-01-04T18:01:48.872Z",
       "states": [
         {
-          "_id": "5ca39b1c37903537b7b1cd67",
           "scene": [
             "5ca39b06379035d1bbb1cd65"
           ],
+          "_id": "5ca39b1c37903537b7b1cd67",
           "conditions": []
         }
       ],
       "__v": 0,
-      "background": "5dbd5d9bff2c194c3bdb7e5e"
+      "background": "5dbd5d9bff2c194c3bdb7e5e",
+      "ambience": null,
+      "music": "5e10ce457634331b535ac8e0"
     },
     {
       "_id": "5c8acac119028881aff94cd6",
@@ -3044,18 +3029,19 @@
         "y": 391
       },
       "_created": "2019-03-14T21:42:25.031Z",
-      "_updated": "2019-11-02T13:13:49.489Z",
+      "_updated": "2020-01-04T17:58:53.782Z",
       "states": [
         {
-          "_id": "5c8ff1c13bae8dd7002b5e6e",
           "scene": [
             "5c8fd28d3bae8d2f362b5e47"
           ],
+          "_id": "5c8ff1c13bae8dd7002b5e6e",
           "conditions": []
         }
       ],
       "__v": 0,
-      "background": "5dbd80e3ff2c191859db7f40"
+      "background": "5dbd80e3ff2c191859db7f40",
+      "ambience": "5e10ce5b7634331be65ac8e2"
     },
     {
       "_id": "5cac84ec379035285bb2264b",
@@ -3342,6 +3328,29 @@
       ],
       "__v": 0,
       "background": "5df2a8acf75a9795e95a0785"
+    },
+    {
+      "_id": "5c8ac9ef1902884ef7f94cd2",
+      "name": "Crypts",
+      "area": "5c8a77b3190288bd85f94cc9",
+      "coordinates": {
+        "x": 87,
+        "y": 285
+      },
+      "_created": "2019-03-14T21:38:55.363Z",
+      "_updated": "2020-01-04T17:58:41.884Z",
+      "states": [
+        {
+          "scene": [
+            "5c8fd2503bae8ddc2e2b5e45"
+          ],
+          "_id": "5c8feea03bae8dd50f2b5e68",
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "background": "5dbd7faaff2c1923a6db7f20",
+      "ambience": "5e10ce5b7634331be65ac8e2"
     }
   ]
 }

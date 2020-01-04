@@ -470,79 +470,6 @@
       "_updated": "2019-06-08T10:27:19.032Z"
     },
     {
-      "_id": "5c7e45e88777bd437c9e6840",
-      "npcs": [
-        "5c80303b0e374858f8c6017e"
-      ],
-      "name": "Path E2",
-      "_created": "2019-03-05T09:48:24.237Z",
-      "nodes": [
-        {
-          "narrative": [
-            "Something is moving through the reeds on the other side. A wild dog emerges. Growling, it runs towards you across the shallows."
-          ],
-          "_id": "5c80305e7c630500000aed66",
-          "options": [
-            {
-              "label": [
-                "Fight"
-              ],
-              "_id": "5c8030877c630500000aed67",
-              "actions": [
-                {
-                  "parameters": [
-                    "5c80303b0e374858f8c6017e"
-                  ],
-                  "_id": "5c8031bc0e37488651c60183",
-                  "type": "engageNpc"
-                }
-              ],
-              "outcomes": [
-                {
-                  "_id": "5c8030a57c630500000aed68",
-                  "event": {
-                    "type": "narrative",
-                    "parameters": [
-                      [
-                        "Whimpering, the wild dog collapses. Slowly, the carcass starts to drift into the lagoon."
-                      ]
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": []
-                }
-              ],
-              "maxAccounts": 1,
-              "availability": []
-            },
-            {
-              "label": [
-                "Cross the shallows"
-              ],
-              "_id": "5c8031717c630500000aed6a",
-              "actions": [],
-              "outcomes": [
-                {
-                  "_id": "5c8031917c630500000aed6b",
-                  "event": {
-                    "type": "continueOnPath",
-                    "parameters": []
-                  },
-                  "actions": [],
-                  "conditions": []
-                }
-              ],
-              "maxAccounts": 1,
-              "parent": "5c8030877c630500000aed67",
-              "availability": []
-            }
-          ]
-        }
-      ],
-      "__v": 0,
-      "_updated": "2019-04-25T01:47:53.843Z"
-    },
-    {
       "_id": "5c8036670e37482ec0c60190",
       "npcs": [],
       "name": "Scene 3A",
@@ -691,6 +618,10 @@
     },
     {
       "_id": "5c817ede0e3748aba9c601e2",
+      "autoSave": {
+        "save": false,
+        "conditions": []
+      },
       "npcs": [
         "5c817e240e37485f1bc601e1"
       ],
@@ -831,7 +762,8 @@
       ],
       "_created": "2019-03-07T20:28:14.273Z",
       "__v": 0,
-      "_updated": "2019-03-07T20:55:04.277Z"
+      "_updated": "2020-01-04T17:55:37.782Z",
+      "music": "5e10ce4576343396915ac8df"
     },
     {
       "_id": "5c8186d10e37487140c60214",
@@ -1121,8 +1053,9 @@
       ],
       "_created": "2019-03-11T01:28:16.914Z",
       "__v": 0,
-      "_updated": "2019-10-14T08:13:06.346Z",
-      "background": "5da38f7cc55b7f3ce9f5287b"
+      "_updated": "2020-01-04T17:57:10.218Z",
+      "background": "5da38f7cc55b7f3ce9f5287b",
+      "ambience": "5e10ce5c76343333e95ac8e3"
     },
     {
       "_id": "5c85bd410e37485837c60336",
@@ -4267,6 +4200,10 @@
     },
     {
       "_id": "5ca48f96379035f785b1d128",
+      "autoSave": {
+        "save": false,
+        "conditions": []
+      },
       "npcs": [],
       "name": "Path encounter: cavern 2 (torch)",
       "nodes": [
@@ -4364,11 +4301,16 @@
           ]
         }
       ],
-      "_updated": "2019-05-13T10:05:24.568Z",
-      "_created": "2019-04-03T11:00:00.406Z"
+      "_updated": "2020-01-04T18:55:45.372Z",
+      "_created": "2019-04-03T11:00:00.406Z",
+      "ambience": "5e10ce5b7634331be65ac8e2"
     },
     {
       "_id": "5ca492f8379035ded3b1d13f",
+      "autoSave": {
+        "save": false,
+        "conditions": []
+      },
       "npcs": [],
       "name": "Path encounter: cavern 2 (by torchlight)",
       "nodes": [
@@ -4420,8 +4362,9 @@
         }
       ],
       "_created": "2019-04-03T11:03:20.700Z",
-      "_updated": "2019-04-03T11:03:20.700Z",
-      "__v": 0
+      "_updated": "2020-01-04T18:56:13.082Z",
+      "__v": 0,
+      "ambience": "5e10ce5b7634331be65ac8e2"
     },
     {
       "_id": "5caa5f0337903570d7b218b2",
@@ -4951,7 +4894,7 @@
       ],
       "name": "Chamber of Nemesis (interior)",
       "_created": "2019-04-07T21:37:20.830Z",
-      "_updated": "2019-11-02T10:41:39.417Z",
+      "_updated": "2020-01-04T18:12:52.336Z",
       "nodes": [
         {
           "narrative": [
@@ -5162,7 +5105,8 @@
               "maxAccounts": 1,
               "availability": []
             }
-          ]
+          ],
+          "music": "5e10ce4576343396915ac8df"
         },
         {
           "narrative": [
@@ -5202,7 +5146,8 @@
               "maxAccounts": 1,
               "availability": []
             }
-          ]
+          ],
+          "music": "5e10ce4576343396915ac8df"
         },
         {
           "narrative": [
@@ -5369,7 +5314,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "music": "5e10ce4576343396915ac8df"
         },
         {
           "narrative": [
@@ -5586,12 +5532,16 @@
     },
     {
       "_id": "5cab021d3790351c31b2230b",
+      "autoSave": {
+        "save": false,
+        "conditions": []
+      },
       "npcs": [
         "5c8f0664d26f5013ba85f5f4"
       ],
       "name": "Combat Encounter: Wolf",
       "_created": "2019-04-08T08:11:09.963Z",
-      "_updated": "2019-04-08T17:55:09.389Z",
+      "_updated": "2020-01-04T18:06:39.134Z",
       "nodes": [
         {
           "narrative": [
@@ -5827,7 +5777,8 @@
           ]
         }
       ],
-      "__v": 0
+      "__v": 0,
+      "music": "5e10ce4576343396915ac8df"
     },
     {
       "_id": "5cab16c4379035f37bb22350",
@@ -14301,12 +14252,16 @@
     },
     {
       "_id": "5cab02513790353797b2230c",
+      "autoSave": {
+        "save": false,
+        "conditions": []
+      },
       "npcs": [
         "5c9b13cb3790353c3ab1bd6a"
       ],
       "name": "Combat Encounter: Mountain Lion",
       "_created": "2019-04-08T08:12:01.539Z",
-      "_updated": "2019-04-08T17:54:41.466Z",
+      "_updated": "2020-01-04T18:06:46.224Z",
       "nodes": [
         {
           "narrative": [
@@ -14420,7 +14375,8 @@
           ]
         }
       ],
-      "__v": 0
+      "__v": 0,
+      "music": "5e10ce4576343396915ac8df"
     },
     {
       "_id": "5cab24303790358645b22364",
@@ -89602,6 +89558,84 @@
         }
       ],
       "__v": 0
+    },
+    {
+      "_id": "5c7e45e88777bd437c9e6840",
+      "autoSave": {
+        "save": false,
+        "conditions": []
+      },
+      "npcs": [
+        "5c80303b0e374858f8c6017e"
+      ],
+      "name": "Path E2",
+      "_created": "2019-03-05T09:48:24.237Z",
+      "nodes": [
+        {
+          "narrative": [
+            "Something is moving through the reeds on the other side. A wild dog emerges. Growling, it runs towards you across the shallows."
+          ],
+          "_id": "5c80305e7c630500000aed66",
+          "options": [
+            {
+              "label": [
+                "Fight"
+              ],
+              "_id": "5c8030877c630500000aed67",
+              "actions": [
+                {
+                  "parameters": [
+                    "5c80303b0e374858f8c6017e"
+                  ],
+                  "_id": "5c8031bc0e37488651c60183",
+                  "type": "engageNpc"
+                }
+              ],
+              "outcomes": [
+                {
+                  "_id": "5c8030a57c630500000aed68",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "Whimpering, the wild dog collapses. Slowly, the carcass starts to drift into the lagoon."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "availability": []
+            },
+            {
+              "label": [
+                "Cross the shallows"
+              ],
+              "_id": "5c8031717c630500000aed6a",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5c8031917c630500000aed6b",
+                  "event": {
+                    "type": "continueOnPath",
+                    "parameters": []
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "parent": "5c8030877c630500000aed67",
+              "availability": []
+            }
+          ]
+        }
+      ],
+      "__v": 0,
+      "_updated": "2020-01-04T17:55:06.880Z",
+      "music": "5e10ce4576343396915ac8df"
     }
   ]
 }

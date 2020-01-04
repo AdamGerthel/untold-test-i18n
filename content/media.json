@@ -639,14 +639,102 @@
       "type": "image"
     },
     {
-      "_id": "5e10bd948812b704ca488b43",
-      "name": "Action",
+      "_id": "5e10ce4576343396915ac8df",
+      "name": "Music - Action",
       "type": "audio",
-      "_created": "2020-01-04T16:30:12.246Z",
-      "_updated": "2020-01-04T16:30:12.246Z",
-      "remote_id": "cyoa-editor/5e10bd948812b704ca488b43",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1578155413/cyoa-editor/5e10bd948812b704ca488b43.ogg",
-      "remote_version": 1578155413,
+      "_created": "2020-01-04T17:41:25.343Z",
+      "_updated": "2020-01-04T17:41:25.343Z",
+      "remote_id": "cyoa-editor/5e10ce4576343396915ac8df",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1578159686/cyoa-editor/5e10ce4576343396915ac8df.ogg",
+      "remote_version": 1578159686,
+      "__v": 0
+    },
+    {
+      "_id": "5e10ce457634331b535ac8e0",
+      "name": "Music - Cave",
+      "type": "audio",
+      "_created": "2020-01-04T17:41:25.510Z",
+      "_updated": "2020-01-04T17:41:25.510Z",
+      "remote_id": "cyoa-editor/5e10ce457634331b535ac8e0",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1578159686/cyoa-editor/5e10ce457634331b535ac8e0.ogg",
+      "remote_version": 1578159686,
+      "__v": 0
+    },
+    {
+      "_id": "5e10ce4576343369975ac8e1",
+      "name": "Music - Forest",
+      "type": "audio",
+      "_created": "2020-01-04T17:41:25.602Z",
+      "_updated": "2020-01-04T17:41:25.602Z",
+      "remote_id": "cyoa-editor/5e10ce4576343369975ac8e1",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1578159686/cyoa-editor/5e10ce4576343369975ac8e1.ogg",
+      "remote_version": 1578159686,
+      "__v": 0
+    },
+    {
+      "_id": "5e10ce5b7634331be65ac8e2",
+      "name": "Ambiance - Cave",
+      "type": "audio",
+      "_created": "2020-01-04T17:41:47.662Z",
+      "_updated": "2020-01-04T17:41:47.662Z",
+      "remote_id": "cyoa-editor/5e10ce5b7634331be65ac8e2",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1578159708/cyoa-editor/5e10ce5b7634331be65ac8e2.ogg",
+      "remote_version": 1578159708,
+      "__v": 0
+    },
+    {
+      "_id": "5e10ce5c76343333e95ac8e3",
+      "name": "Ambiance - Forest night",
+      "type": "audio",
+      "_created": "2020-01-04T17:41:48.301Z",
+      "_updated": "2020-01-04T17:41:48.301Z",
+      "remote_id": "cyoa-editor/5e10ce5c76343333e95ac8e3",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1578159709/cyoa-editor/5e10ce5c76343333e95ac8e3.ogg",
+      "remote_version": 1578159709,
+      "__v": 0
+    },
+    {
+      "_id": "5e10ce5c76343346305ac8e4",
+      "name": "Ambiance - Shack",
+      "type": "audio",
+      "_created": "2020-01-04T17:41:48.411Z",
+      "_updated": "2020-01-04T17:41:48.411Z",
+      "remote_id": "cyoa-editor/5e10ce5c76343346305ac8e4",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1578159709/cyoa-editor/5e10ce5c76343346305ac8e4.ogg",
+      "remote_version": 1578159709,
+      "__v": 0
+    },
+    {
+      "_id": "5e10ce5c7634330dc85ac8e5",
+      "name": "Ambiance - Wind",
+      "type": "audio",
+      "_created": "2020-01-04T17:41:48.757Z",
+      "_updated": "2020-01-04T17:41:48.757Z",
+      "remote_id": "cyoa-editor/5e10ce5c7634330dc85ac8e5",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1578159709/cyoa-editor/5e10ce5c7634330dc85ac8e5.ogg",
+      "remote_version": 1578159709,
+      "__v": 0
+    },
+    {
+      "_id": "5e10ce5d76343371ba5ac8e6",
+      "name": "Ambiance - Forest",
+      "type": "audio",
+      "_created": "2020-01-04T17:41:49.026Z",
+      "_updated": "2020-01-04T17:41:49.026Z",
+      "remote_id": "cyoa-editor/5e10ce5d76343371ba5ac8e6",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1578159710/cyoa-editor/5e10ce5d76343371ba5ac8e6.ogg",
+      "remote_version": 1578159710,
+      "__v": 0
+    },
+    {
+      "_id": "5e10ce5d76343333ea5ac8e7",
+      "name": "Ambiance - Beach",
+      "type": "audio",
+      "_created": "2020-01-04T17:41:49.049Z",
+      "_updated": "2020-01-04T17:41:49.049Z",
+      "remote_id": "cyoa-editor/5e10ce5d76343333ea5ac8e7",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1578159710/cyoa-editor/5e10ce5d76343333ea5ac8e7.ogg",
+      "remote_version": 1578159710,
       "__v": 0
     }
   ]
