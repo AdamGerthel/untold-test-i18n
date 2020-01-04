@@ -13784,10 +13784,14 @@
     },
     {
       "_id": "5caa9f6f3790356fb1b21f4f",
+      "autoSave": {
+        "save": false,
+        "conditions": []
+      },
       "npcs": [],
       "name": "Chapel of Nierva (interior)",
       "_created": "2019-04-08T01:10:07.594Z",
-      "_updated": "2019-04-08T03:12:09.698Z",
+      "_updated": "2019-12-30T12:00:24.131Z",
       "nodes": [
         {
           "narrative": [
@@ -13802,28 +13806,6 @@
               "_id": "5caaa6f43ac3e100003835a1",
               "actions": [],
               "outcomes": [
-                {
-                  "_id": "5caab2143ac3e100003835b0",
-                  "event": {
-                    "type": "node",
-                    "parameters": [
-                      "5caaa9da3ac3e100003835a5"
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": [
-                    {
-                      "parameters": [
-                        "5c9350813bae8d4a422b6256",
-                        "equals",
-                        1
-                      ],
-                      "_id": "5caab8bf3790353193b22107",
-                      "type": "hasItem",
-                      "negate": true
-                    }
-                  ]
-                },
                 {
                   "_id": "5caab2653ac3e100003835b1",
                   "event": {
@@ -13849,6 +13831,17 @@
                       "type": "hasItemEquipped"
                     }
                   ]
+                },
+                {
+                  "_id": "5caab2143ac3e100003835b0",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5caaa9da3ac3e100003835a5"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
                 }
               ],
               "availability": []
