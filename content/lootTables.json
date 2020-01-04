@@ -65,468 +65,6 @@
       "_updated": "2019-03-13T17:25:45.004Z"
     },
     {
-      "_id": "5c803ee70e3748ac54c601a2",
-      "gold": [],
-      "name": "Food Pouch",
-      "bundles": [
-        {
-          "_id": "5c803ee70e37486903c601a9",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                4
-              ],
-              "_id": "5c803ee70e37486113c601aa",
-              "probability": 1,
-              "item": "5c803d1c0e37485847c6019a"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5c803ee70e374871ebc601a7",
-          "items": [
-            {
-              "quantityRange": [
-                6,
-                12
-              ],
-              "_id": "5c803ee70e37483ee2c601a8",
-              "probability": 1,
-              "item": "5c803d8f0e37481dd7c6019c"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5c803ee70e37484b56c601a5",
-          "items": [
-            {
-              "quantityRange": [
-                2,
-                4
-              ],
-              "_id": "5c803ee70e3748025bc601a6",
-              "probability": 1,
-              "item": "5c803dc90e3748ec29c6019e"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5c803ee70e37483b18c601a3",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                3
-              ],
-              "_id": "5c803ee70e3748833fc601a4",
-              "probability": 1,
-              "item": "5c803e190e374836d8c601a0"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "_created": "2019-03-06T21:43:03.504Z",
-      "__v": 0,
-      "_updated": "2019-03-13T17:25:46.635Z"
-    },
-    {
-      "_id": "5c863d2e0e374850c4c6036f",
-      "gold": [],
-      "name": "POW: Swords",
-      "bundles": [
-        {
-          "_id": "5c863d2e0e37489abcc60370",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863d2e0e3748436ec60376",
-              "probability": 0.2,
-              "item": "5c8629e90e3748bc27c6035d"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863d2e0e374833aec60375",
-              "probability": 0.15,
-              "item": "5c862a760e37483b4dc6035e"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863d2e0e3748f9abc60374",
-              "probability": 0.2,
-              "item": "5c862aea0e37484fb7c6035f"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863d2e0e37480003c60373",
-              "probability": 0.15,
-              "item": "5c862c200e3748d350c60360"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863d2e0e3748a45fc60372",
-              "probability": 0.1,
-              "item": "5c862cc10e374821fec60361"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863d2e0e3748377dc60371",
-              "probability": 0.2,
-              "item": "5c862d6b0e3748dcaac60362"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "_created": "2019-03-11T10:49:18.336Z",
-      "__v": 0,
-      "_updated": "2019-03-13T17:25:48.202Z"
-    },
-    {
-      "_id": "5c863dd80e3748433fc60377",
-      "gold": [],
-      "name": "POW: Axes",
-      "bundles": [
-        {
-          "_id": "5c863dd80e37484addc60378",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863dd80e37487ff9c6037e",
-              "probability": 0.2,
-              "item": "5c862e660e3748777bc60363"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863dd80e3748959ec6037d",
-              "probability": 0.2,
-              "item": "5c862ec00e37484c7ac60364"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863dd80e374864ecc6037c",
-              "probability": 0.15,
-              "item": "5c862f110e37488ab4c60365"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863dd80e37483ccec6037b",
-              "probability": 0.15,
-              "item": "5c862fde0e3748268fc60366"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863dd80e37484f37c6037a",
-              "probability": 0.1,
-              "item": "5c86316c0e3748bcd1c60368"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863dd80e37484631c60379",
-              "probability": 0.2,
-              "item": "5c86320d0e37480f1fc60369"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "_created": "2019-03-11T10:52:08.088Z",
-      "__v": 0,
-      "_updated": "2019-03-13T17:25:49.643Z"
-    },
-    {
-      "_id": "5c863e420e37484900c6037f",
-      "gold": [],
-      "name": "POW: Blunt Weapons",
-      "bundles": [
-        {
-          "_id": "5c863e420e3748875dc60380",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863e420e37481ef2c60385",
-              "probability": 0.2,
-              "item": "5c86384d0e37486af4c6036a"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863e420e374830fec60384",
-              "probability": 0.2,
-              "item": "5c8638e90e3748e3f5c6036b"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863e420e374807aec60383",
-              "probability": 0.2,
-              "item": "5c8639c20e37483059c6036c"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863e420e37488fa6c60382",
-              "probability": 0.2,
-              "item": "5c863aa70e37487593c6036d"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c863e420e3748e70ac60381",
-              "probability": 0.2,
-              "item": "5c863b910e374888abc6036e"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "_created": "2019-03-11T10:53:54.470Z",
-      "__v": 0,
-      "_updated": "2019-03-11T10:54:07.791Z"
-    },
-    {
-      "_id": "5c86d948bbdb6b695e5868e8",
-      "gold": [],
-      "name": "Assassin of Woe (Grove)",
-      "bundles": [
-        {
-          "_id": "5c86d948bbdb6b67575868ea",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c86d948bbdb6b014f5868ec",
-              "probability": 0.5,
-              "item": "5c86d6c4bbdb6b44de5868e6"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c86d948bbdb6bb02d5868eb",
-              "probability": 0.5,
-              "item": "5c86d815bbdb6b13055868e7"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "_created": "2019-03-11T21:55:20.673Z",
-      "__v": 0,
-      "_updated": "2019-03-11T23:22:03.178Z"
-    },
-    {
-      "_id": "5c8a05a1c5ffe40297c268b7",
-      "gold": [],
-      "name": "Foraging",
-      "bundles": [
-        {
-          "_id": "5c8a05a1c5ffe480cbc268bc",
-          "items": [
-            {
-              "quantityRange": [
-                3,
-                12
-              ],
-              "_id": "5c8a05a1c5ffe41368c268bd",
-              "probability": 1,
-              "item": "5c8a0466c5ffe41d34c268b3"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5c8a05a1c5ffe43c00c268ba",
-          "items": [
-            {
-              "quantityRange": [
-                2,
-                8
-              ],
-              "_id": "5c8a05a1c5ffe40389c268bb",
-              "probability": 1,
-              "item": "5c803dc90e3748ec29c6019e"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5c8a05a1c5ffe4a8e2c268b8",
-          "items": [
-            {
-              "quantityRange": [
-                3,
-                12
-              ],
-              "_id": "5c8a05a1c5ffe4a29bc268b9",
-              "probability": 1,
-              "item": "5c8a0495c5ffe41f05c268b5"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "_created": "2019-03-14T07:41:21.800Z",
-      "_updated": "2019-03-14T07:41:21.800Z",
-      "__v": 0
-    },
-    {
-      "_id": "5c92f06c3bae8d93f72b6024",
-      "gold": [
-        33,
-        94
-      ],
-      "name": "Dusk Megalith. Crypts",
-      "bundles": [
-        {
-          "_id": "5c92f0d23bae8d2ce82b602e",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                3
-              ],
-              "_id": "5c92f0d23bae8d59692b6036",
-              "probability": 0.05,
-              "item": "5c92eb843bae8d75c62b601c"
-            },
-            {
-              "quantityRange": [
-                1,
-                2
-              ],
-              "_id": "5c92f0d23bae8db4512b6035",
-              "probability": 0.05,
-              "item": "5c92ebd43bae8d81c32b601d"
-            },
-            {
-              "quantityRange": [
-                1,
-                2
-              ],
-              "_id": "5c92f0d23bae8d3ca22b6034",
-              "probability": 0.05,
-              "item": "5c92ec543bae8dadf22b601e"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c92f0d23bae8d0a432b6033",
-              "probability": 0.2,
-              "item": "5c92ec953bae8d24172b601f"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c92f0d23bae8dbf4b2b6032",
-              "probability": 0.25,
-              "item": "5c92ed333bae8daa742b6020"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c92f0d23bae8d51192b6031",
-              "probability": 0.05,
-              "item": "5c92ed9d3bae8d160b2b6021"
-            },
-            {
-              "quantityRange": [
-                2,
-                4
-              ],
-              "_id": "5c92f0d23bae8d05a22b6030",
-              "probability": 0.2,
-              "item": "5c92ee033bae8da2f12b6022"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c92f0d23bae8d98782b602f",
-              "probability": 0.15,
-              "item": "5c92ee603bae8d36b12b6023"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "_updated": "2019-03-21T02:02:58.234Z",
-      "_created": "2019-03-21T02:02:58.238Z"
-    },
-    {
-      "_id": "5c9d3bff37903556efb1ca94",
-      "gold": [
-        1,
-        12
-      ],
-      "name": "Gold 1",
-      "_created": "2019-03-28T21:26:23.353Z",
-      "_updated": "2019-03-28T21:26:23.353Z",
-      "bundles": [],
-      "__v": 0
-    },
-    {
       "_id": "5c7d8757fd6b4938ac456b87",
       "gold": [
         4,
@@ -1120,6 +658,456 @@
       "_updated": "2019-03-05T09:57:12.854Z"
     },
     {
+      "_id": "5c803ee70e3748ac54c601a2",
+      "gold": [],
+      "name": "Food Pouch",
+      "bundles": [
+        {
+          "_id": "5c803ee70e37486903c601a9",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                4
+              ],
+              "_id": "5c803ee70e37486113c601aa",
+              "probability": 1,
+              "item": "5c803d1c0e37485847c6019a"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5c803ee70e374871ebc601a7",
+          "items": [
+            {
+              "quantityRange": [
+                6,
+                12
+              ],
+              "_id": "5c803ee70e37483ee2c601a8",
+              "probability": 1,
+              "item": "5c803d8f0e37481dd7c6019c"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5c803ee70e37484b56c601a5",
+          "items": [
+            {
+              "quantityRange": [
+                2,
+                4
+              ],
+              "_id": "5c803ee70e3748025bc601a6",
+              "probability": 1,
+              "item": "5c803dc90e3748ec29c6019e"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5c803ee70e37483b18c601a3",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                3
+              ],
+              "_id": "5c803ee70e3748833fc601a4",
+              "probability": 1,
+              "item": "5c803e190e374836d8c601a0"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2019-03-06T21:43:03.504Z",
+      "__v": 0,
+      "_updated": "2019-03-13T17:25:46.635Z"
+    },
+    {
+      "_id": "5c863d2e0e374850c4c6036f",
+      "gold": [],
+      "name": "POW: Swords",
+      "bundles": [
+        {
+          "_id": "5c863d2e0e37489abcc60370",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863d2e0e3748436ec60376",
+              "probability": 0.2,
+              "item": "5c8629e90e3748bc27c6035d"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863d2e0e374833aec60375",
+              "probability": 0.15,
+              "item": "5c862a760e37483b4dc6035e"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863d2e0e3748f9abc60374",
+              "probability": 0.2,
+              "item": "5c862aea0e37484fb7c6035f"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863d2e0e37480003c60373",
+              "probability": 0.15,
+              "item": "5c862c200e3748d350c60360"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863d2e0e3748a45fc60372",
+              "probability": 0.1,
+              "item": "5c862cc10e374821fec60361"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863d2e0e3748377dc60371",
+              "probability": 0.2,
+              "item": "5c862d6b0e3748dcaac60362"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2019-03-11T10:49:18.336Z",
+      "__v": 0,
+      "_updated": "2019-03-13T17:25:48.202Z"
+    },
+    {
+      "_id": "5c863dd80e3748433fc60377",
+      "gold": [],
+      "name": "POW: Axes",
+      "bundles": [
+        {
+          "_id": "5c863dd80e37484addc60378",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863dd80e37487ff9c6037e",
+              "probability": 0.2,
+              "item": "5c862e660e3748777bc60363"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863dd80e3748959ec6037d",
+              "probability": 0.2,
+              "item": "5c862ec00e37484c7ac60364"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863dd80e374864ecc6037c",
+              "probability": 0.15,
+              "item": "5c862f110e37488ab4c60365"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863dd80e37483ccec6037b",
+              "probability": 0.15,
+              "item": "5c862fde0e3748268fc60366"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863dd80e37484f37c6037a",
+              "probability": 0.1,
+              "item": "5c86316c0e3748bcd1c60368"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863dd80e37484631c60379",
+              "probability": 0.2,
+              "item": "5c86320d0e37480f1fc60369"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2019-03-11T10:52:08.088Z",
+      "__v": 0,
+      "_updated": "2019-03-13T17:25:49.643Z"
+    },
+    {
+      "_id": "5c863e420e37484900c6037f",
+      "gold": [],
+      "name": "POW: Blunt Weapons",
+      "bundles": [
+        {
+          "_id": "5c863e420e3748875dc60380",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863e420e37481ef2c60385",
+              "probability": 0.2,
+              "item": "5c86384d0e37486af4c6036a"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863e420e374830fec60384",
+              "probability": 0.2,
+              "item": "5c8638e90e3748e3f5c6036b"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863e420e374807aec60383",
+              "probability": 0.2,
+              "item": "5c8639c20e37483059c6036c"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863e420e37488fa6c60382",
+              "probability": 0.2,
+              "item": "5c863aa70e37487593c6036d"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c863e420e3748e70ac60381",
+              "probability": 0.2,
+              "item": "5c863b910e374888abc6036e"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2019-03-11T10:53:54.470Z",
+      "__v": 0,
+      "_updated": "2019-03-11T10:54:07.791Z"
+    },
+    {
+      "_id": "5c86d948bbdb6b695e5868e8",
+      "gold": [],
+      "name": "Assassin of Woe (Grove)",
+      "bundles": [
+        {
+          "_id": "5c86d948bbdb6b67575868ea",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c86d948bbdb6b014f5868ec",
+              "probability": 0.5,
+              "item": "5c86d6c4bbdb6b44de5868e6"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c86d948bbdb6bb02d5868eb",
+              "probability": 0.5,
+              "item": "5c86d815bbdb6b13055868e7"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2019-03-11T21:55:20.673Z",
+      "__v": 0,
+      "_updated": "2019-03-11T23:22:03.178Z"
+    },
+    {
+      "_id": "5c8a05a1c5ffe40297c268b7",
+      "gold": [],
+      "name": "Foraging",
+      "bundles": [
+        {
+          "_id": "5c8a05a1c5ffe480cbc268bc",
+          "items": [
+            {
+              "quantityRange": [
+                3,
+                12
+              ],
+              "_id": "5c8a05a1c5ffe41368c268bd",
+              "probability": 1,
+              "item": "5c8a0466c5ffe41d34c268b3"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5c8a05a1c5ffe43c00c268ba",
+          "items": [
+            {
+              "quantityRange": [
+                2,
+                8
+              ],
+              "_id": "5c8a05a1c5ffe40389c268bb",
+              "probability": 1,
+              "item": "5c803dc90e3748ec29c6019e"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5c8a05a1c5ffe4a8e2c268b8",
+          "items": [
+            {
+              "quantityRange": [
+                3,
+                12
+              ],
+              "_id": "5c8a05a1c5ffe4a29bc268b9",
+              "probability": 1,
+              "item": "5c8a0495c5ffe41f05c268b5"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2019-03-14T07:41:21.800Z",
+      "_updated": "2019-03-14T07:41:21.800Z",
+      "__v": 0
+    },
+    {
+      "_id": "5c92f06c3bae8d93f72b6024",
+      "gold": [
+        33,
+        94
+      ],
+      "name": "Dusk Megalith. Crypts",
+      "bundles": [
+        {
+          "_id": "5c92f0d23bae8d2ce82b602e",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                3
+              ],
+              "_id": "5c92f0d23bae8d59692b6036",
+              "probability": 0.05,
+              "item": "5c92eb843bae8d75c62b601c"
+            },
+            {
+              "quantityRange": [
+                1,
+                2
+              ],
+              "_id": "5c92f0d23bae8db4512b6035",
+              "probability": 0.05,
+              "item": "5c92ebd43bae8d81c32b601d"
+            },
+            {
+              "quantityRange": [
+                1,
+                2
+              ],
+              "_id": "5c92f0d23bae8d3ca22b6034",
+              "probability": 0.05,
+              "item": "5c92ec543bae8dadf22b601e"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c92f0d23bae8d0a432b6033",
+              "probability": 0.2,
+              "item": "5c92ec953bae8d24172b601f"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c92f0d23bae8dbf4b2b6032",
+              "probability": 0.25,
+              "item": "5c92ed333bae8daa742b6020"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c92f0d23bae8d51192b6031",
+              "probability": 0.05,
+              "item": "5c92ed9d3bae8d160b2b6021"
+            },
+            {
+              "quantityRange": [
+                2,
+                4
+              ],
+              "_id": "5c92f0d23bae8d05a22b6030",
+              "probability": 0.2,
+              "item": "5c92ee033bae8da2f12b6022"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c92f0d23bae8d98782b602f",
+              "probability": 0.15,
+              "item": "5c92ee603bae8d36b12b6023"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_updated": "2019-03-21T02:02:58.234Z",
+      "_created": "2019-03-21T02:02:58.238Z"
+    },
+    {
       "_id": "5c92ff633bae8ddaf52b6066",
       "gold": [
         24,
@@ -1229,6 +1217,61 @@
       "__v": 0
     },
     {
+      "_id": "5c9348683bae8d3d5e2b61e1",
+      "gold": [
+        7,
+        18
+      ],
+      "name": "Chest of drawers, Room 8",
+      "bundles": [
+        {
+          "_id": "5c9348683bae8d65012b61e2",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c9348683bae8d4b5d2b61e4",
+              "probability": 0.15,
+              "item": "5c93463d3bae8da4662b61df"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c9348683bae8d26312b61e3",
+              "probability": 0.35,
+              "item": "5c93474d3bae8d65752b61e0"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c9348cd3bae8d8b7b2b61e7",
+              "probability": 0.3,
+              "item": "5c9348883bae8da7cb2b61e5"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5c935e923bae8d62662b629d",
+              "probability": 0.2,
+              "item": "5c935e073bae8df83c2b629a"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2019-03-21T08:16:40.748Z",
+      "_updated": "2019-03-21T09:51:14.262Z",
+      "__v": 0
+    },
+    {
       "_id": "5c9351e73bae8d4ce62b6257",
       "gold": [
         16,
@@ -1311,61 +1354,6 @@
       ],
       "_created": "2019-03-21T08:57:11.774Z",
       "_updated": "2019-03-21T09:14:39.009Z",
-      "__v": 0
-    },
-    {
-      "_id": "5c9348683bae8d3d5e2b61e1",
-      "gold": [
-        7,
-        18
-      ],
-      "name": "Chest of drawers, Room 8",
-      "bundles": [
-        {
-          "_id": "5c9348683bae8d65012b61e2",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c9348683bae8d4b5d2b61e4",
-              "probability": 0.15,
-              "item": "5c93463d3bae8da4662b61df"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c9348683bae8d26312b61e3",
-              "probability": 0.35,
-              "item": "5c93474d3bae8d65752b61e0"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c9348cd3bae8d8b7b2b61e7",
-              "probability": 0.3,
-              "item": "5c9348883bae8da7cb2b61e5"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5c935e923bae8d62662b629d",
-              "probability": 0.2,
-              "item": "5c935e073bae8df83c2b629a"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "_created": "2019-03-21T08:16:40.748Z",
-      "_updated": "2019-03-21T09:51:14.262Z",
       "__v": 0
     },
     {
@@ -1579,6 +1567,18 @@
       ],
       "_created": "2019-03-27T15:14:31.190Z",
       "_updated": "2019-04-13T19:41:22.933Z",
+      "__v": 0
+    },
+    {
+      "_id": "5c9d3bff37903556efb1ca94",
+      "gold": [
+        1,
+        12
+      ],
+      "name": "Gold 1",
+      "_created": "2019-03-28T21:26:23.353Z",
+      "_updated": "2019-03-28T21:26:23.353Z",
+      "bundles": [],
       "__v": 0
     },
     {
@@ -3512,6 +3512,63 @@
       "__v": 0
     },
     {
+      "_id": "5d443cd88335b43f95884b43",
+      "gold": [
+        12,
+        24
+      ],
+      "name": "Bandit Leader",
+      "bundles": [
+        {
+          "_id": "5d443cdf8335b4299f884b4a",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5d443cdf8335b45f36884b4b",
+              "probability": 0.5,
+              "item": "5d443c4f8335b47dbf884b41"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5d443cdf8335b47113884b48",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5d443cdf8335b43733884b49",
+              "probability": 0.5,
+              "item": "5d443ad98335b4e7c4884b3d"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5d6fb7438335b4e8bf88670c",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5d6fb7438335b4766f88670d",
+              "probability": 1,
+              "item": "5cf786c5c3e78fa2705c2a2d"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_updated": "2019-09-18T15:11:52.354Z",
+      "_created": "2019-08-02T13:38:39.910Z"
+    },
+    {
       "_id": "5d4ad8e38335b460ee884edc",
       "gold": [
         1,
@@ -3603,63 +3660,6 @@
       "_created": "2019-08-15T17:56:37.001Z",
       "_updated": "2019-09-18T15:09:12.051Z",
       "__v": 0
-    },
-    {
-      "_id": "5d443cd88335b43f95884b43",
-      "gold": [
-        12,
-        24
-      ],
-      "name": "Bandit Leader",
-      "bundles": [
-        {
-          "_id": "5d443cdf8335b4299f884b4a",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5d443cdf8335b45f36884b4b",
-              "probability": 0.5,
-              "item": "5d443c4f8335b47dbf884b41"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5d443cdf8335b47113884b48",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5d443cdf8335b43733884b49",
-              "probability": 0.5,
-              "item": "5d443ad98335b4e7c4884b3d"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5d6fb7438335b4e8bf88670c",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5d6fb7438335b4766f88670d",
-              "probability": 1,
-              "item": "5cf786c5c3e78fa2705c2a2d"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "_updated": "2019-09-18T15:11:52.354Z",
-      "_created": "2019-08-02T13:38:39.910Z"
     },
     {
       "_id": "5d7d8f0fe6ecf351c0a2a710",
@@ -4115,91 +4115,6 @@
       "__v": 0
     },
     {
-      "_id": "5dd57e33f75a97069659c90f",
-      "gold": [
-        5,
-        8
-      ],
-      "name": "Foreign Skirmisher",
-      "bundles": [
-        {
-          "_id": "5dd57e33f75a970ee759c916",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5dd57e33f75a97bec759c917",
-              "probability": 0.66,
-              "item": "5dd57d72f75a975c1359c90e"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5dd59527f75a976d9c59ca3c",
-              "probability": 0.34,
-              "item": "5dd594c6f75a971bde59ca34"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5dd57e33f75a9775d959c914",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5dd57e33f75a976b7259c915",
-              "probability": 1,
-              "item": "5c92fa633bae8d78a32b6061"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5dd57e33f75a97499e59c910",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                2
-              ],
-              "_id": "5dd57e33f75a973dec59c913",
-              "probability": 0.3,
-              "item": "5c92ee033bae8da2f12b6022"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5dd57e33f75a9722f759c912",
-              "probability": 0.4,
-              "item": "5cab7f1737903512c8b223f9"
-            },
-            {
-              "quantityRange": [
-                1,
-                2
-              ],
-              "_id": "5dd57e33f75a97edf859c911",
-              "probability": 0.3,
-              "item": "5c803d1c0e37485847c6019a"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "_created": "2019-11-20T17:56:03.538Z",
-      "_updated": "2019-11-20T19:33:59.569Z",
-      "__v": 0
-    },
-    {
       "_id": "5dd3fcfbf75a973ce559881a",
       "gold": [
         11,
@@ -4321,6 +4236,91 @@
       ],
       "_created": "2019-11-19T14:32:27.332Z",
       "_updated": "2019-11-20T18:02:24.232Z",
+      "__v": 0
+    },
+    {
+      "_id": "5dd57e33f75a97069659c90f",
+      "gold": [
+        5,
+        8
+      ],
+      "name": "Foreign Skirmisher",
+      "bundles": [
+        {
+          "_id": "5dd57e33f75a970ee759c916",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5dd57e33f75a97bec759c917",
+              "probability": 0.66,
+              "item": "5dd57d72f75a975c1359c90e"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5dd59527f75a976d9c59ca3c",
+              "probability": 0.34,
+              "item": "5dd594c6f75a971bde59ca34"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5dd57e33f75a9775d959c914",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5dd57e33f75a976b7259c915",
+              "probability": 1,
+              "item": "5c92fa633bae8d78a32b6061"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5dd57e33f75a97499e59c910",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                2
+              ],
+              "_id": "5dd57e33f75a973dec59c913",
+              "probability": 0.3,
+              "item": "5c92ee033bae8da2f12b6022"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5dd57e33f75a9722f759c912",
+              "probability": 0.4,
+              "item": "5cab7f1737903512c8b223f9"
+            },
+            {
+              "quantityRange": [
+                1,
+                2
+              ],
+              "_id": "5dd57e33f75a97edf859c911",
+              "probability": 0.3,
+              "item": "5c803d1c0e37485847c6019a"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2019-11-20T17:56:03.538Z",
+      "_updated": "2019-11-20T19:33:59.569Z",
       "__v": 0
     },
     {

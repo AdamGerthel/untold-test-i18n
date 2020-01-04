@@ -37,6 +37,52 @@
       "description": "You have been stranded on a desolate island."
     },
     {
+      "_id": "5c82b9330e3748809dc60273",
+      "name": "Affliction of the Mind",
+      "objectives": [
+        {
+          "_id": "5c82b8b7556ece0000d9e5b7",
+          "title": "Seek treatment for your affliction",
+          "conditions": [],
+          "experience": 50,
+          "description": "Perhaps there is a medical professional who is able to provide the assistance you need? Keep your eyes open.",
+          "updates": []
+        },
+        {
+          "_id": "5c82b8cf556ece0000d9e5b8",
+          "title": "Find the Ephemeral Lodge on Graefir Island",
+          "conditions": [],
+          "parent": "5c82b8b7556ece0000d9e5b7",
+          "description": "You have visited the infirmary in the Town of Set. Unfortunately, the monks in the infirmary lacked the necessary expertise to treat your affliction. Instead, they referred you to the druids of the Ephemeral Lodge. These druids can be found on Graefir Island.",
+          "updates": [],
+          "experience": 50
+        },
+        {
+          "_id": "5da4a560701bc0000094057d",
+          "conditions": [],
+          "updates": [
+            {
+              "_id": "5da4a72f701bc0000094057e",
+              "conditions": [],
+              "description": "Having tasted the Essence of Black Lotus, you experienced an inner journey, which revealed a horrifying truth about your past: the Khiris Cartel used their mind-control techniques in order to force you to kill your own parents. The command was given by Mantis himself."
+            },
+            {
+              "_id": "5da4a968701bc0000094057f",
+              "conditions": [],
+              "description": "According to Sage Ephemeron, it remains to be seen whether or not you will be able to resist the mind-control techniques of the Khiris Cartel."
+            }
+          ],
+          "title": "Seek assistance from the druids",
+          "description": "You and Rasleen have traveled to the Ephemeral Lodge on Graefir Island. Hopefully, the druids will be able to cure your affliction.",
+          "experience": 100,
+          "parent": "5c82b8cf556ece0000d9e5b8"
+        }
+      ],
+      "_created": "2019-03-08T18:51:35.421Z",
+      "_updated": "2019-10-15T04:09:40.903Z",
+      "description": "You and many others were taken prisoner aboard a ship, where a mysterious organization subjected you to various forms of torture. As a result, your mind is a garbled mess of fractured memories. You must find a way to put the broken pieces back in order."
+    },
+    {
       "_id": "5c8e22cc1902884a12f94ce2",
       "name": "Dusk Megalith",
       "objectives": [
@@ -100,78 +146,6 @@
       "_updated": "2019-10-17T17:50:55.822Z",
       "__v": 0,
       "description": "A war has erupted between the druids and cultists on the Isle of Dusk. You have discovered the ruins of Dusk Megalith, a druid stronghold. Rasleen is convinced that the druids are hiding a ship somewhere nearby. She believes that this would be the most opportune moment to steal the ship, since the druids are currently preoccupied with the war."
-    },
-    {
-      "_id": "5d7d948be6ecf3562aa2a78e",
-      "name": "The Infernal Boundary",
-      "objectives": [
-        {
-          "_id": "5d7d94748f6bfe000068dc67",
-          "title": "Escape from the Underworld",
-          "conditions": [],
-          "experience": 100,
-          "updates": [],
-          "description": "There is no way to survive in this hostile environment. You must escape from the Underworld before it's too late."
-        }
-      ],
-      "_created": "2019-09-15T01:31:55.793Z",
-      "_updated": "2019-10-15T20:51:14.123Z",
-      "__v": 0,
-      "description": "You have discovered a gateway to the Underworld beneath the ruins of Dusk Megalith."
-    },
-    {
-      "_id": "5df888b9f75a975e7f5a0a38",
-      "name": "The Wayward Lord",
-      "_created": "2019-12-17T07:50:17.401Z",
-      "_updated": "2019-12-17T07:50:17.401Z",
-      "objectives": [],
-      "__v": 0
-    },
-    {
-      "_id": "5c82b9330e3748809dc60273",
-      "name": "Affliction of the Mind",
-      "objectives": [
-        {
-          "_id": "5c82b8b7556ece0000d9e5b7",
-          "title": "Seek treatment for your affliction",
-          "conditions": [],
-          "experience": 50,
-          "description": "Perhaps there is a medical professional who is able to provide the assistance you need? Keep your eyes open.",
-          "updates": []
-        },
-        {
-          "_id": "5c82b8cf556ece0000d9e5b8",
-          "title": "Find the Ephemeral Lodge on Graefir Island",
-          "conditions": [],
-          "parent": "5c82b8b7556ece0000d9e5b7",
-          "description": "You have visited the infirmary in the Town of Set. Unfortunately, the monks in the infirmary lacked the necessary expertise to treat your affliction. Instead, they referred you to the druids of the Ephemeral Lodge. These druids can be found on Graefir Island.",
-          "updates": [],
-          "experience": 50
-        },
-        {
-          "_id": "5da4a560701bc0000094057d",
-          "conditions": [],
-          "updates": [
-            {
-              "_id": "5da4a72f701bc0000094057e",
-              "conditions": [],
-              "description": "Having tasted the Essence of Black Lotus, you experienced an inner journey, which revealed a horrifying truth about your past: the Khiris Cartel used their mind-control techniques in order to force you to kill your own parents. The command was given by Mantis himself."
-            },
-            {
-              "_id": "5da4a968701bc0000094057f",
-              "conditions": [],
-              "description": "According to Sage Ephemeron, it remains to be seen whether or not you will be able to resist the mind-control techniques of the Khiris Cartel."
-            }
-          ],
-          "title": "Seek assistance from the druids",
-          "description": "You and Rasleen have traveled to the Ephemeral Lodge on Graefir Island. Hopefully, the druids will be able to cure your affliction.",
-          "experience": 100,
-          "parent": "5c82b8cf556ece0000d9e5b8"
-        }
-      ],
-      "_created": "2019-03-08T18:51:35.421Z",
-      "_updated": "2019-10-15T04:09:40.903Z",
-      "description": "You and many others were taken prisoner aboard a ship, where a mysterious organization subjected you to various forms of torture. As a result, your mind is a garbled mess of fractured memories. You must find a way to put the broken pieces back in order."
     },
     {
       "_id": "5caba4683790352caab224ad",
@@ -319,6 +293,24 @@
       "description": "The Tusk Mob is a gang of smugglers who dwell on the Isle of Bast. Apparently, they are trying to form an alliance with the Khiris Cartel. You have learned that Mantis the Crime Lord is on his way to their secret headquarters."
     },
     {
+      "_id": "5d7d948be6ecf3562aa2a78e",
+      "name": "The Infernal Boundary",
+      "objectives": [
+        {
+          "_id": "5d7d94748f6bfe000068dc67",
+          "title": "Escape from the Underworld",
+          "conditions": [],
+          "experience": 100,
+          "updates": [],
+          "description": "There is no way to survive in this hostile environment. You must escape from the Underworld before it's too late."
+        }
+      ],
+      "_created": "2019-09-15T01:31:55.793Z",
+      "_updated": "2019-10-15T20:51:14.123Z",
+      "__v": 0,
+      "description": "You have discovered a gateway to the Underworld beneath the ruins of Dusk Megalith."
+    },
+    {
       "_id": "5dc0af09ff2c19b893db8556",
       "name": "A City Under Siege",
       "description": "The capital of Roeburgh is under siege by foreign invaders. You have received information that Mantis the Crime Lord might be heading to the war-torn city.",
@@ -384,6 +376,14 @@
       ],
       "_created": "2019-11-04T23:06:49.833Z",
       "_updated": "2019-12-25T12:02:06.526Z",
+      "__v": 0
+    },
+    {
+      "_id": "5df888b9f75a975e7f5a0a38",
+      "name": "The Wayward Lord",
+      "_created": "2019-12-17T07:50:17.401Z",
+      "_updated": "2019-12-17T07:50:17.401Z",
+      "objectives": [],
       "__v": 0
     }
   ]

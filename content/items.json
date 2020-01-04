@@ -133,6 +133,25 @@
       "value": 25
     },
     {
+      "_id": "5c7d65b6fd6b493b65456b6b",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Fur Hat",
+      "description": "This'll keep you warm, for sure.",
+      "tier": "1",
+      "type": "armor",
+      "encumbrance": 1,
+      "slot": [
+        "head"
+      ],
+      "armor": 2,
+      "_created": "2019-03-04T17:51:50.937Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:33:48.999Z",
+      "value": 5
+    },
+    {
       "_id": "5c7d65cefd6b4996f3456b6c",
       "consumption": {
         "actions": []
@@ -313,21 +332,6 @@
       "value": 25
     },
     {
-      "_id": "5c8042c70e374820e1c601bc",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Factotum's Journal",
-      "description": "A dusty old book",
-      "tier": "1",
-      "type": "scripture",
-      "scripture": "5c80429f0e3748ac7ec601bb",
-      "_created": "2019-03-06T21:59:35.754Z",
-      "__v": 0,
-      "_updated": "2019-04-08T16:21:56.346Z",
-      "value": 5
-    },
-    {
       "_id": "5c7d68b1fd6b496e6a456b75",
       "consumption": {
         "actions": []
@@ -385,23 +389,23 @@
       "_updated": "2019-04-08T15:05:44.993Z"
     },
     {
-      "_id": "5c7d65b6fd6b493b65456b6b",
+      "_id": "5c7d6992fd6b497f52456b78",
       "consumption": {
         "actions": []
       },
-      "name": "Fur Hat",
-      "description": "This'll keep you warm, for sure.",
+      "name": "Red Cloth Sandals",
+      "description": "Cheap and comfortable.",
       "tier": "1",
       "type": "armor",
-      "encumbrance": 1,
       "slot": [
-        "head"
+        "feet"
       ],
-      "armor": 2,
-      "_created": "2019-03-04T17:51:50.937Z",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2019-03-04T18:08:18.839Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:33:48.999Z",
-      "value": 5
+      "value": 3,
+      "_updated": "2019-04-08T15:06:58.858Z"
     },
     {
       "_id": "5c803d1c0e37485847c6019a",
@@ -494,6 +498,21 @@
       "__v": 0,
       "value": 1,
       "_updated": "2019-04-08T15:05:54.991Z"
+    },
+    {
+      "_id": "5c8042c70e374820e1c601bc",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Factotum's Journal",
+      "description": "A dusty old book",
+      "tier": "1",
+      "type": "scripture",
+      "scripture": "5c80429f0e3748ac7ec601bb",
+      "_created": "2019-03-06T21:59:35.754Z",
+      "__v": 0,
+      "_updated": "2019-04-08T16:21:56.346Z",
+      "value": 5
     },
     {
       "_id": "5c817a5d0e37489fdfc601c9",
@@ -958,25 +977,6 @@
       "value": 60
     },
     {
-      "_id": "5c7d6992fd6b497f52456b78",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Red Cloth Sandals",
-      "description": "Cheap and comfortable.",
-      "tier": "1",
-      "type": "armor",
-      "slot": [
-        "feet"
-      ],
-      "encumbrance": 1,
-      "armor": 1,
-      "_created": "2019-03-04T18:08:18.839Z",
-      "__v": 0,
-      "value": 3,
-      "_updated": "2019-04-08T15:06:58.858Z"
-    },
-    {
       "_id": "5c8a0466c5ffe41d34c268b3",
       "name": "Raspberry",
       "description": "Berry. Restores a small amount of health.",
@@ -1050,6 +1050,19 @@
       "__v": 0
     },
     {
+      "_id": "5c8e1f091902886448f94cde",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Iron Key, No. 8",
+      "description": "A heavy iron key. You found it among the possessions of a dying forest-dweller.",
+      "type": "tool",
+      "tier": "5",
+      "_created": "2019-03-17T10:18:49.593Z",
+      "_updated": "2019-04-08T14:05:02.950Z",
+      "__v": 0
+    },
+    {
       "_id": "5c8e1f3a1902886809f94cdf",
       "consumption": {
         "actions": []
@@ -1075,19 +1088,6 @@
       "_updated": "2019-04-08T16:20:00.688Z",
       "__v": 0,
       "value": 30
-    },
-    {
-      "_id": "5c8e1f091902886448f94cde",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Iron Key, No. 8",
-      "description": "A heavy iron key. You found it among the possessions of a dying forest-dweller.",
-      "type": "tool",
-      "tier": "5",
-      "_created": "2019-03-17T10:18:49.593Z",
-      "_updated": "2019-04-08T14:05:02.950Z",
-      "__v": 0
     },
     {
       "_id": "5c8e8003153140832b805840",
@@ -1176,6 +1176,34 @@
       "_updated": "2019-04-08T16:17:00.678Z",
       "__v": 0,
       "value": 200
+    },
+    {
+      "_id": "5c92ec953bae8d24172b601f",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Golden Chalice",
+      "description": "A ceremonial chalice, stolen from the crypts of Dusk Megalith.",
+      "tier": "3",
+      "type": "treasure",
+      "_created": "2019-03-21T01:44:53.212Z",
+      "_updated": "2019-04-08T16:16:43.311Z",
+      "__v": 0,
+      "value": 80
+    },
+    {
+      "_id": "5c92ed333bae8daa742b6020",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Silver Chalice",
+      "description": "A ceremonial chalice, stolen from the crypts of Dusk Megalith.",
+      "tier": "2",
+      "type": "treasure",
+      "_created": "2019-03-21T01:47:31.712Z",
+      "_updated": "2019-04-08T15:07:36.412Z",
+      "__v": 0,
+      "value": 40
     },
     {
       "_id": "5c92ed9d3bae8d160b2b6021",
@@ -1533,6 +1561,26 @@
       "value": 35
     },
     {
+      "_id": "5c9348883bae8da7cb2b61e5",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Copper Ring",
+      "description": "A simple ring, typically worn by commoners.",
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-03-21T08:17:12.895Z",
+      "_updated": "2019-05-22T18:26:44.324Z",
+      "__v": 0,
+      "value": 10
+    },
+    {
       "_id": "5c9350813bae8d4a422b6256",
       "consumption": {
         "actions": []
@@ -1617,54 +1665,6 @@
       "value": 25
     },
     {
-      "_id": "5c935e073bae8df83c2b629a",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Crude Lock Pick",
-      "description": "This tool can be used to disable simple locks.",
-      "tier": "1",
-      "type": "tool",
-      "_created": "2019-03-21T09:48:55.748Z",
-      "_updated": "2019-04-08T16:04:24.790Z",
-      "__v": 0,
-      "value": 3
-    },
-    {
-      "_id": "5cd21d50f7cea27b81744dac",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Black Diamond",
-      "description": "A finely cut gemstone. Incredibly valuable.",
-      "value": 300,
-      "tier": "4",
-      "type": "treasure",
-      "_created": "2019-05-08T00:05:36.773Z",
-      "_updated": "2019-05-08T00:05:36.773Z",
-      "__v": 0
-    },
-    {
-      "_id": "5cdde300c3e78fe6535bc004",
-      "slot": [
-        "accessory"
-      ],
-      "consumption": {
-        "actions": []
-      },
-      "sideEffects": {
-        "passives": []
-      },
-      "name": "Golden Armband",
-      "description": "A thick golden bracelet, shaped like an ouroboros.",
-      "value": 60,
-      "tier": "3",
-      "type": "treasure",
-      "_created": "2019-05-16T22:24:00.586Z",
-      "_updated": "2019-11-04T20:32:24.065Z",
-      "__v": 0
-    },
-    {
       "_id": "5c9355513bae8d29cf2b625d",
       "consumption": {
         "actions": []
@@ -1682,6 +1682,20 @@
       "_updated": "2019-04-08T15:21:38.091Z",
       "__v": 0,
       "value": 40
+    },
+    {
+      "_id": "5c935e073bae8df83c2b629a",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Crude Lock Pick",
+      "description": "This tool can be used to disable simple locks.",
+      "tier": "1",
+      "type": "tool",
+      "_created": "2019-03-21T09:48:55.748Z",
+      "_updated": "2019-04-08T16:04:24.790Z",
+      "__v": 0,
+      "value": 3
     },
     {
       "_id": "5c94c877683e5d734f4f2e28",
@@ -2437,6 +2451,61 @@
       "value": 54
     },
     {
+      "_id": "5ca5f2e6379035a3f9b1fdfd",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Wooden Bracelet",
+      "description": "Sculpted to resemble rooks, wolves and serpentine flames.",
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-04-04T12:04:54.483Z",
+      "_updated": "2019-05-22T18:28:02.006Z",
+      "__v": 0,
+      "value": 10
+    },
+    {
+      "_id": "5ca5f33c379035241fb1fdfe",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Wolf Necklace",
+      "description": "A crude necklace, made from rock pebbles and wolf teeth.",
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-04-04T12:06:20.121Z",
+      "_updated": "2019-05-22T18:28:18.233Z",
+      "__v": 0,
+      "value": 10
+    },
+    {
+      "_id": "5caab9b4379035331db22108",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Poems and Pipe Dreams, Vol. II",
+      "description": "A small black book.",
+      "tier": "2",
+      "type": "scripture",
+      "_created": "2019-04-08T03:02:12.904Z",
+      "_updated": "2019-04-08T15:12:11.010Z",
+      "__v": 0,
+      "scripture": "5caababc379035ca90b22109",
+      "value": 10
+    },
+    {
       "_id": "5caabbcf37903537d9b22137",
       "name": "Antidote",
       "description": "Medicine. A small, transparent flask. It contains poison antidote.",
@@ -2458,69 +2527,6 @@
       "_updated": "2019-04-08T15:11:43.765Z",
       "__v": 0,
       "value": 30
-    },
-    {
-      "_id": "5c92ed333bae8daa742b6020",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Silver Chalice",
-      "description": "A ceremonial chalice, stolen from the crypts of Dusk Megalith.",
-      "tier": "2",
-      "type": "treasure",
-      "_created": "2019-03-21T01:47:31.712Z",
-      "_updated": "2019-04-08T15:07:36.412Z",
-      "__v": 0,
-      "value": 40
-    },
-    {
-      "_id": "5caab9b4379035331db22108",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Poems and Pipe Dreams, Vol. II",
-      "description": "A small black book.",
-      "tier": "2",
-      "type": "scripture",
-      "_created": "2019-04-08T03:02:12.904Z",
-      "_updated": "2019-04-08T15:12:11.010Z",
-      "__v": 0,
-      "scripture": "5caababc379035ca90b22109",
-      "value": 10
-    },
-    {
-      "_id": "5ca5f2e6379035a3f9b1fdfd",
-      "sideEffects": {
-        "passives": []
-      },
-      "slot": [
-        "accessory"
-      ],
-      "consumption": {
-        "actions": []
-      },
-      "name": "Wooden Bracelet",
-      "description": "Sculpted to resemble rooks, wolves and serpentine flames.",
-      "tier": "1",
-      "type": "treasure",
-      "_created": "2019-04-04T12:04:54.483Z",
-      "_updated": "2019-05-22T18:28:02.006Z",
-      "__v": 0,
-      "value": 10
-    },
-    {
-      "_id": "5c92ec953bae8d24172b601f",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Golden Chalice",
-      "description": "A ceremonial chalice, stolen from the crypts of Dusk Megalith.",
-      "tier": "3",
-      "type": "treasure",
-      "_created": "2019-03-21T01:44:53.212Z",
-      "_updated": "2019-04-08T16:16:43.311Z",
-      "__v": 0,
-      "value": 80
     },
     {
       "_id": "5cab7c5e379035ff3eb223f6",
@@ -2644,6 +2650,46 @@
       "armor": 1,
       "_created": "2019-04-08T17:11:34.167Z",
       "_updated": "2019-04-08T17:11:34.167Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cacf362379035d02cb22754",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Gold Tooth",
+      "description": "Extracted from the mouth of a desecrated corpse.",
+      "value": 1,
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-04-09T19:32:50.425Z",
+      "_updated": "2019-05-22T18:28:45.851Z",
+      "__v": 0
+    },
+    {
+      "_id": "5cacf3cc3790355a8eb22755",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Silver Earrings",
+      "description": "Ripped from the ears of a desecrated corpse.",
+      "value": 14,
+      "tier": "1",
+      "type": "treasure",
+      "_created": "2019-04-09T19:34:36.009Z",
+      "_updated": "2019-05-22T18:29:01.471Z",
       "__v": 0
     },
     {
@@ -3079,6 +3125,20 @@
       "__v": 0
     },
     {
+      "_id": "5cd21d50f7cea27b81744dac",
+      "consumption": {
+        "actions": []
+      },
+      "name": "Black Diamond",
+      "description": "A finely cut gemstone. Incredibly valuable.",
+      "value": 300,
+      "tier": "4",
+      "type": "treasure",
+      "_created": "2019-05-08T00:05:36.773Z",
+      "_updated": "2019-05-08T00:05:36.773Z",
+      "__v": 0
+    },
+    {
       "_id": "5cd2282df7cea24c15744e05",
       "slot": [
         "mainHand",
@@ -3238,6 +3298,71 @@
       }
     },
     {
+      "_id": "5cd31c97f7cea2056a745932",
+      "slot": [
+        "mainHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Crimson Falcata",
+      "description": "A short-bladed sickle-sword. Made from the elusive red rock, quarried on the Isle of Penance. Crafted by a master blacksmith. Adorned with cryptic runes.",
+      "value": 75,
+      "tier": "4",
+      "type": "weapon",
+      "encumbrance": 4,
+      "damage": {
+        "max": 14,
+        "min": 6
+      },
+      "_created": "2019-05-08T18:14:47.433Z",
+      "_updated": "2019-10-02T00:58:44.003Z",
+      "__v": 0,
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "agility",
+              "1"
+            ],
+            "_id": "5cdab7cbc3e78fd66b5bb856",
+            "type": "attributes"
+          }
+        ],
+        "description": "Unnatural forces linger in the black runes of this red blade."
+      }
+    },
+    {
+      "_id": "5cd38285f7cea24517745cff",
+      "slot": [
+        "head"
+      ],
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "charisma",
+              "1"
+            ],
+            "_id": "5cdab699c3e78f619b5bb854",
+            "type": "attributes"
+          }
+        ],
+        "description": "For better or worse, your personal magnetism is amplified by these crown jewels."
+      },
+      "consumption": {
+        "actions": []
+      },
+      "description": "Five black diamonds adorn this priceless golden circlet.",
+      "value": 500,
+      "tier": "4",
+      "type": "treasure",
+      "name": "Jeweled Circlet",
+      "_created": "2019-05-09T01:29:41.002Z",
+      "_updated": "2019-09-18T21:51:35.636Z",
+      "__v": 0
+    },
+    {
       "_id": "5cdab440c3e78f57f75bb850",
       "slot": [
         "accessory"
@@ -3276,69 +3401,24 @@
       "__v": 0
     },
     {
-      "_id": "5cd38285f7cea24517745cff",
+      "_id": "5cdde300c3e78fe6535bc004",
       "slot": [
-        "head"
+        "accessory"
       ],
-      "sideEffects": {
-        "passives": [
-          {
-            "parameters": [
-              "charisma",
-              "1"
-            ],
-            "_id": "5cdab699c3e78f619b5bb854",
-            "type": "attributes"
-          }
-        ],
-        "description": "For better or worse, your personal magnetism is amplified by these crown jewels."
-      },
       "consumption": {
         "actions": []
       },
-      "description": "Five black diamonds adorn this priceless golden circlet.",
-      "value": 500,
-      "tier": "4",
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Golden Armband",
+      "description": "A thick golden bracelet, shaped like an ouroboros.",
+      "value": 60,
+      "tier": "3",
       "type": "treasure",
-      "name": "Jeweled Circlet",
-      "_created": "2019-05-09T01:29:41.002Z",
-      "_updated": "2019-09-18T21:51:35.636Z",
+      "_created": "2019-05-16T22:24:00.586Z",
+      "_updated": "2019-11-04T20:32:24.065Z",
       "__v": 0
-    },
-    {
-      "_id": "5cd31c97f7cea2056a745932",
-      "slot": [
-        "mainHand"
-      ],
-      "consumption": {
-        "actions": []
-      },
-      "name": "Crimson Falcata",
-      "description": "A short-bladed sickle-sword. Made from the elusive red rock, quarried on the Isle of Penance. Crafted by a master blacksmith. Adorned with cryptic runes.",
-      "value": 75,
-      "tier": "4",
-      "type": "weapon",
-      "encumbrance": 4,
-      "damage": {
-        "max": 14,
-        "min": 6
-      },
-      "_created": "2019-05-08T18:14:47.433Z",
-      "_updated": "2019-10-02T00:58:44.003Z",
-      "__v": 0,
-      "sideEffects": {
-        "passives": [
-          {
-            "parameters": [
-              "agility",
-              "1"
-            ],
-            "_id": "5cdab7cbc3e78fd66b5bb856",
-            "type": "attributes"
-          }
-        ],
-        "description": "Unnatural forces linger in the black runes of this red blade."
-      }
     },
     {
       "_id": "5cdde366c3e78f797a5bc005",
@@ -3994,86 +4074,6 @@
       "__v": 0
     },
     {
-      "_id": "5c9348883bae8da7cb2b61e5",
-      "sideEffects": {
-        "passives": []
-      },
-      "slot": [
-        "accessory"
-      ],
-      "consumption": {
-        "actions": []
-      },
-      "name": "Copper Ring",
-      "description": "A simple ring, typically worn by commoners.",
-      "tier": "1",
-      "type": "treasure",
-      "_created": "2019-03-21T08:17:12.895Z",
-      "_updated": "2019-05-22T18:26:44.324Z",
-      "__v": 0,
-      "value": 10
-    },
-    {
-      "_id": "5ca5f33c379035241fb1fdfe",
-      "sideEffects": {
-        "passives": []
-      },
-      "slot": [
-        "accessory"
-      ],
-      "consumption": {
-        "actions": []
-      },
-      "name": "Wolf Necklace",
-      "description": "A crude necklace, made from rock pebbles and wolf teeth.",
-      "tier": "1",
-      "type": "treasure",
-      "_created": "2019-04-04T12:06:20.121Z",
-      "_updated": "2019-05-22T18:28:18.233Z",
-      "__v": 0,
-      "value": 10
-    },
-    {
-      "_id": "5cacf362379035d02cb22754",
-      "sideEffects": {
-        "passives": []
-      },
-      "slot": [
-        "accessory"
-      ],
-      "consumption": {
-        "actions": []
-      },
-      "name": "Gold Tooth",
-      "description": "Extracted from the mouth of a desecrated corpse.",
-      "value": 1,
-      "tier": "1",
-      "type": "treasure",
-      "_created": "2019-04-09T19:32:50.425Z",
-      "_updated": "2019-05-22T18:28:45.851Z",
-      "__v": 0
-    },
-    {
-      "_id": "5cacf3cc3790355a8eb22755",
-      "sideEffects": {
-        "passives": []
-      },
-      "slot": [
-        "accessory"
-      ],
-      "consumption": {
-        "actions": []
-      },
-      "name": "Silver Earrings",
-      "description": "Ripped from the ears of a desecrated corpse.",
-      "value": 14,
-      "tier": "1",
-      "type": "treasure",
-      "_created": "2019-04-09T19:34:36.009Z",
-      "_updated": "2019-05-22T18:29:01.471Z",
-      "__v": 0
-    },
-    {
       "_id": "5ced42a4c3e78fe8135beaa8",
       "consumption": {
         "actions": []
@@ -4417,6 +4417,24 @@
       "__v": 0
     },
     {
+      "_id": "5d12279340fcff8734fb7f70",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Arrow",
+      "tier": "1",
+      "type": "ammunition",
+      "value": 4,
+      "_created": "2019-06-25T13:54:27.483Z",
+      "_updated": "2019-06-28T21:21:32.412Z",
+      "__v": 0,
+      "description": "A bronze-tipped arrow."
+    },
+    {
       "_id": "5d16849cebd3dc396b54cb00",
       "consumption": {
         "actions": []
@@ -4442,24 +4460,6 @@
       "_created": "2019-06-28T21:20:28.314Z",
       "_updated": "2019-06-28T21:20:28.314Z",
       "__v": 0
-    },
-    {
-      "_id": "5d12279340fcff8734fb7f70",
-      "sideEffects": {
-        "passives": []
-      },
-      "slot": [],
-      "consumption": {
-        "actions": []
-      },
-      "name": "Arrow",
-      "tier": "1",
-      "type": "ammunition",
-      "value": 4,
-      "_created": "2019-06-25T13:54:27.483Z",
-      "_updated": "2019-06-28T21:21:32.412Z",
-      "__v": 0,
-      "description": "A bronze-tipped arrow."
     },
     {
       "_id": "5d16d680ebd3dcf5f554cc8a",
