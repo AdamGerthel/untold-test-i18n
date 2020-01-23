@@ -12,6 +12,14 @@
         "location": "5c7d46a0fd6b494077456b05"
       }
     },
+    "fight": {
+      "audio": {
+        "loop": true,
+        "media": "5e10ce4576343396915ac8df",
+        "track": 1,
+        "continueFromPreviousPosition": false
+      }
+    },
     "levels": [
       40,
       80,

@@ -1,5 +1,5 @@
 {
-  "total": 283,
+  "total": 287,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -6103,6 +6103,90 @@
       },
       "_created": "2019-12-10T05:13:35.815Z",
       "_updated": "2019-12-10T05:13:35.815Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e1f326876343321905ace62",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Temple Key",
+      "description": "This ornate silver key has been sculpted to resemble a stingray.",
+      "value": 1,
+      "tier": "5",
+      "type": "tool",
+      "_created": "2020-01-15T15:40:24.001Z",
+      "_updated": "2020-01-15T15:40:24.001Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e1f33ac763433d6ad5ace66",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "name": "Iron Halberd",
+      "description": "A two-handed polearm, taken from the cold, dead hands of a colossal brute.",
+      "value": 80,
+      "tier": "4",
+      "type": "weapon",
+      "encumbrance": 7,
+      "damage": {
+        "min": 13,
+        "max": 14
+      },
+      "_created": "2020-01-15T15:45:48.024Z",
+      "_updated": "2020-01-15T15:45:48.024Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e1f639198fb23815fff8b5c",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "name": "Iron Chainmail Shirt",
+      "description": "Chainmail armor, covering the torso. Barely used.",
+      "value": 80,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 7,
+      "armor": 14,
+      "_created": "2020-01-15T19:10:09.803Z",
+      "_updated": "2020-01-15T19:10:09.803Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e29bdd71ab031dbb1a41672",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Rawhide Bone",
+      "description": "This chew toy was made to stifle the boredom of canines.",
+      "value": 1,
+      "tier": "1",
+      "type": "tool",
+      "_created": "2020-01-23T15:37:59.767Z",
+      "_updated": "2020-01-23T15:37:59.767Z",
       "__v": 0
     }
   ]

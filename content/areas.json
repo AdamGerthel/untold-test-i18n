@@ -1,5 +1,5 @@
 {
-  "total": 10,
+  "total": 13,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -8,7 +8,7 @@
       "name": "Nameless Island",
       "_created": "2019-03-04T15:36:20.166Z",
       "__v": 0,
-      "_updated": "2020-01-04T17:42:14.329Z",
+      "_updated": "2020-01-22T21:33:22.309Z",
       "dimensions": {
         "width": 370,
         "height": 700
@@ -18,7 +18,14 @@
         "y": 50
       },
       "zones": [],
-      "music": "5e10ce4576343369975ac8e1"
+      "audio": [
+        {
+          "loop": true,
+          "media": "5e10ce4576343369975ac8e1",
+          "track": 1,
+          "continueFromPreviousPosition": true
+        }
+      ]
     },
     {
       "_id": "5c8a77b3190288bd85f94cc9",
@@ -33,10 +40,17 @@
         "y": 67
       },
       "_created": "2019-03-14T15:48:03.921Z",
-      "_updated": "2020-01-04T17:57:46.553Z",
+      "_updated": "2020-01-22T21:33:03.464Z",
       "zones": [],
       "__v": 0,
-      "music": "5e10ce4576343369975ac8e1"
+      "audio": [
+        {
+          "loop": true,
+          "track": 1,
+          "continueFromPreviousPosition": true,
+          "media": "5e10ce457634331b535ac8e0"
+        }
+      ]
     },
     {
       "_id": "5cd9aa913e44ee1d167abb4f",
@@ -51,9 +65,11 @@
         "y": 448
       },
       "_created": "2019-05-13T17:34:09.846Z",
-      "_updated": "2019-09-06T08:18:45.999Z",
+      "_updated": "2020-01-16T18:53:27.365Z",
       "zones": [],
-      "__v": 0
+      "__v": 0,
+      "background": "5dd70d7cf75a97084759ea8b",
+      "audio": null
     },
     {
       "_id": "5cda73a8c3e78fc3885bb29b",
@@ -63,9 +79,17 @@
         "height": 510
       },
       "_created": "2019-05-14T07:52:08.667Z",
-      "_updated": "2019-05-14T07:52:08.668Z",
+      "_updated": "2020-01-19T11:33:32.556Z",
       "zones": [],
-      "__v": 0
+      "__v": 0,
+      "audio": [
+        {
+          "loop": true,
+          "track": 1,
+          "continueFromPreviousPosition": true,
+          "media": "5e243e183a36bff7783e426c"
+        }
+      ]
     },
     {
       "_id": "5cda74adc3e78f15685bb2a6",
@@ -80,9 +104,17 @@
         "y": 64
       },
       "_created": "2019-05-14T07:56:29.090Z",
-      "_updated": "2019-06-13T06:17:52.509Z",
+      "_updated": "2020-01-09T13:41:40.605Z",
       "zones": [],
-      "__v": 0
+      "__v": 0,
+      "audio": [
+        {
+          "media": "5e172d7a763433cab95acd68",
+          "track": 1,
+          "loop": true,
+          "continueFromPreviousPosition": true
+        }
+      ]
     },
     {
       "_id": "5ce461eac3e78f329c5bc869",
@@ -94,7 +126,8 @@
       "_created": "2019-05-21T20:39:06.182Z",
       "_updated": "2019-05-21T20:40:18.143Z",
       "zones": [],
-      "__v": 0
+      "__v": 0,
+      "audio": null
     },
     {
       "_id": "5d83d0ed8ec259ad1d100a33",
@@ -106,7 +139,8 @@
       "_created": "2019-09-19T19:03:09.850Z",
       "_updated": "2019-09-19T19:03:09.850Z",
       "zones": [],
-      "__v": 0
+      "__v": 0,
+      "audio": null
     },
     {
       "_id": "5dbc40c5ff2c19f3c9db772d",
@@ -118,7 +152,8 @@
       "_created": "2019-11-01T14:27:17.508Z",
       "_updated": "2019-11-06T16:46:06.338Z",
       "zones": [],
-      "__v": 0
+      "__v": 0,
+      "audio": null
     },
     {
       "_id": "5dd5b9bdf75a9776df59d7ee",
@@ -130,7 +165,8 @@
       "_created": "2019-11-20T22:10:05.562Z",
       "_updated": "2019-11-20T22:13:08.996Z",
       "zones": [],
-      "__v": 0
+      "__v": 0,
+      "audio": null
     },
     {
       "_id": "5dd5ba66f75a97dcde59d7f3",
@@ -147,7 +183,52 @@
       "_created": "2019-11-20T22:12:54.927Z",
       "_updated": "2019-11-29T07:32:28.935Z",
       "zones": [],
-      "__v": 0
+      "__v": 0,
+      "audio": null
+    },
+    {
+      "_id": "5e1df829763433417b5acd81",
+      "name": "Sleep Temple",
+      "parent": "5dd5ba66f75a97dcde59d7f3",
+      "coordinates": {
+        "x": 215,
+        "y": 286
+      },
+      "dimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "_created": "2020-01-14T17:19:37.753Z",
+      "_updated": "2020-01-14T20:11:06.136Z",
+      "zones": [],
+      "__v": 0,
+      "audio": null
+    },
+    {
+      "_id": "5e1e21fd763433db695acd84",
+      "name": "Sleep Temple 1F",
+      "dimensions": {
+        "width": 340,
+        "height": 205
+      },
+      "_created": "2020-01-14T20:18:05.469Z",
+      "_updated": "2020-01-14T20:18:05.469Z",
+      "zones": [],
+      "__v": 0,
+      "audio": null
+    },
+    {
+      "_id": "5e1e220f763433671a5acd85",
+      "name": "Sleep Temple 2F",
+      "dimensions": {
+        "width": 340,
+        "height": 205
+      },
+      "_created": "2020-01-14T20:18:23.289Z",
+      "_updated": "2020-01-14T20:18:23.289Z",
+      "zones": [],
+      "__v": 0,
+      "audio": null
     }
   ]
 }

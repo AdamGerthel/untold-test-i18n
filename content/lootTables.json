@@ -1,5 +1,5 @@
 {
-  "total": 60,
+  "total": 67,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -2565,52 +2565,6 @@
       "__v": 0
     },
     {
-      "_id": "5cde03d0c3e78f01345bc023",
-      "gold": [
-        3,
-        7
-      ],
-      "name": "Masked Executioner",
-      "bundles": [
-        {
-          "_id": "5cde03d0c3e78f24275bc024",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5cde03d0c3e78f37655bc027",
-              "probability": 0.25,
-              "item": "5cde00dac3e78fbb595bc01e"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5cde03d0c3e78f649c5bc026",
-              "probability": 0.5,
-              "item": "5cde0370c3e78f77235bc022"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5cde03d0c3e78f29025bc025",
-              "probability": 0.25,
-              "item": "5cde01e3c3e78f766c5bc020"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "_created": "2019-05-17T00:44:00.280Z",
-      "_updated": "2019-05-17T00:44:00.280Z",
-      "__v": 0
-    },
-    {
       "_id": "5ce5264cc3e78fc5d65bd9a6",
       "gold": [
         3,
@@ -4471,6 +4425,222 @@
       ],
       "_created": "2019-12-20T11:36:10.194Z",
       "_updated": "2019-12-20T11:36:10.194Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e1f32bd76343363b15ace63",
+      "gold": [
+        2,
+        8
+      ],
+      "name": "Cartel Guardian",
+      "bundles": [
+        {
+          "_id": "5e1f32bd763433f8de5ace64",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e1f32bd763433237f5ace65",
+              "probability": 1,
+              "item": "5e1f326876343321905ace62"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5e1f33dd763433eacc5ace67",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e1f33dd76343335b75ace68",
+              "probability": 0.5,
+              "item": "5e1f33ac763433d6ad5ace66"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e1f63d198fb230a44ff8b5e",
+              "probability": 0.5,
+              "item": "5e1f639198fb23815fff8b5c"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-01-15T15:41:49.718Z",
+      "_updated": "2020-01-15T19:11:13.487Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e26bfc13a36bf6a693e46e3",
+      "gold": [
+        7,
+        12
+      ],
+      "name": "Cartel Sentry",
+      "bundles": [
+        {
+          "_id": "5e26bfc13a36bf990e3e46e4",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e26bfc13a36bf532a3e46e5",
+              "probability": 1,
+              "item": "5e1f326876343321905ace62"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-01-21T09:09:21.762Z",
+      "_updated": "2020-01-21T09:09:21.763Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e28eeca1ab03156eda41519",
+      "gold": [
+        29,
+        43
+      ],
+      "name": "Sleeping Nobleman",
+      "bundles": [
+        {
+          "_id": "5e28eeca1ab031cb53a4151a",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e28eeca1ab0318829a4151b",
+              "probability": 1,
+              "item": "5cb35965c065f048a294337f"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-01-23T00:54:34.391Z",
+      "_updated": "2020-01-23T00:59:35.809Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e29c5db1ab031d6cba41686",
+      "gold": [],
+      "name": "Pantry: Strongbox",
+      "bundles": [
+        {
+          "_id": "5e29c5db1ab031b5b2a41687",
+          "items": [
+            {
+              "quantityRange": [
+                6,
+                12
+              ],
+              "_id": "5e29c5db1ab03169b7a41688",
+              "probability": 1,
+              "item": "5cb35965c065f048a294337f"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-01-23T16:12:11.854Z",
+      "_updated": "2020-01-23T16:20:51.160Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e29c6961ab0315774a41689",
+      "gold": [],
+      "name": "Pantry: Middle Shelf",
+      "bundles": [
+        {
+          "_id": "5e29c6961ab031eac0a4168c",
+          "items": [
+            {
+              "quantityRange": [
+                3,
+                6
+              ],
+              "_id": "5e29c6961ab0313effa4168d",
+              "probability": 1,
+              "item": "5def297ff75a97ff0359fc51"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5e29c6961ab03195fba4168a",
+          "items": [
+            {
+              "quantityRange": [
+                2,
+                4
+              ],
+              "_id": "5e29c6961ab031f424a4168b",
+              "probability": 1,
+              "item": "5d823fbbb97fb3331a7c2f1e"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-01-23T16:15:18.780Z",
+      "_updated": "2020-01-23T16:20:33.237Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e29c7c41ab031298aa4168e",
+      "gold": [],
+      "name": "Pantry: Top Shelf",
+      "bundles": [
+        {
+          "_id": "5e29c7c41ab0313ea4a4168f",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                2
+              ],
+              "_id": "5e29c7c41ab031fac0a41690",
+              "probability": 1,
+              "item": "5de668ecf75a9707e659f1c1"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-01-23T16:20:20.391Z",
+      "_updated": "2020-01-23T16:20:20.391Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e29c8011ab0312be4a41697",
+      "gold": [],
+      "name": "Pantry: Barrel",
+      "_created": "2020-01-23T16:21:21.894Z",
+      "_updated": "2020-01-23T16:21:21.894Z",
+      "bundles": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e29c81f1ab0319a3da41698",
+      "gold": [],
+      "name": "Pantry: Meat Rack",
+      "_created": "2020-01-23T16:21:51.583Z",
+      "_updated": "2020-01-23T16:28:04.702Z",
+      "bundles": [],
       "__v": 0
     }
   ]
