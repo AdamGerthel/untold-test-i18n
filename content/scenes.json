@@ -1729,13 +1729,13 @@
       ],
       "_created": "2019-03-11T01:28:16.914Z",
       "__v": 0,
-      "_updated": "2020-01-04T17:57:10.218Z",
+      "_updated": "2020-01-23T19:25:44.681Z",
       "background": "5da38f7cc55b7f3ce9f5287b",
       "audio": [
         {
-          "media": "5e10ce5c76343333e95ac8e3",
-          "track": 2,
           "loop": true,
+          "media": "5e28b571ff904162c38e68c2",
+          "track": 1,
           "continueFromPreviousPosition": true
         }
       ]
@@ -96769,7 +96769,7 @@
       "npcs": [],
       "name": "Sleep Temple 1F: Pantry (State 1)",
       "_created": "2020-01-21T08:49:19.040Z",
-      "_updated": "2020-01-23T16:40:09.251Z",
+      "_updated": "2020-01-23T21:27:13.883Z",
       "nodes": [
         {
           "narrative": [
@@ -96835,7 +96835,7 @@
         },
         {
           "narrative": [
-            "The flame of your torch illuminates the cluttered interior of a well-stocked pantry."
+            "The flame of your torch illuminates the small interior of a cluttered pantry."
           ],
           "_id": "5e293494c08d270000e00d00",
           "options": [
@@ -96845,8 +96845,616 @@
               ],
               "_id": "5e29c33e6aa3900000a27b70",
               "actions": [],
-              "outcomes": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a0f9d7900c7000092d3c7",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e29fefd7900c7000092d38b"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            }
+          ],
+          "audio": []
+        },
+        {
+          "narrative": [
+            "Countless jugs and bottles are placed on the shelves to your left. There's a wooden box in the corner of the room. A few wine casks have been stacked on top of each other. A meat rack has been mounted on the wall to your left, above a couple of barrels. There's a large iron strongbox on the floor in front of the barrels."
+          ],
+          "_id": "5e29fefd7900c7000092d38b",
+          "options": [
+            {
+              "label": [
+                "Examine the shelves",
+                "Examine the shelves again"
+              ],
+              "_id": "5e29ff177900c7000092d38c",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a05137900c7000092d3a4",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e2a01e37900c7000092d392"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            },
+            {
+              "label": [
+                "Examine the meat rack",
+                "Examine the meat rack again"
+              ],
+              "_id": "5e29ff277900c7000092d38d",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a05627900c7000092d3a5",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "It's a brutal display of slain rabbits and dead swine. Nothing here is appropriate for immediate consumption."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            },
+            {
+              "label": [
+                "Examine the barrels",
+                "Examine the barrels again"
+              ],
+              "_id": "5e29ff3b7900c7000092d38e",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a068b7900c7000092d3a6",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "The barrels are empty. Judging by the smell, they used to contain salted fish."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            },
+            {
+              "label": [
+                "Examine the wine casks",
+                "Examine the wine casks again"
+              ],
+              "_id": "5e29ff567900c7000092d38f",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a06e57900c7000092d3a7",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "The wine casks are empty."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            },
+            {
+              "label": [
+                "Examine the wooden box",
+                "Examine the wooden box again"
+              ],
+              "_id": "5e29ff657900c7000092d390",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a09067900c7000092d3b1",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "The wooden box is empty."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        [
+                          "5e26bb0f3a36bf930d3e464f",
+                          "5e2a07407900c7000092d3a9",
+                          "5e2a07517900c7000092d3aa",
+                          "5e2a07f87900c7000092d3ac"
+                        ]
+                      ],
+                      "_id": "5e2a0fb11ab0312c00a41aaa",
+                      "type": "hasSeenOptionOutcome"
+                    }
+                  ]
+                },
+                {
+                  "_id": "5e2a08717900c7000092d3b0",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e2a07407900c7000092d3a9"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            },
+            {
+              "label": [
+                "Examine the strongbox"
+              ],
+              "_id": "5e29ff6f7900c7000092d391",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a0c527900c7000092d3ba",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e2a09f07900c7000092d3b3"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            }
+          ],
+          "audio": []
+        },
+        {
+          "narrative": [
+            "There are three shelves on the wall to your left."
+          ],
+          "_id": "5e2a01e37900c7000092d392",
+          "options": [
+            {
+              "label": [
+                "Plunder the top shelf"
+              ],
+              "_id": "5e2a023a7900c7000092d394",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a02ae7900c7000092d39a",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "You've already looked here. The rest of the bottles are empty."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        [
+                          "5e26bb0f3a36bf930d3e464f",
+                          "5e2a01e37900c7000092d392",
+                          "5e2a023a7900c7000092d394",
+                          "5e2a027d7900c7000092d398"
+                        ]
+                      ],
+                      "_id": "5e2a0fb11ab0318a46a41aa3",
+                      "type": "hasSeenOptionOutcome"
+                    }
+                  ]
+                },
+                {
+                  "_id": "5e2a027d7900c7000092d398",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "You take some wine and brandy from the top shelf."
+                      ]
+                    ]
+                  },
+                  "actions": [
+                    {
+                      "parameters": [
+                        "5e29c7c41ab031298aa4168e"
+                      ],
+                      "_id": "5e2a0fb11ab0315772a41aa1",
+                      "type": "pickUpLoot"
+                    }
+                  ],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            },
+            {
+              "label": [
+                "Plunder the middle shelf"
+              ],
+              "_id": "5e2a02447900c7000092d395",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a03327900c7000092d39d",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "You take another look at the shelf. As far as you can tell, the rest of the bottles are empty."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        [
+                          "5e26bb0f3a36bf930d3e464f",
+                          "5e2a01e37900c7000092d392",
+                          "5e2a02447900c7000092d395",
+                          "5e2a03037900c7000092d39c"
+                        ]
+                      ],
+                      "_id": "5e2a0fb11ab031f173a41a9e",
+                      "type": "hasSeenOptionOutcome"
+                    }
+                  ]
+                },
+                {
+                  "_id": "5e2a03037900c7000092d39c",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "You take some bottles of mead from the middle shelf."
+                      ]
+                    ]
+                  },
+                  "actions": [
+                    {
+                      "parameters": [
+                        "5e29c6961ab0315774a41689"
+                      ],
+                      "_id": "5e2a0fb11ab031a6c9a41a9c",
+                      "type": "pickUpLoot"
+                    }
+                  ],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            },
+            {
+              "label": [
+                "Plunder the bottom shelf"
+              ],
+              "_id": "5e2a024d7900c7000092d396",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a04407900c7000092d3a1",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "There is nothing but empty bottles on the lowest shelf."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            },
+            {
+              "label": [
+                "Look elsewhere"
+              ],
+              "_id": "5e2a02597900c7000092d397",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a04f27900c7000092d3a3",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e29fefd7900c7000092d38b"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            }
+          ],
+          "audio": []
+        },
+        {
+          "narrative": [
+            "You find a rawhide bone inside the wooden box."
+          ],
+          "_id": "5e2a07407900c7000092d3a9",
+          "options": [
+            {
+              "label": [
+                "Take it"
+              ],
+              "_id": "5e2a07517900c7000092d3aa",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a07f87900c7000092d3ac",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "You take the rawhide bone from the wooden box."
+                      ]
+                    ]
+                  },
+                  "actions": [
+                    {
+                      "parameters": [
+                        "5e29bdd71ab031dbb1a41672",
+                        1
+                      ],
+                      "_id": "5e2a0fb11ab03168e6a41a94",
+                      "type": "pickUpItem"
+                    }
+                  ],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            },
+            {
+              "label": [
+                "Look elsewhere"
+              ],
+              "_id": "5e2a07e27900c7000092d3ab",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a08457900c7000092d3af",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e29fefd7900c7000092d38b"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            }
+          ],
+          "audio": []
+        },
+        {
+          "narrative": [
+            "A symmetrical pattern of white poppy flowers have been painted on the lid of the iron strongbox."
+          ],
+          "_id": "5e2a09f07900c7000092d3b3",
+          "options": [
+            {
+              "label": [
+                "Open the strongbox"
+              ],
+              "_id": "5e2a0b287900c7000092d3b4",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a0b337900c7000092d3b5",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "It's locked. No surprise there."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            },
+            {
+              "label": [
+                "Disable the lock"
+              ],
+              "_id": "5e2a0b4d7900c7000092d3b6",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a0ce57900c7000092d3bd",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e2a0d027900c7000092d3bf"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        "5d8104d2e6ecf308a0a2b6bf",
+                        "greaterThanOrEqual",
+                        1
+                      ],
+                      "_id": "5e2a0fb11ab03148bba41a8b",
+                      "type": "hasItem"
+                    }
+                  ]
+                },
+                {
+                  "_id": "5e2a0c717900c7000092d3bb",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "You fail to disable the lock. A more sophisticated tool is required to perform this task."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        "5c935e073bae8df83c2b629a",
+                        "greaterThanOrEqual",
+                        1
+                      ],
+                      "_id": "5e2a0fb11ab031ab32a41a89",
+                      "type": "hasItem"
+                    }
+                  ]
+                },
+                {
+                  "_id": "5e2a0bbc7900c7000092d3b8",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "You don't have a lock pick."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": [
+                {
+                  "parameters": [
+                    [
+                      "5e26bb0f3a36bf930d3e464f",
+                      "5e2a09f07900c7000092d3b3",
+                      "5e2a0b287900c7000092d3b4",
+                      "5e2a0b337900c7000092d3b5"
+                    ]
+                  ],
+                  "_id": "5e2a0fb11ab0311c0aa41a8c",
+                  "type": "hasSeenOptionOutcome"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Look elsewhere"
+              ],
+              "_id": "5e2a0b697900c7000092d3b7",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a0be67900c7000092d3b9",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e29fefd7900c7000092d38b"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            }
+          ],
+          "audio": []
+        },
+        {
+          "narrative": [
+            "You crouch down, taking your time to fiddle with the locking mechanism. It's quite sophisticated. Finally, you manage to disable the lock. The strongbox can now be opened.",
+            "The sophisticated locking mechanism has been disabled. The strongbox can now be opened."
+          ],
+          "_id": "5e2a0d027900c7000092d3bf",
+          "options": [
+            {
+              "label": [
+                "Plunder the strongbox"
+              ],
+              "_id": "5e2a0df87900c7000092d3c1",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a0e857900c7000092d3c2",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "You take several flasks of opium tincture from the strongbox. Nectar of the gods, according to some."
+                      ]
+                    ]
+                  },
+                  "actions": [
+                    {
+                      "parameters": [
+                        "5e29c5db1ab031d6cba41686"
+                      ],
+                      "_id": "5e2a0fb11ab0315359a41a82",
+                      "type": "pickUpLoot"
+                    }
+                  ],
+                  "conditions": []
+                }
+              ],
               "maxAccounts": 1,
+              "availability": []
+            },
+            {
+              "label": [
+                "Look elsewhere"
+              ],
+              "_id": "5e2a0f797900c7000092d3c5",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e2a0f847900c7000092d3c6",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e29fefd7900c7000092d38b"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
               "availability": []
             }
           ],

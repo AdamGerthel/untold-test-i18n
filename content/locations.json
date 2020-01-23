@@ -523,7 +523,7 @@
         "y": 285
       },
       "_created": "2019-03-14T21:41:15.126Z",
-      "_updated": "2020-01-22T21:34:56.351Z",
+      "_updated": "2020-01-23T17:47:05.701Z",
       "states": [
         {
           "scene": [
@@ -538,9 +538,9 @@
       "audio": [
         {
           "loop": true,
-          "track": 2,
+          "track": 1,
           "continueFromPreviousPosition": true,
-          "media": "5e28b570ff9041efdc8e68bd"
+          "media": "5e29dbc51ab0318d0fa416d2"
         }
       ]
     },
@@ -792,7 +792,7 @@
         "y": 286
       },
       "_created": "2019-04-07T19:31:45.322Z",
-      "_updated": "2020-01-22T21:35:30.083Z",
+      "_updated": "2020-01-23T17:47:23.544Z",
       "states": [
         {
           "scene": [
@@ -807,8 +807,8 @@
       "audio": [
         {
           "loop": true,
-          "media": "5e28b570ff9041efdc8e68bd",
-          "track": 2,
+          "media": "5e29dbc51ab0318d0fa416d2",
+          "track": 1,
           "continueFromPreviousPosition": true
         }
       ]
@@ -822,7 +822,7 @@
         "y": 287
       },
       "_created": "2019-04-07T19:32:27.341Z",
-      "_updated": "2020-01-22T21:35:17.643Z",
+      "_updated": "2020-01-23T17:47:37.300Z",
       "states": [
         {
           "scene": [
@@ -837,8 +837,8 @@
       "audio": [
         {
           "loop": true,
-          "media": "5e28b570ff9041efdc8e68bd",
-          "track": 2,
+          "media": "5e29dbc51ab0318d0fa416d2",
+          "track": 1,
           "continueFromPreviousPosition": true
         }
       ]
@@ -852,7 +852,7 @@
       },
       "area": "5c8a77b3190288bd85f94cc9",
       "_created": "2019-04-07T19:32:59.896Z",
-      "_updated": "2020-01-04T17:59:50.659Z",
+      "_updated": "2020-01-23T17:46:35.889Z",
       "states": [
         {
           "scene": [
@@ -866,9 +866,9 @@
       "background": "5dbd5d9bff2c194c3bdb7e5e",
       "audio": [
         {
-          "media": "5e10ce457634331b535ac8e0",
-          "track": 1,
           "loop": true,
+          "media": "5e29dbc51ab0318d0fa416d2",
+          "track": 1,
           "continueFromPreviousPosition": true
         }
       ]
