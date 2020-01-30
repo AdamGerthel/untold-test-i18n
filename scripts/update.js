@@ -51,13 +51,10 @@ const init = async function () {
     })))
 
     // Generate index file for media files
-    const mediaIndex = media.data.reduce((total, entity) => {
-      const fileFormat = entity.type === 'image' ? 'png' : 'mp3'
-      total = total + `\n  '${entity._id}': require('./${entity._id}.${fileFormat}'),`
-      return total
-    }, '')
+    const imageIndex = buildIndex(images, 'image', 'png')
+    const audioIndex = buildIndex(audio, 'audio', 'mp3')
 
-    await fs.promises.writeFile('media/index.js', `module.exports = {${mediaIndex}\n}`)
+    await fs.promises.writeFile('media/index.js', `module.exports = {\n  image: {${imageIndex}\n  },\n  audio: {${audioIndex}\n  }\n}`)
   } catch (error) {
     console.log(error)
   } finally {
@@ -68,7 +65,7 @@ const init = async function () {
 
 const downloadMedia = function (entity, fileFormat, params) {
   const fileName = `${entity._id}.${fileFormat}`
-  const file = fs.createWriteStream('media/' + fileName)
+  const file = fs.createWriteStream(`media/${entity.type}/${fileName}`)
   console.log(`Fetching media/${fileName}...`)
 
   return new Promise((resolve, reject) => {
@@ -94,6 +91,13 @@ const downloadMedia = function (entity, fileFormat, params) {
       reject(error)
     })
   })
+}
+
+const buildIndex = function (data = [], path, fileFormat) {
+  return data.reduce((total, entity) => {
+    total = total + `\n    '${entity._id}': require('./${path}/${entity._id}.${fileFormat}'),`
+    return total
+  }, '')
 }
 
 const getResource = function (resource) {
