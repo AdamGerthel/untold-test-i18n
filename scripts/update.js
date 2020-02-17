@@ -45,13 +45,13 @@ const init = async function () {
 
     // Download and save images
     const images = media.data.filter(e => e.type === 'image')
-    const imageFiles = await Promise.all(images.map(entity => downloadMedia(entity, 'png', {
-      width: 600,
+    const imageFiles = await Promise.all(images.map(entity => downloadMedia(entity, 'jpg', {
+      width: 1300,
       invalidate: true
     })))
 
     // Generate index file for media files
-    const imageIndex = buildIndex(images, 'image', 'png')
+    const imageIndex = buildIndex(images, 'image', 'jpg')
     const audioIndex = buildIndex(audio, 'audio', 'mp3')
 
     await fs.promises.writeFile('media/index.js', `module.exports = {\n  image: {${imageIndex}\n  },\n  audio: {${audioIndex}\n  }\n}`)
