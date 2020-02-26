@@ -184,7 +184,7 @@
           "title": "Find Mantis the Crime Lord",
           "conditions": [],
           "parent": "5cab9f0a7807500000d2a561",
-          "experience": 150,
+          "experience": 200,
           "description": "Mantis the Crime Lord seems to be an important figure in the Khiris Cartel, the organization which captured and tortured you. He was last seen on Roe Island.",
           "updates": [
             {
@@ -221,7 +221,7 @@
         }
       ],
       "_created": "2019-04-08T19:43:36.653Z",
-      "_updated": "2019-11-12T17:12:47.883Z",
+      "_updated": "2020-02-04T09:15:07.388Z",
       "__v": 0,
       "description": "You awakened on a beach. A silver brooch was buried in the sand. Upon closer scrutiny, the silver brooch has been sculpted to resemble a stingray. The mere sight of this symbol provoked memories of torture and imprisonment. Clearly, you have been traumatized by these experiences – but who is responsible? And why did this happen to you?"
     },
@@ -318,7 +318,18 @@
         {
           "_id": "5dc0aeb4f30d06000051acde",
           "title": "Travel to the city of Roeburgh",
-          "conditions": [],
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5dd31ef2f75a9731d05982b4",
+                  "5dd326cb1808f70000ae76f4"
+                ]
+              ],
+              "_id": "5e332df9c676f4b70386699d",
+              "type": "hasSeenNode"
+            }
+          ],
           "updates": [],
           "experience": 20,
           "description": "The Roeburgh Militia has commandeered the galley in order to send reinforcements to the besieged capital. The ship departs at sundown. You can find it in the Harbor of Set."
@@ -375,16 +386,124 @@
         }
       ],
       "_created": "2019-11-04T23:06:49.833Z",
-      "_updated": "2019-12-25T12:02:06.526Z",
+      "_updated": "2020-01-30T19:26:49.058Z",
       "__v": 0
     },
     {
-      "_id": "5df888b9f75a975e7f5a0a38",
-      "name": "The Wayward Lord",
-      "_created": "2019-12-17T07:50:17.401Z",
-      "_updated": "2019-12-17T07:50:17.401Z",
-      "objectives": [],
-      "__v": 0
+      "_id": "5e3ead846a062f0983162ed9",
+      "name": "Holy Concern",
+      "_created": "2020-02-08T12:45:56.965Z",
+      "_updated": "2020-02-26T01:04:18.163Z",
+      "objectives": [
+        {
+          "_id": "5e4efd2f72e924000072277f",
+          "title": "Find the missing servant",
+          "conditions": [],
+          "updates": [],
+          "description": "The preacher wants you to check up on his servant, who has been missing for a while. The servant is named Laurence. He lives in the Servants' Quarters, south of Lord's Boulevard.",
+          "experience": 10
+        },
+        {
+          "_id": "5e4f701f20372d0000a6544f",
+          "title": "Return to the preacher",
+          "conditions": [],
+          "updates": [
+            {
+              "_id": "5e5400a759ca2c00005a0833",
+              "description": "You told the preacher about the debt collectors who killed Laurence the Servant. The preacher wants you to track them down and bring them to justice.",
+              "conditions": []
+            },
+            {
+              "_id": "5e544b18309510000089de65",
+              "description": "The debt collectors got away. You should inform the preacher.",
+              "conditions": []
+            },
+            {
+              "_id": "5e544b2c309510000089de66",
+              "description": "You have slain the debt collectors. You should inform the preacher that justice has been served.",
+              "conditions": []
+            }
+          ],
+          "parent": "5e4efd2f72e924000072277f",
+          "description": "Laurence the servant has been killed by debt collectors. His mangled corpse was discovered in his home. The preacher should be informed about the death of his servant.",
+          "experience": 20
+        },
+        {
+          "_id": "5e4f703220372d0000a65450",
+          "title": "Follow the debt collectors",
+          "conditions": [],
+          "updates": [
+            {
+              "_id": "5e4f768220372d0000a65456",
+              "description": "You saw the debt collectors head east on Lord's Boulevard.",
+              "conditions": [
+                {
+                  "parameters": [
+                    [
+                      "5e4f7657a74d95d28adebc62",
+                      "5e4f739a20372d0000a65451"
+                    ]
+                  ],
+                  "_id": "5e544956b723c288754aca1a",
+                  "type": "hasSeenNode"
+                }
+              ]
+            },
+            {
+              "_id": "5e500f0c20e7e6000057989a",
+              "conditions": [],
+              "description": "A guard told you that the debt collectors were running toward Selikro Plaza."
+            },
+            {
+              "_id": "5e500f3220e7e6000057989b",
+              "conditions": [
+                {
+                  "parameters": [
+                    [
+                      "5e4ffde8a74d95233bdebcf2",
+                      "5e4ffb964afa7000008131ab"
+                    ]
+                  ],
+                  "_id": "5e55afaeb723c2388e4ad9eb",
+                  "type": "hasSeenNode"
+                }
+              ],
+              "description": "A woman saw the debt-collectors from her balcony. She said that they were heading south to Soma Gardens."
+            },
+            {
+              "_id": "5e532b9e5bd9960000f974ea",
+              "description": "The debt collectors were last seen by a young couple in Soma Gardens. According to the noblewoman, they were entering the walled orchard nearby.",
+              "conditions": []
+            },
+            {
+              "_id": "5e544a6a309510000089de63",
+              "conditions": [
+                {
+                  "parameters": [
+                    [
+                      "5e530133b723c2faa14ac204",
+                      "5e531b72bc938800005e5472"
+                    ]
+                  ],
+                  "_id": "5e55b5fdb723c29d4a4adc8f",
+                  "type": "hasSeenNode"
+                }
+              ],
+              "description": "You followed the debt collectors to a walled orchard in Soma Gardens."
+            },
+            {
+              "_id": "5e55c3d3244b400000a3cd3a",
+              "description": "You backed away from the confrontation with the debt collectors in the orchard. It seems unlikely that you will find them again.",
+              "conditions": []
+            }
+          ],
+          "parent": "5e4efd2f72e924000072277f",
+          "description": "The debt collectors who killed Laurence the servant are likely affiliated with the Khiris Cartel. You might be able to acquire useful information by tracking them down.",
+          "experience": 30
+        }
+      ],
+      "__v": 0,
+      "description": "The local preacher is concerned about his missing servant, who seems to have fallen on hard times. The servant has been neglecting his duties at the church. The preacher asked you to check up on him."
     }
   ]
 }

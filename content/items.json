@@ -1,5 +1,5 @@
 {
-  "total": 287,
+  "total": 313,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -153,40 +153,47 @@
     },
     {
       "_id": "5c7d65cefd6b4996f3456b6c",
-      "consumption": {
-        "actions": []
+      "sideEffects": {
+        "passives": []
       },
-      "name": "Cheap Leather helmet",
-      "description": "While cheap, it's brand new. Poor quality at its best.",
-      "tier": "1",
-      "type": "armor",
       "slot": [
         "head"
       ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Cheap Leather Helmet",
+      "description": "While cheap, it's brand new. Poor quality at its best.",
+      "tier": "1",
+      "type": "armor",
       "encumbrance": 2,
       "armor": 3,
       "_created": "2019-03-04T17:52:14.362Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:32:31.058Z",
+      "_updated": "2020-02-08T03:12:49.879Z",
       "value": 10
     },
     {
       "_id": "5c7d65eafd6b49ac02456b6d",
-      "consumption": {
-        "actions": []
+      "sideEffects": {
+        "passives": []
       },
-      "name": "Cheap Fur Cloak",
-      "description": "Numerous rodents gave their lives to make this happen.",
-      "tier": "1",
-      "type": "armor",
       "slot": [
         "body"
       ],
+      "combatActions": [],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Patchwork Fur Cloak",
+      "description": "Numerous rodents gave their lives to make this happen.",
+      "tier": "1",
+      "type": "armor",
       "encumbrance": 4,
       "armor": 3,
       "_created": "2019-03-04T17:52:42.851Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:33:31.855Z",
+      "_updated": "2020-02-21T05:37:32.744Z",
       "value": 10
     },
     {
@@ -516,6 +523,15 @@
     },
     {
       "_id": "5c817a5d0e37489fdfc601c9",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "cut"
+      ],
       "consumption": {
         "actions": []
       },
@@ -523,9 +539,6 @@
       "description": "A formidable weapon, although its jagged edges have grown somewhat dull from frequent use.",
       "tier": "2",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "damage": {
         "min": 2,
         "max": 3
@@ -533,21 +546,27 @@
       "encumbrance": 1,
       "_created": "2019-03-07T20:09:01.078Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:04:06.834Z",
+      "_updated": "2020-02-12T11:08:09.337Z",
       "value": 20
     },
     {
       "_id": "5c8629e90e3748bc27c6035d",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rusty Bronze Broadsword",
-      "description": "This sword has seen better days.",
-      "tier": "1",
-      "type": "weapon",
       "slot": [
         "mainHand"
       ],
+      "combatActions": [
+        "parry"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Broadsword",
+      "description": "This sword has seen better days.",
+      "tier": "1",
+      "type": "weapon",
       "encumbrance": 3,
       "damage": {
         "min": 5,
@@ -555,21 +574,27 @@
       },
       "_created": "2019-03-11T09:27:05.732Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:21:34.310Z",
+      "_updated": "2020-02-12T21:19:17.233Z",
       "value": 16
     },
     {
       "_id": "5c862a760e37483b4dc6035e",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rusty Bronze Longsword",
-      "description": "The blade won't last much longer",
-      "tier": "2",
-      "type": "weapon",
       "slot": [
         "mainHand"
       ],
+      "combatActions": [
+        "parry"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Longsword",
+      "description": "The blade won't last much longer",
+      "tier": "2",
+      "type": "weapon",
       "encumbrance": 4,
       "damage": {
         "max": 7,
@@ -577,21 +602,27 @@
       },
       "_created": "2019-03-11T09:29:26.311Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:31:23.767Z",
+      "_updated": "2020-02-18T10:22:30.474Z",
       "value": 26
     },
     {
       "_id": "5c862aea0e37484fb7c6035f",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rusty Bronze Gladius",
-      "description": "Good for a few more stabs",
-      "tier": "2",
-      "type": "weapon",
       "slot": [
         "mainHand"
       ],
+      "combatActions": [
+        "stab"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Gladius",
+      "description": "Good for a few more stabs",
+      "tier": "2",
+      "type": "weapon",
       "encumbrance": 2,
       "damage": {
         "min": 3,
@@ -599,22 +630,28 @@
       },
       "_created": "2019-03-11T09:31:22.398Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:20:52.170Z",
+      "_updated": "2020-02-18T10:25:07.943Z",
       "value": 12
     },
     {
       "_id": "5c862c200e3748d350c60360",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rusty Bronze Claymore",
-      "description": "Not very sharp anymore, but it should be heavy enough to crush a skull or two",
-      "tier": "2",
-      "type": "weapon",
       "slot": [
         "mainHand",
         "offHand"
       ],
+      "combatActions": [
+        "cleave"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Claymore",
+      "description": "Not very sharp anymore, but it should be heavy enough to crush a skull or two.",
+      "tier": "2",
+      "type": "weapon",
       "encumbrance": 6,
       "_created": "2019-03-11T09:36:32.425Z",
       "__v": 0,
@@ -622,11 +659,20 @@
         "min": 9,
         "max": 12
       },
-      "_updated": "2019-04-08T16:30:49.252Z",
+      "_updated": "2020-02-12T21:19:34.391Z",
       "value": 28
     },
     {
       "_id": "5c862cc10e374821fec60361",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "parry"
+      ],
       "consumption": {
         "actions": []
       },
@@ -634,9 +680,6 @@
       "tier": "2",
       "description": "Undoubtedly, many have fallen prey to this blade",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 4,
       "damage": {
         "min": 6,
@@ -644,21 +687,27 @@
       },
       "_created": "2019-03-11T09:39:13.131Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:30:23.743Z",
+      "_updated": "2020-02-18T10:36:25.261Z",
       "value": 35
     },
     {
       "_id": "5c862d6b0e3748dcaac60362",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rusty Bronze Short Blade",
-      "description": "Imagine, all the lives that have been ruined by this old blade",
-      "tier": "1",
-      "type": "weapon",
       "slot": [
         "mainHand"
       ],
+      "combatActions": [
+        "stab"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Short Blade",
+      "description": "Imagine, all the lives that have been ruined by this old blade.",
+      "tier": "1",
+      "type": "weapon",
       "encumbrance": 2,
       "damage": {
         "max": 4,
@@ -666,21 +715,25 @@
       },
       "_created": "2019-03-11T09:42:03.685Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:33:02.634Z",
+      "_updated": "2020-02-18T10:23:13.427Z",
       "value": 14
     },
     {
       "_id": "5c862e660e3748777bc60363",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rusty Bronze Hatchet",
-      "description": "More of a skull-basher than a head-chopper, at this point",
-      "tier": "2",
-      "type": "weapon",
       "slot": [
         "mainHand"
       ],
+      "combatActions": [],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Hatchet",
+      "description": "This old hatchet has seen better days. More of a skull-basher than a head-chopper, at this point",
+      "tier": "2",
+      "type": "weapon",
       "damage": {
         "max": 6,
         "min": 6
@@ -688,21 +741,27 @@
       "encumbrance": 3,
       "_created": "2019-03-11T09:46:14.894Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:29:52.098Z",
+      "_updated": "2020-02-18T10:25:41.237Z",
       "value": 18
     },
     {
       "_id": "5c862ec00e37484c7ac60364",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rusty Bronze War Axe",
-      "description": "Many battlegrounds ago, this was a pristine weapon",
-      "tier": "2",
-      "type": "weapon",
       "slot": [
         "mainHand"
       ],
+      "combatActions": [
+        "cleave"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron War Axe",
+      "description": "Many battlegrounds ago, this was a pristine weapon",
+      "tier": "2",
+      "type": "weapon",
       "encumbrance": 4,
       "damage": {
         "min": 6,
@@ -711,21 +770,27 @@
       "_created": "2019-03-11T09:47:44.381Z",
       "__v": 0,
       "value": 20,
-      "_updated": "2019-04-08T15:06:14.825Z"
+      "_updated": "2020-02-18T10:23:33.914Z"
     },
     {
       "_id": "5c862f110e37488ab4c60365",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rusty Bronze Battle Axe",
-      "description": "A two-handed axe, way past its prime",
-      "tier": "2",
-      "type": "weapon",
       "slot": [
         "mainHand",
         "offHand"
       ],
+      "combatActions": [
+        "cleave"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Battle Axe",
+      "description": "A two-handed axe, way past its prime",
+      "tier": "2",
+      "type": "weapon",
       "encumbrance": 5,
       "damage": {
         "min": 7,
@@ -733,22 +798,28 @@
       },
       "_created": "2019-03-11T09:49:05.477Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:29:29.529Z",
+      "_updated": "2020-02-12T21:20:53.509Z",
       "value": 22
     },
     {
       "_id": "5c862fde0e3748268fc60366",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rusty Bronze Halberd",
-      "description": "A two-handed polearm. Probably stolen from a dead guardsman",
-      "tier": "2",
-      "type": "weapon",
       "slot": [
         "mainHand",
         "offHand"
       ],
+      "combatActions": [
+        "sweep"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Halberd",
+      "description": "A two-handed polearm. Probably stolen from a dead guardsman",
+      "tier": "2",
+      "type": "weapon",
       "encumbrance": 6,
       "damage": {
         "min": 10,
@@ -756,19 +827,23 @@
       },
       "_created": "2019-03-11T09:52:30.463Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:20:24.366Z",
+      "_updated": "2020-02-18T10:24:54.472Z",
       "value": 26
     },
     {
       "_id": "5c86316c0e3748bcd1c60368",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "name": "Rusty Iron Hatchet",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 4,
       "damage": {
         "max": 7,
@@ -778,11 +853,18 @@
       "description": "A trail of severed limbs led to its current state",
       "_created": "2019-03-11T09:59:08.263Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:29:05.243Z",
+      "_updated": "2020-02-18T10:36:38.607Z",
       "value": 24
     },
     {
       "_id": "5c86320d0e37480f1fc60369",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -790,9 +872,6 @@
       "description": "Plausibly, this crude weapon was crafted before the Great Cataclysm",
       "tier": "1",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 5,
       "damage": {
         "max": 8,
@@ -800,21 +879,27 @@
       },
       "_created": "2019-03-11T10:01:49.552Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:32:46.916Z",
+      "_updated": "2020-02-18T10:36:11.437Z",
       "value": 6
     },
     {
       "_id": "5c86384d0e37486af4c6036a",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rusty Bronze Scepter",
-      "description": "This crude weapon seems ancient",
-      "tier": "1",
-      "type": "weapon",
       "slot": [
         "mainHand"
       ],
+      "combatActions": [
+        "slam"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Bronze Scepter",
+      "description": "This crude weapon seems ancient.",
+      "tier": "1",
+      "type": "weapon",
       "encumbrance": 4,
       "damage": {
         "min": 2,
@@ -822,21 +907,27 @@
       },
       "_created": "2019-03-11T10:28:29.877Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:21:14.924Z",
+      "_updated": "2020-02-18T10:25:17.954Z",
       "value": 8
     },
     {
       "_id": "5c8638e90e3748e3f5c6036b",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rusty Bronze Mace",
-      "description": "This mace has cracked a few skulls in its day",
-      "tier": "1",
-      "type": "weapon",
       "slot": [
         "mainHand"
       ],
+      "combatActions": [
+        "slam"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Mace",
+      "description": "This mace has cracked a few skulls in its day",
+      "tier": "1",
+      "type": "weapon",
       "encumbrance": 4,
       "damage": {
         "min": 3,
@@ -845,20 +936,26 @@
       "_created": "2019-03-11T10:31:05.699Z",
       "__v": 0,
       "value": 10,
-      "_updated": "2019-04-08T15:06:31.587Z"
+      "_updated": "2020-02-18T10:23:58.919Z"
     },
     {
       "_id": "5c8639c20e37483059c6036c",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rusty Bronze Flail",
-      "description": "A spiked ball on a chain, attached to a stick. What will they think of next?",
-      "tier": "2",
-      "type": "weapon",
       "slot": [
         "mainHand"
       ],
+      "combatActions": [
+        "slam"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Flail",
+      "description": "A spiked ball on a chain, attached to a stick. What will they think of next?",
+      "tier": "2",
+      "type": "weapon",
       "encumbrance": 4,
       "damage": {
         "min": 1,
@@ -866,21 +963,27 @@
       },
       "_created": "2019-03-11T10:34:42.372Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:22:22.771Z",
+      "_updated": "2020-02-18T10:25:27.892Z",
       "value": 22
     },
     {
       "_id": "5c863aa70e37487593c6036d",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rusty Bronze Morning Star",
-      "description": "The impact of this weapon will make you see stars",
-      "tier": "2",
-      "type": "weapon",
       "slot": [
         "mainHand"
       ],
+      "combatActions": [
+        "slam"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Morning Star",
+      "description": "The impact of this weapon will make you see stars.",
+      "tier": "2",
+      "type": "weapon",
       "encumbrance": 4,
       "damage": {
         "min": 3,
@@ -889,10 +992,20 @@
       "_created": "2019-03-11T10:38:31.133Z",
       "__v": 0,
       "value": 22,
-      "_updated": "2019-04-08T15:06:47.388Z"
+      "_updated": "2020-02-18T10:24:43.254Z"
     },
     {
       "_id": "5c863b910e374888abc6036e",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "slam"
+      ],
       "consumption": {
         "actions": []
       },
@@ -900,10 +1013,6 @@
       "description": "A two-handed stone hammer from the dawn of time",
       "tier": "2",
       "type": "weapon",
-      "slot": [
-        "mainHand",
-        "offHand"
-      ],
       "encumbrance": 10,
       "damage": {
         "min": 8,
@@ -911,7 +1020,7 @@
       },
       "_created": "2019-03-11T10:42:25.628Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:28:18.084Z",
+      "_updated": "2020-02-12T21:20:17.668Z",
       "value": 20
     },
     {
@@ -934,6 +1043,15 @@
     },
     {
       "_id": "5c86d6c4bbdb6b44de5868e6",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
@@ -941,9 +1059,6 @@
       "description": "Crude and ominous, like a yellow fang stolen from the jaws of an ancient beast.",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 1,
       "damage": {
         "min": 1,
@@ -951,11 +1066,21 @@
       },
       "_created": "2019-03-11T21:44:36.077Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:27:56.392Z",
+      "_updated": "2020-02-18T10:36:51.194Z",
       "value": 40
     },
     {
       "_id": "5c86d815bbdb6b13055868e7",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "stab",
+        "cut"
+      ],
       "consumption": {
         "actions": []
       },
@@ -963,9 +1088,6 @@
       "description": "Made from the elusive red rock, quarried on the Isle of Penance",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 2,
       "damage": {
         "min": 3,
@@ -973,7 +1095,7 @@
       },
       "_created": "2019-03-11T21:50:13.814Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:25:48.126Z",
+      "_updated": "2020-02-18T10:37:07.523Z",
       "value": 60
     },
     {
@@ -1261,6 +1383,16 @@
     },
     {
       "_id": "5c92f8863bae8dfca82b605c",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "parry",
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1268,21 +1400,28 @@
       "description": "Black as night. The blade is sharp.",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 4,
       "damage": {
         "min": 7,
         "max": 9
       },
       "_created": "2019-03-21T02:35:50.415Z",
-      "_updated": "2019-04-19T00:28:57.769Z",
+      "_updated": "2020-02-18T10:32:58.060Z",
       "__v": 0,
       "value": 40
     },
     {
       "_id": "5c92f8ce3bae8dbec42b605d",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "parry",
+        "cut"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -1290,21 +1429,27 @@
       "description": "The curved blade is sharp.",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 4,
       "damage": {
         "min": 7,
         "max": 9
       },
       "_created": "2019-03-21T02:37:02.820Z",
-      "_updated": "2019-04-08T16:11:49.172Z",
+      "_updated": "2020-02-21T02:09:09.089Z",
       "__v": 0,
       "value": 45
     },
     {
       "_id": "5c92f92b3bae8d8ee72b605e",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "cleave"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1312,21 +1457,27 @@
       "description": "Remarkably well-preserved.",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 4,
       "damage": {
         "min": 8,
         "max": 8
       },
       "_created": "2019-03-21T02:38:35.835Z",
-      "_updated": "2019-04-08T16:13:41.457Z",
+      "_updated": "2020-02-18T10:37:21.849Z",
       "__v": 0,
       "value": 35
     },
     {
       "_id": "5c92f9883bae8daaed2b605f",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "cleave"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1334,21 +1485,27 @@
       "description": "The work of a talented blacksmith.",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 5,
       "damage": {
         "min": 9,
         "max": 9
       },
       "_created": "2019-03-21T02:40:08.904Z",
-      "_updated": "2019-04-08T16:13:02.041Z",
+      "_updated": "2020-02-18T10:37:29.827Z",
       "__v": 0,
       "value": 42
     },
     {
       "_id": "5c92fa2c3bae8d4e102b6060",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "slam"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1356,21 +1513,27 @@
       "description": "A spiked iron ball, attached to a chain with a handle.",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 5,
       "damage": {
         "min": 5,
         "max": 11
       },
       "_created": "2019-03-21T02:42:52.846Z",
-      "_updated": "2019-04-08T16:12:37.354Z",
+      "_updated": "2020-02-18T10:37:37.978Z",
       "__v": 0,
       "value": 45
     },
     {
       "_id": "5c92fa633bae8d78a32b6061",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "slam"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1378,16 +1541,13 @@
       "description": "A spiked iron club.",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 5,
       "damage": {
         "min": 5,
         "max": 13
       },
       "_created": "2019-03-21T02:43:47.094Z",
-      "_updated": "2019-04-08T16:12:19.315Z",
+      "_updated": "2020-02-18T10:37:45.788Z",
       "__v": 0,
       "value": 50
     },
@@ -1450,22 +1610,25 @@
     },
     {
       "_id": "5c92fe253bae8daa782b6065",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
       "consumption": {
         "actions": []
       },
       "name": "Bronze Helmet",
-      "description": "A full helmet, granting both protection and anonymity to its wearer.",
       "tier": "3",
       "type": "armor",
-      "slot": [
-        "head"
-      ],
       "encumbrance": 5,
       "armor": 6,
       "_created": "2019-03-21T02:59:49.231Z",
-      "_updated": "2019-04-08T16:09:49.584Z",
+      "_updated": "2020-02-08T03:16:29.609Z",
       "__v": 0,
-      "value": 60
+      "value": 60,
+      "description": "This ancient helmet provides ample protection, covering everything except the lower half of the face."
     },
     {
       "_id": "5c9317cc3bae8d23f02b60d3",
@@ -1521,6 +1684,15 @@
     },
     {
       "_id": "5c93463d3bae8da4662b61df",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "cut"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1528,16 +1700,13 @@
       "description": "The curved blade is sharp.",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 3,
       "damage": {
         "min": 7,
         "max": 7
       },
       "_created": "2019-03-21T08:07:25.905Z",
-      "_updated": "2019-04-08T16:07:16.722Z",
+      "_updated": "2020-02-18T10:38:10.434Z",
       "__v": 0,
       "value": 32
     },
@@ -1600,6 +1769,15 @@
     },
     {
       "_id": "5c9353b83bae8db97b2b625a",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1607,30 +1785,34 @@
       "description": "Frequently used, but well-maintained.",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 3,
       "damage": {
         "min": 6,
         "max": 7
       },
       "_created": "2019-03-21T09:04:56.495Z",
-      "_updated": "2019-04-08T16:05:10.072Z",
+      "_updated": "2020-02-18T10:38:23.722Z",
       "__v": 0,
       "value": 35
     },
     {
       "_id": "5c9354783bae8d13442b625b",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "parry",
+        "cut"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
       "description": "The curved blade is quite sharp. Elaborately sculpted, the pommel resembles a demonic serpent.",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "name": "Fine Bronze Sabre",
       "encumbrance": 3,
       "damage": {
@@ -1638,12 +1820,21 @@
         "max": 8
       },
       "_created": "2019-03-21T09:08:08.625Z",
-      "_updated": "2019-04-08T15:15:22.044Z",
+      "_updated": "2020-02-21T02:08:46.551Z",
       "__v": 0,
       "value": 42
     },
     {
       "_id": "5c9354ed3bae8d221b2b625c",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1651,16 +1842,13 @@
       "description": "A well-placed thrust will suffice to vanquish the enemy.",
       "tier": "2",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 2,
       "damage": {
         "min": 4,
         "max": 6
       },
       "_created": "2019-03-21T09:10:05.936Z",
-      "_updated": "2019-04-08T15:09:20.186Z",
+      "_updated": "2020-02-18T10:40:39.037Z",
       "__v": 0,
       "value": 25
     },
@@ -1786,6 +1974,15 @@
     },
     {
       "_id": "5c94ce4c683e5d389b4f2e2e",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1793,21 +1990,27 @@
       "description": "Some hoodlums are brawlers, some rogues are knife thugs. Some ruffians want the best of both underworlds.",
       "tier": "2",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 1,
       "damage": {
         "max": 5,
         "min": 1
       },
       "_created": "2019-03-22T12:00:12.572Z",
-      "_updated": "2019-04-08T15:24:45.988Z",
+      "_updated": "2020-02-18T10:39:02.619Z",
       "__v": 0,
       "value": 18
     },
     {
       "_id": "5c94cee1683e5d12724f2e30",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "cut"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1820,16 +2023,23 @@
         "min": 4,
         "max": 4
       },
-      "slot": [
-        "mainHand"
-      ],
       "_created": "2019-03-22T12:02:41.603Z",
-      "_updated": "2019-04-08T15:24:28.592Z",
+      "_updated": "2020-02-18T10:39:11.067Z",
       "__v": 0,
       "value": 15
     },
     {
       "_id": "5c94d0eb683e5d210a4f2e31",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "parry",
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1837,21 +2047,27 @@
       "description": "Who could resist such fine curvature? Certainly not humans, or other things made of flesh.",
       "tier": "2",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 3,
       "damage": {
         "min": 5,
         "max": 7
       },
       "_created": "2019-03-22T12:11:23.831Z",
-      "_updated": "2019-04-08T16:02:28.251Z",
+      "_updated": "2020-02-18T10:38:39.754Z",
       "__v": 0,
       "value": 30
     },
     {
       "_id": "5c94d260683e5d04a74f2e32",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1859,16 +2075,13 @@
       "description": "Requires some finesse.",
       "tier": "2",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 1,
       "damage": {
         "min": 2,
         "max": 5
       },
       "_created": "2019-03-22T12:17:36.209Z",
-      "_updated": "2019-04-08T15:24:13.180Z",
+      "_updated": "2020-02-12T21:20:02.186Z",
       "__v": 0,
       "value": 25
     },
@@ -1939,6 +2152,15 @@
     },
     {
       "_id": "5c9b928c3790355729b1bf86",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1946,16 +2168,13 @@
       "description": "A makeshift blade, designed for quick stabbin'",
       "tier": "1",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 1,
       "damage": {
         "min": 1,
         "max": 4
       },
       "_created": "2019-03-27T15:11:08.871Z",
-      "_updated": "2019-04-08T15:25:32.907Z",
+      "_updated": "2020-02-18T10:38:49.635Z",
       "__v": 0,
       "value": 1
     },
@@ -1980,6 +2199,15 @@
     },
     {
       "_id": "5ca404413790357ad9b1ceba",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
@@ -1987,21 +2215,28 @@
       "tier": "2",
       "description": "This short spear can be held in one hand.",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 2,
       "damage": {
         "min": 2,
         "max": 7
       },
       "_created": "2019-04-03T00:54:25.189Z",
-      "_updated": "2019-04-08T15:23:43.314Z",
+      "_updated": "2020-02-12T21:20:10.402Z",
       "__v": 0,
       "value": 30
     },
     {
       "_id": "5ca404ce379035592ab1cebb",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "sweep"
+      ],
       "consumption": {
         "actions": []
       },
@@ -2009,22 +2244,28 @@
       "description": "This heavy polearm is in excellent condition.",
       "tier": "2",
       "type": "weapon",
-      "slot": [
-        "mainHand",
-        "offHand"
-      ],
       "encumbrance": 6,
       "damage": {
         "min": 11,
         "max": 12
       },
       "_created": "2019-04-03T00:56:46.706Z",
-      "_updated": "2019-04-08T15:10:45.224Z",
+      "_updated": "2020-02-18T10:40:29.872Z",
       "__v": 0,
       "value": 40
     },
     {
       "_id": "5ca40537379035a01cb1cebc",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "sweep"
+      ],
       "consumption": {
         "actions": []
       },
@@ -2032,17 +2273,13 @@
       "description": "This heavy polearm seems almost unused.",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand",
-        "offHand"
-      ],
       "encumbrance": 6,
       "damage": {
         "min": 12,
         "max": 13
       },
       "_created": "2019-04-03T00:58:31.591Z",
-      "_updated": "2019-04-08T15:23:18.111Z",
+      "_updated": "2020-02-18T10:39:41.464Z",
       "__v": 0,
       "value": 60
     },
@@ -2124,6 +2361,16 @@
     },
     {
       "_id": "5ca438713790356b37b1cf1b",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "parry",
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
@@ -2131,16 +2378,13 @@
       "description": "Aside from a few notches on the blade, this sword is in excellent condition.",
       "tier": "2",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 4,
       "damage": {
         "min": 7,
         "max": 8
       },
       "_created": "2019-04-03T04:37:05.069Z",
-      "_updated": "2019-04-08T15:19:32.643Z",
+      "_updated": "2020-02-18T10:39:54.461Z",
       "__v": 0,
       "value": 40
     },
@@ -2406,6 +2650,16 @@
     },
     {
       "_id": "5ca5f12e379035d830b1fdfb",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "sweep"
+      ],
       "consumption": {
         "actions": []
       },
@@ -2413,22 +2667,28 @@
       "description": "In the right hands, this ominous weapon is potentially a force to be reckoned with.",
       "tier": "2",
       "type": "weapon",
-      "slot": [
-        "mainHand",
-        "offHand"
-      ],
       "encumbrance": 7,
       "damage": {
         "min": 1,
         "max": 15
       },
       "_created": "2019-04-04T11:57:34.266Z",
-      "_updated": "2019-04-08T15:08:50.268Z",
+      "_updated": "2020-02-12T21:20:27.706Z",
       "__v": 0,
       "value": 36
     },
     {
       "_id": "5ca5f2273790357b97b1fdfc",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "sweep"
+      ],
       "consumption": {
         "actions": []
       },
@@ -2436,17 +2696,13 @@
       "description": "Black as night, this tool was made to reap souls and crops alike.",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand",
-        "offHand"
-      ],
       "encumbrance": 8,
       "damage": {
         "min": 3,
         "max": 18
       },
       "_created": "2019-04-04T12:01:43.720Z",
-      "_updated": "2019-04-08T15:13:28.606Z",
+      "_updated": "2020-02-18T10:40:17.551Z",
       "__v": 0,
       "value": 54
     },
@@ -2549,15 +2805,22 @@
     },
     {
       "_id": "5cab7db4379035d0f0b223f7",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "cut",
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
       "name": "Iron Dagger",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 1,
       "damage": {
         "min": 3,
@@ -2566,11 +2829,20 @@
       "value": 28,
       "description": "The quintessential black iron dagger, favored by the rogues and assassins of Tem Khiris.",
       "_created": "2019-04-08T16:58:28.225Z",
-      "_updated": "2019-05-08T11:55:01.426Z",
+      "_updated": "2020-02-18T10:32:34.645Z",
       "__v": 0
     },
     {
       "_id": "5cab7e533790353dc8b223f8",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "slam"
+      ],
       "consumption": {
         "actions": []
       },
@@ -2579,16 +2851,13 @@
       "value": 30,
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 5,
       "damage": {
         "min": 4,
         "max": 10
       },
       "_created": "2019-04-08T17:01:07.787Z",
-      "_updated": "2019-04-08T17:01:07.787Z",
+      "_updated": "2020-02-18T10:35:23.919Z",
       "__v": 0
     },
     {
@@ -2830,6 +3099,16 @@
     },
     {
       "_id": "5cb3324ac065f08683943257",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "slam"
+      ],
       "consumption": {
         "actions": []
       },
@@ -2838,21 +3117,27 @@
       "value": 300,
       "tier": "4",
       "type": "weapon",
-      "slot": [
-        "mainHand",
-        "offHand"
-      ],
       "encumbrance": 4,
       "damage": {
         "min": 8,
         "max": 18
       },
       "_created": "2019-04-14T13:14:50.845Z",
-      "_updated": "2019-04-14T13:43:48.993Z",
+      "_updated": "2020-02-18T10:35:16.158Z",
       "__v": 0
     },
     {
       "_id": "5cb3564fc065f08fda94337d",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "parry",
+        "cut"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -2860,9 +3145,6 @@
       "description": "The broad blade of this short sabre is remarkably sharp. The pommel is adorned with hieroglyphs.",
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 2,
       "damage": {
         "max": 7,
@@ -2870,11 +3152,21 @@
       },
       "value": 30,
       "_created": "2019-04-14T15:48:31.079Z",
-      "_updated": "2019-04-14T15:48:31.079Z",
+      "_updated": "2020-02-21T02:09:52.653Z",
       "__v": 0
     },
     {
       "_id": "5cb35818c065f0135594337e",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "sweep"
+      ],
       "consumption": {
         "actions": []
       },
@@ -2883,17 +3175,13 @@
       "value": 40,
       "tier": "3",
       "type": "weapon",
-      "slot": [
-        "mainHand",
-        "offHand"
-      ],
       "encumbrance": 4,
       "damage": {
         "max": 11,
         "min": 1
       },
       "_created": "2019-04-14T15:56:08.745Z",
-      "_updated": "2019-04-14T15:56:08.745Z",
+      "_updated": "2020-02-18T10:34:47.498Z",
       "__v": 0
     },
     {
@@ -2934,25 +3222,31 @@
     },
     {
       "_id": "5cb7a3a3c065f024679434e6",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
       "name": "Bronze Trident",
       "tier": "3",
       "value": 40,
-      "description": "A heavy bronze Trident, adorned with hieroglyphs.",
+      "description": "A heavy bronze trident, adorned with hieroglyphs.",
       "type": "weapon",
-      "slot": [
-        "mainHand",
-        "offHand"
-      ],
       "damage": {
-        "min": 5,
-        "max": 10
+        "max": 12,
+        "min": 3
       },
       "encumbrance": 4,
       "_created": "2019-04-17T22:07:31.890Z",
-      "_updated": "2019-04-17T22:07:31.890Z",
+      "_updated": "2020-02-18T10:34:37.197Z",
       "__v": 0
     },
     {
@@ -2976,23 +3270,26 @@
     },
     {
       "_id": "5cb7a7b7c065f092659434e8",
-      "consumption": {
-        "actions": []
+      "sideEffects": {
+        "passives": []
       },
-      "name": "Rusty Bronze Chainmail",
-      "description": "A full suit of chainmail armor. Old and rusty.",
-      "value": 100,
-      "tier": "3",
-      "type": "armor",
       "slot": [
         "body",
         "feet",
         "hands"
       ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Rusty Iron Chainmail",
+      "description": "A full suit of chainmail armor. Old and rusty.",
+      "value": 100,
+      "tier": "3",
+      "type": "armor",
       "encumbrance": 8,
       "armor": 16,
       "_created": "2019-04-17T22:24:55.346Z",
-      "_updated": "2019-04-17T22:24:55.346Z",
+      "_updated": "2020-02-07T03:16:36.036Z",
       "__v": 0
     },
     {
@@ -3011,6 +3308,16 @@
     },
     {
       "_id": "5cb9160dc065f0a88a943b32",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "parry",
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
@@ -3019,20 +3326,26 @@
       "value": 26,
       "tier": "2",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 3,
       "damage": {
         "min": 6,
         "max": 7
       },
       "_created": "2019-04-19T00:27:57.493Z",
-      "_updated": "2019-04-19T00:27:57.493Z",
+      "_updated": "2020-02-18T10:33:20.732Z",
       "__v": 0
     },
     {
       "_id": "5cb91a26c065f03801943b33",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "slam"
+      ],
       "consumption": {
         "actions": []
       },
@@ -3041,16 +3354,13 @@
       "description": "This blunt weapon has been sculpted to resemble a wolf's paw.",
       "tier": "2",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 4,
       "damage": {
         "min": 3,
         "max": 9
       },
       "_created": "2019-04-19T00:45:26.218Z",
-      "_updated": "2019-04-19T00:45:26.218Z",
+      "_updated": "2020-02-18T10:32:43.120Z",
       "__v": 0
     },
     {
@@ -3082,6 +3392,15 @@
     },
     {
       "_id": "5cbb8367c065f0fb96944ecd",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "cut"
+      ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -3090,20 +3409,26 @@
       "value": 25,
       "tier": "2",
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 1,
       "damage": {
         "min": 2,
         "max": 5
       },
       "_created": "2019-04-20T20:39:03.252Z",
-      "_updated": "2019-04-20T20:39:03.252Z",
+      "_updated": "2020-02-18T10:14:11.569Z",
       "__v": 0
     },
     {
       "_id": "5cc12f51c065f025be9464e1",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "slam"
+      ],
       "consumption": {
         "actions": []
       },
@@ -3112,16 +3437,13 @@
       "tier": "2",
       "value": 20,
       "type": "weapon",
-      "slot": [
-        "mainHand"
-      ],
       "encumbrance": 2,
       "damage": {
         "min": 1,
         "max": 7
       },
       "_created": "2019-04-25T03:53:53.623Z",
-      "_updated": "2019-04-25T03:58:33.296Z",
+      "_updated": "2020-02-12T21:19:44.555Z",
       "__v": 0
     },
     {
@@ -3144,6 +3466,10 @@
         "mainHand",
         "offHand"
       ],
+      "combatActions": [
+        "cleave",
+        "sweep"
+      ],
       "sideEffects": {
         "passives": []
       },
@@ -3161,7 +3487,7 @@
         "min": 12
       },
       "_created": "2019-05-08T00:51:57.499Z",
-      "_updated": "2019-11-04T20:57:36.987Z",
+      "_updated": "2020-02-21T05:26:20.483Z",
       "__v": 0
     },
     {
@@ -3302,12 +3628,16 @@
       "slot": [
         "mainHand"
       ],
+      "combatActions": [
+        "parry",
+        "cut"
+      ],
       "consumption": {
         "actions": []
       },
       "name": "Crimson Falcata",
       "description": "A short-bladed sickle-sword. Made from the elusive red rock, quarried on the Isle of Penance. Crafted by a master blacksmith. Adorned with cryptic runes.",
-      "value": 75,
+      "value": 150,
       "tier": "4",
       "type": "weapon",
       "encumbrance": 4,
@@ -3316,7 +3646,7 @@
         "min": 6
       },
       "_created": "2019-05-08T18:14:47.433Z",
-      "_updated": "2019-10-02T00:58:44.003Z",
+      "_updated": "2020-02-21T02:11:26.614Z",
       "__v": 0,
       "sideEffects": {
         "passives": [
@@ -3363,44 +3693,6 @@
       "__v": 0
     },
     {
-      "_id": "5cdab440c3e78f57f75bb850",
-      "slot": [
-        "accessory"
-      ],
-      "consumption": {
-        "actions": []
-      },
-      "name": "Rook",
-      "description": "A living rook from the cavernous depths below the Isle of Dusk. A symbol of death, rooks are a bad omen in most places.",
-      "value": 1,
-      "tier": "3",
-      "type": "treasure",
-      "sideEffects": {
-        "passives": [
-          {
-            "parameters": [
-              "perception",
-              "2"
-            ],
-            "_id": "5cdab52dc3e78fae485bb853",
-            "type": "attributes"
-          },
-          {
-            "parameters": [
-              "charisma",
-              "-1"
-            ],
-            "_id": "5cdab52dc3e78fdb675bb852",
-            "type": "attributes"
-          }
-        ],
-        "description": "Perched on your shoulder, the dark rook remains vigilant."
-      },
-      "_created": "2019-05-14T12:27:44.019Z",
-      "_updated": "2019-05-16T17:27:25.794Z",
-      "__v": 0
-    },
-    {
       "_id": "5cdde300c3e78fe6535bc004",
       "slot": [
         "accessory"
@@ -3418,26 +3710,6 @@
       "type": "treasure",
       "_created": "2019-05-16T22:24:00.586Z",
       "_updated": "2019-11-04T20:32:24.065Z",
-      "__v": 0
-    },
-    {
-      "_id": "5cdde366c3e78f797a5bc005",
-      "slot": [
-        "accessory"
-      ],
-      "consumption": {
-        "actions": []
-      },
-      "sideEffects": {
-        "passives": []
-      },
-      "name": "Golden Ankle Bracelet",
-      "description": "Previously worn by the inhabitant of a black pyramid.",
-      "value": 70,
-      "tier": "3",
-      "type": "treasure",
-      "_created": "2019-05-16T22:25:42.009Z",
-      "_updated": "2019-05-22T18:30:41.578Z",
       "__v": 0
     },
     {
@@ -3472,16 +3744,19 @@
     },
     {
       "_id": "5cddf94cc3e78f663e5bc014",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "sweep"
+      ],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "mainHand",
-        "offHand"
-      ],
       "name": "Wooden Staff",
       "description": "A long stick made of wood. Nothing more to it, really.",
       "value": 1,
@@ -3493,21 +3768,25 @@
         "max": 3
       },
       "_created": "2019-05-16T23:59:08.958Z",
-      "_updated": "2019-05-16T23:59:08.958Z",
+      "_updated": "2020-02-18T10:32:17.811Z",
       "__v": 0
     },
     {
       "_id": "5cddfaa3c3e78f6efe5bc019",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "cleave",
+        "parry"
+      ],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "mainHand",
-        "offHand"
-      ],
       "name": "Iron Claymore",
       "type": "weapon",
       "encumbrance": 7,
@@ -3519,7 +3798,7 @@
       "value": 60,
       "tier": "3",
       "_created": "2019-05-17T00:04:51.873Z",
-      "_updated": "2019-05-17T00:04:51.873Z",
+      "_updated": "2020-02-18T10:32:08.197Z",
       "__v": 0
     },
     {
@@ -4141,16 +4420,20 @@
     },
     {
       "_id": "5ced45b9c3e78f135e5beaab",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "cleave",
+        "parry"
+      ],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "mainHand",
-        "offHand"
-      ],
       "name": "Bronze Claymore",
       "description": "A knightly sword with a few notches on the blade.",
       "value": 50,
@@ -4162,20 +4445,24 @@
       },
       "encumbrance": 6,
       "_created": "2019-05-28T14:29:13.630Z",
-      "_updated": "2019-05-28T14:29:13.630Z",
+      "_updated": "2020-02-18T10:31:56.489Z",
       "__v": 0
     },
     {
       "_id": "5ced4685c3e78f95005beaac",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "parry",
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "mainHand"
-      ],
       "name": "Heavy Bronze Broadsword",
       "description": "A knightly sword used as a sidearm by the mounted cavalry of Roeburgh.",
       "type": "weapon",
@@ -4187,7 +4474,7 @@
       "tier": "3",
       "value": 40,
       "_created": "2019-05-28T14:32:37.540Z",
-      "_updated": "2019-05-28T14:32:37.540Z",
+      "_updated": "2020-02-18T10:31:38.608Z",
       "__v": 0
     },
     {
@@ -4366,15 +4653,18 @@
     },
     {
       "_id": "5cf7879bc3e78f31535c2a42",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "mainHand"
-      ],
       "name": "Iron Punch Dagger",
       "description": "Some hoodlums are brawlers, some rogues are knife thugs. Some ruffians want the best of both underworlds.",
       "value": 25,
@@ -4386,7 +4676,7 @@
         "max": 6
       },
       "_created": "2019-06-05T09:12:59.508Z",
-      "_updated": "2019-06-05T09:12:59.508Z",
+      "_updated": "2020-02-18T10:30:59.832Z",
       "__v": 0
     },
     {
@@ -4582,6 +4872,9 @@
         "mainHand",
         "offHand"
       ],
+      "combatActions": [
+        "cleave"
+      ],
       "consumption": {
         "actions": []
       },
@@ -4599,7 +4892,7 @@
         "max": 13
       },
       "_created": "2019-08-14T21:14:12.103Z",
-      "_updated": "2019-08-14T21:19:47.977Z",
+      "_updated": "2020-02-18T10:30:48.707Z",
       "__v": 0
     },
     {
@@ -4723,6 +5016,9 @@
       "slot": [
         "mainHand"
       ],
+      "combatActions": [
+        "slam"
+      ],
       "consumption": {
         "actions": []
       },
@@ -4740,7 +5036,7 @@
         "max": 20
       },
       "_created": "2019-08-15T03:04:42.964Z",
-      "_updated": "2019-08-15T03:16:32.639Z",
+      "_updated": "2020-02-18T10:30:33.467Z",
       "__v": 0
     },
     {
@@ -4748,6 +5044,10 @@
       "slot": [
         "mainHand",
         "offHand"
+      ],
+      "combatActions": [
+        "stab",
+        "sweep"
       ],
       "consumption": {
         "actions": []
@@ -4766,13 +5066,17 @@
         "max": 18
       },
       "_created": "2019-08-15T03:10:15.654Z",
-      "_updated": "2019-08-15T03:16:45.775Z",
+      "_updated": "2020-02-18T10:30:20.889Z",
       "__v": 0
     },
     {
       "_id": "5d54ce838335b402a788520f",
       "slot": [
         "mainHand"
+      ],
+      "combatActions": [
+        "cut",
+        "parry"
       ],
       "consumption": {
         "actions": []
@@ -4791,7 +5095,7 @@
         "max": 10
       },
       "_created": "2019-08-15T03:16:19.440Z",
-      "_updated": "2019-09-05T16:37:20.427Z",
+      "_updated": "2020-02-21T02:11:53.917Z",
       "__v": 0
     },
     {
@@ -4845,21 +5149,21 @@
     },
     {
       "_id": "5d54fabf8335b44ccb885273",
-      "consumption": {
-        "actions": []
-      },
       "sideEffects": {
         "passives": []
       },
       "slot": [],
+      "consumption": {
+        "actions": []
+      },
       "name": "Wolf Idol",
       "description": "Carved from one solid piece of wood, this angular sculpture has been made to resemble the Great Wolf; the god known as Phenris.",
-      "value": 12,
       "tier": "2",
       "type": "treasure",
       "_created": "2019-08-15T06:25:03.822Z",
-      "_updated": "2019-08-15T06:25:03.822Z",
-      "__v": 0
+      "_updated": "2020-02-11T06:57:23.315Z",
+      "__v": 0,
+      "value": 3
     },
     {
       "_id": "5d559c758335b42267885326",
@@ -5336,6 +5640,9 @@
       "slot": [
         "mainHand"
       ],
+      "combatActions": [
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
@@ -5353,20 +5660,23 @@
         "min": 3
       },
       "_created": "2019-09-18T15:29:53.859Z",
-      "_updated": "2019-09-18T15:30:30.193Z",
+      "_updated": "2020-02-18T10:29:22.787Z",
       "__v": 0
     },
     {
       "_id": "5d824e02b97fb3bcc67c2f8e",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "mainHand"
-      ],
       "name": "Stiletto",
       "description": "Flesh is the natural habitat of this narrow blade.",
       "value": 27,
@@ -5378,20 +5688,23 @@
         "max": 8
       },
       "_created": "2019-09-18T15:32:18.483Z",
-      "_updated": "2019-09-18T15:32:18.483Z",
+      "_updated": "2020-02-18T10:29:14.625Z",
       "__v": 0
     },
     {
       "_id": "5d824ee48ec25988c3100754",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "cut"
+      ],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "mainHand"
-      ],
       "name": "Iron Butcher Knife",
       "description": "The intimidation factor is hard to quantify.",
       "value": 22,
@@ -5403,7 +5716,7 @@
         "max": 6
       },
       "_created": "2019-09-18T15:36:04.747Z",
-      "_updated": "2019-09-18T15:36:04.747Z",
+      "_updated": "2020-02-18T10:28:57.714Z",
       "__v": 0
     },
     {
@@ -5426,60 +5739,6 @@
       "armor": 4,
       "_created": "2019-09-18T15:38:13.492Z",
       "_updated": "2019-09-18T15:38:13.492Z",
-      "__v": 0
-    },
-    {
-      "_id": "5d82525f8ec259504810075a",
-      "consumption": {
-        "actions": []
-      },
-      "sideEffects": {
-        "passives": []
-      },
-      "slot": [],
-      "name": "Jar of Ink",
-      "description": "A small glass jar, which contains the black ink of a squid.",
-      "value": 10,
-      "tier": "3",
-      "type": "tool",
-      "_created": "2019-09-18T15:50:55.821Z",
-      "_updated": "2019-09-18T15:50:55.821Z",
-      "__v": 0
-    },
-    {
-      "_id": "5d8252e88ec259119e10075b",
-      "consumption": {
-        "actions": []
-      },
-      "sideEffects": {
-        "passives": []
-      },
-      "slot": [],
-      "name": "Empty Parchment",
-      "description": "A sheet of goatskin parchment.",
-      "value": 5,
-      "tier": "3",
-      "type": "tool",
-      "_created": "2019-09-18T15:53:12.807Z",
-      "_updated": "2019-09-18T15:53:12.807Z",
-      "__v": 0
-    },
-    {
-      "_id": "5d8253798ec259648910075c",
-      "consumption": {
-        "actions": []
-      },
-      "sideEffects": {
-        "passives": []
-      },
-      "slot": [],
-      "name": "Quill",
-      "description": "A feather taken from the wing of a goose. Can be used as a writing implement.",
-      "value": 1,
-      "tier": "1",
-      "type": "tool",
-      "_created": "2019-09-18T15:55:37.862Z",
-      "_updated": "2019-09-18T15:55:37.862Z",
       "__v": 0
     },
     {
@@ -5630,15 +5889,19 @@
     },
     {
       "_id": "5dd3cc65f75a9767c85984bf",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "parry",
+        "stab"
+      ],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "mainHand"
-      ],
       "name": "Iron Falchion",
       "description": "A single-edged, one-handed iron sabre. The pommel has been sculpted to resemble a howling wolf.",
       "value": 50,
@@ -5650,7 +5913,7 @@
         "max": 11
       },
       "_created": "2019-11-19T11:05:09.558Z",
-      "_updated": "2019-11-19T11:05:09.558Z",
+      "_updated": "2020-02-18T10:28:05.515Z",
       "__v": 0
     },
     {
@@ -5831,15 +6094,18 @@
     },
     {
       "_id": "5dd3f340f75a97c5bb59869f",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "slam"
+      ],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "mainHand"
-      ],
       "name": "Heavy Iron Flail",
       "description": "A spiked iron ball, attached to a chain with a handle.",
       "value": 75,
@@ -5851,13 +6117,16 @@
       },
       "encumbrance": 7,
       "_created": "2019-11-19T13:50:56.227Z",
-      "_updated": "2019-11-19T13:50:56.227Z",
+      "_updated": "2020-02-18T10:27:39.941Z",
       "__v": 0
     },
     {
       "_id": "5dd3f3d6f75a972a545986a0",
       "slot": [
         "mainHand"
+      ],
+      "combatActions": [
+        "slam"
       ],
       "consumption": {
         "actions": []
@@ -5876,7 +6145,7 @@
         "min": 10
       },
       "_created": "2019-11-19T13:53:26.961Z",
-      "_updated": "2019-11-19T13:54:08.187Z",
+      "_updated": "2020-02-18T10:27:27.669Z",
       "__v": 0
     },
     {
@@ -5947,15 +6216,18 @@
     },
     {
       "_id": "5dd5d93ff75a9721c459e244",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "cut"
+      ],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "mainHand"
-      ],
       "name": "Snake Dagger",
       "description": "A short iron dagger. The handle has been sculpted to resemble a coiled serpent.",
       "value": 35,
@@ -5967,7 +6239,7 @@
         "max": 9
       },
       "_created": "2019-11-21T00:24:31.555Z",
-      "_updated": "2019-11-21T00:24:31.555Z",
+      "_updated": "2020-02-18T10:27:12.529Z",
       "__v": 0
     },
     {
@@ -6125,16 +6397,19 @@
     },
     {
       "_id": "5e1f33ac763433d6ad5ace66",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "sweep"
+      ],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "mainHand",
-        "offHand"
-      ],
       "name": "Iron Halberd",
       "description": "A two-handed polearm, taken from the cold, dead hands of a colossal brute.",
       "value": 80,
@@ -6146,7 +6421,7 @@
         "max": 14
       },
       "_created": "2020-01-15T15:45:48.024Z",
-      "_updated": "2020-01-15T15:45:48.024Z",
+      "_updated": "2020-02-18T10:27:03.201Z",
       "__v": 0
     },
     {
@@ -6187,6 +6462,777 @@
       "type": "tool",
       "_created": "2020-01-23T15:37:59.767Z",
       "_updated": "2020-01-23T15:37:59.767Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e30c6af5416896c97995b39",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Cell Key",
+      "description": "Runes have been sculpted on this small iron key. The inscription reads: \"Holding Cell\".",
+      "value": 1,
+      "tier": "5",
+      "type": "tool",
+      "_created": "2020-01-28T23:41:35.600Z",
+      "_updated": "2020-01-28T23:41:35.600Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e3125fc541689580c995d81",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "parry",
+        "cut"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Steel Scimitar",
+      "description": "A masterwork scimitar, crafted from the meteoric steel of Triniset.",
+      "value": 60,
+      "tier": "4",
+      "type": "weapon",
+      "encumbrance": 4,
+      "damage": {
+        "min": 8,
+        "max": 12
+      },
+      "_created": "2020-01-29T06:28:12.163Z",
+      "_updated": "2020-02-21T02:10:49.326Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e314f5854168967a9995ed1",
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Red Stone Bracelet",
+      "description": "Mysterious black runes have been carved into this bracelet. Cut from the elusive red rock, quarried on the Isle of Penance.",
+      "value": 150,
+      "tier": "4",
+      "type": "treasure",
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "agility",
+              "1"
+            ],
+            "_id": "5e314f58541689eb0b995ed2",
+            "type": "attributes"
+          }
+        ],
+        "description": "Unnatural forces linger in the black runes of this red armband..."
+      },
+      "_created": "2020-01-29T09:24:40.647Z",
+      "_updated": "2020-01-29T09:26:55.358Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e31625c541689ee7a995f9b",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "A New Breed of Slaves",
+      "description": "A small brown book. No author is credited.",
+      "value": 1,
+      "tier": "5",
+      "type": "scripture",
+      "scripture": "5e3161d1541689f76c995f9a",
+      "_created": "2020-01-29T10:45:48.758Z",
+      "_updated": "2020-01-29T10:45:48.758Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e31fc1d541689325599667c",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "name": "Black Slouch Hat",
+      "description": "A black hat with a wide brim. Favored by the infamous crime lord known as Mantis.",
+      "value": 10,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 2,
+      "_created": "2020-01-29T21:41:49.413Z",
+      "_updated": "2020-01-29T21:41:49.413Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e3b6fa5e09478d094338212",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "offHand"
+      ],
+      "name": "Short Bow",
+      "value": 30,
+      "tier": "3",
+      "type": "weapon",
+      "encumbrance": 1,
+      "damage": {
+        "min": 5,
+        "max": 14
+      },
+      "ranged": true,
+      "rangedAmmunition": "5d12279340fcff8734fb7f70",
+      "description": "A finely crafted wooden bow, imported from the Deadlands of Triniset.",
+      "_created": "2020-02-06T01:45:09.695Z",
+      "_updated": "2020-02-06T01:45:09.695Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e3b7255e094783013338219",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "name": "Yellow Sark",
+      "description": "A long shirt, which gives a lot of room to breathe. Favored by the nomads from the Deadlands of Triniset.",
+      "value": 25,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 3,
+      "_created": "2020-02-06T01:56:37.512Z",
+      "_updated": "2020-02-06T01:56:37.512Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e3b72ece09478cf58338222",
+      "slot": [
+        "accessory"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "White Shawl",
+      "description": "A soft and generously proportioned white shawl with fringes. This garment is favored by the nomads from the Deadlands of Triniset.",
+      "value": 10,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2020-02-06T01:59:08.488Z",
+      "_updated": "2020-02-06T02:03:02.882Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e3b77cde09478125e33822f",
+      "slot": [
+        "offHand"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Desert Cavalry Shield",
+      "description": "A large oval shield, favored by the revolutionary forces of Triniset. Blessed by the sigil of Ebiddon, a controversial figure who is worshipped by the Deadland nomads.",
+      "value": 100,
+      "tier": "4",
+      "type": "shield",
+      "encumbrance": 7,
+      "blockChance": 0.23,
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "4"
+            ],
+            "_id": "5e3b7844e09478bc73338234",
+            "type": "armor"
+          }
+        ],
+        "description": "It's as if the soul of Ebiddon himself rests within this shield..."
+      },
+      "_created": "2020-02-06T02:19:57.627Z",
+      "_updated": "2020-02-06T02:34:56.873Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e3b826ae094788433338236",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "name": "Sacred Elixir",
+      "value": 350,
+      "tier": "4",
+      "type": "medicine",
+      "consumption": {
+        "actions": [
+          {
+            "parameters": [
+              "perception",
+              "1"
+            ],
+            "_id": "5e3b826ae094783b67338237",
+            "type": "changeStat"
+          }
+        ],
+        "uses": 1
+      },
+      "description": "Contraband. The small bottle contains a dark blue liquid, concocted by the alchemists of Triniset. Popular among mystics and others who seek forbidden pleasures.",
+      "_created": "2020-02-06T03:05:14.810Z",
+      "_updated": "2020-02-06T03:07:23.474Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e40542b6a062f2015162f41",
+      "slot": [
+        "body"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Gilded Plate Cuirass",
+      "description": "Black iron plate armor, adorned with intricate golden patterns. Suitable for knights with deep pockets.",
+      "value": 300,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 8,
+      "armor": 20,
+      "_created": "2020-02-09T18:49:15.696Z",
+      "_updated": "2020-02-09T18:50:33.282Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e4056246a062fb588162f42",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "name": "Iron Plate Greaves",
+      "description": "Black iron plate armor, providing ample protection for the legs and feet.",
+      "type": "armor",
+      "encumbrance": 8,
+      "armor": 12,
+      "tier": "4",
+      "value": 125,
+      "_created": "2020-02-09T18:57:40.407Z",
+      "_updated": "2020-02-09T18:57:40.407Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e4058526a062f6562162f43",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "name": "Great Helm",
+      "description": "A flat-topped, bucket-shaped iron helmet with breathing holes and horizontal apertures for the eyes.",
+      "value": 140,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 8,
+      "armor": 15,
+      "_created": "2020-02-09T19:06:58.923Z",
+      "_updated": "2020-02-09T19:06:58.923Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e405b5b6a062f1490162f45",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "stab",
+        "parry"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Knightly Sword",
+      "description": "This iron sword is traditionally favored by the knights of Roeburgh. It has a short hilt, made for single-handed use.",
+      "tier": "4",
+      "type": "weapon",
+      "encumbrance": 4,
+      "damage": {
+        "min": 8,
+        "max": 11
+      },
+      "value": 90,
+      "_created": "2020-02-09T19:19:55.431Z",
+      "_updated": "2020-02-18T10:17:48.678Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e406e246a062f422a162ff2",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "parry",
+        "cleave"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Steel Claymore",
+      "description": "A massive two-handed sword, crafted from the meteoric steel of Triniset.",
+      "type": "weapon",
+      "encumbrance": 8,
+      "damage": {
+        "min": 12,
+        "max": 18
+      },
+      "tier": "4",
+      "value": 150,
+      "_created": "2020-02-09T20:40:04.923Z",
+      "_updated": "2020-02-18T10:19:40.210Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e40d9476a062f5f6c16305c",
+      "slot": [
+        "body"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "White Robe",
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 1,
+      "value": 25,
+      "description": "A comfortable, outer garment. Remarkably high quality. Can be worn open or closed.",
+      "_created": "2020-02-10T04:17:11.065Z",
+      "_updated": "2020-02-10T04:44:05.742Z",
+      "__v": 0,
+      "armor": 3
+    },
+    {
+      "_id": "5e40da356a062f7aea16305d",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "name": "Kidskin Gloves",
+      "description": "White leather gloves, made from the skin of young goats.",
+      "value": 20,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 3,
+      "_created": "2020-02-10T04:21:09.519Z",
+      "_updated": "2020-02-10T04:21:09.519Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e40dadf6a062f4bb216305e",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "name": "White Cloth Sandals",
+      "value": 8,
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "description": "Simple and comfortable footwear.",
+      "_created": "2020-02-10T04:23:59.366Z",
+      "_updated": "2020-02-10T04:23:59.367Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e40dda96a062f5bad16305f",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "name": "Domino Mask",
+      "description": "A black eye mask, suitable for festive occasions.",
+      "value": 8,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2020-02-10T04:35:53.159Z",
+      "_updated": "2020-02-10T04:35:53.159Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e40de996a062f6ef9163060",
+      "slot": [
+        "body"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Wool Coat",
+      "description": "A long gray coat. Provides warmth and comfort. The work of a master tailor.",
+      "value": 32,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 2,
+      "armor": 4,
+      "_created": "2020-02-10T04:39:53.397Z",
+      "_updated": "2020-02-10T04:44:23.040Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e40e2056a062f166f163061",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "name": "Black Silk Jacket",
+      "description": "A fine waistcoat with pockets and long sleeves.",
+      "value": 35,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 3,
+      "_created": "2020-02-10T04:54:29.755Z",
+      "_updated": "2020-02-10T04:54:29.756Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e40e5126a062f3b6916306a",
+      "slot": [
+        "head"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Black Bonnet",
+      "description": "A flat wool cap with ribbons on the back.",
+      "value": 10,
+      "tier": "2",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 2,
+      "_created": "2020-02-10T05:07:30.749Z",
+      "_updated": "2020-02-10T05:20:48.068Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e40e61f6a062f100b163074",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "name": "Cravat",
+      "description": "A stylish neckband, made for the discerning nobleman.",
+      "value": 10,
+      "tier": "3",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 1,
+      "_created": "2020-02-10T05:11:59.297Z",
+      "_updated": "2020-02-10T05:11:59.297Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e40e7836a062f23ec16307f",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "name": "Winged Iron Helmet",
+      "description": "A nasal helmet with wings on the sides. Traditionally worn by the knights of Roeburgh.",
+      "value": 80,
+      "tier": "4",
+      "type": "armor",
+      "encumbrance": 6,
+      "armor": 9,
+      "_created": "2020-02-10T05:17:55.049Z",
+      "_updated": "2020-02-10T05:17:55.049Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e4c605ea74d95e56ade4e1f",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
+      "name": "Chronicles of Mantis",
+      "description": "A memoir written by Mantis the Crime Lord.",
+      "tier": "5",
+      "type": "scripture",
+      "scripture": "5e4c6010a74d955bf5de4e1d",
+      "value": 25,
+      "_created": "2020-02-18T22:08:30.471Z",
+      "_updated": "2020-02-18T22:08:30.471Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e4f677da74d95a136debc2e",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "slam"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Maul Hammer",
+      "description": "A wood-headed maul with a long shaft, intended for two-handed use.",
+      "value": 40,
+      "tier": "3",
+      "type": "weapon",
+      "damage": {
+        "max": 22,
+        "min": 6
+      },
+      "_created": "2020-02-21T05:15:41.241Z",
+      "_updated": "2020-02-21T05:26:36.585Z",
+      "__v": 0,
+      "encumbrance": 7
+    },
+    {
+      "_id": "5e4f68fda74d958aeadebc2f",
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "cut",
+        "stab"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Steel Dagger",
+      "type": "weapon",
+      "encumbrance": 1,
+      "tier": "4",
+      "value": 80,
+      "description": "A masterwork dagger. Long and sharp, the blade is crafted from the meteoric steel of Triniset.",
+      "damage": {
+        "min": 4,
+        "max": 10
+      },
+      "_created": "2020-02-21T05:22:05.860Z",
+      "_updated": "2020-02-21T05:24:53.783Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e54a352b723c23b4a4acf4c",
+      "consumption": {
+        "actions": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "combatActions": [],
+      "name": "Wolf Medallion",
+      "description": "A silver medallion with an iron chain. It has been sculpted to resemble the face of a wolf. The relic was blessed by the preacher of Noble Heights.",
+      "value": 100,
+      "tier": "4",
+      "type": "treasure",
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "resilience",
+              "1"
+            ],
+            "_id": "5e54a352b723c2488c4acf4d",
+            "type": "attributes"
+          }
+        ],
+        "description": "You feel empowered by the blessing of this sacred relic..."
+      },
+      "_created": "2020-02-25T04:32:18.184Z",
+      "_updated": "2020-02-25T04:32:18.184Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e54a433b723c2454a4acf4e",
+      "consumption": {
+        "actions": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "combatActions": [],
+      "name": "Fire Medallion",
+      "description": "A golden medallion with an iron chain. Sculpted to resemble a wreath of flames, forming a circle around nine eyes. This relic was blessed by the preacher of Noble Heights.",
+      "value": 100,
+      "tier": "4",
+      "type": "treasure",
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "charisma",
+              "1"
+            ],
+            "_id": "5e54a433b723c2232d4acf4f",
+            "type": "attributes"
+          }
+        ],
+        "description": "The sacred relic inspires a feeling of confidence..."
+      },
+      "_created": "2020-02-25T04:36:03.683Z",
+      "_updated": "2020-02-25T04:36:03.683Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e54a575b723c2411b4acf50",
+      "consumption": {
+        "actions": []
+      },
+      "slot": [
+        "accessory"
+      ],
+      "combatActions": [],
+      "name": "Rook Medallion",
+      "description": "A silver medallion with an iron chain. Sculpted to resemble the silhouette of a rook. This sacred relic was blessed by the preacher of Noble Heights.",
+      "value": 100,
+      "tier": "4",
+      "type": "treasure",
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "perception",
+              "1"
+            ],
+            "_id": "5e54a575b723c258644acf51",
+            "type": "attributes"
+          }
+        ],
+        "description": "The relic inspires a greater awareness of the world around you..."
+      },
+      "_created": "2020-02-25T04:41:25.742Z",
+      "_updated": "2020-02-25T04:41:25.742Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e55b456b723c287fd4adb7b",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
+      "name": "Green Apple",
+      "description": "Fruit. Restores a small amount of health.",
+      "value": 1,
+      "tier": "1",
+      "type": "food",
+      "consumption": {
+        "uses": 1,
+        "actions": [
+          {
+            "parameters": [
+              "1",
+              []
+            ],
+            "_id": "5e55b456b723c271384adb7c",
+            "type": "changeHealth"
+          }
+        ]
+      },
+      "_created": "2020-02-25T23:57:10.649Z",
+      "_updated": "2020-02-25T23:57:10.649Z",
       "__v": 0
     }
   ]

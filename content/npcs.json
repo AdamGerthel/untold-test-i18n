@@ -1,5 +1,5 @@
 {
-  "total": 120,
+  "total": 125,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -67,7 +67,7 @@
       },
       "_created": "2019-03-06T20:40:27.448Z",
       "__v": 0,
-      "_updated": "2019-09-20T14:24:47.928Z",
+      "_updated": "2020-02-04T23:46:50.700Z",
       "level": 2,
       "bargain": []
     },
@@ -483,7 +483,7 @@
         "max": 4
       },
       "_created": "2019-04-02T23:55:54.827Z",
-      "_updated": "2019-06-08T12:11:45.330Z",
+      "_updated": "2020-02-05T22:41:06.374Z",
       "bargain": [],
       "__v": 0,
       "loot": "5ca43eea3790357c7eb1cf1e",
@@ -1587,7 +1587,7 @@
       },
       "experience": 5,
       "_created": "2019-08-15T01:53:25.966Z",
-      "_updated": "2019-09-18T15:57:08.602Z",
+      "_updated": "2020-02-10T07:53:17.438Z",
       "bargain": [
         {
           "_id": "5d824412b97fb3557a7c2f55",
@@ -1603,18 +1603,6 @@
             {
               "_id": "5d824fc08ec2593cdf100757",
               "item": "5d824ee48ec25988c3100754"
-            },
-            {
-              "_id": "5d8253d48ec259e227100760",
-              "item": "5d8253798ec259648910075c"
-            },
-            {
-              "_id": "5d8253d48ec259051310075f",
-              "item": "5d82525f8ec259504810075a"
-            },
-            {
-              "_id": "5d8253d48ec25945b910075e",
-              "item": "5d8252e88ec259119e10075b"
             }
           ],
           "conditions": []
@@ -2116,7 +2104,7 @@
     },
     {
       "_id": "5dba3f56ff2c19053ddb6090",
-      "name": "Bodyguard",
+      "name": "Cartel Bodyguard",
       "strength": 4,
       "level": 10,
       "charisma": 1,
@@ -2132,7 +2120,7 @@
       },
       "experience": 20,
       "_created": "2019-10-31T01:56:38.304Z",
-      "_updated": "2019-10-31T01:57:35.605Z",
+      "_updated": "2020-02-10T05:39:12.244Z",
       "bargain": [],
       "__v": 0
     },
@@ -2154,13 +2142,13 @@
       },
       "experience": 200,
       "_created": "2019-10-31T01:59:24.909Z",
-      "_updated": "2019-10-31T01:59:24.909Z",
+      "_updated": "2020-02-03T19:24:04.706Z",
       "bargain": [],
       "__v": 0
     },
     {
       "_id": "5dba412cff2c1966abdb60bd",
-      "name": "The Other Bodyguard",
+      "name": "Cartel Bodyguard",
       "level": 10,
       "strength": 3,
       "charisma": 1,
@@ -2176,7 +2164,7 @@
       },
       "experience": 20,
       "_created": "2019-10-31T02:04:28.914Z",
-      "_updated": "2019-10-31T02:04:28.914Z",
+      "_updated": "2020-02-10T05:39:24.739Z",
       "bargain": [],
       "__v": 0
     },
@@ -2452,8 +2440,39 @@
       },
       "experience": 25,
       "_created": "2019-12-04T02:15:01.134Z",
-      "_updated": "2019-12-04T02:15:01.134Z",
-      "bargain": [],
+      "_updated": "2020-02-10T05:18:42.462Z",
+      "bargain": [
+        {
+          "_id": "5e405c356a062ff0e9162f46",
+          "items": [
+            {
+              "_id": "5e405c356a062f70e2162f4a",
+              "item": "5e40542b6a062f2015162f41"
+            },
+            {
+              "_id": "5e405c356a062fe58c162f49",
+              "item": "5e4056246a062fb588162f42"
+            },
+            {
+              "_id": "5e405c356a062f5107162f48",
+              "item": "5e4058526a062f6562162f43"
+            },
+            {
+              "_id": "5e405c356a062f49ce162f47",
+              "item": "5e405b5b6a062f1490162f45"
+            },
+            {
+              "_id": "5e406e946a062f84d0162ff4",
+              "item": "5e406e246a062f422a162ff2"
+            },
+            {
+              "_id": "5e40e7b26a062fc8a5163081",
+              "item": "5e40e7836a062f23ec16307f"
+            }
+          ],
+          "conditions": []
+        }
+      ],
       "__v": 0
     },
     {
@@ -2496,8 +2515,51 @@
       },
       "experience": 5,
       "_created": "2019-12-04T02:31:25.433Z",
-      "_updated": "2019-12-04T02:31:25.433Z",
-      "bargain": [],
+      "_updated": "2020-02-10T05:12:49.797Z",
+      "bargain": [
+        {
+          "_id": "5e406f756a062f1271162ffa",
+          "items": [
+            {
+              "_id": "5e406f756a062f2875162ffb",
+              "item": "5c7d67cefd6b49b561456b71"
+            },
+            {
+              "_id": "5e40e2ec6a062f3ba3163068",
+              "item": "5e40e2056a062f166f163061"
+            },
+            {
+              "_id": "5e40e2ec6a062f018a163067",
+              "item": "5e40de996a062f6ef9163060"
+            },
+            {
+              "_id": "5e40e2ec6a062f71a3163066",
+              "item": "5e40d9476a062f5f6c16305c"
+            },
+            {
+              "_id": "5e40e2ec6a062fb25e163065",
+              "item": "5e40dda96a062f5bad16305f"
+            },
+            {
+              "_id": "5e40e2ec6a062f719d163064",
+              "item": "5e40da356a062f7aea16305d"
+            },
+            {
+              "_id": "5e40e2ec6a062f0a8f163063",
+              "item": "5e40dadf6a062f4bb216305e"
+            },
+            {
+              "_id": "5e40e56a6a062f4f1416306c",
+              "item": "5e40e5126a062f3b6916306a"
+            },
+            {
+              "_id": "5e40e6516a062f0213163076",
+              "item": "5e40e61f6a062f100b163074"
+            }
+          ],
+          "conditions": []
+        }
+      ],
       "__v": 0
     },
     {
@@ -2596,9 +2658,10 @@
       },
       "experience": 50,
       "_created": "2019-12-17T17:23:24.026Z",
-      "_updated": "2019-12-25T14:02:01.142Z",
+      "_updated": "2020-02-07T03:48:59.216Z",
       "bargain": [],
-      "__v": 0
+      "__v": 0,
+      "loot": "5e3cde06e094785094338c0a"
     },
     {
       "_id": "5dfc0101f75a9742615a119d",
@@ -2723,16 +2786,67 @@
       "agility": 2,
       "health": 25,
       "armor": 5,
-      "attacksPerSecond": 1.5,
       "damage": {
         "min": 6,
-        "max": 9
+        "max": 13
       },
       "experience": 20,
       "_created": "2020-01-15T12:46:04.175Z",
-      "_updated": "2020-01-15T12:46:04.175Z",
-      "bargain": [],
-      "__v": 0
+      "_updated": "2020-02-06T02:00:18.648Z",
+      "bargain": [
+        {
+          "_id": "5e3b6a79e09478276333820c",
+          "items": [
+            {
+              "_id": "5e3b6a79e0947852dc33820d",
+              "item": "5c8e8003153140832b805840"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5e3b6e3ae09478150133820e",
+          "items": [
+            {
+              "_id": "5e3b6e3ae09478c52f33820f",
+              "item": "5d12279340fcff8734fb7f70"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5e3b6fd4e094780a20338213",
+          "items": [
+            {
+              "_id": "5e3b6fd4e09478bc34338214",
+              "item": "5e3b6fa5e09478d094338212"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5e3b727ae094780e5233821a",
+          "items": [
+            {
+              "_id": "5e3b727ae09478e11933821b",
+              "item": "5e3b7255e094783013338219"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5e3b7332e09478c5c6338223",
+          "items": [
+            {
+              "_id": "5e3b7332e094785fd1338224",
+              "item": "5e3b72ece09478cf58338222"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0,
+      "attacksPerSecond": 1
     },
     {
       "_id": "5e2559123a36bf00cf3e42ac",
@@ -3065,6 +3179,156 @@
       "_updated": "2020-01-21T14:33:27.473Z",
       "bargain": [],
       "__v": 0
+    },
+    {
+      "_id": "5e30e9b6541689317b995bd7",
+      "name": "Guard Dog",
+      "level": 12,
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 3,
+      "agility": 4,
+      "perception": 4,
+      "health": 40,
+      "armor": 0,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 6,
+        "max": 12
+      },
+      "experience": 50,
+      "_created": "2020-01-29T02:11:02.100Z",
+      "_updated": "2020-01-29T02:11:02.100Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e3b6841e09478b14c338200",
+      "name": "Nomad Merchant (S)",
+      "level": 11,
+      "strength": 2,
+      "charisma": 6,
+      "resilience": 2,
+      "agility": 2,
+      "perception": 3,
+      "health": 25,
+      "armor": 5,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 6,
+        "max": 13
+      },
+      "experience": 20,
+      "_created": "2020-02-06T01:13:37.221Z",
+      "_updated": "2020-02-06T03:06:05.801Z",
+      "bargain": [
+        {
+          "_id": "5e3b68b3e094786128338201",
+          "items": [
+            {
+              "_id": "5e3b68b3e09478b32c338202",
+              "item": "5d8104d2e6ecf308a0a2b6bf"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5e3b77eee0947863e6338230",
+          "items": [
+            {
+              "_id": "5e3b77eee09478b48d338231",
+              "item": "5e3b77cde09478125e33822f"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5e3b829de0947846d5338238",
+          "items": [
+            {
+              "_id": "5e3b829de09478ec3b338239",
+              "item": "5e3b826ae094788433338236"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5e3ead116a062f0242162ed4",
+      "name": "Preacher",
+      "level": 15,
+      "charisma": 9,
+      "strength": 1,
+      "perception": 7,
+      "agility": 1,
+      "resilience": 1,
+      "health": 40,
+      "armor": 3,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 1,
+        "max": 6
+      },
+      "experience": 10,
+      "_created": "2020-02-08T12:44:01.183Z",
+      "_updated": "2020-02-08T12:44:01.183Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e4f3b7ba74d95c247debafa",
+      "combatActions": [
+        "slam"
+      ],
+      "name": "Cartel Debt Collector",
+      "level": 12,
+      "strength": 7,
+      "charisma": 2,
+      "resilience": 4,
+      "agility": 1,
+      "perception": 2,
+      "health": 30,
+      "armor": 10,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 6,
+        "max": 22
+      },
+      "experience": 30,
+      "_created": "2020-02-21T02:07:55.737Z",
+      "_updated": "2020-02-21T17:23:54.325Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5e5011bfa74d95480edebdb4"
+    },
+    {
+      "_id": "5e4f3ed2a74d95fc2fdebafc",
+      "combatActions": [
+        "cut",
+        "parry"
+      ],
+      "name": "Cartel Paymaster",
+      "level": 12,
+      "strength": 2,
+      "perception": 6,
+      "agility": 2,
+      "resilience": 2,
+      "charisma": 4,
+      "health": 30,
+      "armor": 10,
+      "attacksPerSecond": 1.5,
+      "damage": {
+        "min": 5,
+        "max": 15
+      },
+      "experience": 35,
+      "_created": "2020-02-21T02:22:10.759Z",
+      "_updated": "2020-02-21T17:23:41.685Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5e5011eda74d952c48debdb7"
     }
   ]
 }

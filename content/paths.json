@@ -1,5 +1,5 @@
 {
-  "total": 191,
+  "total": 203,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -3676,8 +3676,17 @@
         }
       ],
       "_created": "2019-11-21T00:04:27.626Z",
-      "_updated": "2019-11-21T00:04:27.626Z",
-      "encounters": [],
+      "_updated": "2020-01-30T19:21:10.292Z",
+      "encounters": [
+        {
+          "scene": [
+            "5e332bd7c676f445e9866817"
+          ],
+          "_id": "5e332c88baf75700002f231f",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
       "__v": 0
     },
     {
@@ -3769,7 +3778,7 @@
       "from": "5de00c9af75a975e4459ec6b",
       "to": "5de00c78f75a97dcdd59ec69",
       "_created": "2019-11-29T02:03:08.585Z",
-      "_updated": "2019-11-29T02:08:47.337Z",
+      "_updated": "2020-02-25T23:35:10.772Z",
       "availability": [
         {
           "parameters": [
@@ -3782,9 +3791,62 @@
           ],
           "_id": "5de07daff75a97592459eeff",
           "type": "hasSeenOptionOutcome"
+        },
+        {
+          "parameters": [
+            [
+              "5e4dc7ffa74d95312ddeb538",
+              "5e4dc63b2da4ac0000be4bf2"
+            ]
+          ],
+          "_id": "5e559f90b723c2b3194ad8e0",
+          "type": "hasSeenNode",
+          "negate": true
         }
       ],
-      "encounters": [],
+      "encounters": [
+        {
+          "scene": [
+            "5e4ffde8a74d95233bdebcf2"
+          ],
+          "_id": "5e55af03244b400000a3cd10",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5e3ead846a062f0983162ed9",
+                  "5e4f703220372d0000a65450"
+                ]
+              ],
+              "_id": "5e55af2eb723c22c6a4ad9d5",
+              "type": "isOnObjective"
+            }
+          ],
+          "maxAccounts": 1
+        },
+        {
+          "scene": [
+            "5e4dc7ffa74d95312ddeb538",
+            "5e4dc63b2da4ac0000be4bf2"
+          ],
+          "_id": "5e559dda28445d0000612a20",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5de6c816f75a97cd5e59fa15",
+                  "5de6fdf64029a600006aac14",
+                  "5de7017d4029a600006aac16",
+                  "5e429de26454470000a36423"
+                ]
+              ],
+              "_id": "5e559e61b723c2d72b4ad8d9",
+              "type": "hasSeenOptionOutcome"
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
       "__v": 0
     },
     {
@@ -4111,14 +4173,50 @@
       "from": "5de00c78f75a97dcdd59ec69",
       "to": "5de6beb0f75a97810259fa14",
       "_created": "2019-12-04T00:50:04.313Z",
-      "_updated": "2019-12-04T00:52:34.450Z",
+      "_updated": "2020-02-25T22:35:54.487Z",
       "availability": [],
       "encounters": [
         {
-          "_id": "5de7032c4029a600006aac17",
+          "scene": [
+            "5e4dd1c0a74d9527d1deb556"
+          ],
+          "_id": "5e55a085a870c70000f9126b",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5e4dc83fa74d95063bdeb53e",
+                  "5e4dd2ff2da4ac0000be4c0b"
+                ]
+              ],
+              "_id": "5e55a14ab723c28f464ad8e8",
+              "type": "hasSeenNode"
+            }
+          ]
+        },
+        {
+          "scene": [
+            "5e4dc83fa74d95063bdeb53e"
+          ],
+          "_id": "5e55a005a870c70000f91269",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5e4dc7ffa74d95312ddeb538",
+                  "5e4dc63b2da4ac0000be4bf2"
+                ]
+              ],
+              "_id": "5e55a14ab723c283b64ad8e6",
+              "type": "hasSeenNode"
+            }
+          ]
+        },
+        {
           "scene": [
             "5de6d2e9f75a97718759fac4"
           ],
+          "_id": "5de7032c4029a600006aac17",
           "conditions": []
         }
       ],
@@ -4127,14 +4225,14 @@
     {
       "_id": "5de703a6f75a97078359fb89",
       "label": [
-        "Go back outside"
+        "Leave the church"
       ],
       "weight": 0,
       "map": false,
       "from": "5de6beb0f75a97810259fa14",
       "to": "5de00c78f75a97dcdd59ec69",
       "_created": "2019-12-04T00:53:58.592Z",
-      "_updated": "2019-12-04T00:53:58.592Z",
+      "_updated": "2020-02-11T12:34:12.993Z",
       "availability": [],
       "encounters": [],
       "__v": 0
@@ -4186,9 +4284,43 @@
       "from": "5de00c68f75a97045459ec68",
       "to": "5de00c78f75a97dcdd59ec69",
       "_created": "2019-12-04T02:03:34.061Z",
-      "_updated": "2019-12-04T02:03:34.061Z",
+      "_updated": "2020-02-25T22:25:22.878Z",
       "availability": [],
-      "encounters": [],
+      "encounters": [
+        {
+          "scene": [
+            "5e4dc7ffa74d95312ddeb538",
+            "5e4dc63b2da4ac0000be4bf2"
+          ],
+          "_id": "5e559e61f3490b00008e5b94",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5de6c816f75a97cd5e59fa15",
+                  "5de6fdf64029a600006aac14",
+                  "5de7017d4029a600006aac16",
+                  "5e429de26454470000a36423"
+                ]
+              ],
+              "_id": "5e559ed2b723c23ebd4ad8dc",
+              "type": "hasSeenOptionOutcome"
+            },
+            {
+              "parameters": [
+                [
+                  "5e4dc7ffa74d95312ddeb538",
+                  "5e4dc63b2da4ac0000be4bf2"
+                ]
+              ],
+              "_id": "5e559ed2b723c253db4ad8db",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
       "__v": 0
     },
     {
@@ -4277,9 +4409,43 @@
       "from": "5de00c88f75a977c8f59ec6a",
       "to": "5de00c78f75a97dcdd59ec69",
       "_created": "2019-12-04T20:58:08.073Z",
-      "_updated": "2019-12-04T20:58:08.073Z",
+      "_updated": "2020-02-25T22:26:58.453Z",
       "availability": [],
-      "encounters": [],
+      "encounters": [
+        {
+          "scene": [
+            "5e4dc7ffa74d95312ddeb538",
+            "5e4dc63b2da4ac0000be4bf2"
+          ],
+          "_id": "5e559ed35c580500001cfa8f",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5de6c816f75a97cd5e59fa15",
+                  "5de6fdf64029a600006aac14",
+                  "5de7017d4029a600006aac16",
+                  "5e429de26454470000a36423"
+                ]
+              ],
+              "_id": "5e559f32b723c273594ad8df",
+              "type": "hasSeenOptionOutcome"
+            },
+            {
+              "parameters": [
+                [
+                  "5e4dc7ffa74d95312ddeb538",
+                  "5e4dc63b2da4ac0000be4bf2"
+                ]
+              ],
+              "_id": "5e559f32b723c203244ad8de",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
       "__v": 0
     },
     {
@@ -4616,9 +4782,17 @@
       "from": "5e1e222c763433d7f45acd86",
       "to": "5de00c88f75a977c8f59ec6a",
       "_created": "2020-01-15T12:23:31.499Z",
-      "_updated": "2020-01-15T12:23:31.499Z",
+      "_updated": "2020-01-29T06:00:27.783Z",
       "availability": [],
-      "encounters": [],
+      "encounters": [
+        {
+          "scene": [
+            "5e311f3b541689056d995d5d"
+          ],
+          "_id": "5e311f57d35a840000706284",
+          "conditions": []
+        }
+      ],
       "__v": 0
     },
     {
@@ -4642,11 +4816,11 @@
         "Walk away"
       ],
       "weight": 0,
-      "map": false,
+      "map": true,
       "from": "5e1e223b76343304545acd87",
       "to": "5e1e222c763433d7f45acd86",
       "_created": "2020-01-15T13:29:57.501Z",
-      "_updated": "2020-01-15T14:00:49.200Z",
+      "_updated": "2020-02-08T11:38:44.039Z",
       "availability": [],
       "encounters": [],
       "__v": 0
@@ -4811,14 +4985,14 @@
     {
       "_id": "5e1f24aa763433f6115ace57",
       "label": [
-        "Open the gate"
+        "Approach the gate"
       ],
-      "weight": 0,
+      "weight": 1,
       "map": true,
       "from": "5e1e2249763433395b5acd88",
       "to": "5e1e223b76343304545acd87",
       "_created": "2020-01-15T14:41:46.310Z",
-      "_updated": "2020-01-16T09:13:19.061Z",
+      "_updated": "2020-02-08T02:49:18.720Z",
       "availability": [],
       "encounters": [
         {
@@ -4956,14 +5130,14 @@
     {
       "_id": "5e1f25e376343352505ace58",
       "label": [
-        "Approach the entrance"
+        "Approach the entrance to the Sleep Temple"
       ],
       "weight": 0,
       "map": true,
       "from": "5e1e2249763433395b5acd88",
       "to": "5e1e225b763433fdae5acd89",
       "_created": "2020-01-15T14:46:59.290Z",
-      "_updated": "2020-01-15T14:46:59.290Z",
+      "_updated": "2020-02-08T02:49:26.470Z",
       "availability": [],
       "encounters": [],
       "__v": 0
@@ -5347,6 +5521,321 @@
       "_updated": "2020-01-23T05:39:43.903Z",
       "availability": [],
       "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e30d53154168978ec995b87",
+      "label": [
+        "Enter the atrium"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5e1e242d763433146b5acd96",
+      "to": "5e1e241e763433afbd5acd95",
+      "_created": "2020-01-29T00:43:29.175Z",
+      "_updated": "2020-01-29T00:43:29.175Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e30d5655416897920995b88",
+      "label": [
+        "Enter the corridor"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5e1e241e763433afbd5acd95",
+      "to": "5e1e242d763433146b5acd96",
+      "_created": "2020-01-29T00:44:21.840Z",
+      "_updated": "2020-01-29T00:44:21.840Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e30d647541689b56c995b89",
+      "label": [
+        "Enter the armory"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5e1e241e763433afbd5acd95",
+      "to": "5e1e2450763433e00f5acd98",
+      "_created": "2020-01-29T00:48:07.813Z",
+      "_updated": "2020-01-29T04:36:57.315Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5e26c2923a36bf3afd3e46e8",
+              "5e30d4ab9acd370000872c4c",
+              "5e30e0529acd370000872c4f"
+            ]
+          ],
+          "_id": "5e310be9541689f946995d57",
+          "type": "hasUsedOption"
+        }
+      ],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e30d67e5416892879995b8a",
+      "label": [
+        "Enter the atrium"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5e1e2450763433e00f5acd98",
+      "to": "5e1e241e763433afbd5acd95",
+      "_created": "2020-01-29T00:49:02.054Z",
+      "_updated": "2020-01-29T00:49:02.054Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e30d6d35416892fef995b8b",
+      "label": [
+        "Approach the rusty iron door"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5e1e2450763433e00f5acd98",
+      "to": "5e1e243e763433618d5acd97",
+      "_created": "2020-01-29T00:50:27.874Z",
+      "_updated": "2020-01-29T06:36:02.648Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5e26c2d43a36bf2bfe3e46ea",
+              "5e30a9b629e5f700000283eb",
+              "5e311fbed35a840000706285",
+              "5e311fced35a840000706286"
+            ]
+          ],
+          "_id": "5e312129541689a038995d68",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "scene": [
+            "5e3126fc54168974ad995d8a"
+          ],
+          "_id": "5e312707d35a840000706295",
+          "conditions": [
+            {
+              "parameters": [
+                "5e1e243e763433618d5acd97"
+              ],
+              "_id": "5e3127d254168958ac995d95",
+              "type": "hasSeenLocation",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5e30d704541689d58f995b8c",
+      "label": [
+        "Enter the armory"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5e1e243e763433618d5acd97",
+      "to": "5e1e2450763433e00f5acd98",
+      "_created": "2020-01-29T00:51:16.409Z",
+      "_updated": "2020-01-29T00:51:16.409Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e30d786541689a4ab995b8d",
+      "label": [
+        "Explore the narrow passage"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5e1e243e763433618d5acd97",
+      "to": "5e1e241176343310525acd94",
+      "_created": "2020-01-29T00:53:26.211Z",
+      "_updated": "2020-01-29T07:41:42.446Z",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5e26c31f3a36bf45c83e46eb",
+              "5e272978d1858100006a0360",
+              "5e31325930319f0000b3ab77",
+              "5e31335630319f0000b3ab78"
+            ]
+          ],
+          "_id": "5e313736541689210a995da1",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "encounters": [
+        {
+          "scene": [
+            "5e30e44e5416894602995b9c"
+          ],
+          "_id": "5e30f4349acd370000872c7b",
+          "conditions": [
+            {
+              "parameters": [
+                "5e1e241176343310525acd94"
+              ],
+              "_id": "5e3127fc541689fe08995d97",
+              "type": "hasSeenLocation",
+              "negate": true
+            }
+          ]
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5e30d7b65416893607995b8e",
+      "label": [
+        "Return to the torture chamber"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5e1e241176343310525acd94",
+      "to": "5e1e243e763433618d5acd97",
+      "_created": "2020-01-29T00:54:14.808Z",
+      "_updated": "2020-01-29T00:54:14.808Z",
+      "availability": [],
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e310c5f541689fbf9995d58",
+      "label": [
+        "Enter the master bedroom"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5e1e241e763433afbd5acd95",
+      "to": "5e1e23c376343352025acd92",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5e26c2923a36bf3afd3e46e8",
+              "5e30d4ab9acd370000872c4c",
+              "5e30e05d9acd370000872c50"
+            ]
+          ],
+          "_id": "5e310c5f54168933c8995d59",
+          "type": "hasUsedOption"
+        }
+      ],
+      "_created": "2020-01-29T04:38:55.764Z",
+      "_updated": "2020-01-29T19:26:37.279Z",
+      "encounters": [
+        {
+          "scene": [
+            "5e31dc445416897d949964bb"
+          ],
+          "_id": "5e31dc4ec407c00000318145",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5e31e433541689b5729964cf",
+      "label": [
+        "Enter the atrium"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5e1e23c376343352025acd92",
+      "to": "5e1e241e763433afbd5acd95",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5e26c2a83a36bff4b13e46e9",
+              "5e30d48f9acd370000872c4b",
+              "5e31e1bbc407c00000318146",
+              "5e31e1d9c407c00000318147"
+            ]
+          ],
+          "_id": "5e31e43354168994829964d0",
+          "type": "hasSeenOptionOutcome"
+        }
+      ],
+      "_created": "2020-01-29T19:59:47.541Z",
+      "_updated": "2020-02-05T08:36:19.929Z",
+      "encounters": [
+        {
+          "scene": [
+            "5e36e64ee09478c0573342f8"
+          ],
+          "_id": "5e3a7e4c01da360000e339aa",
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5e55a7a7b723c266544ad983",
+      "label": [
+        "Go to the Servants' Quarters"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00c9af75a975e4459ec6b",
+      "to": "5de00cbff75a97437d59ec6d",
+      "availability": [
+        {
+          "parameters": [
+            [
+              "5e3eacc46a062f7a9f162ed3",
+              "5e4ec76e007065000074ba08",
+              "5e4ec774007065000074ba09"
+            ]
+          ],
+          "_id": "5e55a7a7b723c2b6004ad984",
+          "type": "hasUsedOption"
+        }
+      ],
+      "_created": "2020-02-25T23:03:03.713Z",
+      "_updated": "2020-02-25T23:03:03.713Z",
+      "encounters": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e55a7ccb723c29b6b4ad985",
+      "label": [
+        "Return to Lord's Boulevard"
+      ],
+      "weight": 0,
+      "map": true,
+      "from": "5de00cbff75a97437d59ec6d",
+      "to": "5de00c9af75a975e4459ec6b",
+      "_created": "2020-02-25T23:03:40.477Z",
+      "_updated": "2020-02-25T23:25:51.362Z",
+      "availability": [],
+      "encounters": [
+        {
+          "scene": [
+            "5e4f7657a74d95d28adebc62"
+          ],
+          "_id": "5e55ace3244b400000a3cd0e",
+          "conditions": [],
+          "maxAccounts": 1
+        }
+      ],
       "__v": 0
     }
   ]

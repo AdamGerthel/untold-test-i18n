@@ -1,5 +1,5 @@
 {
-  "total": 65,
+  "total": 72,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -4638,6 +4638,192 @@
       ],
       "_created": "2020-01-23T16:20:20.391Z",
       "_updated": "2020-01-23T20:14:42.628Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e30babe541689c46b995962",
+      "gold": [
+        3,
+        6
+      ],
+      "name": "Dormitory: Chest of Drawers 1",
+      "bundles": [
+        {
+          "_id": "5e30babe5416897011995963",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                2
+              ],
+              "_id": "5e30babe54168929df995964",
+              "probability": 1,
+              "item": "5def297ff75a97ff0359fc51"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-01-28T22:50:38.568Z",
+      "_updated": "2020-01-28T22:50:38.568Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e30baee541689d64e995965",
+      "gold": [],
+      "name": "Dormitory: Chest of Drawers 3",
+      "_created": "2020-01-28T22:51:26.887Z",
+      "_updated": "2020-01-28T22:52:01.252Z",
+      "bundles": [
+        {
+          "_id": "5e30bb11541689267b995966",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                2
+              ],
+              "_id": "5e30bb11541689515f995967",
+              "probability": 1,
+              "item": "5cb35965c065f048a294337f"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5e31fd6f5416891baf996733",
+      "gold": [],
+      "name": "Wardrobe: Hidden Compartment",
+      "bundles": [
+        {
+          "_id": "5e31fd6f5416897d2f996734",
+          "items": [
+            {
+              "quantityRange": [
+                3,
+                5
+              ],
+              "_id": "5e31fd6f541689696e996735",
+              "probability": 1,
+              "item": "5cb35965c065f048a294337f"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-01-29T21:47:27.629Z",
+      "_updated": "2020-01-29T21:47:27.629Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e3cde06e094785094338c0a",
+      "gold": [
+        21,
+        32
+      ],
+      "name": "Cleo Verdandi",
+      "bundles": [],
+      "_created": "2020-02-07T03:48:22.444Z",
+      "_updated": "2020-02-07T03:50:53.517Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e5011bfa74d95480edebdb4",
+      "gold": [
+        25,
+        49
+      ],
+      "name": "Debt-Collector",
+      "bundles": [
+        {
+          "_id": "5e5011bfa74d95937bdebdb5",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e5011bfa74d95cadbdebdb6",
+              "probability": 1,
+              "item": "5e4f677da74d95a136debc2e"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5e55c1a5b723c29ca34adf7b",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e55c1a5b723c24ade4adf7c",
+              "probability": 1,
+              "item": "5e55b456b723c287fd4adb7b"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-02-21T17:22:07.010Z",
+      "_updated": "2020-02-26T00:53:57.328Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e5011eda74d952c48debdb7",
+      "gold": [
+        31,
+        119
+      ],
+      "name": "Paymaster",
+      "bundles": [
+        {
+          "_id": "5e5011eda74d952040debdb8",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e5011eda74d951a51debdb9",
+              "probability": 1,
+              "item": "5e4f68fda74d958aeadebc2f"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-02-21T17:22:53.826Z",
+      "_updated": "2020-02-21T17:22:53.826Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e55b40fb723c22dfe4adb7a",
+      "gold": [],
+      "name": "Apple Orchard",
+      "bundles": [
+        {
+          "_id": "5e55b480b723c264b24adb7d",
+          "items": [
+            {
+              "quantityRange": [
+                3,
+                7
+              ],
+              "_id": "5e55b480b723c232694adb7e",
+              "probability": 1,
+              "item": "5e55b456b723c287fd4adb7b"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-02-25T23:55:59.666Z",
+      "_updated": "2020-02-25T23:57:52.985Z",
       "__v": 0
     }
   ]

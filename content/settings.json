@@ -15,6 +15,7 @@
     "fight": {
       "audio": {
         "loop": true,
+        "volume": 1,
         "media": "5e10ce4576343396915ac8df",
         "track": 1,
         "continueFromPreviousPosition": false
