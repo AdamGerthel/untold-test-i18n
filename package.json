@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "update": "node scripts/update.js"
+    "update": "node scripts/update.js",
+    "update:content": "ONLY=content node scripts/update.js"
   },
   "dependencies": {
     "dotenv": "^8.1.0",

@@ -35,6 +35,11 @@ const init = async function () {
 
     await fs.promises.writeFile('content/index.js', `module.exports = {${contentIndex}\n}`)
 
+    if (process.env.ONLY === 'content') {
+      console.log('Content updated 💫')
+      process.exit()
+    }
+
     const media = JSON.parse(data[resources.indexOf('media')])
 
     // Download and save audio
