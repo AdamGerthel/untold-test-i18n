@@ -861,7 +861,7 @@
       },
       "area": "5c8a77b3190288bd85f94cc9",
       "_created": "2019-04-07T19:32:59.896Z",
-      "_updated": "2020-01-24T11:59:23.232Z",
+      "_updated": "2020-02-27T22:23:56.954Z",
       "states": [
         {
           "scene": [
@@ -876,9 +876,10 @@
       "audio": [
         {
           "loop": true,
-          "media": "5e28b570ff9041d0358e68be",
+          "volume": 1,
           "track": 1,
-          "continueFromPreviousPosition": true
+          "continueFromPreviousPosition": true,
+          "media": "5e46d822a74d955961de4cb5"
         }
       ]
     },
@@ -3670,11 +3671,11 @@
       "area": "5e1df829763433417b5acd81",
       "name": "Sandstone Path",
       "coordinates": {
-        "x": 54,
-        "y": 157
+        "x": 211,
+        "y": 209
       },
       "_created": "2020-01-14T20:18:52.370Z",
-      "_updated": "2020-02-13T21:29:44.370Z",
+      "_updated": "2020-02-26T22:39:58.323Z",
       "states": [
         {
           "scene": [
@@ -3767,11 +3768,11 @@
       "name": "Gate",
       "area": "5e1df829763433417b5acd81",
       "coordinates": {
-        "x": 64,
-        "y": 77
+        "x": 121,
+        "y": 209
       },
       "_created": "2020-01-14T20:19:07.115Z",
-      "_updated": "2020-02-13T21:29:36.831Z",
+      "_updated": "2020-02-26T22:39:45.978Z",
       "states": [
         {
           "scene": [
@@ -3864,11 +3865,11 @@
       "name": "Walled Garden",
       "area": "5e1df829763433417b5acd81",
       "coordinates": {
-        "x": 144,
-        "y": 77
+        "x": 151,
+        "y": 172
       },
       "_created": "2020-01-14T20:19:21.080Z",
-      "_updated": "2020-02-13T21:29:54.115Z",
+      "_updated": "2020-02-26T22:39:34.618Z",
       "states": [
         {
           "scene": [
@@ -3887,11 +3888,11 @@
       "name": "Main Entrance",
       "area": "5e1df829763433417b5acd81",
       "coordinates": {
-        "x": 204,
-        "y": 50
+        "x": 126,
+        "y": 113
       },
       "_created": "2020-01-14T20:19:39.231Z",
-      "_updated": "2020-02-13T21:29:30.278Z",
+      "_updated": "2020-02-26T22:39:25.822Z",
       "states": [
         {
           "scene": [
@@ -3910,11 +3911,11 @@
       "name": "Backyard",
       "area": "5e1df829763433417b5acd81",
       "coordinates": {
-        "x": 264,
-        "y": 77
+        "x": 151,
+        "y": 70
       },
       "_created": "2020-01-14T20:19:58.016Z",
-      "_updated": "2020-01-15T16:31:01.192Z",
+      "_updated": "2020-02-26T22:39:15.018Z",
       "states": [
         {
           "scene": [
@@ -3925,7 +3926,8 @@
         }
       ],
       "__v": 0,
-      "audio": null
+      "audio": null,
+      "background": "5e56e2a0b723c2a92a4af0e0"
     },
     {
       "_id": "5e1e22aa763433140d5acd8b",
@@ -3936,7 +3938,7 @@
         "y": 98
       },
       "_created": "2020-01-14T20:20:58.583Z",
-      "_updated": "2020-01-20T20:12:13.508Z",
+      "_updated": "2020-02-26T22:31:39.928Z",
       "states": [
         {
           "scene": [
@@ -3947,7 +3949,8 @@
         }
       ],
       "__v": 0,
-      "audio": null
+      "audio": null,
+      "background": "5e56e4e0b723c23c424af0e5"
     },
     {
       "_id": "5e1e22bf76343354b95acd8c",
@@ -3958,7 +3961,7 @@
         "y": 98
       },
       "_created": "2020-01-14T20:21:19.784Z",
-      "_updated": "2020-01-22T17:40:44.628Z",
+      "_updated": "2020-02-26T22:29:16.733Z",
       "states": [
         {
           "scene": [
@@ -3987,7 +3990,8 @@
         }
       ],
       "__v": 0,
-      "audio": null
+      "audio": null,
+      "background": "5e56e4e0b723c2b7744af0e2"
     },
     {
       "_id": "5e1e22cf7634337ce85acd8d",
@@ -3998,7 +4002,7 @@
         "y": 45
       },
       "_created": "2020-01-14T20:21:35.657Z",
-      "_updated": "2020-01-20T21:00:42.079Z",
+      "_updated": "2020-02-26T22:32:00.513Z",
       "states": [
         {
           "scene": [
@@ -4009,7 +4013,8 @@
         }
       ],
       "__v": 0,
-      "audio": null
+      "audio": null,
+      "background": "5e56e4e0b723c2b7744af0e2"
     },
     {
       "_id": "5e1e22e1763433b5e05acd8e",
@@ -4020,7 +4025,7 @@
         "y": 98
       },
       "_created": "2020-01-14T20:21:53.164Z",
-      "_updated": "2020-01-22T15:11:56.520Z",
+      "_updated": "2020-02-26T22:30:22.154Z",
       "states": [
         {
           "scene": [
@@ -4049,7 +4054,8 @@
         }
       ],
       "__v": 0,
-      "audio": null
+      "audio": null,
+      "background": "5e56e4e0b723c287444af0e3"
     },
     {
       "_id": "5e1e230a76343313cf5acd8f",
@@ -4060,7 +4066,7 @@
         "y": 45
       },
       "_created": "2020-01-14T20:22:34.160Z",
-      "_updated": "2020-01-22T15:13:21.291Z",
+      "_updated": "2020-02-26T22:30:08.236Z",
       "states": [
         {
           "scene": [
@@ -4089,7 +4095,8 @@
         }
       ],
       "__v": 0,
-      "audio": null
+      "audio": null,
+      "background": "5e56e4e0b723c253244af0e1"
     },
     {
       "_id": "5e1e235d76343349215acd90",
@@ -4100,7 +4107,7 @@
       },
       "area": "5e1e21fd763433db695acd84",
       "_created": "2020-01-14T20:23:57.355Z",
-      "_updated": "2020-02-06T16:51:29.659Z",
+      "_updated": "2020-02-26T22:28:58.884Z",
       "states": [
         {
           "scene": [
@@ -4111,7 +4118,8 @@
         }
       ],
       "__v": 0,
-      "audio": null
+      "audio": null,
+      "background": "5e56e500b723c284154af0e7"
     },
     {
       "_id": "5e1e238c76343363815acd91",
@@ -4122,7 +4130,7 @@
         "y": 146
       },
       "_created": "2020-01-14T20:24:44.356Z",
-      "_updated": "2020-02-06T16:51:15.118Z",
+      "_updated": "2020-02-26T22:29:07.609Z",
       "states": [
         {
           "scene": [
@@ -4133,7 +4141,8 @@
         }
       ],
       "__v": 0,
-      "audio": null
+      "audio": null,
+      "background": "5e56e4e1b723c26dec4af0e6"
     },
     {
       "_id": "5e1e23c376343352025acd92",

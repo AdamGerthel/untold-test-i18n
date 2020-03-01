@@ -416,6 +416,11 @@
     },
     {
       "_id": "5c803d1c0e37485847c6019a",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
       "name": "Red Apple",
       "description": "Fruit. Restores a small amount of health.",
       "tier": "1",
@@ -425,16 +430,17 @@
         "actions": [
           {
             "parameters": [
-              "1"
+              "2",
+              ""
             ],
-            "_id": "5c803d1c0e37483cb0c6019b",
+            "_id": "5e577729b723c26c244af2a8",
             "type": "changeHealth"
           }
         ]
       },
       "_created": "2019-03-06T21:35:24.150Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:19:29.739Z",
+      "_updated": "2020-02-27T08:00:41.379Z",
       "value": 1
     },
     {
@@ -462,6 +468,11 @@
     },
     {
       "_id": "5c803dc90e3748ec29c6019e",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
       "name": "Pear",
       "description": "Fruit. Restores a small amount of health.",
       "tier": "1",
@@ -471,20 +482,26 @@
         "actions": [
           {
             "parameters": [
-              "2"
+              "4",
+              ""
             ],
-            "_id": "5c803dc90e374886edc6019f",
+            "_id": "5e577917b723c22a284af2ab",
             "type": "changeHealth"
           }
         ]
       },
       "_created": "2019-03-06T21:38:17.449Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:19:06.798Z",
+      "_updated": "2020-02-27T08:08:55.009Z",
       "value": 1
     },
     {
       "_id": "5c803e190e374836d8c601a0",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
       "name": "Dog Steak",
       "description": "The charred flesh of a wild mongrel. Restores a small amount of health.",
       "tier": "1",
@@ -494,9 +511,10 @@
         "actions": [
           {
             "parameters": [
-              "5"
+              "6",
+              ""
             ],
-            "_id": "5c803e190e37485390c601a1",
+            "_id": "5e57773ab723c20d754af2a9",
             "type": "changeHealth"
           }
         ]
@@ -504,7 +522,7 @@
       "_created": "2019-03-06T21:39:37.178Z",
       "__v": 0,
       "value": 1,
-      "_updated": "2019-04-08T15:05:54.991Z"
+      "_updated": "2020-02-27T08:00:58.821Z"
     },
     {
       "_id": "5c8042c70e374820e1c601bc",
@@ -2451,6 +2469,11 @@
     },
     {
       "_id": "5ca47f3a3790358a93b1d0c6",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
       "name": "Pale Hyacinth",
       "description": "Ingredient. A white and yellow flower. Incredibly rare.",
       "tier": "4",
@@ -2459,21 +2482,29 @@
         "actions": [
           {
             "parameters": [
-              "-1"
+              "-1",
+              [
+                "A flower so delicate and beautiful - of course it's edible. Or maybe not. You feel dizzy. Strange apparitions begin to appear. Delirious, you collapse on the ground and lose consciousness."
+              ]
             ],
-            "_id": "5ca47f3a379035458eb1d0c7",
+            "_id": "5e57907bb723c2172a4af606",
             "type": "changeHealth"
           }
         ],
         "uses": 1
       },
       "_created": "2019-04-03T09:39:06.890Z",
-      "_updated": "2019-04-08T15:17:47.892Z",
+      "_updated": "2020-02-27T09:48:43.183Z",
       "__v": 0,
       "value": 30
     },
     {
       "_id": "5ca47fcc379035f6ffb1d0c8",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
       "name": "Luminous Rose",
       "description": "Ingredient. A white rose, famously exuberant in moonlight. Rarely found on Tem Khiris.",
       "tier": "3",
@@ -2482,16 +2513,19 @@
         "actions": [
           {
             "parameters": [
-              "-1"
+              "-1",
+              [
+                "A flower so beautiful, it's breathtaking. Literally. Slowly, your throat swells up, giving you time to reflect on this cautionary tale."
+              ]
             ],
-            "_id": "5ca47fcc3790355a9cb1d0c9",
+            "_id": "5e578fbdb723c210aa4af605",
             "type": "changeHealth"
           }
         ],
         "uses": 1
       },
       "_created": "2019-04-03T09:41:32.173Z",
-      "_updated": "2019-04-08T15:17:31.707Z",
+      "_updated": "2020-02-27T09:45:33.765Z",
       "__v": 0,
       "value": 10
     },
@@ -2520,6 +2554,11 @@
     },
     {
       "_id": "5ca4826c379035b0eeb1d0cf",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
       "name": "Cloud Petal",
       "description": "Ingredient. Once plucked from the rare flower known as Nierva's Crown, this petal quickly hardens into a pale shard, presently sharp enough to pierce your skin.",
       "tier": "3",
@@ -2529,20 +2568,28 @@
         "actions": [
           {
             "parameters": [
-              "-5"
+              "-5",
+              [
+                "You soon realize that eating those sharp petals was a bad idea. Feeling nauseous and woozy, you drop to your knees and vomit blood on the ground. This goes on for a while, until you finally lose consciousness. A painful death, if there ever was one."
+              ]
             ],
-            "_id": "5ca4826c37903583efb1d0d0",
+            "_id": "5e57956fb723c277844af609",
             "type": "changeHealth"
           }
         ]
       },
       "_created": "2019-04-03T09:52:44.080Z",
-      "_updated": "2019-04-08T15:15:40.898Z",
+      "_updated": "2020-02-27T10:09:51.553Z",
       "__v": 0,
       "value": 10
     },
     {
       "_id": "5ca483ff37903581f4b1d0d1",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
       "name": "Noxious Weed",
       "description": "Ingredient. Commonly found on Tem Khiris, these poisonous leaves are frequently used in various medicinal concoctions.",
       "tier": "1",
@@ -2551,21 +2598,29 @@
         "actions": [
           {
             "parameters": [
-              "-2"
+              "-2",
+              [
+                "You chew on the poisonous plant until you begin to feel sick. Sweating profusely, you find it hard to breathe. After a short while, you collapse on the ground, choking to death."
+              ]
             ],
-            "_id": "5ca483ff379035b990b1d0d2",
+            "_id": "5e578e71b723c2f4044af604",
             "type": "changeHealth"
           }
         ],
         "uses": 1
       },
       "_created": "2019-04-03T09:59:27.843Z",
-      "_updated": "2019-04-08T15:16:38.107Z",
+      "_updated": "2020-02-27T09:40:01.635Z",
       "__v": 0,
       "value": 1
     },
     {
       "_id": "5ca484f73790351c66b1d0d3",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
       "name": "Toxic Nettle",
       "description": "Ingredient. Commonly used by medical practitioners among the nomads and druids of Tem Khiris. May counter the adverse effects of other poisonous substances.",
       "tier": "3",
@@ -2575,20 +2630,28 @@
         "actions": [
           {
             "parameters": [
-              "-2"
+              "-2",
+              [
+                "They call it \"toxic\" for a reason. In spite of this, you devoured the poisonous plant. And guess what? You're dead. Funny how things work out."
+              ]
             ],
-            "_id": "5ca484f7379035f0b6b1d0d4",
+            "_id": "5e578defb723c275604af603",
             "type": "changeHealth"
           }
         ]
       },
       "_created": "2019-04-03T10:03:35.534Z",
-      "_updated": "2019-04-08T15:16:14.747Z",
+      "_updated": "2020-02-27T09:37:51.618Z",
       "__v": 0,
       "value": 5
     },
     {
       "_id": "5ca486213790355c57b1d0d5",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
       "name": "Thorn of Meym",
       "description": "Ingredient. Taken from the spiky shrub known as Meym's Beard, found exclusively on the Isle of Dusk. Incredibly potent poison can be extracted from these dark branches.",
       "tier": "4",
@@ -2597,16 +2660,19 @@
         "actions": [
           {
             "parameters": [
-              "-25"
+              "-25",
+              [
+                "Your gums bleed when you try to chew the dark twigs. Maybe this wasn't such a great idea. A few seconds later, you fall flat on the ground, completely paralyzed. Trembling uncontrollably, you endure infathomable torment until your heart finally stops beating. Sometimes, death can be a relief."
+              ]
             ],
-            "_id": "5ca4862137903521bcb1d0d6",
+            "_id": "5e579430b723c21a474af608",
             "type": "changeHealth"
           }
         ],
         "uses": 1
       },
       "_created": "2019-04-03T10:08:33.299Z",
-      "_updated": "2019-04-08T15:07:52.964Z",
+      "_updated": "2020-02-27T10:04:32.004Z",
       "__v": 0,
       "value": 40
     },
@@ -4685,6 +4751,7 @@
         "passives": []
       },
       "slot": [],
+      "combatActions": [],
       "name": "Miracle Cure",
       "description": "This glass vial contains a strange brew. It smells like alcohol.",
       "value": 10,
@@ -4694,16 +4761,19 @@
         "actions": [
           {
             "parameters": [
-              "-1"
+              "-1",
+              [
+                "Having tasted the strange brew, you begin to question the medical expertise of the nomads. Not only does it taste horrible, it actually seems to be toxic. Realizing that you've fallen prey to false advertising, you feel drunk and nauseous. Finally, you collapse and lose consciousness. Unfortunately, you never wake up again."
+              ]
             ],
-            "_id": "5cf7b0dec3e78f31335c2de3",
+            "_id": "5e5791feb723c2e48e4af607",
             "type": "changeHealth"
           }
         ],
         "uses": 3
       },
       "_created": "2019-06-05T12:09:02.448Z",
-      "_updated": "2019-06-05T12:09:02.448Z",
+      "_updated": "2020-02-27T09:55:10.542Z",
       "__v": 0
     },
     {

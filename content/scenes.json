@@ -1747,12 +1747,13 @@
       ],
       "_created": "2019-03-11T01:28:16.914Z",
       "__v": 0,
-      "_updated": "2020-01-24T11:51:27.885Z",
+      "_updated": "2020-02-27T07:26:25.367Z",
       "background": "5da38f7cc55b7f3ce9f5287b",
       "audio": [
         {
           "loop": true,
-          "media": "5e28b571ff904162c38e68c2",
+          "volume": 1,
+          "media": "5e46d825a74d958420de4cbf",
           "continueFromPreviousPosition": true,
           "track": 2
         }
@@ -13464,16 +13465,9 @@
         }
       ],
       "_created": "2019-04-07T20:14:36.857Z",
-      "_updated": "2020-01-24T10:47:54.433Z",
+      "_updated": "2020-02-27T22:22:44.746Z",
       "__v": 0,
-      "audio": [
-        {
-          "loop": true,
-          "track": 1,
-          "continueFromPreviousPosition": true,
-          "media": "5e28b570ff9041d0358e68be"
-        }
-      ]
+      "audio": []
     },
     {
       "_id": "5caa5f0337903570d7b218b2",
@@ -13961,7 +13955,7 @@
       "cutScene": false,
       "name": "Chamber of Nemesis (interior)",
       "_created": "2019-04-07T21:37:20.830Z",
-      "_updated": "2020-02-01T18:34:44.921Z",
+      "_updated": "2020-02-27T07:57:14.745Z",
       "nodes": [
         {
           "autoSave": {
@@ -14190,7 +14184,7 @@
               "volume": 1,
               "media": "5e10ce4576343396915ac8df",
               "track": 1,
-              "continueFromPreviousPosition": true
+              "continueFromPreviousPosition": false
             }
           ]
         },
@@ -72820,7 +72814,7 @@
       "cutScene": false,
       "name": "Bast Encounter: Mantis",
       "_created": "2019-10-31T01:31:29.681Z",
-      "_updated": "2020-01-24T00:14:11.042Z",
+      "_updated": "2020-02-27T09:13:35.596Z",
       "nodes": [
         {
           "autoSave": {
@@ -73328,7 +73322,19 @@
               ],
               "_id": "5dba48916d5dfb0000ec73bb",
               "actions": [],
-              "outcomes": [],
+              "outcomes": [
+                {
+                  "_id": "5e57856f49a24a00006d28e9",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5dba48d86d5dfb0000ec73bd"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
               "maxAccounts": 1,
               "availability": []
             }
@@ -73420,7 +73426,16 @@
                       ]
                     ]
                   },
-                  "actions": [],
+                  "actions": [
+                    {
+                      "parameters": [
+                        "-15",
+                        "1"
+                      ],
+                      "_id": "5e57883fb723c23cb14af5cc",
+                      "type": "changeHealthLimited"
+                    }
+                  ],
                   "conditions": []
                 }
               ],
@@ -73445,7 +73460,16 @@
                       ]
                     ]
                   },
-                  "actions": [],
+                  "actions": [
+                    {
+                      "parameters": [
+                        "-100",
+                        "1"
+                      ],
+                      "_id": "5e57883fb723c2fece4af5c9",
+                      "type": "changeHealthLimited"
+                    }
+                  ],
                   "conditions": []
                 }
               ],
@@ -73488,11 +73512,9 @@
                 {
                   "_id": "5dba4c796d5dfb0000ec73ce",
                   "event": {
-                    "type": "narrative",
+                    "type": "node",
                     "parameters": [
-                      [
-                        "A crimson hallway. You’re standing in line with the others. So many different faces, none of them familiar. Except one. Looking over her shoulder, Rasleen stands in front of you. She smiles: “At least we gave it our best shot…”"
-                      ]
+                      "5e57800c49a24a00006d28d2"
                     ]
                   },
                   "actions": [],
@@ -73502,16 +73524,30 @@
               "maxAccounts": 1,
               "parent": "5dba4bac6d5dfb0000ec73cb",
               "availability": []
-            },
+            }
+          ],
+          "audio": []
+        },
+        {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
+          "narrative": [
+            "A crimson hallway. You’re standing in line with the others. So many different faces, none of them familiar. Except one. Looking over her shoulder, Rasleen stands in front of you. She smiles: “At least we gave it our best shot…”"
+          ],
+          "cutScene": true,
+          "_id": "5e57800c49a24a00006d28d2",
+          "options": [
             {
               "label": [
                 "Where are we?"
               ],
-              "_id": "5dba4cc06d5dfb0000ec73cf",
+              "_id": "5e57808049a24a00006d28d3",
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5dba4ce16d5dfb0000ec73d0",
+                  "_id": "5e57809b49a24a00006d28d4",
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -73525,18 +73561,17 @@
                 }
               ],
               "maxAccounts": 1,
-              "parent": "5dba4bc46d5dfb0000ec73cd",
               "availability": []
             },
             {
               "label": [
                 "Behold"
               ],
-              "_id": "5dba4d436d5dfb0000ec73d1",
+              "_id": "5e5780d649a24a00006d28d5",
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5dba4d506d5dfb0000ec73d2",
+                  "_id": "5e5780dd49a24a00006d28d6",
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -73550,18 +73585,18 @@
                 }
               ],
               "maxAccounts": 1,
-              "parent": "5dba4cc06d5dfb0000ec73cf",
+              "parent": "5e57808049a24a00006d28d3",
               "availability": []
             },
             {
               "label": [
                 "Move forward"
               ],
-              "_id": "5dba4dc16d5dfb0000ec73d3",
+              "_id": "5e57811a49a24a00006d28d7",
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5dba4dd26d5dfb0000ec73d4",
+                  "_id": "5e57811d49a24a00006d28d8",
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -73575,18 +73610,18 @@
                 }
               ],
               "maxAccounts": 1,
-              "parent": "5dba4d436d5dfb0000ec73d1",
+              "parent": "5e5780d649a24a00006d28d5",
               "availability": []
             },
             {
               "label": [
                 "Farewell"
               ],
-              "_id": "5dba4e0f6d5dfb0000ec73d5",
+              "_id": "5e57818349a24a00006d28d9",
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5dba4e226d5dfb0000ec73d6",
+                  "_id": "5e57819049a24a00006d28da",
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -73600,18 +73635,18 @@
                 }
               ],
               "maxAccounts": 1,
-              "parent": "5dba4dc16d5dfb0000ec73d3",
+              "parent": "5e57811a49a24a00006d28d7",
               "availability": []
             },
             {
               "label": [
                 "Step forward"
               ],
-              "_id": "5dba4e336d5dfb0000ec73d7",
+              "_id": "5e5781c849a24a00006d28db",
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5dba4e8e6d5dfb0000ec73d8",
+                  "_id": "5e5781d249a24a00006d28dc",
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -73625,24 +73660,22 @@
                 }
               ],
               "maxAccounts": 1,
-              "parent": "5dba4e0f6d5dfb0000ec73d5",
+              "parent": "5e57818349a24a00006d28d9",
               "availability": []
             },
             {
               "label": [
                 "Open your eyes"
               ],
-              "_id": "5dba4edc6d5dfb0000ec73d9",
+              "_id": "5e5781fe49a24a00006d28dd",
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5dba4f4a6d5dfb0000ec73da",
+                  "_id": "5e57824449a24a00006d28e0",
                   "event": {
-                    "type": "narrative",
+                    "type": "node",
                     "parameters": [
-                      [
-                        "Daylight. Your bones ache. Many wounds. The stone tower casts a long shadow."
-                      ]
+                      "5e57823649a24a00006d28df"
                     ]
                   },
                   "actions": [],
@@ -73650,18 +73683,32 @@
                 }
               ],
               "maxAccounts": 1,
-              "parent": "5dba4e336d5dfb0000ec73d7",
+              "parent": "5e5781c849a24a00006d28db",
               "availability": []
-            },
+            }
+          ],
+          "audio": []
+        },
+        {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
+          "narrative": [
+            "Daylight. Your bones ache. Many wounds. The stone tower casts a long shadow."
+          ],
+          "cutScene": false,
+          "_id": "5e57823649a24a00006d28df",
+          "options": [
             {
               "label": [
                 "Stand up"
               ],
-              "_id": "5dba4f7c6d5dfb0000ec73db",
+              "_id": "5e57828549a24a00006d28e1",
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5dba4f926d5dfb0000ec73dc",
+                  "_id": "5e57828e49a24a00006d28e2",
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -73675,18 +73722,17 @@
                 }
               ],
               "maxAccounts": 1,
-              "parent": "5dba4edc6d5dfb0000ec73d9",
               "availability": []
             },
             {
               "label": [
                 "Look around"
               ],
-              "_id": "5dba4fc36d5dfb0000ec73dd",
+              "_id": "5e5782c349a24a00006d28e3",
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5dba4fd96d5dfb0000ec73de",
+                  "_id": "5e57832c49a24a00006d28e6",
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -73700,14 +73746,14 @@
                 }
               ],
               "maxAccounts": 1,
-              "parent": "5dba4f7c6d5dfb0000ec73db",
+              "parent": "5e57828549a24a00006d28e1",
               "availability": []
             },
             {
               "label": [
                 "Try to get your bearings"
               ],
-              "_id": "5dba50216d5dfb0000ec73e0",
+              "_id": "5e5782c549a24a00006d28e4",
               "actions": [
                 {
                   "parameters": [
@@ -73717,7 +73763,7 @@
                       "5da63499b465060000827fd1"
                     ]
                   ],
-                  "_id": "5dba57ccff2c1986b9db657d",
+                  "_id": "5e57883fb723c2c4dc4af5af",
                   "type": "activateQuestObjectiveUpdate"
                 },
                 {
@@ -73728,13 +73774,13 @@
                       "5da62e62b465060000827fce"
                     ]
                   ],
-                  "_id": "5dba5824ff2c1948cedb65e0",
+                  "_id": "5e57883fb723c251074af5ae",
                   "type": "activateQuestObjectiveUpdate"
                 }
               ],
               "outcomes": [
                 {
-                  "_id": "5dba504d6d5dfb0000ec73e1",
+                  "_id": "5e57831a49a24a00006d28e5",
                   "event": {
                     "type": "node",
                     "parameters": [
@@ -73746,7 +73792,7 @@
                 }
               ],
               "maxAccounts": 1,
-              "parent": "5dba4fc36d5dfb0000ec73dd",
+              "parent": "5e5782c349a24a00006d28e3",
               "availability": []
             }
           ],
@@ -78782,14 +78828,20 @@
         "conditions": []
       },
       "npcs": [],
+      "cutScene": false,
       "name": "Scenario Transition (2-3): Journey to the Mainland",
       "_created": "2019-11-12T15:32:41.081Z",
-      "_updated": "2020-01-16T12:03:54.619Z",
+      "_updated": "2020-02-26T22:56:21.025Z",
       "nodes": [
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "Hours pass by as you watch the soldiers prepare for war. They sharpen their blades with whetstones and adjust the fit of their suits of armor. Some of them are young men with fear in their eyes. Others are seasoned veterans with stoic demeanors. A few crack wise to lighten the mood."
           ],
+          "cutScene": false,
           "_id": "5dcadaf368c2c40000e0ab8d",
           "options": [
             {
@@ -78862,12 +78914,18 @@
               "parent": "5dcadb3f68c2c40000e0ab8e",
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "Crossing his arms, the stone-faced officer stands before you. He says: “At ease. We’re leaving soon. From what I hear, you’re quite resourceful. Thought I might bring you up to speed.\""
           ],
+          "cutScene": false,
           "_id": "5dcadba368c2c40000e0ab92",
           "options": [
             {
@@ -78892,12 +78950,18 @@
               "maxAccounts": 1,
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "Crossing his arms, the stone-faced officer stands before you. He says: “We’re leaving soon. Thought I might bring you up to speed.”"
           ],
+          "cutScene": false,
           "_id": "5dcadba468c2c40000e0ab93",
           "options": [
             {
@@ -78922,12 +78986,18 @@
               "maxAccounts": 1,
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "He explains: “We don’t know much about the situation. Here’s what we do know: the western district has fallen. Because of the naval blockade, we’re going to circumvent the city and rendezvous with a ragtag squadron. They’re holed up in a burned village southwest of Roeburgh. And then we’ll take it from there.”"
           ],
+          "cutScene": false,
           "_id": "5dcadc5168c2c40000e0ab98",
           "options": [
             {
@@ -79064,12 +79134,18 @@
               "parent": "5dcadd3268c2c40000e0ab9d",
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "“Good.” He turns away from you to address the soldiers: “Take your places, everyone! We shall travel under cover of darkness. Praised be Phenris! And may the god of death have mercy on our souls…” The soldiers obey. Soon enough, the galley is set in motion."
           ],
+          "cutScene": false,
           "_id": "5dcadeb668c2c40000e0aba4",
           "options": [
             {
@@ -79217,12 +79293,18 @@
               "parent": "5dcc7c3787f94d0000923b04",
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "Your prayer to the god of death is echoed by many of the soldiers aboard the galley. Soon, the vibrant flames are replaced by the void of night on the open sea."
           ],
+          "cutScene": false,
           "_id": "5dcc7c8e87f94d0000923b08",
           "options": [
             {
@@ -79247,12 +79329,18 @@
               "maxAccounts": 1,
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "While others pray to the god of death, you pay no heed to ritual. Soon, the vibrant flames are replaced by the void of night on the open sea."
           ],
+          "cutScene": false,
           "_id": "5dcc7ca787f94d0000923b09",
           "options": [
             {
@@ -79277,12 +79365,18 @@
               "maxAccounts": 1,
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "You remain vigilant, knowing that war waits at the end of your voyage. Luminous, the bay of Roeburgh ascends beyond the abundance of towering warships to the south."
           ],
+          "cutScene": false,
           "_id": "5dcc7ce187f94d0000923b0c",
           "options": [
             {
@@ -79358,10 +79452,20 @@
               "availability": []
             }
           ],
-          "background": "5e204a9798fb233a81ff906a"
+          "background": "5e204a9798fb233a81ff906a",
+          "audio": [
+            {
+              "loop": true,
+              "volume": 1,
+              "track": 1,
+              "continueFromPreviousPosition": false,
+              "media": "5e46dba3a74d956b06de4cc2"
+            }
+          ]
         }
       ],
-      "__v": 0
+      "__v": 0,
+      "audio": []
     },
     {
       "_id": "5dd31ef2f75a9731d05982b4",
@@ -103534,22 +103638,29 @@
         "conditions": []
       },
       "npcs": [],
+      "cutScene": false,
       "name": "Sleep Temple 1F: Dining Hall (State 2)",
       "_created": "2020-01-21T12:51:05.534Z",
-      "_updated": "2020-01-22T15:30:46.664Z",
+      "_updated": "2020-02-26T22:30:49.208Z",
       "nodes": [
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "Surrounded by no less than twelve dead bodies, you begin to calm down. So far, no reinforcements have arrived. Looking around, you notice that there are three doorways in the dining hall, giving access to a kitchen, a stairwell and a ballroom.",
             "Twelve corpses have been left to rot in the dining hall. Blood and entrails are smeared on the walls and furniture. There are three doorways, giving access to a kitchen, a stairwell and a ballroom."
           ],
+          "cutScene": false,
           "_id": "5e2864533ae8eb0000e23048",
           "options": [],
           "audio": []
         }
       ],
       "audio": [],
-      "__v": 0
+      "__v": 0,
+      "background": "5e56e4e0b723c22ef04af0e4"
     },
     {
       "_id": "5e27aeb33a36bf05773e4f7f",
@@ -109643,7 +109754,7 @@
             "conditions": []
           },
           "narrative": [
-            "When you wake up, your face is caressed by the wind of the forest. Carried on the shoulders of Avon Lorca, you find yourself in deep in the wilderness of the western highlands, far from the city. Your many wounds are covered by strips of black cloth, stopping the flow of blood. The last thing you hear before you fall back asleep is the voice of Avon Lorca. The former gladiator says: \"It's over.\""
+            "When you wake up, your face is caressed by the wind of the forest. Carried on the shoulders of Avon Lorca, you find yourself deep in the wilderness of the western highlands, far from the city. Your many wounds are covered by strips of black cloth, stopping the flow of blood. The last thing you hear before you fall back asleep is the voice of Avon Lorca. The former gladiator says: \"It's over.\""
           ],
           "cutScene": true,
           "_id": "5e4d917c2da4ac0000be4bec",
@@ -109677,7 +109788,7 @@
         }
       ],
       "_created": "2020-02-02T15:10:06.834Z",
-      "_updated": "2020-02-19T20:28:34.513Z",
+      "_updated": "2020-02-26T22:53:36.634Z",
       "audio": [],
       "__v": 0
     },
@@ -119983,7 +120094,7 @@
       "cutScene": false,
       "name": "Scenario 3: Orchard (Encounter)",
       "_created": "2020-02-23T22:48:19.371Z",
-      "_updated": "2020-02-26T02:16:09.223Z",
+      "_updated": "2020-02-27T18:04:02.384Z",
       "nodes": [
         {
           "autoSave": {
@@ -122031,6 +122142,30 @@
                   "negate": true
                 }
               ]
+            },
+            {
+              "label": [
+                "Unmask the corpses"
+              ],
+              "_id": "5e580373229e0300008f1c8e",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e580398229e0300008f1c8f",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "One by one, you remove the black shawls, revealing faces that are unfamiliar. Both of them are young and pale, with a few day's worth of stubble."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "availability": []
             },
             {
               "label": [

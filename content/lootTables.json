@@ -1752,10 +1752,25 @@
             }
           ],
           "conditions": []
+        },
+        {
+          "_id": "5e577aa5b723c2ea774af2ac",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e577aa5b723c202734af2ad",
+              "probability": 1,
+              "item": "5c803dc90e3748ec29c6019e"
+            }
+          ],
+          "conditions": []
         }
       ],
       "_created": "2019-04-03T05:04:42.512Z",
-      "_updated": "2019-04-03T05:04:42.512Z",
+      "_updated": "2020-02-27T08:15:33.619Z",
       "__v": 0
     },
     {
