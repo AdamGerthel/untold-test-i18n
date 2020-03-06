@@ -44,16 +44,23 @@ const init = async function () {
 
     // Download and save audio
     const audio = media.data.filter(e => e.type === 'audio')
-    const audioFiles = await Promise.all(audio.map(entity => downloadMedia(entity, 'mp3', {
-      invalidate: true
-    })))
+
+    for (let entity of audio) {
+      await downloadMedia(entity, 'mp3', {
+        width: 1300,
+        invalidate: true
+      })
+    }
 
     // Download and save images
     const images = media.data.filter(e => e.type === 'image')
-    const imageFiles = await Promise.all(images.map(entity => downloadMedia(entity, 'jpg', {
-      width: 1300,
-      invalidate: true
-    })))
+
+    for (let entity of images) {
+      await downloadMedia(entity, 'jpg', {
+        width: 1300,
+        invalidate: true
+      })
+    }
 
     // Generate index file for media files
     const imageIndex = buildIndex(images, 'image', 'jpg')
@@ -89,7 +96,6 @@ const downloadMedia = function (entity, fileFormat, params) {
     })
     .pipe(file)
     .on('finish', () => {
-      console.log(`Fetched media/${fileName}`)
       resolve(fileName)
     })
     .on('error', (error) => {
