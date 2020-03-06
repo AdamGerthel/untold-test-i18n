@@ -54,7 +54,62 @@
           "conditions": [],
           "parent": "5c82b8b7556ece0000d9e5b7",
           "description": "You have visited the infirmary in the Town of Set. Unfortunately, the monks in the infirmary lacked the necessary expertise to treat your affliction. Instead, they referred you to the druids of the Ephemeral Lodge. These druids can be found on Graefir Island.",
-          "updates": [],
+          "updates": [
+            {
+              "_id": "5e5fa3f854a5990000da7942",
+              "description": "The monk in the infirmary said that Calvino the Boatman should be able to take you across the river to Graefir Island. He can usually be found in the Harbor of Set.",
+              "conditions": [
+                {
+                  "parameters": [
+                    [
+                      "5da3400795cdcec8466d186d",
+                      "5da34120f7325f0000402c0c",
+                      "5da3421ef7325f0000402c13",
+                      "5da3422ff7325f0000402c14"
+                    ]
+                  ],
+                  "_id": "5e5fa4c4fe7d0d1c9f6c5081",
+                  "type": "hasSeenOptionOutcome"
+                }
+              ]
+            },
+            {
+              "_id": "5e5fa021093b480000a59e10",
+              "description": "You asked Ato Triasteen about the Ephemeral Lodge, who referred to the druid hermits as \"estranged brethren\". He was unwilling to let you use the ship to travel across the river. In any case, this would not be possible without a proper crew.",
+              "conditions": [
+                {
+                  "parameters": [
+                    [
+                      "5d168f52ebd3dc020854cb0a",
+                      "5d16976fab3c0300005d56b3",
+                      "5d16c633ab3c0300005d56ed",
+                      "5d16c661ab3c0300005d56ee"
+                    ]
+                  ],
+                  "_id": "5e5fa0c7fe7d0d479b6c5010",
+                  "type": "hasSeenOptionOutcome"
+                }
+              ]
+            },
+            {
+              "_id": "5e5fa0f123cfc90000eb39b6",
+              "description": "According to a fisherman in the Harbor of Set, it seems that Calvino the Boatman has disappeared, possibly as a result of the recent invasion of bandits.",
+              "conditions": [
+                {
+                  "parameters": [
+                    [
+                      "5d53d7ef8335b4d233884f21",
+                      "5d53e02ef78ace00004fd6dc",
+                      "5d53e12ff78ace00004fd6e6",
+                      "5d53e140f78ace00004fd6e7"
+                    ]
+                  ],
+                  "_id": "5e5fa1a2fe7d0d05b86c5029",
+                  "type": "hasSeenOptionOutcome"
+                }
+              ]
+            }
+          ],
           "experience": 50
         },
         {
@@ -79,7 +134,7 @@
         }
       ],
       "_created": "2019-03-08T18:51:35.421Z",
-      "_updated": "2019-10-15T04:09:40.903Z",
+      "_updated": "2020-03-04T12:53:24.596Z",
       "description": "You and many others were taken prisoner aboard a ship, where a mysterious organization subjected you to various forms of torture. As a result, your mind is a garbled mess of fractured memories. You must find a way to put the broken pieces back in order."
     },
     {
@@ -121,7 +176,13 @@
           ],
           "experience": 25,
           "description": "Rasleen claims to have seen a ship sailing north along the eastern shores.",
-          "updates": []
+          "updates": [
+            {
+              "_id": "5e5f987ef89bb700000295e2",
+              "conditions": [],
+              "description": "You have discovered the ship that Rasleen was talking about. It can be found in the secret harbor known as Port Spire."
+            }
+          ]
         },
         {
           "_id": "5caaf69590542e00003c572e",
@@ -130,7 +191,23 @@
           "parent": "5caaf31090542e00003c572c",
           "experience": 75,
           "description": "Rasleen was injured by a poison-tipped arrow. You have found the antidote. She waits in the ruinous Pylon of Dusk Megalith.",
-          "updates": []
+          "updates": [
+            {
+              "_id": "5e5f9419f89bb700000295df",
+              "description": "Rasleen has vanished from her hiding place. It seems that some of the druids have returned from the frontlines. Possibly, Rasleen's disappearance is a result of their sudden presence. Maybe she's hiding. Maybe she's been captured, or worse...",
+              "conditions": []
+            },
+            {
+              "_id": "5e5f963af89bb700000295e0",
+              "description": "You spoke with a druid war chief, who confirmed that a nomad mercenary was captured and imprisoned recently.",
+              "conditions": []
+            },
+            {
+              "_id": "5e5f965df89bb700000295e1",
+              "description": "You encountered an old druid, who introduced himself as Ato Triasteen the Deserter. He told you that Rasleen has been captured by the other druids, who brought her to a prison below ground. Having no desire to stay and fight in the war on the Isle of Dusk, the old druid suggested that you liberate Rasleen and the other prisoners. Together, you would be able to steal the ship and escape from the island. Before he left, Ato mentioned that he will be guarding the ship while you explore the prison. The ship can be found in Port Spire.",
+              "conditions": []
+            }
+          ]
         },
         {
           "_id": "5cbe668aff1861000014aab9",
@@ -139,11 +216,58 @@
           "parent": "5caaf69590542e00003c572e",
           "experience": 25,
           "description": "You have delivered the antidote to Rasleen, who is currently recovering in her cell in the prison of Dusk Megalith. You told her about the plans to liberate the other prisoners in order to assemble a crew. Before this can happen, however, the prison guards must be taken care of – one way or another. Rasleen waits in her cell in the east wing of the underground prison (Cell # 19).",
-          "updates": []
+          "updates": [
+            {
+              "_id": "5e5f994df89bb700000295e3",
+              "description": "The prison guards have been dealt with. Rasleen should be informed.",
+              "conditions": [
+                {
+                  "parameters": [
+                    [
+                      "5cb8e229c065f06f2c9439f4",
+                      "5cb8e3c7f797be000047f1ec"
+                    ]
+                  ],
+                  "_id": "5e5f9d0efe7d0da9726c4fe0",
+                  "type": "hasSeenNode"
+                },
+                {
+                  "parameters": [
+                    [
+                      "5cb91394c065f084f4943b2f",
+                      "5cb92eb9f797be000047f23c"
+                    ]
+                  ],
+                  "_id": "5e5f9d0efe7d0d266c6c4fdf",
+                  "type": "hasSeenNode"
+                },
+                {
+                  "parameters": [
+                    [
+                      "5cba6f4cc065f01449944ddd",
+                      "5cbba0832b878e000063fb33"
+                    ]
+                  ],
+                  "_id": "5e5f9d0efe7d0d1e6c6c4fde",
+                  "type": "hasSeenNode"
+                },
+                {
+                  "parameters": [
+                    [
+                      "5c8e22cc1902884a12f94ce2",
+                      "5caaf69590542e00003c572e"
+                    ]
+                  ],
+                  "_id": "5e5f9d0efe7d0d2c1c6c4fdd",
+                  "type": "hasCompletedObjective"
+                }
+              ]
+            }
+          ]
         }
       ],
       "_created": "2019-03-17T10:34:52.048Z",
-      "_updated": "2019-10-17T17:50:55.822Z",
+      "_updated": "2020-03-04T12:22:00.085Z",
       "__v": 0,
       "description": "A war has erupted between the druids and cultists on the Isle of Dusk. You have discovered the ruins of Dusk Megalith, a druid stronghold. Rasleen is convinced that the druids are hiding a ship somewhere nearby. She believes that this would be the most opportune moment to steal the ship, since the druids are currently preoccupied with the war."
     },
@@ -241,7 +365,7 @@
             },
             {
               "_id": "5da67f990824a50000fc56f0",
-              "description": "Considering what happened during your previous encounter with Mantis, Rasleen thinks that it would be unwise to confront him before you have cured the affliction of the mind. Otherwise, you would be unable to resist his commands.",
+              "description": "Considering what happened during your previous encounter with Mantis, Rasleen thinks that it would be unwise to confront him before you have cured the affliction of the mind. Otherwise, you would be unable to disobey the crime lord's commands.",
               "conditions": []
             }
           ],
@@ -288,7 +412,7 @@
         }
       ],
       "_created": "2019-09-14T11:56:45.555Z",
-      "_updated": "2019-11-04T04:46:37.034Z",
+      "_updated": "2020-03-04T12:41:28.135Z",
       "__v": 0,
       "description": "The Tusk Mob is a gang of smugglers who dwell on the Isle of Bast. Apparently, they are trying to form an alliance with the Khiris Cartel. You have learned that Mantis the Crime Lord is on his way to their secret headquarters."
     },

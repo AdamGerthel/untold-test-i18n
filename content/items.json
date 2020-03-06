@@ -1,5 +1,5 @@
 {
-  "total": 313,
+  "total": 316,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -115,6 +115,13 @@
     },
     {
       "_id": "5c7d653dfd6b4947ff456b6a",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -122,18 +129,22 @@
       "description": "Made in a legionnaire-style, slightly different from the usual designs.",
       "tier": "2",
       "type": "armor",
-      "slot": [
-        "head"
-      ],
-      "encumbrance": 3,
-      "armor": 4,
+      "armor": 10,
       "_created": "2019-03-04T17:49:49.552Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:24:15.640Z",
-      "value": 25
+      "_updated": "2020-03-04T07:26:59.582Z",
+      "value": 25,
+      "encumbrance": 2
     },
     {
       "_id": "5c7d65b6fd6b493b65456b6b",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -142,23 +153,21 @@
       "tier": "1",
       "type": "armor",
       "encumbrance": 1,
-      "slot": [
-        "head"
-      ],
       "armor": 2,
       "_created": "2019-03-04T17:51:50.937Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:33:48.999Z",
+      "_updated": "2020-03-04T07:34:29.819Z",
       "value": 5
     },
     {
       "_id": "5c7d65cefd6b4996f3456b6c",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "head"
       ],
+      "combatActions": [],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -167,14 +176,83 @@
       "tier": "1",
       "type": "armor",
       "encumbrance": 2,
-      "armor": 3,
+      "armor": 8,
       "_created": "2019-03-04T17:52:14.362Z",
       "__v": 0,
-      "_updated": "2020-02-08T03:12:49.879Z",
+      "_updated": "2020-03-04T07:27:19.895Z",
       "value": 10
     },
     {
       "_id": "5c7d65eafd6b49ac02456b6d",
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
+      "sideEffects": {
+        "passives": []
+      },
+      "consumption": {
+        "actions": []
+      },
+      "name": "Patchwork Fur Cloak",
+      "description": "Numerous rodents gave their lives to make this happen.",
+      "tier": "1",
+      "type": "armor",
+      "encumbrance": 4,
+      "armor": 10,
+      "_created": "2019-03-04T17:52:42.851Z",
+      "__v": 0,
+      "_updated": "2020-03-04T07:28:17.307Z",
+      "value": 10
+    },
+    {
+      "_id": "5c7d66acfd6b4983e7456b6e",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Large Fur Boots",
+      "description": "Functional, but aesthetically disproportionate.",
+      "tier": "1",
+      "type": "armor",
+      "encumbrance": 4,
+      "armor": 9,
+      "_created": "2019-03-04T17:55:56.868Z",
+      "__v": 0,
+      "_updated": "2020-03-04T07:28:40.054Z",
+      "value": 8
+    },
+    {
+      "_id": "5c7d66b9fd6b492e7e456b6f",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Cheap Leather Boots",
+      "description": "Hardly exuberant, these will serve you well across rugged terrain.",
+      "tier": "1",
+      "type": "armor",
+      "encumbrance": 3,
+      "armor": 10,
+      "_created": "2019-03-04T17:56:09.842Z",
+      "__v": 0,
+      "_updated": "2020-03-04T07:29:02.481Z",
+      "value": 12
+    },
+    {
+      "_id": "5c7d6709fd6b491231456b70",
       "sideEffects": {
         "passives": []
       },
@@ -185,76 +263,26 @@
       "consumption": {
         "actions": []
       },
-      "name": "Patchwork Fur Cloak",
-      "description": "Numerous rodents gave their lives to make this happen.",
-      "tier": "1",
-      "type": "armor",
-      "encumbrance": 4,
-      "armor": 3,
-      "_created": "2019-03-04T17:52:42.851Z",
-      "__v": 0,
-      "_updated": "2020-02-21T05:37:32.744Z",
-      "value": 10
-    },
-    {
-      "_id": "5c7d66acfd6b4983e7456b6e",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Large Fur Boots",
-      "description": "Functional, but aesthetically disproportionate.",
-      "tier": "1",
-      "type": "armor",
-      "slot": [
-        "feet"
-      ],
-      "encumbrance": 4,
-      "armor": 3,
-      "_created": "2019-03-04T17:55:56.868Z",
-      "__v": 0,
-      "_updated": "2019-04-08T16:34:37.570Z",
-      "value": 8
-    },
-    {
-      "_id": "5c7d66b9fd6b492e7e456b6f",
-      "consumption": {
-        "actions": []
-      },
-      "name": "Cheap Leather Boots",
-      "description": "Hardly exuberant, these will serve you well across rugged terrain.",
-      "tier": "1",
-      "type": "armor",
-      "slot": [
-        "feet"
-      ],
-      "encumbrance": 2,
-      "armor": 3,
-      "_created": "2019-03-04T17:56:09.842Z",
-      "__v": 0,
-      "_updated": "2019-04-08T16:34:05.054Z",
-      "value": 12
-    },
-    {
-      "_id": "5c7d6709fd6b491231456b70",
-      "consumption": {
-        "actions": []
-      },
       "name": "Heavy Fur Coat",
       "description": "Imported from Tundra Barbarous, this was made for warfare.",
       "tier": "2",
       "type": "armor",
-      "slot": [
-        "body"
-      ],
       "encumbrance": 3,
-      "armor": 2,
+      "armor": 9,
       "_created": "2019-03-04T17:57:29.203Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:23:39.384Z",
+      "_updated": "2020-03-04T07:30:27.972Z",
       "value": 25
     },
     {
       "_id": "5c7d67cefd6b49b561456b71",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -262,24 +290,22 @@
       "description": "The favored garment of those who enslaved you.",
       "tier": "1",
       "type": "armor",
-      "slot": [
-        "body"
-      ],
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 4,
       "_created": "2019-03-04T18:00:46.068Z",
       "__v": 0,
-      "_updated": "2019-04-08T16:23:59.010Z",
+      "_updated": "2020-03-04T07:30:44.383Z",
       "value": 6
     },
     {
       "_id": "5c7d67e0fd6b49074b456b72",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "hands"
       ],
+      "combatActions": [],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -288,20 +314,21 @@
       "tier": "2",
       "type": "armor",
       "encumbrance": 3,
-      "armor": 4,
+      "armor": 8,
       "_created": "2019-03-04T18:01:04.185Z",
       "__v": 0,
-      "_updated": "2019-06-09T12:15:15.755Z",
+      "_updated": "2020-03-04T07:31:00.355Z",
       "value": 22
     },
     {
       "_id": "5c7d6832fd6b4954df456b73",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "feet"
       ],
+      "combatActions": [],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -309,21 +336,22 @@
       "description": "Average quality, neutral design. Can't really go wrong with these.",
       "tier": "2",
       "type": "armor",
-      "armor": 4,
-      "encumbrance": 2,
+      "armor": 12,
+      "encumbrance": 3,
       "_created": "2019-03-04T18:02:26.875Z",
       "__v": 0,
-      "_updated": "2019-11-05T03:33:37.008Z",
+      "_updated": "2020-03-04T07:31:30.827Z",
       "value": 22
     },
     {
       "_id": "5c7d6891fd6b494212456b74",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "body"
       ],
+      "combatActions": [],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -332,14 +360,21 @@
       "tier": "3",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 3,
       "_created": "2019-03-04T18:04:01.496Z",
       "__v": 0,
-      "_updated": "2019-11-05T03:33:58.913Z",
+      "_updated": "2020-03-04T07:32:00.218Z",
       "value": 25
     },
     {
       "_id": "5c7d68b1fd6b496e6a456b75",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -347,18 +382,22 @@
       "description": "This style of cloak has become quite fashionable among the vagrants and highwaymen of Tem Khiris.",
       "tier": "2",
       "type": "armor",
-      "slot": [
-        "body"
-      ],
       "encumbrance": 3,
-      "armor": 4,
+      "armor": 9,
       "_created": "2019-03-04T18:04:33.865Z",
       "__v": 0,
       "value": 30,
-      "_updated": "2019-04-08T15:05:20.921Z"
+      "_updated": "2020-03-04T07:33:35.723Z"
     },
     {
       "_id": "5c7d694bfd6b491683456b76",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -366,18 +405,22 @@
       "description": "Perfect for the southern regions of Tem Khiris.",
       "tier": "1",
       "type": "armor",
-      "slot": [
-        "body"
-      ],
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 2,
       "_created": "2019-03-04T18:07:07.267Z",
       "__v": 0,
       "value": 6,
-      "_updated": "2019-04-08T15:05:33.539Z"
+      "_updated": "2020-03-04T07:33:50.971Z"
     },
     {
       "_id": "5c7d695cfd6b49753c456b77",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -385,18 +428,22 @@
       "description": "These are all the rage in the Deadlands of Triniset.",
       "tier": "1",
       "type": "armor",
-      "slot": [
-        "body"
-      ],
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 2,
       "_created": "2019-03-04T18:07:24.395Z",
       "__v": 0,
       "value": 6,
-      "_updated": "2019-04-08T15:05:44.993Z"
+      "_updated": "2020-03-04T07:34:06.310Z"
     },
     {
       "_id": "5c7d6992fd6b497f52456b78",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -404,15 +451,12 @@
       "description": "Cheap and comfortable.",
       "tier": "1",
       "type": "armor",
-      "slot": [
-        "feet"
-      ],
       "encumbrance": 1,
       "armor": 1,
       "_created": "2019-03-04T18:08:18.839Z",
       "__v": 0,
       "value": 3,
-      "_updated": "2019-04-08T15:06:58.858Z"
+      "_updated": "2020-03-04T08:39:14.170Z"
     },
     {
       "_id": "5c803d1c0e37485847c6019a",
@@ -838,14 +882,14 @@
       "description": "A two-handed polearm. Probably stolen from a dead guardsman",
       "tier": "2",
       "type": "weapon",
-      "encumbrance": 6,
+      "encumbrance": 7,
       "damage": {
-        "min": 10,
+        "min": 8,
         "max": 11
       },
       "_created": "2019-03-11T09:52:30.463Z",
       "__v": 0,
-      "_updated": "2020-02-18T10:24:54.472Z",
+      "_updated": "2020-03-05T12:13:13.921Z",
       "value": 26
     },
     {
@@ -1014,9 +1058,6 @@
     },
     {
       "_id": "5c863b910e374888abc6036e",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "mainHand",
         "offHand"
@@ -1024,6 +1065,9 @@
       "combatActions": [
         "slam"
       ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -1034,15 +1078,22 @@
       "encumbrance": 10,
       "damage": {
         "min": 8,
-        "max": 30
+        "max": 25
       },
       "_created": "2019-03-11T10:42:25.628Z",
       "__v": 0,
-      "_updated": "2020-02-12T21:20:17.668Z",
+      "_updated": "2020-03-06T11:09:54.636Z",
       "value": 20
     },
     {
       "_id": "5c866f9f0e37487533c604b0",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -1050,14 +1101,12 @@
       "description": "A white wooden mask, sculpted to resemble a raven's beak, surrounded by a pattern of sharp feathers.",
       "tier": "5",
       "type": "armor",
-      "slot": [
-        "head"
-      ],
       "encumbrance": 2,
-      "armor": 2,
+      "armor": 3,
       "_created": "2019-03-11T14:24:31.362Z",
       "__v": 0,
-      "_updated": "2019-04-08T13:41:26.934Z"
+      "_updated": "2020-03-04T08:38:57.235Z",
+      "value": 0
     },
     {
       "_id": "5c86d6c4bbdb6b44de5868e6",
@@ -1089,16 +1138,15 @@
     },
     {
       "_id": "5c86d815bbdb6b13055868e7",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "mainHand"
       ],
       "combatActions": [
-        "stab",
-        "cut"
+        "stab"
       ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -1113,7 +1161,7 @@
       },
       "_created": "2019-03-11T21:50:13.814Z",
       "__v": 0,
-      "_updated": "2020-02-18T10:37:07.523Z",
+      "_updated": "2020-03-05T02:31:22.799Z",
       "value": 60
     },
     {
@@ -1259,6 +1307,13 @@
     },
     {
       "_id": "5c92e3433bae8d832e2b5fdd",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -1266,14 +1321,12 @@
       "description": "A white mask, stolen from a toxic sarcophagus in the catacombs of Dusk Megalith.",
       "tier": "5",
       "type": "armor",
-      "slot": [
-        "head"
-      ],
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 5,
       "_created": "2019-03-21T01:05:07.966Z",
-      "_updated": "2019-03-21T01:05:07.966Z",
-      "__v": 0
+      "_updated": "2020-03-04T07:36:07.998Z",
+      "__v": 0,
+      "value": 0
     },
     {
       "_id": "5c92eb843bae8d75c62b601c",
@@ -1381,12 +1434,22 @@
     },
     {
       "_id": "5c92ee603bae8d36b12b6023",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "accessory"
       ],
+      "combatActions": [],
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5e5f6c05fe7d0d54176c4c37",
+            "type": "armor"
+          }
+        ],
+        "description": "This antique will provide some protection..."
+      },
       "consumption": {
         "actions": []
       },
@@ -1395,7 +1458,7 @@
       "tier": "3",
       "type": "treasure",
       "_created": "2019-03-21T01:52:32.074Z",
-      "_updated": "2019-05-22T18:26:01.711Z",
+      "_updated": "2020-03-04T08:51:17.698Z",
       "__v": 0,
       "value": 50
     },
@@ -1571,6 +1634,13 @@
     },
     {
       "_id": "5c92fc163bae8d6b0d2b6062",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -1578,37 +1648,45 @@
       "description": "This heavy suit of armor will provide ample protection.",
       "tier": "3",
       "type": "armor",
-      "slot": [
-        "body"
-      ],
       "encumbrance": 7,
-      "armor": 9,
+      "armor": 24,
       "_created": "2019-03-21T02:51:02.568Z",
-      "_updated": "2019-04-17T22:28:35.949Z",
+      "_updated": "2020-03-04T07:36:29.632Z",
       "__v": 0,
       "value": 120
     },
     {
       "_id": "5c92fc783bae8d021a2b6063",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "name": "Bronze Plate Cuirass",
-      "description": "Slightly rusty. Nevertheless, this heavy armor piece will provide ample protection.",
+      "description": "Slightly tarnished. Nevertheless, this heavy armor piece will provide ample protection.",
       "tier": "3",
       "type": "armor",
-      "slot": [
-        "body"
-      ],
-      "encumbrance": 8,
-      "armor": 10,
+      "armor": 28,
       "_created": "2019-03-21T02:52:40.167Z",
-      "_updated": "2019-04-08T16:10:54.689Z",
+      "_updated": "2020-03-04T07:37:25.713Z",
       "__v": 0,
-      "value": 140
+      "value": 140,
+      "encumbrance": 8
     },
     {
       "_id": "5c92fd923bae8d40922b6064",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -1616,34 +1694,32 @@
       "description": "These will guard your grip in the heat of battle.",
       "tier": "3",
       "type": "armor",
-      "slot": [
-        "hands"
-      ],
-      "encumbrance": 6,
-      "armor": 8,
+      "encumbrance": 7,
+      "armor": 20,
       "_created": "2019-03-21T02:57:22.790Z",
-      "_updated": "2019-04-08T15:21:21.593Z",
+      "_updated": "2020-03-04T07:37:44.169Z",
       "__v": 0,
       "value": 72
     },
     {
       "_id": "5c92fe253bae8daa782b6065",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "head"
       ],
+      "combatActions": [],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
       "name": "Bronze Helmet",
       "tier": "3",
       "type": "armor",
-      "encumbrance": 5,
-      "armor": 6,
+      "encumbrance": 4,
+      "armor": 18,
       "_created": "2019-03-21T02:59:49.231Z",
-      "_updated": "2020-02-08T03:16:29.609Z",
+      "_updated": "2020-03-04T07:38:31.789Z",
       "__v": 0,
       "value": 60,
       "description": "This ancient helmet provides ample protection, covering everything except the lower half of the face."
@@ -1665,6 +1741,13 @@
     },
     {
       "_id": "5c933ba93bae8d039f2b61ad",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -1672,17 +1755,22 @@
       "description": "A pristine, hooded cloak. The favored garment among druids, earning them the nickname \"green-cloaks\".",
       "tier": "5",
       "type": "armor",
-      "slot": [
-        "body"
-      ],
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 4,
       "_created": "2019-03-21T07:22:17.369Z",
-      "_updated": "2019-03-21T08:52:21.419Z",
-      "__v": 0
+      "_updated": "2020-03-04T07:39:05.472Z",
+      "__v": 0,
+      "value": 0
     },
     {
       "_id": "5c9345343bae8d78ab2b61c6",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -1690,13 +1778,10 @@
       "description": "These knee-high moccasins have been sown to resemble wolf paws, with actual claws protruding from the front.",
       "tier": "3",
       "type": "armor",
-      "slot": [
-        "feet"
-      ],
       "encumbrance": 1,
-      "armor": 3,
+      "armor": 4,
       "_created": "2019-03-21T08:03:00.115Z",
-      "_updated": "2019-04-08T16:07:47.298Z",
+      "_updated": "2020-03-04T07:39:44.343Z",
       "__v": 0,
       "value": 30
     },
@@ -1730,6 +1815,13 @@
     },
     {
       "_id": "5c93474d3bae8d65752b61e0",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -1737,13 +1829,10 @@
       "description": "These war gloves have been sown to resemble wolf paws, with claws protruding from the knuckles.",
       "tier": "3",
       "type": "armor",
-      "slot": [
-        "hands"
-      ],
       "encumbrance": 1,
-      "armor": 3,
+      "armor": 4,
       "_created": "2019-03-21T08:11:57.671Z",
-      "_updated": "2019-04-08T15:22:07.524Z",
+      "_updated": "2020-03-04T07:40:13.120Z",
       "__v": 0,
       "value": 35
     },
@@ -1769,6 +1858,13 @@
     },
     {
       "_id": "5c9350813bae8d4a422b6256",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -1776,14 +1872,12 @@
       "description": "A thin, circular white mask. Almost featureless, aside from the narrow, horizontal apertures for the eyes and mouth.",
       "tier": "5",
       "type": "armor",
-      "slot": [
-        "head"
-      ],
       "encumbrance": 1,
       "_created": "2019-03-21T08:51:13.278Z",
-      "_updated": "2019-04-03T01:24:10.938Z",
+      "_updated": "2020-03-04T07:41:02.780Z",
       "__v": 0,
-      "armor": 1
+      "armor": 3,
+      "value": 0
     },
     {
       "_id": "5c9353b83bae8db97b2b625a",
@@ -1872,6 +1966,13 @@
     },
     {
       "_id": "5c9355513bae8d29cf2b625d",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -1879,13 +1980,10 @@
       "description": "Faded hieroglyphs adorn these old bracelets.",
       "tier": "3",
       "type": "armor",
-      "slot": [
-        "hands"
-      ],
       "encumbrance": 5,
-      "armor": 7,
+      "armor": 16,
       "_created": "2019-03-21T09:11:45.053Z",
-      "_updated": "2019-04-08T15:21:38.091Z",
+      "_updated": "2020-03-04T07:57:35.400Z",
       "__v": 0,
       "value": 40
     },
@@ -1905,6 +2003,13 @@
     },
     {
       "_id": "5c94c877683e5d734f4f2e28",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -1912,18 +2017,22 @@
       "description": "White foxes of Tundra Barbarous died for the sake of this ostentatious display.",
       "tier": "3",
       "type": "armor",
-      "slot": [
-        "body"
-      ],
       "encumbrance": 2,
-      "armor": 2,
+      "armor": 7,
       "_created": "2019-03-22T11:35:19.451Z",
-      "_updated": "2019-04-08T16:03:50.270Z",
+      "_updated": "2020-03-04T07:57:51.835Z",
       "__v": 0,
       "value": 80
     },
     {
       "_id": "5c94ca69683e5d5f464f2e29",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -1931,18 +2040,22 @@
       "description": "One of many ways to shroud yourself in mystery.",
       "tier": "2",
       "type": "armor",
-      "slot": [
-        "head"
-      ],
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 2,
       "_created": "2019-03-22T11:43:37.135Z",
-      "_updated": "2019-04-08T16:03:25.902Z",
+      "_updated": "2020-03-04T07:58:35.880Z",
       "__v": 0,
       "value": 10
     },
     {
       "_id": "5c94cb89683e5d4a814f2e2a",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -1950,13 +2063,10 @@
       "description": "Quality leather, almost brand new, perfect fit - what more can you ask for?",
       "tier": "2",
       "type": "armor",
-      "slot": [
-        "hands"
-      ],
-      "encumbrance": 1,
-      "armor": 2,
+      "encumbrance": 2,
+      "armor": 10,
       "_created": "2019-03-22T11:48:25.534Z",
-      "_updated": "2019-04-08T16:02:56.534Z",
+      "_updated": "2020-03-04T07:59:00.769Z",
       "__v": 0,
       "value": 18
     },
@@ -2132,6 +2242,13 @@
     },
     {
       "_id": "5c9b913c37903517f5b1bf82",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2139,18 +2256,22 @@
       "description": "Wooden shoes. Somehow, foul odors have been infused into the fibers.",
       "tier": "1",
       "type": "armor",
-      "slot": [
-        "feet"
-      ],
-      "encumbrance": 2,
-      "armor": 2,
+      "encumbrance": 4,
+      "armor": 4,
       "_created": "2019-03-27T15:05:32.645Z",
-      "_updated": "2019-04-08T15:22:26.369Z",
+      "_updated": "2020-03-04T07:42:48.508Z",
       "__v": 0,
       "value": 1
     },
     {
       "_id": "5c9b91b33790352c10b1bf83",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2158,13 +2279,10 @@
       "description": "A brown hat with a wide brim. The layers of sweat can be analyzed to determine which year this hat was manufactured.",
       "tier": "1",
       "type": "armor",
-      "slot": [
-        "head"
-      ],
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 2,
       "_created": "2019-03-27T15:07:31.299Z",
-      "_updated": "2019-04-08T15:25:02.791Z",
+      "_updated": "2020-03-04T07:43:13.419Z",
       "__v": 0,
       "value": 1
     },
@@ -2198,6 +2316,13 @@
     },
     {
       "_id": "5c9c0868379035450eb1c010",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2205,13 +2330,10 @@
       "description": "Not the most glamorous of garments.",
       "tier": "1",
       "type": "armor",
-      "slot": [
-        "body"
-      ],
-      "armor": 1,
+      "armor": 4,
       "encumbrance": 1,
       "_created": "2019-03-27T23:34:00.141Z",
-      "_updated": "2019-04-08T15:25:19.863Z",
+      "_updated": "2020-03-04T07:43:28.719Z",
       "__v": 0,
       "value": 2
     },
@@ -2245,9 +2367,6 @@
     },
     {
       "_id": "5ca404ce379035592ab1cebb",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "mainHand",
         "offHand"
@@ -2255,6 +2374,9 @@
       "combatActions": [
         "sweep"
       ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -2262,21 +2384,18 @@
       "description": "This heavy polearm is in excellent condition.",
       "tier": "2",
       "type": "weapon",
-      "encumbrance": 6,
+      "encumbrance": 7,
       "damage": {
-        "min": 11,
+        "min": 9,
         "max": 12
       },
       "_created": "2019-04-03T00:56:46.706Z",
-      "_updated": "2020-02-18T10:40:29.872Z",
+      "_updated": "2020-03-05T12:13:09.307Z",
       "__v": 0,
       "value": 40
     },
     {
       "_id": "5ca40537379035a01cb1cebc",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "mainHand",
         "offHand"
@@ -2284,6 +2403,9 @@
       "combatActions": [
         "sweep"
       ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -2291,18 +2413,25 @@
       "description": "This heavy polearm seems almost unused.",
       "tier": "3",
       "type": "weapon",
-      "encumbrance": 6,
+      "encumbrance": 7,
       "damage": {
-        "min": 12,
+        "min": 10,
         "max": 13
       },
       "_created": "2019-04-03T00:58:31.591Z",
-      "_updated": "2020-02-18T10:39:41.464Z",
+      "_updated": "2020-03-05T12:13:04.780Z",
       "__v": 0,
       "value": 60
     },
     {
       "_id": "5ca4063c379035798cb1cebd",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2310,18 +2439,22 @@
       "description": "This long-sleeved leather coat affords the wearer with ample protection.",
       "tier": "3",
       "type": "armor",
-      "slot": [
-        "body"
-      ],
-      "encumbrance": 2,
-      "armor": 4,
+      "encumbrance": 3,
+      "armor": 11,
       "_created": "2019-04-03T01:02:52.692Z",
-      "_updated": "2019-04-08T21:01:22.527Z",
+      "_updated": "2020-03-04T07:43:50.786Z",
       "__v": 0,
       "value": 50
     },
     {
       "_id": "5ca40fe137903526e6b1cebe",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2329,18 +2462,22 @@
       "description": "Oddly discolored and somewhat odorous, these gloves have definitely seen better days.",
       "tier": "2",
       "type": "armor",
-      "slot": [
-        "hands"
-      ],
-      "encumbrance": 1,
-      "armor": 2,
+      "encumbrance": 2,
+      "armor": 9,
       "_created": "2019-04-03T01:44:01.125Z",
-      "_updated": "2019-04-08T15:20:08.992Z",
+      "_updated": "2020-03-04T07:44:35.557Z",
       "__v": 0,
       "value": 16
     },
     {
       "_id": "5ca411d937903551f8b1cebf",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2348,18 +2485,22 @@
       "description": "This old piece of headgear has been pummeled a few times.",
       "tier": "2",
       "type": "armor",
-      "slot": [
-        "head"
-      ],
       "encumbrance": 2,
-      "armor": 3,
+      "armor": 12,
       "_created": "2019-04-03T01:52:25.529Z",
-      "_updated": "2019-04-08T15:18:04.010Z",
+      "_updated": "2020-03-04T07:45:02.272Z",
       "__v": 0,
       "value": 25
     },
     {
       "_id": "5ca412e8379035f6d8b1cec0",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2367,13 +2508,10 @@
       "description": "Slightly cumbersome and noticeably odorous, these boots have been worn out from frequent use.",
       "tier": "2",
       "type": "armor",
-      "slot": [
-        "feet"
-      ],
       "encumbrance": 3,
-      "armor": 4,
+      "armor": 11,
       "_created": "2019-04-03T01:56:56.434Z",
-      "_updated": "2019-04-08T15:19:53.493Z",
+      "_updated": "2020-03-04T07:45:23.078Z",
       "__v": 0,
       "value": 18
     },
@@ -2408,6 +2546,13 @@
     },
     {
       "_id": "5ca43b9e3790354da9b1cf1c",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2415,18 +2560,22 @@
       "description": "Knee-high leather sandals. Thin leather strips afford meagre protection, but allows for nimble movement.",
       "tier": "2",
       "type": "armor",
-      "slot": [
-        "feet"
-      ],
       "encumbrance": 1,
-      "armor": 2,
+      "armor": 3,
       "_created": "2019-04-03T04:50:38.698Z",
-      "_updated": "2019-04-08T15:18:58.673Z",
+      "_updated": "2020-03-04T07:46:16.505Z",
       "__v": 0,
       "value": 16
     },
     {
       "_id": "5ca43e2c37903578f6b1cf1d",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2434,13 +2583,10 @@
       "description": "Starting beneath the elbows, these brown leather bracers will protect your forearms and the backsides of your hands.",
       "tier": "2",
       "type": "armor",
-      "slot": [
-        "hands"
-      ],
       "encumbrance": 2,
-      "armor": 3,
+      "armor": 11,
       "_created": "2019-04-03T05:01:32.718Z",
-      "_updated": "2019-04-08T15:18:38.409Z",
+      "_updated": "2020-03-04T07:47:56.545Z",
       "__v": 0,
       "value": 20
     },
@@ -2482,19 +2628,17 @@
         "actions": [
           {
             "parameters": [
-              "-1",
-              [
-                "A flower so delicate and beautiful - of course it's edible. Or maybe not. You feel dizzy. Strange apparitions begin to appear. Delirious, you collapse on the ground and lose consciousness."
-              ]
+              "3",
+              []
             ],
-            "_id": "5e57907bb723c2172a4af606",
+            "_id": "5e5f45e2fe7d0d94756c4c24",
             "type": "changeHealth"
           }
         ],
         "uses": 1
       },
       "_created": "2019-04-03T09:39:06.890Z",
-      "_updated": "2020-02-27T09:48:43.183Z",
+      "_updated": "2020-03-04T06:08:34.826Z",
       "__v": 0,
       "value": 30
     },
@@ -2678,6 +2822,13 @@
     },
     {
       "_id": "5ca5ee53379035f0ccb1fdf9",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2685,18 +2836,22 @@
       "description": "A pair of sturdy leather shoes. Made for a hard day's work.",
       "tier": "1",
       "type": "armor",
-      "slot": [
-        "feet"
-      ],
       "encumbrance": 2,
-      "armor": 2,
+      "armor": 8,
       "_created": "2019-04-04T11:45:23.122Z",
-      "_updated": "2019-04-08T15:14:38.454Z",
+      "_updated": "2020-03-04T07:48:10.989Z",
       "__v": 0,
       "value": 8
     },
     {
       "_id": "5ca5efa4379035e7ffb1fdfa",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2704,13 +2859,10 @@
       "description": "A crude iron circlet, riddled with impurities.",
       "tier": "1",
       "type": "armor",
-      "slot": [
-        "head"
-      ],
       "encumbrance": 1,
-      "armor": 2,
+      "armor": 4,
       "_created": "2019-04-04T11:51:00.904Z",
-      "_updated": "2019-04-08T15:13:48.730Z",
+      "_updated": "2020-03-04T07:48:40.789Z",
       "__v": 0,
       "value": 15
     },
@@ -2774,12 +2926,22 @@
     },
     {
       "_id": "5ca5f2e6379035a3f9b1fdfd",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "accessory"
       ],
+      "combatActions": [],
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5e5f6bd9fe7d0d2bbd6c4c36",
+            "type": "armor"
+          }
+        ],
+        "description": "This will protect you in the heat of battle..."
+      },
       "consumption": {
         "actions": []
       },
@@ -2788,7 +2950,7 @@
       "tier": "1",
       "type": "treasure",
       "_created": "2019-04-04T12:04:54.483Z",
-      "_updated": "2019-05-22T18:28:02.006Z",
+      "_updated": "2020-03-04T08:50:33.013Z",
       "__v": 0,
       "value": 10
     },
@@ -2852,6 +3014,13 @@
     },
     {
       "_id": "5cab7c5e379035ff3eb223f6",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2860,13 +3029,10 @@
       "value": 55,
       "tier": "3",
       "type": "armor",
-      "slot": [
-        "body"
-      ],
-      "encumbrance": 2,
-      "armor": 5,
+      "encumbrance": 3,
+      "armor": 14,
       "_created": "2019-04-08T16:52:46.777Z",
-      "_updated": "2019-04-08T16:52:46.777Z",
+      "_updated": "2020-03-04T07:49:26.757Z",
       "__v": 0
     },
     {
@@ -2928,6 +3094,11 @@
     },
     {
       "_id": "5cab7f1737903512c8b223f9",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
       "name": "Bandages",
       "description": "Medical supplies. Enough to mend three wounds.",
       "value": 5,
@@ -2938,19 +3109,27 @@
         "actions": [
           {
             "parameters": [
-              "10"
+              "12",
+              ""
             ],
-            "_id": "5cab7f1737903587a6b223fa",
+            "_id": "5e5fa6f0fe7d0d4bbf6c5087",
             "type": "changeHealth"
           }
         ]
       },
       "_created": "2019-04-08T17:04:23.540Z",
-      "_updated": "2019-04-08T17:04:23.540Z",
+      "_updated": "2020-03-04T13:02:40.213Z",
       "__v": 0
     },
     {
       "_id": "5cab803337903554f2b223fb",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2959,17 +3138,21 @@
       "value": 8,
       "tier": "1",
       "type": "armor",
-      "slot": [
-        "body"
-      ],
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 5,
       "_created": "2019-04-08T17:09:07.221Z",
-      "_updated": "2019-04-08T17:09:07.221Z",
+      "_updated": "2020-03-04T07:49:47.722Z",
       "__v": 0
     },
     {
       "_id": "5cab80c6379035dfc8b223fc",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -2978,13 +3161,10 @@
       "value": 3,
       "tier": "1",
       "type": "armor",
-      "slot": [
-        "head"
-      ],
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 3,
       "_created": "2019-04-08T17:11:34.167Z",
-      "_updated": "2019-04-08T17:11:34.167Z",
+      "_updated": "2020-03-04T07:50:07.091Z",
       "__v": 0
     },
     {
@@ -3063,12 +3243,22 @@
     },
     {
       "_id": "5cacf5c13790357c5bb22758",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "accessory"
       ],
+      "combatActions": [],
+      "sideEffects": {
+        "passives": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5e5f6ba1fe7d0d7b6c6c4c35",
+            "type": "armor"
+          }
+        ],
+        "description": "This robust ankle bracelet will provide some protection..."
+      },
       "consumption": {
         "actions": []
       },
@@ -3078,7 +3268,7 @@
       "tier": "1",
       "type": "treasure",
       "_created": "2019-04-09T19:42:57.810Z",
-      "_updated": "2019-05-22T18:29:28.430Z",
+      "_updated": "2020-03-04T08:49:37.267Z",
       "__v": 0
     },
     {
@@ -3317,6 +3507,13 @@
     },
     {
       "_id": "5cb7a6e7c065f0aa059434e7",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -3325,25 +3522,23 @@
       "value": 50,
       "tier": "3",
       "type": "armor",
-      "slot": [
-        "head"
-      ],
-      "encumbrance": 6,
-      "armor": 8,
+      "encumbrance": 7,
+      "armor": 35,
       "_created": "2019-04-17T22:21:27.056Z",
-      "_updated": "2019-04-17T22:21:27.056Z",
+      "_updated": "2020-03-04T07:50:45.511Z",
       "__v": 0
     },
     {
       "_id": "5cb7a7b7c065f092659434e8",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "body",
         "feet",
         "hands"
       ],
+      "combatActions": [],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -3352,10 +3547,10 @@
       "value": 100,
       "tier": "3",
       "type": "armor",
-      "encumbrance": 8,
-      "armor": 16,
+      "encumbrance": 10,
+      "armor": 50,
       "_created": "2019-04-17T22:24:55.346Z",
-      "_updated": "2020-02-07T03:16:36.036Z",
+      "_updated": "2020-03-04T07:52:41.053Z",
       "__v": 0
     },
     {
@@ -3576,6 +3771,7 @@
       "slot": [
         "offHand"
       ],
+      "combatActions": [],
       "sideEffects": {
         "passives": []
       },
@@ -3589,15 +3785,16 @@
       "type": "shield",
       "encumbrance": 1,
       "_created": "2019-05-08T04:54:12.938Z",
-      "_updated": "2019-06-21T14:59:22.179Z",
+      "_updated": "2020-03-05T05:50:06.045Z",
       "__v": 0,
-      "blockChance": 0.12
+      "blockChance": 0.1
     },
     {
       "_id": "5cd261b7f7cea232dd745000",
       "slot": [
         "offHand"
       ],
+      "combatActions": [],
       "sideEffects": {
         "passives": []
       },
@@ -3611,18 +3808,19 @@
       "type": "shield",
       "encumbrance": 2,
       "_created": "2019-05-08T04:57:27.660Z",
-      "_updated": "2019-06-21T14:58:47.134Z",
+      "_updated": "2020-03-05T05:50:32.660Z",
       "__v": 0,
-      "blockChance": 0.15
+      "blockChance": 0.12
     },
     {
       "_id": "5cd262abf7cea25c17745001",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "offHand"
       ],
+      "combatActions": [],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -3631,20 +3829,21 @@
       "value": 14,
       "tier": "2",
       "type": "shield",
-      "encumbrance": 3,
       "_created": "2019-05-08T05:01:31.570Z",
-      "_updated": "2019-06-21T15:49:43.684Z",
+      "_updated": "2020-03-05T06:03:05.667Z",
       "__v": 0,
-      "blockChance": 0.16
+      "blockChance": 0.16,
+      "encumbrance": 4
     },
     {
       "_id": "5cd26364f7cea27c6b745002",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "offHand"
       ],
+      "combatActions": [],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -3653,11 +3852,11 @@
       "value": 14,
       "tier": "2",
       "type": "shield",
-      "encumbrance": 3,
       "_created": "2019-05-08T05:04:36.601Z",
-      "_updated": "2019-06-21T15:49:08.996Z",
+      "_updated": "2020-03-05T06:02:54.637Z",
       "__v": 0,
-      "blockChance": 0.16
+      "blockChance": 0.16,
+      "encumbrance": 4
     },
     {
       "_id": "5cd2fe93f7cea24a9e74582a",
@@ -3763,11 +3962,21 @@
       "slot": [
         "accessory"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
-        "passives": []
+        "passives": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5e5f6b1afe7d0d3c186c4c33",
+            "type": "armor"
+          }
+        ],
+        "description": "This exquisite armband is sturdy enough to provide some protection..."
       },
       "name": "Golden Armband",
       "description": "A thick golden bracelet, shaped like an ouroboros.",
@@ -3775,7 +3984,7 @@
       "tier": "3",
       "type": "treasure",
       "_created": "2019-05-16T22:24:00.586Z",
-      "_updated": "2019-11-04T20:32:24.065Z",
+      "_updated": "2020-03-04T08:47:22.119Z",
       "__v": 0
     },
     {
@@ -3869,19 +4078,20 @@
     },
     {
       "_id": "5cde01e3c3e78f766c5bc020",
-      "consumption": {
-        "actions": []
-      },
       "slot": [
         "hands"
       ],
+      "combatActions": [],
+      "consumption": {
+        "actions": []
+      },
       "name": "Black Iron Gauntlets",
       "value": 50,
       "tier": "3",
-      "description": "Heavy iron gauntlets, taken from the lifeless hands of a masked executioner.",
+      "description": "Heavy iron gauntlets. Crude and cumbersome.",
       "type": "armor",
-      "encumbrance": 7,
-      "armor": 11,
+      "encumbrance": 8,
+      "armor": 25,
       "sideEffects": {
         "passives": [
           {
@@ -3896,29 +4106,30 @@
         "description": "For a moment, you are haunted by visions of death..."
       },
       "_created": "2019-05-17T00:35:47.023Z",
-      "_updated": "2019-05-17T00:35:47.023Z",
+      "_updated": "2020-03-04T09:00:57.001Z",
       "__v": 0
     },
     {
       "_id": "5cde0370c3e78f77235bc022",
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "body"
-      ],
       "name": "Rusty Iron Chainmail Shirt",
       "value": 65,
       "tier": "3",
       "type": "armor",
-      "encumbrance": 7,
-      "armor": 11,
+      "encumbrance": 6,
+      "armor": 22,
       "description": "Chainmail armor, covering the torso. Old and rusty.",
       "_created": "2019-05-17T00:42:24.679Z",
-      "_updated": "2019-05-17T00:42:24.679Z",
+      "_updated": "2020-03-04T07:54:47.537Z",
       "__v": 0
     },
     {
@@ -4024,22 +4235,32 @@
     },
     {
       "_id": "5ce527e4c3e78f827b5bda16",
+      "slot": [
+        "accessory"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
-        "passives": []
+        "passives": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5e5f6ce3fe7d0d30806c4c3a",
+            "type": "armor"
+          }
+        ],
+        "description": "This bracelet is not only expensive, it should provide a small amount of protection..."
       },
-      "slot": [
-        "accessory"
-      ],
       "name": "Ruby Bracelet",
       "description": "A golden bracelet with five sizable, rectangular rubies.",
       "value": 75,
       "tier": "4",
       "type": "treasure",
       "_created": "2019-05-22T10:43:48.499Z",
-      "_updated": "2019-05-22T10:43:48.499Z",
+      "_updated": "2020-03-04T08:54:59.870Z",
       "__v": 0
     },
     {
@@ -4107,19 +4328,20 @@
       "slot": [
         "accessory"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "name": "Silver ring",
+      "name": "Silver Ring",
       "description": "A silver ring with no additional adornments. Sterling.",
       "value": 22,
       "tier": "3",
       "type": "treasure",
       "_created": "2019-05-22T10:51:22.411Z",
-      "_updated": "2019-05-22T11:13:12.170Z",
+      "_updated": "2020-03-04T08:53:29.142Z",
       "__v": 0
     },
     {
@@ -4163,11 +4385,12 @@
       "slot": [
         "body"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "name": "Red Evening Gown",
-      "description": "Sown by a master tailor, this dress is made from the finest Panossian silk.",
+      "description": "Sewn by a master tailor, this dress is made from the finest Panossian silk.",
       "value": 35,
       "tier": "3",
       "type": "armor",
@@ -4195,7 +4418,7 @@
         "description": "The garment hinders your movement, but you feel quite beautiful..."
       },
       "_created": "2019-05-22T11:03:25.783Z",
-      "_updated": "2019-05-22T11:13:57.829Z",
+      "_updated": "2020-03-04T07:56:52.258Z",
       "__v": 0
     },
     {
@@ -4203,6 +4426,7 @@
       "slot": [
         "head"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -4215,39 +4439,50 @@
       "tier": "2",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 2,
       "_created": "2019-05-22T11:06:01.919Z",
-      "_updated": "2019-05-22T11:13:42.305Z",
+      "_updated": "2020-03-04T07:55:57.096Z",
       "__v": 0
     },
     {
       "_id": "5ce52fcdc3e78f6c915bda6f",
+      "slot": [
+        "accessory"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
-        "passives": []
+        "passives": [
+          {
+            "parameters": [
+              "1"
+            ],
+            "_id": "5e5f6c60fe7d0dcc336c4c38",
+            "type": "armor"
+          }
+        ],
+        "description": "Rich people can certainly have an odd sense of fashion..."
       },
-      "slot": [
-        "accessory"
-      ],
       "name": "Ceremonial Sash",
       "description": "A strange belt made from cloth. The fanciful embroideries are esoteric and suggestive.",
       "value": 12,
       "tier": "2",
       "type": "treasure",
       "_created": "2019-05-22T11:17:33.783Z",
-      "_updated": "2019-05-22T11:17:33.783Z",
+      "_updated": "2020-03-04T08:53:15.586Z",
       "__v": 0
     },
     {
       "_id": "5ce5315ec3e78f06105bda70",
-      "consumption": {
-        "actions": []
-      },
       "slot": [
         "feet"
       ],
+      "combatActions": [],
+      "consumption": {
+        "actions": []
+      },
       "name": "Black Dress Shoes",
       "description": "High-heeled shoes made from wood and cloth, with white embroideries of floral patterns.",
       "value": 10,
@@ -4256,7 +4491,7 @@
       "encumbrance": 1,
       "armor": 1,
       "sideEffects": {
-        "description": "The heels emphasize your figure in a positive, but they hinder your movement...",
+        "description": "The heels emphasize your figure in a positive way, but they hinder your movement...",
         "passives": [
           {
             "parameters": [
@@ -4277,7 +4512,7 @@
         ]
       },
       "_created": "2019-05-22T11:24:14.367Z",
-      "_updated": "2019-05-22T11:24:14.367Z",
+      "_updated": "2020-03-04T07:57:03.410Z",
       "__v": 0
     },
     {
@@ -4420,24 +4655,25 @@
     },
     {
       "_id": "5ced42a4c3e78fe8135beaa8",
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "head"
-      ],
       "name": "Winged Bronze Helmet",
       "value": 50,
       "tier": "3",
       "type": "armor",
       "encumbrance": 5,
-      "armor": 7,
+      "armor": 22,
       "description": "Traditionally worn by the Knights of Roeburgh. The two sections of the visor is held together by a clasp. The metal wings are quite sharp.",
       "_created": "2019-05-28T14:16:04.265Z",
-      "_updated": "2019-05-28T14:16:04.265Z",
+      "_updated": "2020-03-04T08:01:42.473Z",
       "__v": 0
     },
     {
@@ -4445,6 +4681,7 @@
       "slot": [
         "body"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -4457,31 +4694,32 @@
       "tier": "3",
       "type": "armor",
       "encumbrance": 8,
-      "armor": 11,
+      "armor": 30,
       "_created": "2019-05-28T14:19:20.944Z",
-      "_updated": "2019-05-28T14:36:14.267Z",
+      "_updated": "2020-03-04T08:02:04.938Z",
       "__v": 0
     },
     {
       "_id": "5ced44d3c3e78f3b015beaaa",
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "feet"
-      ],
       "name": "Bronze Plate Greaves",
       "description": "Traditionally worn by the Knights of Roeburgh. Protects both legs and feet.",
       "value": 85,
       "tier": "3",
       "type": "armor",
       "encumbrance": 7,
-      "armor": 9,
+      "armor": 25,
       "_created": "2019-05-28T14:25:23.004Z",
-      "_updated": "2019-05-28T14:25:23.004Z",
+      "_updated": "2020-03-04T08:02:32.184Z",
       "__v": 0
     },
     {
@@ -4548,131 +4786,137 @@
       "slot": [
         "offHand"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "name": "Red Kite Shield",
+      "name": "Blue Kite Shield",
       "description": "A large triangular shield. Traditionally used by the mounted cavalry among the Knights of Roeburgh.",
       "type": "shield",
-      "encumbrance": 5,
+      "encumbrance": 6,
       "tier": "3",
       "value": 40,
       "_created": "2019-05-28T14:44:22.475Z",
-      "_updated": "2019-08-02T13:31:14.147Z",
+      "_updated": "2020-03-05T05:38:54.399Z",
       "__v": 0,
-      "blockChance": 0.25
+      "blockChance": 0.22
     },
     {
       "_id": "5cf77fe1c3e78f52c75c2a1e",
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "body"
-      ],
       "name": "Brown Tunic",
       "description": "This tattered linen garment has been soiled by blood and mead.",
       "value": 3,
       "tier": "1",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 5,
       "_created": "2019-06-05T08:40:01.290Z",
-      "_updated": "2019-06-05T08:40:01.290Z",
+      "_updated": "2020-03-04T08:03:02.731Z",
       "__v": 0
     },
     {
       "_id": "5cf780bdc3e78f65115c2a1f",
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "body"
-      ],
       "name": "Black Silk Vest",
       "description": "A comfortable garment. Suitable for milder climates.",
       "value": 6,
       "tier": "2",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 3,
       "_created": "2019-06-05T08:43:41.861Z",
-      "_updated": "2019-06-05T08:43:41.861Z",
+      "_updated": "2020-03-04T08:03:20.722Z",
       "__v": 0
     },
     {
       "_id": "5cf78189c3e78f16545c2a20",
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "head"
-      ],
       "name": "Gray Slouch Hat",
       "description": "A tall hat with a wide brim.",
       "value": 4,
       "tier": "1",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 3,
       "_created": "2019-06-05T08:47:05.862Z",
-      "_updated": "2019-06-05T08:47:05.862Z",
+      "_updated": "2020-03-04T08:03:42.739Z",
       "__v": 0
     },
     {
       "_id": "5cf781dcc3e78faf9e5c2a21",
+      "slot": [
+        "accessory"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "accessory"
-      ],
       "name": "Black Scarf",
       "description": "A black linen scarf.",
       "value": 4,
       "tier": "1",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 2,
       "_created": "2019-06-05T08:48:28.864Z",
-      "_updated": "2019-06-05T08:48:28.864Z",
+      "_updated": "2020-03-04T08:00:12.529Z",
       "__v": 0
     },
     {
       "_id": "5cf782a6c3e78fa37a5c2a22",
+      "slot": [
+        "hands"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "hands"
-      ],
       "name": "Black Leather Gauntlets",
       "description": "Reinforced leather gauntlets. A perfect fit.",
       "value": 30,
       "tier": "3",
       "type": "armor",
       "encumbrance": 3,
-      "armor": 5,
+      "armor": 13,
       "_created": "2019-06-05T08:51:50.234Z",
-      "_updated": "2019-06-05T08:51:50.234Z",
+      "_updated": "2020-03-04T08:00:27.591Z",
       "__v": 0
     },
     {
@@ -4680,6 +4924,7 @@
       "slot": [
         "feet"
       ],
+      "combatActions": [],
       "sideEffects": {
         "passives": []
       },
@@ -4692,9 +4937,9 @@
       "tier": "2",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 3,
       "_created": "2019-06-05T09:01:21.850Z",
-      "_updated": "2019-06-05T12:11:45.189Z",
+      "_updated": "2020-03-04T08:00:49.458Z",
       "__v": 0
     },
     {
@@ -4881,6 +5126,7 @@
       "slot": [
         "offHand"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -4895,26 +5141,27 @@
         "passives": [
           {
             "parameters": [
-              "1"
+              "5"
             ],
-            "_id": "5d443ad98335b407ee884b3e",
+            "_id": "5e62a10960116cd90362851e",
             "type": "armor"
           }
         ],
         "description": "Cold shivers tingle down your spine..."
       },
       "_created": "2019-08-02T13:30:01.179Z",
-      "_updated": "2019-08-02T13:31:33.350Z",
+      "_updated": "2020-03-06T19:14:17.346Z",
       "__v": 0
     },
     {
       "_id": "5d443c4f8335b47dbf884b41",
-      "consumption": {
-        "actions": []
-      },
       "slot": [
         "accessory"
       ],
+      "combatActions": [],
+      "consumption": {
+        "actions": []
+      },
       "name": "Bone Crown",
       "description": "A cylindrical crown of tall spikes, made from boar tusks and ivory.",
       "value": 75,
@@ -4924,16 +5171,16 @@
         "passives": [
           {
             "parameters": [
-              "2"
+              "5"
             ],
-            "_id": "5d443c4f8335b417e5884b42",
+            "_id": "5e62a12a60116c3862628520",
             "type": "armor"
           }
         ],
         "description": "Cold shivers tingle down your spine..."
       },
       "_created": "2019-08-02T13:36:15.857Z",
-      "_updated": "2019-08-02T13:36:15.857Z",
+      "_updated": "2020-03-06T19:14:50.047Z",
       "__v": 0
     },
     {
@@ -4967,24 +5214,25 @@
     },
     {
       "_id": "5d547aa68335b4f1ef88506c",
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "head"
-      ],
       "name": "Iron Helmet",
       "description": "A heavy iron helmet with a jagged visor, sculpted to resemble the face of a wolf.",
       "value": 70,
       "tier": "4",
       "type": "armor",
-      "encumbrance": 6,
-      "armor": 9,
+      "encumbrance": 5,
+      "armor": 20,
       "_created": "2019-08-14T21:18:30.572Z",
-      "_updated": "2019-08-14T21:18:30.572Z",
+      "_updated": "2020-03-04T08:05:20.181Z",
       "__v": 0
     },
     {
@@ -5016,46 +5264,48 @@
     },
     {
       "_id": "5d54c8c08335b437ca88520a",
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "feet"
-      ],
       "name": "Heavy Iron Greaves",
       "value": 100,
       "description": "Crudely sculpted and overly cumbersome, these dark iron greaves provide ample protection for the legs.",
       "tier": "4",
       "type": "armor",
-      "encumbrance": 8,
-      "armor": 12,
+      "encumbrance": 9,
+      "armor": 30,
       "_created": "2019-08-15T02:51:44.998Z",
-      "_updated": "2019-08-15T02:51:44.998Z",
+      "_updated": "2020-03-04T08:05:47.668Z",
       "__v": 0
     },
     {
       "_id": "5d54c9a98335b44f6588520b",
+      "slot": [
+        "hands"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "hands"
-      ],
       "name": "Heavy Iron War Gauntlets",
       "tier": "4",
       "value": 100,
       "description": "Dark iron armguards. The heavy, interlocking segments of plate armor extend above the elbows.",
       "type": "armor",
       "encumbrance": 9,
-      "armor": 15,
+      "armor": 30,
       "_created": "2019-08-15T02:55:37.286Z",
-      "_updated": "2019-08-15T02:55:37.286Z",
+      "_updated": "2020-03-04T08:06:10.803Z",
       "__v": 0
     },
     {
@@ -5064,6 +5314,7 @@
         "head",
         "body"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -5075,10 +5326,10 @@
       "value": 150,
       "description": "Crude and cumbersome, this dark iron chainmail shirt covers the head and torso.",
       "type": "armor",
-      "armor": 18,
+      "armor": 45,
       "encumbrance": 9,
       "_created": "2019-08-15T02:58:32.121Z",
-      "_updated": "2019-08-15T03:00:22.639Z",
+      "_updated": "2020-03-04T08:07:08.372Z",
       "__v": 0
     },
     {
@@ -5132,11 +5383,11 @@
       "type": "weapon",
       "encumbrance": 8,
       "damage": {
-        "min": 1,
-        "max": 18
+        "min": 3,
+        "max": 20
       },
       "_created": "2019-08-15T03:10:15.654Z",
-      "_updated": "2020-02-18T10:30:20.889Z",
+      "_updated": "2020-03-05T12:15:44.603Z",
       "__v": 0
     },
     {
@@ -5170,18 +5421,19 @@
     },
     {
       "_id": "5d54d09a8335b4689b885212",
-      "consumption": {
-        "actions": []
-      },
       "slot": [
         "offHand"
       ],
+      "combatActions": [],
+      "consumption": {
+        "actions": []
+      },
       "name": "Black Iron Shield",
       "description": "A heavy round shield, reinforced by dark iron. Nigh impenetrable, yet cumbersome - the sheer size of it will provide a measure of safety.",
       "tier": "3",
       "type": "shield",
-      "encumbrance": 6,
-      "blockChance": 0.17,
+      "encumbrance": 5,
+      "blockChance": 0.18,
       "sideEffects": {
         "passives": [
           {
@@ -5196,7 +5448,7 @@
       },
       "value": 50,
       "_created": "2019-08-15T03:25:14.985Z",
-      "_updated": "2019-08-15T03:25:14.985Z",
+      "_updated": "2020-03-05T05:47:22.871Z",
       "__v": 0
     },
     {
@@ -5304,12 +5556,13 @@
     },
     {
       "_id": "5d715ea8e6ecf34e69a286a0",
-      "consumption": {
-        "actions": []
-      },
       "slot": [
         "head"
       ],
+      "combatActions": [],
+      "consumption": {
+        "actions": []
+      },
       "name": "Gotterdammerung",
       "value": 500,
       "tier": "4",
@@ -5328,230 +5581,240 @@
         "description": "The world seems darker now..."
       },
       "encumbrance": 8,
-      "armor": 30,
+      "armor": 50,
       "description": "A great helm, crafted from meteoric steel. Two massive horns have been placed on each side. It was discovered in the Underworld beneath Dusk Megalith.",
       "_created": "2019-09-05T19:14:48.079Z",
-      "_updated": "2019-09-05T19:14:48.079Z",
+      "_updated": "2020-03-04T08:07:37.578Z",
       "__v": 0
     },
     {
       "_id": "5d7cf1f1e6ecf3799ca2a2ba",
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "body"
-      ],
       "name": "Black Tunic",
       "description": "A black linen tunic of high quality.",
       "value": 10,
       "tier": "2",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 6,
       "_created": "2019-09-14T13:58:09.302Z",
-      "_updated": "2019-09-14T13:58:09.302Z",
+      "_updated": "2020-03-04T08:08:24.806Z",
       "__v": 0
     },
     {
       "_id": "5d7cf316e6ecf306fea2a2bb",
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "body"
-      ],
       "name": "Red Tunic",
       "description": "A red linen tunic of high quality.",
       "value": 10,
       "tier": "2",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 6,
       "_created": "2019-09-14T14:03:02.278Z",
-      "_updated": "2019-09-14T14:03:02.279Z",
+      "_updated": "2020-03-04T08:08:36.485Z",
       "__v": 0
     },
     {
       "_id": "5d7cf3c5e6ecf34eb5a2a2bc",
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "body"
-      ],
       "name": "White Tunic",
       "description": "A white linen tunic of high quality.",
       "value": 10,
       "tier": "2",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 6,
       "_created": "2019-09-14T14:05:57.968Z",
-      "_updated": "2019-09-14T14:05:57.969Z",
+      "_updated": "2020-03-04T08:08:45.773Z",
       "__v": 0
     },
     {
       "_id": "5d7cf434e6ecf347e2a2a2bd",
+      "slot": [
+        "accessory"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "accessory"
-      ],
       "name": "Black Cape",
       "description": "A black linen cape of a high quality.",
       "value": 12,
       "tier": "2",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 3,
       "_created": "2019-09-14T14:07:48.670Z",
-      "_updated": "2019-09-14T14:07:48.670Z",
+      "_updated": "2020-03-04T08:09:01.485Z",
       "__v": 0
     },
     {
       "_id": "5d7cf462e6ecf3544aa2a2be",
+      "slot": [
+        "accessory"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "accessory"
-      ],
       "name": "White Cape",
       "description": "A white linen cape of high quality.",
       "value": 12,
       "tier": "2",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 3,
       "_created": "2019-09-14T14:08:34.618Z",
-      "_updated": "2019-09-14T14:08:34.618Z",
+      "_updated": "2020-03-04T08:09:17.376Z",
       "__v": 0
     },
     {
       "_id": "5d7cf4aee6ecf349d7a2a2bf",
+      "slot": [
+        "accessory"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "accessory"
-      ],
       "name": "Red Cape",
       "description": "A red linen cape of high quality.",
       "value": 12,
       "tier": "2",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 3,
       "_created": "2019-09-14T14:09:50.762Z",
-      "_updated": "2019-09-14T14:09:50.762Z",
+      "_updated": "2020-03-04T08:09:27.542Z",
       "__v": 0
     },
     {
       "_id": "5d7d0d4be6ecf37225a2a397",
+      "slot": [
+        "hands"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "hands"
-      ],
       "name": "White Silk Gloves",
       "description": "Exquisite long gloves, ill-suited for combat.",
       "value": 15,
       "tier": "3",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 2,
       "_created": "2019-09-14T15:54:51.419Z",
-      "_updated": "2019-09-14T15:54:51.419Z",
+      "_updated": "2020-03-04T08:10:59.310Z",
       "__v": 0
     },
     {
       "_id": "5d7d0dc9e6ecf39144a2a398",
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "head"
-      ],
       "name": "Wool Cap",
       "description": "A simple hat, for the less discerning gentleman.",
       "value": 8,
       "tier": "1",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 2,
+      "armor": 3,
       "_created": "2019-09-14T15:56:57.908Z",
-      "_updated": "2019-09-14T15:56:57.908Z",
+      "_updated": "2020-03-04T08:12:48.790Z",
       "__v": 0
     },
     {
       "_id": "5d7d0ec1e6ecf39618a2a3a2",
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "head"
-      ],
       "name": "Black Beret",
       "description": "A black beret of high quality.",
-      "value": 9,
+      "value": 15,
       "tier": "2",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 2,
+      "armor": 4,
       "_created": "2019-09-14T16:01:05.098Z",
-      "_updated": "2019-09-14T16:01:05.098Z",
+      "_updated": "2020-03-04T08:12:36.163Z",
       "__v": 0
     },
     {
       "_id": "5d7d0f3ce6ecf35379a2a3a3",
+      "slot": [
+        "accessory"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "accessory"
-      ],
       "name": "White Silk Scarf",
       "description": "Strictly for the fashionable crowd.",
       "value": 25,
       "tier": "3",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 2,
       "_created": "2019-09-14T16:03:08.230Z",
-      "_updated": "2019-09-14T16:03:08.230Z",
+      "_updated": "2020-03-04T08:13:14.467Z",
       "__v": 0
     },
     {
@@ -5593,35 +5856,36 @@
     },
     {
       "_id": "5d818559e6ecf31951a2c87a",
-      "consumption": {
-        "actions": []
-      },
       "slot": [
         "hands"
       ],
+      "combatActions": [],
+      "consumption": {
+        "actions": []
+      },
       "name": "Spiked Gauntlets",
       "description": "A pair of iron war gauntlets with large spikes protruding from the knuckles.",
       "value": 150,
       "tier": "4",
       "type": "armor",
-      "encumbrance": 7,
-      "armor": 12,
+      "armor": 26,
       "sideEffects": {
         "passives": [
           {
             "parameters": [
-              "2",
-              "2"
+              "3",
+              "3"
             ],
-            "_id": "5d818559e6ecf310eda2c87b",
+            "_id": "5e5f638efe7d0dd3566c4c2f",
             "type": "meleeDamage"
           }
         ],
         "description": "Time to do some damage..."
       },
       "_created": "2019-09-18T01:16:09.776Z",
-      "_updated": "2019-09-18T01:16:09.776Z",
-      "__v": 0
+      "_updated": "2020-03-04T08:15:10.562Z",
+      "__v": 0,
+      "encumbrance": 8
     },
     {
       "_id": "5d8186abe6ecf3a4b3a2c87c",
@@ -5657,6 +5921,7 @@
         "passives": []
       },
       "slot": [],
+      "combatActions": [],
       "name": "Panossian Red Wine",
       "description": "A bottle of red wine, imported from the distant land of Panosa.",
       "value": 30,
@@ -5667,15 +5932,16 @@
         "actions": [
           {
             "parameters": [
-              "5"
+              "8",
+              ""
             ],
-            "_id": "5d823f5bb97fb321e97c2f1d",
+            "_id": "5e627ee260116c2d096281f5",
             "type": "changeHealth"
           }
         ]
       },
       "_created": "2019-09-18T14:29:47.541Z",
-      "_updated": "2019-09-18T14:29:47.541Z",
+      "_updated": "2020-03-06T16:48:34.813Z",
       "__v": 0
     },
     {
@@ -5684,6 +5950,7 @@
         "passives": []
       },
       "slot": [],
+      "combatActions": [],
       "name": "Phenrisian Cider",
       "description": "A bottle of pear cider, brewed by the monks of the Phenrisian Monastery.",
       "value": 10,
@@ -5693,16 +5960,17 @@
         "actions": [
           {
             "parameters": [
-              "2"
+              "3",
+              ""
             ],
-            "_id": "5d823fbbb97fb312017c2f1f",
+            "_id": "5e627f0f60116c53956281f9",
             "type": "changeHealth"
           }
         ],
         "uses": 4
       },
       "_created": "2019-09-18T14:31:23.209Z",
-      "_updated": "2019-09-18T14:31:23.209Z",
+      "_updated": "2020-03-06T16:49:19.014Z",
       "__v": 0
     },
     {
@@ -5791,24 +6059,25 @@
     },
     {
       "_id": "5d824f658ec25911cb100755",
+      "slot": [
+        "accessory"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "accessory"
-      ],
       "name": "Tattered Fur Mantle",
       "description": "This garment has seen frequent use, yet it will surely provide its wearer with warmth and protection.",
       "value": 8,
       "tier": "2",
       "type": "armor",
       "encumbrance": 3,
-      "armor": 4,
+      "armor": 6,
       "_created": "2019-09-18T15:38:13.492Z",
-      "_updated": "2019-09-18T15:38:13.492Z",
+      "_updated": "2020-03-04T08:15:58.097Z",
       "__v": 0
     },
     {
@@ -5899,6 +6168,7 @@
         "passives": []
       },
       "slot": [],
+      "combatActions": [],
       "name": "Palefoot Mushroom",
       "description": "An edible mushroom. Gray and white with dark spots. It can be harvested on the Isle of Bast.",
       "value": 1,
@@ -5908,16 +6178,17 @@
         "actions": [
           {
             "parameters": [
-              "3"
+              "4",
+              ""
             ],
-            "_id": "5dbb11ddff2c19dcdfdb687d",
+            "_id": "5e627f0660116c547a6281f8",
             "type": "changeHealth"
           }
         ],
         "uses": 3
       },
       "_created": "2019-10-31T16:54:53.971Z",
-      "_updated": "2019-10-31T16:57:08.350Z",
+      "_updated": "2020-03-06T16:49:10.181Z",
       "__v": 0
     },
     {
@@ -5988,178 +6259,186 @@
     },
     {
       "_id": "5dd3cd0cf75a977a445984c0",
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "feet"
-      ],
       "name": "Studded Leather Boots",
       "description": "Black, reinforced leather boots, previously worn by a young Militia soldier.",
       "value": 30,
       "tier": "3",
       "type": "armor",
-      "encumbrance": 3,
-      "armor": 8,
+      "encumbrance": 4,
+      "armor": 16,
       "_created": "2019-11-19T11:07:56.568Z",
-      "_updated": "2019-11-19T11:07:56.568Z",
+      "_updated": "2020-03-04T08:33:01.853Z",
       "__v": 0
     },
     {
       "_id": "5dd3cd89f75a9794455984c1",
+      "slot": [
+        "accessory"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "accessory"
-      ],
       "name": "Studded Leather Belt",
       "description": "A robust belt. The buckle has been sculpted to resemble the head of a wolf.",
       "value": 25,
       "tier": "3",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 3,
+      "armor": 4,
       "_created": "2019-11-19T11:10:01.761Z",
-      "_updated": "2019-11-19T11:10:01.761Z",
+      "_updated": "2020-03-04T08:33:39.149Z",
       "__v": 0
     },
     {
       "_id": "5dd3ce36f75a973a145984c3",
+      "slot": [
+        "hands"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "hands"
-      ],
       "name": "Studded Leather Gauntlets",
       "description": "Black, reinforced leather gauntlets, previously worn by a young Militia soldier.",
       "value": 28,
       "tier": "3",
       "type": "armor",
-      "encumbrance": 3,
-      "armor": 7,
+      "encumbrance": 4,
+      "armor": 17,
       "_created": "2019-11-19T11:12:54.137Z",
-      "_updated": "2019-11-19T11:12:54.137Z",
+      "_updated": "2020-03-04T08:34:00.765Z",
       "__v": 0
     },
     {
       "_id": "5dd3ce91f75a97d7375984c4",
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "head"
-      ],
       "name": "Studded Leather Helmet",
       "description": "A black, reinforced leather helmet, previously worn by a young Militia soldier.",
       "value": 30,
       "tier": "3",
       "type": "armor",
       "encumbrance": 3,
-      "armor": 6,
+      "armor": 14,
       "_created": "2019-11-19T11:14:25.257Z",
-      "_updated": "2019-11-19T11:14:25.257Z",
+      "_updated": "2020-03-04T08:37:49.691Z",
       "__v": 0
     },
     {
       "_id": "5dd3ef66f75a97e41859869b",
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "body"
-      ],
       "name": "Iron Scale Hauberk",
       "description": "A short-sleeved shirt of scale mail armor. Originates from the distant continent of Qad'Malon.",
       "value": 200,
       "tier": "4",
       "type": "armor",
       "encumbrance": 6,
-      "armor": 10,
+      "armor": 32,
       "_created": "2019-11-19T13:34:30.248Z",
-      "_updated": "2019-11-19T13:34:30.248Z",
+      "_updated": "2020-03-04T08:35:18.252Z",
       "__v": 0
     },
     {
       "_id": "5dd3f092f75a9747d359869c",
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "head"
-      ],
       "name": "Iron Scale Helmet",
       "description": "A nasal helmet with a scale mail coif. Originates from the distant continent of Qad'Malon.",
       "value": 120,
       "tier": "4",
       "type": "armor",
-      "encumbrance": 6,
-      "armor": 10,
+      "encumbrance": 5,
+      "armor": 28,
       "_created": "2019-11-19T13:39:30.428Z",
-      "_updated": "2019-11-19T13:39:30.428Z",
+      "_updated": "2020-03-04T08:17:17.780Z",
       "__v": 0
     },
     {
       "_id": "5dd3f110f75a97914359869d",
+      "slot": [
+        "hands"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "hands"
-      ],
       "name": "Iron Scale Gauntlets",
       "description": "Heavy iron scale war gauntlets. Originates from the distant continent of Qad'Malon.",
       "value": 85,
       "tier": "4",
       "type": "armor",
       "encumbrance": 6,
-      "armor": 10,
+      "armor": 22,
       "_created": "2019-11-19T13:41:36.108Z",
-      "_updated": "2019-11-19T13:41:36.108Z",
+      "_updated": "2020-03-04T08:17:42.407Z",
       "__v": 0
     },
     {
       "_id": "5dd3f23cf75a976c5159869e",
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "feet"
-      ],
       "name": "Iron Scale Greaves",
       "description": "Elaborately constructed, the interlocking sections of armor plates are reinforced by thick scales. Originates from the distant continent of Qad'Malon.",
       "value": 150,
       "tier": "4",
       "type": "armor",
-      "encumbrance": 7,
-      "armor": 10,
+      "encumbrance": 6,
+      "armor": 26,
       "_created": "2019-11-19T13:46:36.897Z",
-      "_updated": "2019-11-19T13:46:36.897Z",
+      "_updated": "2020-03-04T08:18:00.664Z",
       "__v": 0
     },
     {
@@ -6242,24 +6521,25 @@
     },
     {
       "_id": "5dd57d72f75a975c1359c90e",
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "body"
-      ],
       "name": "Black Leather Hauberk",
       "description": "A shirt made from hardened leather, with studded pauldrons. Originates from the distant continent of Qad'Malon.",
       "value": 100,
       "tier": "4",
       "type": "armor",
-      "armor": 8,
+      "armor": 18,
       "encumbrance": 3,
       "_created": "2019-11-20T17:52:50.800Z",
-      "_updated": "2019-11-20T17:52:50.800Z",
+      "_updated": "2020-03-04T08:18:52.376Z",
       "__v": 0
     },
     {
@@ -6267,6 +6547,7 @@
       "slot": [
         "head"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -6279,9 +6560,9 @@
       "description": "A full helmet made from hardened leather. Originates from the distant continent of Qad'Malon.",
       "type": "armor",
       "encumbrance": 3,
-      "armor": 8,
+      "armor": 16,
       "_created": "2019-11-20T19:32:22.527Z",
-      "_updated": "2019-11-20T19:32:41.537Z",
+      "_updated": "2020-03-04T08:19:06.220Z",
       "__v": 0
     },
     {
@@ -6336,6 +6617,7 @@
         "passives": []
       },
       "slot": [],
+      "combatActions": [],
       "name": "Roeburghian White Wine",
       "description": "A bottle of white wine, originating from the vineyards of Lord's Peninsula.",
       "value": 20,
@@ -6346,15 +6628,16 @@
         "actions": [
           {
             "parameters": [
-              "3"
+              "5",
+              ""
             ],
-            "_id": "5de667adf75a97fa1359f1bc",
+            "_id": "5e627ed460116c20396281f4",
             "type": "changeHealth"
           }
         ]
       },
       "_created": "2019-12-03T13:48:29.679Z",
-      "_updated": "2019-12-03T13:48:29.679Z",
+      "_updated": "2020-03-06T16:48:20.423Z",
       "__v": 0
     },
     {
@@ -6363,6 +6646,7 @@
         "passives": []
       },
       "slot": [],
+      "combatActions": [],
       "name": "Maleqite Brandy",
       "description": "A bottle of fine spirits, imported from the lowlands of Malequiem. Not for the weak of heart.",
       "value": 25,
@@ -6373,15 +6657,16 @@
         "actions": [
           {
             "parameters": [
-              "2"
+              "5",
+              ""
             ],
-            "_id": "5de668ecf75a9772df59f1c2",
+            "_id": "5e627ee960116c0b8e6281f6",
             "type": "changeHealth"
           }
         ]
       },
       "_created": "2019-12-03T13:53:48.931Z",
-      "_updated": "2019-12-03T13:53:48.931Z",
+      "_updated": "2020-03-06T16:48:41.774Z",
       "__v": 0
     },
     {
@@ -6408,16 +6693,17 @@
         "passives": []
       },
       "slot": [],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "name": "Brothel Token",
-      "description": "A large copper coin. One side shows a lewd representation of a woman. Runes have been inscribed on the other side of the coin. The inscription reads: “Golden Serpent Parlor House.”",
+      "description": "A large copper coin. One side shows a lewd image of a woman. Runes have been inscribed on the other side of the coin. The inscription reads: “Golden Serpent Parlor House.”",
       "value": 50,
       "tier": "1",
       "type": "tool",
       "_created": "2019-12-05T09:37:52.954Z",
-      "_updated": "2019-12-10T09:12:04.438Z",
+      "_updated": "2020-03-05T02:55:10.809Z",
       "__v": 0
     },
     {
@@ -6426,6 +6712,7 @@
         "passives": []
       },
       "slot": [],
+      "combatActions": [],
       "name": "Mead",
       "description": "A corked bottle of honey-wine, which is a popular alcoholic beverage on the western highlands of Tem Khiris.",
       "value": 5,
@@ -6436,15 +6723,16 @@
         "actions": [
           {
             "parameters": [
-              "1"
+              "3",
+              ""
             ],
-            "_id": "5def297ff75a9733dc59fc52",
+            "_id": "5e627ecc60116c01dc6281f3",
             "type": "changeHealth"
           }
         ]
       },
       "_created": "2019-12-10T05:13:35.815Z",
-      "_updated": "2019-12-10T05:13:35.815Z",
+      "_updated": "2020-03-06T16:48:12.668Z",
       "__v": 0
     },
     {
@@ -6487,33 +6775,34 @@
       "type": "weapon",
       "encumbrance": 7,
       "damage": {
-        "min": 13,
+        "min": 11,
         "max": 14
       },
       "_created": "2020-01-15T15:45:48.024Z",
-      "_updated": "2020-02-18T10:27:03.201Z",
+      "_updated": "2020-03-05T12:11:51.250Z",
       "__v": 0
     },
     {
       "_id": "5e1f639198fb23815fff8b5c",
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "body"
-      ],
       "name": "Iron Chainmail Shirt",
       "description": "Chainmail armor, covering the torso. Barely used.",
       "value": 80,
       "tier": "4",
       "type": "armor",
-      "encumbrance": 7,
-      "armor": 14,
+      "encumbrance": 6,
+      "armor": 25,
       "_created": "2020-01-15T19:10:09.803Z",
-      "_updated": "2020-01-15T19:10:09.803Z",
+      "_updated": "2020-03-04T08:20:01.084Z",
       "__v": 0
     },
     {
@@ -6586,6 +6875,7 @@
       "slot": [
         "accessory"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -6603,12 +6893,19 @@
             ],
             "_id": "5e314f58541689eb0b995ed2",
             "type": "attributes"
+          },
+          {
+            "parameters": [
+              "4"
+            ],
+            "_id": "5e5f6a73fe7d0d4c8f6c4c30",
+            "type": "armor"
           }
         ],
         "description": "Unnatural forces linger in the black runes of this red armband..."
       },
       "_created": "2020-01-29T09:24:40.647Z",
-      "_updated": "2020-01-29T09:26:55.358Z",
+      "_updated": "2020-03-04T08:44:35.847Z",
       "__v": 0
     },
     {
@@ -6632,24 +6929,25 @@
     },
     {
       "_id": "5e31fc1d541689325599667c",
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "head"
-      ],
       "name": "Black Slouch Hat",
       "description": "A black hat with a wide brim. Favored by the infamous crime lord known as Mantis.",
       "value": 10,
       "tier": "4",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 2,
+      "armor": 6,
       "_created": "2020-01-29T21:41:49.413Z",
-      "_updated": "2020-01-29T21:41:49.413Z",
+      "_updated": "2020-03-04T08:20:32.116Z",
       "__v": 0
     },
     {
@@ -6681,24 +6979,25 @@
     },
     {
       "_id": "5e3b7255e094783013338219",
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "body"
-      ],
       "name": "Yellow Sark",
       "description": "A long shirt, which gives a lot of room to breathe. Favored by the nomads from the Deadlands of Triniset.",
       "value": 25,
       "tier": "3",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 3,
+      "armor": 8,
       "_created": "2020-02-06T01:56:37.512Z",
-      "_updated": "2020-02-06T01:56:37.512Z",
+      "_updated": "2020-03-04T08:20:51.094Z",
       "__v": 0
     },
     {
@@ -6706,6 +7005,7 @@
       "slot": [
         "accessory"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -6718,9 +7018,9 @@
       "tier": "3",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 4,
       "_created": "2020-02-06T01:59:08.488Z",
-      "_updated": "2020-02-06T02:03:02.882Z",
+      "_updated": "2020-03-04T08:21:14.114Z",
       "__v": 0
     },
     {
@@ -6728,6 +7028,7 @@
       "slot": [
         "offHand"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -6742,16 +7043,16 @@
         "passives": [
           {
             "parameters": [
-              "4"
+              "10"
             ],
-            "_id": "5e3b7844e09478bc73338234",
+            "_id": "5e62a11160116c67ab62851f",
             "type": "armor"
           }
         ],
         "description": "It's as if the soul of Ebiddon himself rests within this shield..."
       },
       "_created": "2020-02-06T02:19:57.627Z",
-      "_updated": "2020-02-06T02:34:56.873Z",
+      "_updated": "2020-03-06T19:14:25.510Z",
       "__v": 0
     },
     {
@@ -6787,6 +7088,7 @@
       "slot": [
         "body"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -6798,54 +7100,56 @@
       "value": 300,
       "tier": "4",
       "type": "armor",
-      "encumbrance": 8,
-      "armor": 20,
+      "encumbrance": 9,
+      "armor": 45,
       "_created": "2020-02-09T18:49:15.696Z",
-      "_updated": "2020-02-09T18:50:33.282Z",
+      "_updated": "2020-03-06T11:14:40.847Z",
       "__v": 0
     },
     {
       "_id": "5e4056246a062fb588162f42",
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "feet"
-      ],
       "name": "Iron Plate Greaves",
       "description": "Black iron plate armor, providing ample protection for the legs and feet.",
       "type": "armor",
       "encumbrance": 8,
-      "armor": 12,
+      "armor": 35,
       "tier": "4",
       "value": 125,
       "_created": "2020-02-09T18:57:40.407Z",
-      "_updated": "2020-02-09T18:57:40.407Z",
+      "_updated": "2020-03-04T08:22:12.181Z",
       "__v": 0
     },
     {
       "_id": "5e4058526a062f6562162f43",
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "head"
-      ],
       "name": "Great Helm",
       "description": "A flat-topped, bucket-shaped iron helmet with breathing holes and horizontal apertures for the eyes.",
       "value": 140,
       "tier": "4",
       "type": "armor",
-      "encumbrance": 8,
-      "armor": 15,
+      "encumbrance": 7,
+      "armor": 38,
       "_created": "2020-02-09T19:06:58.923Z",
-      "_updated": "2020-02-09T19:06:58.923Z",
+      "_updated": "2020-03-04T08:22:51.235Z",
       "__v": 0
     },
     {
@@ -6869,12 +7173,12 @@
       "type": "weapon",
       "encumbrance": 4,
       "damage": {
-        "min": 8,
-        "max": 11
+        "min": 6,
+        "max": 14
       },
       "value": 90,
       "_created": "2020-02-09T19:19:55.431Z",
-      "_updated": "2020-02-18T10:17:48.678Z",
+      "_updated": "2020-03-06T12:33:55.299Z",
       "__v": 0
     },
     {
@@ -6912,6 +7216,7 @@
       "slot": [
         "body"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -6925,74 +7230,77 @@
       "value": 25,
       "description": "A comfortable, outer garment. Remarkably high quality. Can be worn open or closed.",
       "_created": "2020-02-10T04:17:11.065Z",
-      "_updated": "2020-02-10T04:44:05.742Z",
+      "_updated": "2020-03-04T08:23:43.210Z",
       "__v": 0,
-      "armor": 3
+      "armor": 7
     },
     {
       "_id": "5e40da356a062f7aea16305d",
+      "slot": [
+        "hands"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "hands"
-      ],
       "name": "Kidskin Gloves",
       "description": "White leather gloves, made from the skin of young goats.",
       "value": 20,
       "tier": "4",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 3,
+      "armor": 7,
       "_created": "2020-02-10T04:21:09.519Z",
-      "_updated": "2020-02-10T04:21:09.519Z",
+      "_updated": "2020-03-04T08:23:54.465Z",
       "__v": 0
     },
     {
       "_id": "5e40dadf6a062f4bb216305e",
+      "slot": [
+        "feet"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "feet"
-      ],
       "name": "White Cloth Sandals",
       "value": 8,
       "tier": "2",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 4,
       "description": "Simple and comfortable footwear.",
       "_created": "2020-02-10T04:23:59.366Z",
-      "_updated": "2020-02-10T04:23:59.367Z",
+      "_updated": "2020-03-04T08:24:11.178Z",
       "__v": 0
     },
     {
       "_id": "5e40dda96a062f5bad16305f",
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "head"
-      ],
       "name": "Domino Mask",
       "description": "A black eye mask, suitable for festive occasions.",
       "value": 8,
       "tier": "3",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 2,
       "_created": "2020-02-10T04:35:53.159Z",
-      "_updated": "2020-02-10T04:35:53.159Z",
+      "_updated": "2020-03-04T08:25:10.579Z",
       "__v": 0
     },
     {
@@ -7000,6 +7308,7 @@
       "slot": [
         "body"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -7012,31 +7321,32 @@
       "tier": "4",
       "type": "armor",
       "encumbrance": 2,
-      "armor": 4,
+      "armor": 10,
       "_created": "2020-02-10T04:39:53.397Z",
-      "_updated": "2020-02-10T04:44:23.040Z",
+      "_updated": "2020-03-04T08:32:25.236Z",
       "__v": 0
     },
     {
       "_id": "5e40e2056a062f166f163061",
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "body"
-      ],
       "name": "Black Silk Jacket",
       "description": "A fine waistcoat with pockets and long sleeves.",
       "value": 35,
       "tier": "4",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 3,
+      "armor": 7,
       "_created": "2020-02-10T04:54:29.755Z",
-      "_updated": "2020-02-10T04:54:29.756Z",
+      "_updated": "2020-03-04T08:37:13.311Z",
       "__v": 0
     },
     {
@@ -7044,6 +7354,7 @@
       "slot": [
         "head"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -7056,53 +7367,55 @@
       "tier": "2",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 2,
+      "armor": 4,
       "_created": "2020-02-10T05:07:30.749Z",
-      "_updated": "2020-02-10T05:20:48.068Z",
+      "_updated": "2020-03-04T08:37:36.934Z",
       "__v": 0
     },
     {
       "_id": "5e40e61f6a062f100b163074",
+      "slot": [
+        "accessory"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "accessory"
-      ],
       "name": "Cravat",
       "description": "A stylish neckband, made for the discerning nobleman.",
       "value": 10,
       "tier": "3",
       "type": "armor",
       "encumbrance": 1,
-      "armor": 1,
+      "armor": 3,
       "_created": "2020-02-10T05:11:59.297Z",
-      "_updated": "2020-02-10T05:11:59.297Z",
+      "_updated": "2020-03-04T08:36:45.351Z",
       "__v": 0
     },
     {
       "_id": "5e40e7836a062f23ec16307f",
+      "slot": [
+        "head"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "head"
-      ],
       "name": "Winged Iron Helmet",
       "description": "A nasal helmet with wings on the sides. Traditionally worn by the knights of Roeburgh.",
       "value": 80,
       "tier": "4",
       "type": "armor",
       "encumbrance": 6,
-      "armor": 9,
+      "armor": 24,
       "_created": "2020-02-10T05:17:55.049Z",
-      "_updated": "2020-02-10T05:17:55.049Z",
+      "_updated": "2020-03-04T08:36:59.308Z",
       "__v": 0
     },
     {
@@ -7293,16 +7606,92 @@
         "actions": [
           {
             "parameters": [
-              "1",
+              "2",
               []
             ],
-            "_id": "5e55b456b723c271384adb7c",
+            "_id": "5e627ef860116c93056281f7",
             "type": "changeHealth"
           }
         ]
       },
       "_created": "2020-02-25T23:57:10.649Z",
-      "_updated": "2020-02-25T23:57:10.649Z",
+      "_updated": "2020-03-06T16:48:56.769Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e6095c7fe7d0d74f46c9a10",
+      "slot": [
+        "offHand"
+      ],
+      "combatActions": [],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Iron Buckler",
+      "description": "A small round iron-plated wooden shield.",
+      "value": 30,
+      "tier": "3",
+      "type": "shield",
+      "encumbrance": 3,
+      "blockChance": 0.15,
+      "_created": "2020-03-05T06:01:43.806Z",
+      "_updated": "2020-03-05T06:06:10.087Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e609b2efe7d0d92976c9a18",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "offHand"
+      ],
+      "combatActions": [],
+      "name": "Highland Targe",
+      "description": "An iron-plated wooden buckler. This small round shield is the work of a master.",
+      "value": 65,
+      "tier": "4",
+      "type": "shield",
+      "encumbrance": 3,
+      "blockChance": 0.16,
+      "_created": "2020-03-05T06:24:46.257Z",
+      "_updated": "2020-03-05T06:24:46.257Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e60b3a2fe7d0d4ee26c9b49",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "parry",
+        "sweep"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "War Staff",
+      "tier": "3",
+      "type": "weapon",
+      "encumbrance": 3,
+      "damage": {
+        "min": 5,
+        "max": 10
+      },
+      "description": "A long wooden staff, reinforced by a few iron bands. Crafted by the druids of Graefir Island.",
+      "value": 25,
+      "_created": "2020-03-05T08:09:06.049Z",
+      "_updated": "2020-03-05T08:11:10.060Z",
       "__v": 0
     }
   ]

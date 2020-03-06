@@ -1,5 +1,5 @@
 {
-  "total": 72,
+  "total": 73,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -706,26 +706,11 @@
             }
           ],
           "conditions": []
-        },
-        {
-          "_id": "5c803ee70e37483b18c601a3",
-          "items": [
-            {
-              "quantityRange": [
-                1,
-                3
-              ],
-              "_id": "5c803ee70e3748833fc601a4",
-              "probability": 1,
-              "item": "5c803e190e374836d8c601a0"
-            }
-          ],
-          "conditions": []
         }
       ],
       "_created": "2019-03-06T21:43:03.504Z",
       "__v": 0,
-      "_updated": "2019-03-13T17:25:46.635Z"
+      "_updated": "2020-03-04T09:22:12.500Z"
     },
     {
       "_id": "5c863d2e0e374850c4c6036f",
@@ -3582,7 +3567,7 @@
                 1
               ],
               "_id": "5d547c3f8335b4079c88506f",
-              "probability": 0.5,
+              "probability": 0.25,
               "item": "5d5479a48335b4c9d888506a"
             },
             {
@@ -3593,13 +3578,22 @@
               "_id": "5d547c3f8335b4e04488506e",
               "probability": 0.5,
               "item": "5d547aa68335b4f1ef88506c"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e5f6ffffe7d0dd44f6c4c3d",
+              "probability": 0.25,
+              "item": "5cde01e3c3e78f766c5bc020"
             }
           ],
           "conditions": []
         }
       ],
       "_created": "2019-08-14T21:03:42.563Z",
-      "_updated": "2019-09-18T15:08:54.293Z",
+      "_updated": "2020-03-04T09:08:15.250Z",
       "__v": 0
     },
     {
@@ -4100,7 +4094,7 @@
                 1
               ],
               "_id": "5dd3fcfbf75a97ff94598821",
-              "probability": 0.2,
+              "probability": 0.15,
               "item": "5dd3f110f75a97914359869d"
             },
             {
@@ -4109,7 +4103,7 @@
                 1
               ],
               "_id": "5dd3fcfbf75a97137b598820",
-              "probability": 0.2,
+              "probability": 0.14,
               "item": "5dd3f23cf75a976c5159869e"
             },
             {
@@ -4118,7 +4112,7 @@
                 1
               ],
               "_id": "5dd3fcfbf75a97ad7a59881f",
-              "probability": 0.2,
+              "probability": 0.16,
               "item": "5dd3ef66f75a97e41859869b"
             },
             {
@@ -4127,7 +4121,7 @@
                 1
               ],
               "_id": "5dd3fcfbf75a97498359881e",
-              "probability": 0.2,
+              "probability": 0.15,
               "item": "5dd3f092f75a9747d359869c"
             },
             {
@@ -4147,6 +4141,15 @@
               "_id": "5dd3fcfbf75a97072d59881c",
               "probability": 0.1,
               "item": "5dd3f3d6f75a972a545986a0"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e608fdffe7d0dba086c9a06",
+              "probability": 0.2,
+              "item": "5dd3f49cf75a975b705986a1"
             }
           ],
           "conditions": []
@@ -4204,7 +4207,7 @@
         }
       ],
       "_created": "2019-11-19T14:32:27.332Z",
-      "_updated": "2019-11-20T18:02:24.232Z",
+      "_updated": "2020-03-05T05:36:31.147Z",
       "__v": 0
     },
     {
@@ -4839,6 +4842,31 @@
       ],
       "_created": "2020-02-25T23:55:59.666Z",
       "_updated": "2020-02-25T23:57:52.985Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e5f7362fe7d0d384f6c4c5c",
+      "gold": [],
+      "name": "Leftovers",
+      "bundles": [
+        {
+          "_id": "5e5f7362fe7d0d63c66c4c5d",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                3
+              ],
+              "_id": "5e5f7362fe7d0d98f66c4c5e",
+              "probability": 1,
+              "item": "5c803e190e374836d8c601a0"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-03-04T09:22:42.041Z",
+      "_updated": "2020-03-04T09:22:42.041Z",
       "__v": 0
     }
   ]

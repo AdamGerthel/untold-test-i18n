@@ -14,8 +14,7 @@
       "_created": "2019-03-04T20:17:56.999Z",
       "__v": 0,
       "_updated": "2019-04-10T15:36:27.865Z",
-      "health": 35,
-      "armor": 4,
+      "armor": 16,
       "experience": 50,
       "attacksPerSecond": 2,
       "damage": {
@@ -27,6 +26,9 @@
     },
     {
       "_id": "5c7d8829fd6b492258456b99",
+      "combatActions": [
+        "sweep"
+      ],
       "name": "Druid War Chief",
       "strength": 9,
       "charisma": 3,
@@ -35,9 +37,8 @@
       "perception": 5,
       "_created": "2019-03-04T20:18:49.655Z",
       "__v": 0,
-      "_updated": "2019-06-10T17:05:37.891Z",
-      "health": 20,
-      "armor": 10,
+      "_updated": "2020-03-04T13:09:22.609Z",
+      "armor": 40,
       "experience": 75,
       "damage": {
         "min": 6,
@@ -51,13 +52,13 @@
     },
     {
       "_id": "5c80303b0e374858f8c6017e",
+      "combatActions": [],
       "name": "Wild Dog",
       "strength": 1,
       "charisma": 1,
       "resilience": 1,
       "agility": 2,
       "perception": 1,
-      "health": 6,
       "armor": 0,
       "experience": 20,
       "attacksPerSecond": 1,
@@ -67,9 +68,10 @@
       },
       "_created": "2019-03-06T20:40:27.448Z",
       "__v": 0,
-      "_updated": "2020-02-04T23:46:50.700Z",
+      "_updated": "2020-03-03T21:16:36.693Z",
       "level": 2,
-      "bargain": []
+      "bargain": [],
+      "healthOverride": 12
     },
     {
       "_id": "5c817e240e37485f1bc601e1",
@@ -79,7 +81,6 @@
       "resilience": 1,
       "agility": 2,
       "perception": 2,
-      "health": 10,
       "armor": 0,
       "experience": 20,
       "damage": {
@@ -95,13 +96,13 @@
     },
     {
       "_id": "5c85d3f30e3748205fc6035c",
-      "strength": 2,
+      "combatActions": [],
+      "strength": 3,
       "charisma": 1,
       "resilience": 1,
       "agility": 2,
       "perception": 1,
-      "health": 12,
-      "armor": 5,
+      "armor": 20,
       "experience": 30,
       "damage": {
         "min": 1,
@@ -109,9 +110,9 @@
       },
       "_created": "2019-03-11T03:20:19.163Z",
       "__v": 0,
-      "_updated": "2019-06-08T08:24:45.787Z",
+      "_updated": "2020-03-04T10:29:21.018Z",
       "name": "Swordsman of Woe",
-      "level": 3,
+      "level": 4,
       "bargain": [],
       "attacksPerSecond": 0.7
     },
@@ -123,7 +124,7 @@
       "resilience": 2,
       "agility": 1,
       "perception": 1,
-      "armor": 5,
+      "armor": 20,
       "experience": 30,
       "damage": {
         "min": 1,
@@ -134,7 +135,6 @@
       "_updated": "2019-06-08T08:25:48.521Z",
       "level": 3,
       "bargain": [],
-      "health": 14,
       "attacksPerSecond": 0.9
     },
     {
@@ -145,8 +145,7 @@
       "resilience": 1,
       "charisma": 1,
       "strength": 4,
-      "health": 16,
-      "armor": 1,
+      "armor": 4,
       "experience": 30,
       "attacksPerSecond": 0.45,
       "damage": {
@@ -167,7 +166,6 @@
       "resilience": 1,
       "agility": 3,
       "perception": 1,
-      "health": 8,
       "armor": 0,
       "experience": 20,
       "damage": {
@@ -189,7 +187,6 @@
       "resilience": 1,
       "agility": 2,
       "perception": 2,
-      "health": 10,
       "armor": 0,
       "experience": 30,
       "attacksPerSecond": 2,
@@ -212,8 +209,7 @@
       "resilience": 2,
       "agility": 1,
       "perception": 1,
-      "health": 16,
-      "armor": 1,
+      "armor": 4,
       "experience": 30,
       "damage": {
         "min": 1,
@@ -234,8 +230,7 @@
       "resilience": 1,
       "agility": 1,
       "perception": 3,
-      "health": 10,
-      "armor": 1,
+      "armor": 4,
       "experience": 25,
       "damage": {
         "min": 1,
@@ -256,8 +251,7 @@
       "agility": 2,
       "strength": 3,
       "perception": 2,
-      "health": 12,
-      "armor": 5,
+      "armor": 20,
       "experience": 30,
       "damage": {
         "min": 1,
@@ -279,8 +273,7 @@
       "resilience": 1,
       "agility": 3,
       "perception": 3,
-      "health": 16,
-      "armor": 1,
+      "armor": 4,
       "experience": 50,
       "damage": {
         "min": 2,
@@ -302,8 +295,7 @@
       "resilience": 1,
       "agility": 2,
       "perception": 2,
-      "health": 12,
-      "armor": 1,
+      "armor": 4,
       "experience": 40,
       "attacksPerSecond": 1.5,
       "damage": {
@@ -324,7 +316,6 @@
       "resilience": 4,
       "agility": 2,
       "perception": 2,
-      "health": 18,
       "experience": 50,
       "damage": {
         "max": 4,
@@ -346,8 +337,7 @@
       "resilience": 1,
       "agility": 2,
       "perception": 4,
-      "health": 10,
-      "armor": 1,
+      "armor": 4,
       "experience": 10,
       "attacksPerSecond": 1,
       "damage": {
@@ -407,8 +397,7 @@
       "charisma": 3,
       "resilience": 1,
       "perception": 3,
-      "health": 14,
-      "armor": 2,
+      "armor": 8,
       "experience": 40,
       "attacksPerSecond": 2,
       "damage": {
@@ -430,7 +419,6 @@
       "resilience": 1,
       "agility": 3,
       "perception": 2,
-      "health": 10,
       "armor": 0,
       "experience": 25,
       "attacksPerSecond": 2,
@@ -452,8 +440,7 @@
       "resilience": 1,
       "agility": 4,
       "perception": 1,
-      "health": 6,
-      "armor": 4,
+      "armor": 16,
       "experience": 10,
       "attacksPerSecond": 1,
       "damage": {
@@ -475,8 +462,7 @@
       "resilience": 1,
       "agility": 2,
       "perception": 4,
-      "health": 12,
-      "armor": 5,
+      "armor": 20,
       "experience": 25,
       "damage": {
         "min": 2,
@@ -498,8 +484,7 @@
       "resilience": 2,
       "agility": 1,
       "perception": 2,
-      "health": 14,
-      "armor": 1,
+      "armor": 4,
       "experience": 25,
       "damage": {
         "min": 1,
@@ -521,8 +506,7 @@
       "resilience": 6,
       "agility": 3,
       "perception": 2,
-      "health": 22,
-      "armor": 5,
+      "armor": 20,
       "attacksPerSecond": 2,
       "damage": {
         "min": 6,
@@ -571,8 +555,7 @@
       "resilience": 3,
       "agility": 4,
       "perception": 3,
-      "health": 12,
-      "armor": 10,
+      "armor": 40,
       "experience": 10,
       "attacksPerSecond": 1,
       "damage": {
@@ -614,8 +597,7 @@
       "agility": 1,
       "perception": 2,
       "level": 6,
-      "health": 16,
-      "armor": 3,
+      "armor": 12,
       "experience": 10,
       "attacksPerSecond": 1.5,
       "damage": {
@@ -630,26 +612,26 @@
     },
     {
       "_id": "5cb8c8a0c065f0c1889439e9",
+      "combatActions": [],
       "name": "Prison Warden",
       "strength": 4,
-      "charisma": 3,
+      "charisma": 4,
       "resilience": 4,
       "agility": 1,
       "perception": 2,
-      "level": 10,
-      "health": 18,
-      "armor": 4,
+      "armor": 20,
       "experience": 60,
       "damage": {
-        "min": 6,
+        "min": 7,
         "max": 11
       },
       "_created": "2019-04-18T18:57:36.400Z",
-      "_updated": "2019-06-09T21:45:52.036Z",
+      "_updated": "2020-03-04T13:49:55.018Z",
       "bargain": [],
       "__v": 0,
       "loot": "5cb91ccec065f09f7c943b35",
-      "attacksPerSecond": 0.9
+      "attacksPerSecond": 0.9,
+      "level": 11
     },
     {
       "_id": "5cb8e2e9c065f01019943a01",
@@ -659,9 +641,8 @@
       "resilience": 5,
       "agility": 1,
       "perception": 2,
-      "health": 18,
       "level": 8,
-      "armor": 3,
+      "armor": 12,
       "experience": 20,
       "damage": {
         "min": 6,
@@ -676,6 +657,7 @@
     },
     {
       "_id": "5cb9146dc065f04565943b30",
+      "combatActions": [],
       "name": "Hooded Prison Guard",
       "strength": 3,
       "charisma": 1,
@@ -683,16 +665,15 @@
       "agility": 2,
       "perception": 2,
       "level": 8,
-      "health": 18,
-      "armor": 5,
+      "armor": 25,
       "experience": 25,
       "attacksPerSecond": 1,
       "damage": {
-        "min": 3,
+        "min": 5,
         "max": 12
       },
       "_created": "2019-04-19T00:21:01.558Z",
-      "_updated": "2019-04-19T12:26:52.116Z",
+      "_updated": "2020-03-04T13:48:59.252Z",
       "bargain": [],
       "__v": 0,
       "loot": "5cb91eb9c065f0361a943b47"
@@ -703,8 +684,7 @@
       "strength": 1,
       "charisma": 1,
       "perception": 3,
-      "health": 18,
-      "armor": 5,
+      "armor": 20,
       "experience": 25,
       "attacksPerSecond": 1.3,
       "damage": {
@@ -729,8 +709,7 @@
       "agility": 4,
       "perception": 4,
       "level": 8,
-      "health": 14,
-      "armor": 4,
+      "armor": 16,
       "experience": 25,
       "attacksPerSecond": 2,
       "damage": {
@@ -751,8 +730,7 @@
       "agility": 2,
       "perception": 2,
       "level": 8,
-      "health": 16,
-      "armor": 8,
+      "armor": 32,
       "experience": 40,
       "attacksPerSecond": 1.2,
       "damage": {
@@ -774,8 +752,7 @@
       "agility": 2,
       "perception": 2,
       "level": 9,
-      "health": 16,
-      "armor": 9,
+      "armor": 36,
       "experience": 40,
       "attacksPerSecond": 1.5,
       "damage": {
@@ -797,7 +774,6 @@
       "agility": 4,
       "perception": 1,
       "level": 10,
-      "health": 18,
       "armor": 0,
       "experience": 35,
       "attacksPerSecond": 1.5,
@@ -819,7 +795,6 @@
       "resilience": 1,
       "agility": 3,
       "perception": 1,
-      "health": 12,
       "armor": 0,
       "experience": 5,
       "attacksPerSecond": 1,
@@ -842,8 +817,7 @@
       "agility": 1,
       "perception": 2,
       "attacksPerSecond": 1,
-      "health": 18,
-      "armor": 10,
+      "armor": 40,
       "experience": 40,
       "damage": {
         "min": 4,
@@ -863,8 +837,7 @@
       "resilience": 4,
       "agility": 3,
       "perception": 2,
-      "health": 20,
-      "armor": 6,
+      "armor": 24,
       "experience": 25,
       "damage": {
         "min": 3,
@@ -887,8 +860,7 @@
       "perception": 1,
       "agility": 2,
       "level": 9,
-      "health": 20,
-      "armor": 6,
+      "armor": 24,
       "experience": 25,
       "attacksPerSecond": 1,
       "damage": {
@@ -910,8 +882,7 @@
       "charisma": 1,
       "resilience": 5,
       "perception": 2,
-      "health": 20,
-      "armor": 10,
+      "armor": 40,
       "damage": {
         "min": 1,
         "max": 10
@@ -933,8 +904,7 @@
       "resilience": 3,
       "agility": 2,
       "perception": 3,
-      "health": 16,
-      "armor": 4,
+      "armor": 16,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 1,
@@ -956,8 +926,7 @@
       "resilience": 3,
       "agility": 2,
       "perception": 1,
-      "health": 16,
-      "armor": 4,
+      "armor": 16,
       "damage": {
         "min": 5,
         "max": 15
@@ -979,7 +948,6 @@
       "agility": 1,
       "perception": 8,
       "level": 17,
-      "health": 9,
       "armor": 0,
       "attacksPerSecond": 1,
       "damage": {
@@ -1012,8 +980,7 @@
       "resilience": 1,
       "agility": 2,
       "perception": 3,
-      "health": 12,
-      "armor": 2,
+      "armor": 8,
       "attacksPerSecond": 1,
       "damage": {
         "min": 6,
@@ -1045,8 +1012,7 @@
       "resilience": 2,
       "agility": 3,
       "perception": 4,
-      "health": 14,
-      "armor": 2,
+      "armor": 8,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 1,
@@ -1068,8 +1034,7 @@
       "resilience": 3,
       "agility": 2,
       "perception": 3,
-      "health": 30,
-      "armor": 20,
+      "armor": 80,
       "attacksPerSecond": 1,
       "damage": {
         "min": 9,
@@ -1092,8 +1057,7 @@
       "resilience": 2,
       "agility": 3,
       "perception": 2,
-      "health": 9,
-      "armor": 2,
+      "armor": 8,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 3,
@@ -1115,8 +1079,7 @@
       "resilience": 2,
       "agility": 5,
       "perception": 2,
-      "health": 9,
-      "armor": 2,
+      "armor": 8,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 3,
@@ -1138,8 +1101,7 @@
       "resilience": 3,
       "agility": 3,
       "perception": 3,
-      "health": 16,
-      "armor": 4,
+      "armor": 16,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 1,
@@ -1160,7 +1122,6 @@
       "strength": 1,
       "resilience": 1,
       "agility": 1,
-      "health": 12,
       "armor": 0,
       "attacksPerSecond": 1,
       "damage": {
@@ -1193,8 +1154,7 @@
       "resilience": 7,
       "charisma": 1,
       "strength": 1,
-      "health": 22,
-      "armor": 3,
+      "armor": 12,
       "attacksPerSecond": 1,
       "damage": {
         "min": 1,
@@ -1215,8 +1175,7 @@
       "resilience": 3,
       "agility": 3,
       "perception": 2,
-      "health": 16,
-      "armor": 6,
+      "armor": 24,
       "attacksPerSecond": 2,
       "damage": {
         "min": 1,
@@ -1239,8 +1198,7 @@
       "resilience": 3,
       "agility": 2,
       "perception": 1,
-      "health": 16,
-      "armor": 15,
+      "armor": 60,
       "attacksPerSecond": 1,
       "damage": {
         "min": 1,
@@ -1262,8 +1220,7 @@
       "agility": 1,
       "perception": 1,
       "attacksPerSecond": 1,
-      "health": 14,
-      "armor": 18,
+      "armor": 72,
       "damage": {
         "min": 1,
         "max": 18
@@ -1283,8 +1240,7 @@
       "charisma": 1,
       "agility": 3,
       "perception": 2,
-      "health": 10,
-      "armor": 14,
+      "armor": 56,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 2,
@@ -1306,8 +1262,7 @@
       "agility": 5,
       "perception": 1,
       "attacksPerSecond": 1.5,
-      "armor": 2,
-      "health": 12,
+      "armor": 8,
       "damage": {
         "min": 1,
         "max": 8
@@ -1328,7 +1283,6 @@
       "agility": 3,
       "perception": 5,
       "level": 11,
-      "health": 16,
       "armor": 0,
       "attacksPerSecond": 1,
       "damage": {
@@ -1350,8 +1304,7 @@
       "agility": 2,
       "perception": 4,
       "level": 18,
-      "health": 22,
-      "armor": 14,
+      "armor": 56,
       "attacksPerSecond": 1,
       "damage": {
         "min": 6,
@@ -1373,8 +1326,7 @@
       "agility": 2,
       "perception": 2,
       "charisma": 3,
-      "health": 12,
-      "armor": 1,
+      "armor": 4,
       "attacksPerSecond": 1,
       "damage": {
         "min": 1,
@@ -1442,8 +1394,7 @@
       "resilience": 2,
       "agility": 1,
       "perception": 2,
-      "health": 14,
-      "armor": 10,
+      "armor": 40,
       "attacksPerSecond": 1,
       "damage": {
         "min": 7,
@@ -1496,8 +1447,7 @@
       "resilience": 2,
       "agility": 2,
       "perception": 2,
-      "health": 14,
-      "armor": 1,
+      "armor": 4,
       "attacksPerSecond": 1,
       "damage": {
         "min": 4,
@@ -1529,8 +1479,7 @@
       "resilience": 2,
       "agility": 2,
       "perception": 2,
-      "health": 14,
-      "armor": 3,
+      "armor": 12,
       "attacksPerSecond": 1,
       "damage": {
         "min": 2,
@@ -1578,8 +1527,7 @@
       "resilience": 2,
       "agility": 2,
       "perception": 4,
-      "health": 14,
-      "armor": 2,
+      "armor": 8,
       "attacksPerSecond": 1,
       "damage": {
         "min": 1,
@@ -1619,8 +1567,7 @@
       "resilience": 2,
       "agility": 2,
       "perception": 1,
-      "health": 14,
-      "armor": 1,
+      "armor": 4,
       "attacksPerSecond": 1,
       "damage": {
         "min": 4,
@@ -1642,8 +1589,7 @@
       "resilience": 1,
       "agility": 4,
       "perception": 3,
-      "health": 12,
-      "armor": 1,
+      "armor": 4,
       "attacksPerSecond": 2,
       "damage": {
         "min": 1,
@@ -1665,8 +1611,7 @@
       "resilience": 2,
       "agility": 4,
       "perception": 1,
-      "health": 14,
-      "armor": 1,
+      "armor": 4,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 1,
@@ -1688,8 +1633,7 @@
       "resilience": 3,
       "agility": 3,
       "perception": 2,
-      "health": 16,
-      "armor": 1,
+      "armor": 4,
       "attacksPerSecond": 1,
       "damage": {
         "max": 12,
@@ -1711,8 +1655,7 @@
       "resilience": 1,
       "agility": 6,
       "perception": 2,
-      "health": 12,
-      "armor": 1,
+      "armor": 4,
       "attacksPerSecond": 2,
       "damage": {
         "min": 3,
@@ -1734,8 +1677,7 @@
       "resilience": 5,
       "agility": 1,
       "perception": 2,
-      "health": 20,
-      "armor": 5,
+      "armor": 20,
       "attacksPerSecond": 1,
       "damage": {
         "min": 1,
@@ -1757,8 +1699,7 @@
       "resilience": 3,
       "agility": 3,
       "perception": 4,
-      "health": 16,
-      "armor": 5,
+      "armor": 20,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 1,
@@ -1780,8 +1721,7 @@
       "resilience": 1,
       "agility": 2,
       "perception": 3,
-      "health": 20,
-      "armor": 3,
+      "armor": 12,
       "attacksPerSecond": 1,
       "damage": {
         "min": 4,
@@ -1829,8 +1769,7 @@
       "resilience": 1,
       "agility": 2,
       "perception": 1,
-      "health": 15,
-      "armor": 1,
+      "armor": 4,
       "attacksPerSecond": 1,
       "damage": {
         "min": 3,
@@ -1867,6 +1806,7 @@
     },
     {
       "_id": "5d9bb921ba4a3f516d31183d",
+      "combatActions": [],
       "name": "Stingray",
       "level": 1,
       "strength": 1,
@@ -1874,7 +1814,6 @@
       "resilience": 1,
       "agility": 1,
       "perception": 1,
-      "health": 1,
       "armor": 0,
       "attacksPerSecond": 1,
       "damage": {
@@ -1883,9 +1822,18 @@
       },
       "experience": 50,
       "_created": "2019-10-07T22:16:01.719Z",
-      "_updated": "2019-10-07T22:16:01.720Z",
+      "_updated": "2020-03-05T13:52:44.234Z",
       "bargain": [],
-      "__v": 0
+      "__v": 0,
+      "fight": {
+        "audio": {
+          "loop": true,
+          "volume": 1,
+          "media": null,
+          "track": 1,
+          "continueFromPreviousPosition": false
+        }
+      }
     },
     {
       "_id": "5da37ba3356ecd6560701603",
@@ -1896,8 +1844,7 @@
       "resilience": 4,
       "agility": 5,
       "perception": 8,
-      "health": 25,
-      "armor": 10,
+      "armor": 40,
       "attacksPerSecond": 2,
       "damage": {
         "min": 9,
@@ -1911,6 +1858,7 @@
     },
     {
       "_id": "5da38924356ecd64df701b0e",
+      "combatActions": [],
       "name": "Father",
       "level": 5,
       "strength": 2,
@@ -1918,8 +1866,7 @@
       "resilience": 2,
       "agility": 1,
       "perception": 1,
-      "health": 12,
-      "armor": 1,
+      "armor": 4,
       "attacksPerSecond": 0.1,
       "damage": {
         "min": 1,
@@ -1927,12 +1874,23 @@
       },
       "experience": 0,
       "_created": "2019-10-13T20:29:24.801Z",
-      "_updated": "2019-10-13T20:45:59.034Z",
+      "_updated": "2020-03-05T13:52:19.415Z",
       "bargain": [],
-      "__v": 0
+      "__v": 0,
+      "healthOverride": 1,
+      "fight": {
+        "audio": {
+          "loop": true,
+          "volume": 1,
+          "media": "5e49848ca74d95c320de4d15",
+          "track": 1,
+          "continueFromPreviousPosition": true
+        }
+      }
     },
     {
       "_id": "5da38954356ecd81ea701b0f",
+      "combatActions": [],
       "name": "Mother",
       "level": 6,
       "strength": 1,
@@ -1940,21 +1898,31 @@
       "resilience": 1,
       "agility": 1,
       "perception": 4,
-      "health": 10,
-      "armor": 1,
+      "armor": 4,
       "damage": {
         "min": 1,
         "max": 1
       },
       "experience": 0,
       "_created": "2019-10-13T20:30:12.841Z",
-      "_updated": "2019-10-13T20:46:18.984Z",
+      "_updated": "2020-03-05T13:52:34.331Z",
       "bargain": [],
       "__v": 0,
-      "attacksPerSecond": 0.1
+      "attacksPerSecond": 0.1,
+      "healthOverride": 1,
+      "fight": {
+        "audio": {
+          "loop": true,
+          "volume": 1,
+          "media": "5e49848ca74d95c320de4d15",
+          "track": 1,
+          "continueFromPreviousPosition": true
+        }
+      }
     },
     {
       "_id": "5da3e229c55b7f2b4af53064",
+      "combatActions": [],
       "name": "Ephemeral Guard",
       "level": 12,
       "strength": 4,
@@ -1962,8 +1930,7 @@
       "resilience": 3,
       "agility": 2,
       "perception": 3,
-      "health": 26,
-      "armor": 10,
+      "armor": 40,
       "attacksPerSecond": 1,
       "damage": {
         "min": 6,
@@ -1971,7 +1938,7 @@
       },
       "experience": 25,
       "_created": "2019-10-14T02:49:13.598Z",
-      "_updated": "2019-10-14T03:13:34.501Z",
+      "_updated": "2020-03-05T08:10:10.402Z",
       "bargain": [
         {
           "_id": "5da3e7dec55b7f81bef530bb",
@@ -1983,6 +1950,10 @@
             {
               "_id": "5da3e7dec55b7f1eb2f530bc",
               "item": "5d12279340fcff8734fb7f70"
+            },
+            {
+              "_id": "5e60b3e2fe7d0d752f6c9b4b",
+              "item": "5e60b3a2fe7d0d4ee26c9b49"
             }
           ],
           "conditions": []
@@ -1999,8 +1970,7 @@
       "resilience": 1,
       "agility": 2,
       "perception": 5,
-      "health": 12,
-      "armor": 3,
+      "armor": 12,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 1,
@@ -2021,8 +1991,7 @@
       "resilience": 3,
       "agility": 3,
       "perception": 3,
-      "health": 24,
-      "armor": 15,
+      "armor": 60,
       "attacksPerSecond": 2,
       "damage": {
         "min": 8,
@@ -2043,8 +2012,7 @@
       "resilience": 2,
       "agility": 4,
       "perception": 3,
-      "health": 30,
-      "armor": 12,
+      "armor": 48,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 6,
@@ -2065,8 +2033,7 @@
       "resilience": 2,
       "agility": 4,
       "perception": 5,
-      "health": 28,
-      "armor": 15,
+      "armor": 60,
       "damage": {
         "min": 8,
         "max": 12
@@ -2089,8 +2056,7 @@
       "agility": 1,
       "perception": 1,
       "attacksPerSecond": 0.5,
-      "health": 40,
-      "armor": 25,
+      "armor": 100,
       "damage": {
         "min": 20,
         "max": 25
@@ -2104,6 +2070,7 @@
     },
     {
       "_id": "5dba3f56ff2c19053ddb6090",
+      "combatActions": [],
       "name": "Cartel Bodyguard",
       "strength": 4,
       "level": 10,
@@ -2111,8 +2078,7 @@
       "resilience": 3,
       "agility": 3,
       "perception": 3,
-      "health": 35,
-      "armor": 10,
+      "armor": 40,
       "attacksPerSecond": 1.2,
       "damage": {
         "min": 5,
@@ -2120,12 +2086,25 @@
       },
       "experience": 20,
       "_created": "2019-10-31T01:56:38.304Z",
-      "_updated": "2020-02-10T05:39:12.244Z",
+      "_updated": "2020-03-05T15:43:55.211Z",
       "bargain": [],
-      "__v": 0
+      "__v": 0,
+      "fight": {
+        "audio": {
+          "loop": true,
+          "volume": 1,
+          "media": "5e49848ca74d95c320de4d15",
+          "track": 1,
+          "continueFromPreviousPosition": true
+        }
+      }
     },
     {
       "_id": "5dba3ffcff2c19e5f4db609f",
+      "combatActions": [
+        "cut",
+        "parry"
+      ],
       "name": "Mantis",
       "level": 25,
       "strength": 4,
@@ -2133,8 +2112,7 @@
       "resilience": 2,
       "agility": 9,
       "perception": 6,
-      "health": 50,
-      "armor": 5,
+      "armor": 20,
       "attacksPerSecond": 2,
       "damage": {
         "min": 9,
@@ -2142,12 +2120,22 @@
       },
       "experience": 200,
       "_created": "2019-10-31T01:59:24.909Z",
-      "_updated": "2020-02-03T19:24:04.706Z",
+      "_updated": "2020-03-06T17:15:01.916Z",
       "bargain": [],
-      "__v": 0
+      "__v": 0,
+      "fight": {
+        "audio": {
+          "loop": true,
+          "volume": 1,
+          "media": "5e49848ca74d95c320de4d15",
+          "track": 1,
+          "continueFromPreviousPosition": true
+        }
+      }
     },
     {
       "_id": "5dba412cff2c1966abdb60bd",
+      "combatActions": [],
       "name": "Cartel Bodyguard",
       "level": 10,
       "strength": 3,
@@ -2155,8 +2143,7 @@
       "resilience": 3,
       "agility": 3,
       "perception": 4,
-      "health": 40,
-      "armor": 5,
+      "armor": 20,
       "attacksPerSecond": 1,
       "damage": {
         "min": 6,
@@ -2164,9 +2151,18 @@
       },
       "experience": 20,
       "_created": "2019-10-31T02:04:28.914Z",
-      "_updated": "2020-02-10T05:39:24.739Z",
+      "_updated": "2020-03-05T15:43:22.365Z",
       "bargain": [],
-      "__v": 0
+      "__v": 0,
+      "fight": {
+        "audio": {
+          "loop": true,
+          "volume": 1,
+          "media": "5e49848ca74d95c320de4d15",
+          "track": 1,
+          "continueFromPreviousPosition": true
+        }
+      }
     },
     {
       "_id": "5dbb1b8eff2c19059bdb68a8",
@@ -2177,8 +2173,7 @@
       "resilience": 2,
       "agility": 2,
       "perception": 2,
-      "health": 15,
-      "armor": 8,
+      "armor": 32,
       "attacksPerSecond": 1,
       "damage": {
         "min": 6,
@@ -2200,8 +2195,7 @@
       "resilience": 10,
       "agility": 6,
       "perception": 8,
-      "health": 250,
-      "armor": 75,
+      "armor": 300,
       "attacksPerSecond": 2,
       "damage": {
         "min": 20,
@@ -2222,8 +2216,7 @@
       "resilience": 2,
       "agility": 5,
       "perception": 4,
-      "health": 30,
-      "armor": 10,
+      "armor": 40,
       "damage": {
         "min": 7,
         "max": 12
@@ -2238,6 +2231,7 @@
     },
     {
       "_id": "5dcec3ccf75a97bb545982b3",
+      "combatActions": [],
       "name": "Foreign Soldier",
       "level": 11,
       "strength": 6,
@@ -2245,8 +2239,7 @@
       "resilience": 4,
       "agility": 1,
       "perception": 2,
-      "health": 30,
-      "armor": 25,
+      "armor": 100,
       "attacksPerSecond": 1,
       "damage": {
         "min": 8,
@@ -2255,13 +2248,23 @@
       "blockChance": 0.25,
       "experience": 50,
       "_created": "2019-11-15T15:27:08.249Z",
-      "_updated": "2019-11-19T16:07:29.523Z",
+      "_updated": "2020-03-05T17:09:38.233Z",
       "bargain": [],
       "__v": 0,
-      "loot": "5dd3fcfbf75a973ce559881a"
+      "loot": "5dd3fcfbf75a973ce559881a",
+      "fight": {
+        "audio": {
+          "loop": true,
+          "volume": 1,
+          "media": "5e261dcd3a36bf5d253e4633",
+          "track": 1,
+          "continueFromPreviousPosition": true
+        }
+      }
     },
     {
       "_id": "5dd422f5f75a97ec4c598e33",
+      "combatActions": [],
       "name": "Foreign Soldier",
       "level": 10,
       "strength": 4,
@@ -2269,8 +2272,7 @@
       "resilience": 3,
       "agility": 2,
       "perception": 3,
-      "health": 28,
-      "armor": 25,
+      "armor": 100,
       "attacksPerSecond": 1,
       "damage": {
         "min": 7,
@@ -2280,12 +2282,22 @@
       "experience": 50,
       "loot": "5dd3fcfbf75a973ce559881a",
       "_created": "2019-11-19T17:14:29.493Z",
-      "_updated": "2019-11-19T17:14:44.729Z",
+      "_updated": "2020-03-05T17:09:27.143Z",
       "bargain": [],
-      "__v": 0
+      "__v": 0,
+      "fight": {
+        "audio": {
+          "loop": true,
+          "volume": 1,
+          "media": "5e261dcd3a36bf5d253e4633",
+          "track": 1,
+          "continueFromPreviousPosition": true
+        }
+      }
     },
     {
       "_id": "5dd425d9f75a977e73598f84",
+      "combatActions": [],
       "name": "Foreign Soldier",
       "level": 12,
       "strength": 6,
@@ -2293,8 +2305,7 @@
       "resilience": 2,
       "agility": 2,
       "perception": 4,
-      "health": 26,
-      "armor": 25,
+      "armor": 100,
       "attacksPerSecond": 1,
       "damage": {
         "min": 6,
@@ -2304,12 +2315,22 @@
       "experience": 50,
       "loot": "5dd3fcfbf75a973ce559881a",
       "_created": "2019-11-19T17:26:49.680Z",
-      "_updated": "2019-11-19T17:26:49.681Z",
+      "_updated": "2020-03-05T17:09:44.631Z",
       "bargain": [],
-      "__v": 0
+      "__v": 0,
+      "fight": {
+        "audio": {
+          "loop": true,
+          "volume": 1,
+          "media": "5e261dcd3a36bf5d253e4633",
+          "track": 1,
+          "continueFromPreviousPosition": true
+        }
+      }
     },
     {
       "_id": "5dd43847f75a971e4a59906d",
+      "combatActions": [],
       "name": "Foreign Commander",
       "level": 12,
       "strength": 5,
@@ -2317,8 +2338,7 @@
       "resilience": 3,
       "agility": 2,
       "perception": 2,
-      "health": 30,
-      "armor": 25,
+      "armor": 100,
       "attacksPerSecond": 1,
       "damage": {
         "min": 9,
@@ -2328,12 +2348,22 @@
       "experience": 50,
       "loot": "5dd3fcfbf75a973ce559881a",
       "_created": "2019-11-19T18:45:27.872Z",
-      "_updated": "2019-11-21T01:34:39.220Z",
+      "_updated": "2020-03-05T17:08:34.432Z",
       "bargain": [],
-      "__v": 0
+      "__v": 0,
+      "fight": {
+        "audio": {
+          "loop": true,
+          "volume": 1,
+          "media": "5e261dcd3a36bf5d253e4633",
+          "track": 1,
+          "continueFromPreviousPosition": true
+        }
+      }
     },
     {
       "_id": "5dd579e0f75a97595359c90d",
+      "combatActions": [],
       "name": "Foreign Skirmisher",
       "level": 12,
       "strength": 4,
@@ -2341,8 +2371,7 @@
       "resilience": 2,
       "agility": 4,
       "perception": 4,
-      "health": 30,
-      "armor": 15,
+      "armor": 60,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 8,
@@ -2350,10 +2379,19 @@
       },
       "experience": 50,
       "_created": "2019-11-20T17:37:36.533Z",
-      "_updated": "2019-11-20T17:56:20.811Z",
+      "_updated": "2020-03-05T17:09:09.877Z",
       "bargain": [],
       "__v": 0,
-      "loot": "5dd57e33f75a97069659c90f"
+      "loot": "5dd57e33f75a97069659c90f",
+      "fight": {
+        "audio": {
+          "loop": true,
+          "volume": 1,
+          "media": "5e261dcd3a36bf5d253e4633",
+          "track": 1,
+          "continueFromPreviousPosition": true
+        }
+      }
     },
     {
       "_id": "5de665c1f75a973e9459f1b6",
@@ -2364,8 +2402,7 @@
       "resilience": 2,
       "agility": 1,
       "perception": 2,
-      "health": 14,
-      "armor": 1,
+      "armor": 4,
       "attacksPerSecond": 1,
       "damage": {
         "min": 2,
@@ -2386,8 +2423,7 @@
       "resilience": 1,
       "agility": 2,
       "perception": 1,
-      "health": 12,
-      "armor": 1,
+      "armor": 4,
       "attacksPerSecond": 1,
       "damage": {
         "min": 3,
@@ -2424,6 +2460,7 @@
     },
     {
       "_id": "5de716a5f75a9798c959fb9b",
+      "combatActions": [],
       "name": "Armorer",
       "level": 9,
       "strength": 4,
@@ -2431,8 +2468,7 @@
       "resilience": 3,
       "agility": 1,
       "perception": 2,
-      "health": 30,
-      "armor": 5,
+      "armor": 20,
       "attacksPerSecond": 1,
       "damage": {
         "min": 5,
@@ -2440,7 +2476,7 @@
       },
       "experience": 25,
       "_created": "2019-12-04T02:15:01.134Z",
-      "_updated": "2020-02-10T05:18:42.462Z",
+      "_updated": "2020-03-05T06:26:12.000Z",
       "bargain": [
         {
           "_id": "5e405c356a062ff0e9162f46",
@@ -2468,6 +2504,10 @@
             {
               "_id": "5e40e7b26a062fc8a5163081",
               "item": "5e40e7836a062f23ec16307f"
+            },
+            {
+              "_id": "5e609b84fe7d0ddc736c9a1a",
+              "item": "5e609b2efe7d0d92976c9a18"
             }
           ],
           "conditions": []
@@ -2484,7 +2524,6 @@
       "resilience": 1,
       "agility": 1,
       "perception": 8,
-      "health": 9,
       "armor": 0,
       "attacksPerSecond": 1,
       "damage": {
@@ -2506,7 +2545,6 @@
       "resilience": 1,
       "agility": 1,
       "perception": 1,
-      "health": 12,
       "armor": 0,
       "attacksPerSecond": 1,
       "damage": {
@@ -2571,8 +2609,7 @@
       "resilience": 1,
       "agility": 3,
       "perception": 2,
-      "health": 12,
-      "armor": 2,
+      "armor": 8,
       "attacksPerSecond": 1,
       "damage": {
         "min": 5,
@@ -2604,8 +2641,7 @@
       "resilience": 3,
       "agility": 2,
       "perception": 3,
-      "health": 25,
-      "armor": 4,
+      "armor": 16,
       "attacksPerSecond": 1,
       "damage": {
         "min": 6,
@@ -2627,8 +2663,7 @@
       "resilience": 2,
       "agility": 4,
       "perception": 1,
-      "health": 16,
-      "armor": 1,
+      "armor": 4,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 5,
@@ -2649,8 +2684,7 @@
       "resilience": 2,
       "agility": 4,
       "perception": 4,
-      "health": 30,
-      "armor": 10,
+      "armor": 40,
       "attacksPerSecond": 1.5,
       "damage": {
         "max": 15,
@@ -2672,8 +2706,7 @@
       "resilience": 2,
       "agility": 2,
       "perception": 2,
-      "health": 28,
-      "armor": 10,
+      "armor": 40,
       "attacksPerSecond": 1,
       "damage": {
         "min": 6,
@@ -2694,8 +2727,7 @@
       "resilience": 3,
       "agility": 2,
       "perception": 4,
-      "health": 32,
-      "armor": 15,
+      "armor": 60,
       "attacksPerSecond": 1,
       "damage": {
         "min": 5,
@@ -2716,8 +2748,7 @@
       "resilience": 1,
       "agility": 5,
       "perception": 1,
-      "health": 20,
-      "armor": 10,
+      "armor": 40,
       "attacksPerSecond": 2,
       "damage": {
         "min": 2,
@@ -2738,8 +2769,7 @@
       "resilience": 4,
       "agility": 1,
       "perception": 1,
-      "health": 40,
-      "armor": 15,
+      "armor": 60,
       "attacksPerSecond": 1,
       "damage": {
         "max": 18,
@@ -2754,6 +2784,7 @@
     },
     {
       "_id": "5e1f078276343359275ace1a",
+      "combatActions": [],
       "name": "Cartel Guardian",
       "level": 14,
       "strength": 7,
@@ -2761,22 +2792,22 @@
       "resilience": 5,
       "agility": 3,
       "perception": 2,
-      "health": 40,
-      "armor": 20,
-      "attacksPerSecond": 1.5,
+      "armor": 75,
+      "attacksPerSecond": 1.2,
       "damage": {
-        "max": 16,
-        "min": 4
+        "max": 20,
+        "min": 6
       },
       "experience": 30,
       "_created": "2020-01-15T12:37:22.167Z",
-      "_updated": "2020-01-15T19:11:34.041Z",
+      "_updated": "2020-03-06T12:49:07.874Z",
       "bargain": [],
       "__v": 0,
       "loot": "5e1f32bd76343363b15ace63"
     },
     {
       "_id": "5e1f098c763433dfc55ace26",
+      "combatActions": [],
       "name": "Nomad Merchant",
       "level": 11,
       "strength": 2,
@@ -2784,15 +2815,14 @@
       "resilience": 2,
       "perception": 3,
       "agility": 2,
-      "health": 25,
-      "armor": 5,
+      "armor": 20,
       "damage": {
         "min": 6,
         "max": 13
       },
       "experience": 20,
       "_created": "2020-01-15T12:46:04.175Z",
-      "_updated": "2020-02-06T02:00:18.648Z",
+      "_updated": "2020-03-05T06:03:50.433Z",
       "bargain": [
         {
           "_id": "5e3b6a79e09478276333820c",
@@ -2800,46 +2830,26 @@
             {
               "_id": "5e3b6a79e0947852dc33820d",
               "item": "5c8e8003153140832b805840"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5e3b6e3ae09478150133820e",
-          "items": [
+            },
             {
-              "_id": "5e3b6e3ae09478c52f33820f",
+              "_id": "5e5fdf80fe7d0d71916c5fd3",
               "item": "5d12279340fcff8734fb7f70"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5e3b6fd4e094780a20338213",
-          "items": [
+            },
             {
-              "_id": "5e3b6fd4e09478bc34338214",
+              "_id": "5e5fdf80fe7d0d6ace6c5fd2",
               "item": "5e3b6fa5e09478d094338212"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5e3b727ae094780e5233821a",
-          "items": [
+            },
             {
-              "_id": "5e3b727ae09478e11933821b",
+              "_id": "5e5fdf80fe7d0db09d6c5fd1",
               "item": "5e3b7255e094783013338219"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5e3b7332e09478c5c6338223",
-          "items": [
+            },
             {
-              "_id": "5e3b7332e094785fd1338224",
+              "_id": "5e5fdf80fe7d0d5c456c5fd0",
               "item": "5e3b72ece09478cf58338222"
+            },
+            {
+              "_id": "5e609646fe7d0d37496c9a12",
+              "item": "5e6095c7fe7d0d74f46c9a10"
             }
           ],
           "conditions": []
@@ -2857,8 +2867,7 @@
       "resilience": 3,
       "agility": 4,
       "perception": 4,
-      "health": 32,
-      "armor": 15,
+      "armor": 60,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 6,
@@ -2873,6 +2882,7 @@
     },
     {
       "_id": "5e2700323a36bfa3ac3e4721",
+      "combatActions": [],
       "name": "Cartel Swordsman",
       "level": 9,
       "strength": 3,
@@ -2880,21 +2890,21 @@
       "resilience": 2,
       "agility": 4,
       "perception": 2,
-      "health": 26,
-      "armor": 10,
-      "attacksPerSecond": 1.5,
+      "armor": 40,
+      "attacksPerSecond": 1,
       "damage": {
         "min": 7,
-        "max": 9
+        "max": 16
       },
       "experience": 30,
       "_created": "2020-01-21T13:44:18.760Z",
-      "_updated": "2020-01-21T13:44:18.760Z",
+      "_updated": "2020-03-06T13:07:33.214Z",
       "bargain": [],
       "__v": 0
     },
     {
       "_id": "5e2700fc3a36bf3f6b3e4722",
+      "combatActions": [],
       "name": "Cartel Marauder",
       "level": 9,
       "strength": 4,
@@ -2902,16 +2912,15 @@
       "resilience": 2,
       "agility": 5,
       "perception": 1,
-      "health": 26,
-      "armor": 15,
-      "attacksPerSecond": 2,
+      "armor": 60,
+      "attacksPerSecond": 1.6,
       "damage": {
         "max": 12,
-        "min": 3
+        "min": 6
       },
       "experience": 30,
       "_created": "2020-01-21T13:47:40.113Z",
-      "_updated": "2020-01-21T13:47:40.113Z",
+      "_updated": "2020-03-06T13:08:16.652Z",
       "bargain": [],
       "__v": 0
     },
@@ -2924,8 +2933,7 @@
       "resilience": 4,
       "agility": 2,
       "perception": 2,
-      "health": 35,
-      "armor": 18,
+      "armor": 72,
       "attacksPerSecond": 1,
       "damage": {
         "min": 8,
@@ -2946,8 +2954,7 @@
       "resilience": 3,
       "agility": 2,
       "perception": 3,
-      "health": 32,
-      "armor": 15,
+      "armor": 60,
       "attacksPerSecond": 1,
       "damage": {
         "min": 4,
@@ -2962,6 +2969,7 @@
     },
     {
       "_id": "5e2703473a36bfddd73e4725",
+      "combatActions": [],
       "name": "Cartel Roughneck",
       "level": 10,
       "strength": 4,
@@ -2969,21 +2977,21 @@
       "charisma": 1,
       "perception": 2,
       "agility": 3,
-      "health": 35,
-      "armor": 20,
-      "attacksPerSecond": 1.5,
+      "armor": 60,
+      "attacksPerSecond": 1.4,
       "damage": {
-        "min": 5,
+        "min": 8,
         "max": 14
       },
       "experience": 40,
       "_created": "2020-01-21T13:57:27.205Z",
-      "_updated": "2020-01-21T13:58:04.284Z",
+      "_updated": "2020-03-06T13:13:19.312Z",
       "bargain": [],
       "__v": 0
     },
     {
       "_id": "5e2704003a36bffaa03e4726",
+      "combatActions": [],
       "name": "Cartel Scoundrel",
       "level": 10,
       "strength": 2,
@@ -2991,16 +2999,15 @@
       "resilience": 1,
       "agility": 7,
       "perception": 2,
-      "health": 22,
-      "armor": 5,
-      "attacksPerSecond": 2.5,
+      "armor": 20,
+      "attacksPerSecond": 1.7,
       "damage": {
-        "min": 6,
-        "max": 12
+        "min": 10,
+        "max": 18
       },
       "experience": 40,
       "_created": "2020-01-21T14:00:32.030Z",
-      "_updated": "2020-01-21T14:01:04.783Z",
+      "_updated": "2020-03-06T13:17:11.891Z",
       "bargain": [],
       "__v": 0
     },
@@ -3013,8 +3020,7 @@
       "resilience": 5,
       "agility": 1,
       "perception": 1,
-      "health": 40,
-      "armor": 20,
+      "armor": 80,
       "attacksPerSecond": 1,
       "damage": {
         "min": 10,
@@ -3028,28 +3034,31 @@
     },
     {
       "_id": "5e27063b3a36bf12723e4728",
+      "combatActions": [],
       "name": "Cartel Hatchet Man",
       "level": 11,
       "strength": 4,
       "charisma": 1,
       "agility": 3,
       "perception": 3,
-      "health": 35,
-      "armor": 15,
-      "attacksPerSecond": 1.5,
+      "armor": 40,
+      "attacksPerSecond": 1.3,
       "damage": {
-        "min": 6,
+        "min": 9,
         "max": 15
       },
       "experience": 50,
       "_created": "2020-01-21T14:10:03.652Z",
-      "_updated": "2020-01-21T14:15:36.167Z",
+      "_updated": "2020-03-06T13:14:56.927Z",
       "bargain": [],
       "__v": 0,
       "resilience": 4
     },
     {
       "_id": "5e2706d23a36bf7f253e4729",
+      "combatActions": [
+        "stab"
+      ],
       "name": "Cartel Rogue",
       "level": 11,
       "strength": 2,
@@ -3057,18 +3066,17 @@
       "resilience": 2,
       "agility": 6,
       "perception": 3,
-      "health": 26,
-      "armor": 12,
-      "attacksPerSecond": 2.5,
+      "attacksPerSecond": 1.9,
       "damage": {
         "min": 1,
-        "max": 19
+        "max": 25
       },
       "experience": 50,
       "_created": "2020-01-21T14:12:34.885Z",
-      "_updated": "2020-01-21T14:12:34.885Z",
+      "_updated": "2020-03-06T13:10:46.847Z",
       "bargain": [],
-      "__v": 0
+      "__v": 0,
+      "armor": 35
     },
     {
       "_id": "5e2708383a36bf58bd3e472a",
@@ -3079,8 +3087,7 @@
       "resilience": 3,
       "agility": 4,
       "perception": 3,
-      "health": 32,
-      "armor": 18,
+      "armor": 72,
       "attacksPerSecond": 1.7,
       "damage": {
         "min": 5,
@@ -3101,8 +3108,7 @@
       "resilience": 2,
       "agility": 4,
       "perception": 7,
-      "health": 26,
-      "armor": 20,
+      "armor": 80,
       "attacksPerSecond": 1.8,
       "damage": {
         "min": 4,
@@ -3116,25 +3122,25 @@
     },
     {
       "_id": "5e2709ea3a36bffeda3e472c",
+      "combatActions": [],
       "name": "Cartel Executioner",
       "level": 13,
-      "strength": 4,
+      "strength": 6,
       "resilience": 4,
-      "agility": 4,
+      "agility": 3,
       "perception": 3,
       "charisma": 1,
-      "health": 35,
-      "armor": 22,
-      "attacksPerSecond": 2,
+      "armor": 88,
       "damage": {
-        "min": 7,
-        "max": 12
+        "min": 20,
+        "max": 30
       },
       "experience": 70,
       "_created": "2020-01-21T14:25:46.069Z",
-      "_updated": "2020-01-21T14:25:46.069Z",
+      "_updated": "2020-03-06T16:05:58.542Z",
       "bargain": [],
-      "__v": 0
+      "__v": 0,
+      "attacksPerSecond": 0.8
     },
     {
       "_id": "5e270b6f3a36bf91643e4790",
@@ -3145,8 +3151,7 @@
       "resilience": 5,
       "agility": 4,
       "perception": 3,
-      "health": 40,
-      "armor": 25,
+      "armor": 100,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 6,
@@ -3167,7 +3172,6 @@
       "resilience": 1,
       "agility": 1,
       "perception": 5,
-      "health": 15,
       "armor": 0,
       "attacksPerSecond": 1,
       "damage": {
@@ -3189,7 +3193,6 @@
       "resilience": 3,
       "agility": 4,
       "perception": 4,
-      "health": 40,
       "armor": 0,
       "attacksPerSecond": 2,
       "damage": {
@@ -3204,6 +3207,7 @@
     },
     {
       "_id": "5e3b6841e09478b14c338200",
+      "combatActions": [],
       "name": "Nomad Merchant (S)",
       "level": 11,
       "strength": 2,
@@ -3211,8 +3215,7 @@
       "resilience": 2,
       "agility": 2,
       "perception": 3,
-      "health": 25,
-      "armor": 5,
+      "armor": 20,
       "attacksPerSecond": 1,
       "damage": {
         "min": 6,
@@ -3220,7 +3223,7 @@
       },
       "experience": 20,
       "_created": "2020-02-06T01:13:37.221Z",
-      "_updated": "2020-02-06T03:06:05.801Z",
+      "_updated": "2020-03-04T17:05:46.231Z",
       "bargain": [
         {
           "_id": "5e3b68b3e094786128338201",
@@ -3228,25 +3231,13 @@
             {
               "_id": "5e3b68b3e09478b32c338202",
               "item": "5d8104d2e6ecf308a0a2b6bf"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5e3b77eee0947863e6338230",
-          "items": [
+            },
             {
-              "_id": "5e3b77eee09478b48d338231",
+              "_id": "5e5fdfeafe7d0d11c06c5fd7",
               "item": "5e3b77cde09478125e33822f"
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "_id": "5e3b829de0947846d5338238",
-          "items": [
+            },
             {
-              "_id": "5e3b829de09478ec3b338239",
+              "_id": "5e5fdfeafe7d0d2ff76c5fd6",
               "item": "5e3b826ae094788433338236"
             }
           ],
@@ -3264,8 +3255,7 @@
       "perception": 7,
       "agility": 1,
       "resilience": 1,
-      "health": 40,
-      "armor": 3,
+      "armor": 12,
       "attacksPerSecond": 1,
       "damage": {
         "min": 1,
@@ -3289,8 +3279,7 @@
       "resilience": 4,
       "agility": 1,
       "perception": 2,
-      "health": 30,
-      "armor": 10,
+      "armor": 40,
       "attacksPerSecond": 1,
       "damage": {
         "min": 6,
@@ -3316,8 +3305,7 @@
       "agility": 2,
       "resilience": 2,
       "charisma": 4,
-      "health": 30,
-      "armor": 10,
+      "armor": 40,
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 5,

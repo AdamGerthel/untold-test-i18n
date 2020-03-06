@@ -1331,30 +1331,29 @@
       "label": [
         "Go back downstairs"
       ],
+      "weight": 0,
       "map": false,
       "from": "5cacc1bb37903544b0b226c7",
       "to": "5cac83eb3790353ecbb2264a",
       "_created": "2019-04-09T16:02:27.299Z",
-      "_updated": "2019-04-09T22:15:17.533Z",
+      "_updated": "2020-03-04T10:04:49.571Z",
       "availability": [],
       "encounters": [
         {
-          "_id": "5cad16c77ab16200002efe94",
           "scene": [
             "5cad0f013790354b2ab22788"
           ],
+          "_id": "5cad16c77ab16200002efe94",
           "conditions": [
             {
               "parameters": [
                 [
                   "5cacc850379035e26eb226d7",
-                  "5cacc8557ab16200002efe61",
-                  "5cacece57ab16200002efe70",
-                  "5caced077ab16200002efe71"
+                  "5e5f77433aaa2d0000f9c9a6"
                 ]
               ],
-              "_id": "5cad1739379035cddfb227bc",
-              "type": "hasSeenOptionOutcome"
+              "_id": "5e5f7d41fe7d0dd06c6c4d03",
+              "type": "hasSeenNode"
             }
           ],
           "maxAccounts": 1
@@ -2030,8 +2029,99 @@
         }
       ],
       "_created": "2019-06-12T17:55:56.903Z",
-      "_updated": "2019-06-12T17:55:56.903Z",
-      "encounters": [],
+      "_updated": "2020-03-05T09:27:23.605Z",
+      "encounters": [
+        {
+          "scene": [
+            "5e5fa59efe7d0d6e8f6c5083"
+          ],
+          "_id": "5e60c5aa4977aa0000aceb4b",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5d53f5408335b4ed13884f6b",
+                  "5d548db158bf480000e34825"
+                ]
+              ],
+              "_id": "5e60c5fbfe7d0db59c6c9b6b",
+              "type": "hasSeenNode"
+            },
+            {
+              "parameters": [
+                [
+                  "5d54bd438335b4dc058851b4",
+                  "5d54be9a58bf480000e34853"
+                ]
+              ],
+              "_id": "5e60c5fbfe7d0d82af6c9b6a",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
+        },
+        {
+          "scene": [
+            "5e5fa794fe7d0d10db6c5088",
+            "5e5fa70007db2a00003bf444"
+          ],
+          "_id": "5e5fad6713728800003ea499",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5d16bd8aebd3dca70854cb94",
+                  "5d16bc8aab3c0300005d56df"
+                ]
+              ],
+              "_id": "5e5fadaafe7d0dce116c50c6",
+              "type": "hasSeenNode",
+              "negate": true
+            },
+            {
+              "parameters": [
+                "5d011f9d0b4b6231fd34cf6a"
+              ],
+              "_id": "5e5fb0b7fe7d0d8a0f6c50f3",
+              "type": "hasSeenLocation"
+            },
+            {
+              "parameters": [
+                [
+                  "5cb7ccecc065f00530943619",
+                  "5cb7cb1e9477d700003b19c3"
+                ]
+              ],
+              "_id": "5e5fb0b7fe7d0deb3d6c50f2",
+              "type": "hasSeenNode"
+            },
+            {
+              "parameters": [
+                [
+                  "5d53f5408335b4ed13884f6b",
+                  "5d548db158bf480000e34825"
+                ]
+              ],
+              "_id": "5e5fb0b7fe7d0d79cb6c50f1",
+              "type": "hasSeenNode",
+              "negate": true
+            },
+            {
+              "parameters": [
+                [
+                  "5e5fa794fe7d0d10db6c5088",
+                  "5e5fa70007db2a00003bf444"
+                ]
+              ],
+              "_id": "5e5fb0b7fe7d0d1fe86c50f0",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
       "__v": 0
     },
     {
@@ -2125,9 +2215,100 @@
       "from": "5d011f7a0b4b622f9334cf68",
       "to": "5d011f4d0b4b62513134cf62",
       "_created": "2019-06-12T18:04:49.125Z",
-      "_updated": "2019-06-12T18:04:49.125Z",
+      "_updated": "2020-03-04T13:43:30.131Z",
       "availability": [],
-      "encounters": [],
+      "encounters": [
+        {
+          "scene": [
+            "5e5fa59efe7d0d6e8f6c5083",
+            "5e5fa5bd07db2a00003bf441"
+          ],
+          "_id": "5e5fa7ace06b960000494e30",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5d54bd438335b4dc058851b4",
+                  "5d54be9a58bf480000e34853"
+                ]
+              ],
+              "_id": "5e5fa827fe7d0dc3e36c508d",
+              "type": "hasSeenNode",
+              "negate": true
+            },
+            {
+              "parameters": [
+                [
+                  "5d53f5408335b4ed13884f6b",
+                  "5d548db158bf480000e34825"
+                ]
+              ],
+              "_id": "5e5fa93dfe7d0d115e6c50bc",
+              "type": "hasSeenNode"
+            }
+          ],
+          "maxAccounts": 1
+        },
+        {
+          "scene": [
+            "5e5fa794fe7d0d10db6c5088"
+          ],
+          "_id": "5e5faf9d339929000038dafa",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5d16bd8aebd3dca70854cb94",
+                  "5d16bc8aab3c0300005d56df"
+                ]
+              ],
+              "_id": "5e5fb082fe7d0debcd6c50e1",
+              "type": "hasSeenNode",
+              "negate": true
+            },
+            {
+              "parameters": [
+                "5d011f9d0b4b6231fd34cf6a"
+              ],
+              "_id": "5e5fb082fe7d0d375a6c50e0",
+              "type": "hasSeenLocation"
+            },
+            {
+              "parameters": [
+                [
+                  "5cb7ccecc065f00530943619",
+                  "5cb7cb1e9477d700003b19c3"
+                ]
+              ],
+              "_id": "5e5fb082fe7d0d7c066c50df",
+              "type": "hasSeenNode"
+            },
+            {
+              "parameters": [
+                [
+                  "5d53f5408335b4ed13884f6b",
+                  "5d548db158bf480000e34825"
+                ]
+              ],
+              "_id": "5e5fb082fe7d0de6566c50de",
+              "type": "hasSeenNode",
+              "negate": true
+            },
+            {
+              "parameters": [
+                [
+                  "5d16bd8aebd3dca70854cb94",
+                  "5d16bc8aab3c0300005d56df"
+                ]
+              ],
+              "_id": "5e5fb082fe7d0da4c86c50dd",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
+        }
+      ],
       "__v": 0
     },
     {
@@ -2166,14 +2347,14 @@
       "from": "5d011f8d0b4b6201f434cf69",
       "to": "5d011f4d0b4b62513134cf62",
       "_created": "2019-06-12T18:06:08.502Z",
-      "_updated": "2019-06-29T11:33:48.693Z",
+      "_updated": "2020-03-05T09:25:40.711Z",
       "availability": [],
       "encounters": [
         {
-          "_id": "5d174c5e9af21100001a3992",
           "scene": [
             "5d1739dfebd3dce77354cff1"
           ],
+          "_id": "5d174c5e9af21100001a3992",
           "conditions": [
             {
               "parameters": [
@@ -2199,6 +2380,95 @@
               "negate": true
             }
           ]
+        },
+        {
+          "scene": [
+            "5e5fa59efe7d0d6e8f6c5083"
+          ],
+          "_id": "5e60c4ab4977aa0000aceb47",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5d53f5408335b4ed13884f6b",
+                  "5d548db158bf480000e34825"
+                ]
+              ],
+              "_id": "5e60c594fe7d0db5016c9b5e",
+              "type": "hasSeenNode"
+            },
+            {
+              "parameters": [
+                [
+                  "5d54bd438335b4dc058851b4",
+                  "5d54be9a58bf480000e34853"
+                ]
+              ],
+              "_id": "5e60c594fe7d0d295d6c9b5d",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
+        },
+        {
+          "scene": [
+            "5e5fa794fe7d0d10db6c5088"
+          ],
+          "_id": "5e5fadd04f702e000042f34f",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5d16bd8aebd3dca70854cb94",
+                  "5d16bc8aab3c0300005d56df"
+                ]
+              ],
+              "_id": "5e5fb0b4fe7d0d5ffd6c50ea",
+              "type": "hasSeenNode",
+              "negate": true
+            },
+            {
+              "parameters": [
+                "5d011f9d0b4b6231fd34cf6a"
+              ],
+              "_id": "5e5fb0b4fe7d0d12706c50e9",
+              "type": "hasSeenLocation"
+            },
+            {
+              "parameters": [
+                [
+                  "5cb7ccecc065f00530943619",
+                  "5cb7cb1e9477d700003b19c3"
+                ]
+              ],
+              "_id": "5e5fb0b4fe7d0d99ed6c50e8",
+              "type": "hasSeenNode"
+            },
+            {
+              "parameters": [
+                [
+                  "5d53f5408335b4ed13884f6b",
+                  "5d548db158bf480000e34825"
+                ]
+              ],
+              "_id": "5e5fb0b4fe7d0d88ab6c50e7",
+              "type": "hasSeenNode",
+              "negate": true
+            },
+            {
+              "parameters": [
+                [
+                  "5e5fa794fe7d0d10db6c5088",
+                  "5e5fa70007db2a00003bf444"
+                ]
+              ],
+              "_id": "5e5fb0b4fe7d0d09656c50e6",
+              "type": "hasSeenNode",
+              "negate": true
+            }
+          ],
+          "maxAccounts": 1
         }
       ],
       "__v": 0
@@ -3778,7 +4048,7 @@
       "from": "5de00c9af75a975e4459ec6b",
       "to": "5de00c78f75a97dcdd59ec69",
       "_created": "2019-11-29T02:03:08.585Z",
-      "_updated": "2020-02-25T23:35:10.772Z",
+      "_updated": "2020-03-04T19:32:06.061Z",
       "availability": [
         {
           "parameters": [
@@ -3791,17 +4061,6 @@
           ],
           "_id": "5de07daff75a97592459eeff",
           "type": "hasSeenOptionOutcome"
-        },
-        {
-          "parameters": [
-            [
-              "5e4dc7ffa74d95312ddeb538",
-              "5e4dc63b2da4ac0000be4bf2"
-            ]
-          ],
-          "_id": "5e559f90b723c2b3194ad8e0",
-          "type": "hasSeenNode",
-          "negate": true
         }
       ],
       "encounters": [
@@ -3842,6 +4101,17 @@
               ],
               "_id": "5e559e61b723c2d72b4ad8d9",
               "type": "hasSeenOptionOutcome"
+            },
+            {
+              "parameters": [
+                [
+                  "5e4dc7ffa74d95312ddeb538",
+                  "5e4dc63b2da4ac0000be4bf2"
+                ]
+              ],
+              "_id": "5e600236fe7d0d81da6c91c6",
+              "type": "hasSeenNode",
+              "negate": true
             }
           ],
           "maxAccounts": 1
@@ -4782,17 +5052,9 @@
       "from": "5e1e222c763433d7f45acd86",
       "to": "5de00c88f75a977c8f59ec6a",
       "_created": "2020-01-15T12:23:31.499Z",
-      "_updated": "2020-01-29T06:00:27.783Z",
+      "_updated": "2020-03-06T16:34:57.632Z",
       "availability": [],
-      "encounters": [
-        {
-          "scene": [
-            "5e311f3b541689056d995d5d"
-          ],
-          "_id": "5e311f57d35a840000706284",
-          "conditions": []
-        }
-      ],
+      "encounters": [],
       "__v": 0
     },
     {
