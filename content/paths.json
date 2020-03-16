@@ -1336,7 +1336,7 @@
       "from": "5cacc1bb37903544b0b226c7",
       "to": "5cac83eb3790353ecbb2264a",
       "_created": "2019-04-09T16:02:27.299Z",
-      "_updated": "2020-03-04T10:04:49.571Z",
+      "_updated": "2020-03-08T12:00:45.366Z",
       "availability": [],
       "encounters": [
         {
@@ -1349,11 +1349,32 @@
               "parameters": [
                 [
                   "5cacc850379035e26eb226d7",
-                  "5e5f77433aaa2d0000f9c9a6"
+                  "5e5f75cc3aaa2d0000f9c99e",
+                  "5e5f767e3aaa2d0000f9c9a4"
                 ]
               ],
-              "_id": "5e5f7d41fe7d0dd06c6c4d03",
-              "type": "hasSeenNode"
+              "_id": "5e64de6d24bbba9f7f3b3269",
+              "type": "hasUsedOption"
+            }
+          ],
+          "maxAccounts": 1
+        },
+        {
+          "scene": [
+            "5cad0f013790354b2ab22788"
+          ],
+          "_id": "5e64de02f3b58a0000a45e3a",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5cacc850379035e26eb226d7",
+                  "5cacc8557ab16200002efe61",
+                  "5e5f7bce3aaa2d0000f9c9b1"
+                ]
+              ],
+              "_id": "5e64de6d24bbba37d43b3267",
+              "type": "hasUsedOption"
             }
           ],
           "maxAccounts": 1
@@ -2483,15 +2504,24 @@
       "from": "5d011f7a0b4b622f9334cf68",
       "to": "5cda7408c3e78ff7fc5bb29e",
       "_created": "2019-06-26T16:32:17.768Z",
-      "_updated": "2019-09-17T20:34:55.322Z",
+      "_updated": "2020-03-10T18:31:36.790Z",
       "availability": [],
       "encounters": [
         {
-          "_id": "5d139fa647ed21000000b05f",
           "scene": [
             "5d139f88ebd3dca75854cad9"
           ],
-          "conditions": [],
+          "_id": "5d139fa647ed21000000b05f",
+          "conditions": [
+            {
+              "parameters": [
+                "5cda7408c3e78ff7fc5bb29e"
+              ],
+              "_id": "5e67dd08d5f2ffd04e237287",
+              "type": "hasSeenLocation",
+              "negate": true
+            }
+          ],
           "maxAccounts": 1
         }
       ],
@@ -5097,9 +5127,27 @@
       "from": "5e1e223b76343304545acd87",
       "to": "5e1e2249763433395b5acd88",
       "_created": "2020-01-15T14:40:51.415Z",
-      "_updated": "2020-01-16T09:14:17.209Z",
+      "_updated": "2020-03-11T16:13:57.958Z",
       "availability": [],
       "encounters": [
+        {
+          "scene": [
+            "5e690d6b3c099f0fe32bdc28"
+          ],
+          "_id": "5e690e036fef230000b62433",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5e1f34c1763433da735ace6b",
+                  "5e68fb1eb910f60000978353"
+                ]
+              ],
+              "_id": "5e690e453c099f1efc2bdc3e",
+              "type": "hasSeenNode"
+            }
+          ]
+        },
         {
           "scene": [
             "5e201cde98fb2338c1ff8f6d"
@@ -5254,9 +5302,27 @@
       "from": "5e1e2249763433395b5acd88",
       "to": "5e1e223b76343304545acd87",
       "_created": "2020-01-15T14:41:46.310Z",
-      "_updated": "2020-02-08T02:49:18.720Z",
+      "_updated": "2020-03-11T16:15:39.128Z",
       "availability": [],
       "encounters": [
+        {
+          "scene": [
+            "5e690ded3c099faa662bdc2c"
+          ],
+          "_id": "5e690e4ca0f0eb000040403b",
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5e1f34c1763433da735ace6b",
+                  "5e68fb1eb910f60000978353"
+                ]
+              ],
+              "_id": "5e690eab3c099f41cc2bdc4d",
+              "type": "hasSeenNode"
+            }
+          ]
+        },
         {
           "scene": [
             "5e20215898fb2351c2ff8f96",

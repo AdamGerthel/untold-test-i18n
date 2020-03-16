@@ -1,5 +1,5 @@
 {
-  "total": 316,
+  "total": 320,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -2897,9 +2897,6 @@
     },
     {
       "_id": "5ca5f2273790357b97b1fdfc",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "mainHand",
         "offHand"
@@ -2907,6 +2904,9 @@
       "combatActions": [
         "sweep"
       ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -2920,7 +2920,7 @@
         "max": 18
       },
       "_created": "2019-04-04T12:01:43.720Z",
-      "_updated": "2020-02-18T10:40:17.551Z",
+      "_updated": "2020-03-11T16:39:36.020Z",
       "__v": 0,
       "value": 54
     },
@@ -3403,19 +3403,16 @@
       "type": "weapon",
       "encumbrance": 2,
       "damage": {
-        "max": 7,
-        "min": 3
+        "min": 3,
+        "max": 9
       },
       "value": 30,
       "_created": "2019-04-14T15:48:31.079Z",
-      "_updated": "2020-02-21T02:09:52.653Z",
+      "_updated": "2020-03-11T16:38:30.636Z",
       "__v": 0
     },
     {
       "_id": "5cb35818c065f0135594337e",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "mainHand",
         "offHand"
@@ -3423,6 +3420,9 @@
       "combatActions": [
         "sweep"
       ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -3433,11 +3433,11 @@
       "type": "weapon",
       "encumbrance": 4,
       "damage": {
-        "max": 11,
+        "max": 12,
         "min": 1
       },
       "_created": "2019-04-14T15:56:08.745Z",
-      "_updated": "2020-02-18T10:34:47.498Z",
+      "_updated": "2020-03-11T16:40:46.419Z",
       "__v": 0
     },
     {
@@ -3630,6 +3630,7 @@
         "passives": []
       },
       "slot": [],
+      "combatActions": [],
       "name": "Amphora of Red Wine",
       "description": "A clay vessel, which contains the inebriating substance of red wine.",
       "value": 8,
@@ -3639,16 +3640,17 @@
         "actions": [
           {
             "parameters": [
-              "1"
+              "3",
+              ""
             ],
-            "_id": "5cb92b83c065f0f750943b5e",
+            "_id": "5e669d85d5f2fff2a923495e",
             "type": "changeHealth"
           }
         ],
         "uses": 12
       },
       "_created": "2019-04-19T01:59:31.969Z",
-      "_updated": "2019-11-05T02:11:44.487Z",
+      "_updated": "2020-03-09T19:48:21.735Z",
       "__v": 0
     },
     {
@@ -4575,6 +4577,7 @@
         "passives": []
       },
       "slot": [],
+      "combatActions": [],
       "name": "Blue Cheese",
       "description": "A lump of blue cheese from the Maleqite Lowlands. Provides health and nourishment.",
       "value": 4,
@@ -4585,15 +4588,16 @@
         "actions": [
           {
             "parameters": [
-              "2"
+              "8",
+              ""
             ],
-            "_id": "5ce536eec3e78f41635bdaf5",
+            "_id": "5e669d9ad5f2ffb962234960",
             "type": "changeHealth"
           }
         ]
       },
       "_created": "2019-05-22T11:47:58.184Z",
-      "_updated": "2019-05-22T11:47:58.184Z",
+      "_updated": "2020-03-09T19:48:42.799Z",
       "__v": 0
     },
     {
@@ -5241,6 +5245,7 @@
         "passives": []
       },
       "slot": [],
+      "combatActions": [],
       "name": "Crone River Eel",
       "description": "Fish. Charred and salted. A cut of Crone River Eel, the main sustenance and livelihood among the fishermen of Set.",
       "type": "food",
@@ -5249,9 +5254,10 @@
         "actions": [
           {
             "parameters": [
-              "6"
+              "25",
+              ""
             ],
-            "_id": "5d54c51a8335b466f28851d2",
+            "_id": "5e66a046d5f2ff5a65234a84",
             "type": "changeHealth"
           }
         ],
@@ -5259,7 +5265,7 @@
       },
       "value": 8,
       "_created": "2019-08-15T02:36:10.455Z",
-      "_updated": "2019-08-15T02:36:10.455Z",
+      "_updated": "2020-03-09T20:00:06.509Z",
       "__v": 0
     },
     {
@@ -5932,16 +5938,16 @@
         "actions": [
           {
             "parameters": [
-              "8",
+              "15",
               ""
             ],
-            "_id": "5e627ee260116c2d096281f5",
+            "_id": "5e669de2d5f2ff46ea234964",
             "type": "changeHealth"
           }
         ]
       },
       "_created": "2019-09-18T14:29:47.541Z",
-      "_updated": "2020-03-06T16:48:34.813Z",
+      "_updated": "2020-03-09T19:49:54.195Z",
       "__v": 0
     },
     {
@@ -6178,17 +6184,17 @@
         "actions": [
           {
             "parameters": [
-              "4",
+              "6",
               ""
             ],
-            "_id": "5e627f0660116c547a6281f8",
+            "_id": "5e669d75d5f2ff0ee723495d",
             "type": "changeHealth"
           }
         ],
         "uses": 3
       },
       "_created": "2019-10-31T16:54:53.971Z",
-      "_updated": "2020-03-06T16:49:10.181Z",
+      "_updated": "2020-03-09T19:48:05.182Z",
       "__v": 0
     },
     {
@@ -6586,11 +6592,11 @@
       "type": "weapon",
       "encumbrance": 1,
       "damage": {
-        "min": 2,
+        "min": 3,
         "max": 9
       },
       "_created": "2019-11-21T00:24:31.555Z",
-      "_updated": "2020-02-18T10:27:12.529Z",
+      "_updated": "2020-03-09T20:18:09.396Z",
       "__v": 0
     },
     {
@@ -6628,16 +6634,16 @@
         "actions": [
           {
             "parameters": [
-              "5",
+              "10",
               ""
             ],
-            "_id": "5e627ed460116c20396281f4",
+            "_id": "5e669dc3d5f2ffd484234963",
             "type": "changeHealth"
           }
         ]
       },
       "_created": "2019-12-03T13:48:29.679Z",
-      "_updated": "2020-03-06T16:48:20.423Z",
+      "_updated": "2020-03-09T19:49:23.340Z",
       "__v": 0
     },
     {
@@ -6666,7 +6672,7 @@
         ]
       },
       "_created": "2019-12-03T13:53:48.931Z",
-      "_updated": "2020-03-06T16:48:41.774Z",
+      "_updated": "2020-03-09T19:49:08.687Z",
       "__v": 0
     },
     {
@@ -7638,31 +7644,31 @@
       "encumbrance": 3,
       "blockChance": 0.15,
       "_created": "2020-03-05T06:01:43.806Z",
-      "_updated": "2020-03-05T06:06:10.087Z",
+      "_updated": "2020-03-10T19:55:17.481Z",
       "__v": 0
     },
     {
       "_id": "5e609b2efe7d0d92976c9a18",
+      "slot": [
+        "offHand"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "offHand"
-      ],
-      "combatActions": [],
       "name": "Highland Targe",
       "description": "An iron-plated wooden buckler. This small round shield is the work of a master.",
       "value": 65,
       "tier": "4",
       "type": "shield",
-      "encumbrance": 3,
       "blockChance": 0.16,
       "_created": "2020-03-05T06:24:46.257Z",
-      "_updated": "2020-03-05T06:24:46.257Z",
-      "__v": 0
+      "_updated": "2020-03-10T19:55:07.646Z",
+      "__v": 0,
+      "encumbrance": 3
     },
     {
       "_id": "5e60b3a2fe7d0d4ee26c9b49",
@@ -7692,6 +7698,110 @@
       "value": 25,
       "_created": "2020-03-05T08:09:06.049Z",
       "_updated": "2020-03-05T08:11:10.060Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e67a17dd5f2ff1392235f0a",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "slam"
+      ],
+      "name": "Iron War Hammer",
+      "description": "A heavy iron maul, intended for two-handed use. Crafted by a master blacksmith.",
+      "value": 100,
+      "tier": "4",
+      "type": "weapon",
+      "encumbrance": 9,
+      "damage": {
+        "min": 10,
+        "max": 30
+      },
+      "_created": "2020-03-10T14:17:33.001Z",
+      "_updated": "2020-03-10T14:17:33.001Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e68feded5f2ff23cb23bb10",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
+      "name": "Formal Invitation",
+      "type": "tool",
+      "description": "This document will allow you to gain access to the Sleep Temple. It is signed by Cleo Verdandi.",
+      "tier": "5",
+      "value": 0,
+      "_created": "2020-03-11T15:08:14.851Z",
+      "_updated": "2020-03-11T15:08:14.851Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e6f3ab221eaae938e9f5bd1",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "stab"
+      ],
+      "name": "Sharpened Stick",
+      "description": "A sharp wooden stick. This primitive weapon can be used with one hand.",
+      "value": 1,
+      "tier": "1",
+      "type": "weapon",
+      "damage": {
+        "min": 2,
+        "max": 3
+      },
+      "encumbrance": 1,
+      "_created": "2020-03-16T08:37:06.089Z",
+      "_updated": "2020-03-16T08:37:06.089Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e6f3d6221eaae59dd9f5ccb",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "mainHand"
+      ],
+      "combatActions": [
+        "slam"
+      ],
+      "name": "Spiked Club",
+      "description": "A wooden cudgel with rusty iron spikes.",
+      "value": 5,
+      "tier": "1",
+      "type": "weapon",
+      "encumbrance": 3,
+      "damage": {
+        "min": 4,
+        "max": 5
+      },
+      "_created": "2020-03-16T08:48:34.245Z",
+      "_updated": "2020-03-16T08:48:34.245Z",
       "__v": 0
     }
   ]

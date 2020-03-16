@@ -1,5 +1,5 @@
 {
-  "total": 125,
+  "total": 135,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -224,6 +224,7 @@
     },
     {
       "_id": "5c8ae564190288b993f94cd9",
+      "combatActions": [],
       "name": "Druid Archer",
       "strength": 1,
       "charisma": 2,
@@ -237,11 +238,12 @@
         "max": 4
       },
       "_created": "2019-03-14T23:36:04.563Z",
-      "_updated": "2019-06-08T11:19:46.434Z",
+      "_updated": "2020-03-10T10:57:18.840Z",
       "__v": 0,
       "level": 4,
       "bargain": [],
-      "attacksPerSecond": 1.2
+      "attacksPerSecond": 1.2,
+      "loot": "5e67726dd5f2ff6e702357b6"
     },
     {
       "_id": "5c8b205419028820c8f94cda",
@@ -1867,14 +1869,14 @@
       "agility": 1,
       "perception": 1,
       "armor": 4,
-      "attacksPerSecond": 0.1,
+      "attacksPerSecond": 0,
       "damage": {
         "min": 1,
         "max": 1
       },
       "experience": 0,
       "_created": "2019-10-13T20:29:24.801Z",
-      "_updated": "2020-03-05T13:52:19.415Z",
+      "_updated": "2020-03-06T22:34:50.439Z",
       "bargain": [],
       "__v": 0,
       "healthOverride": 1,
@@ -1905,10 +1907,10 @@
       },
       "experience": 0,
       "_created": "2019-10-13T20:30:12.841Z",
-      "_updated": "2020-03-05T13:52:34.331Z",
+      "_updated": "2020-03-06T22:34:37.681Z",
       "bargain": [],
       "__v": 0,
-      "attacksPerSecond": 0.1,
+      "attacksPerSecond": 0,
       "healthOverride": 1,
       "fight": {
         "audio": {
@@ -2476,7 +2478,7 @@
       },
       "experience": 25,
       "_created": "2019-12-04T02:15:01.134Z",
-      "_updated": "2020-03-05T06:26:12.000Z",
+      "_updated": "2020-03-10T14:18:28.101Z",
       "bargain": [
         {
           "_id": "5e405c356a062ff0e9162f46",
@@ -2508,6 +2510,10 @@
             {
               "_id": "5e609b84fe7d0ddc736c9a1a",
               "item": "5e609b2efe7d0d92976c9a18"
+            },
+            {
+              "_id": "5e67a1b4d5f2ff7ebd235f0c",
+              "item": "5e67a17dd5f2ff1392235f0a"
             }
           ],
           "conditions": []
@@ -3317,6 +3323,251 @@
       "bargain": [],
       "__v": 0,
       "loot": "5e5011eda74d952c48debdb7"
+    },
+    {
+      "_id": "5e6f2f9121eaaefbd29f5aea",
+      "combatActions": [],
+      "name": "Opium Fiend",
+      "level": 6,
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 3,
+      "perception": 2,
+      "armor": 3,
+      "attacksPerSecond": 1.2,
+      "damage": {
+        "min": 4,
+        "max": 12
+      },
+      "healthOverride": -10,
+      "experience": 5,
+      "_created": "2020-03-16T07:49:37.612Z",
+      "_updated": "2020-03-16T08:10:05.204Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5e6f343c21eaae3dae9f5aeb"
+    },
+    {
+      "_id": "5e6f36fd21eaae1a149f5b3a",
+      "combatActions": [],
+      "name": "Crazed Opium Fiend",
+      "level": 7,
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 2,
+      "perception": 2,
+      "healthOverride": -12,
+      "armor": 5,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 7,
+        "max": 11
+      },
+      "experience": 5,
+      "loot": "5e6f36af21eaae95e29f5b35",
+      "_created": "2020-03-16T08:21:17.813Z",
+      "_updated": "2020-03-16T08:21:17.813Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e6f3b4521eaae087d9f5bd7",
+      "combatActions": [
+        "stab"
+      ],
+      "name": "Starving Opium Fiend",
+      "level": 4,
+      "strength": 1,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 1,
+      "healthOverride": -8,
+      "armor": 1,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 3,
+        "max": 4
+      },
+      "experience": 5,
+      "loot": "5e6f3b0321eaae4ea29f5bd2",
+      "_created": "2020-03-16T08:39:33.935Z",
+      "_updated": "2020-03-16T08:39:33.935Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e6f3e5721eaae6fd29f5cd1",
+      "combatActions": [
+        "slam"
+      ],
+      "name": "Demented Opium Fiend",
+      "level": 8,
+      "strength": 6,
+      "charisma": 1,
+      "resilience": 3,
+      "agility": 1,
+      "perception": 1,
+      "healthOverride": -20,
+      "armor": 1,
+      "attacksPerSecond": 1,
+      "damage": {
+        "max": 14,
+        "min": 3
+      },
+      "experience": 5,
+      "loot": "5e6f3de221eaae19d29f5ccc",
+      "_created": "2020-03-16T08:52:39.805Z",
+      "_updated": "2020-03-16T08:52:39.805Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e6f40ab21eaaee98f9f5d7f",
+      "combatActions": [],
+      "name": "Scarred Opium Fiend",
+      "level": 7,
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 4,
+      "healthOverride": -8,
+      "armor": 1,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 6,
+        "max": 9
+      },
+      "experience": 5,
+      "_created": "2020-03-16T09:02:35.117Z",
+      "_updated": "2020-03-16T09:02:35.117Z",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e6f92f921eaaefa519f61de",
+      "combatActions": [],
+      "name": "Murderous Opium Fiend",
+      "level": 6,
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 3,
+      "perception": 2,
+      "healthOverride": -8,
+      "armor": 3,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 4,
+        "max": 11
+      },
+      "experience": 5,
+      "_created": "2020-03-16T14:53:45.238Z",
+      "_updated": "2020-03-16T14:54:12.895Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5e6f3b0321eaae4ea29f5bd2"
+    },
+    {
+      "_id": "5e6fb48d21eaae4c769f736c",
+      "combatActions": [],
+      "name": "Wild Opium Fiend",
+      "level": 7,
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 3,
+      "perception": 2,
+      "healthOverride": -14,
+      "armor": 3,
+      "attacksPerSecond": 1,
+      "damage": {
+        "max": 12,
+        "min": 3
+      },
+      "experience": 5,
+      "_created": "2020-03-16T17:17:01.221Z",
+      "_updated": "2020-03-16T17:18:33.833Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5e6f3b0321eaae4ea29f5bd2"
+    },
+    {
+      "_id": "5e6fbd1921eaae72da9f75c9",
+      "combatActions": [
+        "stab"
+      ],
+      "name": "Frenzied Opium Fiend",
+      "level": 6,
+      "strength": 2,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 5,
+      "perception": 1,
+      "armor": 3,
+      "healthOverride": -12,
+      "attacksPerSecond": 2,
+      "damage": {
+        "min": 1,
+        "max": 9
+      },
+      "experience": 5,
+      "_created": "2020-03-16T17:53:29.428Z",
+      "_updated": "2020-03-16T17:54:10.130Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5e6f343c21eaae3dae9f5aeb"
+    },
+    {
+      "_id": "5e6fc14721eaae444c9f783c",
+      "combatActions": [],
+      "name": "Delirious Opium Fiend",
+      "level": 7,
+      "strength": 3,
+      "charisma": 1,
+      "agility": 1,
+      "perception": 2,
+      "resilience": 3,
+      "healthOverride": -17,
+      "armor": 4,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 7,
+        "max": 11
+      },
+      "experience": 5,
+      "_created": "2020-03-16T18:11:19.859Z",
+      "_updated": "2020-03-16T18:14:33.028Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5e6f36af21eaae95e29f5b35"
+    },
+    {
+      "_id": "5e6fd1e98530df82eba02246",
+      "combatActions": [],
+      "name": "Violent Opium Fiend",
+      "level": 6,
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 2,
+      "perception": 2,
+      "healthOverride": -14,
+      "armor": 4,
+      "attacksPerSecond": 1,
+      "damage": {
+        "min": 6,
+        "max": 12
+      },
+      "experience": 5,
+      "_created": "2020-03-16T19:22:17.605Z",
+      "_updated": "2020-03-16T19:23:11.571Z",
+      "bargain": [],
+      "__v": 0,
+      "loot": "5e6f3b0321eaae4ea29f5bd2"
     }
   ]
 }

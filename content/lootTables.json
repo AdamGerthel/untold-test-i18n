@@ -1,5 +1,5 @@
 {
-  "total": 73,
+  "total": 78,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -3576,7 +3576,7 @@
                 1
               ],
               "_id": "5d547c3f8335b4e04488506e",
-              "probability": 0.5,
+              "probability": 0.25,
               "item": "5d547aa68335b4f1ef88506c"
             },
             {
@@ -3587,13 +3587,22 @@
               "_id": "5e5f6ffffe7d0dd44f6c4c3d",
               "probability": 0.25,
               "item": "5cde01e3c3e78f766c5bc020"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e6801dfd5f2ff2e38237683",
+              "probability": 0.25,
+              "item": "5d54d09a8335b4689b885212"
             }
           ],
           "conditions": []
         }
       ],
       "_created": "2019-08-14T21:03:42.563Z",
-      "_updated": "2020-03-04T09:08:15.250Z",
+      "_updated": "2020-03-10T21:08:47.155Z",
       "__v": 0
     },
     {
@@ -4867,6 +4876,202 @@
       ],
       "_created": "2020-03-04T09:22:42.041Z",
       "_updated": "2020-03-04T09:22:42.041Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e67726dd5f2ff6e702357b6",
+      "gold": [
+        6,
+        12
+      ],
+      "name": "Druid Archer",
+      "_created": "2020-03-10T10:56:45.795Z",
+      "_updated": "2020-03-10T16:20:05.973Z",
+      "bundles": [],
+      "__v": 0
+    },
+    {
+      "_id": "5e6f343c21eaae3dae9f5aeb",
+      "gold": [
+        1,
+        3
+      ],
+      "name": "Fiend",
+      "bundles": [
+        {
+          "_id": "5e6f343c21eaae0a7a9f5aec",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e6f343c21eaae5e199f5aef",
+              "probability": 0.3,
+              "item": "5dbb11ddff2c19ac60db687c"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e6f343c21eaaef4439f5aee",
+              "probability": 0.5,
+              "item": "5c9b909e3790354c57b1bf81"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e6f343c21eaae2c089f5aed",
+              "probability": 0.2,
+              "item": "5c9b928c3790355729b1bf86"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-03-16T08:09:32.681Z",
+      "_updated": "2020-03-16T08:09:32.681Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e6f36af21eaae95e29f5b35",
+      "gold": [
+        1,
+        3
+      ],
+      "name": "Fiend 2",
+      "bundles": [
+        {
+          "_id": "5e6f36af21eaae92239f5b36",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e6f36af21eaae531a9f5b39",
+              "probability": 0.3,
+              "item": "5c86316c0e3748bcd1c60368"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e6f36af21eaae2b1c9f5b38",
+              "probability": 0.4,
+              "item": "5c9b909e3790354c57b1bf81"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e6f36af21eaae91c29f5b37",
+              "probability": 0.3,
+              "item": "5dbb11ddff2c19ac60db687c"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-03-16T08:19:59.524Z",
+      "_updated": "2020-03-16T08:19:59.524Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e6f3b0321eaae4ea29f5bd2",
+      "gold": [
+        1,
+        3
+      ],
+      "name": "Fiend 3",
+      "bundles": [
+        {
+          "_id": "5e6f3b0321eaae444f9f5bd3",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e6f3b0321eaae4ff69f5bd6",
+              "probability": 0.3,
+              "item": "5e6f3ab221eaae938e9f5bd1"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e6f3b0321eaae0d5f9f5bd5",
+              "probability": 0.3,
+              "item": "5c9b909e3790354c57b1bf81"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e6f3b0321eaae465a9f5bd4",
+              "probability": 0.4,
+              "item": "5dbb11ddff2c19ac60db687c"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-03-16T08:38:27.097Z",
+      "_updated": "2020-03-16T08:38:27.097Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e6f3de221eaae19d29f5ccc",
+      "gold": [
+        1,
+        3
+      ],
+      "name": "Fiend 4",
+      "bundles": [
+        {
+          "_id": "5e6f3de221eaaef4539f5ccd",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e6f3de221eaae77259f5cd0",
+              "probability": 0.3,
+              "item": "5e6f3d6221eaae59dd9f5ccb"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e6f3de221eaae97399f5ccf",
+              "probability": 0.3,
+              "item": "5c9b909e3790354c57b1bf81"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e6f3de221eaae4e349f5cce",
+              "probability": 0.4,
+              "item": "5dbb11ddff2c19ac60db687c"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-03-16T08:50:42.517Z",
+      "_updated": "2020-03-16T08:58:14.593Z",
       "__v": 0
     }
   ]
