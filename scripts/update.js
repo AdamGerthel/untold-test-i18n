@@ -57,7 +57,7 @@ const init = async function () {
 
     for (let entity of images) {
       await downloadMedia(entity, 'jpg', {
-        width: 1300,
+        width: 1320,
         invalidate: true
       })
     }
