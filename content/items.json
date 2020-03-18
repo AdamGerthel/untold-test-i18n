@@ -1,5 +1,5 @@
 {
-  "total": 320,
+  "total": 321,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -171,7 +171,7 @@
       "consumption": {
         "actions": []
       },
-      "name": "Cheap Leather Helmet",
+      "name": "Leather Helmet",
       "description": "While cheap, it's brand new. Poor quality at its best.",
       "tier": "1",
       "type": "armor",
@@ -179,7 +179,7 @@
       "armor": 8,
       "_created": "2019-03-04T17:52:14.362Z",
       "__v": 0,
-      "_updated": "2020-03-04T07:27:19.895Z",
+      "_updated": "2020-03-17T03:12:02.674Z",
       "value": 10
     },
     {
@@ -230,25 +230,25 @@
     },
     {
       "_id": "5c7d66b9fd6b492e7e456b6f",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "feet"
       ],
       "combatActions": [],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
-      "name": "Cheap Leather Boots",
-      "description": "Hardly exuberant, these will serve you well across rugged terrain.",
+      "name": "Leather Boots",
+      "description": "These will serve you well across rugged terrain.",
       "tier": "1",
       "type": "armor",
       "encumbrance": 3,
       "armor": 10,
       "_created": "2019-03-04T17:56:09.842Z",
       "__v": 0,
-      "_updated": "2020-03-04T07:29:02.481Z",
+      "_updated": "2020-03-17T03:11:27.712Z",
       "value": 12
     },
     {
@@ -629,14 +629,14 @@
       "description": "This sword has seen better days.",
       "tier": "1",
       "type": "weapon",
-      "encumbrance": 3,
+      "encumbrance": 4,
       "damage": {
         "min": 5,
         "max": 6
       },
       "_created": "2019-03-11T09:27:05.732Z",
       "__v": 0,
-      "_updated": "2020-02-12T21:19:17.233Z",
+      "_updated": "2020-03-18T14:00:30.116Z",
       "value": 16
     },
     {
@@ -798,12 +798,12 @@
       "type": "weapon",
       "damage": {
         "max": 6,
-        "min": 6
+        "min": 5
       },
       "encumbrance": 3,
       "_created": "2019-03-11T09:46:14.894Z",
       "__v": 0,
-      "_updated": "2020-02-18T10:25:41.237Z",
+      "_updated": "2020-03-18T14:07:13.428Z",
       "value": 18
     },
     {
@@ -824,7 +824,7 @@
       "description": "Many battlegrounds ago, this was a pristine weapon",
       "tier": "2",
       "type": "weapon",
-      "encumbrance": 4,
+      "encumbrance": 5,
       "damage": {
         "min": 6,
         "max": 8
@@ -832,7 +832,7 @@
       "_created": "2019-03-11T09:47:44.381Z",
       "__v": 0,
       "value": 20,
-      "_updated": "2020-02-18T10:23:33.914Z"
+      "_updated": "2020-03-18T14:12:04.218Z"
     },
     {
       "_id": "5c862f110e37488ab4c60365",
@@ -894,13 +894,13 @@
     },
     {
       "_id": "5c86316c0e3748bcd1c60368",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "mainHand"
       ],
       "combatActions": [],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -909,13 +909,13 @@
       "encumbrance": 4,
       "damage": {
         "max": 7,
-        "min": 7
+        "min": 6
       },
       "tier": "2",
       "description": "A trail of severed limbs led to its current state",
       "_created": "2019-03-11T09:59:08.263Z",
       "__v": 0,
-      "_updated": "2020-02-18T10:36:38.607Z",
+      "_updated": "2020-03-18T14:13:38.395Z",
       "value": 24
     },
     {
@@ -992,13 +992,13 @@
       "type": "weapon",
       "encumbrance": 4,
       "damage": {
-        "min": 3,
-        "max": 9
+        "min": 2,
+        "max": 8
       },
       "_created": "2019-03-11T10:31:05.699Z",
       "__v": 0,
       "value": 10,
-      "_updated": "2020-02-18T10:23:58.919Z"
+      "_updated": "2020-03-18T14:09:49.776Z"
     },
     {
       "_id": "5c8639c20e37483059c6036c",
@@ -1550,15 +1550,15 @@
     },
     {
       "_id": "5c92f9883bae8daaed2b605f",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "mainHand"
       ],
       "combatActions": [
         "cleave"
       ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -1568,11 +1568,11 @@
       "type": "weapon",
       "encumbrance": 5,
       "damage": {
-        "min": 9,
+        "min": 8,
         "max": 9
       },
       "_created": "2019-03-21T02:40:08.904Z",
-      "_updated": "2020-02-18T10:37:29.827Z",
+      "_updated": "2020-03-18T14:11:40.084Z",
       "__v": 0,
       "value": 42
     },
@@ -1787,15 +1787,15 @@
     },
     {
       "_id": "5c93463d3bae8da4662b61df",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "mainHand"
       ],
       "combatActions": [
         "cut"
       ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -1805,11 +1805,11 @@
       "type": "weapon",
       "encumbrance": 3,
       "damage": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "_created": "2019-03-21T08:07:25.905Z",
-      "_updated": "2020-02-18T10:38:10.434Z",
+      "_updated": "2020-03-17T20:48:00.188Z",
       "__v": 0,
       "value": 32
     },
@@ -2339,15 +2339,15 @@
     },
     {
       "_id": "5ca404413790357ad9b1ceba",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "mainHand"
       ],
       "combatActions": [
         "stab"
       ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -2357,11 +2357,11 @@
       "type": "weapon",
       "encumbrance": 2,
       "damage": {
-        "min": 2,
-        "max": 7
+        "min": 1,
+        "max": 8
       },
       "_created": "2019-04-03T00:54:25.189Z",
-      "_updated": "2020-02-12T21:20:10.402Z",
+      "_updated": "2020-03-18T14:15:18.057Z",
       "__v": 0,
       "value": 30
     },
@@ -2797,14 +2797,14 @@
       "slot": [],
       "combatActions": [],
       "name": "Thorn of Meym",
-      "description": "Ingredient. Taken from the spiky shrub known as Meym's Beard, found exclusively on the Isle of Dusk. Incredibly potent poison can be extracted from these dark branches.",
+      "description": "Ingredient. Taken from the spiky shrub known as Meym's Beard, found exclusively on the Isle of Dusk. These darks twigs are incredibly poisonous.",
       "tier": "4",
       "type": "medicine",
       "consumption": {
         "actions": [
           {
             "parameters": [
-              "-25",
+              -25,
               [
                 "Your gums bleed when you try to chew the dark twigs. Maybe this wasn't such a great idea. A few seconds later, you fall flat on the ground, completely paralyzed. Trembling uncontrollably, you endure infathomable torment until your heart finally stops beating. Sometimes, death can be a relief."
               ]
@@ -2816,7 +2816,7 @@
         "uses": 1
       },
       "_created": "2019-04-03T10:08:33.299Z",
-      "_updated": "2020-02-27T10:04:32.004Z",
+      "_updated": "2020-03-17T02:34:06.467Z",
       "__v": 0,
       "value": 40
     },
@@ -2868,9 +2868,6 @@
     },
     {
       "_id": "5ca5f12e379035d830b1fdfb",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "mainHand",
         "offHand"
@@ -2878,6 +2875,9 @@
       "combatActions": [
         "sweep"
       ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -2888,10 +2888,10 @@
       "encumbrance": 7,
       "damage": {
         "min": 1,
-        "max": 15
+        "max": 16
       },
       "_created": "2019-04-04T11:57:34.266Z",
-      "_updated": "2020-02-12T21:20:27.706Z",
+      "_updated": "2020-03-18T07:57:12.898Z",
       "__v": 0,
       "value": 36
     },
@@ -2917,10 +2917,10 @@
       "encumbrance": 8,
       "damage": {
         "min": 3,
-        "max": 18
+        "max": 24
       },
       "_created": "2019-04-04T12:01:43.720Z",
-      "_updated": "2020-03-11T16:39:36.020Z",
+      "_updated": "2020-03-18T07:56:45.630Z",
       "__v": 0,
       "value": 54
     },
@@ -3478,9 +3478,6 @@
     },
     {
       "_id": "5cb7a3a3c065f024679434e6",
-      "sideEffects": {
-        "passives": []
-      },
       "slot": [
         "mainHand",
         "offHand"
@@ -3488,6 +3485,9 @@
       "combatActions": [
         "stab"
       ],
+      "sideEffects": {
+        "passives": []
+      },
       "consumption": {
         "actions": []
       },
@@ -3498,11 +3498,11 @@
       "type": "weapon",
       "damage": {
         "max": 12,
-        "min": 3
+        "min": 5
       },
-      "encumbrance": 4,
+      "encumbrance": 5,
       "_created": "2019-04-17T22:07:31.890Z",
-      "_updated": "2020-02-18T10:34:37.197Z",
+      "_updated": "2020-03-18T15:43:24.657Z",
       "__v": 0
     },
     {
@@ -3731,7 +3731,7 @@
       ],
       "combatActions": [
         "cleave",
-        "sweep"
+        "parry"
       ],
       "sideEffects": {
         "passives": []
@@ -3750,7 +3750,7 @@
         "min": 12
       },
       "_created": "2019-05-08T00:51:57.499Z",
-      "_updated": "2020-02-21T05:26:20.483Z",
+      "_updated": "2020-03-18T13:48:47.482Z",
       "__v": 0
     },
     {
@@ -4987,11 +4987,11 @@
       "type": "weapon",
       "encumbrance": 1,
       "damage": {
-        "min": 2,
-        "max": 6
+        "min": 3,
+        "max": 7
       },
       "_created": "2019-06-05T09:12:59.508Z",
-      "_updated": "2020-02-18T10:30:59.832Z",
+      "_updated": "2020-03-18T14:21:23.837Z",
       "__v": 0
     },
     {
@@ -6000,11 +6000,11 @@
       "type": "weapon",
       "encumbrance": 1,
       "damage": {
-        "max": 7,
+        "max": 8,
         "min": 3
       },
       "_created": "2019-09-18T15:29:53.859Z",
-      "_updated": "2020-02-18T10:29:22.787Z",
+      "_updated": "2020-03-18T14:21:31.915Z",
       "__v": 0
     },
     {
@@ -6028,11 +6028,11 @@
       "type": "weapon",
       "encumbrance": 1,
       "damage": {
-        "min": 2,
+        "min": 3,
         "max": 8
       },
       "_created": "2019-09-18T15:32:18.483Z",
-      "_updated": "2020-02-18T10:29:14.625Z",
+      "_updated": "2020-03-18T14:21:54.955Z",
       "__v": 0
     },
     {
@@ -6500,7 +6500,7 @@
         "min": 10
       },
       "_created": "2019-11-19T13:53:26.961Z",
-      "_updated": "2020-02-18T10:27:27.669Z",
+      "_updated": "2020-03-18T19:13:08.006Z",
       "__v": 0
     },
     {
@@ -6704,12 +6704,12 @@
         "actions": []
       },
       "name": "Brothel Token",
-      "description": "A large copper coin. One side shows a lewd image of a woman. Runes have been inscribed on the other side of the coin. The inscription reads: “Golden Serpent Parlor House.”",
+      "description": "A large copper coin. One side shows a lewd image of a woman. Runes have been inscribed on the other side of the coin: “Golden Serpent Parlor House.”",
       "value": 50,
       "tier": "1",
       "type": "tool",
       "_created": "2019-12-05T09:37:52.954Z",
-      "_updated": "2020-03-05T02:55:10.809Z",
+      "_updated": "2020-03-17T02:35:27.534Z",
       "__v": 0
     },
     {
@@ -7039,7 +7039,7 @@
         "actions": []
       },
       "name": "Desert Cavalry Shield",
-      "description": "A large oval shield, favored by the revolutionary forces of Triniset. Blessed by the sigil of Ebiddon, a controversial figure who is worshipped by the Deadland nomads.",
+      "description": "A large oval shield, favored by the nomads of Triniset. Blessed by the sigil of Ebiddon, a military leader from ancient times.",
       "value": 100,
       "tier": "4",
       "type": "shield",
@@ -7058,7 +7058,7 @@
         "description": "It's as if the soul of Ebiddon himself rests within this shield..."
       },
       "_created": "2020-02-06T02:19:57.627Z",
-      "_updated": "2020-03-06T19:14:25.510Z",
+      "_updated": "2020-03-17T02:41:02.038Z",
       "__v": 0
     },
     {
@@ -7535,15 +7535,15 @@
     },
     {
       "_id": "5e54a433b723c2454a4acf4e",
-      "consumption": {
-        "actions": []
-      },
       "slot": [
         "accessory"
       ],
       "combatActions": [],
+      "consumption": {
+        "actions": []
+      },
       "name": "Fire Medallion",
-      "description": "A golden medallion with an iron chain. Sculpted to resemble a wreath of flames, forming a circle around nine eyes. This relic was blessed by the preacher of Noble Heights.",
+      "description": "A golden medallion with an iron chain. A wreath of flames, forming a circle around nine eyes. This relic was blessed by the preacher of Noble Heights.",
       "value": 100,
       "tier": "4",
       "type": "treasure",
@@ -7561,7 +7561,7 @@
         "description": "The sacred relic inspires a feeling of confidence..."
       },
       "_created": "2020-02-25T04:36:03.683Z",
-      "_updated": "2020-02-25T04:36:03.683Z",
+      "_updated": "2020-03-17T02:43:07.976Z",
       "__v": 0
     },
     {
@@ -7802,6 +7802,36 @@
       },
       "_created": "2020-03-16T08:48:34.245Z",
       "_updated": "2020-03-16T08:48:34.245Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e70d1e58530df30d4a07c59",
+      "slot": [
+        "mainHand",
+        "offHand"
+      ],
+      "combatActions": [
+        "sweep",
+        "cut"
+      ],
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "name": "Bronze Glaive",
+      "description": "A long polearm with a curved blade attached to the end.",
+      "value": 65,
+      "tier": "4",
+      "type": "weapon",
+      "encumbrance": 6,
+      "damage": {
+        "max": 18,
+        "min": 4
+      },
+      "_created": "2020-03-17T13:34:29.852Z",
+      "_updated": "2020-03-18T21:22:48.888Z",
       "__v": 0
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "total": 78,
+  "total": 79,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -4033,7 +4033,7 @@
                 1
               ],
               "_id": "5dd3cf6bf75a979a455984cc",
-              "probability": 0.5,
+              "probability": 0.25,
               "item": "5dd3cc65f75a9767c85984bf"
             },
             {
@@ -4044,6 +4044,15 @@
               "_id": "5dd3cf6bf75a9753785984cb",
               "probability": 0.5,
               "item": "5dd3ce91f75a97d7375984c4"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70d21f8530df21b0a07c5f",
+              "probability": 0.25,
+              "item": "5e70d1e58530df30d4a07c59"
             }
           ],
           "conditions": []
@@ -4083,7 +4092,7 @@
         }
       ],
       "_created": "2019-11-19T11:18:03.094Z",
-      "_updated": "2019-11-19T11:18:03.094Z",
+      "_updated": "2020-03-17T13:35:27.758Z",
       "__v": 0
     },
     {
@@ -5072,6 +5081,166 @@
       ],
       "_created": "2020-03-16T08:50:42.517Z",
       "_updated": "2020-03-16T08:58:14.593Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e70cc798530df5edea07c3c",
+      "gold": [
+        4,
+        15
+      ],
+      "name": "Lagoon Crates Redux II",
+      "bundles": [
+        {
+          "_id": "5e70cc798530df1feca07c45",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530df0935a07c4d",
+              "probability": 0.2,
+              "item": "5c7d6992fd6b497f52456b78"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530df26e6a07c4c",
+              "probability": 0.2,
+              "item": "5c7d65b6fd6b493b65456b6b"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530df6ff6a07c4b",
+              "probability": 0.2,
+              "item": "5c7d66acfd6b4983e7456b6e"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530df3cc4a07c4a",
+              "probability": 0.1,
+              "item": "5c7d65cefd6b4996f3456b6c"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530dffe0da07c49",
+              "probability": 0.1,
+              "item": "5c7d67e0fd6b49074b456b72"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530dfdfbea07c48",
+              "probability": 0.1,
+              "item": "5c7d66b9fd6b492e7e456b6f"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530df29e8a07c47",
+              "probability": 0.05,
+              "item": "5c7d653dfd6b4947ff456b6a"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530dfdeb7a07c46",
+              "probability": 0.05,
+              "item": "5c7d6832fd6b4954df456b73"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5e70cc798530dfa025a07c3d",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530df3deca07c44",
+              "probability": 0.1,
+              "item": "5c7d695cfd6b49753c456b77"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530df2b1da07c43",
+              "probability": 0.15,
+              "item": "5c7d694bfd6b491683456b76"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530df6381a07c42",
+              "probability": 0.2,
+              "item": "5c7d67cefd6b49b561456b71"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530df63c4a07c41",
+              "probability": 0.2,
+              "item": "5c7d6891fd6b494212456b74"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530df9a03a07c40",
+              "probability": 0.1,
+              "item": "5c7d68b1fd6b496e6a456b75"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530df338da07c3f",
+              "probability": 0.15,
+              "item": "5c7d65eafd6b49ac02456b6d"
+            },
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e70cc798530dfab1da07c3e",
+              "probability": 0.1,
+              "item": "5c7d6709fd6b491231456b70"
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "_created": "2020-03-17T13:11:21.559Z",
+      "_updated": "2020-03-17T13:11:21.559Z",
       "__v": 0
     }
   ]

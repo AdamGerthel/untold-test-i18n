@@ -68,10 +68,10 @@
       },
       "_created": "2019-03-06T20:40:27.448Z",
       "__v": 0,
-      "_updated": "2020-03-03T21:16:36.693Z",
+      "_updated": "2020-03-17T20:54:35.225Z",
       "level": 2,
       "bargain": [],
-      "healthOverride": 12
+      "healthOverride": 10
     },
     {
       "_id": "5c817e240e37485f1bc601e1",
@@ -118,6 +118,7 @@
     },
     {
       "_id": "5c869283bbdb6b1bf15865e2",
+      "combatActions": [],
       "name": "Berserker of Woe",
       "strength": 2,
       "charisma": 1,
@@ -128,17 +129,18 @@
       "experience": 30,
       "damage": {
         "min": 1,
-        "max": 2
+        "max": 3
       },
       "_created": "2019-03-11T16:53:23.766Z",
       "__v": 0,
-      "_updated": "2019-06-08T08:25:48.521Z",
+      "_updated": "2020-03-18T07:48:20.420Z",
       "level": 3,
       "bargain": [],
       "attacksPerSecond": 0.9
     },
     {
       "_id": "5c869a09bbdb6b717658660d",
+      "combatActions": [],
       "name": "Maceman of Woe",
       "perception": 1,
       "agility": 1,
@@ -147,14 +149,14 @@
       "strength": 4,
       "armor": 4,
       "experience": 30,
-      "attacksPerSecond": 0.45,
+      "attacksPerSecond": 0.7,
       "damage": {
         "min": 1,
         "max": 6
       },
       "_created": "2019-03-11T17:25:29.394Z",
       "__v": 0,
-      "_updated": "2019-06-08T08:33:10.073Z",
+      "_updated": "2020-03-18T07:49:24.981Z",
       "level": 4,
       "bargain": []
     },
@@ -269,20 +271,21 @@
     },
     {
       "_id": "5c8ba99f1902882f2ff94cdb",
+      "combatActions": [],
       "name": "Druid Assassin",
       "strength": 1,
       "charisma": 3,
       "resilience": 1,
       "agility": 3,
       "perception": 3,
-      "armor": 4,
+      "armor": 6,
       "experience": 50,
       "damage": {
         "min": 2,
-        "max": 7
+        "max": 8
       },
       "_created": "2019-03-15T13:33:19.234Z",
-      "_updated": "2019-06-08T11:52:23.143Z",
+      "_updated": "2020-03-18T07:52:32.978Z",
       "__v": 0,
       "loot": "5c9351e73bae8d4ce62b6257",
       "level": 7,
@@ -458,6 +461,7 @@
     },
     {
       "_id": "5ca3f68a3790351522b1ce57",
+      "combatActions": [],
       "name": "Druid Swordsman",
       "strength": 2,
       "charisma": 1,
@@ -468,18 +472,19 @@
       "experience": 25,
       "damage": {
         "min": 2,
-        "max": 4
+        "max": 5
       },
       "_created": "2019-04-02T23:55:54.827Z",
-      "_updated": "2020-02-05T22:41:06.374Z",
+      "_updated": "2020-03-18T07:50:28.973Z",
       "bargain": [],
       "__v": 0,
       "loot": "5ca43eea3790357c7eb1cf1e",
       "level": 6,
-      "attacksPerSecond": 0.7
+      "attacksPerSecond": 0.8
     },
     {
       "_id": "5ca5caf83790350e2bb1f631",
+      "combatActions": [],
       "name": "Druid Gardener",
       "strength": 4,
       "charisma": 1,
@@ -490,15 +495,15 @@
       "experience": 25,
       "damage": {
         "min": 1,
-        "max": 8
+        "max": 9
       },
       "_created": "2019-04-04T09:14:32.720Z",
-      "_updated": "2019-06-08T12:13:21.688Z",
+      "_updated": "2020-03-18T07:51:04.268Z",
       "bargain": [],
       "__v": 0,
       "loot": "5ca5f496379035016eb1fdff",
       "level": 6,
-      "attacksPerSecond": 0.5
+      "attacksPerSecond": 0.6
     },
     {
       "_id": "5cab279e379035ed17b2239e",
@@ -704,6 +709,7 @@
     },
     {
       "_id": "5cda4c473e44ee55b17abf8c",
+      "combatActions": [],
       "name": "Albino Jackal",
       "strength": 1,
       "charisma": 1,
@@ -719,9 +725,18 @@
         "max": 12
       },
       "_created": "2019-05-14T05:04:07.968Z",
-      "_updated": "2019-09-15T01:56:44.824Z",
+      "_updated": "2020-03-18T12:53:31.804Z",
       "bargain": [],
-      "__v": 0
+      "__v": 0,
+      "fight": {
+        "audio": {
+          "loop": true,
+          "volume": 1,
+          "media": "5e70d90d8530dfaf67a07c69",
+          "track": 1,
+          "continueFromPreviousPosition": true
+        }
+      }
     },
     {
       "_id": "5ce4acc0c3e78f95a55bcbcf",
@@ -769,22 +784,23 @@
     },
     {
       "_id": "5ce52292c3e78f82c55bd909",
+      "combatActions": [],
       "name": "Mastaba",
-      "strength": 4,
+      "strength": 6,
       "charisma": 1,
       "resilience": 4,
-      "agility": 4,
-      "perception": 1,
-      "level": 10,
+      "agility": 2,
+      "perception": 3,
+      "level": 12,
       "armor": 0,
       "experience": 35,
-      "attacksPerSecond": 1.5,
+      "attacksPerSecond": 1.6,
       "damage": {
-        "min": 1,
-        "max": 11
+        "min": 4,
+        "max": 10
       },
       "_created": "2019-05-22T10:21:06.822Z",
-      "_updated": "2019-05-22T10:21:06.822Z",
+      "_updated": "2020-03-18T16:25:45.570Z",
       "bargain": [],
       "__v": 0
     },
@@ -1029,6 +1045,10 @@
     },
     {
       "_id": "5d1701feebd3dc105b54ce8b",
+      "combatActions": [
+        "parry",
+        "cleave"
+      ],
       "name": "Arturo the Guardsman",
       "level": 12,
       "strength": 4,
@@ -1039,12 +1059,12 @@
       "armor": 80,
       "attacksPerSecond": 1,
       "damage": {
-        "min": 9,
-        "max": 15
+        "min": 8,
+        "max": 14
       },
       "experience": 50,
       "_created": "2019-06-29T06:15:26.144Z",
-      "_updated": "2019-09-17T11:25:25.848Z",
+      "_updated": "2020-03-18T18:03:49.931Z",
       "bargain": [],
       "__v": 0,
       "blockChance": 0,
@@ -1170,23 +1190,24 @@
     },
     {
       "_id": "5d4439d38335b4bdac884b3c",
+      "combatActions": [],
       "name": "Bandit War Lord",
-      "level": 10,
+      "level": 14,
       "strength": 3,
       "charisma": 3,
-      "resilience": 3,
-      "agility": 3,
-      "perception": 2,
+      "resilience": 4,
+      "agility": 4,
+      "perception": 4,
       "armor": 24,
       "attacksPerSecond": 2,
       "damage": {
-        "min": 1,
+        "min": 4,
         "max": 16
       },
       "blockChance": 0.2,
       "experience": 50,
       "_created": "2019-08-02T13:25:39.019Z",
-      "_updated": "2019-09-04T13:08:37.800Z",
+      "_updated": "2020-03-18T16:49:37.129Z",
       "bargain": [],
       "__v": 0,
       "loot": "5d443cd88335b43f95884b43"
@@ -1628,36 +1649,38 @@
     },
     {
       "_id": "5d5f78178335b445818854e1",
+      "combatActions": [],
       "name": "Merciless Knife Thug",
-      "level": 7,
+      "level": 9,
       "strength": 2,
       "charisma": 1,
       "resilience": 3,
-      "agility": 3,
-      "perception": 2,
+      "agility": 4,
+      "perception": 3,
       "armor": 4,
       "attacksPerSecond": 1,
       "damage": {
         "max": 12,
-        "min": 5
+        "min": 6
       },
       "experience": 20,
       "_created": "2019-08-23T05:22:31.543Z",
-      "_updated": "2019-09-04T13:10:01.607Z",
+      "_updated": "2020-03-18T16:53:21.282Z",
       "bargain": [],
       "__v": 0,
       "loot": "5d4ad8e38335b460ee884edc"
     },
     {
       "_id": "5d5f78618335b477ab8854e2",
+      "combatActions": [],
       "name": "Swift Knife Thug",
-      "level": 8,
+      "level": 10,
       "strength": 1,
       "charisma": 2,
       "resilience": 1,
-      "agility": 6,
+      "agility": 8,
       "perception": 2,
-      "armor": 4,
+      "armor": 6,
       "attacksPerSecond": 2,
       "damage": {
         "min": 3,
@@ -1665,7 +1688,7 @@
       },
       "experience": 20,
       "_created": "2019-08-23T05:23:45.433Z",
-      "_updated": "2019-09-04T13:09:38.173Z",
+      "_updated": "2020-03-18T16:54:04.732Z",
       "bargain": [],
       "__v": 0,
       "loot": "5d4ad8e38335b460ee884edc"
@@ -2050,25 +2073,29 @@
     },
     {
       "_id": "5db25d2bff2c198951db4d86",
+      "combatActions": [
+        "slam"
+      ],
       "name": "Lawless Colossus",
-      "level": 12,
-      "strength": 7,
+      "level": 14,
+      "strength": 8,
       "charisma": 1,
-      "resilience": 6,
+      "resilience": 7,
       "agility": 1,
       "perception": 1,
-      "attacksPerSecond": 0.5,
+      "attacksPerSecond": 0.8,
       "armor": 100,
       "damage": {
-        "min": 20,
-        "max": 25
+        "min": 18,
+        "max": 30
       },
       "experience": 30,
       "_created": "2019-10-25T02:25:47.309Z",
-      "_updated": "2019-10-31T22:43:57.780Z",
+      "_updated": "2020-03-18T18:31:13.881Z",
       "bargain": [],
       "__v": 0,
-      "loot": "5d4ad8e38335b460ee884edc"
+      "loot": "5d4ad8e38335b460ee884edc",
+      "healthOverride": 130
     },
     {
       "_id": "5dba3f56ff2c19053ddb6090",
@@ -2110,19 +2137,19 @@
       "name": "Mantis",
       "level": 25,
       "strength": 4,
-      "charisma": 8,
+      "charisma": 9,
       "resilience": 2,
       "agility": 9,
-      "perception": 6,
+      "perception": 5,
       "armor": 20,
       "attacksPerSecond": 2,
       "damage": {
-        "min": 9,
-        "max": 20
+        "min": 12,
+        "max": 17
       },
-      "experience": 200,
+      "experience": 0,
       "_created": "2019-10-31T01:59:24.909Z",
-      "_updated": "2020-03-06T17:15:01.916Z",
+      "_updated": "2020-03-18T22:39:53.662Z",
       "bargain": [],
       "__v": 0,
       "fight": {
@@ -2133,7 +2160,8 @@
           "track": 1,
           "continueFromPreviousPosition": true
         }
-      }
+      },
+      "healthOverride": 230
     },
     {
       "_id": "5dba412cff2c1966abdb60bd",
@@ -2235,13 +2263,13 @@
       "_id": "5dcec3ccf75a97bb545982b3",
       "combatActions": [],
       "name": "Foreign Soldier",
-      "level": 11,
+      "level": 13,
       "strength": 6,
       "charisma": 2,
-      "resilience": 4,
+      "resilience": 6,
       "agility": 1,
       "perception": 2,
-      "armor": 100,
+      "armor": 90,
       "attacksPerSecond": 1,
       "damage": {
         "min": 8,
@@ -2250,7 +2278,7 @@
       "blockChance": 0.25,
       "experience": 50,
       "_created": "2019-11-15T15:27:08.249Z",
-      "_updated": "2020-03-05T17:09:38.233Z",
+      "_updated": "2020-03-18T19:11:47.195Z",
       "bargain": [],
       "__v": 0,
       "loot": "5dd3fcfbf75a973ce559881a",
@@ -2268,23 +2296,23 @@
       "_id": "5dd422f5f75a97ec4c598e33",
       "combatActions": [],
       "name": "Foreign Soldier",
-      "level": 10,
+      "level": 12,
       "strength": 4,
       "charisma": 2,
-      "resilience": 3,
+      "resilience": 4,
       "agility": 2,
-      "perception": 3,
+      "perception": 4,
       "armor": 100,
       "attacksPerSecond": 1,
       "damage": {
-        "min": 7,
+        "min": 10,
         "max": 15
       },
       "blockChance": 0.25,
       "experience": 50,
       "loot": "5dd3fcfbf75a973ce559881a",
       "_created": "2019-11-19T17:14:29.493Z",
-      "_updated": "2020-03-05T17:09:27.143Z",
+      "_updated": "2020-03-18T19:08:13.709Z",
       "bargain": [],
       "__v": 0,
       "fight": {
@@ -2301,23 +2329,23 @@
       "_id": "5dd425d9f75a977e73598f84",
       "combatActions": [],
       "name": "Foreign Soldier",
-      "level": 12,
+      "level": 13,
       "strength": 6,
       "charisma": 2,
-      "resilience": 2,
+      "resilience": 3,
       "agility": 2,
       "perception": 4,
-      "armor": 100,
+      "armor": 95,
       "attacksPerSecond": 1,
       "damage": {
-        "min": 6,
+        "min": 8,
         "max": 17
       },
       "blockChance": 0.25,
       "experience": 50,
       "loot": "5dd3fcfbf75a973ce559881a",
       "_created": "2019-11-19T17:26:49.680Z",
-      "_updated": "2020-03-05T17:09:44.631Z",
+      "_updated": "2020-03-18T19:11:27.089Z",
       "bargain": [],
       "__v": 0,
       "fight": {
@@ -2334,23 +2362,23 @@
       "_id": "5dd43847f75a971e4a59906d",
       "combatActions": [],
       "name": "Foreign Commander",
-      "level": 12,
+      "level": 15,
       "strength": 5,
       "charisma": 4,
-      "resilience": 3,
-      "agility": 2,
+      "resilience": 5,
+      "agility": 3,
       "perception": 2,
       "armor": 100,
       "attacksPerSecond": 1,
       "damage": {
-        "min": 9,
-        "max": 16
+        "min": 12,
+        "max": 22
       },
       "blockChance": 0.25,
       "experience": 50,
       "loot": "5dd3fcfbf75a973ce559881a",
       "_created": "2019-11-19T18:45:27.872Z",
-      "_updated": "2020-03-05T17:08:34.432Z",
+      "_updated": "2020-03-18T19:15:00.038Z",
       "bargain": [],
       "__v": 0,
       "fight": {
@@ -2361,7 +2389,8 @@
           "track": 1,
           "continueFromPreviousPosition": true
         }
-      }
+      },
+      "healthOverride": 110
     },
     {
       "_id": "5dd579e0f75a97595359c90d",
@@ -2683,22 +2712,25 @@
     },
     {
       "_id": "5df90f0cf75a9754ab5a104c",
+      "combatActions": [
+        "stab"
+      ],
       "name": "Cleo Verdandi",
-      "level": 13,
-      "strength": 3,
+      "level": 20,
+      "strength": 4,
       "charisma": 4,
       "resilience": 2,
-      "agility": 4,
-      "perception": 4,
-      "armor": 40,
+      "agility": 6,
+      "perception": 8,
+      "armor": 30,
       "attacksPerSecond": 1.5,
       "damage": {
-        "max": 15,
-        "min": 4
+        "max": 18,
+        "min": 1
       },
       "experience": 50,
       "_created": "2019-12-17T17:23:24.026Z",
-      "_updated": "2020-02-07T03:48:59.216Z",
+      "_updated": "2020-03-18T20:16:44.266Z",
       "bargain": [],
       "__v": 0,
       "loot": "5e3cde06e094785094338c0a"
@@ -2726,22 +2758,23 @@
     },
     {
       "_id": "5dfc014ff75a975d6a5a119e",
+      "combatActions": [],
       "name": "Cartel Enforcer",
-      "level": 11,
+      "level": 13,
       "strength": 5,
       "charisma": 1,
-      "resilience": 3,
-      "agility": 2,
+      "resilience": 4,
+      "agility": 3,
       "perception": 4,
       "armor": 60,
       "attacksPerSecond": 1,
       "damage": {
-        "min": 5,
+        "min": 7,
         "max": 18
       },
       "experience": 25,
       "_created": "2019-12-19T23:01:35.450Z",
-      "_updated": "2019-12-19T23:01:35.450Z",
+      "_updated": "2020-03-18T19:59:45.984Z",
       "bargain": [],
       "__v": 0
     },
@@ -2768,22 +2801,25 @@
     },
     {
       "_id": "5dfc40f6f75a97c3365a1506",
-      "level": 12,
+      "combatActions": [
+        "cleave"
+      ],
+      "level": 18,
       "name": "Lucian Verdandi",
-      "strength": 8,
-      "charisma": 2,
-      "resilience": 4,
+      "strength": 9,
+      "charisma": 1,
+      "resilience": 9,
       "agility": 1,
-      "perception": 1,
+      "perception": 2,
       "armor": 60,
       "attacksPerSecond": 1,
       "damage": {
-        "max": 18,
-        "min": 10
+        "max": 35,
+        "min": 15
       },
       "experience": 50,
       "_created": "2019-12-20T03:33:10.950Z",
-      "_updated": "2019-12-20T11:36:31.907Z",
+      "_updated": "2020-03-18T20:09:16.922Z",
       "bargain": [],
       "__v": 0,
       "loot": "5dfcb22af75a973b4f5a152a"
@@ -2866,9 +2902,10 @@
     },
     {
       "_id": "5e2559123a36bf00cf3e42ac",
+      "combatActions": [],
       "name": "Cartel Sentry",
-      "level": 12,
-      "strength": 4,
+      "level": 13,
+      "strength": 5,
       "charisma": 1,
       "resilience": 3,
       "agility": 4,
@@ -2877,11 +2914,11 @@
       "attacksPerSecond": 1.5,
       "damage": {
         "min": 6,
-        "max": 14
+        "max": 16
       },
       "experience": 30,
       "_created": "2020-01-20T07:38:58.762Z",
-      "_updated": "2020-01-21T09:09:48.366Z",
+      "_updated": "2020-03-18T20:52:53.184Z",
       "bargain": [],
       "__v": 0,
       "loot": "5e26bfc13a36bf6a693e46e3"
@@ -3067,19 +3104,19 @@
       ],
       "name": "Cartel Rogue",
       "level": 11,
-      "strength": 2,
+      "strength": 3,
       "charisma": 2,
       "resilience": 2,
       "agility": 6,
-      "perception": 3,
-      "attacksPerSecond": 1.9,
+      "perception": 2,
+      "attacksPerSecond": 1.7,
       "damage": {
         "min": 1,
-        "max": 25
+        "max": 22
       },
       "experience": 50,
       "_created": "2020-01-21T14:12:34.885Z",
-      "_updated": "2020-03-06T13:10:46.847Z",
+      "_updated": "2020-03-18T21:05:16.279Z",
       "bargain": [],
       "__v": 0,
       "armor": 35
@@ -3279,21 +3316,21 @@
         "slam"
       ],
       "name": "Cartel Debt Collector",
-      "level": 12,
+      "level": 13,
       "strength": 7,
       "charisma": 2,
-      "resilience": 4,
+      "resilience": 5,
       "agility": 1,
       "perception": 2,
       "armor": 40,
       "attacksPerSecond": 1,
       "damage": {
-        "min": 6,
-        "max": 22
+        "min": 7,
+        "max": 24
       },
       "experience": 30,
       "_created": "2020-02-21T02:07:55.737Z",
-      "_updated": "2020-02-21T17:23:54.325Z",
+      "_updated": "2020-03-18T19:31:16.426Z",
       "bargain": [],
       "__v": 0,
       "loot": "5e5011bfa74d95480edebdb4"
@@ -3301,25 +3338,24 @@
     {
       "_id": "5e4f3ed2a74d95fc2fdebafc",
       "combatActions": [
-        "cut",
-        "parry"
+        "cut"
       ],
       "name": "Cartel Paymaster",
-      "level": 12,
+      "level": 14,
       "strength": 2,
       "perception": 6,
       "agility": 2,
-      "resilience": 2,
-      "charisma": 4,
+      "resilience": 3,
+      "charisma": 5,
       "armor": 40,
       "attacksPerSecond": 1.5,
       "damage": {
-        "min": 5,
+        "min": 6,
         "max": 15
       },
       "experience": 35,
       "_created": "2020-02-21T02:22:10.759Z",
-      "_updated": "2020-02-21T17:23:41.685Z",
+      "_updated": "2020-03-18T19:32:02.373Z",
       "bargain": [],
       "__v": 0,
       "loot": "5e5011eda74d952c48debdb7"
@@ -3340,10 +3376,10 @@
         "min": 4,
         "max": 12
       },
-      "healthOverride": -10,
+      "healthOverride": 22,
       "experience": 5,
       "_created": "2020-03-16T07:49:37.612Z",
-      "_updated": "2020-03-16T08:10:05.204Z",
+      "_updated": "2020-03-18T17:27:56.187Z",
       "bargain": [],
       "__v": 0,
       "loot": "5e6f343c21eaae3dae9f5aeb"
@@ -3358,7 +3394,7 @@
       "resilience": 2,
       "agility": 2,
       "perception": 2,
-      "healthOverride": -12,
+      "healthOverride": 29,
       "armor": 5,
       "attacksPerSecond": 1,
       "damage": {
@@ -3368,7 +3404,7 @@
       "experience": 5,
       "loot": "5e6f36af21eaae95e29f5b35",
       "_created": "2020-03-16T08:21:17.813Z",
-      "_updated": "2020-03-16T08:21:17.813Z",
+      "_updated": "2020-03-18T17:29:43.657Z",
       "bargain": [],
       "__v": 0
     },
@@ -3384,7 +3420,7 @@
       "resilience": 1,
       "agility": 2,
       "perception": 1,
-      "healthOverride": -8,
+      "healthOverride": 18,
       "armor": 1,
       "attacksPerSecond": 1,
       "damage": {
@@ -3394,7 +3430,7 @@
       "experience": 5,
       "loot": "5e6f3b0321eaae4ea29f5bd2",
       "_created": "2020-03-16T08:39:33.935Z",
-      "_updated": "2020-03-16T08:39:33.935Z",
+      "_updated": "2020-03-18T17:29:36.897Z",
       "bargain": [],
       "__v": 0
     },
@@ -3410,7 +3446,7 @@
       "resilience": 3,
       "agility": 1,
       "perception": 1,
-      "healthOverride": -20,
+      "healthOverride": 30,
       "armor": 1,
       "attacksPerSecond": 1,
       "damage": {
@@ -3420,7 +3456,7 @@
       "experience": 5,
       "loot": "5e6f3de221eaae19d29f5ccc",
       "_created": "2020-03-16T08:52:39.805Z",
-      "_updated": "2020-03-16T08:52:39.805Z",
+      "_updated": "2020-03-18T17:29:17.947Z",
       "bargain": [],
       "__v": 0
     },
@@ -3434,7 +3470,7 @@
       "resilience": 1,
       "agility": 2,
       "perception": 4,
-      "healthOverride": -8,
+      "healthOverride": 28,
       "armor": 1,
       "attacksPerSecond": 1,
       "damage": {
@@ -3443,7 +3479,7 @@
       },
       "experience": 5,
       "_created": "2020-03-16T09:02:35.117Z",
-      "_updated": "2020-03-16T09:02:35.117Z",
+      "_updated": "2020-03-18T17:29:13.479Z",
       "bargain": [],
       "__v": 0
     },
@@ -3457,7 +3493,7 @@
       "resilience": 1,
       "agility": 3,
       "perception": 2,
-      "healthOverride": -8,
+      "healthOverride": 24,
       "armor": 3,
       "attacksPerSecond": 1,
       "damage": {
@@ -3466,7 +3502,7 @@
       },
       "experience": 5,
       "_created": "2020-03-16T14:53:45.238Z",
-      "_updated": "2020-03-16T14:54:12.895Z",
+      "_updated": "2020-03-18T17:29:05.839Z",
       "bargain": [],
       "__v": 0,
       "loot": "5e6f3b0321eaae4ea29f5bd2"
@@ -3481,7 +3517,7 @@
       "resilience": 1,
       "agility": 3,
       "perception": 2,
-      "healthOverride": -14,
+      "healthOverride": 22,
       "armor": 3,
       "attacksPerSecond": 1,
       "damage": {
@@ -3490,7 +3526,7 @@
       },
       "experience": 5,
       "_created": "2020-03-16T17:17:01.221Z",
-      "_updated": "2020-03-16T17:18:33.833Z",
+      "_updated": "2020-03-18T17:28:55.504Z",
       "bargain": [],
       "__v": 0,
       "loot": "5e6f3b0321eaae4ea29f5bd2"
@@ -3500,7 +3536,7 @@
       "combatActions": [
         "stab"
       ],
-      "name": "Frenzied Opium Fiend",
+      "name": "Restless Opium Fiend",
       "level": 6,
       "strength": 2,
       "charisma": 1,
@@ -3508,7 +3544,7 @@
       "agility": 5,
       "perception": 1,
       "armor": 3,
-      "healthOverride": -12,
+      "healthOverride": 20,
       "attacksPerSecond": 2,
       "damage": {
         "min": 1,
@@ -3516,7 +3552,7 @@
       },
       "experience": 5,
       "_created": "2020-03-16T17:53:29.428Z",
-      "_updated": "2020-03-16T17:54:10.130Z",
+      "_updated": "2020-03-18T17:28:24.026Z",
       "bargain": [],
       "__v": 0,
       "loot": "5e6f343c21eaae3dae9f5aeb"
@@ -3531,7 +3567,7 @@
       "agility": 1,
       "perception": 2,
       "resilience": 3,
-      "healthOverride": -17,
+      "healthOverride": 29,
       "armor": 4,
       "attacksPerSecond": 1,
       "damage": {
@@ -3540,7 +3576,7 @@
       },
       "experience": 5,
       "_created": "2020-03-16T18:11:19.859Z",
-      "_updated": "2020-03-16T18:14:33.028Z",
+      "_updated": "2020-03-18T17:28:43.173Z",
       "bargain": [],
       "__v": 0,
       "loot": "5e6f36af21eaae95e29f5b35"
@@ -3555,7 +3591,7 @@
       "resilience": 2,
       "agility": 2,
       "perception": 2,
-      "healthOverride": -14,
+      "healthOverride": 23,
       "armor": 4,
       "attacksPerSecond": 1,
       "damage": {
@@ -3564,7 +3600,7 @@
       },
       "experience": 5,
       "_created": "2020-03-16T19:22:17.605Z",
-      "_updated": "2020-03-16T19:23:11.571Z",
+      "_updated": "2020-03-18T17:28:36.163Z",
       "bargain": [],
       "__v": 0,
       "loot": "5e6f3b0321eaae4ea29f5bd2"

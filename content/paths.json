@@ -842,20 +842,20 @@
       "from": "5c8acaa219028894d6f94cd5",
       "to": "5c8aca8d1902883dadf94cd4",
       "_created": "2019-03-18T18:57:29.144Z",
-      "_updated": "2019-04-24T17:04:04.871Z",
+      "_updated": "2020-03-18T12:44:51.037Z",
       "availability": [],
       "encounters": [
         {
-          "_id": "5cab24fa90542e00003c578e",
           "scene": [
             "5cab24303790358645b22364"
           ],
+          "_id": "5cab24fa90542e00003c578e",
           "conditions": [
             {
               "parameters": [
                 0.2
               ],
-              "_id": "5cadb5ef379035221bb228b3",
+              "_id": "5e7217c38530df42faa0a212",
               "type": "random"
             },
             {
@@ -873,10 +873,10 @@
           "maxAccounts": 1
         },
         {
-          "_id": "5cc096c423e78000009eae1f",
           "scene": [
             "5cc0969ec065f05bc994619a"
           ],
+          "_id": "5cc096c423e78000009eae1f",
           "conditions": [
             {
               "parameters": [
@@ -6152,7 +6152,7 @@
       "from": "5de00cbff75a97437d59ec6d",
       "to": "5de00c9af75a975e4459ec6b",
       "_created": "2020-02-25T23:03:40.477Z",
-      "_updated": "2020-02-25T23:25:51.362Z",
+      "_updated": "2020-03-17T21:28:53.213Z",
       "availability": [],
       "encounters": [
         {
@@ -6160,7 +6160,18 @@
             "5e4f7657a74d95d28adebc62"
           ],
           "_id": "5e55ace3244b400000a3cd0e",
-          "conditions": [],
+          "conditions": [
+            {
+              "parameters": [
+                [
+                  "5e4f5a89a74d954a66debb67",
+                  "5e4f549120372d0000a65429"
+                ]
+              ],
+              "_id": "5e7141158530df198da087c9",
+              "type": "hasSeenNode"
+            }
+          ],
           "maxAccounts": 1
         }
       ],

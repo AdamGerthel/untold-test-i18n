@@ -578,7 +578,7 @@
         "y": 338
       },
       "_created": "2019-03-14T21:41:54.265Z",
-      "_updated": "2020-01-24T00:46:04.486Z",
+      "_updated": "2020-03-18T11:45:52.077Z",
       "states": [
         {
           "scene": [
@@ -623,9 +623,10 @@
       "audio": [
         {
           "loop": true,
+          "volume": 1,
           "track": 1,
           "continueFromPreviousPosition": true,
-          "media": "5e10ce4576343369975ac8e1"
+          "media": "5e712a568530df8319a08167"
         }
       ]
     },
@@ -778,19 +779,27 @@
         "y": 450
       },
       "_created": "2019-03-14T21:43:15.035Z",
-      "_updated": "2019-11-21T22:20:38.312Z",
+      "_updated": "2020-03-17T14:08:17.229Z",
       "states": [
         {
-          "_id": "5cd960b9482c294c64211ffd",
           "scene": [
             "5cd9607f482c290205211fed"
           ],
+          "_id": "5cd960b9482c294c64211ffd",
           "conditions": []
         }
       ],
       "__v": 0,
       "background": "5dd70d7cf75a977c6359ea8a",
-      "audio": null
+      "audio": [
+        {
+          "loop": true,
+          "volume": 1,
+          "track": 1,
+          "media": "5e70d90d8530dfaf67a07c69",
+          "continueFromPreviousPosition": true
+        }
+      ]
     },
     {
       "_id": "5caa502137903509bcb21826",
@@ -892,13 +901,13 @@
       },
       "area": "5c8a77b3190288bd85f94cc9",
       "_created": "2019-04-09T11:37:15.311Z",
-      "_updated": "2019-11-02T13:24:41.599Z",
+      "_updated": "2020-03-18T12:07:53.179Z",
       "states": [
         {
-          "_id": "5cac8d2c379035e97eb2267e",
           "scene": [
             "5cac8b973790352857b2267a"
           ],
+          "_id": "5cac8d2c379035e97eb2267e",
           "conditions": [
             {
               "parameters": [
@@ -914,10 +923,10 @@
           ]
         },
         {
-          "_id": "5cb35008c065f05c29943379",
           "scene": [
             "5cb34f87c065f062f3943377"
           ],
+          "_id": "5cb35008c065f05c29943379",
           "conditions": [
             {
               "parameters": [
@@ -934,7 +943,22 @@
       ],
       "__v": 0,
       "background": "5dbd7fabff2c198160db7f23",
-      "audio": null
+      "audio": [
+        {
+          "loop": true,
+          "volume": 0.2,
+          "track": 1,
+          "media": "5e712a568530df8319a08167",
+          "continueFromPreviousPosition": true
+        },
+        {
+          "loop": true,
+          "volume": 0.6,
+          "track": 2,
+          "media": "5e10ce5c76343346305ac8e4",
+          "continueFromPreviousPosition": true
+        }
+      ]
     },
     {
       "_id": "5cac84ec379035285bb2264b",
@@ -945,7 +969,7 @@
         "y": 337
       },
       "_created": "2019-04-09T11:41:32.933Z",
-      "_updated": "2020-01-24T00:45:45.206Z",
+      "_updated": "2020-03-18T11:46:08.012Z",
       "states": [
         {
           "scene": [
@@ -960,9 +984,10 @@
       "audio": [
         {
           "loop": true,
+          "volume": 1,
           "track": 1,
-          "continueFromPreviousPosition": true,
-          "media": "5e10ce4576343369975ac8e1"
+          "media": "5e712a568530df8319a08167",
+          "continueFromPreviousPosition": true
         }
       ]
     },
@@ -975,19 +1000,27 @@
         "y": 340
       },
       "_created": "2019-04-09T11:43:27.697Z",
-      "_updated": "2019-11-02T13:25:13.034Z",
+      "_updated": "2020-03-18T12:05:41.444Z",
       "states": [
         {
-          "_id": "5cb211b2c065f0bd99942604",
           "scene": [
             "5cb2119ec065f03dfe942600"
           ],
+          "_id": "5cb211b2c065f0bd99942604",
           "conditions": []
         }
       ],
       "__v": 0,
       "background": "5dbd7fabff2c198160db7f23",
-      "audio": null
+      "audio": [
+        {
+          "loop": true,
+          "volume": 0.5,
+          "track": 1,
+          "media": "5e712a568530df8319a08167",
+          "continueFromPreviousPosition": true
+        }
+      ]
     },
     {
       "_id": "5cac860137903579c4b2264d",
@@ -998,19 +1031,27 @@
       },
       "area": "5c8a77b3190288bd85f94cc9",
       "_created": "2019-04-09T11:46:09.231Z",
-      "_updated": "2019-11-02T13:25:42.959Z",
+      "_updated": "2020-03-18T11:59:14.934Z",
       "states": [
         {
-          "_id": "5cb260bdc065f0091c942a3e",
           "scene": [
             "5cb255dcc065f0d6079429a8"
           ],
+          "_id": "5cb260bdc065f0091c942a3e",
           "conditions": []
         }
       ],
       "__v": 0,
       "background": "5dbd7fabff2c198160db7f23",
-      "audio": null
+      "audio": [
+        {
+          "loop": true,
+          "volume": 0.2,
+          "track": 1,
+          "media": "5e712a568530df8319a08167",
+          "continueFromPreviousPosition": true
+        }
+      ]
     },
     {
       "_id": "5cac86723790356c3fb2264e",
@@ -1021,13 +1062,13 @@
         "y": 342
       },
       "_created": "2019-04-09T11:48:02.319Z",
-      "_updated": "2019-11-02T13:25:34.199Z",
+      "_updated": "2020-03-18T11:58:51.213Z",
       "states": [
         {
-          "_id": "5cb27225c065f004df942a65",
           "scene": [
             "5cb271f7c065f0d449942a63"
           ],
+          "_id": "5cb27225c065f004df942a65",
           "conditions": [
             {
               "parameters": [
@@ -1043,10 +1084,10 @@
           ]
         },
         {
-          "_id": "5cb2897ac065f0e5ed942c3d",
           "scene": [
             "5cb2890dc065f03c39942c3b"
           ],
+          "_id": "5cb2897ac065f0e5ed942c3d",
           "conditions": [
             {
               "parameters": [
@@ -1063,7 +1104,22 @@
       ],
       "__v": 0,
       "background": "5dbd7fabff2c198160db7f23",
-      "audio": null
+      "audio": [
+        {
+          "loop": true,
+          "volume": 0.1,
+          "track": 1,
+          "media": "5e712a568530df8319a08167",
+          "continueFromPreviousPosition": true
+        },
+        {
+          "loop": true,
+          "volume": 0.6,
+          "track": 3,
+          "media": "5e10ce5c76343346305ac8e4",
+          "continueFromPreviousPosition": true
+        }
+      ]
     },
     {
       "_id": "5cacc1bb37903544b0b226c7",
@@ -1074,13 +1130,13 @@
       },
       "area": "5c8a77b3190288bd85f94cc9",
       "_created": "2019-04-09T16:00:59.077Z",
-      "_updated": "2019-11-02T13:24:51.240Z",
+      "_updated": "2020-03-18T12:10:26.006Z",
       "states": [
         {
-          "_id": "5cacc9373790354caab226d9",
           "scene": [
             "5cacc850379035e26eb226d7"
           ],
+          "_id": "5cacc9373790354caab226d9",
           "conditions": [
             {
               "parameters": [
@@ -1096,10 +1152,10 @@
           ]
         },
         {
-          "_id": "5cacf0a0379035cf1db2272c",
           "scene": [
             "5cacf036379035b275b2272a"
           ],
+          "_id": "5cacf0a0379035cf1db2272c",
           "conditions": [
             {
               "parameters": [
@@ -1116,7 +1172,22 @@
       ],
       "__v": 0,
       "background": "5dbd7fabff2c198160db7f23",
-      "audio": null
+      "audio": [
+        {
+          "loop": true,
+          "volume": 0.2,
+          "track": 1,
+          "media": "5e712a568530df8319a08167",
+          "continueFromPreviousPosition": true
+        },
+        {
+          "loop": true,
+          "volume": 0.6,
+          "track": 2,
+          "media": "5e10ce5c76343346305ac8e4",
+          "continueFromPreviousPosition": true
+        }
+      ]
     },
     {
       "_id": "5cb20b1fc065f067219425c1",
@@ -1127,19 +1198,27 @@
         "y": 344
       },
       "_created": "2019-04-13T16:15:27.248Z",
-      "_updated": "2019-11-02T13:25:08.255Z",
+      "_updated": "2020-03-18T12:09:27.107Z",
       "states": [
         {
-          "_id": "5cb21579c065f0a0cd942617",
           "scene": [
             "5cb2152fc065f00e57942615"
           ],
+          "_id": "5cb21579c065f0a0cd942617",
           "conditions": []
         }
       ],
       "__v": 0,
       "background": "5dbd7fabff2c198160db7f23",
-      "audio": null
+      "audio": [
+        {
+          "loop": true,
+          "volume": 1,
+          "track": 1,
+          "media": "5e46d824a74d958deede4cbd",
+          "continueFromPreviousPosition": true
+        }
+      ]
     },
     {
       "_id": "5cb20b3fc065f03bfb9425c3",
@@ -1150,13 +1229,13 @@
       },
       "area": "5c8a77b3190288bd85f94cc9",
       "_created": "2019-04-13T16:15:59.718Z",
-      "_updated": "2019-11-02T13:25:01.900Z",
+      "_updated": "2020-03-18T12:05:33.381Z",
       "states": [
         {
-          "_id": "5cb21a0dc065f0bad794264c",
           "scene": [
             "5cb219f8c065f07cd094264a"
           ],
+          "_id": "5cb21a0dc065f0bad794264c",
           "conditions": [
             {
               "parameters": [
@@ -1172,10 +1251,10 @@
           ]
         },
         {
-          "_id": "5cb7e06cc065f0077c943740",
           "scene": [
             "5cb7e019c065f083e894373e"
           ],
+          "_id": "5cb7e06cc065f0077c943740",
           "conditions": [
             {
               "parameters": [
@@ -1192,7 +1271,15 @@
       ],
       "__v": 0,
       "background": "5dbd7fabff2c198160db7f23",
-      "audio": null
+      "audio": [
+        {
+          "loop": true,
+          "volume": 1,
+          "track": 1,
+          "media": "5e46d824a74d958deede4cbd",
+          "continueFromPreviousPosition": true
+        }
+      ]
     },
     {
       "_id": "5cb29c28c065f0490b942e01",
@@ -3594,7 +3681,7 @@
         "y": 0
       },
       "_created": "2019-12-03T19:59:44.101Z",
-      "_updated": "2020-03-11T13:13:32.494Z",
+      "_updated": "2020-03-17T20:44:20.949Z",
       "states": [
         {
           "scene": [
@@ -3623,15 +3710,7 @@
         }
       ],
       "__v": 0,
-      "audio": [
-        {
-          "loop": true,
-          "volume": 1,
-          "track": 1,
-          "media": "5e68d9c6d5f2ffa35f23a9a9",
-          "continueFromPreviousPosition": true
-        }
-      ],
+      "audio": [],
       "background": "5e45bf66a74d956793de4c51"
     },
     {
@@ -4098,7 +4177,7 @@
         "y": 98
       },
       "_created": "2020-01-14T20:21:19.784Z",
-      "_updated": "2020-02-26T22:29:16.733Z",
+      "_updated": "2020-03-18T22:03:22.169Z",
       "states": [
         {
           "scene": [
@@ -4127,7 +4206,15 @@
         }
       ],
       "__v": 0,
-      "audio": null,
+      "audio": [
+        {
+          "loop": true,
+          "volume": 0.1,
+          "track": 1,
+          "media": "5e46d822a74d955961de4cb5",
+          "continueFromPreviousPosition": true
+        }
+      ],
       "background": "5e56e4e0b723c2b7744af0e2"
     },
     {
@@ -4170,7 +4257,7 @@
         "y": 98
       },
       "_created": "2020-01-14T20:21:53.164Z",
-      "_updated": "2020-02-26T22:30:22.154Z",
+      "_updated": "2020-03-18T21:15:10.803Z",
       "states": [
         {
           "scene": [
@@ -4199,7 +4286,15 @@
         }
       ],
       "__v": 0,
-      "audio": null,
+      "audio": [
+        {
+          "loop": true,
+          "volume": 0.2,
+          "track": 1,
+          "media": "5e46d822a74d955961de4cb5",
+          "continueFromPreviousPosition": true
+        }
+      ],
       "background": "5e56e4e0b723c287444af0e3"
     },
     {
@@ -4211,7 +4306,7 @@
         "y": 45
       },
       "_created": "2020-01-14T20:22:34.160Z",
-      "_updated": "2020-03-11T22:13:18.532Z",
+      "_updated": "2020-03-18T21:19:58.869Z",
       "states": [
         {
           "scene": [
@@ -4243,9 +4338,9 @@
       "audio": [
         {
           "loop": true,
-          "volume": 0.6,
+          "volume": 0.4,
           "track": 1,
-          "media": "5e68d9c6d5f2ff044e23a9ab",
+          "media": "5e46d822a74d955961de4cb5",
           "continueFromPreviousPosition": true
         }
       ],
@@ -4353,15 +4448,8 @@
         "y": 46
       },
       "_created": "2020-01-14T20:26:04.557Z",
-      "_updated": "2020-03-11T22:12:27.494Z",
+      "_updated": "2020-03-18T22:16:31.261Z",
       "states": [
-        {
-          "scene": [
-            "5e26c2533a36bf78c43e46e7"
-          ],
-          "_id": "5e26f23a3a36bf5ecb3e46f4",
-          "conditions": []
-        },
         {
           "scene": [
             "5e27afcb3a36bfc97d3e4f81"
@@ -4379,20 +4467,27 @@
               "type": "hasSeenNode"
             }
           ]
+        },
+        {
+          "scene": [
+            "5e26c2533a36bf78c43e46e7"
+          ],
+          "_id": "5e26f23a3a36bf5ecb3e46f4",
+          "conditions": []
         }
       ],
       "__v": 0,
       "audio": [
         {
           "loop": true,
-          "volume": 0.8,
+          "volume": 0.1,
           "track": 2,
           "media": "5e68d9c6d5f2ff044e23a9ab",
           "continueFromPreviousPosition": true
         },
         {
           "loop": true,
-          "volume": 0.1,
+          "volume": 0.8,
           "track": 1,
           "media": "5e46d822a74d955961de4cb5",
           "continueFromPreviousPosition": true
