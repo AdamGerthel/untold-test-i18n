@@ -102,7 +102,7 @@
       "resilience": 1,
       "agility": 2,
       "perception": 1,
-      "armor": 20,
+      "armor": 10,
       "experience": 30,
       "damage": {
         "min": 1,
@@ -110,7 +110,7 @@
       },
       "_created": "2019-03-11T03:20:19.163Z",
       "__v": 0,
-      "_updated": "2020-03-04T10:29:21.018Z",
+      "_updated": "2020-03-22T10:08:39.314Z",
       "name": "Swordsman of Woe",
       "level": 4,
       "bargain": [],
@@ -133,7 +133,7 @@
       },
       "_created": "2019-03-11T16:53:23.766Z",
       "__v": 0,
-      "_updated": "2020-03-18T07:48:20.420Z",
+      "_updated": "2020-03-22T10:09:10.324Z",
       "level": 3,
       "bargain": [],
       "attacksPerSecond": 0.9
