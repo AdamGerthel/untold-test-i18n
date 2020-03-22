@@ -1,5 +1,5 @@
 {
-  "total": 321,
+  "total": 323,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -7832,6 +7832,52 @@
       },
       "_created": "2020-03-17T13:34:29.852Z",
       "_updated": "2020-03-18T21:22:48.888Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e777d2aecc8c988e91bd8d6",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "hands"
+      ],
+      "combatActions": [],
+      "name": "Cloth Bracers",
+      "description": "A pair of green cloth bracers, covering the wrists and forearms.",
+      "value": 6,
+      "tier": "1",
+      "type": "armor",
+      "encumbrance": 1,
+      "armor": 3,
+      "_created": "2020-03-22T14:58:50.695Z",
+      "_updated": "2020-03-22T14:58:50.695Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e777d8becc8c97c3a1bd8d7",
+      "consumption": {
+        "actions": []
+      },
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [
+        "body"
+      ],
+      "combatActions": [],
+      "name": "Fur Tunic",
+      "description": "A patchwork fur tunic, made from wolf hides.",
+      "value": 10,
+      "tier": "1",
+      "type": "armor",
+      "encumbrance": 2,
+      "armor": 6,
+      "_created": "2020-03-22T15:00:27.495Z",
+      "_updated": "2020-03-22T15:00:27.495Z",
       "__v": 0
     }
   ]

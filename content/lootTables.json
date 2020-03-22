@@ -4895,8 +4895,39 @@
       ],
       "name": "Druid Archer",
       "_created": "2020-03-10T10:56:45.795Z",
-      "_updated": "2020-03-10T16:20:05.973Z",
-      "bundles": [],
+      "_updated": "2020-03-22T15:02:22.068Z",
+      "bundles": [
+        {
+          "_id": "5e777dfeecc8c9521b1bd8da",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e777dfeecc8c992e71bd8db",
+              "probability": 1,
+              "item": "5e777d8becc8c97c3a1bd8d7"
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "_id": "5e777dfeecc8c900921bd8d8",
+          "items": [
+            {
+              "quantityRange": [
+                1,
+                1
+              ],
+              "_id": "5e777dfeecc8c91b721bd8d9",
+              "probability": 1,
+              "item": "5e777d2aecc8c988e91bd8d6"
+            }
+          ],
+          "conditions": []
+        }
+      ],
       "__v": 0
     },
     {
