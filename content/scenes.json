@@ -111210,7 +111210,7 @@
       "cutScene": false,
       "name": "Sleep Temple 2F: Avon Lorca (Encounter)",
       "_created": "2020-01-22T18:04:11.554Z",
-      "_updated": "2020-03-17T22:11:51.060Z",
+      "_updated": "2020-03-23T17:19:01.952Z",
       "nodes": [
         {
           "autoSave": {
@@ -111820,17 +111820,7 @@
                     ]
                   },
                   "actions": [],
-                  "conditions": [
-                    {
-                      "parameters": [
-                        "charisma",
-                        "lowerThan",
-                        4
-                      ],
-                      "_id": "5e31c6f454168912a79963a1",
-                      "type": "stat"
-                    }
-                  ]
+                  "conditions": []
                 }
               ],
               "maxAccounts": 1,
