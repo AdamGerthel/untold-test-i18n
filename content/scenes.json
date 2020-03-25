@@ -60700,7 +60700,16 @@
                 "Slay the concubine"
               ],
               "_id": "5d6f1f490eca2d0000f752c6",
-              "actions": [],
+              "actions": [
+                {
+                  "parameters": [
+                    "5d5f754d8335b479c78854df",
+                    []
+                  ],
+                  "_id": "5e79f344ecc8c985b01bd92e",
+                  "type": "engageNpc"
+                }
+              ],
               "outcomes": [
                 {
                   "_id": "5d6f3fc25571e30000c34c70",
