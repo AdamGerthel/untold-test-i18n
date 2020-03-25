@@ -50519,7 +50519,7 @@
             "conditions": []
           },
           "narrative": [
-            "Having pondered your question, she replies: \"I suppose that the nomads could get rid off the bandits, if the Militia agrees to stand down. It seems doubtful that Elder Ariamnos would agree to trust them, however. All things considered, it seems like a solution that would benefit everyone. Unfortunately, common sense is a rare commodity...\""
+            "Having pondered your question, she replies: \"I suppose that the nomads could get rid of the bandits, if the Militia agrees to stand down. It seems doubtful that Elder Ariamnos would agree to trust them, however. All things considered, it seems like a solution that would benefit everyone. Unfortunately, common sense is a rare commodity...\""
           ],
           "cutScene": false,
           "_id": "5d71491b8976dd00003155ae",
@@ -51050,7 +51050,7 @@
         }
       ],
       "_created": "2019-06-29T00:09:35.950Z",
-      "_updated": "2020-03-09T19:15:54.418Z",
+      "_updated": "2020-03-25T13:29:58.847Z",
       "__v": 0,
       "audio": null
     },
@@ -56566,14 +56566,20 @@
         "5d54a2468335b475c2885129",
         "5d54a1b18335b4bde2885128"
       ],
+      "cutScene": false,
       "name": "Roe Bandit Camp Encounter: Prisoners (Universal)",
       "_created": "2019-08-14T11:49:20.353Z",
-      "_updated": "2019-12-16T21:13:44.944Z",
+      "_updated": "2020-03-25T13:31:12.168Z",
       "nodes": [
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "Guided through the fog by cries of anguish, you discover a couple of prisoners. They are trapped in small wooden cages, half-buried in the mud of a long trench. Battered and bruised, the prisoners languish among the bones of dead slaves."
           ],
+          "cutScene": false,
           "_id": "5d547dad58bf480000e3480b",
           "options": [
             {
@@ -56608,7 +56614,7 @@
               "actions": [
                 {
                   "parameters": [
-                    "25"
+                    25
                   ],
                   "_id": "5d548d2a8335b42fce8850b6",
                   "type": "gainExperience"
@@ -56630,12 +56636,18 @@
               "maxAccounts": 1,
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "You break open their cages. Staggering, the two prisoners ascend from the mud. Having had time to adjust, they express their gratitude. The tall, scarred war veteran introduces himself as \"Chief Hadrian Trout, mayor of Set\", while the crooked hunchback is named \"Calvino the Boatman.\""
           ],
+          "cutScene": false,
           "_id": "5d54811f58bf480000e34810",
           "options": [
             {
@@ -56682,12 +56694,18 @@
               "maxAccounts": 1,
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "Soaked in rain, the quavering seafarer explains his predicament: \"I have suffered for too long by the hands of the Tusk Mob... please, make it quick, so that I may return to Set before dusk.\""
           ],
+          "cutScene": false,
           "_id": "5d54863458bf480000e34815",
           "options": [
             {
@@ -56751,7 +56769,7 @@
                     "type": "narrative",
                     "parameters": [
                       [
-                        "\"I am wise enough to know that they should not be trifled with. Beyond that, I'd rather not know. You'd be better of asking Chief Hadrian Trout. He's a man of the law, after all.\""
+                        "\"I am wise enough to know that they should not be trifled with. Beyond that, I'd rather not know. You'd be better off asking Chief Hadrian Trout. He's a man of the law, after all.\""
                       ]
                     ]
                   },
@@ -56820,12 +56838,18 @@
               "maxAccounts": 1,
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "Standing tall, the aged war veteran speaks: \"I was captured by the Tusk Mob during my investigation of their criminal enterprise. They've kept me here for days. The Roeburgh Militia will be in your debt, stranger.\""
           ],
+          "cutScene": false,
           "_id": "5d5488ea58bf480000e3481c",
           "options": [
             {
@@ -56986,12 +57010,18 @@
               "availability": [],
               "parent": "5d5498e558bf480000e34838"
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "The scarred military commander bows. \"Farewell.\" Heading north, Hadrian departs."
           ],
+          "cutScene": false,
           "_id": "5d548db158bf480000e34825",
           "options": [
             {
@@ -57059,12 +57089,18 @@
                 }
               ]
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "\"Praised be Phenris.\" Before leaving, he adds: \"I can take you to any of the neighboring islands, for a small fee. You can find me in the harbor of Set.\" The hunch-back staggers away, soon devoured by the mist."
           ],
+          "cutScene": false,
           "_id": "5d548db258bf480000e34826",
           "options": [
             {
@@ -57132,10 +57168,12 @@
                 }
               ]
             }
-          ]
+          ],
+          "audio": []
         }
       ],
-      "__v": 0
+      "__v": 0,
+      "audio": []
     },
     {
       "_id": "5d53f8188335b43dbc884f6c",
@@ -59332,7 +59370,7 @@
       "cutScene": false,
       "name": "Roe Path Encounter: Bandit Camp (Stealth or Force)",
       "_created": "2019-08-15T18:29:41.007Z",
-      "_updated": "2020-03-22T14:00:48.711Z",
+      "_updated": "2020-03-24T11:47:16.856Z",
       "nodes": [
         {
           "autoSave": {
