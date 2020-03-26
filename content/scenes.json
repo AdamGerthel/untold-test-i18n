@@ -21144,7 +21144,7 @@
                     {
                       "parameters": [
                         "5cb278a0c065f02af7942a97",
-                        "1"
+                        1
                       ],
                       "_id": "5cb29034c065f0205d942d89",
                       "type": "pickUpItem"
@@ -21158,16 +21158,17 @@
                 {
                   "parameters": [
                     [
-                      "5cb271f7c065f0d449942a63",
-                      "5cb271ebdf5d0d0000ab589c",
-                      "5cb274c5df5d0d0000ab58a0",
-                      "5cb274eedf5d0d0000ab58a1"
+                      "5cb27be2c065f0d95a942af8",
+                      "5cb27bd1df5d0d0000ab58ab",
+                      "5cb27e52df5d0d0000ab58af"
                     ]
                   ],
-                  "_id": "5cb27839c065f02580942a92",
-                  "type": "hasSeenOptionOutcome"
+                  "_id": "5e7cb788ecc8c965571bdb9f",
+                  "type": "hasUsedOption",
+                  "negate": true
                 }
-              ]
+              ],
+              "parent": "5cb274c5df5d0d0000ab58a0"
             },
             {
               "label": [
@@ -21191,20 +21192,8 @@
                 }
               ],
               "maxAccounts": 1,
-              "availability": [
-                {
-                  "parameters": [
-                    [
-                      "5cb271f7c065f0d449942a63",
-                      "5cb271ebdf5d0d0000ab589c",
-                      "5cb274c5df5d0d0000ab58a0",
-                      "5cb274eedf5d0d0000ab58a1"
-                    ]
-                  ],
-                  "_id": "5cb27839c065f0b5e3942a8f",
-                  "type": "hasSeenOptionOutcome"
-                }
-              ]
+              "availability": [],
+              "parent": "5cb274c5df5d0d0000ab58a0"
             },
             {
               "label": [
@@ -21228,20 +21217,8 @@
                 }
               ],
               "maxAccounts": 1,
-              "availability": [
-                {
-                  "parameters": [
-                    [
-                      "5cb271f7c065f0d449942a63",
-                      "5cb271ebdf5d0d0000ab589c",
-                      "5cb275cadf5d0d0000ab58a4",
-                      "5cb277bbdf5d0d0000ab58a5"
-                    ]
-                  ],
-                  "_id": "5cb27b3bc065f0b4d5942aec",
-                  "type": "hasSeenOptionOutcome"
-                }
-              ]
+              "availability": [],
+              "parent": "5cb275cadf5d0d0000ab58a4"
             },
             {
               "label": [
@@ -21272,20 +21249,8 @@
                 }
               ],
               "maxAccounts": 1,
-              "availability": [
-                {
-                  "parameters": [
-                    [
-                      "5cb271f7c065f0d449942a63",
-                      "5cb271ebdf5d0d0000ab589c",
-                      "5cb27943df5d0d0000ab58a6",
-                      "5cb279bddf5d0d0000ab58a8"
-                    ]
-                  ],
-                  "_id": "5cb27b3bc065f03e10942ae9",
-                  "type": "hasSeenOptionOutcome"
-                }
-              ]
+              "availability": [],
+              "parent": "5cb27943df5d0d0000ab58a6"
             },
             {
               "label": [
@@ -21377,29 +21342,17 @@
                 {
                   "parameters": [
                     "5cad5a913790354ae0b2285c",
-                    "equals",
+                    "greaterThanOrEqual",
                     1
                   ],
-                  "_id": "5cb27c73c065f0ba9e942b12",
+                  "_id": "5e7cb788ecc8c95b6b1bdb95",
                   "type": "hasItem"
-                },
-                {
-                  "parameters": [
-                    [
-                      "5cb271f7c065f0d449942a63",
-                      "5cb271ebdf5d0d0000ab589c",
-                      "5cb2798edf5d0d0000ab58a7",
-                      "5cb279dbdf5d0d0000ab58a9"
-                    ]
-                  ],
-                  "_id": "5cb27dc0c065f0d99b942b29",
-                  "type": "hasSeenOptionOutcome"
                 },
                 {
                   "parameters": [
                     "5c803d8f0e37481dd7c6019c",
                     "greaterThanOrEqual",
-                    "3"
+                    3
                   ],
                   "_id": "5d814ceae6ecf35afda2c798",
                   "type": "hasItem"
@@ -21458,14 +21411,15 @@
                   "_id": "5d814d44e6ecf385aea2c7b8",
                   "type": "hasItem"
                 }
-              ]
+              ],
+              "parent": "5cb2798edf5d0d0000ab58a7"
             }
           ],
           "audio": null
         }
       ],
       "_created": "2019-04-13T23:34:15.303Z",
-      "_updated": "2020-03-10T10:36:46.220Z",
+      "_updated": "2020-03-26T14:09:12.749Z",
       "__v": 0,
       "audio": null
     },
@@ -21524,15 +21478,24 @@
               "availability": [
                 {
                   "parameters": [
+                    "5cb278a0c065f02af7942a97",
+                    "greaterThan",
+                    0
+                  ],
+                  "_id": "5e7caf66ecc8c999481bda6d",
+                  "type": "hasItem",
+                  "negate": true
+                },
+                {
+                  "parameters": [
                     [
-                      "5cb271f7c065f0d449942a63",
-                      "5cb271ebdf5d0d0000ab589c",
-                      "5cb27554df5d0d0000ab58a2",
-                      "5cb2756fdf5d0d0000ab58a3"
+                      "5cb27be2c065f0d95a942af8",
+                      "5cb27bd1df5d0d0000ab58ab",
+                      "5cb27f72df5d0d0000ab58b2"
                     ]
                   ],
-                  "_id": "5cb27f12c065f08548942b56",
-                  "type": "hasSeenOptionOutcome",
+                  "_id": "5e7cb514ecc8c9a0dd1bdaf3",
+                  "type": "hasUsedOption",
                   "negate": true
                 }
               ]
@@ -21541,80 +21504,8 @@
               "label": [
                 "Complete the final step"
               ],
-              "_id": "5cb27ed0df5d0d0000ab58b1",
-              "actions": [
-                {
-                  "parameters": [
-                    "5cb278a0c065f02af7942a97"
-                  ],
-                  "_id": "5cb29146c065f058cf942dec",
-                  "type": "removeItem"
-                }
-              ],
-              "outcomes": [
-                {
-                  "_id": "5cb28011df5d0d0000ab58b4",
-                  "event": {
-                    "type": "narrative",
-                    "parameters": [
-                      [
-                        "You carefully mix the sifted concoction with goat's milk in accordance with the recipe."
-                      ]
-                    ]
-                  },
-                  "actions": [
-                    {
-                      "parameters": [
-                        "5caabbcf37903537d9b22137",
-                        1
-                      ],
-                      "_id": "5cb28446c065f0592b942bf2",
-                      "type": "pickUpItem"
-                    }
-                  ],
-                  "conditions": [
-                    {
-                      "parameters": [
-                        "5cb278a0c065f02af7942a97",
-                        "equals",
-                        1
-                      ],
-                      "_id": "5cb28446c065f05547942bf3",
-                      "type": "hasItem"
-                    }
-                  ]
-                }
-              ],
-              "maxAccounts": 1,
-              "availability": [
-                {
-                  "parameters": [
-                    [
-                      "5cb271f7c065f0d449942a63",
-                      "5cb271ebdf5d0d0000ab589c",
-                      "5cb27554df5d0d0000ab58a2",
-                      "5cb2756fdf5d0d0000ab58a3"
-                    ]
-                  ],
-                  "_id": "5cb28446c065f0d455942bf4",
-                  "type": "hasSeenOptionOutcome"
-                }
-              ]
-            },
-            {
-              "label": [
-                "Complete the final step"
-              ],
               "_id": "5cb27f72df5d0d0000ab58b2",
-              "actions": [
-                {
-                  "parameters": [
-                    "5cb278a0c065f02af7942a97"
-                  ],
-                  "_id": "5cb29146c065f09127942de5",
-                  "type": "removeItem"
-                }
-              ],
+              "actions": [],
               "outcomes": [
                 {
                   "_id": "5cb2801adf5d0d0000ab58b7",
@@ -21629,69 +21520,35 @@
                   "actions": [
                     {
                       "parameters": [
+                        "5cb278a0c065f02af7942a97"
+                      ],
+                      "_id": "5cb28446c065f02219942be0",
+                      "type": "removeItem"
+                    },
+                    {
+                      "parameters": [
                         "5caabbcf37903537d9b22137",
                         1
                       ],
                       "_id": "5cb28446c065f07c7f942be1",
                       "type": "pickUpItem"
-                    },
-                    {
-                      "parameters": [
-                        "5cb278a0c065f02af7942a97"
-                      ],
-                      "_id": "5cb28446c065f02219942be0",
-                      "type": "removeItem"
                     }
                   ],
-                  "conditions": [
-                    {
-                      "parameters": [
-                        "5cb278a0c065f02af7942a97",
-                        "equals",
-                        1
-                      ],
-                      "_id": "5cb28446c065f00454942be2",
-                      "type": "hasItem"
-                    }
-                  ]
+                  "conditions": []
                 }
               ],
               "maxAccounts": 1,
               "availability": [
                 {
                   "parameters": [
-                    [
-                      "5cb27be2c065f0d95a942af8",
-                      "5cb27bd1df5d0d0000ab58ab",
-                      "5cb27e52df5d0d0000ab58af",
-                      "5cb27e78df5d0d0000ab58b0"
-                    ]
+                    "5cb278a0c065f02af7942a97",
+                    "greaterThanOrEqual",
+                    1
                   ],
-                  "_id": "5cb28446c065f024bd942be3",
-                  "type": "hasSeenOptionOutcome"
+                  "_id": "5e7caf66ecc8c997b51bda69",
+                  "type": "hasItem"
                 }
               ]
-            },
-            {
-              "label": [
-                "Step away from the cauldron"
-              ],
-              "_id": "5cb283b0df5d0d0000ab58ba",
-              "actions": [],
-              "outcomes": [
-                {
-                  "_id": "5cb2841edf5d0d0000ab58bc",
-                  "event": {
-                    "type": "endEncounter",
-                    "parameters": []
-                  },
-                  "actions": [],
-                  "conditions": []
-                }
-              ],
-              "maxAccounts": 1,
-              "parent": "5cb27ed0df5d0d0000ab58b1",
-              "availability": []
             },
             {
               "label": [
@@ -21719,7 +21576,7 @@
         }
       ],
       "_created": "2019-04-14T00:16:34.128Z",
-      "_updated": "2020-03-18T11:47:12.466Z",
+      "_updated": "2020-03-26T13:58:44.427Z",
       "__v": 0,
       "audio": [
         {
