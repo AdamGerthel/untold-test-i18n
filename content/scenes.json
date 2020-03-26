@@ -39600,7 +39600,7 @@
       "cutScene": false,
       "name": "Day three: Lord's Coast",
       "_created": "2019-05-21T23:45:00.781Z",
-      "_updated": "2020-03-17T02:50:42.253Z",
+      "_updated": "2020-03-26T14:14:21.587Z",
       "nodes": [
         {
           "autoSave": {
@@ -39631,22 +39631,47 @@
                     ]
                   },
                   "actions": [],
-                  "conditions": [
-                    {
-                      "parameters": [
-                        [
-                          "5ce48c73c3e78fd9105bca92",
-                          "5ced977114c1f9000028151c",
-                          "5ceda65414c1f90000281536",
-                          "5ceda73814c1f90000281538"
-                        ]
-                      ],
-                      "_id": "5cf7025cc3e78fb3f95c1213",
-                      "type": "hasSeenOptionOutcome"
-                    }
-                  ]
+                  "conditions": []
                 }
               ],
+              "availability": [
+                {
+                  "parameters": [
+                    [
+                      "5ce48c73c3e78fd9105bca92",
+                      "5ced977114c1f9000028151c",
+                      "5ceda65414c1f90000281536",
+                      "5ceda73814c1f90000281538"
+                    ]
+                  ],
+                  "_id": "5e7cb8b2ecc8c96f721bdbcc",
+                  "type": "hasSeenOptionOutcome"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Talk to Rasleen"
+              ],
+              "_id": "5cf6fc00ba63d50000cfc8bb",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5cf7001aba63d50000cfc8c6",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "The nomad looks up. \"It's a shady crowd of people on the ship, that's for sure. A lot of 'em got connections. Probably good that they owe us a favor later on.\""
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "parent": "5cf6fbcbba63d50000cfc8b9",
               "availability": []
             },
             {
@@ -39682,44 +39707,6 @@
                     ]
                   ],
                   "_id": "5cf7025cc3e78f8b5e5c120e",
-                  "type": "hasSeenOptionOutcome"
-                }
-              ]
-            },
-            {
-              "label": [
-                "Talk to Rasleen"
-              ],
-              "_id": "5cf6fc00ba63d50000cfc8bb",
-              "actions": [],
-              "outcomes": [
-                {
-                  "_id": "5cf7001aba63d50000cfc8c6",
-                  "event": {
-                    "type": "narrative",
-                    "parameters": [
-                      [
-                        "The nomad looks up. \"It's a shady crowd of people on the ship, that's for sure. A lot of 'em got connections. Probably good that they owe us a favor later on.\""
-                      ]
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": []
-                }
-              ],
-              "maxAccounts": 1,
-              "parent": "5cf6fbcbba63d50000cfc8b9",
-              "availability": [
-                {
-                  "parameters": [
-                    [
-                      "5ce48d7cc3e78f490b5bca95",
-                      "5cf6f969ba63d50000cfc8b5",
-                      "5cf6fbcbba63d50000cfc8b9",
-                      "5cf6fc26ba63d50000cfc8bd"
-                    ]
-                  ],
-                  "_id": "5cf7025cc3e78f250f5c120b",
                   "type": "hasSeenOptionOutcome"
                 }
               ]
