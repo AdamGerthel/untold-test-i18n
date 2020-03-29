@@ -71672,6 +71672,28 @@
               "actions": [],
               "outcomes": [
                 {
+                  "_id": "5e800d83bc8e58000026ddf3",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5db1f41a57b8c70000b97978"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        [
+                          "5db1d09dff2c19045fdb2f53",
+                          "5db1d47d57b8c70000b97938"
+                        ]
+                      ],
+                      "_id": "5e800de3ecc8c91f121bdf68",
+                      "type": "hasSeenNode"
+                    }
+                  ]
+                },
+                {
                   "_id": "5db1d86457b8c70000b97943",
                   "event": {
                     "type": "node",
@@ -72094,9 +72116,10 @@
               "actions": [
                 {
                   "parameters": [
-                    "5db1dbe4ff2c195773db2f99"
+                    "5db1dbe4ff2c195773db2f99",
+                    2
                   ],
-                  "_id": "5db1efaaff2c19eb0bdb320c",
+                  "_id": "5e800de3ecc8c964931bdf3e",
                   "type": "attackNpcMelee"
                 }
               ],
@@ -75018,7 +75041,7 @@
         }
       ],
       "_created": "2019-10-24T16:26:05.279Z",
-      "_updated": "2020-03-11T20:03:49.356Z",
+      "_updated": "2020-03-29T02:54:27.102Z",
       "__v": 0,
       "audio": []
     },
@@ -113227,7 +113250,7 @@
       "cutScene": false,
       "name": "Sleep Temple 2F: Holding Cell (State 3)",
       "_created": "2020-01-29T16:17:13.897Z",
-      "_updated": "2020-01-29T18:23:36.203Z",
+      "_updated": "2020-03-29T02:28:40.882Z",
       "nodes": [
         {
           "autoSave": {
@@ -113260,7 +113283,6 @@
                   "conditions": []
                 }
               ],
-              "maxAccounts": 1,
               "availability": []
             }
           ],
@@ -131322,7 +131344,16 @@
                 "Attack the opium fiends"
               ],
               "_id": "5e6dc12949d15800002d21ce",
-              "actions": [],
+              "actions": [
+                {
+                  "parameters": [
+                    "5e6f2f9121eaaefbd29f5aea",
+                    []
+                  ],
+                  "_id": "5e800b3becc8c9f5371bdce5",
+                  "type": "engageNpc"
+                }
+              ],
               "outcomes": [
                 {
                   "_id": "5e6f97e8a69cf7000084c411",
@@ -134066,7 +134097,7 @@
         }
       ],
       "_created": "2020-03-15T05:38:33.059Z",
-      "_updated": "2020-03-18T19:58:25.483Z",
+      "_updated": "2020-03-29T02:43:06.887Z",
       "audio": [
         {
           "loop": true,
