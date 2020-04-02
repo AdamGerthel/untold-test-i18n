@@ -70035,15 +70035,21 @@
       "npcs": [
         "5da43b21c55b7f80c9f53285"
       ],
+      "cutScene": false,
       "name": "Grae Forest Valley Encounter",
       "_created": "2019-10-14T10:49:56.234Z",
-      "_updated": "2019-10-14T15:17:31.345Z",
+      "_updated": "2020-03-30T10:56:57.076Z",
       "nodes": [
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "A bearded, wild-eyed man stares back at you from the bottom of the pit, which is quite deep. Standing on a pile of bones and rotting corpses, the man is clearly malnourished and exasperated. Arms flailing, he shouts: \"...Praised be Phenris!\"",
             "The bearded stranger shouts from the bottom of the pit: \"Yes... I knew you'd be back... please, you have to help me!\" Starved and frustrated, he falls to his knees among the bones and putrid corpses. Pathetically, he whimpers: \"Please...\""
           ],
+          "cutScene": false,
           "_id": "5da46605701bc0000094052c",
           "options": [
             {
@@ -70095,7 +70101,7 @@
                 },
                 {
                   "parameters": [
-                    "25"
+                    25
                   ],
                   "_id": "5da4918bc55b7f6254f535bb",
                   "type": "gainExperience"
@@ -70207,12 +70213,18 @@
               ],
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "Having tied a knot around a nearby tree trunk, you extend the rope to the bottom of the pit. Fueled by tremendous desperation, the bearded stranger quickly struggles his way up to the surface. Wiping the sweat from his brow, he exclaims: \"Thank you so much! You have no idea...\""
           ],
+          "cutScene": false,
           "_id": "5da47100701bc00000940534",
           "options": [
             {
@@ -70334,12 +70346,18 @@
               "maxAccounts": 1,
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "\"N-no wait! You can't leave me like this... please... I'm gonna starve to death down here....\""
           ],
+          "cutScene": false,
           "_id": "5da47241701bc00000940539",
           "options": [
             {
@@ -70382,12 +70400,18 @@
               ],
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "\"Huh? I really must get going...\""
           ],
+          "cutScene": false,
           "_id": "5da48060701bc00000940554",
           "options": [
             {
@@ -70434,12 +70458,18 @@
               "maxAccounts": 1,
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "The bearded man runs off into the wilderness, shouting: \"Thanks again... I owe ya one!\""
           ],
+          "cutScene": false,
           "_id": "5da4815b701bc00000940558",
           "options": [
             {
@@ -70462,17 +70492,23 @@
               "maxAccounts": 1,
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "You grab the bearded stranger by the arm. Too weak to resist, he stutters nervously: \"W-what are you doing...? Lemme go.\""
           ],
+          "cutScene": false,
           "_id": "5da481d7701bc0000094055c",
           "options": [
             {
               "label": [
-                "Tell me truth. What were you doing out here?"
+                "Tell me the truth. What were you doing out here?"
               ],
               "_id": "5da483ca701bc0000094055f",
               "actions": [],
@@ -70546,10 +70582,12 @@
               "parent": "5da487c4701bc00000940561",
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         }
       ],
-      "__v": 0
+      "__v": 0,
+      "audio": []
     },
     {
       "_id": "5da48d87c55b7f57f6f534d9",
@@ -85414,7 +85452,7 @@
     {
       "_id": "5dd31ef2f75a9731d05982b4",
       "autoSave": {
-        "save": true,
+        "save": false,
         "conditions": [
           {
             "parameters": [
@@ -85436,11 +85474,11 @@
       "cutScene": false,
       "name": "Scenario 3: Burning City",
       "_created": "2019-11-18T22:45:06.357Z",
-      "_updated": "2020-03-18T19:09:57.145Z",
+      "_updated": "2020-03-31T09:17:27.001Z",
       "nodes": [
         {
           "autoSave": {
-            "save": false,
+            "save": true,
             "conditions": []
           },
           "narrative": [
@@ -130448,7 +130486,7 @@
       "cutScene": false,
       "name": "Scenario 3: The Woman on the Balcony (Part 2)",
       "_created": "2020-03-05T02:20:24.551Z",
-      "_updated": "2020-03-18T03:06:09.657Z",
+      "_updated": "2020-03-31T15:01:47.988Z",
       "nodes": [
         {
           "autoSave": {
@@ -130590,7 +130628,19 @@
               ],
               "_id": "5e70f4a50e25680000e8d5e4",
               "actions": [],
-              "outcomes": [],
+              "outcomes": [
+                {
+                  "_id": "5e81f80dfed63b0000280624",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e81f1ddfed63b0000280620"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
               "maxAccounts": 1,
               "availability": [],
               "parent": "5e70e1190e25680000e8d5dc"
@@ -130601,7 +130651,19 @@
               ],
               "_id": "5e70f1e70e25680000e8d5e1",
               "actions": [],
-              "outcomes": [],
+              "outcomes": [
+                {
+                  "_id": "5e81de282e7c5300001214f0",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e81dbba2e7c5300001214ec"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
               "maxAccounts": 1,
               "parent": "5e70e1190e25680000e8d5dc",
               "availability": []
@@ -130612,9 +130674,273 @@
               ],
               "_id": "5e70f2d60e25680000e8d5e2",
               "actions": [],
-              "outcomes": [],
+              "outcomes": [
+                {
+                  "_id": "5e81e08f2e7c5300001214f7",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e81de362e7c5300001214f1"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
               "maxAccounts": 1,
               "parent": "5e70e1190e25680000e8d5dc",
+              "availability": []
+            }
+          ],
+          "audio": []
+        },
+        {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
+          "narrative": [
+            "\"Wait. Please stay for a while. I...\" She takes a deep breath. \"I need your help... It's not just a matter of boredom. It's more than that.\""
+          ],
+          "cutScene": false,
+          "_id": "5e81dbba2e7c5300001214ec",
+          "options": [
+            {
+              "label": [
+                "How can I be of assistance?"
+              ],
+              "_id": "5e81dcfc2e7c5300001214ed",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e81f81efed63b0000280625",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e81f1ddfed63b0000280620"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "availability": []
+            },
+            {
+              "label": [
+                "I beg your pardon, but I really must go..."
+              ],
+              "_id": "5e81dd192e7c5300001214ee",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e81e47ffed63b000028061f",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e81e3bffed63b000028061a"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "availability": []
+            }
+          ],
+          "audio": []
+        },
+        {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
+          "narrative": [
+            "Her face hardens. \"You should mind your manners. The guards will show you the way out.\" "
+          ],
+          "cutScene": false,
+          "_id": "5e81de362e7c5300001214f1",
+          "options": [
+            {
+              "label": [
+                "Leave her alone"
+              ],
+              "_id": "5e81df332e7c5300001214f2",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e81dfaa2e7c5300001214f5",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "You walk out from the library and head back downstairs. The armed guards are right behind you. They follow you to the front door. One of them says: \"Be on your way, traveler.\""
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "availability": []
+            },
+            {
+              "label": [
+                "Go outside"
+              ],
+              "_id": "5e81dfa02e7c5300001214f4",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e81e0832e7c5300001214f6",
+                  "event": {
+                    "type": "endEncounter",
+                    "parameters": []
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "parent": "5e81df332e7c5300001214f2",
+              "availability": []
+            }
+          ],
+          "audio": []
+        },
+        {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
+          "narrative": [
+            "She sighs. \"The guards will show you the way out. Farewell.\""
+          ],
+          "cutScene": false,
+          "_id": "5e81e3bffed63b000028061a",
+          "options": [
+            {
+              "label": [
+                "Farewell"
+              ],
+              "_id": "5e81e3f5fed63b000028061b",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e81e43afed63b000028061e",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "You walk out from the library and head back downstairs. The armed guards are right behind you. They follow you to the front door. One of them says: \"Be on your way, traveler.\""
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "availability": []
+            },
+            {
+              "label": [
+                "Go outside"
+              ],
+              "_id": "5e81e3f6fed63b000028061c",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e81e42bfed63b000028061d",
+                  "event": {
+                    "type": "endEncounter",
+                    "parameters": []
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "parent": "5e81e3f5fed63b000028061b",
+              "availability": []
+            }
+          ],
+          "audio": []
+        },
+        {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
+          "narrative": [
+            "The dark-haired noblewoman is about to reply, but a maidservant enters the library, interrupting your conversation. The maidservant quietly puts down a silver tray on the table in front of you. Two ceramic mugs of tea has been placed on the tray. The noblewoman throws a glance in her direction and says: \"That will be all.\""
+          ],
+          "cutScene": false,
+          "_id": "5e81f1ddfed63b0000280620",
+          "options": [
+            {
+              "label": [
+                "Have a sip of tea"
+              ],
+              "_id": "5e81f65dfed63b0000280621",
+              "actions": [
+                {
+                  "parameters": [
+                    1,
+                    []
+                  ],
+                  "_id": "5e81f9dcecc8c942651be0f4",
+                  "type": "changeHealth"
+                }
+              ],
+              "outcomes": [
+                {
+                  "_id": "5e81f86cfed63b0000280626",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "The tea is still hot. You take a small sip, which has a bitter taste.",
+                        "The tea is still hot. You take another sip. The bitter taste is not as bad as you first thought.",
+                        "The tea is still warm. You take another sip.",
+                        "The tea is still warm. You take another sip.",
+                        "The tea is still warm. You take another sip.",
+                        "You finish what's left of your tea. By now, you have grown accustomed to the bitter taste of this rare luxury."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": [],
+              "maxAccounts": 6
+            },
+            {
+              "label": [
+                "Resume the conversation"
+              ],
+              "_id": "5e81f675fed63b0000280622",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e8353e49e5e0000006b017d",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "Holding the mug close to her lips with both hands, the noblewoman looks at you and says: \"You know, I spend my days cooped up in here, with no other company than my books... I've been reading up on history, and let me tell you... it does not paint a pretty picture.\""
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
               "availability": []
             }
           ],
