@@ -75976,7 +75976,7 @@
       "cutScene": false,
       "name": "Bast Smuggler's Hideout Interior",
       "_created": "2019-10-29T17:26:38.318Z",
-      "_updated": "2020-04-11T11:09:31.730Z",
+      "_updated": "2020-04-13T20:26:12.437Z",
       "nodes": [
         {
           "autoSave": {
@@ -77733,13 +77733,13 @@
                   "parameters": [
                     "5dbb6448ff2c195241db6ec4",
                     [
-                      "Struck down by the spiked gauntlets of the Ironclad Vagrant, you lie helpless on the floor with broken ribs and a shattered jaw. The armored lunatic stomps on your head until it turns to mush. ",
+                      "Struck down by the spiked gauntlets of the Ironclad Vagrant, you lie helpless on the floor with broken ribs and a shattered jaw. The armored lunatic stomps on your head until it turns to mush.",
                       "Armed with nothing more than spiked gauntlets, the Ironclad Vagrant beats you to a pulp. Having cracked open your forehead, he devours your brain. Blinded by your own blood, you never had the chance to see his face before your soul moved on to the next world.",
                       "Armed with nothing more than spiked gauntlets, the Ironclad Vagrant rips out the entrails from your gut. Drenched in blood, you lose consciousness before you hit the floor.",
-                      "Your skull is shattered by the spiked gauntlets of the Ironclad Vagrant. Having learned a valuable lesson, you collapse on the floor with a broken neck.   "
+                      "Your skull is shattered by the spiked gauntlets of the Ironclad Vagrant. Having learned a valuable lesson, you collapse on the floor with a broken neck."
                     ]
                   ],
-                  "_id": "5e91a4a6ecc8c90c6e1be48a",
+                  "_id": "5e94cae4ecc8c960d41be5ea",
                   "type": "engageNpc"
                 }
               ],
