@@ -75821,7 +75821,7 @@
       "cutScene": false,
       "name": "Bast Smuggler's Hideout Exterior (State 1)",
       "_created": "2019-10-29T14:52:15.348Z",
-      "_updated": "2020-03-18T18:47:41.758Z",
+      "_updated": "2020-04-11T11:08:39.638Z",
       "nodes": [
         {
           "autoSave": {
@@ -75843,6 +75843,31 @@
               "_id": "5db89650e6c233000022d274",
               "actions": [],
               "outcomes": [
+                {
+                  "_id": "5e91a4afcd178700007cd767",
+                  "event": {
+                    "type": "startEncounter",
+                    "parameters": [
+                      [
+                        "5db8764eff2c1985c7db5f4b",
+                        "5e91a1f1cd178700007cd75e"
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        [
+                          "5db8764eff2c1985c7db5f4b",
+                          "5e9195e0cd178700007cd758"
+                        ]
+                      ],
+                      "_id": "5e91a537ecc8c93e1a1be524",
+                      "type": "hasSeenNode"
+                    }
+                  ]
+                },
                 {
                   "_id": "5dbfc24a4ede6f00003b37a1",
                   "event": {
@@ -75951,7 +75976,7 @@
       "cutScene": false,
       "name": "Bast Smuggler's Hideout Interior",
       "_created": "2019-10-29T17:26:38.318Z",
-      "_updated": "2020-03-18T18:48:11.146Z",
+      "_updated": "2020-04-11T11:09:31.730Z",
       "nodes": [
         {
           "autoSave": {
@@ -77706,9 +77731,15 @@
               "actions": [
                 {
                   "parameters": [
-                    "5dbb6448ff2c195241db6ec4"
+                    "5dbb6448ff2c195241db6ec4",
+                    [
+                      "Struck down by the spiked gauntlets of the Ironclad Vagrant, you lie helpless on the floor with broken ribs and a shattered jaw. The armored lunatic stomps on your head until it turns to mush. ",
+                      "Armed with nothing more than spiked gauntlets, the Ironclad Vagrant beats you to a pulp. Having cracked open your forehead, he devours your brain. Blinded by your own blood, you never had the chance to see his face before your soul moved on to the next world.",
+                      "Armed with nothing more than spiked gauntlets, the Ironclad Vagrant rips out the entrails from your gut. Drenched in blood, you lose consciousness before you hit the floor.",
+                      "Your skull is shattered by the spiked gauntlets of the Ironclad Vagrant. Having learned a valuable lesson, you collapse on the floor with a broken neck.   "
+                    ]
                   ],
-                  "_id": "5dbfc229ff2c197f4fdb8113",
+                  "_id": "5e91a4a6ecc8c90c6e1be48a",
                   "type": "engageNpc"
                 }
               ],
@@ -77716,11 +77747,9 @@
                 {
                   "_id": "5dbfc1724ede6f00003b379a",
                   "event": {
-                    "type": "narrative",
+                    "type": "node",
                     "parameters": [
-                      [
-                        "X"
-                      ]
+                      "5e9195e0cd178700007cd758"
                     ]
                   },
                   "actions": [],
@@ -77828,6 +77857,169 @@
                 }
               ],
               "maxAccounts": 1,
+              "availability": []
+            }
+          ],
+          "audio": []
+        },
+        {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
+          "narrative": [
+            "Unable to match your legendary martial prowess, the armored madman collapses in front of you."
+          ],
+          "cutScene": false,
+          "_id": "5e9195e0cd178700007cd758",
+          "options": [
+            {
+              "label": [
+                "Inspect the corpse"
+              ],
+              "_id": "5e919f20cd178700007cd759",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e919f62cd178700007cd75b",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "Somehow, his dark armor turns to rust before your eyes. There is nothing but ashes within the metal frame."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "availability": []
+            },
+            {
+              "label": [
+                "Go back downstairs"
+              ],
+              "_id": "5e91a1b2cd178700007cd75c",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e91a1e5cd178700007cd75d",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e91a1f1cd178700007cd75e"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "parent": "5e919f20cd178700007cd759",
+              "availability": []
+            }
+          ],
+          "audio": []
+        },
+        {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
+          "narrative": [
+            "You climb down the ladder to the first floor. It's dark and quiet here now.",
+            "You open the front door and step inside. The fire pit is no longer burning. Cluttered and nebulous, the interior reeks of moonshine and putrefaction."
+          ],
+          "cutScene": false,
+          "_id": "5e91a1f1cd178700007cd75e",
+          "options": [
+            {
+              "label": [
+                "Search the room"
+              ],
+              "_id": "5e91a231cd178700007cd75f",
+              "actions": [
+                {
+                  "parameters": [
+                    "5dc07496ff2c194690db8372",
+                    1
+                  ],
+                  "_id": "5e91a4a6ecc8c916c01be477",
+                  "type": "pickUpItem"
+                }
+              ],
+              "outcomes": [
+                {
+                  "_id": "5e91a2b5cd178700007cd762",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "Dirty clothes and empty jugs of moonshine - not exactly a treasure trove. Having searched every nook and cranny, you grab a small notebook from the table where the drunken smuggler was sitting."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "availability": [
+                {
+                  "parameters": [
+                    "5dc07496ff2c194690db8372",
+                    "greaterThanOrEqual",
+                    1
+                  ],
+                  "_id": "5e91a4a6ecc8c93e071be479",
+                  "type": "hasItem",
+                  "negate": true
+                }
+              ]
+            },
+            {
+              "label": [
+                "Climb up the ladder"
+              ],
+              "_id": "5e91a336cd178700007cd765",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e91a375cd178700007cd766",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "You take another peek at the attic. The remains of the Ironclad Vagrant are now gone. There is nothing left here but useless old junk, covered by layers of dust."
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": []
+            },
+            {
+              "label": [
+                "Go outside",
+                "Go back outside"
+              ],
+              "_id": "5e91a239cd178700007cd760",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e91a2f5cd178700007cd764",
+                  "event": {
+                    "type": "endEncounter",
+                    "parameters": []
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
               "availability": []
             }
           ],
