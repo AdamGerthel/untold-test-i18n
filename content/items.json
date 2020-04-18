@@ -5052,15 +5052,16 @@
     },
     {
       "_id": "5d16849cebd3dc396b54cb00",
+      "slot": [
+        "offHand"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "offHand"
-      ],
       "name": "Hunting Bow",
       "description": "A wooden hunting bow, previously owned by a druid from the Isle of Dusk.",
       "value": 18,
@@ -5069,12 +5070,12 @@
       "ranged": true,
       "rangedAmmunition": "5d12279340fcff8734fb7f70",
       "damage": {
-        "min": 4,
-        "max": 12
+        "min": 6,
+        "max": 14
       },
       "encumbrance": 1,
       "_created": "2019-06-28T21:20:28.314Z",
-      "_updated": "2019-06-28T21:20:28.314Z",
+      "_updated": "2020-04-18T21:57:22.302Z",
       "__v": 0
     },
     {
@@ -6095,15 +6096,16 @@
     },
     {
       "_id": "5da3e75fc55b7fd69cf530ba",
+      "slot": [
+        "offHand"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "offHand"
-      ],
       "name": "Longbow",
       "description": "A large wooden bow with exceptional range. This deadly weapon is a work of exquisite craftmanship.",
       "value": 100,
@@ -6111,13 +6113,13 @@
       "type": "weapon",
       "encumbrance": 4,
       "damage": {
-        "min": 8,
-        "max": 16
+        "min": 12,
+        "max": 22
       },
       "ranged": true,
       "rangedAmmunition": "5d12279340fcff8734fb7f70",
       "_created": "2019-10-14T03:11:27.147Z",
-      "_updated": "2019-10-14T03:11:27.147Z",
+      "_updated": "2020-04-18T21:58:01.033Z",
       "__v": 0
     },
     {
@@ -6965,29 +6967,30 @@
     },
     {
       "_id": "5e3b6fa5e09478d094338212",
+      "slot": [
+        "offHand"
+      ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
       "sideEffects": {
         "passives": []
       },
-      "slot": [
-        "offHand"
-      ],
       "name": "Short Bow",
       "value": 30,
       "tier": "3",
       "type": "weapon",
       "encumbrance": 1,
       "damage": {
-        "min": 5,
-        "max": 14
+        "min": 8,
+        "max": 18
       },
       "ranged": true,
       "rangedAmmunition": "5d12279340fcff8734fb7f70",
       "description": "A finely crafted wooden bow, imported from the Deadlands of Triniset.",
       "_created": "2020-02-06T01:45:09.695Z",
-      "_updated": "2020-02-06T01:45:09.695Z",
+      "_updated": "2020-04-18T21:59:56.477Z",
       "__v": 0
     },
     {
