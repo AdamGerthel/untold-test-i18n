@@ -64599,12 +64599,12 @@
               "actions": [
                 {
                   "parameters": [
-                    "-15",
+                    -30,
                     [
                       "Whirlwinds of ash howl across the subterranean wasteland. Your torch is extinguished and you lose your footing. Helplessly, you take a plunge down into the dark depths, breaking your legs on the rocks below. Slowly, your life is taken by the black wind. It's a painful death."
                     ]
                   ],
-                  "_id": "5e680bacd5f2ffea0c237c94",
+                  "_id": "5e9b5c2c13e5b90b65f8fa50",
                   "type": "changeHealth"
                 }
               ],
@@ -64693,12 +64693,12 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-12",
+                        -25,
                         [
                           "The black winds are toxic. This fact becomes evident as you struggle to get back on your feet, coughing from the burning sensation of volcanic ash. You try to walk, but the pain is overwhelming. Soon enough, you are nothing more than a corpse, left to rot in the darkness of the Underworld."
                         ]
                       ],
-                      "_id": "5e680bacd5f2ffcb90237c8e",
+                      "_id": "5e9b5c2c13e5b9e062f8fa4a",
                       "type": "changeHealth"
                     }
                   ],
@@ -64707,7 +64707,7 @@
                       "parameters": [
                         "resilience",
                         "equals",
-                        "1"
+                        1
                       ],
                       "_id": "5d7d8e74e6ecf33869a2a709",
                       "type": "stat"
@@ -64727,12 +64727,12 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-8",
+                        -15,
                         [
                           "The black winds are toxic. This fact becomes evident as you struggle to get back on your feet, coughing from the burning sensation of volcanic ash. You try to walk, but the pain is overwhelming. Soon enough, you are nothing more than a corpse, left to rot in the darkness of the Underworld."
                         ]
                       ],
-                      "_id": "5e680bacd5f2ff6b7a237c8b",
+                      "_id": "5e9b5c2c13e5b92e18f8fa47",
                       "type": "changeHealth"
                     }
                   ],
@@ -64741,7 +64741,7 @@
                       "parameters": [
                         "resilience",
                         "equals",
-                        "2"
+                        2
                       ],
                       "_id": "5d7d8e74e6ecf3aa11a2a706",
                       "type": "stat"
@@ -64761,12 +64761,12 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-5",
+                        -10,
                         [
                           "The black winds are toxic. This fact becomes evident as you struggle to get back on your feet, coughing from the burning sensation of volcanic ash. You try to walk, but the pain is overwhelming. Soon enough, you are nothing more than a corpse, left to rot in the darkness of the Underworld."
                         ]
                       ],
-                      "_id": "5e680bacd5f2ff8501237c88",
+                      "_id": "5e9b5c2c13e5b946faf8fa44",
                       "type": "changeHealth"
                     }
                   ],
@@ -64775,7 +64775,7 @@
                       "parameters": [
                         "resilience",
                         "greaterThanOrEqual",
-                        "3"
+                        3
                       ],
                       "_id": "5d7d8e74e6ecf36513a2a703",
                       "type": "stat"
@@ -64806,12 +64806,12 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-12",
+                        -25,
                         [
                           "The black wind is overwhelming. You collapse on the ground, choking to death."
                         ]
                       ],
-                      "_id": "5e680bacd5f2ffd73e237c84",
+                      "_id": "5e9b5c2c13e5b92441f8fa40",
                       "type": "changeHealth"
                     }
                   ],
@@ -64820,7 +64820,7 @@
                       "parameters": [
                         "resilience",
                         "equals",
-                        "1"
+                        1
                       ],
                       "_id": "5d7d8e74e6ecf36899a2a6ff",
                       "type": "stat"
@@ -64840,12 +64840,12 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-8",
+                        -15,
                         [
                           "The black wind is overwhelming. You collapse on the ground, choking to death."
                         ]
                       ],
-                      "_id": "5e680bacd5f2ff1f77237c81",
+                      "_id": "5e9b5c2c13e5b9aba9f8fa3d",
                       "type": "changeHealth"
                     }
                   ],
@@ -64854,7 +64854,7 @@
                       "parameters": [
                         "resilience",
                         "equals",
-                        "2"
+                        2
                       ],
                       "_id": "5d7d8e74e6ecf31eb4a2a6fc",
                       "type": "stat"
@@ -64874,12 +64874,12 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-5",
+                        -10,
                         [
                           "The black wind is overwhelming. You collapse on the ground, choking to death."
                         ]
                       ],
-                      "_id": "5e680bacd5f2ff5215237c7e",
+                      "_id": "5e9b5c2c13e5b96850f8fa3a",
                       "type": "changeHealth"
                     }
                   ],
@@ -64888,7 +64888,7 @@
                       "parameters": [
                         "resilience",
                         "greaterThanOrEqual",
-                        "3"
+                        3
                       ],
                       "_id": "5d7d8e74e6ecf350e0a2a6f9",
                       "type": "stat"
@@ -64920,12 +64920,12 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-12",
+                        -25,
                         [
                           "The black wind is overwhelming. You collapse on the ground, choking to death."
                         ]
                       ],
-                      "_id": "5e680bacd5f2ff2319237c7a",
+                      "_id": "5e9b5c2c13e5b9599af8fa36",
                       "type": "changeHealth"
                     }
                   ],
@@ -64934,7 +64934,7 @@
                       "parameters": [
                         "resilience",
                         "equals",
-                        "1"
+                        1
                       ],
                       "_id": "5d7d8e74e6ecf31b6aa2a6f5",
                       "type": "stat"
@@ -64954,12 +64954,12 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-8",
+                        -15,
                         [
                           "The black wind is overwhelming. You collapse on the ground, choking to death."
                         ]
                       ],
-                      "_id": "5e680bacd5f2ff19bd237c77",
+                      "_id": "5e9b5c2c13e5b98be4f8fa33",
                       "type": "changeHealth"
                     }
                   ],
@@ -64968,7 +64968,7 @@
                       "parameters": [
                         "resilience",
                         "equals",
-                        "2"
+                        2
                       ],
                       "_id": "5d7d8e74e6ecf36ff1a2a6f2",
                       "type": "stat"
@@ -64988,12 +64988,12 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-5",
+                        -10,
                         [
                           "The black wind is overwhelming. You collapse on the ground, choking to death."
                         ]
                       ],
-                      "_id": "5e680bacd5f2ff49e3237c74",
+                      "_id": "5e9b5c2c13e5b9f310f8fa30",
                       "type": "changeHealth"
                     }
                   ],
@@ -65002,7 +65002,7 @@
                       "parameters": [
                         "resilience",
                         "greaterThanOrEqual",
-                        "3"
+                        3
                       ],
                       "_id": "5d7d8e74e6ecf329aca2a6ef",
                       "type": "stat"
@@ -65034,12 +65034,12 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-12",
+                        -25,
                         [
                           "The black wind is overwhelming. You collapse on the ground, choking to death."
                         ]
                       ],
-                      "_id": "5e680bacd5f2ff6f47237c70",
+                      "_id": "5e9b5c2c13e5b99223f8fa2c",
                       "type": "changeHealth"
                     }
                   ],
@@ -65048,7 +65048,7 @@
                       "parameters": [
                         "resilience",
                         "equals",
-                        "1"
+                        1
                       ],
                       "_id": "5d7d8e74e6ecf3dbeaa2a6eb",
                       "type": "stat"
@@ -65074,12 +65074,12 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-8",
+                        -15,
                         [
                           "The black wind is overwhelming. You collapse on the ground, choking to death."
                         ]
                       ],
-                      "_id": "5e680bacd5f2ff9d65237c6d",
+                      "_id": "5e9b5c2c13e5b9f10af8fa29",
                       "type": "changeHealth"
                     }
                   ],
@@ -65088,7 +65088,7 @@
                       "parameters": [
                         "resilience",
                         "equals",
-                        "2"
+                        2
                       ],
                       "_id": "5d7d8e74e6ecf35112a2a6e8",
                       "type": "stat"
@@ -65114,12 +65114,12 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-5",
+                        -10,
                         [
                           "The black wind is overwhelming. You collapse on the ground, choking to death."
                         ]
                       ],
-                      "_id": "5e680bacd5f2ff4d4a237c6a",
+                      "_id": "5e9b5c2c13e5b9419af8fa26",
                       "type": "changeHealth"
                     }
                   ],
@@ -65128,7 +65128,7 @@
                       "parameters": [
                         "resilience",
                         "greaterThanOrEqual",
-                        "3"
+                        3
                       ],
                       "_id": "5d7d8e74e6ecf33edba2a6e5",
                       "type": "stat"
@@ -65461,7 +65461,7 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-10",
+                        -10,
                         [
                           "There is no escape. Before you know it, the jaws of the beast are clasped around your neck, ripping it apart. Bleeding, you plunge headfirst into the darkness below, from which you will never return."
                         ]
@@ -65600,7 +65600,7 @@
         }
       ],
       "_created": "2019-09-14T23:30:53.975Z",
-      "_updated": "2020-03-11T14:21:16.361Z",
+      "_updated": "2020-04-18T19:59:40.918Z",
       "__v": 0,
       "background": "5dd70d7cf75a97084759ea8b",
       "audio": []
