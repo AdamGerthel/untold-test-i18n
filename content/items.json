@@ -1,5 +1,5 @@
 {
-  "total": 323,
+  "total": 324,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -4162,6 +4162,7 @@
       "slot": [
         "head"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -4174,16 +4175,16 @@
         "passives": [
           {
             "parameters": [
-              "2"
+              "4"
             ],
-            "_id": "5ce52540c3e78f09975bd9a5",
+            "_id": "5e9ace0cecc8c987ee1be70c",
             "type": "armor"
           }
         ],
         "description": "The smell of brimstone..."
       },
       "_created": "2019-05-22T10:32:32.344Z",
-      "_updated": "2019-06-05T04:12:41.264Z",
+      "_updated": "2020-04-18T12:06:39.774Z",
       "__v": 0
     },
     {
@@ -4637,6 +4638,7 @@
       "slot": [
         "accessory"
       ],
+      "combatActions": [],
       "consumption": {
         "actions": []
       },
@@ -4650,16 +4652,16 @@
           {
             "parameters": [
               "resilience",
-              "1"
+              "2"
             ],
-            "_id": "5ce5715fc3e78f24505be0ac",
+            "_id": "5e9accfdecc8c90bbf1be70b",
             "type": "attributes"
           }
         ],
         "description": "Clutching the red rock, you feel invigorated..."
       },
       "_created": "2019-05-22T15:57:19.183Z",
-      "_updated": "2019-05-28T12:52:23.964Z",
+      "_updated": "2020-04-18T09:48:45.616Z",
       "__v": 0
     },
     {
@@ -5180,16 +5182,16 @@
         "passives": [
           {
             "parameters": [
-              "5"
+              "8"
             ],
-            "_id": "5e62a12a60116c3862628520",
+            "_id": "5e9ace4fecc8c9e3dd1be70e",
             "type": "armor"
           }
         ],
         "description": "Cold shivers tingle down your spine..."
       },
       "_created": "2019-08-02T13:36:15.857Z",
-      "_updated": "2020-03-06T19:14:50.047Z",
+      "_updated": "2020-04-18T09:54:23.777Z",
       "__v": 0
     },
     {
@@ -7883,6 +7885,25 @@
       "armor": 6,
       "_created": "2020-03-22T15:00:27.495Z",
       "_updated": "2020-03-22T15:00:27.495Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e9214a7ecc8c9f8971be5cf",
+      "sideEffects": {
+        "passives": []
+      },
+      "slot": [],
+      "combatActions": [],
+      "consumption": {
+        "actions": []
+      },
+      "name": "Golden Crosier",
+      "description": "A ceremonial staff, crowned by the sculpted head of a gaping wolf. Crafted from solid gold, this artifact is a work of exquisite craftsmanship.",
+      "value": 500,
+      "tier": "5",
+      "type": "treasure",
+      "_created": "2020-04-11T19:04:07.448Z",
+      "_updated": "2020-04-12T06:42:11.580Z",
       "__v": 0
     }
   ]
