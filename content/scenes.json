@@ -110425,7 +110425,7 @@
       "cutScene": false,
       "name": "Sleep Temple 2F: Torture Chamber (State 1)",
       "_created": "2020-01-21T09:23:43.389Z",
-      "_updated": "2020-02-07T00:38:02.913Z",
+      "_updated": "2020-04-17T19:45:41.364Z",
       "nodes": [
         {
           "autoSave": {
@@ -110633,7 +110633,7 @@
               "actions": [
                 {
                   "parameters": [
-                    "10"
+                    10
                   ],
                   "_id": "5e31891e54168915ad9960bb",
                   "type": "gainExperience"
@@ -110907,7 +110907,7 @@
                       "parameters": [
                         "perception",
                         "greaterThanOrEqual",
-                        "4"
+                        4
                       ],
                       "_id": "5e31510e541689fc7d995f03",
                       "type": "stat"
@@ -110928,7 +110928,8 @@
                   "conditions": []
                 }
               ],
-              "availability": []
+              "availability": [],
+              "maxAccounts": 1
             },
             {
               "label": [
@@ -112572,7 +112573,7 @@
       "cutScene": false,
       "name": "Sleep Temple 2F: Torture Chamber (State 2)",
       "_created": "2020-01-29T07:42:29.530Z",
-      "_updated": "2020-02-07T00:39:23.829Z",
+      "_updated": "2020-04-17T19:46:06.947Z",
       "nodes": [
         {
           "autoSave": {
@@ -112773,58 +112774,6 @@
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5e3155d106cbd70000ee1a00",
-                  "event": {
-                    "type": "narrative",
-                    "parameters": [
-                      [
-                        "Deep within the iron maiden, traces of other unfortunate souls have been left behind. Sifting through the bone fragments, you find nothing of value."
-                      ]
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": [
-                    {
-                      "parameters": [
-                        [
-                          "5e26c31f3a36bf45c83e46eb",
-                          "5e314b1430319f0000b3ab94",
-                          "5e314b5830319f0000b3ab95",
-                          "5e314ff030319f0000b3ab9b"
-                        ]
-                      ],
-                      "_id": "5e3157755416898ff6995f8c",
-                      "type": "hasSeenOptionOutcome"
-                    }
-                  ]
-                },
-                {
-                  "_id": "5e31567706cbd70000ee1a03",
-                  "event": {
-                    "type": "narrative",
-                    "parameters": [
-                      [
-                        "Deep within the iron maiden, traces of other unfortunate souls have been left behind. Sifting through the bone fragments, you find nothing of value."
-                      ]
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": [
-                    {
-                      "parameters": [
-                        [
-                          "5e3137655416894250995da4",
-                          "5e31534306cbd70000ee19ef",
-                          "5e31540d06cbd70000ee19f4",
-                          "5e31556b06cbd70000ee19fc"
-                        ]
-                      ],
-                      "_id": "5e315775541689c53e995f8a",
-                      "type": "hasSeenOptionOutcome"
-                    }
-                  ]
-                },
-                {
                   "_id": "5e3156c006cbd70000ee1a05",
                   "event": {
                     "type": "narrative",
@@ -112840,7 +112789,7 @@
                       "parameters": [
                         "perception",
                         "lowerThan",
-                        "4"
+                        4
                       ],
                       "_id": "5e3157755416894798995f88",
                       "type": "stat"
@@ -112870,22 +112819,9 @@
                   "conditions": [
                     {
                       "parameters": [
-                        [
-                          "5e26c31f3a36bf45c83e46eb",
-                          "5e314b1430319f0000b3ab94",
-                          "5e314b5830319f0000b3ab95",
-                          "5e314ff030319f0000b3ab9b"
-                        ]
-                      ],
-                      "_id": "5e315775541689842a995f86",
-                      "type": "hasSeenOptionOutcome",
-                      "negate": true
-                    },
-                    {
-                      "parameters": [
                         "perception",
                         "greaterThanOrEqual",
-                        "4"
+                        4
                       ],
                       "_id": "5e3157755416895936995f85",
                       "type": "stat"
@@ -112893,7 +112829,22 @@
                   ]
                 }
               ],
-              "availability": []
+              "availability": [
+                {
+                  "parameters": [
+                    [
+                      "5e26c31f3a36bf45c83e46eb",
+                      "5e314b1430319f0000b3ab94",
+                      "5e314b5830319f0000b3ab95",
+                      "5e314ff030319f0000b3ab9b"
+                    ]
+                  ],
+                  "_id": "5e9a077eecc8c9b6741be6fa",
+                  "type": "hasSeenOptionOutcome",
+                  "negate": true
+                }
+              ],
+              "maxAccounts": 1
             },
             {
               "label": [
