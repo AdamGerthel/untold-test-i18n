@@ -441,13 +441,14 @@
     },
     {
       "_id": "5c9b90153790350fd5b1bf80",
+      "combatActions": [],
       "name": "Arvie Graker",
       "strength": 1,
       "charisma": 3,
       "resilience": 1,
       "agility": 4,
       "perception": 1,
-      "armor": 16,
+      "armor": 1,
       "experience": 10,
       "attacksPerSecond": 1,
       "damage": {
@@ -455,11 +456,12 @@
         "max": 4
       },
       "_created": "2019-03-27T15:00:37.897Z",
-      "_updated": "2019-04-10T15:36:13.881Z",
+      "_updated": "2020-04-19T15:56:34.930Z",
       "bargain": [],
       "__v": 0,
       "loot": "5c9b93573790351a05b1bf87",
-      "level": 6
+      "level": 6,
+      "healthOverride": 12
     },
     {
       "_id": "5ca3f68a3790351522b1ce57",
@@ -1209,7 +1211,7 @@
       "blockChance": 0.2,
       "experience": 50,
       "_created": "2019-08-02T13:25:39.019Z",
-      "_updated": "2020-03-18T16:49:37.129Z",
+      "_updated": "2020-04-19T17:35:56.487Z",
       "bargain": [],
       "__v": 0,
       "loot": "5d443cd88335b43f95884b43"
