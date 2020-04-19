@@ -1,5 +1,5 @@
 {
-  "total": 135,
+  "total": 136,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -102,7 +102,7 @@
       "resilience": 1,
       "agility": 2,
       "perception": 1,
-      "armor": 10,
+      "armor": 0,
       "experience": 30,
       "damage": {
         "min": 1,
@@ -110,12 +110,11 @@
       },
       "_created": "2019-03-11T03:20:19.163Z",
       "__v": 0,
-      "_updated": "2020-03-25T17:50:54.672Z",
+      "_updated": "2020-04-17T22:54:47.010Z",
       "name": "Swordsman of Woe",
       "level": 4,
       "bargain": [],
-      "attacksPerSecond": 0.7,
-      "healthOverride": 20
+      "attacksPerSecond": 0.7
     },
     {
       "_id": "5c869283bbdb6b1bf15865e2",
@@ -126,7 +125,7 @@
       "resilience": 2,
       "agility": 1,
       "perception": 1,
-      "armor": 20,
+      "armor": 0,
       "experience": 30,
       "damage": {
         "min": 1,
@@ -134,7 +133,7 @@
       },
       "_created": "2019-03-11T16:53:23.766Z",
       "__v": 0,
-      "_updated": "2020-03-22T10:09:10.324Z",
+      "_updated": "2020-04-17T22:54:55.639Z",
       "level": 3,
       "bargain": [],
       "attacksPerSecond": 0.9
@@ -206,13 +205,14 @@
     },
     {
       "_id": "5c86bef6bbdb6b42665867f1",
+      "combatActions": [],
       "name": "Guardian of Woe",
       "strength": 3,
       "charisma": 1,
       "resilience": 2,
       "agility": 1,
       "perception": 1,
-      "armor": 4,
+      "armor": 5,
       "experience": 30,
       "damage": {
         "min": 1,
@@ -220,7 +220,7 @@
       },
       "_created": "2019-03-11T20:03:02.610Z",
       "__v": 0,
-      "_updated": "2019-06-08T08:34:20.187Z",
+      "_updated": "2020-04-19T00:12:42.117Z",
       "level": 4,
       "bargain": [],
       "attacksPerSecond": 0.7
@@ -3606,6 +3606,30 @@
       "bargain": [],
       "__v": 0,
       "loot": "5e6f3b0321eaae4ea29f5bd2"
+    },
+    {
+      "_id": "5e9b879613e5b97ea8f8fe7f",
+      "combatActions": [
+        "slam"
+      ],
+      "name": "Mastaba",
+      "level": 14,
+      "strength": 6,
+      "charisma": 1,
+      "resilience": 4,
+      "agility": 4,
+      "perception": 3,
+      "armor": 15,
+      "attacksPerSecond": 2,
+      "damage": {
+        "max": 12,
+        "min": 4
+      },
+      "experience": 50,
+      "_created": "2020-04-18T23:04:54.629Z",
+      "_updated": "2020-04-18T23:04:54.629Z",
+      "bargain": [],
+      "__v": 0
     }
   ]
 }
