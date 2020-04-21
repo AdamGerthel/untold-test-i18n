@@ -42923,7 +42923,7 @@
       "cutScene": false,
       "name": "Day two: Cape Ram (variant)",
       "_created": "2019-05-28T15:01:43.200Z",
-      "_updated": "2020-03-18T16:18:05.802Z",
+      "_updated": "2020-04-21T10:01:08.378Z",
       "nodes": [
         {
           "autoSave": {
@@ -43016,11 +43016,9 @@
                 {
                   "_id": "5cedc21b9ee16c000053f0f1",
                   "event": {
-                    "type": "narrative",
+                    "type": "node",
                     "parameters": [
-                      [
-                        "He sighs. \"You the boss.\" Grumbling to himself, the barbarian leaves you alone."
-                      ]
+                      "5e9ec32d881a8400004d33fd"
                     ]
                   },
                   "actions": [],
@@ -45786,6 +45784,42 @@
               "outcomes": [
                 {
                   "_id": "5e681ae41d371a000082bd76",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5cedd0dc9ee16c000053f112"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "availability": []
+            }
+          ],
+          "audio": []
+        },
+        {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
+          "narrative": [
+            "He sighs. \"You the boss.\" Grumbling to himself, the barbarian walks out from the captain's quarters, closing the door behind him. Rasleen yawns: \"Mornin' comrade...\""
+          ],
+          "cutScene": false,
+          "_id": "5e9ec32d881a8400004d33fd",
+          "options": [
+            {
+              "label": [
+                "Good morning"
+              ],
+              "_id": "5e9ec388881a8400004d33fe",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5e9ec3dc881a8400004d33ff",
                   "event": {
                     "type": "node",
                     "parameters": [
