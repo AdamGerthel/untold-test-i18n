@@ -120989,7 +120989,7 @@
       "cutScene": false,
       "name": "Scenario 3: Antiquarian (Dialog)",
       "_created": "2020-02-09T20:43:18.676Z",
-      "_updated": "2020-03-17T01:53:47.139Z",
+      "_updated": "2020-04-22T14:32:06.170Z",
       "nodes": [
         {
           "autoSave": {
@@ -123282,41 +123282,6 @@
               ],
               "outcomes": [
                 {
-                  "_id": "5e415ec36c6b7000005e73b6",
-                  "event": {
-                    "type": "narrative",
-                    "parameters": [
-                      [
-                        "He gives you a pouch of gold. \"Another worthy addition to my collection of druid artifacts...\""
-                      ]
-                    ]
-                  },
-                  "actions": [
-                    {
-                      "parameters": [
-                        "gold",
-                        70
-                      ],
-                      "_id": "5e416ffd6a062f3e09164c56",
-                      "type": "changeStat"
-                    }
-                  ],
-                  "conditions": [
-                    {
-                      "parameters": [
-                        [
-                          "5e406ee66a062f45c7162ff9",
-                          "5e415a196c6b7000005e73a6",
-                          "5e415b0c6c6b7000005e73a9",
-                          "5e415d4d6c6b7000005e73ae"
-                        ]
-                      ],
-                      "_id": "5e416ffd6a062f3b5b164c57",
-                      "type": "hasSeenOptionOutcome"
-                    }
-                  ]
-                },
-                {
                   "_id": "5e415ec46c6b7000005e73b7",
                   "event": {
                     "type": "narrative",
@@ -123385,6 +123350,28 @@
                       "type": "hasSeenOptionOutcome"
                     }
                   ]
+                },
+                {
+                  "_id": "5e415ec36c6b7000005e73b6",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "He gives you a pouch of gold. \"Another worthy addition to my collection of druid artifacts...\""
+                      ]
+                    ]
+                  },
+                  "actions": [
+                    {
+                      "parameters": [
+                        "gold",
+                        70
+                      ],
+                      "_id": "5e416ffd6a062f3e09164c56",
+                      "type": "changeStat"
+                    }
+                  ],
+                  "conditions": []
                 }
               ],
               "maxAccounts": 1,
