@@ -53663,65 +53663,6 @@
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5e9c6df727e7b3000004fff4",
-                  "event": {
-                    "type": "narrative",
-                    "parameters": [
-                      [
-                        "The tribal elder is guarded by his band of swordsmen. Blocking your way, one of them says: \"Elder Ariamnos has no desire to speak with you.\"",
-                        "The tribal elder has no desire to speak with you."
-                      ]
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": [
-                    {
-                      "parameters": [
-                        [
-                          "5d4427de8335b444ad884a15",
-                          "5e9c6665b258690000487028"
-                        ]
-                      ],
-                      "_id": "5e9c6ed413e5b944d7f9099d",
-                      "type": "hasSeenNode"
-                    }
-                  ]
-                },
-                {
-                  "_id": "5e9c6c5327e7b3000004fff0",
-                  "event": {
-                    "type": "startEncounter",
-                    "parameters": [
-                      [
-                        "5d4427de8335b444ad884a15",
-                        "5e9c6665b258690000487028"
-                      ]
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": [
-                    {
-                      "parameters": [
-                        [
-                          "5d1a34eeebd3dc3e2054d2a3",
-                          "5d1a7d42d73a7d000010f514",
-                          "5d49c3b520f282000059ac21",
-                          "5d49c51920f282000059ac23"
-                        ]
-                      ],
-                      "_id": "5e9c6ed413e5b9193cf9099b",
-                      "type": "hasSeenOptionOutcome"
-                    },
-                    {
-                      "parameters": [
-                        "5cda7453c3e78fd30c5bb2a3"
-                      ],
-                      "_id": "5e9c6ed413e5b9362bf9099a",
-                      "type": "hasSeenLocation"
-                    }
-                  ]
-                },
-                {
                   "_id": "5d4430e66d390d0000709a1f",
                   "event": {
                     "type": "startEncounter",
@@ -53902,7 +53843,7 @@
         }
       ],
       "_created": "2019-07-05T11:52:15.568Z",
-      "_updated": "2020-04-19T15:31:32.506Z",
+      "_updated": "2020-04-22T18:48:27.625Z",
       "__v": 0,
       "audio": []
     },
