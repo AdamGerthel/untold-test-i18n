@@ -90224,7 +90224,7 @@
           "audio": []
         }
       ],
-      "_updated": "2020-03-17T01:07:42.551Z",
+      "_updated": "2020-04-26T11:06:47.273Z",
       "_created": "2019-11-18T23:15:34.692Z",
       "audio": []
     },
@@ -128437,7 +128437,7 @@
       "cutScene": false,
       "name": "Scenario 3: Orchard (Encounter)",
       "_created": "2020-02-23T22:48:19.371Z",
-      "_updated": "2020-03-18T19:49:09.359Z",
+      "_updated": "2020-04-27T13:32:13.001Z",
       "nodes": [
         {
           "autoSave": {
@@ -130674,7 +130674,39 @@
                   "conditions": []
                 }
               ],
-              "availability": []
+              "availability": [],
+              "maxAccounts": 1
+            },
+            {
+              "label": [
+                "Leave the orchard"
+              ],
+              "_id": "5ea6de66b7b3a4000065a2bd",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5ea6debfb7b3a4000065a2bf",
+                  "event": {
+                    "type": "endEncounter",
+                    "parameters": []
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "availability": [
+                {
+                  "parameters": [
+                    [
+                      "5e530133b723c2faa14ac204",
+                      "5e55bd20244b400000a3cd2b",
+                      "5e55bf92244b400000a3cd2e"
+                    ]
+                  ],
+                  "_id": "5ea6dedd13e5b99652f90ec3",
+                  "type": "hasUsedOption"
+                }
+              ]
             }
           ],
           "audio": []
