@@ -90016,7 +90016,17 @@
                 }
               ],
               "maxAccounts": 1,
-              "availability": []
+              "availability": [
+                {
+                  "parameters": [
+                    "gold",
+                    "greaterThanOrEqual",
+                    50
+                  ],
+                  "_id": "5ea56b4713e5b99cacf90eb0",
+                  "type": "stat"
+                }
+              ]
             },
             {
               "label": [
