@@ -285,13 +285,23 @@
     },
     {
       "_id": "5c7d52bffd6b498d91456b2e",
+      "autoSave": {
+        "save": false,
+        "conditions": []
+      },
       "npcs": [],
+      "cutScene": false,
       "name": "Default Beach",
       "nodes": [
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "The beach is empty. You hear the sounds of crying seagulls and rolling waves."
           ],
+          "cutScene": false,
           "_id": "5c7d52af132d9400002ecb76",
           "options": [
             {
@@ -375,6 +385,47 @@
                   "negate": true
                 }
               ]
+            },
+            {
+              "label": [
+                "Pick up the rusty old knife"
+              ],
+              "_id": "5ea87eb7ea07f900000f0ecd",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5ea87f3fea07f900000f0ecf",
+                  "event": {
+                    "parameters": [
+                      []
+                    ]
+                  },
+                  "actions": [
+                    {
+                      "parameters": [
+                        "5c7d5d71fd6b492fda456b46"
+                      ],
+                      "_id": "5ea87f9d13e5b9fc76f90f86",
+                      "type": "pickUpLoot"
+                    }
+                  ],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "availability": [
+                {
+                  "parameters": [
+                    [
+                      "5c7d55fcfd6b49be49456b35",
+                      "5c7d5656132d9400002ecb77",
+                      "5c7d56c6132d9400002ecb79"
+                    ]
+                  ],
+                  "_id": "5ea87f9d13e5b98b95f90f87",
+                  "type": "hasUsedOption"
+                }
+              ]
             }
           ],
           "audio": null
@@ -382,7 +433,7 @@
       ],
       "_created": "2019-03-04T16:30:55.206Z",
       "__v": 0,
-      "_updated": "2019-04-15T04:28:15.053Z",
+      "_updated": "2020-04-28T19:10:21.136Z",
       "audio": null
     },
     {
