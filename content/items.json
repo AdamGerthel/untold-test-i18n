@@ -6715,10 +6715,10 @@
       "name": "Brothel Token",
       "description": "A large copper coin. One side shows a lewd image of a woman. Runes have been inscribed on the other side of the coin: “Golden Serpent Parlor House.”",
       "value": 50,
-      "tier": "1",
+      "tier": "5",
       "type": "tool",
       "_created": "2019-12-05T09:37:52.954Z",
-      "_updated": "2020-03-17T02:35:27.534Z",
+      "_updated": "2020-04-26T11:26:33.677Z",
       "__v": 0
     },
     {
