@@ -7125,10 +7125,12 @@
                 {
                   "parameters": [
                     -12,
-                    1
+                    [
+                      "There is no escape. The claws of the black lion rip open your chest, leaving you to bleed out on the dusty floor."
+                    ]
                   ],
-                  "_id": "5e67cbc9d5f2fffa8123686d",
-                  "type": "changeHealthLimited"
+                  "_id": "5eb0312a13e5b921f8f90f94",
+                  "type": "changeHealth"
                 }
               ],
               "outcomes": [
@@ -7188,7 +7190,7 @@
         }
       ],
       "_created": "2019-03-21T00:17:43.176Z",
-      "_updated": "2020-03-18T12:50:06.390Z",
+      "_updated": "2020-05-04T15:13:46.695Z",
       "__v": 0,
       "audio": [
         {
@@ -7241,11 +7243,13 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-20",
-                        "1"
+                        -20,
+                        [
+                          "Overwhelmed by the poisonous cloud, you collapse on the floor, coughing and retching. Breathless and blinded by tears of blood, you have no choice but to endure a painful death."
+                        ]
                       ],
-                      "_id": "5e67cc13d5f2ff7099236883",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0337713e5b940e7f90faa",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -7253,7 +7257,7 @@
                       "parameters": [
                         "resilience",
                         "equals",
-                        "1"
+                        1
                       ],
                       "_id": "5c92e0143bae8d524d2b5fb8",
                       "type": "stat"
@@ -7276,7 +7280,7 @@
                       "parameters": [
                         "resilience",
                         "greaterThan",
-                        "1"
+                        1
                       ],
                       "_id": "5c92e0143bae8d16522b5fb5",
                       "type": "stat"
@@ -7320,11 +7324,13 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-20",
-                        "1"
+                        -20,
+                        [
+                          "You're too slow. The poisonous cloud enters your bloodstream, leaving you paralyzed on the dusty floor. You endure a painful death in the darkness of the catacombs."
+                        ]
                       ],
-                      "_id": "5e67cc13d5f2ff36f323687c",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0337713e5b9214bf90fa3",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -7332,7 +7338,7 @@
                       "parameters": [
                         "agility",
                         "equals",
-                        "1"
+                        1
                       ],
                       "_id": "5c92e0143bae8d55662b5fb2",
                       "type": "stat"
@@ -7355,7 +7361,7 @@
                       "parameters": [
                         "agility",
                         "greaterThan",
-                        "1"
+                        1
                       ],
                       "_id": "5c92e0143bae8d41042b5faf",
                       "type": "stat"
@@ -7426,7 +7432,7 @@
         }
       ],
       "_created": "2019-03-21T00:51:32.061Z",
-      "_updated": "2020-03-10T17:19:15.295Z",
+      "_updated": "2020-05-04T15:23:35.278Z",
       "__v": 0,
       "audio": null
     },
@@ -9761,10 +9767,12 @@
                     {
                       "parameters": [
                         -8,
-                        1
+                        [
+                          "Already weakened by previous injuries, you are unable to avoid the javelin, which burrows its way into your left thigh. Staggering, you feel the impact of a second javelin as it penetrates your forehead."
+                        ]
                       ],
-                      "_id": "5e67cd6cd5f2ffef8b236d62",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0359513e5b99e68f9120d",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -9819,10 +9827,12 @@
                     {
                       "parameters": [
                         -10,
-                        1
+                        [
+                          "Close, but no cigar. The javelin is buried in your chest, penetrating your heart. Seconds later, the world turns black as your life ends."
+                        ]
                       ],
-                      "_id": "5e67cd6cd5f2ff412e236d5c",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0359513e5b99bc0f91207",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -11426,10 +11436,12 @@
                     {
                       "parameters": [
                         -12,
-                        1
+                        [
+                          "The javelin hits you in the gut, making you fold. Knocked down and wounded, you have no strength left. Raising his halberd, the druid steps forward and cuts off your head in one fell swoop."
+                        ]
                       ],
-                      "_id": "5e7158518530dfe0fda09d55",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0359513e5b9cfcbf9117c",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -13099,7 +13111,7 @@
           "audio": null
         }
       ],
-      "_updated": "2020-03-18T15:10:06.492Z",
+      "_updated": "2020-05-04T15:32:37.661Z",
       "_created": "2019-04-02T22:01:09.105Z",
       "audio": null
     },
@@ -14520,7 +14532,7 @@
       "cutScene": false,
       "name": "Chamber of Nemesis (interior)",
       "_created": "2019-04-07T21:37:20.830Z",
-      "_updated": "2020-03-18T15:26:14.914Z",
+      "_updated": "2020-05-04T15:36:27.639Z",
       "nodes": [
         {
           "autoSave": {
@@ -14842,11 +14854,13 @@
                   "actions": [
                     {
                       "parameters": [
-                        -8,
-                        1
+                        -10,
+                        [
+                          "You're too slow. Outmaneuvered in the shadow by a whirlwind of blades, your body is riddled with cuts and stab wounds. The assassin moves in for the kill, stabbing you in the throat."
+                        ]
                       ],
-                      "_id": "5e67ce79d5f2ffa13a236e30",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0367b13e5b9652df9123d",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -16391,7 +16405,7 @@
       "cutScene": false,
       "name": "Combat Encounter: Wolf",
       "_created": "2019-04-08T08:11:09.963Z",
-      "_updated": "2020-03-17T22:45:42.245Z",
+      "_updated": "2020-05-04T15:39:53.676Z",
       "nodes": [
         {
           "autoSave": {
@@ -16521,10 +16535,12 @@
                     {
                       "parameters": [
                         -7,
-                        1
+                        [
+                          "You're too slow. Catching up from behind, the wolf bites your neck and rips it apart. Bleeding to death, you tumble downhill until daylight is replaced by eternal darkness."
+                        ]
                       ],
-                      "_id": "5e67cfedd5f2ff6872236ecd",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0374913e5b92550f9126e",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -16792,7 +16808,7 @@
       "cutScene": false,
       "name": "Combat Encounter: Mountain Lion",
       "_created": "2019-04-08T08:12:01.539Z",
-      "_updated": "2020-03-11T14:13:18.114Z",
+      "_updated": "2020-05-04T15:42:51.902Z",
       "nodes": [
         {
           "autoSave": {
@@ -16864,11 +16880,13 @@
                   "actions": [
                     {
                       "parameters": [
-                        "-8",
-                        "1"
+                        -8,
+                        [
+                          "A ferocious mountain lion leaps out from the bushes. You try to escape, but the claws of the savage beast rip your throat to pieces. Bleeding profusely, you have no choice but to accept death."
+                        ]
                       ],
-                      "_id": "5e67d306d5f2ff75d1236ee8",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb037fb13e5b93829f91289",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -17371,10 +17389,12 @@
                     {
                       "parameters": [
                         -10,
-                        1
+                        [
+                          "Catching up from behind, the druid stabs you in the back. The knife is buried deep between your shoulder blades. You drop to your knees as the knife is extracted. Before you know it, the druid slits your throat wide open. "
+                        ]
                       ],
-                      "_id": "5e67d398d5f2ffee9a236f08",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb038fe13e5b95996f912a8",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -17675,7 +17695,7 @@
           ]
         }
       ],
-      "_updated": "2020-03-18T12:41:13.684Z",
+      "_updated": "2020-05-04T15:47:10.178Z",
       "_created": "2019-04-08T10:39:23.752Z",
       "audio": [
         {
@@ -22887,10 +22907,12 @@
                     {
                       "parameters": [
                         -25,
-                        1
+                        [
+                          "Your skull is shattered by the impact of the morning star. Brain fragments rain down as your soul departs to the Underworld."
+                        ]
                       ],
-                      "_id": "5e67d5a6d5f2ffc202237011",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb03dd513e5b91650f912df",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -23209,10 +23231,10 @@
                       "parameters": [
                         -200,
                         [
-                          "You struggle to get back up, to no avail. Your skull imploded from the impact of the morning star. The unknown woman howls: \"Death to the Apostles of Woe!\""
+                          "You struggle to get back up, to no avail. Your skull implodes from the impact of the morning star. The unknown woman howls: \"Death to the Apostles of Woe!\""
                         ]
                       ],
-                      "_id": "5e67934fd5f2ff7a60235e5a",
+                      "_id": "5eb03dd513e5b9ca0ef912c4",
                       "type": "changeHealth"
                     }
                   ],
@@ -23344,7 +23366,7 @@
         }
       ],
       "_created": "2019-04-14T12:34:14.784Z",
-      "_updated": "2020-03-11T20:33:08.457Z",
+      "_updated": "2020-05-04T16:07:48.998Z",
       "__v": 0,
       "audio": null
     },
@@ -24335,10 +24357,12 @@
                     {
                       "parameters": [
                         -10,
-                        1
+                        [
+                          "The hooded guardian anticipates your advance, moving quickly to strike you with the trident. Already weakened by previous injuries, you are impaled like a piece of meat on a fork. He extracts your heart from your chest, leaving you to rot on the heights of Dusk Megalith. "
+                        ]
                       ],
-                      "_id": "5e67da90d5f2ff0f072370de",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb03f7c13e5b982e5f91323",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -24948,7 +24972,7 @@
         }
       ],
       "_created": "2019-04-17T22:00:58.139Z",
-      "_updated": "2020-03-11T17:44:31.527Z",
+      "_updated": "2020-05-04T16:14:52.834Z",
       "__v": 0,
       "audio": null
     },
@@ -27433,10 +27457,12 @@
                     {
                       "parameters": [
                         -8,
-                        1
+                        [
+                          "You're caught off guard by the sudden incision of a rusty blade. Blood leaks from your throat as you collapse headfirst on the dusty stone floor. The last thing you hear is footsteps in the darkness."
+                        ]
                       ],
-                      "_id": "5e67dac4d5f2ff2806237116",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0410113e5b9063ff9135b",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -27768,7 +27794,7 @@
         }
       ],
       "_created": "2019-04-18T23:28:32.989Z",
-      "_updated": "2020-03-18T16:00:36.963Z",
+      "_updated": "2020-05-04T16:21:21.590Z",
       "__v": 0,
       "audio": null
     },
@@ -31535,10 +31561,12 @@
                     {
                       "parameters": [
                         -12,
-                        1
+                        [
+                          "You charge forward, to no avail. Your foe takes the opportunity to stab you in the back, leaving you paralyzed as you collapse headfirst on the stone floor. You die a painful death in the dark prison."
+                        ]
                       ],
-                      "_id": "5e67dc34d5f2ffc31d2371fa",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0424213e5b90d19f913c0",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -31606,10 +31634,12 @@
                     {
                       "parameters": [
                         -12,
-                        1
+                        [
+                          "Your foe takes the opportunity to stab you in the back. As you fall to your knees, he moves in for the kill, slashing your throat. Your death is swift and painful."
+                        ]
                       ],
-                      "_id": "5e67dc34d5f2fff4ec2371f4",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0424213e5b9cf37f913ba",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -31718,10 +31748,12 @@
                     {
                       "parameters": [
                         -16,
-                        1
+                        [
+                          "You charge forward, to no avail. It was nothing more than a mirage, it seems. Your foe takes the opportunity to stab you in the back. As you fall to your knees, the mysterious combatant retreats into the shadows, leaving the rusty blade behind."
+                        ]
                       ],
-                      "_id": "5e67dc34d5f2ff09982371eb",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0486b13e5b9e0b6f91424",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -31807,6 +31839,14 @@
                       ],
                       "_id": "5cbba5b7c065f075ce944f8b",
                       "type": "pickUpItem"
+                    },
+                    {
+                      "parameters": [
+                        -6,
+                        1
+                      ],
+                      "_id": "5eb0486b13e5b90d4df9141d",
+                      "type": "changeHealthLimited"
                     }
                   ],
                   "conditions": []
@@ -31925,6 +31965,14 @@
                       ],
                       "_id": "5cbc8fcfc065f03a0a945123",
                       "type": "pickUpItem"
+                    },
+                    {
+                      "parameters": [
+                        -6,
+                        1
+                      ],
+                      "_id": "5eb0486b13e5b9acbdf91412",
+                      "type": "changeHealthLimited"
                     }
                   ],
                   "conditions": []
@@ -32011,6 +32059,14 @@
                       ],
                       "_id": "5cbc8fcfc065f074b594511c",
                       "type": "pickUpItem"
+                    },
+                    {
+                      "parameters": [
+                        -6,
+                        1
+                      ],
+                      "_id": "5eb0486b13e5b95086f9140a",
+                      "type": "changeHealthLimited"
                     }
                   ],
                   "conditions": []
@@ -32605,7 +32661,7 @@
         }
       ],
       "_created": "2019-04-20T01:01:00.418Z",
-      "_updated": "2020-03-18T16:05:12.411Z",
+      "_updated": "2020-05-04T16:52:59.940Z",
       "__v": 0,
       "audio": null
     },
@@ -42974,7 +43030,7 @@
       "cutScene": false,
       "name": "Day two: Cape Ram (variant)",
       "_created": "2019-05-28T15:01:43.200Z",
-      "_updated": "2020-04-21T10:01:08.378Z",
+      "_updated": "2020-05-04T16:56:38.466Z",
       "nodes": [
         {
           "autoSave": {
@@ -43590,10 +43646,12 @@
                     {
                       "parameters": [
                         -8,
-                        1
+                        [
+                          "Caught by surprise, you feel the impact of Mastaba's left hook, which knocks you down. Before you know it, the barefooted barbarian stomps on your head until it turns to mush."
+                        ]
                       ],
-                      "_id": "5e67ded5d5f2ff43a923742e",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0494613e5b993cbf9150d",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -52094,10 +52152,12 @@
                 {
                   "parameters": [
                     -8,
-                    1
+                    [
+                      "You clash with the lone hoodlum in the alleyway. Already weakened by previous injuries, you are no match for his martial prowess. He stabs you multiple times in the chest and throat."
+                    ]
                   ],
-                  "_id": "5e67df53d5f2ffa2fa2374ae",
-                  "type": "changeHealthLimited"
+                  "_id": "5eb04a6c13e5b91911f91563",
+                  "type": "changeHealth"
                 }
               ],
               "outcomes": [
@@ -52422,10 +52482,12 @@
                     {
                       "parameters": [
                         -9,
-                        1
+                        [
+                          "The knife thug gets the drop on you, slicing your throat from ear to ear."
+                        ]
                       ],
-                      "_id": "5e681a0fd5f2ff336c238807",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb04ab113e5b91cf9f91575",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -52534,7 +52596,7 @@
         }
       ],
       "_created": "2019-06-29T04:07:12.557Z",
-      "_updated": "2020-03-17T21:30:28.637Z",
+      "_updated": "2020-05-04T17:03:05.782Z",
       "__v": 0,
       "audio": []
     },
@@ -62612,7 +62674,7 @@
       "cutScene": false,
       "name": "Roe Abandoned Farm Encounter: Arturo",
       "_created": "2019-09-14T21:52:36.532Z",
-      "_updated": "2020-03-18T18:12:38.018Z",
+      "_updated": "2020-05-04T17:14:40.705Z",
       "nodes": [
         {
           "autoSave": {
@@ -62634,10 +62696,10 @@
               "actions": [
                 {
                   "parameters": [
-                    -15,
+                    -30,
                     1
                   ],
-                  "_id": "5e680698d5f2ffa378237a1d",
+                  "_id": "5eb04d8113e5b93e70f91679",
                   "type": "changeHealthLimited"
                 }
               ],
@@ -62688,10 +62750,10 @@
               "actions": [
                 {
                   "parameters": [
-                    -8,
+                    -20,
                     1
                   ],
-                  "_id": "5e387167e09478fddb33477f",
+                  "_id": "5eb04d8013e5b9e994f91674",
                   "type": "changeHealthLimited"
                 }
               ],
@@ -64091,11 +64153,13 @@
               "actions": [
                 {
                   "parameters": [
-                    -15,
-                    1
+                    -25,
+                    [
+                      "As soon as you step inside, you are struck in the throat by a barbed arrow. Choking to death on your own blood, you catch a glimpse of the hooded archer as you collapse on the floor."
+                    ]
                   ],
-                  "_id": "5e680698d5f2ff606c2379a3",
-                  "type": "changeHealthLimited"
+                  "_id": "5eb04d8013e5b9e562f915fe",
+                  "type": "changeHealth"
                 }
               ],
               "outcomes": [
@@ -72090,10 +72154,12 @@
                     {
                       "parameters": [
                         -12,
-                        1
+                        [
+                          "You've been spotted. With remarkable speed, the robed warrior leaps forward and stabs you in the throat with a long dagger. Shocked, you lose your footing and fall off the cliff."
+                        ]
                       ],
-                      "_id": "5e680cbdd5f2ff1aaf237ec7",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0519d13e5b91f4ff91b07",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -72913,10 +72979,12 @@
                     {
                       "parameters": [
                         -12,
-                        1
+                        [
+                          "The arrow hits you in the left eye. Your life ends before you know it."
+                        ]
                       ],
-                      "_id": "5e680cbdd5f2ff478f237e7f",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0519d13e5b93451f91abf",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -73001,10 +73069,12 @@
                     {
                       "parameters": [
                         -10,
-                        1
+                        [
+                          "You almost make it, but just as you're about to close the distance, your enemy launches the arrow, which penetrates your heart. Needless to say, you have reached the end of your journey."
+                        ]
                       ],
-                      "_id": "5e681007d5f2ff2b9c23803a",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0519d13e5b9711ff91ab7",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -73324,10 +73394,12 @@
                     {
                       "parameters": [
                         -10,
-                        1
+                        [
+                          "You are struck in the chest by an arrow. The pain is too much to bear. Delirious, you lose your footing and plunge into the depths of the chasm below."
+                        ]
                       ],
-                      "_id": "5e6811aed5f2ffda1423849b",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0519d13e5b95107f91a9c",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -73422,10 +73494,12 @@
                     {
                       "parameters": [
                         -10,
-                        1
+                        [
+                          "You are struck in the chest by an arrow. The pain is too much to bear. Delirious, you lose your footing and plunge into the depths of the chasm below."
+                        ]
                       ],
-                      "_id": "5e6811aed5f2ff5c63238492",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0519d13e5b9edc6f91a93",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -73526,10 +73600,12 @@
                     {
                       "parameters": [
                         -10,
-                        1
+                        [
+                          "Your silver tongue fails to sway the archer. Without saying another word, he launches the arrow, which hits you in the chest. Thrown off-balance, you fall off the bridge, facing certain death as you take a plunge into the depths below."
+                        ]
                       ],
-                      "_id": "5e6811aed5f2fffd4d238489",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0519d13e5b93845f91a8a",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -75305,7 +75381,7 @@
         }
       ],
       "_created": "2019-10-24T16:26:05.279Z",
-      "_updated": "2020-03-29T02:54:27.102Z",
+      "_updated": "2020-05-04T17:32:13.600Z",
       "__v": 0,
       "audio": []
     },
@@ -81734,7 +81810,7 @@
       "cutScene": false,
       "name": "Set Path Encounter: Ambush",
       "_created": "2019-11-07T08:10:57.288Z",
-      "_updated": "2020-03-18T18:55:53.763Z",
+      "_updated": "2020-05-04T17:44:53.896Z",
       "nodes": [
         {
           "autoSave": {
@@ -81766,10 +81842,12 @@
                     {
                       "parameters": [
                         -54,
-                        1
+                        [
+                          "You feel the sensation of cold steel as a blade is thrust into the back of your neck. You catch a glimpse of the attacker as you fall down. It's a woman in a black cloak, holding a blood-soaked dagger. She slips away into a dark alley, leaving you to die on the open street."
+                        ]
                       ],
-                      "_id": "5e726eb9ecc8c9dca11bc014",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0549513e5b99d22f91bb7",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -81891,10 +81969,12 @@
                     {
                       "parameters": [
                         -16,
-                        1
+                        [
+                          "There is no escape. Catching up from behind, the woman in the black cloak stabs you in the back of your neck. You fall down and bleed to death on the open street."
+                        ]
                       ],
-                      "_id": "5e681895d5f2ff435f2387f5",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0549513e5b93309f91bac",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -81993,10 +82073,12 @@
                     {
                       "parameters": [
                         -19,
-                        1
+                        [
+                          "There is no escape. Catching up from behind, the woman in the black cloak stabs you in the back of your neck. You fall down and bleed to death on the open street."
+                        ]
                       ],
-                      "_id": "5e726eb9ecc8c974491bc000",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0549513e5b937e3f91ba3",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -85892,7 +85974,7 @@
       "cutScene": false,
       "name": "Scenario 3: Burning City",
       "_created": "2019-11-18T22:45:06.357Z",
-      "_updated": "2020-03-31T09:17:27.001Z",
+      "_updated": "2020-05-04T18:24:02.276Z",
       "nodes": [
         {
           "autoSave": {
@@ -86662,10 +86744,12 @@
                     {
                       "parameters": [
                         -25,
-                        1
+                        [
+                          "You make a run for it, but there is no escape. The enemy is at your heels. You can hear the rustling chain as he swings his iron flail. Before you know it, the spiked ball hits you above the right ear, cracking your skull wide open."
+                        ]
                       ],
-                      "_id": "5e682455d5f2ff0dc02396c8",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb05dc213e5b94485f924cb",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -86739,10 +86823,12 @@
                     {
                       "parameters": [
                         -59,
-                        1
+                        [
+                          "You're too slow. Your head explodes from the impact of the iron flail."
+                        ]
                       ],
-                      "_id": "5e727205ecc8c9bac41bc1f1",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb05dc213e5b9092ff924c2",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -87339,10 +87425,12 @@
                     {
                       "parameters": [
                         -25,
-                        1
+                        [
+                          "You make a run for it, but there is no escape. The enemy is at your heels. You can hear the rustling chain as he swings his iron flail. Before you know it, the spiked ball hits you above the right ear, cracking your skull wide open."
+                        ]
                       ],
-                      "_id": "5e682455d5f2fffdd1239689",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb05dc213e5b9dc08f9248d",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -87881,10 +87969,12 @@
                     {
                       "parameters": [
                         -18,
-                        1
+                        [
+                          "You run as fast as you can through the inferno of descending arrows. One by one, the projectiles hit your legs until they are no longer functional. Helplessly, you collapse headfirst, forced to endure a painful and humiliating death."
+                        ]
                       ],
-                      "_id": "5e682455d5f2ff2a0123965a",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb05dc213e5b9321ef92460",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -87954,10 +88044,12 @@
                     {
                       "parameters": [
                         -26,
-                        1
+                        [
+                          "The burning arrows descend from all directions, leaving you with no place to hide. Punctured by numerous projectiles, you endure a painful death."
+                        ]
                       ],
-                      "_id": "5e682455d5f2ff5390239653",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb05dc213e5b90dd4f92459",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -88053,10 +88145,12 @@
                     {
                       "parameters": [
                         -18,
-                        1
+                        [
+                          "You run as fas as you can through the inferno of burning arrows. Punctured by numerous projectiles, your legs no longer function. You collapse headfirst, forced to endure a painful and humiliating death."
+                        ]
                       ],
-                      "_id": "5e682455d5f2ff45ca23964a",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb05dc213e5b97482f92450",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -88126,10 +88220,12 @@
                     {
                       "parameters": [
                         -26,
-                        1
+                        [
+                          "The burning arrows descend from all directions, leaving you with no place to hide. It doesn't take long before your body is punctured by numerous projectiles. Affixed to a tree, you endure a painful death."
+                        ]
                       ],
-                      "_id": "5e682455d5f2ffebff239643",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb05dc213e5b9bff7f92449",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -89474,10 +89570,12 @@
                     {
                       "parameters": [
                         -20,
-                        1
+                        [
+                          "There is no escape. You feel the impact of a powerful strike in the back of your skull, cracking it wide open. Your life ends before your body hits the ground."
+                        ]
                       ],
-                      "_id": "5e682455d5f2ff57552395d2",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb05dc213e5b99f92f923d2",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -98967,7 +99065,7 @@
       "cutScene": false,
       "name": "Scenario 3 Path Encounter: Alley (Entrance to Gambling Den)",
       "_created": "2019-12-19T22:04:31.284Z",
-      "_updated": "2020-03-18T20:02:23.857Z",
+      "_updated": "2020-05-04T18:29:58.532Z",
       "nodes": [
         {
           "autoSave": {
@@ -99469,10 +99567,12 @@
                     {
                       "parameters": [
                         -12,
-                        1
+                        [
+                          "You try to escape from the alley, but one of the hoodlums catches up with you. Laughing, he cuts your throat wide open. Bleeding profusely, you stumble and collapse. It doesn't long before your life ends."
+                        ]
                       ],
-                      "_id": "5e6825d8d5f2ff60b0239786",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb05f2613e5b91ba7f92532",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": []
@@ -103914,10 +104014,12 @@
                     {
                       "parameters": [
                         -35,
-                        1
+                        [
+                          "A brave gambit, however misguided. Blood splashes when the halberd rips your chest open. The pain is too much to bear. He swings the halberd again, severing your head."
+                        ]
                       ],
-                      "_id": "5e682ad1d5f2ff0510239846",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0602713e5b99806f92565",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -103980,7 +104082,7 @@
         }
       ],
       "_created": "2020-01-15T17:28:14.368Z",
-      "_updated": "2020-03-18T20:36:59.522Z",
+      "_updated": "2020-05-04T18:34:15.292Z",
       "__v": 0,
       "audio": []
     },
@@ -106844,7 +106946,7 @@
       "cutScene": false,
       "name": "Sleep Temple Path Encounter: Dining Hall (Cartel Enforcers)",
       "_created": "2020-01-21T08:44:46.723Z",
-      "_updated": "2020-03-18T22:14:13.176Z",
+      "_updated": "2020-05-04T18:43:43.772Z",
       "nodes": [
         {
           "autoSave": {
@@ -107021,10 +107123,12 @@
                     {
                       "parameters": [
                         -26,
-                        1
+                        [
+                          "You fail to avoid the aerial assault, feeling tremendous pain as the cold iron splits your face in half. Needless to say, you have reached the end of your journey."
+                        ]
                       ],
-                      "_id": "5e682e0cd5f2ff2e15239a41",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0625f13e5b9820df92758",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -107484,11 +107588,13 @@
                   "actions": [
                     {
                       "parameters": [
-                        -15,
-                        1
+                        -18,
+                        [
+                          "This endless carnage is beginning to take its toll. Feeling weak and delirious, you are pummeled to death by a barrage of blows."
+                        ]
                       ],
-                      "_id": "5e682e0cd5f2fff4bc239a17",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0625f13e5b975fdf9272e",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -107826,10 +107932,12 @@
                 {
                   "parameters": [
                     -16,
-                    1
+                    [
+                      "Your throat is slashed by the blade of a cartel enforcer. Her triumphant laughter is the last thing you hear before the world turns black."
+                    ]
                   ],
-                  "_id": "5e682e0cd5f2ff9d232399f7",
-                  "type": "changeHealthLimited"
+                  "_id": "5eb0625f13e5b95121f9270e",
+                  "type": "changeHealth"
                 }
               ],
               "outcomes": [
@@ -114687,10 +114795,12 @@
                     {
                       "parameters": [
                         -34,
-                        1
+                        [
+                          "You fail to avoid the flying dagger. Buried deep within your left eyesocket, the blade ends your life without delay. Blinded and brain dead, you collapse on the atrium floor."
+                        ]
                       ],
-                      "_id": "5e7292faecc8c904911bced6",
-                      "type": "changeHealthLimited"
+                      "_id": "5eb0654513e5b9453ef9297a",
+                      "type": "changeHealth"
                     }
                   ],
                   "conditions": [
@@ -117499,7 +117609,7 @@
         }
       ],
       "_created": "2020-02-02T15:10:06.834Z",
-      "_updated": "2020-03-18T22:37:27.945Z",
+      "_updated": "2020-05-04T18:56:05.102Z",
       "audio": [
         {
           "loop": true,
@@ -133303,10 +133413,12 @@
                 {
                   "parameters": [
                     -18,
-                    1
+                    [
+                      "Catching up from behind, a savage fiend smacks you in the back of your head with a spiked club. You collapse on the ground, never to wake up again."
+                    ]
                   ],
-                  "_id": "5e727d61ecc8c91e001bc951",
-                  "type": "changeHealthLimited"
+                  "_id": "5eb0666813e5b9636df92a42",
+                  "type": "changeHealth"
                 }
               ],
               "outcomes": [
@@ -134821,7 +134933,7 @@
         }
       ],
       "_created": "2020-03-15T05:38:33.059Z",
-      "_updated": "2020-03-29T02:43:06.887Z",
+      "_updated": "2020-05-04T19:00:56.494Z",
       "audio": [
         {
           "loop": true,
