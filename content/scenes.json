@@ -55213,9 +55213,9 @@
                   "actions": [
                     {
                       "parameters": [
-                        100
+                        250
                       ],
-                      "_id": "5d4aa1518335b42226884e87",
+                      "_id": "5ebb73e713e5b92fb9f92db8",
                       "type": "gainExperience"
                     }
                   ],
