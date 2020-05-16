@@ -91272,7 +91272,7 @@
                     "type": "narrative",
                     "parameters": [
                       [
-                        "Crowded by white doves, the sculpture represents the dignified appearance of an elder statesman, his left arm raised with an open hand, showing the way ahead. Runes have been sculpted on the base of the statue. The inscription reads: “Lord’s Boulevard”."
+                        "The statue depicts an old man dressed in a toga. There’s an inscription on the base of the statue. It reads: “Lord’s Boulevard.”"
                       ]
                     ]
                   },
@@ -91280,7 +91280,8 @@
                   "conditions": []
                 }
               ],
-              "availability": []
+              "availability": [],
+              "maxAccounts": 1
             }
           ],
           "audio": []
@@ -91350,7 +91351,7 @@
         }
       ],
       "_created": "2019-11-28T00:47:11.329Z",
-      "_updated": "2020-03-06T11:52:54.181Z",
+      "_updated": "2020-05-06T05:33:15.499Z",
       "__v": 0,
       "audio": []
     },
@@ -92073,7 +92074,7 @@
             "conditions": []
           },
           "narrative": [
-            "Having reached the end of Lord's Boulevard, you are now faced with a large statue of a robed monk, his left arm raised with an open hand, showing the way ahead. Runes have been sculpted on the base of the statue."
+            "Having reached the end of Lord’s Boulevard, you are now faced with a large statue of a robed monk. There’s an inscription on the base of the statue."
           ],
           "cutScene": false,
           "_id": "5de0791523cb0b0000f9f860",
@@ -92115,7 +92116,7 @@
                     "type": "narrative",
                     "parameters": [
                       [
-                        "A wide open space lies beyond Lord's Boulevard, replacing the cobblestones with hexagonal rocks, precisely cut. An even greater monument stands in the center, surrounded by stately buildings."
+                        "A wide open space lies beyond Lord's Boulevard, replacing the cobblestones with hexagonal rocks, precisely cut. A monument stands in the center, surrounded by stately buildings."
                       ]
                     ]
                   },
@@ -92132,7 +92133,7 @@
       ],
       "name": "Scenario 3: Lord's Boulevard (State 1)",
       "_created": "2019-11-28T01:19:33.741Z",
-      "_updated": "2020-03-04T16:56:30.998Z",
+      "_updated": "2020-05-06T05:35:15.197Z",
       "__v": 0,
       "audio": []
     },
@@ -92143,12 +92144,18 @@
         "conditions": []
       },
       "npcs": [],
+      "cutScene": false,
       "name": "Scenario 3: Selikro Plaza (State 1)",
       "nodes": [
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "A great monument stands in the center of Selikro Plaza, which is surrounded by several extravagant buildings. Among them is a bell tower, which ascends from the lofty arcades of a church."
           ],
+          "cutScene": false,
           "_id": "5ddf4dcc9842cb00005442a5",
           "options": [
             {
@@ -92164,7 +92171,7 @@
                     "type": "narrative",
                     "parameters": [
                       [
-                        "Standing on a circular platform, the statue depicts an armored knight with a winged helmet. His broadsword is raised upwards in a straight angle, so that the blade functions like a sundial. Runes have been sculpted on the base of the statue. The inscription reads: \"Lord Selikro I\"."
+                        "Standing on a circular platform, the statue depicts an armored knight with a winged helmet. His broadsword is raised upwards in a straight angle, so that the blade functions like a sundial. There’s an inscription on the base of the statue. It reads: \"Lord Selikro I\"."
                       ]
                     ]
                   },
@@ -92198,12 +92205,14 @@
               "availability": [],
               "maxAccounts": 1
             }
-          ]
+          ],
+          "audio": []
         }
       ],
       "_created": "2019-11-28T04:34:05.614Z",
-      "_updated": "2019-12-04T23:50:55.839Z",
-      "__v": 0
+      "_updated": "2020-05-06T05:36:04.293Z",
+      "__v": 0,
+      "audio": []
     },
     {
       "_id": "5de0ae65f75a97664e59f087",
@@ -94496,14 +94505,20 @@
         "conditions": []
       },
       "npcs": [],
+      "cutScene": false,
       "name": "Scenario 3 Path Encounter: Emerald Avenue",
       "_created": "2019-12-04T01:04:56.589Z",
-      "_updated": "2020-01-22T13:22:43.798Z",
+      "_updated": "2020-05-06T05:36:38.006Z",
       "nodes": [
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
-            "As you leave the plaza behind, you are faced with the statue of a merchant. His right arm is raised with an open hand, showing the way ahead. Runes have been sculpted on the base of the statue. The inscription reads: “Emerald Avenue.”"
+            "As you leave the plaza behind, you are faced with the statue of a merchant. There’s an inscription on the base of the statue. It reads: “Emerald Avenue.”"
           ],
+          "cutScene": false,
           "_id": "5de71049f47cc300004e074c",
           "options": [
             {
@@ -94641,12 +94656,18 @@
         "conditions": []
       },
       "npcs": [],
+      "cutScene": false,
       "name": "Scenario 3 Path Encounter: Soma Gardens (Statue)",
       "nodes": [
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
-            "As you head downhill, you are faced with the statue of a woman with flowing hair. Barefoot and dressed in a full-length gown, she carries a flower basket over her shoulder. Her left arm is raised with an open hand, showing the way ahead. Runes have been sculpted on the base of the statue. The inscription reads: “Soma Gardens.”"
+            "As you head downhill, you are faced with the statue of a woman with flowing hair. Barefoot and dressed in a full-length gown, she carries a flower basket over her shoulder. There’s an inscription on the base of the statue. It reads: “Soma Gardens.”"
           ],
+          "cutScene": false,
           "_id": "5de818c453743e0000ebcbaa",
           "options": [
             {
@@ -94712,12 +94733,14 @@
               ],
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         }
       ],
       "_created": "2019-12-04T20:46:05.038Z",
-      "_updated": "2019-12-04T23:31:54.428Z",
-      "__v": 0
+      "_updated": "2020-05-06T05:37:06.129Z",
+      "__v": 0,
+      "audio": []
     },
     {
       "_id": "5de81b4ef75a97a4ca59fbc7",
@@ -121278,7 +121301,7 @@
       "cutScene": false,
       "name": "Scenario 3: Antiquarian (Dialog)",
       "_created": "2020-02-09T20:43:18.676Z",
-      "_updated": "2020-04-22T14:32:06.170Z",
+      "_updated": "2020-05-09T19:05:34.208Z",
       "nodes": [
         {
           "autoSave": {
