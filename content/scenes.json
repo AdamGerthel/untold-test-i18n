@@ -53776,6 +53776,88 @@
               "actions": [],
               "outcomes": [
                 {
+                  "_id": "5ebf3542aa99010000e0c235",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "You are dismissed by one of his bodyguards. The swordsman says: \"Not now. We have important matters to discuss...\""
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        [
+                          "5d4427de8335b444ad884a15",
+                          "5ebf2c9eaa99010000e0c22a"
+                        ]
+                      ],
+                      "_id": "5ebf35bb13e5b95f60f92fb9",
+                      "type": "hasSeenNode"
+                    }
+                  ]
+                },
+                {
+                  "_id": "5ebb71f171ccde00005d0a0e",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "You are dismissed by one of his bodyguards. The swordsman says: \"Not now. We have important matters to discuss...\""
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        [
+                          "5d4427de8335b444ad884a15",
+                          "5e9c6665b258690000487028"
+                        ]
+                      ],
+                      "_id": "5ebb736013e5b92b02f92d9c",
+                      "type": "hasSeenNode"
+                    }
+                  ]
+                },
+                {
+                  "_id": "5ebb718b71ccde00005d0a0b",
+                  "event": {
+                    "type": "startEncounter",
+                    "parameters": [
+                      [
+                        "5d4427de8335b444ad884a15",
+                        "5e9c6665b258690000487028"
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        [
+                          "5d1a34eeebd3dc3e2054d2a3",
+                          "5d1a7d42d73a7d000010f514",
+                          "5d49c3b520f282000059ac21",
+                          "5d49c51920f282000059ac23"
+                        ]
+                      ],
+                      "_id": "5ebb736013e5b90fa5f92d9a",
+                      "type": "hasSeenOptionOutcome"
+                    },
+                    {
+                      "parameters": [
+                        "5cda7453c3e78fd30c5bb2a3"
+                      ],
+                      "_id": "5ebb736013e5b94704f92d99",
+                      "type": "hasSeenLocation"
+                    }
+                  ]
+                },
+                {
                   "_id": "5d4430e66d390d0000709a1f",
                   "event": {
                     "type": "startEncounter",
@@ -53956,7 +54038,7 @@
         }
       ],
       "_created": "2019-07-05T11:52:15.568Z",
-      "_updated": "2020-04-22T18:48:27.625Z",
+      "_updated": "2020-05-16T00:37:15.866Z",
       "__v": 0,
       "audio": []
     },
@@ -54990,6 +55072,25 @@
               "actions": [],
               "outcomes": [
                 {
+                  "_id": "5ebf34b6aa99010000e0c232",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5ebf2c9eaa99010000e0c22a"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        "5cda7453c3e78fd30c5bb2a3"
+                      ],
+                      "_id": "5ebf352513e5b9b264f92f84",
+                      "type": "hasSeenLocation"
+                    }
+                  ]
+                },
+                {
                   "_id": "5d49bf0a20f282000059ac19",
                   "event": {
                     "type": "narrative",
@@ -55327,7 +55428,7 @@
             },
             {
               "label": [
-                "I was the one who took care of the bandits"
+                "What will you do now?"
               ],
               "_id": "5e9c6965b25869000048702d",
               "actions": [],
@@ -55335,9 +55436,11 @@
                 {
                   "_id": "5e9c6adbb258690000487035",
                   "event": {
-                    "type": "node",
+                    "type": "narrative",
                     "parameters": [
-                      "5e9c6a1eb258690000487031"
+                      [
+                        "\"Nothing, for now. When the time is right, the Militia will feel our wrath...\""
+                      ]
                     ]
                   },
                   "actions": [],
@@ -55345,7 +55448,32 @@
                 }
               ],
               "maxAccounts": 1,
-              "parent": "5e9c6839b258690000487029",
+              "parent": "5e9c68c4b25869000048702b",
+              "availability": []
+            },
+            {
+              "label": [
+                "There must be another way"
+              ],
+              "_id": "5ebf3235aa99010000e0c22e",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5ebf34e1aa99010000e0c234",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "\"Perhaps, but my mind is made up. We shall forge peace on the anvil of war.\""
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "parent": "5e9c6965b25869000048702d",
               "availability": []
             },
             {
@@ -55378,20 +55506,69 @@
             "conditions": []
           },
           "narrative": [
-            "The tribal elder does not reply."
+            "\"Not a bad idea, but it's too late. According to our scouts, the bandits have already been defeated. A few of them are still alive, but they are scattered and disorganized...\""
           ],
           "cutScene": false,
-          "_id": "5e9c6a1eb258690000487031",
+          "_id": "5ebf2c9eaa99010000e0c22a",
           "options": [
             {
               "label": [
-                "Leave him alone"
+                "What will you do now?"
               ],
-              "_id": "5e9c6a9cb258690000487032",
+              "_id": "5ebf3088aa99010000e0c22b",
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5e9c6aa4b258690000487033",
+                  "_id": "5ebf30daaa99010000e0c22c",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "\"Wait until the time is right. Soon enough, our fates will be determined on the battlegrounds...\""
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "availability": []
+            },
+            {
+              "label": [
+                "There must be another way"
+              ],
+              "_id": "5ebf321aaa99010000e0c22d",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5ebf32b3aa99010000e0c22f",
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "\"Perhaps, but my mind is made up. We shall forge peace on the anvil of war.\""
+                      ]
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
+              "maxAccounts": 1,
+              "parent": "5ebf3088aa99010000e0c22b",
+              "availability": []
+            },
+            {
+              "label": [
+                "Farewell"
+              ],
+              "_id": "5ebf3484aa99010000e0c230",
+              "actions": [],
+              "outcomes": [
+                {
+                  "_id": "5ebf3499aa99010000e0c231",
                   "event": {
                     "type": "endEncounter",
                     "parameters": []
@@ -55407,7 +55584,7 @@
           "audio": []
         }
       ],
-      "_updated": "2020-04-19T15:19:08.324Z",
+      "_updated": "2020-05-16T00:34:44.992Z",
       "_created": "2019-08-02T12:47:24.011Z",
       "audio": []
     },
