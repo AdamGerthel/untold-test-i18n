@@ -59679,7 +59679,7 @@
       "cutScene": false,
       "name": "Roe Path Encounter: Bandit Camp (Stealth or Force)",
       "_created": "2019-08-15T18:29:41.007Z",
-      "_updated": "2020-03-24T11:47:16.856Z",
+      "_updated": "2020-05-17T16:35:50.453Z",
       "nodes": [
         {
           "autoSave": {
@@ -60309,6 +60309,19 @@
                   "parameters": [],
                   "_id": "5d5fafb08335b409b6885674",
                   "type": "canAttackRanged"
+                },
+                {
+                  "parameters": [
+                    [
+                      "5d55a4958335b4262888536c",
+                      "5d5f67f5088d15000006fd68",
+                      "5d5f981a088d15000006fd80",
+                      "5d5f9f50088d15000006fd83"
+                    ]
+                  ],
+                  "_id": "5ec167e613e5b9e870f93018",
+                  "type": "hasSeenOptionOutcome",
+                  "negate": true
                 }
               ]
             },
