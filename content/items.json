@@ -1,5 +1,5 @@
 {
-  "total": 324,
+  "total": 323,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -7888,25 +7888,6 @@
       "armor": 6,
       "_created": "2020-03-22T15:00:27.495Z",
       "_updated": "2020-03-22T15:00:27.495Z",
-      "__v": 0
-    },
-    {
-      "_id": "5e9214a7ecc8c9f8971be5cf",
-      "sideEffects": {
-        "passives": []
-      },
-      "slot": [],
-      "combatActions": [],
-      "consumption": {
-        "actions": []
-      },
-      "name": "Golden Crosier",
-      "description": "A ceremonial staff, crowned by the sculpted head of a gaping wolf. Crafted from solid gold, this artifact is a work of exquisite craftsmanship.",
-      "value": 500,
-      "tier": "5",
-      "type": "treasure",
-      "_created": "2020-04-11T19:04:07.448Z",
-      "_updated": "2020-04-12T06:42:11.580Z",
       "__v": 0
     }
   ]
