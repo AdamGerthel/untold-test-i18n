@@ -128637,7 +128637,7 @@
       "cutScene": false,
       "name": "Scenario 3: Orchard (Encounter)",
       "_created": "2020-02-23T22:48:19.371Z",
-      "_updated": "2020-04-27T13:32:13.001Z",
+      "_updated": "2020-05-26T11:19:09.410Z",
       "nodes": [
         {
           "autoSave": {
@@ -129606,7 +129606,16 @@
                 "Attack"
               ],
               "_id": "5e53504f97b8b200004eb10c",
-              "actions": [],
+              "actions": [
+                {
+                  "parameters": [
+                    "5e4f3b7ba74d95c247debafa",
+                    []
+                  ],
+                  "_id": "5eccfab4091f02cd4c52ee0e",
+                  "type": "engageNpc"
+                }
+              ],
               "outcomes": [
                 {
                   "_id": "5e54f016e05fc20000a02f45",
@@ -130126,7 +130135,38 @@
               ],
               "_id": "5e54b3d816cdaf000042467e",
               "actions": [],
-              "outcomes": [],
+              "outcomes": [
+                {
+                  "_id": "5ecceb3c4655a8000017bd87",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e53f435b3667600003ec198"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        "5e4f3ed2a74d95fc2fdebafc"
+                      ],
+                      "_id": "5ecceb78091f02369f52ec55",
+                      "type": "canEscape"
+                    }
+                  ]
+                },
+                {
+                  "_id": "5ecceb3f4655a8000017bd88",
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5e53f4e6b3667600003ec19b"
+                    ]
+                  },
+                  "actions": [],
+                  "conditions": []
+                }
+              ],
               "maxAccounts": 1,
               "availability": []
             }
