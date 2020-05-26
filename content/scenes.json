@@ -119141,7 +119141,7 @@
       "cutScene": false,
       "name": "Scenario 3: Preacher (Dialog)",
       "_created": "2020-02-08T12:42:44.617Z",
-      "_updated": "2020-03-17T01:47:08.471Z",
+      "_updated": "2020-05-25T16:23:51.275Z",
       "nodes": [
         {
           "autoSave": {
@@ -119750,7 +119750,7 @@
                 {
                   "_id": "5e4df72de84b660000b57ba8",
                   "event": {
-                    "type": null,
+                    "type": "endEncounter",
                     "parameters": []
                   },
                   "actions": [],
