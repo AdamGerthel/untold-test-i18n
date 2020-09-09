@@ -61276,12 +61276,18 @@
       "npcs": [
         "5d54a2468335b475c2885129"
       ],
+      "cutScene": false,
       "name": "Set Hadrian Trout Dialog",
       "nodes": [
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "The military officer gives you a nod of approval. \"From what I gather, your presence on this island has been a great blessing - in more ways than one.\""
           ],
+          "cutScene": false,
           "_id": "5d747db13bfa2300003898d8",
           "options": [
             {
@@ -61297,7 +61303,7 @@
                     "type": "narrative",
                     "parameters": [
                       [
-                        "\"The escaped convicts from Dusk Megalith... you brought them here, if I'm not mistaken. Most of them haven taken the oath to become soldiers in the Roeburgh Militia. They now patrol the streets of Set. It won't take long before the criminals have been purged...\""
+                        "\"The escaped convicts from Dusk Megalith... you brought them here, if I'm not mistaken. Most of them have taken the oath to become soldiers in the Roeburgh Militia. They now patrol the streets of Set. It won't take long before the criminals have been purged...\""
                       ]
                     ]
                   },
@@ -61356,12 +61362,18 @@
               "parent": "5d74802b3bfa2300003898d9",
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "\"Yes. I have made copies of my reports. Once you've read them, you may ask further questions, if necessary. Careful, the ink has barely dried.\" The military officer gives you a couple of scrolls."
           ],
+          "cutScene": false,
           "_id": "5d79f56fa8e2d6000056640a",
           "options": [
             {
@@ -61455,11 +61467,13 @@
               "parent": "5d79f685a8e2d6000056640b",
               "availability": []
             }
-          ]
+          ],
+          "audio": []
         }
       ],
-      "_updated": "2019-10-17T07:15:21.555Z",
-      "_created": "2019-09-08T04:48:26.772Z"
+      "_updated": "2020-09-09T07:36:28.711Z",
+      "_created": "2019-09-08T04:48:26.772Z",
+      "audio": []
     },
     {
       "_id": "5d7a0cafe6ecf3cb4ba28a13",
