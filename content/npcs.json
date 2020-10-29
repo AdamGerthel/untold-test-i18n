@@ -1197,24 +1197,25 @@
       "combatActions": [],
       "name": "Bandit War Lord",
       "level": 14,
-      "strength": 3,
+      "strength": 5,
       "charisma": 3,
       "resilience": 4,
-      "agility": 4,
+      "agility": 2,
       "perception": 4,
       "armor": 24,
       "damage": {
         "min": 4,
-        "max": 16
+        "max": 18
       },
-      "blockChance": 0.2,
+      "blockChance": 0.3,
       "experience": 50,
       "_created": "2019-08-02T13:25:39.019Z",
-      "_updated": "2020-06-28T18:22:51.956Z",
+      "_updated": "2020-10-29T12:19:52.614Z",
       "bargain": [],
       "__v": 0,
       "loot": "5d443cd88335b43f95884b43",
-      "attacksPerSecond": 1.8
+      "attacksPerSecond": 1.4,
+      "healthOverride": 70
     },
     {
       "_id": "5d4445638335b45397884b69",
@@ -3335,7 +3336,7 @@
       },
       "experience": 30,
       "_created": "2020-02-21T02:07:55.737Z",
-      "_updated": "2020-03-18T19:31:16.426Z",
+      "_updated": "2020-10-29T12:03:56.776Z",
       "bargain": [],
       "__v": 0,
       "loot": "5e5011bfa74d95480edebdb4"
