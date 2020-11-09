@@ -220,8 +220,8 @@
       "name": "Shack Interior",
       "area": "5c7d45f4fd6b495555456b03",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 218,
+        "y": 387
       },
       "_created": "2019-03-06T21:04:16.404Z",
       "states": [
@@ -234,7 +234,7 @@
         }
       ],
       "__v": 0,
-      "_updated": "2020-01-30T19:33:50.009Z",
+      "_updated": "2020-10-25T18:59:11.443Z",
       "background": "5da38f7cc55b7f4e34f52876",
       "audio": [
         {
@@ -251,8 +251,8 @@
       "name": "Loft (Abandoned Shack)",
       "area": "5c7d45f4fd6b495555456b03",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 218,
+        "y": 387
       },
       "_created": "2019-03-06T21:54:56.651Z",
       "states": [
@@ -285,7 +285,7 @@
         }
       ],
       "__v": 0,
-      "_updated": "2020-01-30T19:33:57.524Z",
+      "_updated": "2020-10-25T18:59:04.489Z",
       "background": "5da38f7cc55b7f4e34f52876",
       "audio": [
         {
@@ -2629,11 +2629,11 @@
       "name": "Galley (Set)",
       "area": "5cda74adc3e78f15685bb2a6",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 66,
+        "y": 75
       },
       "_created": "2019-06-28T22:05:40.278Z",
-      "_updated": "2020-03-04T22:36:03.790Z",
+      "_updated": "2020-10-25T19:00:34.089Z",
       "states": [
         {
           "scene": [
@@ -2666,18 +2666,18 @@
       "_id": "5d16a409ebd3dc847654cb53",
       "name": "Tavern (Set)",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 66,
+        "y": 75
       },
       "area": "5cda74adc3e78f15685bb2a6",
       "_created": "2019-06-28T23:34:33.310Z",
-      "_updated": "2019-11-21T22:24:56.588Z",
+      "_updated": "2020-10-25T19:00:12.907Z",
       "states": [
         {
-          "_id": "5d540c448335b4279b884fc6",
           "scene": [
             "5d53fc8e8335b43ff1884fb9"
           ],
+          "_id": "5d540c448335b4279b884fc6",
           "conditions": [
             {
               "parameters": [
@@ -2692,10 +2692,10 @@
           ]
         },
         {
-          "_id": "5d16b1daebd3dc16d454cb81",
           "scene": [
             "5d16a772ebd3dc842454cb54"
           ],
+          "_id": "5d16b1daebd3dc16d454cb81",
           "conditions": []
         }
       ],
@@ -2708,11 +2708,11 @@
       "name": "Longhouse (Interior)",
       "area": "5cda74adc3e78f15685bb2a6",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 79,
+        "y": 253
       },
       "_created": "2019-06-29T02:33:33.192Z",
-      "_updated": "2020-03-14T12:15:18.073Z",
+      "_updated": "2020-10-25T19:00:58.080Z",
       "states": [
         {
           "scene": [
@@ -2784,17 +2784,17 @@
       "name": "Hadrian's Office",
       "area": "5cda74adc3e78f15685bb2a6",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 283,
+        "y": 166
       },
       "_created": "2019-08-15T00:09:19.134Z",
-      "_updated": "2019-11-21T22:24:25.354Z",
+      "_updated": "2020-10-25T19:02:07.289Z",
       "states": [
         {
-          "_id": "5d54a5d38335b4b072885161",
           "scene": [
             "5d54a4068335b440d688515e"
           ],
+          "_id": "5d54a5d38335b4b072885161",
           "conditions": [
             {
               "parameters": [
@@ -2807,10 +2807,10 @@
           ]
         },
         {
-          "_id": "5dc97aaaf75a970d1d597e29",
           "scene": [
             "5dc4fb40f75a97da215970a9"
           ],
+          "_id": "5dc97aaaf75a970d1d597e29",
           "conditions": [
             {
               "parameters": [
@@ -2831,11 +2831,11 @@
       "name": "Den of Thieves",
       "area": "5cda73a8c3e78fc3885bb29b",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 294,
+        "y": 131
       },
       "_created": "2019-08-15T01:36:29.201Z",
-      "_updated": "2020-02-18T14:35:57.205Z",
+      "_updated": "2020-10-25T18:58:20.962Z",
       "states": [
         {
           "scene": [
@@ -2862,17 +2862,17 @@
       "name": "Log Cabin (Interior)",
       "area": "5cda73a8c3e78fc3885bb29b",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 294,
+        "y": 131
       },
       "_created": "2019-09-18T09:53:14.774Z",
-      "_updated": "2019-12-01T21:53:46.687Z",
+      "_updated": "2020-10-25T18:57:31.483Z",
       "states": [
         {
-          "_id": "5d82559b8ec259392b10076a",
           "scene": [
             "5d81ff88e6ecf323aea2c8ef"
           ],
+          "_id": "5d82559b8ec259392b10076a",
           "conditions": []
         }
       ],
@@ -3608,11 +3608,11 @@
       "name": "Stray Wolf Inn",
       "area": "5dd5ba66f75a97dcde59d7f3",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 232,
+        "y": 155
       },
       "_created": "2019-12-03T09:59:28.457Z",
-      "_updated": "2020-01-16T11:58:38.338Z",
+      "_updated": "2020-10-26T08:54:37.579Z",
       "states": [
         {
           "scene": [
@@ -3631,11 +3631,11 @@
       "name": "Stray Wolf Inn 2F",
       "area": "5dd5ba66f75a97dcde59d7f3",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 232,
+        "y": 155
       },
       "_created": "2019-12-03T12:58:22.937Z",
-      "_updated": "2020-01-16T11:58:46.720Z",
+      "_updated": "2020-10-26T08:54:41.884Z",
       "states": [
         {
           "scene": [
@@ -3654,11 +3654,11 @@
       "name": "Room Four",
       "area": "5dd5ba66f75a97dcde59d7f3",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 232,
+        "y": 155
       },
       "_created": "2019-12-03T16:42:45.640Z",
-      "_updated": "2020-01-16T12:00:26.617Z",
+      "_updated": "2020-10-26T08:54:32.535Z",
       "states": [
         {
           "scene": [
@@ -3677,11 +3677,11 @@
       "name": "Church",
       "area": "5dd5ba66f75a97dcde59d7f3",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 232,
+        "y": 155
       },
       "_created": "2019-12-03T19:59:44.101Z",
-      "_updated": "2020-03-17T20:44:20.949Z",
+      "_updated": "2020-10-26T08:54:27.930Z",
       "states": [
         {
           "scene": [
@@ -3718,11 +3718,11 @@
       "name": "Parlor House (Interior)",
       "area": "5dd5ba66f75a97dcde59d7f3",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 70,
+        "y": 60
       },
       "_created": "2019-12-04T20:08:28.693Z",
-      "_updated": "2020-01-16T11:57:52.715Z",
+      "_updated": "2020-10-26T08:52:35.611Z",
       "states": [
         {
           "scene": [
@@ -3759,11 +3759,11 @@
       "name": "Gambling Den",
       "area": "5dd5ba66f75a97dcde59d7f3",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 150,
+        "y": 85
       },
       "_created": "2019-12-10T14:12:50.697Z",
-      "_updated": "2020-01-16T11:57:40.021Z",
+      "_updated": "2020-10-26T08:53:15.558Z",
       "states": [
         {
           "scene": [
@@ -3800,8 +3800,8 @@
       "name": "Back Rooms",
       "area": "5dd5ba66f75a97dcde59d7f3",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 70,
+        "y": 60
       },
       "states": [
         {
@@ -3813,7 +3813,7 @@
         }
       ],
       "_created": "2019-12-12T02:24:54.539Z",
-      "_updated": "2020-03-11T22:55:49.030Z",
+      "_updated": "2020-10-26T08:56:27.829Z",
       "__v": 0,
       "background": "5e204f8f98fb237102ff9073",
       "audio": [
@@ -3838,11 +3838,11 @@
       "name": "Back Office",
       "area": "5dd5ba66f75a97dcde59d7f3",
       "coordinates": {
-        "x": 0,
-        "y": 0
+        "x": 150,
+        "y": 85
       },
       "_created": "2019-12-25T12:06:04.115Z",
-      "_updated": "2020-01-16T11:57:26.945Z",
+      "_updated": "2020-10-26T08:53:42.473Z",
       "states": [
         {
           "scene": [
