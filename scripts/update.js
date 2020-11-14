@@ -14,7 +14,8 @@ const resources = [
   'quests',
   'scenes',
   'scriptures',
-  'settings'
+  'settings',
+  'variables'
 ]
 
 const init = async function () {

@@ -10,4 +10,5 @@ module.exports = {
   'scenes': require('./scenes.json'),
   'scriptures': require('./scriptures.json'),
   'settings': require('./settings.json'),
+  'variables': require('./variables.json'),
 }
