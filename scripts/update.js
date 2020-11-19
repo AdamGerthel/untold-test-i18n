@@ -22,11 +22,13 @@ const init = async function () {
   try {
     // Download and save content files
     const data = await Promise.all(resources.map(resource => getResource(resource)))
-    await Promise.all(resources.map((resource, index) => {
-      let content = JSON.parse(data[index])
-      content = JSON.stringify(content, null, 2)
-      return fs.promises.writeFile(`content/${resource}.json`, content)
-    }))
+    await Promise.all(
+      resources.map((resource, index) => {
+        let content = JSON.parse(data[index])
+        content = JSON.stringify(content, null, 2)
+        return fs.promises.writeFile(`content/${resource}.json`, content)
+      })
+    )
 
     // Create an index for content files
     const contentIndex = resources.reduce((total, resource) => {
@@ -67,7 +69,10 @@ const init = async function () {
     const imageIndex = buildIndex(images, 'image', 'jpg')
     const audioIndex = buildIndex(audio, 'audio', 'mp3')
 
-    await fs.promises.writeFile('media/index.js', `module.exports = {\n  image: {${imageIndex}\n  },\n  audio: {${audioIndex}\n  }\n}`)
+    await fs.promises.writeFile(
+      'media/index.js',
+      `module.exports = {\n  image: {${imageIndex}\n  },\n  audio: {${audioIndex}\n  }\n}`
+    )
   } catch (error) {
     console.log(error)
   } finally {
@@ -86,22 +91,24 @@ const downloadMedia = function (entity, fileFormat, params) {
       url: `media/${fileName}`,
       qs: params,
       headers: {
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        Accept:
+          'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'en-US,en;q=0.9,fr;q=0.8,ro;q=0.7,ru;q=0.6,la;q=0.5,pt;q=0.4,de;q=0.3',
         'Cache-Control': 'max-age=0',
-        'Connection': 'keep-alive',
+        Connection: 'keep-alive',
         'Upgrade-Insecure-Requests': '1',
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+        'User-Agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
       }
     })
-    .pipe(file)
-    .on('finish', () => {
-      resolve(fileName)
-    })
-    .on('error', (error) => {
-      reject(error)
-    })
+      .pipe(file)
+      .on('finish', () => {
+        resolve(fileName)
+      })
+      .on('error', error => {
+        reject(error)
+      })
   })
 }
 
@@ -114,20 +121,23 @@ const buildIndex = function (data = [], path, fileFormat) {
 
 const getResource = function (resource) {
   return new Promise((resolve, reject) => {
-    req({
-      method: 'GET',
-      qs: {
-        $limit: 5000,
-        $sort: '_created'
+    req(
+      {
+        method: 'GET',
+        qs: {
+          $limit: 5000,
+          $sort: '_created'
+        },
+        url: resource
       },
-      url: resource
-    }, function (error, response, body) {
-      if (error) {
-        reject(error)
-      } else {
-        resolve(body)
+      function (error, response, body) {
+        if (error) {
+          reject(error)
+        } else {
+          resolve(body)
+        }
       }
-    })
+    )
   })
 }
 
