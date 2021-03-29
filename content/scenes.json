@@ -121166,7 +121166,7 @@
       "cutScene": false,
       "name": "Scenario 3: Antiquarian (Dialog)",
       "_created": "2020-02-09T20:43:18.676Z",
-      "_updated": "2020-07-07T20:44:15.083Z",
+      "_updated": "2021-03-25T16:43:59.524Z",
       "nodes": [
         {
           "autoSave": {
@@ -123742,7 +123742,7 @@
                     "type": "narrative",
                     "parameters": [
                       [
-                        "\"Hm. According to Brother Milton, some druids are able to commune with Volcanic Fae. He even goes as far to suggest that they interbreed... if this is true, then she might have been the offspring of such an unholy union... perhaps she was devoured by flames from within.\""
+                        "\"Hm. According to Friar Milton, some druids are able to commune with Volcanic Fae. He even goes as far to suggest that they interbreed... if this is true, then she might have been the offspring of such an unholy union... perhaps she was devoured by flames from within.\""
                       ]
                     ]
                   },
@@ -123756,7 +123756,7 @@
             },
             {
               "label": [
-                "Who is Brother Milton?"
+                "Who is Friar Milton?"
               ],
               "_id": "5e4166716c6b7000005e73cc",
               "actions": [],
@@ -124705,8 +124705,8 @@
             "conditions": []
           },
           "narrative": [
-            "He gives you a pouch of gold. \"This mask will be a fine addition to my collection, Pleasure doing business.\"",
-            "He gives you a pouch of gold. \"This mask will be a fine addition to my collection, Pleasure doing business, as always.\""
+            "He gives you a pouch of gold. \"This mask will be a fine addition to my collection. Pleasure doing business.\"",
+            "He gives you a pouch of gold. \"This mask will be a fine addition to my collection. Pleasure doing business, as always.\""
           ],
           "cutScene": false,
           "_id": "5e418930013fd70000b08b07",
