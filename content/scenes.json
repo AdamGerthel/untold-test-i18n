@@ -37342,9 +37342,7 @@
                   "event": {
                     "type": "narrative",
                     "parameters": [
-                      [
-                        "Too slow. Your ribcage is shattered by the horseman's lance. Death is instantaneous."
-                      ]
+                      []
                     ]
                   },
                   "actions": [
@@ -37374,7 +37372,20 @@
               ],
               "maxAccounts": 1,
               "parent": "5ce4d684c666a40000d6c85f",
-              "availability": []
+              "availability": [
+                {
+                  "parameters": [
+                    [
+                      "5ce48b2cc3e78f95085bca8a",
+                      "5ce4d438c666a40000d6c85d",
+                      "5ce4d6a8c666a40000d6c862"
+                    ]
+                  ],
+                  "_id": "61110006636c267b40b01c2d",
+                  "type": "hasUsedOption",
+                  "negate": true
+                }
+              ]
             },
             {
               "label": [
@@ -37757,7 +37768,7 @@
         }
       ],
       "_created": "2019-05-21T23:35:08.395Z",
-      "_updated": "2020-03-18T16:13:38.223Z",
+      "_updated": "2021-08-09T10:14:30.333Z",
       "__v": 0,
       "audio": [
         {
