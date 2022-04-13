@@ -71363,11 +71363,13 @@
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da6e41943f4c20000b5dca8",
+                  "_id": "5da6e4ac43f4c20000b5dcab",
                   "event": {
-                    "type": "node",
+                    "type": "narrative",
                     "parameters": [
-                      "5da6de9443f4c20000b5dc91"
+                      [
+                        "You have already plundered the Tomb of Hieronymus."
+                      ]
                     ]
                   },
                   "actions": [],
@@ -71381,9 +71383,8 @@
                           "5da6e25943f4c20000b5dca2"
                         ]
                       ],
-                      "_id": "5da6e5f9ff2c194e7edb2952",
-                      "type": "hasSeenOptionOutcome",
-                      "negate": true
+                      "_id": "60a6deff9412206dda5e7aa8",
+                      "type": "hasSeenOptionOutcome"
                     },
                     {
                       "parameters": [
@@ -71394,9 +71395,8 @@
                           "5da6e2a043f4c20000b5dca3"
                         ]
                       ],
-                      "_id": "5da6e5f9ff2c1935b3db2951",
-                      "type": "hasSeenOptionOutcome",
-                      "negate": true
+                      "_id": "60a6deff94122004455e7aa9",
+                      "type": "hasSeenOptionOutcome"
                     },
                     {
                       "parameters": [
@@ -71407,20 +71407,17 @@
                           "5da6e2d143f4c20000b5dca4"
                         ]
                       ],
-                      "_id": "5da8ee01ff2c19d918db2e8a",
-                      "type": "hasSeenOptionOutcome",
-                      "negate": true
+                      "_id": "60a6deff9412202cf25e7aaa",
+                      "type": "hasSeenOptionOutcome"
                     }
                   ]
                 },
                 {
-                  "_id": "5da6e4ac43f4c20000b5dcab",
+                  "_id": "5da6e41943f4c20000b5dca8",
                   "event": {
-                    "type": "narrative",
+                    "type": "node",
                     "parameters": [
-                      [
-                        "You have already plundered the Tomb of Hieronymus."
-                      ]
+                      "5da6de9443f4c20000b5dc91"
                     ]
                   },
                   "actions": [],
@@ -71746,11 +71743,13 @@
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da6e07d43f4c20000b5dc99",
+                  "_id": "5da6e6d143f4c20000b5dcaf",
                   "event": {
-                    "type": "node",
+                    "type": "narrative",
                     "parameters": [
-                      "5da6de9443f4c20000b5dc91"
+                      [
+                        "You have already plundered the Tomb of Hieronymus."
+                      ]
                     ]
                   },
                   "actions": [],
@@ -71764,9 +71763,8 @@
                           "5da6e25943f4c20000b5dca2"
                         ]
                       ],
-                      "_id": "5da6e763ff2c197ef6db296e",
-                      "type": "hasSeenOptionOutcome",
-                      "negate": true
+                      "_id": "60a6deff9412200ee75e7ac6",
+                      "type": "hasSeenOptionOutcome"
                     },
                     {
                       "parameters": [
@@ -71777,9 +71775,8 @@
                           "5da6e2a043f4c20000b5dca3"
                         ]
                       ],
-                      "_id": "5da6e763ff2c1921e2db296d",
-                      "type": "hasSeenOptionOutcome",
-                      "negate": true
+                      "_id": "60a6deff94122033ea5e7ac7",
+                      "type": "hasSeenOptionOutcome"
                     },
                     {
                       "parameters": [
@@ -71790,20 +71787,17 @@
                           "5da6e2d143f4c20000b5dca4"
                         ]
                       ],
-                      "_id": "5da6e763ff2c19f9d5db296c",
-                      "type": "hasSeenOptionOutcome",
-                      "negate": true
+                      "_id": "60a6deff94122058625e7ac8",
+                      "type": "hasSeenOptionOutcome"
                     }
                   ]
                 },
                 {
-                  "_id": "5da6e6d143f4c20000b5dcaf",
+                  "_id": "5da6e07d43f4c20000b5dc99",
                   "event": {
-                    "type": "narrative",
+                    "type": "node",
                     "parameters": [
-                      [
-                        "You have already plundered the Tomb of Hieronymus."
-                      ]
+                      "5da6de9443f4c20000b5dc91"
                     ]
                   },
                   "actions": [],
@@ -71817,7 +71811,7 @@
         }
       ],
       "_created": "2019-10-14T15:00:23.587Z",
-      "_updated": "2020-02-16T18:26:32.997Z",
+      "_updated": "2021-05-20T22:13:19.698Z",
       "__v": 0,
       "audio": []
     },
