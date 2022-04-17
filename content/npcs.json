@@ -2058,24 +2058,24 @@
       "_id": "5db200d7ff2c198d52db33ec",
       "combatActions": [],
       "name": "Rogue Archer",
-      "level": 11,
+      "level": 9,
       "strength": 3,
       "charisma": 1,
       "resilience": 2,
-      "agility": 4,
-      "perception": 5,
+      "agility": 3,
+      "perception": 4,
       "damage": {
         "min": 7,
         "max": 12
       },
-      "attacksPerSecond": 1.5,
+      "attacksPerSecond": 1.2,
       "experience": 20,
       "_created": "2019-10-24T19:51:51.230Z",
-      "_updated": "2020-11-09T21:26:50.090Z",
+      "_updated": "2022-04-15T16:15:17.781Z",
       "bargain": [],
       "__v": 0,
       "loot": "5d4ad8e38335b460ee884edc",
-      "armor": 40
+      "armor": 35
     },
     {
       "_id": "5db25d2bff2c198951db4d86",
