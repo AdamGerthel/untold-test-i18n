@@ -97,7 +97,7 @@
     {
       "_id": "5c85d3f30e3748205fc6035c",
       "combatActions": [],
-      "strength": 3,
+      "strength": 2,
       "charisma": 1,
       "resilience": 1,
       "agility": 2,
@@ -110,11 +110,11 @@
       },
       "_created": "2019-03-11T03:20:19.163Z",
       "__v": 0,
-      "_updated": "2020-04-17T22:54:47.010Z",
+      "_updated": "2022-06-17T05:49:41.612Z",
       "name": "Swordsman of Woe",
-      "level": 4,
+      "level": 3,
       "bargain": [],
-      "attacksPerSecond": 0.7
+      "attacksPerSecond": 0.65
     },
     {
       "_id": "5c869283bbdb6b1bf15865e2",
