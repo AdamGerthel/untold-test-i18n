@@ -21893,16 +21893,26 @@
     },
     {
       "_id": "5cb2d88fc065f0deb7942e55",
+      "autoSave": {
+        "save": false,
+        "conditions": []
+      },
       "npcs": [
         "5c9382f08a2593f906240653"
       ],
+      "cutScene": false,
       "name": "Dialog: Lone Merchant",
       "nodes": [
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "\"What's on your mind, stranger?\"",
             "\"Make it quick.\""
           ],
+          "cutScene": false,
           "_id": "5cb2d73f57cddf00007496c7",
           "options": [
             {
@@ -21951,7 +21961,7 @@
                       "parameters": [
                         "charisma",
                         "equals",
-                        "1"
+                        1
                       ],
                       "_id": "5cb2d88fc065f0329d942e5d",
                       "type": "stat"
@@ -21972,7 +21982,7 @@
                       "parameters": [
                         "charisma",
                         "greaterThanOrEqual",
-                        "2"
+                        2
                       ],
                       "_id": "5cb2da6cc065f08054942e8a",
                       "type": "stat"
@@ -22205,10 +22215,15 @@
           "audio": null
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "\"You know what? I might be able to help you out, after all. Purchased one flask from a shady druid a while back. Their secrets are well-guarded. I was planning to keep it, but I'd be willing to let it go for one hundred Gold.\"",
             "\"The price is one hundred Gold. Take it or leave it.\""
           ],
+          "cutScene": false,
           "_id": "5cb2d93757cddf00007496d1",
           "options": [
             {
@@ -22220,7 +22235,7 @@
                 {
                   "parameters": [
                     "gold",
-                    "-100"
+                    -100
                   ],
                   "_id": "5cb2e2d5c065f07f1b942ed7",
                   "type": "changeStat"
@@ -22245,7 +22260,7 @@
                   "parameters": [
                     "gold",
                     "greaterThanOrEqual",
-                    "100"
+                    100
                   ],
                   "_id": "5cb2da6cc065f0d0c5942e82",
                   "type": "stat"
@@ -22275,7 +22290,7 @@
                       "parameters": [
                         "charisma",
                         "lowerThanOrEqual",
-                        "2"
+                        2
                       ],
                       "_id": "5cb2e2d5c065f075c2942ed5",
                       "type": "stat"
@@ -22296,7 +22311,7 @@
                       "parameters": [
                         "charisma",
                         "greaterThanOrEqual",
-                        "3"
+                        3
                       ],
                       "_id": "5cb2e7bac065f0b1fe942f61",
                       "type": "stat"
@@ -22332,7 +22347,7 @@
                   "parameters": [
                     "gold",
                     "lowerThan",
-                    "100"
+                    100
                   ],
                   "_id": "5cb2e2d5c065f02861942ed2",
                   "type": "stat"
@@ -22384,9 +22399,14 @@
           "audio": null
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "\"Make that seventy-five and we have a deal.\""
           ],
+          "cutScene": false,
           "_id": "5cb2da1557cddf00007496d4",
           "options": [
             {
@@ -22398,7 +22418,7 @@
                 {
                   "parameters": [
                     "gold",
-                    "-75"
+                    -75
                   ],
                   "_id": "5cb2e7bac065f09344942f54",
                   "type": "changeStat"
@@ -22423,7 +22443,7 @@
                   "parameters": [
                     "gold",
                     "greaterThanOrEqual",
-                    "75"
+                    75
                   ],
                   "_id": "5cb2e7bac065f00218942f56",
                   "type": "stat"
@@ -22456,7 +22476,7 @@
                   "parameters": [
                     "gold",
                     "lowerThan",
-                    "75"
+                    75
                   ],
                   "_id": "5cb2e7bac065f0463a942f52",
                   "type": "stat"
@@ -22521,9 +22541,14 @@
           "audio": null
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "Having finished counting the coins, the merchant heads for the old tavern. \"Wait here.\""
           ],
+          "cutScene": false,
           "_id": "5cb2da1b57cddf00007496d5",
           "options": [
             {
@@ -22584,9 +22609,14 @@
           "audio": null
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "The merchant glares at you. \"Don't be foolish. I keep it somewhere safe. Doesn't matter if you kill me. You'll never find it.\" He clears his throat. \"Get out of my sight, ruffian.\""
           ],
+          "cutScene": false,
           "_id": "5cb2df5e57cddf00007496d9",
           "options": [
             {
@@ -22606,17 +22636,21 @@
                   "conditions": []
                 }
               ],
-              "maxAccounts": 1,
               "availability": []
             }
           ],
           "audio": null
         },
         {
+          "autoSave": {
+            "save": false,
+            "conditions": []
+          },
           "narrative": [
             "The lone merchant is standing near the entrance to an old tavern. He greets you wearily.",
             "The lone merchant is standing near the entrance to an old tavern."
           ],
+          "cutScene": false,
           "_id": "5cb2fcb3cf9dc10000feb7ff",
           "options": [
             {
@@ -22718,7 +22752,7 @@
         }
       ],
       "_created": "2019-04-14T06:51:59.223Z",
-      "_updated": "2019-04-18T05:21:11.231Z",
+      "_updated": "2022-05-16T18:35:45.392Z",
       "__v": 0,
       "audio": null
     },
