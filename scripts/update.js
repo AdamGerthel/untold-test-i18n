@@ -49,9 +49,9 @@ const init = async function () {
     const audio = media.data.filter(e => e.type === 'audio')
 
     for (let entity of audio) {
-      await downloadMedia(entity, 'mp3', {
-        width: 1300,
-        invalidate: true
+      await downloadMedia(entity, 'm4a', {
+        invalidate: true,
+        audio_codec: 'aac'
       })
     }
 
@@ -67,7 +67,7 @@ const init = async function () {
 
     // Generate index file for media files
     const imageIndex = buildIndex(images, 'image', 'jpg')
-    const audioIndex = buildIndex(audio, 'audio', 'mp3')
+    const audioIndex = buildIndex(audio, 'audio', 'm4a')
 
     await fs.promises.writeFile(
       'media/index.js',
