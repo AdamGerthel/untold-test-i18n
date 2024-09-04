@@ -1,2 +1,21 @@
+# Dependencies
 /node_modules
+
+# Config
 /.env
+
+# OSX
+.DS_Store
+
+# Media Folders
+!/media/audio/.gitkeep
+!/media/images/.gitkeep
+
+# Yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

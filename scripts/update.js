@@ -4,12 +4,14 @@ const request = require('request')
 const req = request.defaults({ baseUrl: process.env.CYOA_EDITOR_URL + '/' })
 
 const resources = [
+  'achievements',
   'areas',
   'items',
   'locations',
   'lootTables',
   'media',
   'npcs',
+  'npcTemplates',
   'paths',
   'quests',
   'scenes',
@@ -19,6 +21,15 @@ const resources = [
 ]
 
 const init = async function () {
+  const { env } = process
+
+  const updatesToRun = {
+    media: {
+      audio: env.EXCLUDE === 'media' || env.EXCLUDE === 'media.audio' ? false : true,
+      images: env.EXCLUDE === 'media' || env.EXCLUDE === 'media.images' ? false : true
+    }
+  }
+
   try {
     // Download and save content files
     const data = await Promise.all(resources.map(resource => getResource(resource)))
@@ -38,51 +49,67 @@ const init = async function () {
 
     await fs.promises.writeFile('content/index.js', `module.exports = {${contentIndex}\n}`)
 
-    if (process.env.ONLY === 'content') {
-      console.log('Content updated 💫')
-      process.exit()
-    }
+    console.log('Content updated 💫')
 
     const media = JSON.parse(data[resources.indexOf('media')])
 
-    // Download and save audio
     const audio = media.data.filter(e => e.type === 'audio')
-
-    for (let entity of audio) {
-      await downloadMedia(entity, 'm4a', {
-        invalidate: true,
-        audio_codec: 'aac'
-      })
-    }
-
-    // Download and save images
     const images = media.data.filter(e => e.type === 'image')
-
-    for (let entity of images) {
-      await downloadMedia(entity, 'jpg', {
-        width: 1750,
-        invalidate: true
-      })
-    }
+    const audioExtension = 'm4a'
+    const imageExtension = 'webp'
 
     // Generate index file for media files
-    const imageIndex = buildIndex(images, 'image', 'jpg')
-    const audioIndex = buildIndex(audio, 'audio', 'm4a')
+    const imageIndex = buildIndex(images, imageExtension, 'image')
+    const audioIndex = buildIndex(audio, audioExtension, 'audio')
 
     await fs.promises.writeFile(
       'media/index.js',
       `module.exports = {\n  image: {${imageIndex}\n  },\n  audio: {${audioIndex}\n  }\n}`
     )
+
+    // Download media files
+    if (updatesToRun.media.audio) {
+      for (let entity of audio) {
+        await downloadMedia(entity, audioExtension, {
+          invalidate: true,
+          audio_codec: 'aac'
+        })
+      }
+
+      console.log('Audio files updated 💫')
+    }
+
+    if (updatesToRun.media.images) {
+      const defaultParams = { invalidate: true }
+      const backgroundImageParams = { width: 1400 }
+      const characterImageParams = { height: 500 }
+
+      for (let entity of images) {
+        if (!entity.category?.length) {
+          console.error(`❌ Media ${entity._id} (${entity.name}) is missing category.`)
+          return
+        }
+
+        const params = Object.assign(
+          { ...defaultParams },
+          entity.category.includes('background') ? backgroundImageParams : characterImageParams
+        )
+
+        await downloadMedia(entity, imageExtension, params)
+      }
+
+      console.log('Images updated 💫')
+    }
   } catch (error) {
     console.log(error)
   } finally {
-    console.log('Content updated 💫')
+    console.log('All done! 💫')
     process.exit()
   }
 }
 
-const downloadMedia = function (entity, fileFormat, params) {
-  const fileName = `${entity._id}.${fileFormat}`
+const downloadMedia = function (entity, extension, params) {
+  const fileName = `${entity._id}.${extension}`
   const file = fs.createWriteStream(`media/${entity.type}/${fileName}`)
   console.log(`Fetching media/${fileName}...`)
 
@@ -91,15 +118,10 @@ const downloadMedia = function (entity, fileFormat, params) {
       url: `media/${fileName}`,
       qs: params,
       headers: {
-        Accept:
-          'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Accept-Language': 'en-US,en;q=0.9,fr;q=0.8,ro;q=0.7,ru;q=0.6,la;q=0.5,pt;q=0.4,de;q=0.3',
+        Accept: `*/${extension}`,
         'Cache-Control': 'max-age=0',
         Connection: 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-        'User-Agent':
-          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+        'Upgrade-Insecure-Requests': '1'
       }
     })
       .pipe(file)
@@ -112,22 +134,44 @@ const downloadMedia = function (entity, fileFormat, params) {
   })
 }
 
-const buildIndex = function (data = [], path, fileFormat) {
+const buildIndex = function (data = [], extension, path) {
   return data.reduce((total, entity) => {
-    total = total + `\n    '${entity._id}': require('./${path}/${entity._id}.${fileFormat}'),`
+    total = total + `\n    '${entity._id}': require('./${path}/${entity._id}.${extension}'),`
     return total
   }, '')
 }
 
 const getResource = function (resource) {
+  const query = {
+    $limit: 5000,
+    $sort: '_created'
+  }
+
+  if (resource === 'scenes') {
+    query.$select = [
+      '_id',
+      'cutScene',
+      'name',
+      'npcs',
+      'audio',
+      'background',
+      'autoSave',
+      'nodes._id',
+      'nodes.narrative',
+      'nodes.options',
+      'nodes.autoSave',
+      'nodes.background',
+      'nodes.audio',
+      'nodes.cutScene',
+      'nodes.__v'
+    ]
+  }
+
   return new Promise((resolve, reject) => {
     req(
       {
         method: 'GET',
-        qs: {
-          $limit: 5000,
-          $sort: '_created'
-        },
+        qs: query,
         url: resource
       },
       function (error, response, body) {

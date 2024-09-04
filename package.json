@@ -1,15 +1,18 @@
 {
-  "name": "untold-data",
+  "name": "eldrum-untold-data",
   "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "update": "node scripts/update.js",
-    "update:content": "ONLY=content node scripts/update.js"
+    "update:content": "EXCLUDE=media node scripts/update.js",
+    "update:media:images": "EXCLUDE=media.audio node scripts/update.js",
+    "update:media:audio": "EXCLUDE=media.images node scripts/update.js"
   },
   "dependencies": {
     "dotenv": "^8.1.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
-  }
+  },
+  "packageManager": "yarn@4.4.1"
 }

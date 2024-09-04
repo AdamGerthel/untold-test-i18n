@@ -1,15 +1,18 @@
 {
   "data": [
     {
-      "_id": "5df2a8acf75a9775f45a0787",
-      "_created": "2019-12-12T20:53:00.785Z",
-      "_updated": "2019-12-12T20:53:00.785Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a9775f45a0787",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332609/cyoa-editor/5df2a8acf75a9775f45a0787.png",
-      "remote_version": 1576332609,
+      "_id": "5dd70e76f75a97009a59eaf4",
+      "_created": "2019-11-21T22:23:50.356Z",
+      "_updated": "2019-11-21T22:23:50.356Z",
+      "remote_id": "cyoa-editor/5dd70e76f75a97009a59eaf4",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1574866263/cyoa-editor/5dd70e76f75a97009a59eaf4.png",
+      "remote_version": 1574866263,
       "__v": 0,
       "name": "",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dd70e76f75a97345759eaf1",
@@ -20,40 +23,10 @@
       "remote_version": 1574866271,
       "__v": 0,
       "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5de435f1f75a975a2a59f0e3",
-      "_created": "2019-12-01T21:51:45.279Z",
-      "_updated": "2019-12-01T21:51:45.279Z",
-      "remote_id": "cyoa-editor/5de435f1f75a975a2a59f0e3",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731933/cyoa-editor/5de435f1f75a975a2a59f0e3.png",
-      "remote_version": 1575731933,
-      "__v": 0,
-      "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5de435f1f75a977c4e59f0e1",
-      "_created": "2019-12-01T21:51:45.264Z",
-      "_updated": "2019-12-01T21:51:45.264Z",
-      "remote_id": "cyoa-editor/5de435f1f75a977c4e59f0e1",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731936/cyoa-editor/5de435f1f75a977c4e59f0e1.png",
-      "remote_version": 1575731936,
-      "__v": 0,
-      "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5dd70ed8f75a97434a59eb16",
-      "_created": "2019-11-21T22:25:28.409Z",
-      "_updated": "2019-11-21T22:25:28.409Z",
-      "remote_id": "cyoa-editor/5dd70ed8f75a97434a59eb16",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1574866252/cyoa-editor/5dd70ed8f75a97434a59eb16.png",
-      "remote_version": 1574866252,
-      "__v": 0,
-      "name": "",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dd70e76f75a9777bd59eaf5",
@@ -64,51 +37,10 @@
       "remote_version": 1574866253,
       "__v": 0,
       "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5dd70e76f75a97009a59eaf4",
-      "_created": "2019-11-21T22:23:50.356Z",
-      "_updated": "2019-11-21T22:23:50.356Z",
-      "remote_id": "cyoa-editor/5dd70e76f75a97009a59eaf4",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1574866263/cyoa-editor/5dd70e76f75a97009a59eaf4.png",
-      "remote_version": 1574866263,
-      "__v": 0,
-      "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5df2a8acf75a976c125a0786",
-      "_created": "2019-12-12T20:53:00.783Z",
-      "_updated": "2019-12-12T20:53:00.783Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a976c125a0786",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332680/cyoa-editor/5df2a8acf75a976c125a0786.png",
-      "remote_version": 1576332680,
-      "__v": 0,
-      "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5df2a8acf75a97fecd5a0788",
-      "_created": "2019-12-12T20:53:00.789Z",
-      "_updated": "2019-12-12T20:53:00.789Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a97fecd5a0788",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332666/cyoa-editor/5df2a8acf75a97fecd5a0788.png",
-      "remote_version": 1576332666,
-      "__v": 0,
-      "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5df2a8acf75a974ff05a078a",
-      "_created": "2019-12-12T20:53:00.803Z",
-      "_updated": "2019-12-12T20:53:00.803Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a974ff05a078a",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332658/cyoa-editor/5df2a8acf75a974ff05a078a.png",
-      "remote_version": 1576332658,
-      "__v": 0,
-      "name": "",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dd70e76f75a978bef59eaef",
@@ -119,40 +51,24 @@
       "remote_version": 1574866276,
       "__v": 0,
       "name": "",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
-      "_id": "5df2a8acf75a97d9995a078c",
-      "_created": "2019-12-12T20:53:00.856Z",
-      "_updated": "2019-12-12T20:53:00.856Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a97d9995a078c",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332646/cyoa-editor/5df2a8acf75a97d9995a078c.png",
-      "remote_version": 1576332646,
+      "_id": "5dd70ed8f75a97434a59eb16",
+      "_created": "2019-11-21T22:25:28.409Z",
+      "_updated": "2019-11-21T22:25:28.409Z",
+      "remote_id": "cyoa-editor/5dd70ed8f75a97434a59eb16",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1574866252/cyoa-editor/5dd70ed8f75a97434a59eb16.png",
+      "remote_version": 1574866252,
       "__v": 0,
       "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5de435f1f75a97a3ff59f0e2",
-      "_created": "2019-12-01T21:51:45.273Z",
-      "_updated": "2019-12-01T21:51:45.273Z",
-      "remote_id": "cyoa-editor/5de435f1f75a97a3ff59f0e2",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731953/cyoa-editor/5de435f1f75a97a3ff59f0e2.png",
-      "remote_version": 1575731953,
-      "__v": 0,
-      "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5de435f1f75a97912459f0e5",
-      "_created": "2019-12-01T21:51:45.283Z",
-      "_updated": "2019-12-01T21:51:45.283Z",
-      "remote_id": "cyoa-editor/5de435f1f75a97912459f0e5",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731960/cyoa-editor/5de435f1f75a97912459f0e5.png",
-      "remote_version": 1575731960,
-      "__v": 0,
-      "name": "",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5de435f1f75a97165259f0e6",
@@ -163,95 +79,10 @@
       "remote_version": 1575731964,
       "__v": 0,
       "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5de435f1f75a973dea59f0e4",
-      "_created": "2019-12-01T21:51:45.281Z",
-      "_updated": "2019-12-01T21:51:45.281Z",
-      "remote_id": "cyoa-editor/5de435f1f75a973dea59f0e4",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731981/cyoa-editor/5de435f1f75a973dea59f0e4.png",
-      "remote_version": 1575731981,
-      "__v": 0,
-      "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5df2a8acf75a9701f45a078e",
-      "_created": "2019-12-12T20:53:00.863Z",
-      "_updated": "2019-12-12T20:53:00.863Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a9701f45a078e",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332635/cyoa-editor/5df2a8acf75a9701f45a078e.png",
-      "remote_version": 1576332635,
-      "__v": 0,
-      "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5df2a8acf75a97106e5a078d",
-      "_created": "2019-12-12T20:53:00.859Z",
-      "_updated": "2019-12-12T20:53:00.859Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a97106e5a078d",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332624/cyoa-editor/5df2a8acf75a97106e5a078d.png",
-      "remote_version": 1576332624,
-      "__v": 0,
-      "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5de435f1f75a97b71459f0e8",
-      "_created": "2019-12-01T21:51:45.315Z",
-      "_updated": "2019-12-01T21:51:45.315Z",
-      "remote_id": "cyoa-editor/5de435f1f75a97b71459f0e8",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731986/cyoa-editor/5de435f1f75a97b71459f0e8.png",
-      "remote_version": 1575731986,
-      "__v": 0,
-      "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5de435f1f75a9795c059f0e9",
-      "_created": "2019-12-01T21:51:45.343Z",
-      "_updated": "2019-12-01T21:51:45.343Z",
-      "remote_id": "cyoa-editor/5de435f1f75a9795c059f0e9",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731991/cyoa-editor/5de435f1f75a9795c059f0e9.png",
-      "remote_version": 1575731991,
-      "__v": 0,
-      "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5df2a8acf75a97e6625a0789",
-      "_created": "2019-12-12T20:53:00.798Z",
-      "_updated": "2019-12-12T20:53:00.798Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a97e6625a0789",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332600/cyoa-editor/5df2a8acf75a97e6625a0789.png",
-      "remote_version": 1576332600,
-      "__v": 0,
-      "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5df2a8acf75a971cb25a078b",
-      "_created": "2019-12-12T20:53:00.817Z",
-      "_updated": "2019-12-12T20:53:00.817Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a971cb25a078b",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332587/cyoa-editor/5df2a8acf75a971cb25a078b.png",
-      "remote_version": 1576332587,
-      "__v": 0,
-      "name": "",
-      "type": "image"
-    },
-    {
-      "_id": "5df2a8acf75a9795e95a0785",
-      "_created": "2019-12-12T20:53:00.709Z",
-      "_updated": "2019-12-12T20:53:00.709Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a9795e95a0785",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332577/cyoa-editor/5df2a8acf75a9795e95a0785.png",
-      "remote_version": 1576332577,
-      "__v": 0,
-      "name": "",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5de435f1f75a9734ea59f0e0",
@@ -262,7 +93,248 @@
       "remote_version": 1575731946,
       "__v": 0,
       "name": "",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5de435f1f75a973dea59f0e4",
+      "_created": "2019-12-01T21:51:45.281Z",
+      "_updated": "2019-12-01T21:51:45.281Z",
+      "remote_id": "cyoa-editor/5de435f1f75a973dea59f0e4",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731981/cyoa-editor/5de435f1f75a973dea59f0e4.png",
+      "remote_version": 1575731981,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5de435f1f75a975a2a59f0e3",
+      "_created": "2019-12-01T21:51:45.279Z",
+      "_updated": "2019-12-01T21:51:45.279Z",
+      "remote_id": "cyoa-editor/5de435f1f75a975a2a59f0e3",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731933/cyoa-editor/5de435f1f75a975a2a59f0e3.png",
+      "remote_version": 1575731933,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5de435f1f75a977c4e59f0e1",
+      "_created": "2019-12-01T21:51:45.264Z",
+      "_updated": "2019-12-01T21:51:45.264Z",
+      "remote_id": "cyoa-editor/5de435f1f75a977c4e59f0e1",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731936/cyoa-editor/5de435f1f75a977c4e59f0e1.png",
+      "remote_version": 1575731936,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5de435f1f75a97912459f0e5",
+      "_created": "2019-12-01T21:51:45.283Z",
+      "_updated": "2019-12-01T21:51:45.283Z",
+      "remote_id": "cyoa-editor/5de435f1f75a97912459f0e5",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731960/cyoa-editor/5de435f1f75a97912459f0e5.png",
+      "remote_version": 1575731960,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5de435f1f75a9795c059f0e9",
+      "_created": "2019-12-01T21:51:45.343Z",
+      "_updated": "2019-12-01T21:51:45.343Z",
+      "remote_id": "cyoa-editor/5de435f1f75a9795c059f0e9",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731991/cyoa-editor/5de435f1f75a9795c059f0e9.png",
+      "remote_version": 1575731991,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5de435f1f75a97a3ff59f0e2",
+      "_created": "2019-12-01T21:51:45.273Z",
+      "_updated": "2019-12-01T21:51:45.273Z",
+      "remote_id": "cyoa-editor/5de435f1f75a97a3ff59f0e2",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731953/cyoa-editor/5de435f1f75a97a3ff59f0e2.png",
+      "remote_version": 1575731953,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5de435f1f75a97b71459f0e8",
+      "_created": "2019-12-01T21:51:45.315Z",
+      "_updated": "2019-12-01T21:51:45.315Z",
+      "remote_id": "cyoa-editor/5de435f1f75a97b71459f0e8",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1575731986/cyoa-editor/5de435f1f75a97b71459f0e8.png",
+      "remote_version": 1575731986,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5df2a8acf75a9701f45a078e",
+      "_created": "2019-12-12T20:53:00.863Z",
+      "_updated": "2019-12-12T20:53:00.863Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a9701f45a078e",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332635/cyoa-editor/5df2a8acf75a9701f45a078e.png",
+      "remote_version": 1576332635,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5df2a8acf75a97106e5a078d",
+      "_created": "2019-12-12T20:53:00.859Z",
+      "_updated": "2019-12-12T20:53:00.859Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a97106e5a078d",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332624/cyoa-editor/5df2a8acf75a97106e5a078d.png",
+      "remote_version": 1576332624,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5df2a8acf75a971cb25a078b",
+      "_created": "2019-12-12T20:53:00.817Z",
+      "_updated": "2019-12-12T20:53:00.817Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a971cb25a078b",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332587/cyoa-editor/5df2a8acf75a971cb25a078b.png",
+      "remote_version": 1576332587,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5df2a8acf75a974ff05a078a",
+      "_created": "2019-12-12T20:53:00.803Z",
+      "_updated": "2019-12-12T20:53:00.803Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a974ff05a078a",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332658/cyoa-editor/5df2a8acf75a974ff05a078a.png",
+      "remote_version": 1576332658,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5df2a8acf75a976c125a0786",
+      "_created": "2019-12-12T20:53:00.783Z",
+      "_updated": "2019-12-12T20:53:00.783Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a976c125a0786",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332680/cyoa-editor/5df2a8acf75a976c125a0786.png",
+      "remote_version": 1576332680,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5df2a8acf75a9775f45a0787",
+      "_created": "2019-12-12T20:53:00.785Z",
+      "_updated": "2019-12-12T20:53:00.785Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a9775f45a0787",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332609/cyoa-editor/5df2a8acf75a9775f45a0787.png",
+      "remote_version": 1576332609,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5df2a8acf75a9795e95a0785",
+      "_created": "2019-12-12T20:53:00.709Z",
+      "_updated": "2019-12-12T20:53:00.709Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a9795e95a0785",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332577/cyoa-editor/5df2a8acf75a9795e95a0785.png",
+      "remote_version": 1576332577,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5df2a8acf75a97d9995a078c",
+      "_created": "2019-12-12T20:53:00.856Z",
+      "_updated": "2019-12-12T20:53:00.856Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a97d9995a078c",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332646/cyoa-editor/5df2a8acf75a97d9995a078c.png",
+      "remote_version": 1576332646,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5df2a8acf75a97e6625a0789",
+      "_created": "2019-12-12T20:53:00.798Z",
+      "_updated": "2019-12-12T20:53:00.798Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a97e6625a0789",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332600/cyoa-editor/5df2a8acf75a97e6625a0789.png",
+      "remote_version": 1576332600,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5df2a8acf75a97fecd5a0788",
+      "_created": "2019-12-12T20:53:00.789Z",
+      "_updated": "2019-12-12T20:53:00.789Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a97fecd5a0788",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332666/cyoa-editor/5df2a8acf75a97fecd5a0788.png",
+      "remote_version": 1576332666,
+      "__v": 0,
+      "name": "",
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5da38f7cc55b7f4e34f52876",
@@ -273,7 +345,10 @@
       "remote_version": 1574118959,
       "__v": 0,
       "name": "Abandoned Shack",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e601345fe7d0d5be16c91ea",
@@ -295,7 +370,10 @@
       "remote_version": 1574118933,
       "__v": 0,
       "name": "After grove",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e10ce5d76343333ea5ac8e7",
@@ -713,7 +791,10 @@
       "remote_id": "cyoa-editor/5e204a9798fb233a81ff906a",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278203/cyoa-editor/5e204a9798fb233a81ff906a.png",
       "remote_version": 1579278203,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5da38f7bc55b7fac75f52870",
@@ -724,7 +805,10 @@
       "remote_version": 1574118995,
       "__v": 0,
       "name": "Beach",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e204a9798fb2378cdff9067",
@@ -735,7 +819,10 @@
       "remote_id": "cyoa-editor/5e204a9798fb2378cdff9067",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278186/cyoa-editor/5e204a9798fb2378cdff9067.png",
       "remote_version": 1579278186,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e204a9798fb234e2fff906d",
@@ -746,7 +833,10 @@
       "remote_id": "cyoa-editor/5e204a9798fb234e2fff906d",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278220/cyoa-editor/5e204a9798fb234e2fff906d.png",
       "remote_version": 1579278220,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e204a9798fb2302b6ff906b",
@@ -757,7 +847,80 @@
       "remote_id": "cyoa-editor/5e204a9798fb2302b6ff906b",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278206/cyoa-editor/5e204a9798fb2302b6ff906b.png",
       "remote_version": 1579278206,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "66d8265d15ccc12663427d15",
+      "type": "image",
+      "name": "C - Arturo",
+      "_created": "2024-09-04T09:20:29.193Z",
+      "_updated": "2024-09-04T09:20:29.193Z",
+      "remote_id": "cyoa-editor/66d8265d15ccc12663427d15",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725441630/cyoa-editor/66d8265d15ccc12663427d15.png",
+      "remote_version": 1725441630,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66d82a8b15ccc12663428a2c",
+      "type": "image",
+      "name": "C - Dog - A",
+      "_created": "2024-09-04T09:38:19.993Z",
+      "_updated": "2024-09-04T09:38:19.993Z",
+      "remote_id": "cyoa-editor/66d82a8b15ccc12663428a2c",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725442701/cyoa-editor/66d82a8b15ccc12663428a2c.png",
+      "remote_version": 1725442701,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66d8272c15ccc12663427e78",
+      "type": "image",
+      "name": "C - ForeignCommander",
+      "_created": "2024-09-04T09:23:56.264Z",
+      "_updated": "2024-09-04T09:23:56.264Z",
+      "remote_id": "cyoa-editor/66d8272c15ccc12663427e78",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725441837/cyoa-editor/66d8272c15ccc12663427e78.png",
+      "remote_version": 1725441837,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66d8272c15ccc12663427e79",
+      "type": "image",
+      "name": "C - ForeignSoldierHeavy",
+      "_created": "2024-09-04T09:23:56.329Z",
+      "_updated": "2024-09-04T09:23:56.329Z",
+      "remote_id": "cyoa-editor/66d8272c15ccc12663427e79",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725441837/cyoa-editor/66d8272c15ccc12663427e79.png",
+      "remote_version": 1725441837,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66d828d715ccc126634288ca",
+      "type": "image",
+      "name": "C-ForeignSoldierSkirmish",
+      "_created": "2024-09-04T09:31:03.235Z",
+      "_updated": "2024-09-04T09:31:03.235Z",
+      "remote_id": "cyoa-editor/66d828d715ccc126634288ca",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725442264/cyoa-editor/66d828d715ccc126634288ca.png",
+      "remote_version": 1725442264,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
     },
     {
       "_id": "5e204b7198fb234f51ff906f",
@@ -768,7 +931,10 @@
       "remote_id": "cyoa-editor/5e204b7198fb234f51ff906f",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278243/cyoa-editor/5e204b7198fb234f51ff906f.png",
       "remote_version": 1579278243,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dbd80e3ff2c191859db7f40",
@@ -779,7 +945,10 @@
       "remote_version": 1574073349,
       "__v": 0,
       "name": "Dusk Megalith - Catacombs",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dbd5d9bff2c194c3bdb7e5e",
@@ -790,7 +959,10 @@
       "remote_version": 1574073352,
       "__v": 0,
       "name": "Dusk Megalith - Chapels",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dbd7faaff2c1923a6db7f20",
@@ -801,7 +973,10 @@
       "remote_version": 1574073361,
       "__v": 0,
       "name": "Dusk Megalith - Crypts",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dbd5d04ff2c19263fdb7e31",
@@ -812,7 +987,10 @@
       "remote_version": 1574073357,
       "__v": 0,
       "name": "Dusk Megalith - Dark Chamber",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dbd7fabff2c198dc9db7f22",
@@ -823,7 +1001,10 @@
       "remote_version": 1574073369,
       "__v": 0,
       "name": "Dusk Megalith - Galley",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dbd8064ff2c1992c4db7f26",
@@ -834,7 +1015,10 @@
       "remote_version": 1574073373,
       "__v": 0,
       "name": "Dusk Megalith - Living Quarters",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dbd7fabff2c198160db7f23",
@@ -845,7 +1029,10 @@
       "remote_version": 1574073383,
       "__v": 0,
       "name": "Dusk Megalith - Port Spire",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dbd7fabff2c1972f7db7f21",
@@ -856,7 +1043,10 @@
       "remote_version": 1574073389,
       "__v": 0,
       "name": "Dusk Megalith - Prison",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dbd8059ff2c1997b4db7f25",
@@ -867,7 +1057,10 @@
       "remote_version": 1574073391,
       "__v": 0,
       "name": "Dusk Megalith - Temple Gardens",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dbd5cfeff2c198020db7e30",
@@ -878,7 +1071,10 @@
       "remote_version": 1574073400,
       "__v": 0,
       "name": "Dusk Megalith - Triad Apex",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5da38f7cc55b7f4fd3f52878",
@@ -889,7 +1085,10 @@
       "remote_version": 1574073618,
       "__v": 0,
       "name": "Dusk Megalith - Twilight Arches",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e204a9798fb237db2ff906c",
@@ -900,7 +1099,10 @@
       "remote_id": "cyoa-editor/5e204a9798fb237db2ff906c",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278212/cyoa-editor/5e204a9798fb237db2ff906c.png",
       "remote_version": 1579278212,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e204a9798fb23b753ff906e",
@@ -911,7 +1113,10 @@
       "remote_id": "cyoa-editor/5e204a9798fb23b753ff906e",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278230/cyoa-editor/5e204a9798fb23b753ff906e.png",
       "remote_version": 1579278230,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e61368e60116c8d7b62709b",
@@ -922,7 +1127,10 @@
       "remote_id": "cyoa-editor/5e61368e60116c8d7b62709b",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583825782/cyoa-editor/5e61368e60116c8d7b62709b.png",
       "remote_version": 1583825782,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e61364e60116c057d62709a",
@@ -933,7 +1141,10 @@
       "remote_id": "cyoa-editor/5e61364e60116c057d62709a",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583529738/cyoa-editor/5e61364e60116c057d62709a.png",
       "remote_version": 1583529738,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e61368e60116c768362709c",
@@ -944,7 +1155,10 @@
       "remote_id": "cyoa-editor/5e61368e60116c768362709c",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583529654/cyoa-editor/5e61368e60116c768362709c.png",
       "remote_version": 1583529654,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dd70d7cf75a97bb6c59ea89",
@@ -955,7 +1169,10 @@
       "remote_version": 1574866355,
       "__v": 0,
       "name": "Galley (Ocean)",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e204f8f98fb2315cbff9072",
@@ -966,7 +1183,10 @@
       "remote_id": "cyoa-editor/5e204f8f98fb2315cbff9072",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278245/cyoa-editor/5e204f8f98fb2315cbff9072.png",
       "remote_version": 1579278245,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5de435f1f75a97e6bd59f0df",
@@ -977,7 +1197,10 @@
       "remote_version": 1575731914,
       "__v": 0,
       "name": "Grasslands of Roe",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e204f8f98fb236e7fff9070",
@@ -988,7 +1211,10 @@
       "remote_id": "cyoa-editor/5e204f8f98fb236e7fff9070",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278247/cyoa-editor/5e204f8f98fb236e7fff9070.png",
       "remote_version": 1579278247,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e204a9798fb231311ff9068",
@@ -999,7 +1225,10 @@
       "remote_id": "cyoa-editor/5e204a9798fb231311ff9068",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278190/cyoa-editor/5e204a9798fb231311ff9068.png",
       "remote_version": 1579278190,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e23107a98fb23b718ff919b",
@@ -1065,7 +1294,10 @@
       "remote_version": 1574118968,
       "__v": 0,
       "name": "Isle of Dusk - Before forest camp",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5da38f7cc55b7f31aef52879",
@@ -1076,7 +1308,10 @@
       "remote_version": 1574118974,
       "__v": 0,
       "name": "Isle of Dusk - Forest Camp",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5da38f7cc55b7f243ff5287a",
@@ -1087,7 +1322,10 @@
       "remote_version": 1574118978,
       "__v": 0,
       "name": "Isle of Dusk - Grove",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5da38f7cc55b7f3ce9f5287b",
@@ -1098,7 +1336,10 @@
       "remote_version": 1574118985,
       "__v": 0,
       "name": "Isle of Dusk - Path to Grove",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5da38f7cc55b7fb198f52872",
@@ -1109,7 +1350,10 @@
       "remote_version": 1574118991,
       "__v": 0,
       "name": "Lagoon",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e204f8f98fb235917ff9075",
@@ -1120,7 +1364,10 @@
       "remote_id": "cyoa-editor/5e204f8f98fb235917ff9075",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278258/cyoa-editor/5e204f8f98fb235917ff9075.png",
       "remote_version": 1579278258,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e10ce4576343396915ac8df",
@@ -1318,7 +1565,10 @@
       "remote_id": "cyoa-editor/5e45bf66a74d956793de4c51",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752487/cyoa-editor/5e45bf66a74d956793de4c51.png",
       "remote_version": 1582752487,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e61373260116c0f4a6270a1",
@@ -1329,7 +1579,10 @@
       "remote_id": "cyoa-editor/5e61373260116c0f4a6270a1",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583529795/cyoa-editor/5e61373260116c0f4a6270a1.png",
       "remote_version": 1583529795,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e45bf33a74d95ca96de4c4d",
@@ -1340,7 +1593,10 @@
       "remote_id": "cyoa-editor/5e45bf33a74d95ca96de4c4d",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752493/cyoa-editor/5e45bf33a74d95ca96de4c4d.png",
       "remote_version": 1582752493,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5de435f1f75a97f8a059f0e7",
@@ -1351,7 +1607,10 @@
       "remote_version": 1575731976,
       "__v": 0,
       "name": "Northern Plains",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e204f8f98fb237102ff9073",
@@ -1362,7 +1621,10 @@
       "remote_id": "cyoa-editor/5e204f8f98fb237102ff9073",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278251/cyoa-editor/5e204f8f98fb237102ff9073.png",
       "remote_version": 1579278251,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5da38f7bc55b7f5dcaf52871",
@@ -1373,7 +1635,10 @@
       "remote_version": 1574073627,
       "__v": 0,
       "name": "Pylon",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e45bf73a74d953407de4c52",
@@ -1384,7 +1649,10 @@
       "remote_id": "cyoa-editor/5e45bf73a74d953407de4c52",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752651/cyoa-editor/5e45bf73a74d953407de4c52.png",
       "remote_version": 1582752651,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e204a9798fb2305f1ff9069",
@@ -1395,7 +1663,10 @@
       "remote_id": "cyoa-editor/5e204a9798fb2305f1ff9069",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278198/cyoa-editor/5e204a9798fb2305f1ff9069.png",
       "remote_version": 1579278198,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dd70e76f75a97ebaa59eaed",
@@ -1406,7 +1677,10 @@
       "remote_version": 1574866327,
       "__v": 0,
       "name": "Sea of Twilight - Cape Ram",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dd70e76f75a97f66959eaee",
@@ -1417,7 +1691,10 @@
       "remote_version": 1574866330,
       "__v": 0,
       "name": "Sea of Twilight - Selikro Delta",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dd70d7cf75a97ccc059ea88",
@@ -1428,7 +1705,10 @@
       "remote_version": 1574866350,
       "__v": 0,
       "name": "Sea of Twilight - Shade Coast",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e204f8f98fb238045ff9071",
@@ -1439,7 +1719,10 @@
       "remote_id": "cyoa-editor/5e204f8f98fb238045ff9071",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278262/cyoa-editor/5e204f8f98fb238045ff9071.png",
       "remote_version": 1579278262,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e602d23fe7d0d1e1b6c971d",
@@ -1450,7 +1733,10 @@
       "remote_id": "cyoa-editor/5e602d23fe7d0d1e1b6c971d",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583361316/cyoa-editor/5e602d23fe7d0d1e1b6c971d.png",
       "remote_version": 1583361316,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dd70e76f75a97582e59eaf3",
@@ -1461,7 +1747,10 @@
       "remote_version": 1574866303,
       "__v": 0,
       "name": "Set - Hadran's office",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dd70e76f75a979c4a59eaf0",
@@ -1472,7 +1761,10 @@
       "remote_version": 1574866305,
       "__v": 0,
       "name": "Set - Harbor",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e7206c28530df1a94a09f92",
@@ -1483,7 +1775,10 @@
       "remote_id": "cyoa-editor/5e7206c28530df1a94a09f92",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1584531139/cyoa-editor/5e7206c28530df1a94a09f92.png",
       "remote_version": 1584531139,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dd70d7cf75a9779d959ea8c",
@@ -1494,7 +1789,10 @@
       "remote_version": 1574866344,
       "__v": 0,
       "name": "Set - Infirmary",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dd70e76f75a97646c59eaf2",
@@ -1505,7 +1803,10 @@
       "remote_version": 1574866280,
       "__v": 0,
       "name": "Set - Longhouse",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e56e2a0b723c2a92a4af0e0",
@@ -1516,7 +1817,10 @@
       "remote_id": "cyoa-editor/5e56e2a0b723c2a92a4af0e0",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752418/cyoa-editor/5e56e2a0b723c2a92a4af0e0.png",
       "remote_version": 1582752418,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e45bf09a74d953cb6de4c4b",
@@ -1527,7 +1831,10 @@
       "remote_id": "cyoa-editor/5e45bf09a74d953cb6de4c4b",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752641/cyoa-editor/5e45bf09a74d953cb6de4c4b.png",
       "remote_version": 1582752641,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e45bf44a74d95bc97de4c4e",
@@ -1538,7 +1845,10 @@
       "remote_id": "cyoa-editor/5e45bf44a74d95bc97de4c4e",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752458/cyoa-editor/5e45bf44a74d95bc97de4c4e.png",
       "remote_version": 1582752458,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e45bf33a74d95f3b7de4c4c",
@@ -1549,7 +1859,10 @@
       "remote_id": "cyoa-editor/5e45bf33a74d95f3b7de4c4c",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752441/cyoa-editor/5e45bf33a74d95f3b7de4c4c.png",
       "remote_version": 1582752441,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e45bf44a74d95a6f8de4c4f",
@@ -1560,7 +1873,10 @@
       "remote_id": "cyoa-editor/5e45bf44a74d95a6f8de4c4f",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752448/cyoa-editor/5e45bf44a74d95a6f8de4c4f.png",
       "remote_version": 1582752448,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e56e4e0b723c2b7744af0e2",
@@ -1571,7 +1887,10 @@
       "remote_id": "cyoa-editor/5e56e4e0b723c2b7744af0e2",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752993/cyoa-editor/5e56e4e0b723c2b7744af0e2.png",
       "remote_version": 1582752993,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e56e4e0b723c287444af0e3",
@@ -1582,7 +1901,10 @@
       "remote_id": "cyoa-editor/5e56e4e0b723c287444af0e3",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752994/cyoa-editor/5e56e4e0b723c287444af0e3.png",
       "remote_version": 1582752994,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e56e4e0b723c22ef04af0e4",
@@ -1593,7 +1915,10 @@
       "remote_id": "cyoa-editor/5e56e4e0b723c22ef04af0e4",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752994/cyoa-editor/5e56e4e0b723c22ef04af0e4.png",
       "remote_version": 1582752994,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e56e4e0b723c23c424af0e5",
@@ -1604,7 +1929,10 @@
       "remote_id": "cyoa-editor/5e56e4e0b723c23c424af0e5",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752994/cyoa-editor/5e56e4e0b723c23c424af0e5.png",
       "remote_version": 1582752994,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e56e500b723c284154af0e7",
@@ -1615,7 +1943,10 @@
       "remote_id": "cyoa-editor/5e56e500b723c284154af0e7",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582753025/cyoa-editor/5e56e500b723c284154af0e7.png",
       "remote_version": 1582753025,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e56e4e1b723c26dec4af0e6",
@@ -1626,7 +1957,10 @@
       "remote_id": "cyoa-editor/5e56e4e1b723c26dec4af0e6",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752994/cyoa-editor/5e56e4e1b723c26dec4af0e6.png",
       "remote_version": 1582752994,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e56e4e0b723c253244af0e1",
@@ -1637,7 +1971,10 @@
       "remote_id": "cyoa-editor/5e56e4e0b723c253244af0e1",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752993/cyoa-editor/5e56e4e0b723c253244af0e1.png",
       "remote_version": 1582752993,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e61363460116c5edf627099",
@@ -1648,7 +1985,10 @@
       "remote_id": "cyoa-editor/5e61363460116c5edf627099",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583529708/cyoa-editor/5e61363460116c5edf627099.png",
       "remote_version": 1583529708,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e61373260116cbcb76270a0",
@@ -1659,7 +1999,10 @@
       "remote_id": "cyoa-editor/5e61373260116cbcb76270a0",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583529761/cyoa-editor/5e61373260116cbcb76270a0.png",
       "remote_version": 1583529761,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e61373260116c56df62709d",
@@ -1670,7 +2013,10 @@
       "remote_id": "cyoa-editor/5e61373260116c56df62709d",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583529774/cyoa-editor/5e61373260116c56df62709d.png",
       "remote_version": 1583529774,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e61373260116c7ec662709e",
@@ -1681,7 +2027,10 @@
       "remote_id": "cyoa-editor/5e61373260116c7ec662709e",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583529766/cyoa-editor/5e61373260116c7ec662709e.png",
       "remote_version": 1583529766,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e61353560116ca4d3627089",
@@ -1692,7 +2041,10 @@
       "remote_id": "cyoa-editor/5e61353560116ca4d3627089",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583428917/cyoa-editor/5e61353560116ca4d3627089.png",
       "remote_version": 1583428917,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e62805b60116c020c628201",
@@ -1703,7 +2055,10 @@
       "remote_id": "cyoa-editor/5e62805b60116c020c628201",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583529686/cyoa-editor/5e62805b60116c020c628201.png",
       "remote_version": 1583529686,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e61373260116cd95662709f",
@@ -1714,7 +2069,10 @@
       "remote_id": "cyoa-editor/5e61373260116cd95662709f",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583529752/cyoa-editor/5e61373260116cd95662709f.png",
       "remote_version": 1583529752,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e6278fc60116c6cbe628158",
@@ -1725,7 +2083,10 @@
       "remote_id": "cyoa-editor/5e6278fc60116c6cbe628158",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583511805/cyoa-editor/5e6278fc60116c6cbe628158.png",
       "remote_version": 1583511805,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e61353560116cbaca62708a",
@@ -1736,7 +2097,10 @@
       "remote_id": "cyoa-editor/5e61353560116cbaca62708a",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583529700/cyoa-editor/5e61353560116cbaca62708a.png",
       "remote_version": 1583529700,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5f3a38655b1a166ef3757143",
@@ -1967,7 +2331,10 @@
       "remote_version": 1574118945,
       "__v": 0,
       "name": "Southern shore",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e204f8f98fb234d53ff9074",
@@ -1978,7 +2345,10 @@
       "remote_id": "cyoa-editor/5e204f8f98fb234d53ff9074",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278247/cyoa-editor/5e204f8f98fb234d53ff9074.png",
       "remote_version": 1579278247,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dd70d7cf75a97084759ea8b",
@@ -1989,7 +2359,10 @@
       "remote_version": 1574866335,
       "__v": 0,
       "name": "Underworld",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e611bd260116c18296259de",
@@ -2000,7 +2373,10 @@
       "remote_id": "cyoa-editor/5e611bd260116c18296259de",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1583825814/cyoa-editor/5e611bd260116c18296259de.png",
       "remote_version": 1583825814,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5dd70d7cf75a977c6359ea8a",
@@ -2011,7 +2387,10 @@
       "remote_version": 1574866345,
       "__v": 0,
       "name": "Underworld - Hollow Gate",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     },
     {
       "_id": "5e71398a8530df444ba08252",
@@ -2033,7 +2412,10 @@
       "remote_version": 1574118953,
       "__v": 0,
       "name": "Western plains",
-      "type": "image"
+      "type": "image",
+      "category": [
+        "background"
+      ]
     }
   ]
 }

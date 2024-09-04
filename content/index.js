@@ -1,10 +1,12 @@
 module.exports = {
+  'achievements': require('./achievements.json'),
   'areas': require('./areas.json'),
   'items': require('./items.json'),
   'locations': require('./locations.json'),
   'lootTables': require('./lootTables.json'),
   'media': require('./media.json'),
   'npcs': require('./npcs.json'),
+  'npcTemplates': require('./npcTemplates.json'),
   'paths': require('./paths.json'),
   'quests': require('./quests.json'),
   'scenes': require('./scenes.json'),

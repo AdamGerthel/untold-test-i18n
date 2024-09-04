@@ -1,0 +1,43 @@
+{
+  "total": 1,
+  "limit": 1500,
+  "skip": 0,
+  "data": [
+    {
+      "_id": "66d82ad115ccc12663428a53",
+      "name": "Dog",
+      "_alias": "Dog",
+      "portrait": "66d82a8b15ccc12663428a2c",
+      "level": 15,
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 4,
+      "agility": 5,
+      "perception": 5,
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 10,
+              "max": 15
+            },
+            "ranged": false,
+            "combatActions": [
+              "bite"
+            ],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
+      "combatActions": [],
+      "maxActionPoints": 3,
+      "armor": 0,
+      "behavior": "unstoppable",
+      "baseImmunities": [],
+      "_created": "2024-09-04T09:39:29.834Z",
+      "_updated": "2024-09-04T09:39:29.835Z",
+      "bargain": [],
+      "__v": 0
+    }
+  ]
+}
