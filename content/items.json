@@ -5,1202 +5,1203 @@
   "data": [
     {
       "_id": "5c7d58a9fd6b492d64456b3a",
-      "name": "Small Rusty Kitchen Knife",
-      "description": "The blade is shorter than the handle.",
-      "tier": "1",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-03-04T16:56:09.719Z",
-      "__v": 0,
-      "_updated": "2019-04-08T16:25:23.977Z",
-      "value": 1,
       "attackSet": [
         {
           "damage": {
-            "max": 1,
-            "min": 1
+            "min": 1,
+            "max": 1
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-04T16:56:09.719Z",
+      "_updated": "2019-04-08T16:25:23.977Z",
+      "name": "Small Rusty Kitchen Knife",
+      "description": "The blade is shorter than the handle.",
+      "value": 1,
+      "tier": "1",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c7d5992fd6b4983e8456b3b",
-      "name": "Rusty Cooking Knife",
-      "description": "The pointy end seems good enough.",
-      "tier": "1",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-03-04T17:00:02.435Z",
-      "__v": 0,
-      "_updated": "2019-04-21T19:43:21.174Z",
-      "value": 1,
       "attackSet": [
         {
           "damage": {
             "min": 1.5,
             "max": 1.5
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-04T17:00:02.435Z",
+      "_updated": "2019-04-21T19:43:21.174Z",
+      "name": "Rusty Cooking Knife",
+      "description": "The pointy end seems good enough.",
+      "value": 1,
+      "tier": "1",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c7d5a1ffd6b49a32d456b3d",
-      "name": "Rusty Cutlery",
-      "description": "A small, brittle knife, verging on uselessness.",
-      "tier": "1",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-03-04T17:02:23.728Z",
-      "__v": 0,
-      "value": 1,
-      "_updated": "2019-04-08T16:24:48.974Z",
       "attackSet": [
         {
           "damage": {
             "min": 1,
             "max": 1
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-04T17:02:23.728Z",
+      "_updated": "2019-04-08T16:24:48.974Z",
+      "name": "Rusty Cutlery",
+      "description": "A small, brittle knife, verging on uselessness.",
+      "value": 1,
+      "tier": "1",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c7d5a67fd6b49d927456b3e",
-      "name": "Rusty Eating Knife",
-      "description": "It seems to be falling apart on a continuous basis.",
-      "tier": "1",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-03-04T17:03:35.992Z",
-      "__v": 0,
-      "value": 1,
-      "_updated": "2019-04-08T16:24:36.335Z",
       "attackSet": [
         {
           "damage": {
             "min": 1,
             "max": 1
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-04T17:03:35.992Z",
+      "_updated": "2019-04-08T16:24:36.335Z",
+      "name": "Rusty Eating Knife",
+      "description": "It seems to be falling apart on a continuous basis.",
+      "value": 1,
+      "tier": "1",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c7d5abafd6b490f8d456b3f",
-      "name": "Rusty Bread Knife",
-      "description": "Despite its intended purpose, this blade will mangle a loaf of bread.",
-      "tier": "1",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-03-04T17:04:58.633Z",
-      "__v": 0,
-      "_updated": "2019-04-08T16:24:26.673Z",
-      "value": 1,
       "attackSet": [
         {
           "damage": {
             "min": 1,
             "max": 1.5
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-04T17:04:58.633Z",
+      "_updated": "2019-04-08T16:24:26.673Z",
+      "name": "Rusty Bread Knife",
+      "description": "Despite its intended purpose, this blade will mangle a loaf of bread.",
+      "value": 1,
+      "tier": "1",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c7d653dfd6b4947ff456b6a",
-      "name": "Black Leather Helmet",
-      "description": "Made in a legionnaire-style, slightly different from the usual designs.",
-      "tier": "2",
-      "type": "armor",
       "armor": 2,
-      "_created": "2019-03-04T17:49:49.552Z",
-      "__v": 0,
-      "_updated": "2020-03-04T07:26:59.582Z",
-      "value": 25,
       "encumbrance": 2,
       "slotSets": [
         [
           "head"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T17:49:49.552Z",
+      "_updated": "2020-03-04T07:26:59.582Z",
+      "name": "Black Leather Helmet",
+      "description": "Made in a legionnaire-style, slightly different from the usual designs.",
+      "value": 25,
+      "tier": "2",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d65b6fd6b493b65456b6b",
-      "name": "Fur Hat",
-      "description": "This'll keep you warm, for sure.",
-      "tier": "1",
-      "type": "armor",
-      "encumbrance": 1,
       "armor": 1,
-      "_created": "2019-03-04T17:51:50.937Z",
-      "__v": 0,
-      "_updated": "2020-03-04T07:34:29.819Z",
-      "value": 5,
+      "encumbrance": 1,
       "slotSets": [
         [
           "head"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T17:51:50.937Z",
+      "_updated": "2020-03-04T07:34:29.819Z",
+      "name": "Fur Hat",
+      "description": "This'll keep you warm, for sure.",
+      "value": 5,
+      "tier": "1",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d65cefd6b4996f3456b6c",
-      "name": "Leather Helmet",
-      "description": "While cheap, it's brand new. Poor quality at its best.",
-      "tier": "1",
-      "type": "armor",
-      "encumbrance": 2,
       "armor": 2,
-      "_created": "2019-03-04T17:52:14.362Z",
-      "__v": 0,
-      "_updated": "2020-03-17T03:12:02.674Z",
-      "value": 10,
+      "encumbrance": 2,
       "slotSets": [
         [
           "head"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T17:52:14.362Z",
+      "_updated": "2020-03-17T03:12:02.674Z",
+      "name": "Leather Helmet",
+      "description": "While cheap, it's brand new. Poor quality at its best.",
+      "value": 10,
+      "tier": "1",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d65eafd6b49ac02456b6d",
-      "name": "Patchwork Fur Cloak",
-      "description": "Numerous rodents gave their lives to make this happen.",
-      "tier": "1",
-      "type": "armor",
-      "encumbrance": 4,
       "armor": 2,
-      "_created": "2019-03-04T17:52:42.851Z",
-      "__v": 0,
-      "_updated": "2020-03-04T07:28:17.307Z",
-      "value": 10,
+      "encumbrance": 4,
       "slotSets": [
         [
           "body"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T17:52:42.851Z",
+      "_updated": "2020-03-04T07:28:17.307Z",
+      "name": "Patchwork Fur Cloak",
+      "description": "Numerous rodents gave their lives to make this happen.",
+      "value": 10,
+      "tier": "1",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d66acfd6b4983e7456b6e",
-      "name": "Large Fur Boots",
-      "description": "Functional, but aesthetically disproportionate.",
-      "tier": "1",
-      "type": "armor",
-      "encumbrance": 4,
       "armor": 2,
-      "_created": "2019-03-04T17:55:56.868Z",
-      "__v": 0,
-      "_updated": "2020-03-04T07:28:40.054Z",
-      "value": 8,
+      "encumbrance": 4,
       "slotSets": [
         [
           "feet"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T17:55:56.868Z",
+      "_updated": "2020-03-04T07:28:40.054Z",
+      "name": "Large Fur Boots",
+      "description": "Functional, but aesthetically disproportionate.",
+      "value": 8,
+      "tier": "1",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d66b9fd6b492e7e456b6f",
-      "name": "Leather Boots",
-      "description": "These will serve you well across rugged terrain.",
-      "tier": "1",
-      "type": "armor",
-      "encumbrance": 3,
       "armor": 2,
-      "_created": "2019-03-04T17:56:09.842Z",
-      "__v": 0,
-      "_updated": "2020-03-17T03:11:27.712Z",
-      "value": 12,
+      "encumbrance": 3,
       "slotSets": [
         [
           "feet"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T17:56:09.842Z",
+      "_updated": "2020-03-17T03:11:27.712Z",
+      "name": "Leather Boots",
+      "description": "These will serve you well across rugged terrain.",
+      "value": 12,
+      "tier": "1",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d6709fd6b491231456b70",
-      "name": "Heavy Fur Coat",
-      "description": "Imported from Tundra Barbarous, this was made for warfare.",
-      "tier": "2",
-      "type": "armor",
-      "encumbrance": 3,
       "armor": 2,
-      "_created": "2019-03-04T17:57:29.203Z",
-      "__v": 0,
-      "_updated": "2020-03-04T07:30:27.972Z",
-      "value": 25,
+      "encumbrance": 3,
       "slotSets": [
         [
           "body"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T17:57:29.203Z",
+      "_updated": "2020-03-04T07:30:27.972Z",
+      "name": "Heavy Fur Coat",
+      "description": "Imported from Tundra Barbarous, this was made for warfare.",
+      "value": 25,
+      "tier": "2",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d67cefd6b49b561456b71",
-      "name": "Black Linen Cloak",
-      "description": "The favored garment of those who enslaved you.",
-      "tier": "1",
-      "type": "armor",
-      "encumbrance": 1,
       "armor": 1,
-      "_created": "2019-03-04T18:00:46.068Z",
-      "__v": 0,
-      "_updated": "2020-03-04T07:30:44.383Z",
-      "value": 6,
+      "encumbrance": 1,
       "slotSets": [
         [
           "body"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T18:00:46.068Z",
+      "_updated": "2020-03-04T07:30:44.383Z",
+      "name": "Black Linen Cloak",
+      "description": "The favored garment of those who enslaved you.",
+      "value": 6,
+      "tier": "1",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d67e0fd6b49074b456b72",
-      "name": "Sturdy Leather Gauntlets",
-      "description": "Fairly good quality. Perhaps a bit bulky.",
-      "tier": "2",
-      "type": "armor",
-      "encumbrance": 3,
       "armor": 2,
-      "_created": "2019-03-04T18:01:04.185Z",
-      "__v": 0,
-      "_updated": "2020-03-04T07:31:00.355Z",
-      "value": 22,
+      "encumbrance": 3,
       "slotSets": [
         [
           "hands"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T18:01:04.185Z",
+      "_updated": "2020-03-04T07:31:00.355Z",
+      "name": "Sturdy Leather Gauntlets",
+      "description": "Fairly good quality. Perhaps a bit bulky.",
+      "value": 22,
+      "tier": "2",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d6832fd6b4954df456b73",
-      "name": "Black Leather Boots",
-      "description": "Average quality, neutral design. Can't really go wrong with these.",
-      "tier": "2",
-      "type": "armor",
       "armor": 2,
       "encumbrance": 3,
-      "_created": "2019-03-04T18:02:26.875Z",
-      "__v": 0,
-      "_updated": "2020-03-04T07:31:30.827Z",
-      "value": 22,
       "slotSets": [
         [
           "feet"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T18:02:26.875Z",
+      "_updated": "2020-03-04T07:31:30.827Z",
+      "name": "Black Leather Boots",
+      "description": "Average quality, neutral design. Can't really go wrong with these.",
+      "value": 22,
+      "tier": "2",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d6891fd6b494212456b74",
-      "name": "Black Silk Tunic",
-      "description": "Quite expensive, yet discrete. The hallmark of true sophistication.",
-      "tier": "3",
-      "type": "armor",
-      "encumbrance": 1,
       "armor": 1,
-      "_created": "2019-03-04T18:04:01.496Z",
-      "__v": 0,
-      "_updated": "2020-03-04T07:32:00.218Z",
-      "value": 25,
+      "encumbrance": 1,
       "slotSets": [
         [
           "body"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T18:04:01.496Z",
+      "_updated": "2020-03-04T07:32:00.218Z",
+      "name": "Black Silk Tunic",
+      "description": "Quite expensive, yet discrete. The hallmark of true sophistication.",
+      "value": 25,
+      "tier": "3",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d68b1fd6b496e6a456b75",
-      "name": "Brown Leather Cloak",
-      "description": "This style of cloak has become quite fashionable among the vagrants and highwaymen of Tem Khiris.",
-      "tier": "2",
-      "type": "armor",
-      "encumbrance": 3,
       "armor": 2,
-      "_created": "2019-03-04T18:04:33.865Z",
-      "__v": 0,
-      "value": 30,
-      "_updated": "2020-03-04T07:33:35.723Z",
+      "encumbrance": 3,
       "slotSets": [
         [
           "body"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T18:04:33.865Z",
+      "_updated": "2020-03-04T07:33:35.723Z",
+      "name": "Brown Leather Cloak",
+      "description": "This style of cloak has become quite fashionable among the vagrants and highwaymen of Tem Khiris.",
+      "value": 30,
+      "tier": "2",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d694bfd6b491683456b76",
-      "name": "Black Toga",
-      "description": "Perfect for the southern regions of Tem Khiris.",
-      "tier": "1",
-      "type": "armor",
-      "encumbrance": 1,
       "armor": 1,
-      "_created": "2019-03-04T18:07:07.267Z",
-      "__v": 0,
-      "value": 6,
-      "_updated": "2020-03-04T07:33:50.971Z",
+      "encumbrance": 1,
       "slotSets": [
         [
           "body"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T18:07:07.267Z",
+      "_updated": "2020-03-04T07:33:50.971Z",
+      "name": "Black Toga",
+      "description": "Perfect for the southern regions of Tem Khiris.",
+      "value": 6,
+      "tier": "1",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d695cfd6b49753c456b77",
-      "name": "White Toga",
-      "description": "These are all the rage in the Deadlands of Triniset.",
-      "tier": "1",
-      "type": "armor",
-      "encumbrance": 1,
       "armor": 1,
-      "_created": "2019-03-04T18:07:24.395Z",
-      "__v": 0,
-      "value": 6,
-      "_updated": "2020-03-04T07:34:06.310Z",
+      "encumbrance": 1,
       "slotSets": [
         [
           "body"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T18:07:24.395Z",
+      "_updated": "2020-03-04T07:34:06.310Z",
+      "name": "White Toga",
+      "description": "These are all the rage in the Deadlands of Triniset.",
+      "value": 6,
+      "tier": "1",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c7d6992fd6b497f52456b78",
-      "name": "Red Cloth Sandals",
-      "description": "Cheap and comfortable.",
-      "tier": "1",
-      "type": "armor",
-      "encumbrance": 1,
       "armor": 1,
-      "_created": "2019-03-04T18:08:18.839Z",
-      "__v": 0,
-      "value": 3,
-      "_updated": "2020-03-04T08:39:14.170Z",
+      "encumbrance": 1,
       "slotSets": [
         [
           "feet"
         ]
-      ]
+      ],
+      "_created": "2019-03-04T18:08:18.839Z",
+      "_updated": "2020-03-04T08:39:14.170Z",
+      "name": "Red Cloth Sandals",
+      "description": "Cheap and comfortable.",
+      "value": 3,
+      "tier": "1",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c803d1c0e37485847c6019a",
-      "name": "Red Apple",
-      "description": "Fruit. Restores a small amount of health.",
-      "tier": "1",
-      "type": "food",
       "consumption": {
-        "uses": 1,
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "2",
-              ""
+              2,
+              0
             ],
-            "_id": "5e577729b723c26c244af2a8",
-            "type": "changeHealth"
+            "_id": "5e577729b723c26c244af2a8"
           }
-        ]
+        ],
+        "uses": 1
       },
       "_created": "2019-03-06T21:35:24.150Z",
-      "__v": 0,
       "_updated": "2020-02-27T08:00:41.379Z",
-      "value": 1
+      "name": "Red Apple",
+      "description": "Fruit. Restores a small amount of health.",
+      "value": 1,
+      "tier": "1",
+      "type": "food",
+      "__v": 0
     },
     {
       "_id": "5c803d8f0e37481dd7c6019c",
-      "name": "Strawberry",
-      "description": "Berry. Restores a small amount of health.",
-      "tier": "1",
-      "type": "food",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "1"
+              1
             ],
-            "_id": "5c803d8f0e37487bbbc6019d",
-            "type": "changeHealth"
+            "_id": "5c803d8f0e37487bbbc6019d"
           }
         ],
         "uses": 1
       },
       "_created": "2019-03-06T21:37:19.808Z",
-      "__v": 0,
       "_updated": "2019-04-08T16:19:17.851Z",
-      "value": 1
+      "name": "Strawberry",
+      "description": "Berry. Restores a small amount of health.",
+      "value": 1,
+      "tier": "1",
+      "type": "food",
+      "__v": 0
     },
     {
       "_id": "5c803dc90e3748ec29c6019e",
-      "name": "Pear",
-      "description": "Fruit. Restores a small amount of health.",
-      "tier": "1",
-      "type": "food",
       "consumption": {
-        "uses": 1,
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "4",
-              ""
+              4,
+              0
             ],
-            "_id": "5e577917b723c22a284af2ab",
-            "type": "changeHealth"
+            "_id": "5e577917b723c22a284af2ab"
           }
-        ]
+        ],
+        "uses": 1
       },
       "_created": "2019-03-06T21:38:17.449Z",
-      "__v": 0,
       "_updated": "2020-02-27T08:08:55.009Z",
-      "value": 1
+      "name": "Pear",
+      "description": "Fruit. Restores a small amount of health.",
+      "value": 1,
+      "tier": "1",
+      "type": "food",
+      "__v": 0
     },
     {
       "_id": "5c803e190e374836d8c601a0",
-      "name": "Dog Steak",
-      "description": "The charred flesh of a wild mongrel. Restores a small amount of health.",
-      "tier": "1",
-      "type": "food",
       "consumption": {
-        "uses": 1,
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "6",
-              ""
+              6,
+              0
             ],
-            "_id": "5e57773ab723c20d754af2a9",
-            "type": "changeHealth"
+            "_id": "5e57773ab723c20d754af2a9"
           }
-        ]
+        ],
+        "uses": 1
       },
       "_created": "2019-03-06T21:39:37.178Z",
-      "__v": 0,
+      "_updated": "2020-02-27T08:00:58.821Z",
+      "name": "Dog Steak",
+      "description": "The charred flesh of a wild mongrel. Restores a small amount of health.",
       "value": 1,
-      "_updated": "2020-02-27T08:00:58.821Z"
+      "tier": "1",
+      "type": "food",
+      "__v": 0
     },
     {
       "_id": "5c8042c70e374820e1c601bc",
-      "name": "Factotum's Journal",
-      "description": "A dusty old book",
-      "tier": "1",
-      "type": "scripture",
       "scripture": "5c80429f0e3748ac7ec601bb",
       "_created": "2019-03-06T21:59:35.754Z",
-      "__v": 0,
       "_updated": "2019-04-08T16:21:56.346Z",
-      "value": 5
+      "name": "Factotum's Journal",
+      "description": "A dusty old book",
+      "value": 5,
+      "tier": "1",
+      "type": "scripture",
+      "__v": 0
     },
     {
       "_id": "5c817a5d0e37489fdfc601c9",
-      "name": "Bronze Hunting Knife",
-      "description": "A formidable weapon, although its jagged edges have grown somewhat dull from frequent use.",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-03-07T20:09:01.078Z",
-      "__v": 0,
-      "_updated": "2020-02-12T11:08:09.337Z",
-      "value": 20,
       "attackSet": [
         {
           "damage": {
             "min": 2,
             "max": 3
           },
+          "ranged": false,
           "combatActions": [
             "cut"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-07T20:09:01.078Z",
+      "_updated": "2020-02-12T11:08:09.337Z",
+      "name": "Bronze Hunting Knife",
+      "description": "A formidable weapon, although its jagged edges have grown somewhat dull from frequent use.",
+      "value": 20,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c8629e90e3748bc27c6035d",
-      "name": "Rusty Iron Broadsword",
-      "description": "This sword has seen better days.",
-      "tier": "1",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-03-11T09:27:05.732Z",
-      "__v": 0,
-      "_updated": "2020-03-18T14:00:30.116Z",
-      "value": 16,
       "attackSet": [
         {
           "damage": {
             "min": 5,
             "max": 6
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
       ],
+      "combatActions": [
+        "parry"
+      ],
+      "encumbrance": 4,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": [
-        "parry"
-      ]
+      "_created": "2019-03-11T09:27:05.732Z",
+      "_updated": "2020-03-18T14:00:30.116Z",
+      "name": "Rusty Iron Broadsword",
+      "description": "This sword has seen better days.",
+      "value": 16,
+      "tier": "1",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c862a760e37483b4dc6035e",
-      "name": "Rusty Iron Longsword",
-      "description": "The blade won't last much longer",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-03-11T09:29:26.311Z",
-      "__v": 0,
-      "_updated": "2020-02-18T10:22:30.474Z",
-      "value": 26,
       "attackSet": [
         {
           "damage": {
-            "max": 7,
-            "min": 6
+            "min": 6,
+            "max": 7
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
       ],
+      "combatActions": [
+        "parry"
+      ],
+      "encumbrance": 4,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": [
-        "parry"
-      ]
+      "_created": "2019-03-11T09:29:26.311Z",
+      "_updated": "2020-02-18T10:22:30.474Z",
+      "name": "Rusty Iron Longsword",
+      "description": "The blade won't last much longer",
+      "value": 26,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c862aea0e37484fb7c6035f",
-      "name": "Rusty Iron Gladius",
-      "description": "Good for a few more stabs",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 2,
-      "_created": "2019-03-11T09:31:22.398Z",
-      "__v": 0,
-      "_updated": "2020-02-18T10:25:07.943Z",
-      "value": 12,
       "attackSet": [
         {
           "damage": {
             "min": 3,
             "max": 5
           },
+          "ranged": false,
           "combatActions": [
             "stab"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 2,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T09:31:22.398Z",
+      "_updated": "2020-02-18T10:25:07.943Z",
+      "name": "Rusty Iron Gladius",
+      "description": "Good for a few more stabs",
+      "value": 12,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c862c200e3748d350c60360",
-      "name": "Rusty Iron Claymore",
-      "description": "Not very sharp anymore, but it should be heavy enough to crush a skull or two.",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 6,
-      "_created": "2019-03-11T09:36:32.425Z",
-      "__v": 0,
-      "_updated": "2020-02-12T21:19:34.391Z",
-      "value": 28,
       "attackSet": [
         {
           "damage": {
             "min": 9,
             "max": 12
           },
+          "ranged": false,
           "combatActions": [
             "cleave"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 6,
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T09:36:32.425Z",
+      "_updated": "2020-02-12T21:19:34.391Z",
+      "name": "Rusty Iron Claymore",
+      "description": "Not very sharp anymore, but it should be heavy enough to crush a skull or two.",
+      "value": 28,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c862cc10e374821fec60361",
-      "name": "Rusty Iron Sabre",
-      "tier": "2",
-      "description": "Undoubtedly, many have fallen prey to this blade",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-03-11T09:39:13.131Z",
-      "__v": 0,
-      "_updated": "2020-02-18T10:36:25.261Z",
-      "value": 35,
       "attackSet": [
         {
           "damage": {
             "min": 6,
             "max": 8
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
-      ],
-      "slotSets": [
-        [
-          "mainHand"
-        ]
       ],
       "combatActions": [
         "parry"
-      ]
+      ],
+      "encumbrance": 4,
+      "slotSets": [
+        [
+          "mainHand"
+        ]
+      ],
+      "_created": "2019-03-11T09:39:13.131Z",
+      "_updated": "2020-02-18T10:36:25.261Z",
+      "name": "Rusty Iron Sabre",
+      "description": "Undoubtedly, many have fallen prey to this blade",
+      "value": 35,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c862d6b0e3748dcaac60362",
-      "name": "Rusty Iron Short Blade",
-      "description": "Imagine, all the lives that have been ruined by this old blade.",
-      "tier": "1",
-      "type": "weapon",
-      "encumbrance": 2,
-      "_created": "2019-03-11T09:42:03.685Z",
-      "__v": 0,
-      "_updated": "2020-02-18T10:23:13.427Z",
-      "value": 14,
       "attackSet": [
         {
           "damage": {
-            "max": 4,
-            "min": 3
+            "min": 3,
+            "max": 4
           },
+          "ranged": false,
           "combatActions": [
             "stab"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 2,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T09:42:03.685Z",
+      "_updated": "2020-02-18T10:23:13.427Z",
+      "name": "Rusty Iron Short Blade",
+      "description": "Imagine, all the lives that have been ruined by this old blade.",
+      "value": 14,
+      "tier": "1",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c862e660e3748777bc60363",
-      "name": "Bronze Hatchet",
-      "description": "This old hatchet has seen better days. More of a skull-basher than a head-chopper, at this point",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 3,
-      "_created": "2019-03-11T09:46:14.894Z",
-      "__v": 0,
-      "_updated": "2020-03-18T14:07:13.428Z",
-      "value": 18,
       "attackSet": [
         {
           "damage": {
-            "max": 6,
-            "min": 5
+            "min": 5,
+            "max": 6
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
       ],
+      "combatActions": [],
+      "encumbrance": 3,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T09:46:14.894Z",
+      "_updated": "2020-03-18T14:07:13.428Z",
+      "name": "Bronze Hatchet",
+      "description": "This old hatchet has seen better days. More of a skull-basher than a head-chopper, at this point",
+      "value": 18,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c862ec00e37484c7ac60364",
-      "name": "Rusty Iron War Axe",
-      "description": "Many battlegrounds ago, this was a pristine weapon",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 5,
-      "_created": "2019-03-11T09:47:44.381Z",
-      "__v": 0,
-      "value": 20,
-      "_updated": "2020-03-18T14:12:04.218Z",
       "attackSet": [
         {
           "damage": {
             "min": 6,
             "max": 8
           },
+          "ranged": false,
           "combatActions": [
             "cleave"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 5,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T09:47:44.381Z",
+      "_updated": "2020-03-18T14:12:04.218Z",
+      "name": "Rusty Iron War Axe",
+      "description": "Many battlegrounds ago, this was a pristine weapon",
+      "value": 20,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c862f110e37488ab4c60365",
-      "name": "Rusty Iron Battle Axe",
-      "description": "A two-handed axe, way past its prime",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 5,
-      "_created": "2019-03-11T09:49:05.477Z",
-      "__v": 0,
-      "_updated": "2020-02-12T21:20:53.509Z",
-      "value": 22,
       "attackSet": [
         {
           "damage": {
             "min": 7,
             "max": 10
           },
+          "ranged": false,
           "combatActions": [
             "cleave"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 5,
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T09:49:05.477Z",
+      "_updated": "2020-02-12T21:20:53.509Z",
+      "name": "Rusty Iron Battle Axe",
+      "description": "A two-handed axe, way past its prime",
+      "value": 22,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c862fde0e3748268fc60366",
-      "name": "Rusty Iron Halberd",
-      "description": "A two-handed polearm. Probably stolen from a dead guardsman",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 7,
-      "_created": "2019-03-11T09:52:30.463Z",
-      "__v": 0,
-      "_updated": "2020-03-05T12:13:13.921Z",
-      "value": 26,
       "attackSet": [
         {
           "damage": {
             "min": 8,
             "max": 11
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
       ],
+      "combatActions": [
+        "sweep"
+      ],
+      "encumbrance": 7,
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": [
-        "sweep"
-      ]
+      "_created": "2019-03-11T09:52:30.463Z",
+      "_updated": "2020-03-05T12:13:13.921Z",
+      "name": "Rusty Iron Halberd",
+      "description": "A two-handed polearm. Probably stolen from a dead guardsman",
+      "value": 26,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c86316c0e3748bcd1c60368",
-      "name": "Rusty Iron Hatchet",
-      "type": "weapon",
-      "encumbrance": 4,
-      "tier": "2",
-      "description": "A trail of severed limbs led to its current state",
-      "_created": "2019-03-11T09:59:08.263Z",
-      "__v": 0,
-      "_updated": "2020-03-18T14:13:38.395Z",
-      "value": 24,
       "attackSet": [
         {
           "damage": {
-            "max": 7,
-            "min": 6
+            "min": 6,
+            "max": 7
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
       ],
+      "combatActions": [],
+      "encumbrance": 4,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T09:59:08.263Z",
+      "_updated": "2020-03-18T14:13:38.395Z",
+      "name": "Rusty Iron Hatchet",
+      "description": "A trail of severed limbs led to its current state",
+      "value": 24,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c86320d0e37480f1fc60369",
-      "name": "Stone Axe",
-      "description": "Plausibly, this crude weapon was crafted before the Great Cataclysm",
-      "tier": "1",
-      "type": "weapon",
-      "encumbrance": 5,
-      "_created": "2019-03-11T10:01:49.552Z",
-      "__v": 0,
-      "_updated": "2020-02-18T10:36:11.437Z",
-      "value": 6,
       "attackSet": [
         {
           "damage": {
-            "max": 8,
-            "min": 3
+            "min": 3,
+            "max": 8
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
       ],
+      "combatActions": [],
+      "encumbrance": 5,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T10:01:49.552Z",
+      "_updated": "2020-02-18T10:36:11.437Z",
+      "name": "Stone Axe",
+      "description": "Plausibly, this crude weapon was crafted before the Great Cataclysm",
+      "value": 6,
+      "tier": "1",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c86384d0e37486af4c6036a",
-      "name": "Bronze Scepter",
-      "description": "This crude weapon seems ancient.",
-      "tier": "1",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-03-11T10:28:29.877Z",
-      "__v": 0,
-      "_updated": "2020-02-18T10:25:17.954Z",
-      "value": 8,
       "attackSet": [
         {
           "damage": {
             "min": 2,
             "max": 8
           },
+          "ranged": false,
           "combatActions": [
             "slam"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 4,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T10:28:29.877Z",
+      "_updated": "2020-02-18T10:25:17.954Z",
+      "name": "Bronze Scepter",
+      "description": "This crude weapon seems ancient.",
+      "value": 8,
+      "tier": "1",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c8638e90e3748e3f5c6036b",
-      "name": "Rusty Iron Mace",
-      "description": "This mace has cracked a few skulls in its day",
-      "tier": "1",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-03-11T10:31:05.699Z",
-      "__v": 0,
-      "value": 10,
-      "_updated": "2020-03-18T14:09:49.776Z",
       "attackSet": [
         {
           "damage": {
             "min": 2,
             "max": 8
           },
+          "ranged": false,
           "combatActions": [
             "slam"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 4,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T10:31:05.699Z",
+      "_updated": "2020-03-18T14:09:49.776Z",
+      "name": "Rusty Iron Mace",
+      "description": "This mace has cracked a few skulls in its day",
+      "value": 10,
+      "tier": "1",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c8639c20e37483059c6036c",
-      "name": "Rusty Iron Flail",
-      "description": "A spiked ball on a chain, attached to a stick. What will they think of next?",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-03-11T10:34:42.372Z",
-      "__v": 0,
-      "_updated": "2020-02-18T10:25:27.892Z",
-      "value": 22,
       "attackSet": [
         {
           "damage": {
             "min": 1,
             "max": 10
           },
+          "ranged": false,
           "combatActions": [
             "slam"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 4,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T10:34:42.372Z",
+      "_updated": "2020-02-18T10:25:27.892Z",
+      "name": "Rusty Iron Flail",
+      "description": "A spiked ball on a chain, attached to a stick. What will they think of next?",
+      "value": 22,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c863aa70e37487593c6036d",
-      "name": "Rusty Iron Morning Star",
-      "description": "The impact of this weapon will make you see stars.",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-03-11T10:38:31.133Z",
-      "__v": 0,
-      "value": 22,
-      "_updated": "2020-02-18T10:24:43.254Z",
       "attackSet": [
         {
           "damage": {
             "min": 3,
             "max": 12
           },
+          "ranged": false,
           "combatActions": [
             "slam"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 4,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T10:38:31.133Z",
+      "_updated": "2020-02-18T10:24:43.254Z",
+      "name": "Rusty Iron Morning Star",
+      "description": "The impact of this weapon will make you see stars.",
+      "value": 22,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c863b910e374888abc6036e",
-      "name": "Stone Maul",
-      "description": "A two-handed stone hammer from the dawn of time",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 10,
-      "_created": "2019-03-11T10:42:25.628Z",
-      "__v": 0,
-      "_updated": "2020-03-06T11:09:54.636Z",
-      "value": 20,
       "attackSet": [
         {
           "damage": {
             "min": 8,
             "max": 25
           },
+          "ranged": false,
           "combatActions": [
             "slam"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 10,
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T10:42:25.628Z",
+      "_updated": "2020-03-06T11:09:54.636Z",
+      "name": "Stone Maul",
+      "description": "A two-handed stone hammer from the dawn of time",
+      "value": 20,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c866f9f0e37487533c604b0",
-      "name": "Raven Mask",
-      "description": "A white wooden mask, sculpted to resemble a raven's beak, surrounded by a pattern of sharp feathers.",
-      "tier": "5",
-      "type": "armor",
-      "encumbrance": 2,
       "armor": 1,
-      "_created": "2019-03-11T14:24:31.362Z",
-      "__v": 0,
-      "_updated": "2020-03-04T08:38:57.235Z",
-      "value": 0,
+      "encumbrance": 2,
       "slotSets": [
         [
           "head"
         ]
-      ]
+      ],
+      "_created": "2019-03-11T14:24:31.362Z",
+      "_updated": "2020-03-04T08:38:57.235Z",
+      "name": "Raven Mask",
+      "description": "A white wooden mask, sculpted to resemble a raven's beak, surrounded by a pattern of sharp feathers.",
+      "value": 0,
+      "tier": "5",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c86d6c4bbdb6b44de5868e6",
-      "name": "Bone Dagger",
-      "description": "Crude and ominous, like a yellow fang stolen from the jaws of an ancient beast.",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-03-11T21:44:36.077Z",
-      "__v": 0,
-      "_updated": "2020-02-18T10:36:51.194Z",
-      "value": 40,
       "attackSet": [
         {
           "damage": {
             "min": 1,
             "max": 6
           },
+          "ranged": false,
           "combatActions": [
             "stab"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T21:44:36.077Z",
+      "_updated": "2020-02-18T10:36:51.194Z",
+      "name": "Bone Dagger",
+      "description": "Crude and ominous, like a yellow fang stolen from the jaws of an ancient beast.",
+      "value": 40,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c86d815bbdb6b13055868e7",
-      "name": "Volcanic Stone Dagger",
-      "description": "Made from the elusive red rock, quarried on the Isle of Penance",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 2,
-      "_created": "2019-03-11T21:50:13.814Z",
-      "__v": 0,
-      "_updated": "2020-03-05T02:31:22.799Z",
-      "value": 60,
       "attackSet": [
         {
           "damage": {
             "min": 3,
             "max": 8
           },
+          "ranged": false,
           "combatActions": [
             "stab"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 2,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-11T21:50:13.814Z",
+      "_updated": "2020-03-05T02:31:22.799Z",
+      "name": "Volcanic Stone Dagger",
+      "description": "Made from the elusive red rock, quarried on the Isle of Penance",
+      "value": 60,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c8a0466c5ffe41d34c268b3",
+      "consumption": {
+        "actions": [
+          {
+            "type": "changeHealth",
+            "parameters": [
+              1
+            ],
+            "_id": "5c8a0466c5ffe42247c268b4"
+          }
+        ],
+        "uses": 1
+      },
+      "_created": "2019-03-14T07:36:06.284Z",
+      "_updated": "2019-04-08T16:18:48.076Z",
       "name": "Raspberry",
       "description": "Berry. Restores a small amount of health.",
       "value": 1,
       "tier": "1",
       "type": "food",
-      "consumption": {
-        "uses": 1,
-        "actions": [
-          {
-            "parameters": [
-              "1"
-            ],
-            "_id": "5c8a0466c5ffe42247c268b4",
-            "type": "changeHealth"
-          }
-        ]
-      },
-      "_created": "2019-03-14T07:36:06.284Z",
-      "_updated": "2019-04-08T16:18:48.076Z",
       "__v": 0
     },
     {
       "_id": "5c8a0495c5ffe41f05c268b5",
+      "consumption": {
+        "actions": [
+          {
+            "type": "changeHealth",
+            "parameters": [
+              1
+            ],
+            "_id": "5c8a0495c5ffe4c63cc268b6"
+          }
+        ],
+        "uses": 1
+      },
+      "_created": "2019-03-14T07:36:53.590Z",
+      "_updated": "2019-04-08T16:18:57.457Z",
       "name": "Blueberry",
       "description": "Berry. Restores a small amount of health.",
       "value": 1,
       "tier": "1",
       "type": "food",
-      "consumption": {
-        "uses": 1,
-        "actions": [
-          {
-            "parameters": [
-              "1"
-            ],
-            "_id": "5c8a0495c5ffe4c63cc268b6",
-            "type": "changeHealth"
-          }
-        ]
-      },
-      "_created": "2019-03-14T07:36:53.590Z",
-      "_updated": "2019-04-08T16:18:57.457Z",
       "__v": 0
     },
     {
       "_id": "5c8bf714190288fb23f94cdc",
-      "name": "Cipher Stone",
-      "description": "A tetrahedron, cut from limestone. Inscriptions cover the stone on all sides. The object can be used to interpret hieroglyphs.",
-      "tier": "4",
-      "type": "tool",
       "_created": "2019-03-15T19:03:48.496Z",
       "_updated": "2019-04-08T15:08:20.715Z",
-      "__v": 0,
-      "value": 500
+      "name": "Cipher Stone",
+      "description": "A tetrahedron, cut from limestone. Inscriptions cover the stone on all sides. The object can be used to interpret hieroglyphs.",
+      "value": 500,
+      "tier": "4",
+      "type": "tool",
+      "__v": 0
     },
     {
       "_id": "5c8e1ec71902887d41f94cdd",
-      "name": "Iron Key, No. 17",
-      "description": "A heavy iron key from the ruins of Dusk Megalith.",
-      "tier": "5",
-      "type": "tool",
       "_created": "2019-03-17T10:17:43.121Z",
       "_updated": "2019-04-08T14:05:26.608Z",
+      "name": "Iron Key, No. 17",
+      "description": "A heavy iron key from the ruins of Dusk Megalith.",
+      "value": 0,
+      "tier": "5",
+      "type": "tool",
       "__v": 0
     },
     {
@@ -1952,34 +1953,35 @@
     },
     {
       "_id": "5c94cd85683e5d397f4f2e2b",
-      "name": "Strange Fruit",
-      "tier": "5",
-      "type": "medicine",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "-5"
+              -5
             ],
-            "_id": "5c94cd85683e5df7464f2e2d",
-            "type": "changeHealth"
+            "_id": "5c94cd85683e5df7464f2e2d"
           },
           {
+            "type": "changeStat",
             "parameters": [
               "charisma",
-              "1",
+              1,
               true
             ],
-            "_id": "5c94cd85683e5d75034f2e2c",
-            "type": "changeStat"
+            "_id": "5c94cd85683e5d75034f2e2c"
           }
         ],
         "uses": 1
       },
       "_created": "2019-03-22T11:56:53.546Z",
       "_updated": "2019-04-03T10:18:58.341Z",
-      "__v": 0,
-      "description": "Fruit. Possibly edible. Resembles the shape of a lemon, but slightly smaller with a deep green color."
+      "name": "Strange Fruit",
+      "description": "Fruit. Possibly edible. Resembles the shape of a lemon, but slightly smaller with a deep green color.",
+      "value": 0,
+      "tier": "5",
+      "type": "medicine",
+      "__v": 0
     },
     {
       "_id": "5c94ce4c683e5d389b4f2e2e",
@@ -2465,154 +2467,154 @@
     },
     {
       "_id": "5ca47f3a3790358a93b1d0c6",
-      "name": "Pale Hyacinth",
-      "description": "Ingredient. A white and yellow flower. Incredibly rare.",
-      "tier": "4",
-      "type": "medicine",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "3",
+              3,
               []
             ],
-            "_id": "5e5f45e2fe7d0d94756c4c24",
-            "type": "changeHealth"
+            "_id": "5e5f45e2fe7d0d94756c4c24"
           }
         ],
         "uses": 1
       },
       "_created": "2019-04-03T09:39:06.890Z",
       "_updated": "2020-03-04T06:08:34.826Z",
-      "__v": 0,
-      "value": 30
+      "name": "Pale Hyacinth",
+      "description": "Ingredient. A white and yellow flower. Incredibly rare.",
+      "value": 30,
+      "tier": "4",
+      "type": "medicine",
+      "__v": 0
     },
     {
       "_id": "5ca47fcc379035f6ffb1d0c8",
-      "name": "Luminous Rose",
-      "description": "Ingredient. A white rose, famously exuberant in moonlight. Rarely found on Tem Khiris.",
-      "tier": "3",
-      "type": "medicine",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "-1",
+              -1,
               [
                 "A flower so beautiful, it's breathtaking. Literally. Slowly, your throat swells up, giving you time to reflect on this cautionary tale."
               ]
             ],
-            "_id": "5e578fbdb723c210aa4af605",
-            "type": "changeHealth"
+            "_id": "5e578fbdb723c210aa4af605"
           }
         ],
         "uses": 1
       },
       "_created": "2019-04-03T09:41:32.173Z",
       "_updated": "2020-02-27T09:45:33.765Z",
-      "__v": 0,
-      "value": 10
+      "name": "Luminous Rose",
+      "description": "Ingredient. A white rose, famously exuberant in moonlight. Rarely found on Tem Khiris.",
+      "value": 10,
+      "tier": "3",
+      "type": "medicine",
+      "__v": 0
     },
     {
       "_id": "5ca4807d379035e1f4b1d0cd",
-      "name": "Gray Snapdragon",
-      "description": "Ingredient. A gray flower, popular among the nomads of Tem Khiris, who use it for medicinal purposes.",
-      "tier": "2",
-      "type": "medicine",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "3"
+              3
             ],
-            "_id": "5ca4807d3790356915b1d0ce",
-            "type": "changeHealth"
+            "_id": "5ca4807d3790356915b1d0ce"
           }
         ],
         "uses": 1
       },
       "_created": "2019-04-03T09:44:29.617Z",
       "_updated": "2019-04-08T15:17:10.463Z",
-      "__v": 0,
-      "value": 2
+      "name": "Gray Snapdragon",
+      "description": "Ingredient. A gray flower, popular among the nomads of Tem Khiris, who use it for medicinal purposes.",
+      "value": 2,
+      "tier": "2",
+      "type": "medicine",
+      "__v": 0
     },
     {
       "_id": "5ca4826c379035b0eeb1d0cf",
-      "name": "Cloud Petal",
-      "description": "Ingredient. Once plucked from the rare flower known as Nierva's Crown, this petal quickly hardens into a pale shard, presently sharp enough to pierce your skin.",
-      "tier": "3",
-      "type": "medicine",
       "consumption": {
-        "uses": 1,
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "-5",
+              -5,
               [
                 "You soon realize that eating those sharp petals was a bad idea. Feeling nauseous and woozy, you drop to your knees and vomit blood on the ground. This goes on for a while, until you finally lose consciousness. A painful death, if there ever was one."
               ]
             ],
-            "_id": "5e57956fb723c277844af609",
-            "type": "changeHealth"
+            "_id": "5e57956fb723c277844af609"
           }
-        ]
+        ],
+        "uses": 1
       },
       "_created": "2019-04-03T09:52:44.080Z",
       "_updated": "2020-02-27T10:09:51.553Z",
-      "__v": 0,
-      "value": 10
+      "name": "Cloud Petal",
+      "description": "Ingredient. Once plucked from the rare flower known as Nierva's Crown, this petal quickly hardens into a pale shard, presently sharp enough to pierce your skin.",
+      "value": 10,
+      "tier": "3",
+      "type": "medicine",
+      "__v": 0
     },
     {
       "_id": "5ca483ff37903581f4b1d0d1",
-      "name": "Noxious Weed",
-      "description": "Ingredient. Commonly found on Tem Khiris, these poisonous leaves are frequently used in various medicinal concoctions.",
-      "tier": "1",
-      "type": "medicine",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "-2",
+              -2,
               [
                 "You chew on the poisonous plant until you begin to feel sick. Sweating profusely, you find it hard to breathe. After a short while, you collapse on the ground, choking to death."
               ]
             ],
-            "_id": "5e578e71b723c2f4044af604",
-            "type": "changeHealth"
+            "_id": "5e578e71b723c2f4044af604"
           }
         ],
         "uses": 1
       },
       "_created": "2019-04-03T09:59:27.843Z",
       "_updated": "2020-02-27T09:40:01.635Z",
-      "__v": 0,
-      "value": 1
+      "name": "Noxious Weed",
+      "description": "Ingredient. Commonly found on Tem Khiris, these poisonous leaves are frequently used in various medicinal concoctions.",
+      "value": 1,
+      "tier": "1",
+      "type": "medicine",
+      "__v": 0
     },
     {
       "_id": "5ca484f73790351c66b1d0d3",
-      "name": "Toxic Nettle",
-      "description": "Ingredient. Commonly used by medical practitioners among the nomads and druids of Tem Khiris. May counter the adverse effects of other poisonous substances.",
-      "tier": "3",
-      "type": "medicine",
       "consumption": {
-        "uses": 1,
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "-2",
+              -2,
               [
                 "They call it \"toxic\" for a reason. In spite of this, you devoured the poisonous plant. And guess what? You're dead. Funny how things work out."
               ]
             ],
-            "_id": "5e578defb723c275604af603",
-            "type": "changeHealth"
+            "_id": "5e578defb723c275604af603"
           }
-        ]
+        ],
+        "uses": 1
       },
       "_created": "2019-04-03T10:03:35.534Z",
       "_updated": "2020-02-27T09:37:51.618Z",
-      "__v": 0,
-      "value": 5
+      "name": "Toxic Nettle",
+      "description": "Ingredient. Commonly used by medical practitioners among the nomads and druids of Tem Khiris. May counter the adverse effects of other poisonous substances.",
+      "value": 5,
+      "tier": "3",
+      "type": "medicine",
+      "__v": 0
     },
     {
       "_id": "5ca486213790355c57b1d0d5",
@@ -2801,26 +2803,26 @@
     },
     {
       "_id": "5caabbcf37903537d9b22137",
-      "name": "Antidote",
-      "description": "Medicine. A small, transparent flask. It contains poison antidote.",
-      "tier": "3",
-      "type": "medicine",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "5"
+              5
             ],
-            "_id": "5caabbcf379035495cb22138",
-            "type": "changeHealth"
+            "_id": "5caabbcf379035495cb22138"
           }
         ],
         "uses": 2
       },
       "_created": "2019-04-08T03:11:11.197Z",
       "_updated": "2019-04-08T15:11:43.765Z",
-      "__v": 0,
-      "value": 30
+      "name": "Antidote",
+      "description": "Medicine. A small, transparent flask. It contains poison antidote.",
+      "value": 30,
+      "tier": "3",
+      "type": "medicine",
+      "__v": 0
     },
     {
       "_id": "5cab7c5e379035ff3eb223f6",
@@ -2903,26 +2905,26 @@
     },
     {
       "_id": "5cab7f1737903512c8b223f9",
+      "consumption": {
+        "actions": [
+          {
+            "type": "changeHealth",
+            "parameters": [
+              12,
+              0
+            ],
+            "_id": "5e5fa6f0fe7d0d4bbf6c5087"
+          }
+        ],
+        "uses": 3
+      },
+      "_created": "2019-04-08T17:04:23.540Z",
+      "_updated": "2020-03-04T13:02:40.213Z",
       "name": "Bandages",
       "description": "Medical supplies. Enough to mend three wounds.",
       "value": 5,
       "tier": "2",
       "type": "medicine",
-      "consumption": {
-        "uses": 3,
-        "actions": [
-          {
-            "parameters": [
-              "12",
-              ""
-            ],
-            "_id": "5e5fa6f0fe7d0d4bbf6c5087",
-            "type": "changeHealth"
-          }
-        ]
-      },
-      "_created": "2019-04-08T17:04:23.540Z",
-      "_updated": "2020-03-04T13:02:40.213Z",
       "__v": 0
     },
     {
@@ -3091,25 +3093,25 @@
     },
     {
       "_id": "5cb2689cc065f0094d942a40",
-      "name": "Goat's Milk",
-      "description": "Beverage. A corked jug of goat's milk. Restores a small amount of health.",
-      "value": 1,
-      "tier": "1",
-      "type": "food",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "2"
+              2
             ],
-            "_id": "5cb2689cc065f02e9d942a41",
-            "type": "changeHealth"
+            "_id": "5cb2689cc065f02e9d942a41"
           }
         ],
         "uses": 2
       },
       "_created": "2019-04-13T22:54:20.675Z",
       "_updated": "2019-04-13T22:54:20.675Z",
+      "name": "Goat's Milk",
+      "description": "Beverage. A corked jug of goat's milk. Restores a small amount of health.",
+      "value": 1,
+      "tier": "1",
+      "type": "food",
       "__v": 0
     },
     {
@@ -3394,26 +3396,26 @@
     },
     {
       "_id": "5cb92b83c065f0372b943b5d",
-      "name": "Amphora of Red Wine",
-      "description": "A clay vessel, which contains the inebriating substance of red wine.",
-      "value": 8,
-      "tier": "2",
-      "type": "food",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "3",
-              ""
+              3,
+              0
             ],
-            "_id": "5e669d85d5f2fff2a923495e",
-            "type": "changeHealth"
+            "_id": "5e669d85d5f2fff2a923495e"
           }
         ],
         "uses": 12
       },
       "_created": "2019-04-19T01:59:31.969Z",
       "_updated": "2020-03-09T19:48:21.735Z",
+      "name": "Amphora of Red Wine",
+      "description": "A clay vessel, which contains the inebriating substance of red wine.",
+      "value": 8,
+      "tier": "2",
+      "type": "food",
       "__v": 0
     },
     {
@@ -4234,95 +4236,95 @@
     },
     {
       "_id": "5ce5354dc3e78f3cce5bdaf0",
+      "consumption": {
+        "actions": [
+          {
+            "type": "changeHealth",
+            "parameters": [
+              1
+            ],
+            "_id": "5ce5354dc3e78f2df15bdaf1"
+          }
+        ],
+        "uses": 8
+      },
+      "_created": "2019-05-22T11:41:01.344Z",
+      "_updated": "2019-11-05T02:22:45.657Z",
       "name": "Loaf of Bread",
       "description": "A sturdy loaf of bread. Provides health and nourishment.",
       "value": 1,
       "tier": "1",
       "type": "food",
-      "consumption": {
-        "uses": 8,
-        "actions": [
-          {
-            "parameters": [
-              "1"
-            ],
-            "_id": "5ce5354dc3e78f2df15bdaf1",
-            "type": "changeHealth"
-          }
-        ]
-      },
-      "_created": "2019-05-22T11:41:01.344Z",
-      "_updated": "2019-11-05T02:22:45.657Z",
       "__v": 0
     },
     {
       "_id": "5ce53653c3e78f00975bdaf2",
+      "consumption": {
+        "actions": [
+          {
+            "type": "changeHealth",
+            "parameters": [
+              1
+            ],
+            "_id": "5ce53653c3e78f67925bdaf3"
+          }
+        ],
+        "uses": 10
+      },
+      "_created": "2019-05-22T11:45:23.618Z",
+      "_updated": "2019-05-22T11:45:23.618Z",
       "name": "Block of Cheese",
       "description": "A sizable brick of cheese from the farmlands of Roeburgh. Provides health and nourishment.",
       "value": 3,
       "tier": "2",
       "type": "food",
-      "consumption": {
-        "uses": 10,
-        "actions": [
-          {
-            "parameters": [
-              "1"
-            ],
-            "_id": "5ce53653c3e78f67925bdaf3",
-            "type": "changeHealth"
-          }
-        ]
-      },
-      "_created": "2019-05-22T11:45:23.618Z",
-      "_updated": "2019-05-22T11:45:23.618Z",
       "__v": 0
     },
     {
       "_id": "5ce536eec3e78fad0a5bdaf4",
+      "consumption": {
+        "actions": [
+          {
+            "type": "changeHealth",
+            "parameters": [
+              8,
+              0
+            ],
+            "_id": "5e669d9ad5f2ffb962234960"
+          }
+        ],
+        "uses": 6
+      },
+      "_created": "2019-05-22T11:47:58.184Z",
+      "_updated": "2020-03-09T19:48:42.799Z",
       "name": "Blue Cheese",
       "description": "A lump of blue cheese from the Maleqite Lowlands. Provides health and nourishment.",
       "value": 4,
       "tier": "3",
       "type": "food",
-      "consumption": {
-        "uses": 6,
-        "actions": [
-          {
-            "parameters": [
-              "8",
-              ""
-            ],
-            "_id": "5e669d9ad5f2ffb962234960",
-            "type": "changeHealth"
-          }
-        ]
-      },
-      "_created": "2019-05-22T11:47:58.184Z",
-      "_updated": "2020-03-09T19:48:42.799Z",
       "__v": 0
     },
     {
       "_id": "5ce53757c3e78f1caf5bdaf6",
+      "consumption": {
+        "actions": [
+          {
+            "type": "changeHealth",
+            "parameters": [
+              2
+            ],
+            "_id": "5ce53758c3e78f43e45bdaf7"
+          }
+        ],
+        "uses": 2
+      },
+      "_created": "2019-05-22T11:49:44.000Z",
+      "_updated": "2019-05-22T15:23:19.077Z",
       "name": "Jug of Water",
       "description": "A clay vessel which contains clean water from a mountain spring. Provides health and hydration.",
       "value": 1,
       "tier": "1",
       "type": "food",
-      "consumption": {
-        "uses": 2,
-        "actions": [
-          {
-            "parameters": [
-              "2"
-            ],
-            "_id": "5ce53758c3e78f43e45bdaf7",
-            "type": "changeHealth"
-          }
-        ]
-      },
-      "_created": "2019-05-22T11:49:44.000Z",
-      "_updated": "2019-05-22T15:23:19.077Z",
       "__v": 0
     },
     {
@@ -4652,28 +4654,28 @@
     },
     {
       "_id": "5cf7b0dec3e78f6c805c2de2",
-      "name": "Miracle Cure",
-      "description": "This glass vial contains a strange brew. It smells like alcohol.",
-      "value": 10,
-      "tier": "2",
-      "type": "medicine",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "-1",
+              -1,
               [
                 "Having tasted the strange brew, you begin to question the medical expertise of the nomads. Not only does it taste horrible, it actually seems to be toxic. Realizing that you've fallen prey to false advertising, you feel drunk and nauseous. Finally, you collapse and lose consciousness. Unfortunately, you never wake up again."
               ]
             ],
-            "_id": "5e5791feb723c2e48e4af607",
-            "type": "changeHealth"
+            "_id": "5e5791feb723c2e48e4af607"
           }
         ],
         "uses": 3
       },
       "_created": "2019-06-05T12:09:02.448Z",
       "_updated": "2020-02-27T09:55:10.542Z",
+      "name": "Miracle Cure",
+      "description": "This glass vial contains a strange brew. It smells like alcohol.",
+      "value": 10,
+      "tier": "2",
+      "type": "medicine",
       "__v": 0
     },
     {
@@ -4718,50 +4720,50 @@
     },
     {
       "_id": "5d16d680ebd3dcf5f554cc8a",
-      "name": "Moonshine",
-      "description": "A painted clay jug. It reeks of foul spirits.",
-      "value": 10,
-      "tier": "2",
-      "type": "food",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "1"
+              1
             ],
-            "_id": "5d16d680ebd3dc2f5354cc8b",
-            "type": "changeHealth"
+            "_id": "5d16d680ebd3dc2f5354cc8b"
           }
         ],
         "uses": 8
       },
       "_created": "2019-06-29T03:09:52.853Z",
       "_updated": "2019-06-29T03:09:52.853Z",
+      "name": "Moonshine",
+      "description": "A painted clay jug. It reeks of foul spirits.",
+      "value": 10,
+      "tier": "2",
+      "type": "food",
       "__v": 0
     },
     {
       "_id": "5d441c978335b4064e8849ec",
-      "name": "Dread Root",
-      "tier": "4",
-      "type": "medicine",
       "consumption": {
         "actions": [
           {
+            "type": "changeStat",
             "parameters": [
               "agility",
-              "1",
+              1,
               true
             ],
-            "_id": "5d441c978335b434bb8849ed",
-            "type": "changeStat"
+            "_id": "5d441c978335b434bb8849ed"
           }
         ],
         "uses": 1
       },
-      "value": 250,
-      "description": "A rare medicinal ingredient, known for its miraculous effects. Some people grow addicted to chewing these dry roots, which have a bitter taste.",
       "_created": "2019-08-02T11:20:55.155Z",
       "_updated": "2019-08-02T11:21:52.438Z",
+      "name": "Dread Root",
+      "description": "A rare medicinal ingredient, known for its miraculous effects. Some people grow addicted to chewing these dry roots, which have a bitter taste.",
+      "value": 250,
+      "tier": "4",
+      "type": "medicine",
       "__v": 0
     },
     {
@@ -4884,26 +4886,26 @@
     },
     {
       "_id": "5d54c51a8335b4959d8851d1",
-      "name": "Crone River Eel",
-      "description": "Fish. Charred and salted. A cut of Crone River Eel, the main sustenance and livelihood among the fishermen of Set.",
-      "type": "food",
-      "tier": "3",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "25",
-              ""
+              25,
+              0
             ],
-            "_id": "5e66a046d5f2ff5a65234a84",
-            "type": "changeHealth"
+            "_id": "5e66a046d5f2ff5a65234a84"
           }
         ],
         "uses": 1
       },
-      "value": 8,
       "_created": "2019-08-15T02:36:10.455Z",
       "_updated": "2020-03-09T20:00:06.509Z",
+      "name": "Crone River Eel",
+      "description": "Fish. Charred and salted. A cut of Crone River Eel, the main sustenance and livelihood among the fishermen of Set.",
+      "value": 8,
+      "tier": "3",
+      "type": "food",
       "__v": 0
     },
     {
@@ -5445,27 +5447,27 @@
     },
     {
       "_id": "5d8186abe6ecf3a4b3a2c87c",
-      "name": "Exotic Perfume",
-      "description": "A small glass vial containing a yellow liquid. Rubbing it on your skin will endow you with a pleasant fragrance.",
-      "value": 200,
-      "tier": "4",
-      "type": "medicine",
       "consumption": {
         "actions": [
           {
+            "type": "changeStat",
             "parameters": [
               "charisma",
-              "1",
+              1,
               true
             ],
-            "_id": "5d8186abe6ecf38d6ca2c87d",
-            "type": "changeStat"
+            "_id": "5d8186abe6ecf38d6ca2c87d"
           }
         ],
         "uses": 1
       },
       "_created": "2019-09-18T01:21:47.214Z",
       "_updated": "2019-09-18T01:22:04.732Z",
+      "name": "Exotic Perfume",
+      "description": "A small glass vial containing a yellow liquid. Rubbing it on your skin will endow you with a pleasant fragrance.",
+      "value": 200,
+      "tier": "4",
+      "type": "medicine",
       "__v": 0
     },
     {
@@ -5494,26 +5496,26 @@
     },
     {
       "_id": "5d823fbbb97fb3331a7c2f1e",
-      "name": "Phenrisian Cider",
-      "description": "A bottle of pear cider, brewed by the monks of the Phenrisian Monastery.",
-      "value": 10,
-      "tier": "3",
-      "type": "food",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "3",
-              ""
+              3,
+              0
             ],
-            "_id": "5e627f0f60116c53956281f9",
-            "type": "changeHealth"
+            "_id": "5e627f0f60116c53956281f9"
           }
         ],
         "uses": 4
       },
       "_created": "2019-09-18T14:31:23.209Z",
       "_updated": "2020-03-06T16:49:19.014Z",
+      "name": "Phenrisian Cider",
+      "description": "A bottle of pear cider, brewed by the monks of the Phenrisian Monastery.",
+      "value": 10,
+      "tier": "3",
+      "type": "food",
       "__v": 0
     },
     {
@@ -5689,26 +5691,26 @@
     },
     {
       "_id": "5dbb11ddff2c19ac60db687c",
-      "name": "Palefoot Mushroom",
-      "description": "An edible mushroom. Gray and white with dark spots. It can be harvested on the Isle of Bast.",
-      "value": 1,
-      "tier": "2",
-      "type": "food",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
-              "6",
-              ""
+              6,
+              0
             ],
-            "_id": "5e669d75d5f2ff0ee723495d",
-            "type": "changeHealth"
+            "_id": "5e669d75d5f2ff0ee723495d"
           }
         ],
         "uses": 3
       },
       "_created": "2019-10-31T16:54:53.971Z",
       "_updated": "2020-03-09T19:48:05.182Z",
+      "name": "Palefoot Mushroom",
+      "description": "An edible mushroom. Gray and white with dark spots. It can be harvested on the Isle of Bast.",
+      "value": 1,
+      "tier": "2",
+      "type": "food",
       "__v": 0
     },
     {
@@ -6068,50 +6070,50 @@
     },
     {
       "_id": "5de667adf75a9779e659f1bb",
+      "consumption": {
+        "actions": [
+          {
+            "type": "changeHealth",
+            "parameters": [
+              10,
+              0
+            ],
+            "_id": "5e669dc3d5f2ffd484234963"
+          }
+        ],
+        "uses": 6
+      },
+      "_created": "2019-12-03T13:48:29.679Z",
+      "_updated": "2020-03-09T19:49:23.340Z",
       "name": "Roeburghian White Wine",
       "description": "A bottle of white wine, originating from the vineyards of Lord's Peninsula.",
       "value": 20,
       "tier": "3",
       "type": "food",
-      "consumption": {
-        "uses": 6,
-        "actions": [
-          {
-            "parameters": [
-              "10",
-              ""
-            ],
-            "_id": "5e669dc3d5f2ffd484234963",
-            "type": "changeHealth"
-          }
-        ]
-      },
-      "_created": "2019-12-03T13:48:29.679Z",
-      "_updated": "2020-03-09T19:49:23.340Z",
       "__v": 0
     },
     {
       "_id": "5de668ecf75a9707e659f1c1",
+      "consumption": {
+        "actions": [
+          {
+            "type": "changeHealth",
+            "parameters": [
+              5,
+              0
+            ],
+            "_id": "5e627ee960116c0b8e6281f6"
+          }
+        ],
+        "uses": 12
+      },
+      "_created": "2019-12-03T13:53:48.931Z",
+      "_updated": "2020-03-09T19:49:08.687Z",
       "name": "Maleqite Brandy",
       "description": "A bottle of fine spirits, imported from the lowlands of Malequiem. Not for the weak of heart.",
       "value": 25,
       "tier": "4",
       "type": "food",
-      "consumption": {
-        "uses": 12,
-        "actions": [
-          {
-            "parameters": [
-              "5",
-              ""
-            ],
-            "_id": "5e627ee960116c0b8e6281f6",
-            "type": "changeHealth"
-          }
-        ]
-      },
-      "_created": "2019-12-03T13:53:48.931Z",
-      "_updated": "2020-03-09T19:49:08.687Z",
       "__v": 0
     },
     {
@@ -6138,26 +6140,26 @@
     },
     {
       "_id": "5def297ff75a97ff0359fc51",
+      "consumption": {
+        "actions": [
+          {
+            "type": "changeHealth",
+            "parameters": [
+              3,
+              0
+            ],
+            "_id": "5e627ecc60116c01dc6281f3"
+          }
+        ],
+        "uses": 4
+      },
+      "_created": "2019-12-10T05:13:35.815Z",
+      "_updated": "2020-03-06T16:48:12.668Z",
       "name": "Mead",
       "description": "A corked bottle of honey-wine, which is a popular alcoholic beverage on the western highlands of Tem Khiris.",
       "value": 5,
       "tier": "1",
       "type": "food",
-      "consumption": {
-        "uses": 4,
-        "actions": [
-          {
-            "parameters": [
-              "3",
-              ""
-            ],
-            "_id": "5e627ecc60116c01dc6281f3",
-            "type": "changeHealth"
-          }
-        ]
-      },
-      "_created": "2019-12-10T05:13:35.815Z",
-      "_updated": "2020-03-06T16:48:12.668Z",
       "__v": 0
     },
     {
@@ -6445,27 +6447,27 @@
     },
     {
       "_id": "5e3b826ae094788433338236",
-      "name": "Sacred Elixir",
-      "value": 350,
-      "tier": "4",
-      "type": "medicine",
       "consumption": {
         "actions": [
           {
+            "type": "changeStat",
             "parameters": [
               "perception",
-              "1",
+              1,
               true
             ],
-            "_id": "5e3b826ae094783b67338237",
-            "type": "changeStat"
+            "_id": "5e3b826ae094783b67338237"
           }
         ],
         "uses": 1
       },
-      "description": "Contraband. The small bottle contains a dark blue liquid, concocted by the alchemists of Triniset. Popular among mystics and others who seek forbidden pleasures.",
       "_created": "2020-02-06T03:05:14.810Z",
       "_updated": "2020-02-06T03:07:23.474Z",
+      "name": "Sacred Elixir",
+      "description": "Contraband. The small bottle contains a dark blue liquid, concocted by the alchemists of Triniset. Popular among mystics and others who seek forbidden pleasures.",
+      "value": 350,
+      "tier": "4",
+      "type": "medicine",
       "__v": 0
     },
     {
@@ -6924,26 +6926,26 @@
     },
     {
       "_id": "5e55b456b723c287fd4adb7b",
+      "consumption": {
+        "actions": [
+          {
+            "type": "changeHealth",
+            "parameters": [
+              2,
+              []
+            ],
+            "_id": "5e627ef860116c93056281f7"
+          }
+        ],
+        "uses": 1
+      },
+      "_created": "2020-02-25T23:57:10.649Z",
+      "_updated": "2020-03-06T16:48:56.769Z",
       "name": "Green Apple",
       "description": "Fruit. Restores a small amount of health.",
       "value": 1,
       "tier": "1",
       "type": "food",
-      "consumption": {
-        "uses": 1,
-        "actions": [
-          {
-            "parameters": [
-              "2",
-              []
-            ],
-            "_id": "5e627ef860116c93056281f7",
-            "type": "changeHealth"
-          }
-        ]
-      },
-      "_created": "2020-02-25T23:57:10.649Z",
-      "_updated": "2020-03-06T16:48:56.769Z",
       "__v": 0
     },
     {
