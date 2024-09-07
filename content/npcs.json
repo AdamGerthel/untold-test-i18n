@@ -33,26 +33,21 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
       "_id": "5c7d8829fd6b492258456b99",
-      "name": "Druid War Chief",
-      "strength": 8,
-      "charisma": 3,
-      "resilience": 6,
-      "agility": 3,
-      "perception": 4,
       "_created": "2019-03-04T20:18:49.655Z",
-      "__v": 0,
-      "_updated": "2020-06-16T13:59:26.438Z",
-      "armor": 8,
-      "experience": 75,
-      "bargain": [],
-      "level": 20,
-      "loot": "5cb7a879c065f061629434e9",
-      "blockChance": 0,
+      "_updated": "2024-09-05T21:14:13.133Z",
+      "name": "Druid War Chief",
+      "_alias": null,
+      "level": 10,
+      "strength": 3,
+      "charisma": 3,
+      "resilience": 3,
+      "agility": 2,
+      "perception": 3,
       "attackSets": [
         [
           {
@@ -60,17 +55,23 @@
               "min": 6,
               "max": 18
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [
         "sweep"
       ],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
+      "armor": 8,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 75,
+      "loot": "5cb7a879c065f061629434e9",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -97,19 +98,17 @@
     },
     {
       "_id": "5c85d3f30e3748205fc6035c",
+      "_created": "2019-03-11T03:20:19.163Z",
+      "_updated": "2024-09-04T11:51:15.367Z",
+      "name": "Swordsman of Woe",
+      "_alias": null,
+      "portrait": "66d848a915ccc12663429375",
+      "level": 3,
       "strength": 2,
       "charisma": 1,
       "resilience": 1,
       "agility": 2,
       "perception": 1,
-      "armor": 0,
-      "experience": 30,
-      "_created": "2019-03-11T03:20:19.163Z",
-      "__v": 0,
-      "_updated": "2022-06-17T05:49:41.612Z",
-      "name": "Swordsman of Woe",
-      "level": 3,
-      "bargain": [],
       "attackSets": [
         [
           {
@@ -117,15 +116,20 @@
               "min": 1,
               "max": 4
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 1,
+      "armor": 0,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -163,19 +167,17 @@
     },
     {
       "_id": "5c869a09bbdb6b717658660d",
-      "name": "Maceman of Woe",
-      "perception": 1,
-      "agility": 1,
-      "resilience": 1,
-      "charisma": 1,
-      "strength": 4,
-      "armor": 1,
-      "experience": 30,
       "_created": "2019-03-11T17:25:29.394Z",
-      "__v": 0,
-      "_updated": "2020-03-18T07:49:24.981Z",
+      "_updated": "2024-09-04T11:51:39.996Z",
+      "name": "Maceman of Woe",
+      "_alias": null,
+      "portrait": "66d848cd15ccc1266342937a",
       "level": 4,
-      "bargain": [],
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 1,
+      "perception": 1,
       "attackSets": [
         [
           {
@@ -183,32 +185,35 @@
               "min": 1,
               "max": 6
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5c869a7abbdb6bfda058660e",
+      "_created": "2019-03-11T17:27:22.496Z",
+      "_updated": "2024-09-04T11:52:26.456Z",
       "name": "Alchemist of Woe",
+      "_alias": null,
+      "portrait": "66d849ea15ccc12663429544",
+      "level": 3,
       "strength": 1,
       "charisma": 1,
       "resilience": 1,
       "agility": 3,
       "perception": 1,
-      "armor": 0,
-      "experience": 20,
-      "_created": "2019-03-11T17:27:22.496Z",
-      "__v": 0,
-      "_updated": "2019-06-08T08:34:01.393Z",
-      "level": 3,
-      "bargain": [],
       "attackSets": [
         [
           {
@@ -216,15 +221,20 @@
               "min": 1,
               "max": 2
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 1,
+      "armor": 0,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -263,19 +273,17 @@
     },
     {
       "_id": "5c86bef6bbdb6b42665867f1",
+      "_created": "2019-03-11T20:03:02.610Z",
+      "_updated": "2024-09-04T11:51:28.828Z",
       "name": "Guardian of Woe",
+      "_alias": null,
+      "portrait": "66d848a915ccc12663429375",
+      "level": 4,
       "strength": 3,
       "charisma": 1,
       "resilience": 2,
       "agility": 1,
       "perception": 1,
-      "armor": 1,
-      "experience": 30,
-      "_created": "2019-03-11T20:03:02.610Z",
-      "__v": 0,
-      "_updated": "2020-04-19T00:12:42.117Z",
-      "level": 4,
-      "bargain": [],
       "attackSets": [
         [
           {
@@ -283,15 +291,20 @@
               "min": 1,
               "max": 8
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -325,25 +338,21 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
       "_id": "5c8b205419028820c8f94cda",
+      "_created": "2019-03-15T03:47:32.789Z",
+      "_updated": "2024-09-05T15:18:39.080Z",
       "name": "Druid Guard",
+      "_alias": null,
+      "level": 6,
+      "strength": 3,
       "charisma": 1,
       "resilience": 2,
       "agility": 2,
-      "strength": 3,
       "perception": 2,
-      "armor": 4,
-      "experience": 30,
-      "_created": "2019-03-15T03:47:32.789Z",
-      "_updated": "2020-03-25T17:49:55.523Z",
-      "__v": 0,
-      "bargain": [],
-      "loot": "5ca41433379035d082b1cec1",
-      "level": 6,
       "attackSets": [
         [
           {
@@ -351,15 +360,21 @@
               "min": 1,
               "max": 6
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
+      "armor": 4,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "loot": "5ca41433379035d082b1cec1",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -393,7 +408,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -426,7 +441,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -459,7 +474,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -531,7 +546,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -565,7 +580,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -598,7 +613,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -633,7 +648,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -667,7 +682,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -701,7 +716,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -762,7 +777,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
@@ -815,7 +830,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -849,7 +864,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -883,7 +898,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -917,7 +932,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -951,7 +966,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -985,7 +1000,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -1018,7 +1033,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -1052,7 +1067,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -1086,7 +1101,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -1119,7 +1134,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -1186,7 +1201,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -1220,7 +1235,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -1254,7 +1269,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -1288,7 +1303,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -1322,7 +1337,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -1356,7 +1371,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -1400,7 +1415,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
@@ -1444,7 +1459,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -1478,7 +1493,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -1512,7 +1527,7 @@
       "combatActions": [
         "parry"
       ],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "armor": 16,
       "behavior": "fighter",
       "baseImmunities": [],
@@ -1553,7 +1568,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -1587,7 +1602,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -1620,7 +1635,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -1664,7 +1679,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -1697,26 +1712,22 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
       "_id": "5d4439d38335b4bdac884b3c",
+      "_created": "2019-08-02T13:25:39.019Z",
+      "_updated": "2024-09-05T12:12:02.211Z",
       "name": "Bandit War Lord",
+      "_alias": null,
+      "portrait": "66d99ff815ccc12663432f40",
       "level": 14,
       "strength": 5,
       "charisma": 3,
       "resilience": 4,
       "agility": 2,
       "perception": 4,
-      "armor": 5,
-      "blockChance": 0.3,
-      "experience": 50,
-      "_created": "2019-08-02T13:25:39.019Z",
-      "_updated": "2020-10-29T12:19:52.614Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5d443cd88335b43f95884b43",
       "healthOverride": 70,
       "attackSets": [
         [
@@ -1725,15 +1736,22 @@
               "min": 4,
               "max": 18
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
+      "armor": 5,
+      "blockChance": 0.3,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 50,
+      "loot": "5d443cd88335b43f95884b43",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -1766,7 +1784,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -1799,7 +1817,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -1832,7 +1850,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -1866,7 +1884,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -1899,7 +1917,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -1933,7 +1951,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
@@ -2013,7 +2031,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -2078,7 +2096,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -2122,7 +2140,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -2182,7 +2200,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -2234,7 +2252,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -2268,7 +2286,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -2302,7 +2320,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -2336,7 +2354,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -2370,7 +2388,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -2404,7 +2422,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -2438,7 +2456,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -2472,7 +2490,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -2532,7 +2550,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -2588,7 +2606,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -2654,7 +2672,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
@@ -2688,7 +2706,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -2722,7 +2740,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -2774,7 +2792,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -2807,7 +2825,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -2840,7 +2858,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -2873,7 +2891,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -2907,7 +2925,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -2944,7 +2962,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
@@ -2977,7 +2995,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -3015,7 +3033,7 @@
       "combatActions": [
         "parry"
       ],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
@@ -3048,7 +3066,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -3082,7 +3100,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -3115,7 +3133,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
@@ -3149,7 +3167,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -3179,7 +3197,7 @@
         ]
       ],
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "armor": 18,
       "blockChance": 0.25,
       "behavior": "fighter",
@@ -3217,7 +3235,7 @@
         ]
       ],
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "armor": 20,
       "blockChance": 0.25,
       "behavior": "fighter",
@@ -3255,7 +3273,7 @@
         ]
       ],
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "armor": 19,
       "blockChance": 0.25,
       "behavior": "fighter",
@@ -3294,7 +3312,7 @@
         ]
       ],
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "armor": 20,
       "blockChance": 0.25,
       "behavior": "fighter",
@@ -3332,7 +3350,7 @@
         ]
       ],
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "armor": 12,
       "behavior": "fighter",
       "baseImmunities": [],
@@ -3372,7 +3390,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -3428,7 +3446,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -3500,7 +3518,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -3533,7 +3551,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -3609,7 +3627,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -3653,7 +3671,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -3687,7 +3705,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -3720,7 +3738,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -3756,7 +3774,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
@@ -3789,7 +3807,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -3822,7 +3840,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -3855,7 +3873,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -3891,7 +3909,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
@@ -3925,7 +3943,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
@@ -3989,7 +4007,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4023,7 +4041,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4056,7 +4074,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4089,7 +4107,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4122,7 +4140,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4156,7 +4174,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4189,7 +4207,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4222,7 +4240,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4255,7 +4273,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4288,7 +4306,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4323,7 +4341,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4356,7 +4374,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4389,7 +4407,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4422,7 +4440,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4455,7 +4473,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
@@ -4488,7 +4506,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4551,7 +4569,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4584,7 +4602,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
@@ -4620,7 +4638,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
@@ -4656,7 +4674,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     },
     {
@@ -4691,7 +4709,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -4726,7 +4744,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -4763,7 +4781,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -4800,7 +4818,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -4834,7 +4852,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -4869,7 +4887,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -4904,7 +4922,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -4941,7 +4959,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -4976,7 +4994,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -5011,7 +5029,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -5046,7 +5064,7 @@
       ],
       "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 4,
       "__t": "npc"
     }
   ]

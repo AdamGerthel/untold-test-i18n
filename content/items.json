@@ -2442,26 +2442,26 @@
     },
     {
       "_id": "5ca47ec13790351289b1d0c4",
-      "name": "Moon Orchid",
-      "description": "Ingredient. A blue flower, unlike anything you've ever seen before. Fragile and beautiful.",
-      "tier": "4",
-      "type": "medicine",
       "consumption": {
         "actions": [
           {
+            "type": "gainExperience",
             "parameters": [
-              "5"
+              5
             ],
-            "_id": "5ca47ec13790357272b1d0c5",
-            "type": "gainExperience"
+            "_id": "5ca47ec13790357272b1d0c5"
           }
         ],
         "uses": 1
       },
       "_created": "2019-04-03T09:37:05.978Z",
-      "_updated": "2019-04-08T15:08:06.728Z",
-      "__v": 0,
-      "value": 50
+      "_updated": "2024-09-06T09:01:12.192Z",
+      "name": "Moon Orchid",
+      "description": "Ingredient. A blue flower, unlike anything you've ever seen before. Fragile and beautiful.",
+      "value": 50,
+      "tier": "4",
+      "type": "medicine",
+      "__v": 0
     },
     {
       "_id": "5ca47f3a3790358a93b1d0c6",
@@ -2616,29 +2616,29 @@
     },
     {
       "_id": "5ca486213790355c57b1d0d5",
-      "name": "Thorn of Meym",
-      "description": "Ingredient. Taken from the spiky shrub known as Meym's Beard, found exclusively on the Isle of Dusk. These darks twigs are incredibly poisonous.",
-      "tier": "4",
-      "type": "medicine",
       "consumption": {
         "actions": [
           {
+            "type": "changeHealth",
             "parameters": [
               -25,
               [
                 "Your gums bleed when you try to chew the dark twigs. Maybe this wasn't such a great idea. A few seconds later, you fall flat on the ground, completely paralyzed. Trembling uncontrollably, you endure infathomable torment until your heart finally stops beating. Sometimes, death can be a relief."
               ]
             ],
-            "_id": "5e579430b723c21a474af608",
-            "type": "changeHealth"
+            "_id": "5e579430b723c21a474af608"
           }
         ],
         "uses": 1
       },
       "_created": "2019-04-03T10:08:33.299Z",
-      "_updated": "2020-03-17T02:34:06.467Z",
-      "__v": 0,
-      "value": 40
+      "_updated": "2024-09-06T09:06:08.230Z",
+      "name": "Thorn of Meym",
+      "description": "Ingredient. Taken from the spiky shrub known as Meym's Beard, found exclusively on the Isle of Dusk. These darks twigs are incredibly poisonous.",
+      "value": 40,
+      "tier": "4",
+      "type": "medicine",
+      "__v": 0
     },
     {
       "_id": "5ca5ee53379035f0ccb1fdf9",
@@ -3219,23 +3219,23 @@
     },
     {
       "_id": "5cb35965c065f048a294337f",
-      "name": "Laudanum",
-      "description": "Contraband/Medicine. A glass jar of opium tincture. Relieves pain quite efficiently, existential or otherwise.",
-      "tier": "3",
-      "type": "medicine",
       "consumption": {
-        "uses": 3,
         "actions": [
           {
+            "type": "gainFullHealth",
             "parameters": [],
-            "_id": "5cb35965c065f01f3b943380",
-            "type": "gainFullHealth"
+            "_id": "5cb35965c065f01f3b943380"
           }
-        ]
+        ],
+        "uses": 3
       },
-      "value": 50,
       "_created": "2019-04-14T16:01:41.008Z",
-      "_updated": "2020-03-25T17:24:50.042Z",
+      "_updated": "2024-09-06T09:05:59.365Z",
+      "name": "Laudanum",
+      "description": "Contraband/Medicine. A glass jar of opium tincture. Relieves pain quite efficiently, existential or otherwise.",
+      "value": 50,
+      "tier": "3",
+      "type": "medicine",
       "__v": 0
     },
     {
@@ -5470,26 +5470,26 @@
     },
     {
       "_id": "5d823f5bb97fb34a767c2f1c",
+      "consumption": {
+        "actions": [
+          {
+            "type": "changeHealth",
+            "parameters": [
+              15,
+              0
+            ],
+            "_id": "5e669de2d5f2ff46ea234964"
+          }
+        ],
+        "uses": 6
+      },
+      "_created": "2019-09-18T14:29:47.541Z",
+      "_updated": "2024-09-06T09:05:35.820Z",
       "name": "Panossian Red Wine",
       "description": "A bottle of red wine, imported from the distant land of Panosa.",
       "value": 30,
       "tier": "4",
       "type": "food",
-      "consumption": {
-        "uses": 6,
-        "actions": [
-          {
-            "parameters": [
-              "15",
-              ""
-            ],
-            "_id": "5e669de2d5f2ff46ea234964",
-            "type": "changeHealth"
-          }
-        ]
-      },
-      "_created": "2019-09-18T14:29:47.541Z",
-      "_updated": "2020-03-09T19:49:54.195Z",
       "__v": 0
     },
     {

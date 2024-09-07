@@ -5,6 +5,8 @@
   "data": [
     {
       "_id": "66d82ad115ccc12663428a53",
+      "_created": "2024-09-04T09:39:29.834Z",
+      "_updated": "2024-09-04T11:19:33.273Z",
       "name": "Dog",
       "_alias": "Dog",
       "portrait": "66d82a8b15ccc12663428a2c",
@@ -34,8 +36,7 @@
       "armor": 0,
       "behavior": "unstoppable",
       "baseImmunities": [],
-      "_created": "2024-09-04T09:39:29.834Z",
-      "_updated": "2024-09-04T09:39:29.835Z",
+      "experience": 20,
       "bargain": [],
       "__v": 0
     }
