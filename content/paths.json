@@ -1,5 +1,5 @@
 {
-  "total": 203,
+  "total": 204,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -1000,13 +1000,15 @@
     },
     {
       "_id": "5c9ba69d379035432cb1bfd6",
+      "_created": "2019-03-27T16:36:45.959Z",
+      "_updated": "2024-10-08T08:31:39.267Z",
+      "from": "5c8ac9bd19028894c6f94cd0",
+      "to": "5c8ac984190288866df94cce",
       "label": [
-        "Approach the summit"
+        "Climb the mountain"
       ],
       "weight": -2,
       "map": true,
-      "from": "5c8ac9bd19028894c6f94cd0",
-      "to": "5c8ac984190288866df94cce",
       "availability": [
         {
           "parameters": [
@@ -1021,14 +1023,12 @@
           "type": "hasSeenOptionOutcome"
         }
       ],
-      "_created": "2019-03-27T16:36:45.959Z",
-      "_updated": "2019-11-02T14:48:18.258Z",
       "encounters": [
         {
-          "_id": "5cab026390542e00003c5737",
           "scene": [
             "5cab02513790353797b2230c"
           ],
+          "maxAccounts": 1,
           "conditions": [
             {
               "parameters": [
@@ -1038,7 +1038,7 @@
               "type": "random"
             }
           ],
-          "maxAccounts": 1
+          "_id": "5cab026390542e00003c5737"
         }
       ],
       "__v": 0
@@ -2645,28 +2645,86 @@
     },
     {
       "_id": "5d13aefbebd3dc5e1e54caf7",
+      "_created": "2019-06-26T17:44:27.946Z",
+      "_updated": "2024-10-18T03:12:02.428Z",
+      "from": "5d011f9d0b4b6231fd34cf6a",
+      "to": "5d011f8d0b4b6201f434cf69",
       "label": [],
       "weight": 0,
       "map": true,
-      "from": "5d011f9d0b4b6231fd34cf6a",
-      "to": "5d011f8d0b4b6201f434cf69",
-      "_created": "2019-06-26T17:44:27.946Z",
-      "_updated": "2019-06-26T17:44:27.946Z",
       "availability": [],
-      "encounters": [],
+      "encounters": [
+        {
+          "scene": [
+            "67112f975e8edc286867774b"
+          ],
+          "maxAccounts": 1,
+          "conditions": [
+            [
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5ced4d57c3e78f6f0d5beac3",
+                    "5cedbeec9ee16c000053f0e8",
+                    "5cedc1129ee16c000053f0eb"
+                  ]
+                ],
+                "negate": false
+              },
+              {
+                "type": "hasSeenNode",
+                "parameters": [
+                  [
+                    "5ced4d57c3e78f6f0d5beac3",
+                    "5cedc96c9ee16c000053f0fc"
+                  ]
+                ],
+                "negate": true
+              }
+            ],
+            [
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5ced4d57c3e78f6f0d5beac3",
+                    "5cedd2899ee16c000053f114",
+                    "5cedd5fc9ee16c000053f11a"
+                  ]
+                ],
+                "negate": false
+              }
+            ],
+            [
+              {
+                "type": "hasSeenNode",
+                "parameters": [
+                  [
+                    "5ce50097c3e78f42005bd4f2",
+                    "5ce51394cb4a4f0000bad1f7"
+                  ]
+                ],
+                "negate": false
+              }
+            ]
+          ],
+          "_id": "6711d0d52c0216496f04bcfe"
+        }
+      ],
       "__v": 0
     },
     {
       "_id": "5d16a2a1ebd3dc00eb54cb45",
+      "_created": "2019-06-28T23:28:33.868Z",
+      "_updated": "2024-10-04T06:26:37.047Z",
+      "from": "5cda73c4c3e78f62235bb29c",
+      "to": "5d168f34ebd3dc4aab54cb09",
       "label": [
         "Approach the galley"
       ],
       "weight": 0,
       "map": false,
-      "from": "5cda73c4c3e78f62235bb29c",
-      "to": "5d168f34ebd3dc4aab54cb09",
-      "_created": "2019-06-28T23:28:33.868Z",
-      "_updated": "2019-11-11T09:13:41.282Z",
       "availability": [
         {
           "parameters": [
@@ -2674,27 +2732,17 @@
           ],
           "_id": "5d16a393ebd3dc7de554cb52",
           "type": "hasSeenLocation"
-        }
-      ],
-      "encounters": [
+        },
         {
-          "_id": "5dc92612edfc570000c51573",
-          "scene": [
-            "5dc4fbbdf75a97787a5970aa"
+          "type": "hasCompletedQuest",
+          "parameters": [
+            "5d7cd57de6ecf369a5a2a235"
           ],
-          "conditions": [
-            {
-              "parameters": [
-                "5d7cd57de6ecf369a5a2a235"
-              ],
-              "_id": "5dc92645f75a974052597680",
-              "type": "hasCompletedQuest"
-            }
-          ],
-          "maxAccounts": 1
+          "negate": true
         }
       ],
-      "__v": 0
+      "__v": 0,
+      "encounters": []
     },
     {
       "_id": "5d16a2c6ebd3dc1f8454cb46",
@@ -3007,17 +3055,129 @@
     },
     {
       "_id": "5d1a329eebd3dc04af54d2a0",
+      "_created": "2019-07-01T16:19:42.166Z",
+      "_updated": "2024-10-17T20:36:32.337Z",
+      "from": "5cda73f2c3e78f22075bb29d",
+      "to": "5cda7424c3e78f584d5bb2a0",
       "label": [
         "Explore the wilderness"
       ],
       "weight": 0,
       "map": true,
-      "from": "5cda73f2c3e78f22075bb29d",
-      "to": "5cda7424c3e78f584d5bb2a0",
-      "_created": "2019-07-01T16:19:42.166Z",
-      "_updated": "2019-07-01T16:19:42.166Z",
       "availability": [],
-      "encounters": [],
+      "encounters": [
+        {
+          "scene": [
+            "67112fab5e8edc286867793c"
+          ],
+          "maxAccounts": 1,
+          "conditions": [
+            [
+              {
+                "type": "hasCompletedQuest",
+                "parameters": [
+                  "5d7cd57de6ecf369a5a2a235"
+                ],
+                "negate": false
+              },
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5cb34567c065f06de194325b",
+                    "5cb34362886e2e00000ada48",
+                    "5cb7eeeb9477d700003b19f5"
+                  ]
+                ],
+                "negate": false
+              },
+              {
+                "type": "hasSeenNode",
+                "parameters": [
+                  [
+                    "5ce50097c3e78f42005bd4f2",
+                    "5ce5092ecb4a4f0000bad1f0"
+                  ]
+                ],
+                "negate": true
+              },
+              {
+                "type": "hasSeenNode",
+                "parameters": [
+                  [
+                    "5ce50097c3e78f42005bd4f2",
+                    "5ce55259cb4a4f0000bad224"
+                  ]
+                ],
+                "negate": true
+              },
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5ced4d57c3e78f6f0d5beac3",
+                    "5cee606653a4d4000038ec68",
+                    "5cee70d353a4d4000038ec74"
+                  ]
+                ],
+                "negate": true
+              }
+            ],
+            [
+              {
+                "type": "hasCompletedQuest",
+                "parameters": [
+                  "5d7cd57de6ecf369a5a2a235"
+                ],
+                "negate": false
+              },
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5cb7ea4cc065f0958b943756",
+                    "5cb7e7219477d700003b19e9",
+                    "5cb7e76e9477d700003b19eb"
+                  ]
+                ],
+                "negate": false
+              },
+              {
+                "type": "hasSeenNode",
+                "parameters": [
+                  [
+                    "5ce50097c3e78f42005bd4f2",
+                    "5ce5092ecb4a4f0000bad1f0"
+                  ]
+                ],
+                "negate": true
+              },
+              {
+                "type": "hasSeenNode",
+                "parameters": [
+                  [
+                    "5ce50097c3e78f42005bd4f2",
+                    "5ce55259cb4a4f0000bad224"
+                  ]
+                ],
+                "negate": true
+              },
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5ced4d57c3e78f6f0d5beac3",
+                    "5cee606653a4d4000038ec68",
+                    "5cee70d353a4d4000038ec74"
+                  ]
+                ],
+                "negate": true
+              }
+            ]
+          ],
+          "_id": "671172bb661cb7bce53e54e8"
+        }
+      ],
       "__v": 0
     },
     {
@@ -3273,13 +3433,15 @@
     },
     {
       "_id": "5d54fd148335b41a2b8852c2",
+      "_created": "2019-08-15T06:35:00.280Z",
+      "_updated": "2024-10-17T19:16:33.494Z",
+      "from": "5cda7408c3e78ff7fc5bb29e",
+      "to": "5cda7413c3e78f2fee5bb29f",
       "label": [
         "Approach the log cabin to the east"
       ],
       "weight": 0,
       "map": true,
-      "from": "5cda7408c3e78ff7fc5bb29e",
-      "to": "5cda7413c3e78f2fee5bb29f",
       "availability": [
         {
           "parameters": [
@@ -3294,8 +3456,6 @@
           "type": "hasSeenOptionOutcome"
         }
       ],
-      "_created": "2019-08-15T06:35:00.280Z",
-      "_updated": "2019-08-15T06:35:00.280Z",
       "encounters": [],
       "__v": 0
     },
@@ -3729,13 +3889,15 @@
     },
     {
       "_id": "5dbc4df4ff2c19d19fdb77d4",
+      "_created": "2019-11-01T15:23:32.903Z",
+      "_updated": "2024-09-09T15:42:42.549Z",
+      "from": "5dbc411bff2c192f44db7731",
+      "to": "5dbc410cff2c192303db7730",
       "label": [
         "Explore the dead forest"
       ],
-      "weight": 0,
+      "weight": 5,
       "map": true,
-      "from": "5dbc411bff2c192f44db7731",
-      "to": "5dbc410cff2c192303db7730",
       "availability": [
         {
           "parameters": [
@@ -3748,8 +3910,6 @@
           "type": "hasSeenNode"
         }
       ],
-      "_created": "2019-11-01T15:23:32.903Z",
-      "_updated": "2019-11-01T15:23:32.903Z",
       "encounters": [],
       "__v": 0
     },
@@ -6173,6 +6333,39 @@
             }
           ],
           "maxAccounts": 1
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "66ff8a45ff61df952df973c0",
+      "_created": "2024-10-04T06:25:09.678Z",
+      "_updated": "2024-10-16T13:16:48.768Z",
+      "from": "5cda73c4c3e78f62235bb29c",
+      "to": "5d168f34ebd3dc4aab54cb09",
+      "label": [
+        "Find out what's going on",
+        "Board the galley"
+      ],
+      "weight": 0,
+      "map": false,
+      "availability": [
+        {
+          "type": "hasCompletedQuest",
+          "parameters": [
+            "5d7cd57de6ecf369a5a2a235"
+          ],
+          "negate": false
+        }
+      ],
+      "encounters": [
+        {
+          "scene": [
+            "5dc4fbbdf75a97787a5970aa"
+          ],
+          "maxAccounts": 1,
+          "conditions": [],
+          "_id": "66ff8a31ed8e06c40269676a"
         }
       ],
       "__v": 0

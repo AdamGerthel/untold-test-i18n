@@ -248,19 +248,19 @@
     },
     {
       "_id": "5c8041b00e37483a86c601b5",
-      "name": "Loft (Abandoned Shack)",
+      "_created": "2019-03-06T21:54:56.651Z",
+      "_updated": "2024-10-06T09:37:50.123Z",
       "area": "5c7d45f4fd6b495555456b03",
       "coordinates": {
         "x": 218,
         "y": 387
       },
-      "_created": "2019-03-06T21:54:56.651Z",
+      "name": "Loft",
       "states": [
         {
           "scene": [
             "5c8041c20e37481c75c601b6"
           ],
-          "_id": "5c80420f0e3748756ec601ba",
           "conditions": [
             {
               "parameters": [
@@ -274,28 +274,28 @@
               "type": "hasUsedOption",
               "negate": true
             }
-          ]
+          ],
+          "_id": "5c80420f0e3748756ec601ba"
         },
         {
           "scene": [
             "5c8043bd0e374810d0c601c2"
           ],
-          "_id": "5c8044480e37483364c601c4",
-          "conditions": []
+          "conditions": [],
+          "_id": "5c8044480e37483364c601c4"
         }
       ],
-      "__v": 0,
-      "_updated": "2020-10-25T18:59:04.489Z",
       "background": "5da38f7cc55b7f4e34f52876",
       "audio": [
         {
-          "loop": true,
-          "volume": 1,
+          "media": "5e10ce5c76343346305ac8e4",
           "track": 2,
+          "loop": true,
           "continueFromPreviousPosition": true,
-          "media": "5e10ce5c76343346305ac8e4"
+          "volume": 1
         }
-      ]
+      ],
+      "__v": 0
     },
     {
       "_id": "5c86c725bbdb6b79c65868e3",
@@ -2705,20 +2705,19 @@
     },
     {
       "_id": "5d16cdfdebd3dc242954cc6d",
-      "name": "Longhouse (Interior)",
+      "_created": "2019-06-29T02:33:33.192Z",
+      "_updated": "2024-10-17T14:42:40.257Z",
       "area": "5cda74adc3e78f15685bb2a6",
       "coordinates": {
         "x": 79,
         "y": 253
       },
-      "_created": "2019-06-29T02:33:33.192Z",
-      "_updated": "2020-10-25T19:00:58.080Z",
+      "name": "Longhouse (Interior)",
       "states": [
         {
           "scene": [
             "5dc3a7fdf75a97b646596d1c"
           ],
-          "_id": "5dc3a840f75a970c07596d2a",
           "conditions": [
             {
               "parameters": [
@@ -2727,13 +2726,13 @@
               "_id": "5dc3a8d8f75a97a943596d57",
               "type": "hasCompletedQuest"
             }
-          ]
+          ],
+          "_id": "5dc3a840f75a970c07596d2a"
         },
         {
           "scene": [
             "5d7a1604e6ecf3567da28a27"
           ],
-          "_id": "5d7cdbafe6ecf3100fa2a272",
           "conditions": [
             {
               "parameters": [
@@ -2745,13 +2744,13 @@
               "_id": "5d7cdbafe6ecf3266aa2a273",
               "type": "isOnObjective"
             }
-          ]
+          ],
+          "_id": "5d7cdbafe6ecf3100fa2a272"
         },
         {
           "scene": [
             "5d16cf58ebd3dc04d254cc70"
           ],
-          "_id": "5d16cf8bebd3dc2ec554cc74",
           "conditions": [
             {
               "parameters": [
@@ -2764,20 +2763,21 @@
               "type": "isOnObjective",
               "negate": true
             }
-          ]
+          ],
+          "_id": "5d16cf8bebd3dc2ec554cc74"
         }
       ],
-      "__v": 0,
       "background": "5dd70e76f75a97646c59eaf2",
       "audio": [
         {
-          "loop": true,
-          "volume": 1,
-          "track": 2,
           "media": "5e6cc91c21eaae18c29f54a7",
-          "continueFromPreviousPosition": true
+          "track": 2,
+          "loop": true,
+          "continueFromPreviousPosition": true,
+          "volume": 1
         }
-      ]
+      ],
+      "__v": 0
     },
     {
       "_id": "5d54a2af8335b48e2588515a",
@@ -3199,17 +3199,34 @@
     },
     {
       "_id": "5dbc411bff2c192f44db7731",
-      "name": "Stone Tower",
+      "_created": "2019-11-01T14:28:43.750Z",
+      "_updated": "2024-10-09T19:51:40.253Z",
       "area": "5dbc40c5ff2c19f3c9db772d",
       "coordinates": {
         "x": 191,
         "y": 237
       },
-      "_created": "2019-11-01T14:28:43.750Z",
-      "_updated": "2019-12-12T20:53:52.383Z",
+      "name": "Stone Tower",
       "states": [
         {
-          "_id": "5dbc42ccff2c19e183db7735",
+          "scene": [
+            "6706193bff61df952dfb5d20"
+          ],
+          "conditions": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5dba3971ff2c19d286db6075",
+                  "67064e85b2817c5ce3015bb6"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "6706deccff61df952dfbfe63"
+        },
+        {
           "scene": [
             "5db1eff8ff2c19fbcedb3235"
           ],
@@ -3225,10 +3242,10 @@
               "type": "hasSeenNode",
               "negate": true
             }
-          ]
+          ],
+          "_id": "5dbc42ccff2c19e183db7735"
         },
         {
-          "_id": "5dbc4413ff2c1906b1db7739",
           "scene": [
             "5dba5431ff2c19b5e5db64fa"
           ],
@@ -3243,12 +3260,13 @@
               "_id": "5dbc4413ff2c19619bdb773a",
               "type": "hasSeenNode"
             }
-          ]
+          ],
+          "_id": "5dbc4413ff2c1906b1db7739"
         }
       ],
-      "__v": 0,
       "background": "5df2a8acf75a971cb25a078b",
-      "audio": null
+      "audio": null,
+      "__v": 0
     },
     {
       "_id": "5dbc4128ff2c194769db7732",

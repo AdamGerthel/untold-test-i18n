@@ -1,5 +1,5 @@
 {
-  "total": 79,
+  "total": 80,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -2340,72 +2340,82 @@
     },
     {
       "_id": "5cb91ccec065f09f7c943b35",
+      "_created": "2019-04-19T00:56:46.353Z",
+      "_updated": "2024-10-23T07:38:20.946Z",
+      "name": "Prison Warden",
       "gold": [
         26,
         92
       ],
-      "name": "Prison Warden",
       "bundles": [
         {
-          "_id": "5cb91ccec065f0e2aa943b3b",
+          "conditions": [
+            {
+              "type": "hasItem",
+              "parameters": [
+                "5cb900b6c065f081bd943a7f",
+                "greaterThanOrEqual",
+                1
+              ],
+              "negate": true
+            }
+          ],
           "items": [
             {
+              "item": "5cb900b6c065f081bd943a7f",
               "quantityRange": [
                 1,
                 1
               ],
-              "_id": "5cb91ccec065f07e37943b3c",
               "probability": 1,
-              "item": "5cb900b6c065f081bd943a7f"
+              "_id": "5cb91ccec065f07e37943b3c"
             }
           ],
-          "conditions": []
+          "_id": "5cb91ccec065f0e2aa943b3b"
         },
         {
-          "_id": "5cb91ccec065f0293d943b36",
+          "conditions": [],
           "items": [
             {
+              "item": "5cb9160dc065f0a88a943b32",
               "quantityRange": [
                 1,
                 1
               ],
-              "_id": "5cb91ccec065f0da30943b3a",
               "probability": 0.5,
-              "item": "5cb9160dc065f0a88a943b32"
+              "_id": "5cb91ccec065f0da30943b3a"
             },
             {
+              "item": "5c92eb843bae8d75c62b601c",
               "quantityRange": [
                 1,
                 1
               ],
-              "_id": "5cb91ccec065f0774c943b39",
               "probability": 0.1,
-              "item": "5c92eb843bae8d75c62b601c"
+              "_id": "5cb91ccec065f0774c943b39"
             },
             {
+              "item": "5ca4063c379035798cb1cebd",
               "quantityRange": [
                 1,
                 1
               ],
-              "_id": "5cb91ccec065f0fdce943b38",
               "probability": 0.25,
-              "item": "5ca4063c379035798cb1cebd"
+              "_id": "5cb91ccec065f0fdce943b38"
             },
             {
+              "item": "5c92f8863bae8dfca82b605c",
               "quantityRange": [
                 1,
                 1
               ],
-              "_id": "5cb91ccec065f02f38943b37",
               "probability": 0.15,
-              "item": "5c92f8863bae8dfca82b605c"
+              "_id": "5cb91ccec065f02f38943b37"
             }
           ],
-          "conditions": []
+          "_id": "5cb91ccec065f0293d943b36"
         }
       ],
-      "_created": "2019-04-19T00:56:46.353Z",
-      "_updated": "2019-04-19T00:56:46.353Z",
       "__v": 0
     },
     {
@@ -3024,148 +3034,130 @@
     },
     {
       "_id": "5ced4754c3e78fe0b15beaad",
+      "_created": "2019-05-28T14:36:04.648Z",
+      "_updated": "2024-10-18T11:44:14.696Z",
+      "name": "Knight 1",
       "gold": [
         11,
         33
       ],
-      "name": "Knight 1",
       "bundles": [
         {
-          "_id": "5ced4754c3e78f2ab15beaae",
+          "conditions": [],
           "items": [
             {
+              "item": "5ced45b9c3e78f135e5beaab",
               "quantityRange": [
                 1,
                 1
               ],
-              "_id": "5ced4754c3e78f1fcf5beab2",
               "probability": 0.2,
-              "item": "5ced45b9c3e78f135e5beaab"
+              "_id": "5ced4754c3e78f1fcf5beab2"
             },
             {
+              "item": "5ced4368c3e78f0e885beaa9",
               "quantityRange": [
                 1,
                 1
               ],
-              "_id": "5ced4754c3e78f02185beab1",
-              "probability": 0.1,
-              "item": "5c92fc783bae8d021a2b6063"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5ced4754c3e78f020c5beab0",
-              "probability": 0.1,
-              "item": "5ced4368c3e78f0e885beaa9"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5ced4754c3e78f4a2b5beaaf",
               "probability": 0.2,
-              "item": "5c92fd923bae8d40922b6064"
+              "_id": "5ced4754c3e78f020c5beab0"
             },
             {
+              "item": "5c92fd923bae8d40922b6064",
               "quantityRange": [
                 1,
                 1
               ],
-              "_id": "5ced47ecc3e78f26505beab5",
               "probability": 0.2,
-              "item": "5ced42a4c3e78fe8135beaa8"
+              "_id": "5ced4754c3e78f4a2b5beaaf"
             },
             {
+              "item": "5ced42a4c3e78fe8135beaa8",
               "quantityRange": [
                 1,
                 1
               ],
-              "_id": "5ced47ecc3e78f0fa05beab4",
               "probability": 0.2,
-              "item": "5ced44d3c3e78f3b015beaaa"
+              "_id": "5ced47ecc3e78f26505beab5"
+            },
+            {
+              "item": "5ced44d3c3e78f3b015beaaa",
+              "quantityRange": [
+                1,
+                1
+              ],
+              "probability": 0.2,
+              "_id": "5ced47ecc3e78f0fa05beab4"
             }
           ],
-          "conditions": []
+          "_id": "5ced4754c3e78f2ab15beaae"
         }
       ],
-      "_created": "2019-05-28T14:36:04.648Z",
-      "_updated": "2019-05-28T14:38:36.171Z",
       "__v": 0
     },
     {
       "_id": "5ced4cc3c3e78f353c5beabb",
+      "_created": "2019-05-28T14:59:15.916Z",
+      "_updated": "2024-10-18T11:45:35.321Z",
+      "name": "Knight 2",
       "gold": [
         13,
         36
       ],
-      "name": "Knight 2",
       "bundles": [
         {
-          "_id": "5ced4cc3c3e78f5ce85beabc",
+          "conditions": [],
           "items": [
             {
+              "item": "5ced4368c3e78f0e885beaa9",
               "quantityRange": [
                 1,
                 1
               ],
-              "_id": "5ced4cc3c3e78fa9885beac2",
-              "probability": 0.1,
-              "item": "5c92fc783bae8d021a2b6063"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5ced4cc3c3e78f84745beac1",
-              "probability": 0.1,
-              "item": "5ced4368c3e78f0e885beaa9"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5ced4cc3c3e78fbaf05beac0",
-              "probability": 0.15,
-              "item": "5ced44d3c3e78f3b015beaaa"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5ced4cc3c3e78f6e225beabf",
-              "probability": 0.15,
-              "item": "5c92fd923bae8d40922b6064"
-            },
-            {
-              "quantityRange": [
-                1,
-                1
-              ],
-              "_id": "5ced4cc3c3e78f75395beabe",
               "probability": 0.2,
-              "item": "5ced4685c3e78f95005beaac"
+              "_id": "5ced4cc3c3e78fa9885beac2"
             },
             {
+              "item": "5ced44d3c3e78f3b015beaaa",
               "quantityRange": [
                 1,
                 1
               ],
-              "_id": "5ced4cc3c3e78f8e095beabd",
-              "probability": 0.3,
-              "item": "5ced4946c3e78f3b255beaba"
+              "probability": 0.2,
+              "_id": "5ced4cc3c3e78fbaf05beac0"
+            },
+            {
+              "item": "5c92fd923bae8d40922b6064",
+              "quantityRange": [
+                1,
+                1
+              ],
+              "probability": 0.2,
+              "_id": "5ced4cc3c3e78f6e225beabf"
+            },
+            {
+              "item": "5ced4685c3e78f95005beaac",
+              "quantityRange": [
+                1,
+                1
+              ],
+              "probability": 0.2,
+              "_id": "5ced4cc3c3e78f75395beabe"
+            },
+            {
+              "item": "5ced4946c3e78f3b255beaba",
+              "quantityRange": [
+                1,
+                1
+              ],
+              "probability": 0.2,
+              "_id": "5ced4cc3c3e78f8e095beabd"
             }
           ],
-          "conditions": []
+          "_id": "5ced4cc3c3e78f5ce85beabc"
         }
       ],
-      "_created": "2019-05-28T14:59:15.916Z",
-      "_updated": "2019-05-28T14:59:15.916Z",
       "__v": 0
     },
     {
@@ -4889,43 +4881,58 @@
     },
     {
       "_id": "5e67726dd5f2ff6e702357b6",
+      "_created": "2020-03-10T10:56:45.795Z",
+      "_updated": "2024-10-12T21:34:18.039Z",
+      "name": "Druid Archer",
       "gold": [
         6,
         12
       ],
-      "name": "Druid Archer",
-      "_created": "2020-03-10T10:56:45.795Z",
-      "_updated": "2020-03-22T15:02:22.068Z",
       "bundles": [
         {
-          "_id": "5e777dfeecc8c9521b1bd8da",
+          "conditions": [],
           "items": [
             {
+              "item": "5e777d8becc8c97c3a1bd8d7",
               "quantityRange": [
                 1,
                 1
               ],
-              "_id": "5e777dfeecc8c992e71bd8db",
               "probability": 1,
-              "item": "5e777d8becc8c97c3a1bd8d7"
+              "_id": "5e777dfeecc8c992e71bd8db"
             }
           ],
-          "conditions": []
+          "_id": "5e777dfeecc8c9521b1bd8da"
         },
         {
-          "_id": "5e777dfeecc8c900921bd8d8",
+          "conditions": [],
           "items": [
             {
+              "item": "5e777d2aecc8c988e91bd8d6",
               "quantityRange": [
                 1,
                 1
               ],
-              "_id": "5e777dfeecc8c91b721bd8d9",
               "probability": 1,
-              "item": "5e777d2aecc8c988e91bd8d6"
+              "_id": "5e777dfeecc8c91b721bd8d9"
             }
           ],
-          "conditions": []
+          "_id": "5e777dfeecc8c900921bd8d8"
+        },
+        {
+          "conditions": [],
+          "items": [
+            {
+              "item": "5cab7f1737903512c8b223f9",
+              "quantityRange": [
+                1,
+                1
+              ],
+              "probability": 1,
+              "_id": "670aeb5a773bb634769fa525"
+            }
+          ],
+          "_id": "670aeb5a773bb634769fa524"
         }
       ],
       "__v": 0
@@ -5272,6 +5279,31 @@
       ],
       "_created": "2020-03-17T13:11:21.559Z",
       "_updated": "2020-03-17T13:11:21.559Z",
+      "__v": 0
+    },
+    {
+      "_id": "670aec32773bb634769fa85c",
+      "name": "Triad Apex - Foraging",
+      "gold": [],
+      "bundles": [
+        {
+          "conditions": [],
+          "items": [
+            {
+              "item": "5c803d8f0e37481dd7c6019c",
+              "quantityRange": [
+                4,
+                9
+              ],
+              "probability": 1,
+              "_id": "670aec32773bb634769fa85e"
+            }
+          ],
+          "_id": "670aec32773bb634769fa85d"
+        }
+      ],
+      "_created": "2024-10-12T21:37:54.116Z",
+      "_updated": "2024-10-12T21:37:54.116Z",
       "__v": 0
     }
   ]

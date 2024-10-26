@@ -1,6 +1,3875 @@
 {
-  "total": 0,
+  "total": 15,
   "limit": 1500,
   "skip": 0,
-  "data": []
+  "data": [
+    {
+      "_id": "66df16c315ccc126634353b2",
+      "name": "Explorer",
+      "description": "Visit every location.",
+      "tasks": [
+        {
+          "name": "Beach",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c7d46a0fd6b494077456b05"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353b3"
+        },
+        {
+          "name": "Western Plains",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c7d4ceffd6b4972fa456b21"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353b4"
+        },
+        {
+          "name": "Lagoon",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c7d4d43fd6b49c1a7456b22"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353b5"
+        },
+        {
+          "name": "Abandoned Shack",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c7d8786fd6b49c4e2456b97"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353b6"
+        },
+        {
+          "name": "Forest Camp",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c7e46598777bd4dd69e6842"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353b7"
+        },
+        {
+          "name": "Grove",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c7e46818777bd37f59e6844"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353b8"
+        },
+        {
+          "name": "Shack Interior",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8035d00e37480150c6018d"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353b9"
+        },
+        {
+          "name": "Loft (Abandoned Shack)",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8041b00e37483a86c601b5"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353ba"
+        },
+        {
+          "name": "Twilight Arches",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c86c725bbdb6b79c65868e3"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353bb"
+        },
+        {
+          "name": "Triad Apex",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8ac984190288866df94cce"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353bc"
+        },
+        {
+          "name": "Pylon",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8ac9bd19028894c6f94cd0"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353bd"
+        },
+        {
+          "name": "Temple Garden",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8ac9d6190288d1c5f94cd1"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353be"
+        },
+        {
+          "name": "Crypts",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8ac9ef1902884ef7f94cd2"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353bf"
+        },
+        {
+          "name": "Chapels",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8aca7b19028861c4f94cd3"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353c0"
+        },
+        {
+          "name": "Living Quarters",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8aca8d1902883dadf94cd4"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353c1"
+        },
+        {
+          "name": "Port Spire",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8acaa219028894d6f94cd5"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353c2"
+        },
+        {
+          "name": "Catacombs",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8acac119028881aff94cd6"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353c3"
+        },
+        {
+          "name": "Prison",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8acacd1902888d11f94cd7"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353c4"
+        },
+        {
+          "name": "Hollow Gate",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8acaf3190288c413f94cd8"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353c5"
+        },
+        {
+          "name": "Chapel of Phenris",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5caa502137903509bcb21826"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353c6"
+        },
+        {
+          "name": "Chapel of Nierva",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5caa504b3790359864b21827"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353c7"
+        },
+        {
+          "name": "Chamber of Nemesis",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5caa506b37903513dcb21829"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353c8"
+        },
+        {
+          "name": "Tavern",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cac83eb3790353ecbb2264a"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353c9"
+        },
+        {
+          "name": "Walkway",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cac84ec379035285bb2264b"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353ca"
+        },
+        {
+          "name": "Tower House 3F",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cac855f379035943eb2264c"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353cb"
+        },
+        {
+          "name": "Warehouse",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cac860137903579c4b2264d"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353cc"
+        },
+        {
+          "name": "Lighthouse",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cac86723790356c3fb2264e"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353cd"
+        },
+        {
+          "name": "Tavern 2F",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cacc1bb37903544b0b226c7"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353ce"
+        },
+        {
+          "name": "Tower House 2F",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cb20b1fc065f067219425c1"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353cf"
+        },
+        {
+          "name": "Tower House 1F",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cb20b3fc065f03bfb9425c3"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353d0"
+        },
+        {
+          "name": "Galley",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cb29c28c065f0490b942e01"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353d1"
+        },
+        {
+          "name": "Antechamber (Prison)",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cb8d92ec065f061819439ea"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353d2"
+        },
+        {
+          "name": "West Wing (Prison)",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cb8d952c065f0428b9439eb"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353d3"
+        },
+        {
+          "name": "East Wing (Prison)",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cb8d993c065f05a039439ec"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353d4"
+        },
+        {
+          "name": "Warden's Office",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cb8d9dac065f024d89439ed"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353d5"
+        },
+        {
+          "name": "Southern Shores",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cc0f032c065f02e9a9463f3"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353d6"
+        },
+        {
+          "name": "Behind the shack",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cc14c27c065f07ded946558"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353d7"
+        },
+        {
+          "name": "Harbor of Set",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cda73c4c3e78f62235bb29c"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353d8"
+        },
+        {
+          "name": "Abandoned Farm",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cda73f2c3e78f22075bb29d"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353d9"
+        },
+        {
+          "name": "Northern Plains",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cda7408c3e78ff7fc5bb29e"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353da"
+        },
+        {
+          "name": "Log Cabin",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cda7413c3e78f2fee5bb29f"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353db"
+        },
+        {
+          "name": "Grasslands of Roe",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cda7424c3e78f584d5bb2a0"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353dc"
+        },
+        {
+          "name": "Lake Roe",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cda7432c3e78f123d5bb2a1"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353dd"
+        },
+        {
+          "name": "Militia Camp",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cda743fc3e78f6e485bb2a2"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353de"
+        },
+        {
+          "name": "Bandit Camp",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cda7453c3e78fd30c5bb2a3"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353df"
+        },
+        {
+          "name": "Southern Plains",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cda7471c3e78f77335bb2a4"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353e0"
+        },
+        {
+          "name": "Nomad Camp",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cda747ec3e78f14fc5bb2a5"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353e1"
+        },
+        {
+          "name": "Galley (Ocean)",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5ce3c343c3e78f6c995bc028"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353e2"
+        },
+        {
+          "name": "Shade Coast",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5ce4626ec3e78f246b5bc86a"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353e3"
+        },
+        {
+          "name": "Cape Ram",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5ce48b63c3e78fd9e45bca8f"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353e4"
+        },
+        {
+          "name": "Selikro Delta",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5ce4e2d0c3e78fdebe5bd1cf"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353e5"
+        },
+        {
+          "name": "Marketplace",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d011f4d0b4b62513134cf62"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353e6"
+        },
+        {
+          "name": "Infirmary",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d011f680b4b6204ec34cf67"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353e7"
+        },
+        {
+          "name": "Wolf Shrine",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d011f7a0b4b622f9334cf68"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353e8"
+        },
+        {
+          "name": "Guard Tower",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d011f8d0b4b6201f434cf69"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353e9"
+        },
+        {
+          "name": "Longhouse",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d011f9d0b4b6231fd34cf6a"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353ea"
+        },
+        {
+          "name": "Galley (Set)",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d168f34ebd3dc4aab54cb09"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353eb"
+        },
+        {
+          "name": "Tavern (Set)",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d16a409ebd3dc847654cb53"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353ec"
+        },
+        {
+          "name": "Longhouse (Interior)",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d16cdfdebd3dc242954cc6d"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353ed"
+        },
+        {
+          "name": "Hadrian's Office",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d54a2af8335b48e2588515a"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353ee"
+        },
+        {
+          "name": "Den of Thieves",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d54b71d8335b4a8d68851ae"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353ef"
+        },
+        {
+          "name": "Log Cabin (Interior)",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d81fe8ae6ecf309b0a2c8ee"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353f0"
+        },
+        {
+          "name": "Tomb of Hieronymus",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d83d11a8ec2594120100a34"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353f1"
+        },
+        {
+          "name": "Forest Valley",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d83d1428ec259c17c100a35"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353f2"
+        },
+        {
+          "name": "The Ephemeral Lodge",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d83d1668ec2596997100a37"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353f3"
+        },
+        {
+          "name": "Rocky Shore",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5d83d17c8ec25986f0100a38"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353f4"
+        },
+        {
+          "name": "Harbor",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5dbc40ebff2c19150fdb772e"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353f5"
+        },
+        {
+          "name": "Graveyard",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5dbc40fdff2c197097db772f"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353f6"
+        },
+        {
+          "name": "Dead Forest",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5dbc410cff2c192303db7730"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353f7"
+        },
+        {
+          "name": "Stone Tower",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5dbc411bff2c192f44db7731"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353f8"
+        },
+        {
+          "name": "Northern Cliffs",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5dbc4128ff2c194769db7732"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353f9"
+        },
+        {
+          "name": "Smuggler's Hideout",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5dbc414bff2c19da20db7733"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353fa"
+        },
+        {
+          "name": "Burned Village",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5dd5b9dbf75a97a72b59d7ef"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353fb"
+        },
+        {
+          "name": "Scorched Farmlands",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5dd5b9edf75a97673b59d7f0"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353fc"
+        },
+        {
+          "name": "Western District",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5dd5b9fff75a97460859d7f1"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353fd"
+        },
+        {
+          "name": "Hydran Bridge",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5dd5ba2bf75a97123d59d7f2"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353fe"
+        },
+        {
+          "name": "Parlor House",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5de00c55f75a973f8059ec67"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc126634353ff"
+        },
+        {
+          "name": "Emerald Avenue",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5de00c68f75a97045459ec68"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435400"
+        },
+        {
+          "name": "Selikro Plaza",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5de00c78f75a97dcdd59ec69"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435401"
+        },
+        {
+          "name": "Soma Gardens",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5de00c88f75a977c8f59ec6a"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435402"
+        },
+        {
+          "name": "Lord's Boulevard",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5de00c9af75a975e4459ec6b"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435403"
+        },
+        {
+          "name": "Highcastle",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5de00ca6f75a970c8a59ec6c"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435404"
+        },
+        {
+          "name": "Servants' Quarters",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5de00cbff75a97437d59ec6d"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435405"
+        },
+        {
+          "name": "Stray Wolf Inn",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5de63200f75a97db8a59f19a"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435406"
+        },
+        {
+          "name": "Stray Wolf Inn 2F",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5de65beef75a977bbd59f1b0"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435407"
+        },
+        {
+          "name": "Room Four",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5de69085f75a9710ad59f5f6"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435408"
+        },
+        {
+          "name": "Church",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5de6beb0f75a97810259fa14"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435409"
+        },
+        {
+          "name": "Parlor House (Interior)",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5de8123cf75a9725a759fbbd"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc1266343540a"
+        },
+        {
+          "name": "Gambling Den",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5defa7e2f75a9726fa59ff90"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc1266343540b"
+        },
+        {
+          "name": "Back Rooms",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5df1a4f6f75a976eb35a0261"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc1266343540c"
+        },
+        {
+          "name": "Back Office",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e0350acc7c1d722610c47d0"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc1266343540d"
+        },
+        {
+          "name": "Sandstone Path",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e222c763433d7f45acd86"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc1266343540e"
+        },
+        {
+          "name": "Gate",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e223b76343304545acd87"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc1266343540f"
+        },
+        {
+          "name": "Walled Garden",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e2249763433395b5acd88"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435410"
+        },
+        {
+          "name": "Main Entrance",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e225b763433fdae5acd89"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435411"
+        },
+        {
+          "name": "Backyard",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e226e76343368b45acd8a"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435412"
+        },
+        {
+          "name": "Entryway",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e22aa763433140d5acd8b"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435413"
+        },
+        {
+          "name": "Ballroom",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e22bf76343354b95acd8c"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435414"
+        },
+        {
+          "name": "Cloakroom",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e22cf7634337ce85acd8d"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435415"
+        },
+        {
+          "name": "Dining Hall",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e22e1763433b5e05acd8e"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435416"
+        },
+        {
+          "name": "Stairwell 1F",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e230a76343313cf5acd8f"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435417"
+        },
+        {
+          "name": "Kitchen",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e235d76343349215acd90"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435418"
+        },
+        {
+          "name": "Pantry",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e238c76343363815acd91"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435419"
+        },
+        {
+          "name": "Master Bedroom",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e23c376343352025acd92"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc1266343541a"
+        },
+        {
+          "name": "Stairwell 2F",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e23dc76343360585acd93"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc1266343541b"
+        },
+        {
+          "name": "Holding Cell",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e241176343310525acd94"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc1266343541c"
+        },
+        {
+          "name": "Atrium",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e241e763433afbd5acd95"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc1266343541d"
+        },
+        {
+          "name": "Corridor",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e242d763433146b5acd96"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc1266343541e"
+        },
+        {
+          "name": "Torture Chamber",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e243e763433618d5acd97"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc1266343541f"
+        },
+        {
+          "name": "Armory",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e2450763433e00f5acd98"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435420"
+        },
+        {
+          "name": "Dormitory",
+          "conditions": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5e1e245c7634331f7e5acd99"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df16c315ccc12663435421"
+        }
+      ],
+      "descriptiveTasks": false,
+      "_created": "2024-09-09T15:30:47.730Z",
+      "_updated": "2024-09-09T15:39:47.730Z",
+      "conditionsToDiscover": [],
+      "__v": 0
+    },
+    {
+      "_id": "66e1a1ddcce7d0d2ca625a44",
+      "_created": "2024-09-09T16:57:49.531Z",
+      "_updated": "2024-10-25T10:58:42.350Z",
+      "name": "Seeker",
+      "description": "Discover the five different ways to get the antidote.",
+      "tasks": [
+        {
+          "name": "The Masquerade",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5caa9f6f3790356fb1b21f4f",
+                  "5caaa9dc3ac3e100003835a6",
+                  "5caab34a3ac3e100003835b5"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5caa506b37903513dcb21829"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1a1df220dec9caf06738d"
+        },
+        {
+          "name": "The Tower",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5cb2152fc065f00e57942615",
+                  "5cb21468a8d68b00008afa0d",
+                  "5cb2173ca8d68b00008afa16"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cac84ec379035285bb2264b"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1d89e220dec9caf067393"
+        },
+        {
+          "name": "The Merchant",
+          "conditions": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5cb2d88fc065f0deb7942e55",
+                  "5cb2da1b57cddf00007496d5"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5cb2d88fc065f0deb7942e55",
+                  "5cb2d73f57cddf00007496c7",
+                  "5cb2d77857cddf00007496c9"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1a285220dec9caf067390"
+        },
+        {
+          "name": "The Cauldron",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5cb27be2c065f0d95a942af8",
+                  "5cb27bd1df5d0d0000ab58ab",
+                  "5cb27f72df5d0d0000ab58b2"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasGainedItem",
+              "parameters": [
+                "5cad5a913790354ae0b2285c",
+                "equals",
+                1
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1d99b0895d785cda11b90"
+        },
+        {
+          "name": "The Smuggler",
+          "conditions": [
+            [
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5cb7ea4cc065f0958b943756",
+                    "5cb7e7219477d700003b19e9",
+                    "5cb7e75f9477d700003b19ea"
+                  ]
+                ],
+                "negate": false
+              },
+              {
+                "type": "hasItem",
+                "parameters": [
+                  "5caabbcf37903537d9b22137",
+                  "greaterThanOrEqual",
+                  1
+                ],
+                "negate": false
+              }
+            ],
+            [
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5cb34567c065f06de194325b",
+                    "5cb34362886e2e00000ada48",
+                    "5cb343a3886e2e00000ada4a"
+                  ]
+                ],
+                "negate": false
+              },
+              {
+                "type": "hasItem",
+                "parameters": [
+                  "5caabbcf37903537d9b22137",
+                  "greaterThanOrEqual",
+                  1
+                ],
+                "negate": false
+              }
+            ]
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5cb328c6c065f0722a943216"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1dbdc0895d785cda11b94"
+        }
+      ],
+      "conditionsToDiscover": [
+        {
+          "type": "hasSeenScene",
+          "parameters": [
+            "5c8e579e1531403d03805706"
+          ],
+          "negate": false
+        }
+      ],
+      "descriptiveTasks": true,
+      "__v": 0
+    },
+    {
+      "_id": "66e99e63cce7d0d2ca639193",
+      "_created": "2024-09-10T15:21:07.831Z",
+      "_updated": "2024-10-02T19:55:23.149Z",
+      "name": "The One Who Rises From Below",
+      "description": "A secret is buried in the sacred grounds of Triad Apex. Find out what lies below.",
+      "tasks": [
+        {
+          "name": "Move the boulder",
+          "conditions": [
+            {
+              "type": "hasSeenOptionOutcome",
+              "parameters": [
+                [
+                  "5c8fd1213bae8d0a222b5e3f",
+                  "5caa09eb2f8b800000240afc",
+                  "5caa0caa2f8b800000240aff",
+                  "5caa13982f8b800000240b03"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5c8fd1213bae8d0a222b5e3f",
+                  "5caa09eb2f8b800000240afc"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e99e54ccc1a801029670c0"
+        },
+        {
+          "name": "Find the helmet",
+          "conditions": [
+            {
+              "type": "hasGainedItem",
+              "parameters": [
+                "5d715ea8e6ecf34e69a286a0",
+                "greaterThanOrEqual",
+                1
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5d7d782de6ecf3422da2a468",
+                  "5d7d78788f6bfe000068dc40"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e99e5bccc1a801029670c1"
+        }
+      ],
+      "conditionsToDiscover": [
+        {
+          "type": "hasSeenLocation",
+          "parameters": [
+            "5c8ac984190288866df94cce"
+          ],
+          "negate": false
+        }
+      ],
+      "descriptiveTasks": true,
+      "__v": 0
+    },
+    {
+      "_id": "66e1f7d3cce7d0d2ca62b1a7",
+      "_created": "2024-09-10T20:04:35.429Z",
+      "_updated": "2024-10-02T19:53:31.407Z",
+      "name": "Born of Fire",
+      "description": "Mev is... well, let's just say you wouldn't want to get in her way.",
+      "tasks": [
+        {
+          "name": "Find Mev",
+          "conditions": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5cb328c6c065f0722a943216"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e1fae5d7581c0b045bbf9a"
+        },
+        {
+          "name": "Invite her to the ship",
+          "conditions": [
+            [
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5cb34567c065f06de194325b",
+                    "5cb34362886e2e00000ada48",
+                    "5cb7eeeb9477d700003b19f5"
+                  ]
+                ],
+                "negate": false
+              }
+            ],
+            [
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5cb7ea4cc065f0958b943756",
+                    "5cb7e7219477d700003b19e9",
+                    "5cb7e76e9477d700003b19eb"
+                  ]
+                ],
+                "negate": false
+              }
+            ]
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5cb328c6c065f0722a943216"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1fc49d7581c0b045bbf9e"
+        },
+        {
+          "name": "Tell her where to find Arvie Graker",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5cb34567c065f06de194325b",
+                  "5cb3443d886e2e00000ada4f",
+                  "5cb348dc886e2e00000ada60"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5cb34567c065f06de194325b",
+                  "5cb3443d886e2e00000ada4f"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1f79e9646405e25ae8e73"
+        }
+      ],
+      "conditionsToDiscover": [],
+      "descriptiveTasks": true,
+      "__v": 0
+    },
+    {
+      "_id": "66e1ddfdcce7d0d2ca626bd5",
+      "_created": "2024-09-11T18:14:21.880Z",
+      "_updated": "2024-10-24T08:56:57.709Z",
+      "name": "Snake",
+      "description": "Move in the shadows. Disguise yourself. Speak with a forked tongue. Don’t kill unless you have to.",
+      "tasks": [
+        {
+          "name": "Find a way to pass through the first chapel",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5caa83b3379035320bb21a57",
+                  "5caa87edf794af0000b7f55c",
+                  "5caa9514f794af0000b7f57f"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8aca7b19028861c4f94cd3"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1e0a37a16db06012a952b"
+        },
+        {
+          "name": "Find a way to enter the third chapel",
+          "conditions": [
+            {
+              "type": "hasSeenOptionOutcome",
+              "parameters": [
+                [
+                  "5caa9f6f3790356fb1b21f4f",
+                  "5caaa69c3ac3e100003835a0",
+                  "5caaa6f43ac3e100003835a1",
+                  "5caab2653ac3e100003835b1"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5caa504b3790359864b21827"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1ddff7a16db06012a9522"
+        },
+        {
+          "name": "Fool the guard in the Temple Garden that you're a messenger",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5ca3b2873790358793b1cddb",
+                  "5ca3b15ce05ae4000000bd90",
+                  "5ca5083b01160700000fb774"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5ca3b2873790358793b1cddb",
+                  "5ca3b008e05ae4000000bd8b"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1f272b75471cfc10edb51"
+        },
+        {
+          "name": "Convince the prison guards to leave",
+          "conditions": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5cb8e229c065f06f2c9439f4",
+                  "5cb8e722f797be000047f1fe"
+                ]
+              ],
+              "negate": false
+            },
+            {
+              "type": "hasSeenOptionOutcome",
+              "parameters": [
+                [
+                  "5cba6f4cc065f01449944ddd",
+                  "5cbca0b1a475610000df7448",
+                  "5cbcb396a475610000df7458",
+                  "5cbcb555a475610000df745a"
+                ]
+              ],
+              "negate": false
+            },
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5cb91394c065f084f4943b2f",
+                  "5cb95a61c084a300000f638e"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cb8d993c065f05a039439ec"
+              ],
+              "negate": false
+            },
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cb8d952c065f0428b9439eb"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1e2a57a16db06012a952f"
+        },
+        {
+          "name": "Convince the prison warden to give you the key",
+          "conditions": [
+            {
+              "type": "hasSeenOptionOutcome",
+              "parameters": [
+                [
+                  "5cb9a67dc065f05e3c9444b3",
+                  "5cb9b6e55040c60000bd9c91",
+                  "5cb9c1515040c60000bd9c9d",
+                  "5cb9d07656ea94000046843c"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cb8d9dac065f024d89439ed"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1e38d7a16db06012a9531"
+        },
+        {
+          "name": "Deceive the druid guardian",
+          "conditions": [
+            {
+              "type": "hasSeenOptionOutcome",
+              "parameters": [
+                [
+                  "5cb7a21ac065f03b519434df",
+                  "5cb7a8db9477d700003b1988",
+                  "5cb7ab079477d700003b1990",
+                  "5cb80b299477d700003b1a0d"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5cb7a21ac065f03b519434df",
+                  "5cb7a150cf49cc00001e44c1"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1dea37a16db06012a9525"
+        },
+        {
+          "name": "Persuade the smugglers to let you pass",
+          "conditions": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5db1d09dff2c19045fdb2f53",
+                  "5db1ec9357b8c70000b97974"
+                ]
+              ],
+              "negate": false
+            },
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5db1d09dff2c19045fdb2f53",
+                  "5db24c472d693600007e3a2c"
+                ]
+              ],
+              "negate": false
+            },
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5db1d09dff2c19045fdb2f53",
+                  "5db26e96cac19600007e6207"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5db1d09dff2c19045fdb2f53",
+                  "5db1d27ac958c6000080d386"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1e9267a16db06012a953b"
+        },
+        {
+          "name": "Enter the Sleep Temple by means of invitation",
+          "conditions": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5e1f34c1763433da735ace6b",
+                  "5e68fb1eb910f60000978353"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            [
+              {
+                "type": "hasSeenScene",
+                "parameters": [
+                  "5e1f34c1763433da735ace6b"
+                ],
+                "negate": false
+              }
+            ],
+            [
+              {
+                "type": "hasSeenLocation",
+                "parameters": [
+                  "5e1e2249763433395b5acd88"
+                ],
+                "negate": false
+              }
+            ]
+          ],
+          "_id": "66e1ed3e7a16db06012a9542"
+        },
+        {
+          "name": "Pass through the dining hall unnoticed",
+          "conditions": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5e26b9fe3a36bf0d753e4648",
+                  "5e26faa1ea799d0000b423da"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5e26b9fe3a36bf0d753e4648"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1ed9b7a16db06012a9545"
+        }
+      ],
+      "conditionsToDiscover": [],
+      "descriptiveTasks": true,
+      "__v": 0
+    },
+    {
+      "_id": "66e2e5a2cce7d0d2ca62c960",
+      "_created": "2024-09-12T12:59:14.574Z",
+      "_updated": "2024-10-26T07:07:08.948Z",
+      "name": "Deadeye",
+      "description": "Equip the bow. Attack enemies from a distance. Must be done in a single playthrough.",
+      "tasks": [
+        {
+          "name": "1",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "671b5599574fa4dd98192421",
+                "greaterThanOrEqual",
+                1
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "671b687b5c1036290646a7fa"
+        },
+        {
+          "name": "2",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "671b5599574fa4dd98192421",
+                "greaterThanOrEqual",
+                2
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "671b68a45c1036290646a7fc"
+        },
+        {
+          "name": "3",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "671b5599574fa4dd98192421",
+                "greaterThanOrEqual",
+                3
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "671b691c5c1036290646a7fe"
+        },
+        {
+          "name": "4",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "671b5599574fa4dd98192421",
+                "greaterThanOrEqual",
+                4
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "671b69325c1036290646a800"
+        },
+        {
+          "name": "5",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "671b5599574fa4dd98192421",
+                "greaterThanOrEqual",
+                5
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "671b69605c1036290646a802"
+        },
+        {
+          "name": "6",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "671b5599574fa4dd98192421",
+                "greaterThanOrEqual",
+                6
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "671b69825c1036290646a804"
+        },
+        {
+          "name": "7",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "671b5599574fa4dd98192421",
+                "greaterThanOrEqual",
+                7
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "671b69935c1036290646a806"
+        },
+        {
+          "name": "8",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "671b5599574fa4dd98192421",
+                "greaterThanOrEqual",
+                8
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "671b69a65c1036290646a808"
+        },
+        {
+          "name": "9",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "671b5599574fa4dd98192421",
+                "greaterThanOrEqual",
+                9
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "671b69c15c1036290646a80a"
+        },
+        {
+          "name": "10",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "671b5599574fa4dd98192421",
+                "greaterThanOrEqual",
+                10
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "671b69fb5c1036290646a80c"
+        }
+      ],
+      "conditionsToDiscover": [
+        [
+          {
+            "type": "hasGainedItem",
+            "parameters": [
+              "5d16849cebd3dc396b54cb00",
+              "greaterThanOrEqual",
+              1
+            ],
+            "negate": false
+          }
+        ],
+        [
+          {
+            "type": "hasGainedItem",
+            "parameters": [
+              "5e3b6fa5e09478d094338212",
+              "greaterThanOrEqual",
+              1
+            ],
+            "negate": false
+          }
+        ],
+        [
+          {
+            "type": "hasGainedItem",
+            "parameters": [
+              "5da3e75fc55b7fd69cf530ba",
+              "greaterThanOrEqual",
+              1
+            ],
+            "negate": false
+          }
+        ]
+      ],
+      "descriptiveTasks": false,
+      "__v": 0
+    },
+    {
+      "_id": "66e35951cce7d0d2ca62f607",
+      "_created": "2024-09-12T21:12:49.885Z",
+      "_updated": "2024-09-17T13:05:31.146Z",
+      "name": "Bounty Hunter",
+      "description": "Bring 10 Tusk Medallions to Hadrian Trout. You must deliver all of them in a single playthrough in order to complete this achievement.",
+      "tasks": [
+        {
+          "name": "1",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "66e357e7cce7d0d2ca62ebb7",
+                "greaterThanOrEqual",
+                1
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e35951cce7d0d2ca62f608"
+        },
+        {
+          "name": "2",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "66e357e7cce7d0d2ca62ebb7",
+                "greaterThanOrEqual",
+                2
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e35951cce7d0d2ca62f609"
+        },
+        {
+          "name": "3",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "66e357e7cce7d0d2ca62ebb7",
+                "greaterThanOrEqual",
+                3
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e35951cce7d0d2ca62f60a"
+        },
+        {
+          "name": "4",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "66e357e7cce7d0d2ca62ebb7",
+                "greaterThanOrEqual",
+                4
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e35951cce7d0d2ca62f60b"
+        },
+        {
+          "name": "5",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "66e357e7cce7d0d2ca62ebb7",
+                "greaterThanOrEqual",
+                5
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e35951cce7d0d2ca62f60c"
+        },
+        {
+          "name": "6",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "66e357e7cce7d0d2ca62ebb7",
+                "greaterThanOrEqual",
+                6
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e35951cce7d0d2ca62f60d"
+        },
+        {
+          "name": "7",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "66e357e7cce7d0d2ca62ebb7",
+                "greaterThanOrEqual",
+                7
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e35951cce7d0d2ca62f60e"
+        },
+        {
+          "name": "8",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "66e357e7cce7d0d2ca62ebb7",
+                "greaterThanOrEqual",
+                8
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e35951cce7d0d2ca62f60f"
+        },
+        {
+          "name": "9",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "66e357e7cce7d0d2ca62ebb7",
+                "greaterThanOrEqual",
+                9
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e35951cce7d0d2ca62f610"
+        },
+        {
+          "name": "10",
+          "conditions": [
+            {
+              "type": "numberVariable",
+              "parameters": [
+                "66e357e7cce7d0d2ca62ebb7",
+                "greaterThanOrEqual",
+                10
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e35951cce7d0d2ca62f611"
+        }
+      ],
+      "conditionsToDiscover": [
+        {
+          "type": "hasOpenedScripture",
+          "parameters": [
+            "5d6fe9778335b40cc98868db"
+          ],
+          "negate": false
+        }
+      ],
+      "descriptiveTasks": false,
+      "__v": 0
+    },
+    {
+      "_id": "66e99e23cce7d0d2ca639189",
+      "_created": "2024-09-16T15:20:03.484Z",
+      "_updated": "2024-10-02T19:54:28.660Z",
+      "name": "Grave Robber",
+      "description": "The dead stay dead. They have no need for material things.",
+      "tasks": [
+        {
+          "name": "Dig up the grave behind the shack",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5cc14e2ec065f0b37d946575",
+                  "5cc14d87dacbbc0000409baf",
+                  "5cc14e10dacbbc0000409bb2"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c7d8786fd6b49c4e2456b97"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e99df1ccc1a801029670bc"
+        },
+        {
+          "name": "Plunder the crypt",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5c8fd2503bae8ddc2e2b5e45",
+                  "5c8fd2310872ba00000e01a2",
+                  "5c92d4f792cebe0000e0754b"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5c8ac9ef1902884ef7f94cd2"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e99dfeccc1a801029670bd"
+        },
+        {
+          "name": "Plunder the secret graveyard",
+          "conditions": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5dc106c3ff2c194b89db8877"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenArea",
+              "parameters": [
+                "5dbc40c5ff2c19f3c9db772d"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e99e04ccc1a801029670be"
+        },
+        {
+          "name": "Plunder the Tomb of Hieronymus",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5da48d87c55b7f57f6f534d9",
+                  "5da6dfa943f4c20000b5dc95",
+                  "5da6e1f443f4c20000b5dc9f"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5da48d87c55b7f57f6f534d9"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e99e15ccc1a801029670bf"
+        }
+      ],
+      "conditionsToDiscover": [],
+      "descriptiveTasks": true,
+      "__v": 0
+    },
+    {
+      "_id": "66e0594315ccc12663448a9d",
+      "_created": "2024-09-17T14:35:47.264Z",
+      "_updated": "2024-10-02T19:56:11.421Z",
+      "name": "Apex Predator",
+      "description": "Kill the most dangerous warriors in the game.",
+      "tasks": [
+        {
+          "name": "Mev",
+          "conditions": [
+            {
+              "type": "hasDefeatedNpcInCombat",
+              "parameters": [
+                "5cab279e379035ed17b2239e"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5cb328c6c065f0722a943216"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e058e637c9888c68622f2d"
+        },
+        {
+          "name": "Druid War Chief",
+          "conditions": [
+            {
+              "type": "hasDefeatedNpcInCombat",
+              "parameters": [
+                "5c7d8829fd6b492258456b99"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5cb7a21ac065f03b519434df"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e0594c37c9888c68622f32"
+        },
+        {
+          "name": "Field Commander",
+          "conditions": [
+            {
+              "type": "hasDefeatedNpcInCombat",
+              "parameters": [
+                "5d4445b78335b4aaaf884b6a"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5d49ed5b8335b41159884e43"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1f33b9646405e25ae8e6c"
+        },
+        {
+          "name": "Bandit War Lord",
+          "conditions": [
+            {
+              "type": "hasDefeatedNpcInCombat",
+              "parameters": [
+                "5d4439d38335b4bdac884b3c"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5d55a4958335b4262888536c"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1f4119646405e25ae8e6f"
+        },
+        {
+          "name": "Arturo",
+          "conditions": [
+            {
+              "type": "hasDefeatedNpcInCombat",
+              "parameters": [
+                "5d1701feebd3dc105b54ce8b"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5d7ce5e7e6ecf359d3a2a29f",
+                  "5d7d5a21fbe7b80000775c72"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e19fdcacd01f865c0a5aaa"
+        },
+        {
+          "name": "Ironclad Vagrant",
+          "conditions": [
+            {
+              "type": "hasDefeatedNpcInCombat",
+              "parameters": [
+                "5dbb6448ff2c195241db6ec4"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5db8764eff2c1985c7db5f4b",
+                  "5dbb234fb6c4420000a80f93"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e19ddaacd01f865c0a5aa7"
+        },
+        {
+          "name": "Lucian Verdandi",
+          "conditions": [
+            {
+              "type": "hasDefeatedNpcInCombat",
+              "parameters": [
+                "5dfc40f6f75a97c3365a1506"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5defa7e2f75a9726fa59ff90"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e1a058220dec9caf067388"
+        },
+        {
+          "name": "Cleo Verdandi",
+          "conditions": [
+            {
+              "type": "hasDefeatedNpcInCombat",
+              "parameters": [
+                "5df90f0cf75a9754ab5a104c"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5defa7e2f75a9726fa59ff90"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e97f493c1428d2e556d1a3"
+        },
+        {
+          "name": "Mantis the Crime Lord",
+          "conditions": [
+            {
+              "type": "hasKilledNpcInCombat",
+              "parameters": [
+                "5dba3ffcff2c19e5f4db609f"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5dba3971ff2c19d286db6075"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e97f513c1428d2e556d1a4"
+        }
+      ],
+      "conditionsToDiscover": [],
+      "descriptiveTasks": true,
+      "__v": 0
+    },
+    {
+      "_id": "66e99e9dcce7d0d2ca63919b",
+      "_created": "2024-09-17T15:22:05.340Z",
+      "_updated": "2024-09-30T12:22:11.243Z",
+      "name": "Remembering the Fallen",
+      "description": "Your friend is dead and gone, but she won't be forgotten.",
+      "tasks": [
+        {
+          "name": "Bury Rasleen",
+          "conditions": [
+            [
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5dba5431ff2c19b5e5db64fa",
+                    "5dba53fe6d5dfb0000ec73f4",
+                    "5dba55686d5dfb0000ec73f5"
+                  ]
+                ],
+                "negate": false
+              }
+            ],
+            [
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5dba3971ff2c19d286db6075",
+                    "5dba50156d5dfb0000ec73df",
+                    "5dba509b6d5dfb0000ec73e2"
+                  ]
+                ],
+                "negate": false
+              }
+            ]
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5dba3971ff2c19d286db6075"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e99e86ccc1a801029670c4"
+        },
+        {
+          "name": "Tell the nomads about her fate",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5dc09b88ff2c194c3edb84c3",
+                  "5dc09deec1b8760000cd1d9d",
+                  "5dc09e6fc1b8760000cd1d9e"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e99e8eccc1a801029670c5"
+        }
+      ],
+      "conditionsToDiscover": [
+        {
+          "type": "hasSeenScene",
+          "parameters": [
+            "5dba3971ff2c19d286db6075"
+          ],
+          "negate": false
+        }
+      ],
+      "descriptiveTasks": true,
+      "__v": 0
+    },
+    {
+      "_id": "66e99ef1cce7d0d2ca6391a3",
+      "_created": "2024-09-17T15:23:29.051Z",
+      "_updated": "2024-09-30T12:22:18.018Z",
+      "name": "Savior",
+      "description": "The world is a wicked place. Killing people is easy. Keeping them alive is easier said than done.",
+      "tasks": [
+        {
+          "name": "Make peace between the soldiers and the nomads",
+          "conditions": [
+            {
+              "type": "hasSeenOptionOutcome",
+              "parameters": [
+                [
+                  "5d1a34eeebd3dc3e2054d2a3",
+                  "5d1a7d42d73a7d000010f514",
+                  "5d49c3b520f282000059ac21",
+                  "5d49c51920f282000059ac23"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cda747ec3e78f14fc5bb2a5"
+              ],
+              "negate": false
+            },
+            {
+              "type": "hasSeenLocation",
+              "parameters": [
+                "5cda743fc3e78f6e485bb2a2"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e99f07ccc1a801029670c6"
+        },
+        {
+          "name": "Make peace between the soldiers and the druids",
+          "conditions": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5dc4fbbdf75a97787a5970aa",
+                  "5dc95c92e84df20000165d0a"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5dc4fbbdf75a97787a5970aa"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e99f21ccc1a801029670c8"
+        },
+        {
+          "name": "Bring the renegade druids to safety on Graefir Island",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5dca31d9f75a9770ae597f6c",
+                  "5dca282f1bd6050000f5b855",
+                  "5dca2a261bd6050000f5b858"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5dc4fbbdf75a97787a5970aa",
+                  "5dc95c92e84df20000165d0a"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e99f11ccc1a801029670c7"
+        },
+        {
+          "name": "Help the refugees at the gates of the burning city",
+          "conditions": [
+            [
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5dd32548f75a976cc65982c5",
+                    "5dd3226b9bfee700005bc737",
+                    "5dd3228a9bfee700005bc738"
+                  ]
+                ],
+                "negate": false
+              }
+            ],
+            [
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5dd32548f75a976cc65982c5",
+                    "5dd3226b9bfee700005bc737",
+                    "5dd3228b9bfee700005bc739"
+                  ]
+                ],
+                "negate": false
+              }
+            ],
+            [
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5dd32548f75a976cc65982c5",
+                    "5dd3226b9bfee700005bc737",
+                    "5dd3228c9bfee700005bc73a"
+                  ]
+                ],
+                "negate": false
+              }
+            ],
+            [
+              {
+                "type": "hasUsedOption",
+                "parameters": [
+                  [
+                    "5dd32548f75a976cc65982c5",
+                    "5dd3226b9bfee700005bc737",
+                    "5dd3228d9bfee700005bc73b"
+                  ]
+                ],
+                "negate": false
+              }
+            ]
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5dd32548f75a976cc65982c5"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e99f34ccc1a801029670c9"
+        },
+        {
+          "name": "Tell the priest about the fate of the church worker",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e3eacc46a062f7a9f162ed3",
+                  "5e53fd28b40c7200002dddd8",
+                  "5e53fe84b40c7200002ddddb"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasCompletedObjective",
+              "parameters": [
+                [
+                  "5e3ead846a062f0983162ed9",
+                  "5e4efd2f72e924000072277f"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e99f46ccc1a801029670ca"
+        },
+        {
+          "name": "Free the lord of Highcastle from captivity",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e26c31f3a36bf45c83e46eb",
+                  "5e31446830319f0000b3ab7e",
+                  "5e3144fb30319f0000b3ab80"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasSeenScene",
+              "parameters": [
+                "5e26c31f3a36bf45c83e46eb"
+              ],
+              "negate": false
+            }
+          ],
+          "_id": "66e99f59ccc1a801029670cb"
+        }
+      ],
+      "conditionsToDiscover": [],
+      "descriptiveTasks": true,
+      "__v": 0
+    },
+    {
+      "_id": "66e30cd7cce7d0d2ca62cb3f",
+      "_created": "2024-09-17T15:46:31.405Z",
+      "_updated": "2024-10-02T19:54:16.984Z",
+      "name": "Antique Dealer",
+      "description": "Bring treasures to the Antiquarian of Emerald Avenue.",
+      "tasks": [
+        {
+          "name": "Bronze Ankle Bracelet",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e41184e17621e00003b4aba"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e30d45d7581c0b045bbfae"
+        },
+        {
+          "name": "Cipher Stone",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e411d3a17621e00003b4acc"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e30e9acce7d0d2ca62e328"
+        },
+        {
+          "name": "Clay Tablet",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e4122d817621e00003b4ad4"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e30e9acce7d0d2ca62e329"
+        },
+        {
+          "name": "Death Mask",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e4143e017621e00003b4b1c"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e80abccce7d0d2ca63554c"
+        },
+        {
+          "name": "Golden Bracelet",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e5ff62cbb612f0000a9d7b4"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e80abccce7d0d2ca63554f"
+        },
+        {
+          "name": "Golden Chalice",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e41457717621e00003b4b22"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e80b2ccce7d0d2ca635c83"
+        },
+        {
+          "name": "Jade Idol",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e41459d17621e00003b4b23"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e80b2ccce7d0d2ca635c85"
+        },
+        {
+          "name": "Mask of Nierva",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e4146d617621e00003b4b28"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e80b2ccce7d0d2ca635c86"
+        },
+        {
+          "name": "Orb of Reflection",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e41465b17621e00003b4b25"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e80ce5cce7d0d2ca635d76"
+        },
+        {
+          "name": "Raven Mask",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e4146c217621e00003b4b27"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e80ce5cce7d0d2ca635d77"
+        },
+        {
+          "name": "Red Stone Bracelet",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e41469d17621e00003b4b26"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e80ce5cce7d0d2ca635d78"
+        },
+        {
+          "name": "Silver Chalice",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e41473917621e00003b4b29"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e80ce5cce7d0d2ca635d7a"
+        },
+        {
+          "name": "Wolf Idol",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e4147f417621e00003b4b2d"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e80ce5cce7d0d2ca635d7b"
+        },
+        {
+          "name": "Wolf Necklace",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e417fa76c6b7000005e740a"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e80ce5cce7d0d2ca635d7c"
+        },
+        {
+          "name": "Wooden Bracelet",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e4147c517621e00003b4b2b"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e80ce5cce7d0d2ca635d7d"
+        },
+        {
+          "name": "Wooden Hand",
+          "conditions": [
+            {
+              "type": "hasUsedOption",
+              "parameters": [
+                [
+                  "5e406ee66a062f45c7162ff9",
+                  "5e410e9217621e00003b4aa3",
+                  "5e4147de17621e00003b4b2c"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66e80ce5cce7d0d2ca635d7e"
+        }
+      ],
+      "conditionsToDiscover": [
+        {
+          "type": "hasSeenScene",
+          "parameters": [
+            "5e406ee66a062f45c7162ff9"
+          ],
+          "negate": false
+        }
+      ],
+      "descriptiveTasks": true,
+      "__v": 0
+    },
+    {
+      "_id": "66df14b615ccc12663435398",
+      "_created": "2024-09-18T20:31:02.910Z",
+      "_updated": "2024-10-02T19:55:52.804Z",
+      "name": "Scholar",
+      "description": "Read all of the scrolls, books and other scriptures.",
+      "tasks": [
+        {
+          "name": "Factotum's Journal",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5c80429f0e3748ac7ec601bb"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc1266343543d"
+        },
+        {
+          "name": "Small Book",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5c9318383bae8d59302b60d4"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc1266343543e"
+        },
+        {
+          "name": "Poems and Pipe Dreams, Vol. II",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5caababc379035ca90b22109"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc1266343543f"
+        },
+        {
+          "name": "Recipe: Antidote",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5cad5aec3790353dc5b2285d"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc12663435440"
+        },
+        {
+          "name": "The Transgression of Hieram Vot",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5cad6153379035f74db2285f"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc12663435441"
+        },
+        {
+          "name": "Odaia's Book of Memories, vol. 41",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5cae57b101f06a2693493a49"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc12663435442"
+        },
+        {
+          "name": "Clay Tablet",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5d7d9562e6ecf34964a2a790"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc12663435447"
+        },
+        {
+          "name": "Prison Ledger",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5cb7841ec065f04aeb9434dd"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc12663435443"
+        },
+        {
+          "name": "Pamphlet: The Age of Dusk",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5cd25711f7cea245d4744fcb"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc12663435444"
+        },
+        {
+          "name": "Report One: The Tusk Mob",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5d6fe9778335b40cc98868db"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc12663435445"
+        },
+        {
+          "name": "Report Two: The Khiris Cartel",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5d6ff0c88335b412518868dd"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc12663435446"
+        },
+        {
+          "name": "A History of Graefir Island",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5da3e8b3c55b7ff3eef530ea"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc12663435448"
+        },
+        {
+          "name": "Smuggler's Notebook",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5dc0746aff2c19a476db8371"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc12663435449"
+        },
+        {
+          "name": "A New Breed of Slaves",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5e3161d1541689f76c995f9a"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc1266343544a"
+        },
+        {
+          "name": "Chronicles of Mantis",
+          "conditions": [
+            {
+              "type": "hasOpenedScripture",
+              "parameters": [
+                "5e4c6010a74d955bf5de4e1d"
+              ]
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "66df170e15ccc1266343544b"
+        }
+      ],
+      "conditionsToDiscover": [],
+      "descriptiveTasks": false,
+      "__v": 0
+    },
+    {
+      "_id": "6717541d574fa4dd98178817",
+      "_created": "2024-09-22T14:48:16.377Z",
+      "_updated": "2024-10-22T11:46:04.828Z",
+      "name": "The Last Supper",
+      "description": "Kill the enforcers in the dining hall of the Sleep Temple.",
+      "tasks": [
+        {
+          "name": "Kill the enforcers",
+          "conditions": [
+            {
+              "type": "hasSeenNode",
+              "parameters": [
+                [
+                  "5e26b9fe3a36bf0d753e4648",
+                  "5e2844b2c1f5ff00001ace0f"
+                ]
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [],
+          "_id": "671753a21fab0575910bdd14"
+        }
+      ],
+      "conditionsToDiscover": [
+        [
+          {
+            "type": "hasUsedOption",
+            "parameters": [
+              [
+                "5e26b9fe3a36bf0d753e4648",
+                "5e26f72aea799d0000b423d8",
+                "5e26f8e5ea799d0000b423d9"
+              ]
+            ],
+            "negate": false
+          }
+        ],
+        [
+          {
+            "type": "hasUsedOption",
+            "parameters": [
+              [
+                "5e26b9fe3a36bf0d753e4648",
+                "5e26f72aea799d0000b423d8",
+                "5e26fb36ea799d0000b423de"
+              ]
+            ],
+            "negate": false
+          }
+        ]
+      ],
+      "descriptiveTasks": false,
+      "__v": 0
+    },
+    {
+      "_id": "66df18c015ccc1266343558f",
+      "_created": "2024-09-22T15:48:16.377Z",
+      "_updated": "2024-10-14T16:40:05.448Z",
+      "name": "The End is Just the Beginning",
+      "description": "There's no telling what fate has in store. Unlock seven different endings.",
+      "tasks": [
+        {
+          "name": "The Slave",
+          "conditions": [
+            {
+              "type": "hasSeenEndingPartial",
+              "parameters": [
+                "5e6fcfef985b8700008f5000"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasCompletedGame",
+              "parameters": [],
+              "negate": false
+            }
+          ],
+          "_id": "66df18c4b92f27da2f16d534"
+        },
+        {
+          "name": "The Master",
+          "conditions": [
+            {
+              "type": "hasSeenEndingPartial",
+              "parameters": [
+                "5e6fcf90985b8700008f4ffe"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasCompletedGame",
+              "parameters": [],
+              "negate": false
+            }
+          ],
+          "_id": "66df191ab92f27da2f16d538"
+        },
+        {
+          "name": "The New Breed",
+          "conditions": [
+            {
+              "type": "hasSeenEndingPartial",
+              "parameters": [
+                "5e6fcfb0985b8700008f4fff"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasCompletedGame",
+              "parameters": [],
+              "negate": false
+            }
+          ],
+          "_id": "66df1952b92f27da2f16d53a"
+        },
+        {
+          "name": "The Comrade",
+          "conditions": [
+            {
+              "type": "hasSeenEndingPartial",
+              "parameters": [
+                "5e6fceb4985b8700008f4ffc"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasCompletedGame",
+              "parameters": [],
+              "negate": false
+            }
+          ],
+          "_id": "66df18deb92f27da2f16d536"
+        },
+        {
+          "name": "The Dark Brigade",
+          "conditions": [
+            {
+              "type": "hasSeenEndingPartial",
+              "parameters": [
+                "5e6fce6a985b8700008f4ffb"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasCompletedGame",
+              "parameters": [],
+              "negate": false
+            }
+          ],
+          "_id": "66df187bb92f27da2f16d532"
+        },
+        {
+          "name": "The Unwritten",
+          "conditions": [
+            {
+              "type": "hasSeenEndingPartial",
+              "parameters": [
+                "5e6fcee7985b8700008f4ffd"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasCompletedGame",
+              "parameters": [],
+              "negate": false
+            }
+          ],
+          "_id": "66df19d8b92f27da2f16d53c"
+        },
+        {
+          "name": "The Avenger",
+          "conditions": [
+            {
+              "type": "hasSeenEndingPartial",
+              "parameters": [
+                "5e6fd019985b8700008f5001"
+              ],
+              "negate": false
+            }
+          ],
+          "conditionsToDiscover": [
+            {
+              "type": "hasCompletedGame",
+              "parameters": [],
+              "negate": false
+            }
+          ],
+          "_id": "66df1a42b92f27da2f16d53e"
+        }
+      ],
+      "conditionsToDiscover": [],
+      "descriptiveTasks": true,
+      "__v": 0
+    }
+  ]
 }

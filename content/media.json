@@ -419,14 +419,14 @@
       "__v": 0
     },
     {
-      "_id": "5df2a8acf75a974ff05a078a",
-      "_created": "2019-12-12T20:53:00.803Z",
-      "_updated": "2019-12-12T20:53:00.803Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a974ff05a078a",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332658/cyoa-editor/5df2a8acf75a974ff05a078a.png",
-      "remote_version": 1576332658,
+      "_id": "5df2a8acf75a9775f45a0787",
+      "_created": "2019-12-12T20:53:00.785Z",
+      "_updated": "2019-12-12T20:53:00.785Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a9775f45a0787",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332609/cyoa-editor/5df2a8acf75a9775f45a0787.png",
+      "remote_version": 1576332609,
       "__v": 0,
-      "name": "Bast - ",
+      "name": "Bast - Cliffs",
       "type": "image",
       "category": [
         "background"
@@ -440,35 +440,35 @@
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332577/cyoa-editor/5df2a8acf75a9795e95a0785.png",
       "remote_version": 1576332577,
       "__v": 0,
-      "name": "Bast - ",
+      "name": "Bast - Forest",
       "type": "image",
       "category": [
         "background"
       ]
     },
     {
-      "_id": "5df2a8acf75a97e6625a0789",
-      "_created": "2019-12-12T20:53:00.798Z",
-      "_updated": "2019-12-12T20:53:00.798Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a97e6625a0789",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332600/cyoa-editor/5df2a8acf75a97e6625a0789.png",
-      "remote_version": 1576332600,
+      "_id": "5df2a8acf75a974ff05a078a",
+      "_created": "2019-12-12T20:53:00.803Z",
+      "_updated": "2019-12-12T20:53:00.803Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a974ff05a078a",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332658/cyoa-editor/5df2a8acf75a974ff05a078a.png",
+      "remote_version": 1576332658,
       "__v": 0,
-      "name": "Bast - ",
+      "name": "Bast - Graveyard",
       "type": "image",
       "category": [
         "background"
       ]
     },
     {
-      "_id": "5df2a8acf75a9775f45a0787",
-      "_created": "2019-12-12T20:53:00.785Z",
-      "_updated": "2019-12-12T20:53:00.785Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a9775f45a0787",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332609/cyoa-editor/5df2a8acf75a9775f45a0787.png",
-      "remote_version": 1576332609,
+      "_id": "5df2a8acf75a97fecd5a0788",
+      "_created": "2019-12-12T20:53:00.789Z",
+      "_updated": "2019-12-12T20:53:00.789Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a97fecd5a0788",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332666/cyoa-editor/5df2a8acf75a97fecd5a0788.png",
+      "remote_version": 1576332666,
       "__v": 0,
-      "name": "Bast - Cliffs",
+      "name": "Bast - Harbor",
       "type": "image",
       "category": [
         "background"
@@ -503,15 +503,32 @@
       ]
     },
     {
+      "_id": "66e97defcce7d0d2ca638c2b",
+      "type": "image",
+      "name": "C - Albino jackal",
+      "_created": "2024-09-17T13:02:39.737Z",
+      "_updated": "2024-09-17T13:02:39.737Z",
+      "remote_id": "cyoa-editor/66e97defcce7d0d2ca638c2b",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1726578161/cyoa-editor/66e97defcce7d0d2ca638c2b.png",
+      "remote_version": 1726578161,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
       "_id": "66d849ea15ccc12663429544",
       "type": "image",
       "name": "C - Alchemist of Woe",
       "_created": "2024-09-04T11:52:10.921Z",
       "_updated": "2024-09-04T11:52:10.921Z",
       "remote_id": "cyoa-editor/66d849ea15ccc12663429544",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725450732/cyoa-editor/66d849ea15ccc12663429544.png",
-      "remote_version": 1725450732,
-      "__v": 0
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1727077132/cyoa-editor/66d849ea15ccc12663429544.png",
+      "remote_version": 1727077132,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
     },
     {
       "_id": "66d848a915ccc12663429375",
@@ -522,7 +539,10 @@
       "remote_id": "cyoa-editor/66d848a915ccc12663429375",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725450410/cyoa-editor/66d848a915ccc12663429375.png",
       "remote_version": 1725450410,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
     },
     {
       "_id": "66d848cd15ccc1266342937a",
@@ -533,7 +553,10 @@
       "remote_id": "cyoa-editor/66d848cd15ccc1266342937a",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725450446/cyoa-editor/66d848cd15ccc1266342937a.png",
       "remote_version": 1725450446,
-      "__v": 0
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
     },
     {
       "_id": "66d8265d15ccc12663427d15",
@@ -542,8 +565,22 @@
       "_created": "2024-09-04T09:20:29.193Z",
       "_updated": "2024-09-04T09:20:29.193Z",
       "remote_id": "cyoa-editor/66d8265d15ccc12663427d15",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725450535/cyoa-editor/66d8265d15ccc12663427d15.png",
-      "remote_version": 1725450535,
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725955773/cyoa-editor/66d8265d15ccc12663427d15.png",
+      "remote_version": 1725955773,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "671a38da574fa4dd9818a2eb",
+      "type": "image",
+      "name": "C - Assassin of Woe",
+      "_created": "2024-10-24T12:08:58.309Z",
+      "_updated": "2024-10-24T12:08:58.309Z",
+      "remote_id": "cyoa-editor/671a38da574fa4dd9818a2eb",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729771765/cyoa-editor/671a38da574fa4dd9818a2eb.png",
+      "remote_version": 1729771765,
       "__v": 0,
       "category": [
         "npcCombat"
@@ -556,8 +593,288 @@
       "_created": "2024-09-05T12:11:36.048Z",
       "_updated": "2024-09-05T12:11:36.048Z",
       "remote_id": "cyoa-editor/66d99ff815ccc12663432f40",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725538297/cyoa-editor/66d99ff815ccc12663432f40.png",
-      "remote_version": 1725538297,
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725955770/cyoa-editor/66d99ff815ccc12663432f40.png",
+      "remote_version": 1725955770,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66f3aebdcce7d0d2ca63d3d3",
+      "type": "image",
+      "name": "C - Berserker of Woe",
+      "_created": "2024-09-25T06:33:33.243Z",
+      "_updated": "2024-09-25T06:33:33.243Z",
+      "remote_id": "cyoa-editor/66f3aebdcce7d0d2ca63d3d3",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729772708/cyoa-editor/66f3aebdcce7d0d2ca63d3d3.png",
+      "remote_version": 1729772708,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66f11b03cce7d0d2ca639d4c",
+      "type": "image",
+      "name": "C - Brothel Guard",
+      "_created": "2024-09-23T07:38:43.876Z",
+      "_updated": "2024-09-23T07:38:43.876Z",
+      "remote_id": "cyoa-editor/66f11b03cce7d0d2ca639d4c",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1727077125/cyoa-editor/66f11b03cce7d0d2ca639d4c.png",
+      "remote_version": 1727077125,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "671c93b3574fa4dd981a3114",
+      "type": "image",
+      "name": "C - Cartel Assassin",
+      "_created": "2024-10-26T07:01:07.644Z",
+      "_updated": "2024-10-26T07:01:07.644Z",
+      "remote_id": "cyoa-editor/671c93b3574fa4dd981a3114",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729926078/cyoa-editor/671c93b3574fa4dd981a3114.png",
+      "remote_version": 1729926078,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "6716a197574fa4dd98172000",
+      "type": "image",
+      "name": "C - Cartel Bruiser",
+      "_created": "2024-10-21T18:46:47.145Z",
+      "_updated": "2024-10-21T18:46:47.145Z",
+      "remote_id": "cyoa-editor/6716a197574fa4dd98172000",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729536444/cyoa-editor/6716a197574fa4dd98172000.png",
+      "remote_version": 1729536444,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "671c943e574fa4dd981a32f6",
+      "type": "image",
+      "name": "C - Cartel Cutthroat",
+      "_created": "2024-10-26T07:03:26.082Z",
+      "_updated": "2024-10-26T07:03:26.082Z",
+      "remote_id": "cyoa-editor/671c943e574fa4dd981a32f6",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729926239/cyoa-editor/671c943e574fa4dd981a32f6.png",
+      "remote_version": 1729926239,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "670f70cdb3d10b553f217d12",
+      "type": "image",
+      "name": "C - Cartel Debt Collector",
+      "_created": "2024-10-16T07:52:45.606Z",
+      "_updated": "2024-10-16T07:52:45.606Z",
+      "remote_id": "cyoa-editor/670f70cdb3d10b553f217d12",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729065166/cyoa-editor/670f70cdb3d10b553f217d12.png",
+      "remote_version": 1729065166,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66df21a115ccc12663435e05",
+      "type": "image",
+      "name": "C - Cartel Enforcer A",
+      "_created": "2024-09-09T16:26:09.831Z",
+      "_updated": "2024-09-09T16:26:09.831Z",
+      "remote_id": "cyoa-editor/66df21a115ccc12663435e05",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725899170/cyoa-editor/66df21a115ccc12663435e05.png",
+      "remote_version": 1725899170,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66df21a215ccc12663435e09",
+      "type": "image",
+      "name": "C - Cartel Enforcer B",
+      "_created": "2024-09-09T16:26:10.224Z",
+      "_updated": "2024-09-09T16:26:10.224Z",
+      "remote_id": "cyoa-editor/66df21a215ccc12663435e09",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725899171/cyoa-editor/66df21a215ccc12663435e09.png",
+      "remote_version": 1725899171,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66df21a215ccc12663435e07",
+      "type": "image",
+      "name": "C - Cartel Enforcer C",
+      "_created": "2024-09-09T16:26:10.155Z",
+      "_updated": "2024-09-09T16:26:10.155Z",
+      "remote_id": "cyoa-editor/66df21a215ccc12663435e07",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725899171/cyoa-editor/66df21a215ccc12663435e07.png",
+      "remote_version": 1725899171,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "670f6fe4b3d10b553f217b59",
+      "type": "image",
+      "name": "C - Cartel Goon",
+      "_created": "2024-10-16T07:48:52.494Z",
+      "_updated": "2024-10-16T07:48:52.494Z",
+      "remote_id": "cyoa-editor/670f6fe4b3d10b553f217b59",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729064989/cyoa-editor/670f6fe4b3d10b553f217b59.png",
+      "remote_version": 1729064989,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "670f7081b3d10b553f217c3e",
+      "type": "image",
+      "name": "C - Cartel Guard",
+      "_created": "2024-10-16T07:51:29.789Z",
+      "_updated": "2024-10-16T07:51:29.789Z",
+      "remote_id": "cyoa-editor/670f7081b3d10b553f217c3e",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729771915/cyoa-editor/670f7081b3d10b553f217c3e.png",
+      "remote_version": 1729771915,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "671a393a574fa4dd9818a2f6",
+      "type": "image",
+      "name": "C - Cartel Hatchet Man",
+      "_created": "2024-10-24T12:10:34.412Z",
+      "_updated": "2024-10-24T12:10:34.412Z",
+      "remote_id": "cyoa-editor/671a393a574fa4dd9818a2f6",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729771873/cyoa-editor/671a393a574fa4dd9818a2f6.png",
+      "remote_version": 1729771873,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "6717497a574fa4dd9817673c",
+      "type": "image",
+      "name": "C - Cartel Marauder",
+      "_created": "2024-10-22T06:43:06.734Z",
+      "_updated": "2024-10-22T06:43:06.734Z",
+      "remote_id": "cyoa-editor/6717497a574fa4dd9817673c",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729772599/cyoa-editor/6717497a574fa4dd9817673c.png",
+      "remote_version": 1729772599,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "670f6f67b3d10b553f21793d",
+      "type": "image",
+      "name": "C - Cartel Paymaster",
+      "_created": "2024-10-16T07:46:47.935Z",
+      "_updated": "2024-10-16T07:46:47.936Z",
+      "remote_id": "cyoa-editor/670f6f67b3d10b553f21793d",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729064812/cyoa-editor/670f6f67b3d10b553f21793d.png",
+      "remote_version": 1729064812,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "671a39de574fa4dd9818a3b4",
+      "type": "image",
+      "name": "C - Cartel Raider",
+      "_created": "2024-10-24T12:13:18.934Z",
+      "_updated": "2024-10-24T12:13:18.934Z",
+      "remote_id": "cyoa-editor/671a39de574fa4dd9818a3b4",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729772000/cyoa-editor/671a39de574fa4dd9818a3b4.png",
+      "remote_version": 1729772000,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "67175092574fa4dd98177b3e",
+      "type": "image",
+      "name": "C - Cartel Rogue",
+      "_created": "2024-10-22T07:13:22.350Z",
+      "_updated": "2024-10-22T07:13:22.350Z",
+      "remote_id": "cyoa-editor/67175092574fa4dd98177b3e",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729581203/cyoa-editor/67175092574fa4dd98177b3e.png",
+      "remote_version": 1729581203,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "670f715ab3d10b553f217de6",
+      "type": "image",
+      "name": "C - Cartel Ruffian",
+      "_created": "2024-10-16T07:55:06.872Z",
+      "_updated": "2024-10-16T07:55:06.872Z",
+      "remote_id": "cyoa-editor/670f715ab3d10b553f217de6",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729065308/cyoa-editor/670f715ab3d10b553f217de6.png",
+      "remote_version": 1729065308,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "67174baf574fa4dd98176a56",
+      "type": "image",
+      "name": "C - Cartel Scoundrel",
+      "_created": "2024-10-22T06:52:31.311Z",
+      "_updated": "2024-10-22T06:52:31.311Z",
+      "remote_id": "cyoa-editor/67174baf574fa4dd98176a56",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729771694/cyoa-editor/67174baf574fa4dd98176a56.png",
+      "remote_version": 1729771694,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66fd1b0dff61df952df90bcb",
+      "type": "image",
+      "name": "C - Cat - Mountain Lion",
+      "_created": "2024-10-02T10:06:05.167Z",
+      "_updated": "2024-10-02T10:06:05.167Z",
+      "remote_id": "cyoa-editor/66fd1b0dff61df952df90bcb",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1727863566/cyoa-editor/66fd1b0dff61df952df90bcb.png",
+      "remote_version": 1727863566,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66dffec015ccc12663437518",
+      "type": "image",
+      "name": "C - Cleo Verdandi",
+      "_created": "2024-09-10T08:09:36.238Z",
+      "_updated": "2024-09-10T08:09:36.238Z",
+      "remote_id": "cyoa-editor/66dffec015ccc12663437518",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725975132/cyoa-editor/66dffec015ccc12663437518.png",
+      "remote_version": 1725975132,
       "__v": 0,
       "category": [
         "npcCombat"
@@ -578,14 +895,182 @@
       ]
     },
     {
-      "_id": "66d8272c15ccc12663427e78",
+      "_id": "66f11b03cce7d0d2ca639d48",
       "type": "image",
-      "name": "C - ForeignCommander",
-      "_created": "2024-09-04T09:23:56.264Z",
-      "_updated": "2024-09-04T09:23:56.264Z",
-      "remote_id": "cyoa-editor/66d8272c15ccc12663427e78",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725441837/cyoa-editor/66d8272c15ccc12663427e78.png",
-      "remote_version": 1725441837,
+      "name": "C - Dog B",
+      "_created": "2024-09-23T07:38:43.724Z",
+      "_updated": "2024-09-23T07:38:43.725Z",
+      "remote_id": "cyoa-editor/66f11b03cce7d0d2ca639d48",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729605354/cyoa-editor/66f11b03cce7d0d2ca639d48.png",
+      "remote_version": 1729605354,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "671788bd574fa4dd98179ad0",
+      "type": "image",
+      "name": "C - Dog C",
+      "_created": "2024-10-22T11:13:01.164Z",
+      "_updated": "2024-10-22T11:13:01.164Z",
+      "remote_id": "cyoa-editor/671788bd574fa4dd98179ad0",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729596158/cyoa-editor/671788bd574fa4dd98179ad0.png",
+      "remote_version": 1729596158,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66e69bdccce7d0d2ca630a30",
+      "type": "image",
+      "name": "C - Druid - Triasteen A",
+      "_created": "2024-09-15T08:33:32.070Z",
+      "_updated": "2024-09-15T08:33:32.070Z",
+      "remote_id": "cyoa-editor/66e69bdccce7d0d2ca630a30",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1726406349/cyoa-editor/66e69bdccce7d0d2ca630a30.png",
+      "remote_version": 1726406349,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66e69bdccce7d0d2ca630a32",
+      "type": "image",
+      "name": "C - Druid - Triasteen B",
+      "_created": "2024-09-15T08:33:32.329Z",
+      "_updated": "2024-09-15T08:33:32.329Z",
+      "remote_id": "cyoa-editor/66e69bdccce7d0d2ca630a32",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1726406148/cyoa-editor/66e69bdccce7d0d2ca630a32.png",
+      "remote_version": 1726406148,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66f7d3aacce7d0d2ca641f09",
+      "type": "image",
+      "name": "C - Druid Ato Triasteen",
+      "_created": "2024-09-28T10:00:10.163Z",
+      "_updated": "2024-09-28T10:00:10.163Z",
+      "remote_id": "cyoa-editor/66f7d3aacce7d0d2ca641f09",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1727517611/cyoa-editor/66f7d3aacce7d0d2ca641f09.png",
+      "remote_version": 1727517611,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66f7d3aacce7d0d2ca641f0b",
+      "type": "image",
+      "name": "C - Druid Nierva",
+      "_created": "2024-09-28T10:00:10.428Z",
+      "_updated": "2024-09-28T10:00:10.428Z",
+      "remote_id": "cyoa-editor/66f7d3aacce7d0d2ca641f0b",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1727517611/cyoa-editor/66f7d3aacce7d0d2ca641f0b.png",
+      "remote_version": 1727517611,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66f7d3aacce7d0d2ca641f0e",
+      "type": "image",
+      "name": "C - Druid Phenrae A",
+      "_created": "2024-09-28T10:00:10.495Z",
+      "_updated": "2024-09-28T10:00:10.495Z",
+      "remote_id": "cyoa-editor/66f7d3aacce7d0d2ca641f0e",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1727517611/cyoa-editor/66f7d3aacce7d0d2ca641f0e.png",
+      "remote_version": 1727517611,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66f7d463cce7d0d2ca642118",
+      "type": "image",
+      "name": "C - Druid Phenrae B",
+      "_created": "2024-09-28T10:03:15.203Z",
+      "_updated": "2024-09-28T10:03:15.203Z",
+      "remote_id": "cyoa-editor/66f7d463cce7d0d2ca642118",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1727517796/cyoa-editor/66f7d463cce7d0d2ca642118.png",
+      "remote_version": 1727517796,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "670534f7ff61df952dfb3df1",
+      "type": "image",
+      "name": "C - Druid War Chief",
+      "_created": "2024-10-08T13:34:47.749Z",
+      "_updated": "2024-10-08T13:34:47.750Z",
+      "remote_id": "cyoa-editor/670534f7ff61df952dfb3df1",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1728394489/cyoa-editor/670534f7ff61df952dfb3df1.png",
+      "remote_version": 1728394489,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66f7d3aacce7d0d2ca641f0f",
+      "type": "image",
+      "name": "C - Druid Warden",
+      "_created": "2024-09-28T10:00:10.500Z",
+      "_updated": "2024-09-28T10:00:10.500Z",
+      "remote_id": "cyoa-editor/66f7d3aacce7d0d2ca641f0f",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1727517612/cyoa-editor/66f7d3aacce7d0d2ca641f0f.png",
+      "remote_version": 1727517612,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "671c94ad574fa4dd981a33f5",
+      "type": "image",
+      "name": "C - Drunken Smuggler",
+      "_created": "2024-10-26T07:05:17.532Z",
+      "_updated": "2024-10-26T07:05:17.532Z",
+      "remote_id": "cyoa-editor/671c94ad574fa4dd981a33f5",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729926318/cyoa-editor/671c94ad574fa4dd981a33f5.png",
+      "remote_version": 1729926318,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66e97defcce7d0d2ca638c2d",
+      "type": "image",
+      "name": "C - Dusk Wolf",
+      "_created": "2024-09-17T13:02:39.766Z",
+      "_updated": "2024-09-17T13:02:39.766Z",
+      "remote_id": "cyoa-editor/66e97defcce7d0d2ca638c2d",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1726578160/cyoa-editor/66e97defcce7d0d2ca638c2d.png",
+      "remote_version": 1726578160,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66df4e6415ccc12663436190",
+      "type": "image",
+      "name": "C - Fisherman",
+      "_created": "2024-09-09T19:37:08.934Z",
+      "_updated": "2024-09-09T19:37:08.934Z",
+      "remote_id": "cyoa-editor/66df4e6415ccc12663436190",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725910630/cyoa-editor/66df4e6415ccc12663436190.png",
+      "remote_version": 1725910630,
       "__v": 0,
       "category": [
         "npcCombat"
@@ -594,12 +1079,376 @@
     {
       "_id": "66d8272c15ccc12663427e79",
       "type": "image",
-      "name": "C - ForeignSoldierHeavy",
+      "name": "C - Foreign Soldier A",
       "_created": "2024-09-04T09:23:56.329Z",
       "_updated": "2024-09-04T09:23:56.329Z",
       "remote_id": "cyoa-editor/66d8272c15ccc12663427e79",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725441837/cyoa-editor/66d8272c15ccc12663427e79.png",
-      "remote_version": 1725441837,
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725898521/cyoa-editor/66d8272c15ccc12663427e79.png",
+      "remote_version": 1725898521,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "670f71b4b3d10b553f217fae",
+      "type": "image",
+      "name": "C - Foreign Soldier B",
+      "_created": "2024-10-16T07:56:36.251Z",
+      "_updated": "2024-10-16T07:56:36.251Z",
+      "remote_id": "cyoa-editor/670f71b4b3d10b553f217fae",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729065404/cyoa-editor/670f71b4b3d10b553f217fae.png",
+      "remote_version": 1729065404,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66d8272c15ccc12663427e78",
+      "type": "image",
+      "name": "C - ForeignCommander",
+      "_created": "2024-09-04T09:23:56.264Z",
+      "_updated": "2024-09-04T09:23:56.264Z",
+      "remote_id": "cyoa-editor/66d8272c15ccc12663427e78",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725898594/cyoa-editor/66d8272c15ccc12663427e78.png",
+      "remote_version": 1725898594,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66df6fc515ccc126634372bf",
+      "type": "image",
+      "name": "C - Harlot A",
+      "_created": "2024-09-09T21:59:33.089Z",
+      "_updated": "2024-09-09T21:59:33.089Z",
+      "remote_id": "cyoa-editor/66df6fc515ccc126634372bf",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729540635/cyoa-editor/66df6fc515ccc126634372bf.png",
+      "remote_version": 1729540635,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "670d2c53b3d10b553f201118",
+      "type": "image",
+      "name": "C - Ironclad Vagrant",
+      "_created": "2024-10-14T14:36:03.229Z",
+      "_updated": "2024-10-14T14:36:03.229Z",
+      "remote_id": "cyoa-editor/670d2c53b3d10b553f201118",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729065756/cyoa-editor/670d2c53b3d10b553f201118.png",
+      "remote_version": 1729065756,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66df20bf15ccc12663435cc0",
+      "type": "image",
+      "name": "C - Knife Thug",
+      "_created": "2024-09-09T16:22:23.527Z",
+      "_updated": "2024-09-09T16:22:23.527Z",
+      "remote_id": "cyoa-editor/66df20bf15ccc12663435cc0",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725898944/cyoa-editor/66df20bf15ccc12663435cc0.png",
+      "remote_version": 1725898944,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "671a3b3a574fa4dd9818a769",
+      "type": "image",
+      "name": "C - Knight",
+      "_created": "2024-10-24T12:19:06.775Z",
+      "_updated": "2024-10-24T12:19:06.775Z",
+      "remote_id": "cyoa-editor/671a3b3a574fa4dd9818a769",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729772348/cyoa-editor/671a3b3a574fa4dd9818a769.png",
+      "remote_version": 1729772348,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "6716a225574fa4dd9817241f",
+      "type": "image",
+      "name": "C - Lawless Colossus",
+      "_created": "2024-10-21T18:49:09.837Z",
+      "_updated": "2024-10-21T18:49:09.837Z",
+      "remote_id": "cyoa-editor/6716a225574fa4dd9817241f",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729536551/cyoa-editor/6716a225574fa4dd9817241f.png",
+      "remote_version": 1729536551,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66dffec015ccc12663437516",
+      "type": "image",
+      "name": "C - Lucian Verdandi",
+      "_created": "2024-09-10T08:09:36.144Z",
+      "_updated": "2024-09-10T08:09:36.144Z",
+      "remote_id": "cyoa-editor/66dffec015ccc12663437516",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725975011/cyoa-editor/66dffec015ccc12663437516.png",
+      "remote_version": 1725975011,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "6716b1d7574fa4dd9817264a",
+      "type": "image",
+      "name": "C - Madam",
+      "_created": "2024-10-21T19:56:07.227Z",
+      "_updated": "2024-10-21T19:56:07.227Z",
+      "remote_id": "cyoa-editor/6716b1d7574fa4dd9817264a",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729540568/cyoa-editor/6716b1d7574fa4dd9817264a.png",
+      "remote_version": 1729540568,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "670f7371b3d10b553f2181cf",
+      "type": "image",
+      "name": "C - Mastaba",
+      "_created": "2024-10-16T08:04:01.046Z",
+      "_updated": "2024-10-16T08:04:01.046Z",
+      "remote_id": "cyoa-editor/670f7371b3d10b553f2181cf",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729925987/cyoa-editor/670f7371b3d10b553f2181cf.png",
+      "remote_version": 1729925987,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "670534f7ff61df952dfb3df3",
+      "type": "image",
+      "name": "C - Mev",
+      "_created": "2024-10-08T13:34:47.866Z",
+      "_updated": "2024-10-08T13:34:47.866Z",
+      "remote_id": "cyoa-editor/670534f7ff61df952dfb3df3",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1728394489/cyoa-editor/670534f7ff61df952dfb3df3.png",
+      "remote_version": 1728394489,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66f11b04cce7d0d2ca639d4e",
+      "type": "image",
+      "name": "C - Militia Commander",
+      "_created": "2024-09-23T07:38:44.226Z",
+      "_updated": "2024-09-23T07:38:44.226Z",
+      "remote_id": "cyoa-editor/66f11b04cce7d0d2ca639d4e",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1727077125/cyoa-editor/66f11b04cce7d0d2ca639d4e.png",
+      "remote_version": 1727077125,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "6718b693574fa4dd9817d484",
+      "type": "image",
+      "name": "C - Nomad Sentry",
+      "_created": "2024-10-23T08:40:51.372Z",
+      "_updated": "2024-10-23T08:40:51.372Z",
+      "remote_id": "cyoa-editor/6718b693574fa4dd9817d484",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729672852/cyoa-editor/6718b693574fa4dd9817d484.png",
+      "remote_version": 1729672852,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66df1ae915ccc12663435733",
+      "type": "image",
+      "name": "C - Opium Fiends A",
+      "_created": "2024-09-09T15:57:29.321Z",
+      "_updated": "2024-09-09T15:57:29.321Z",
+      "remote_id": "cyoa-editor/66df1ae915ccc12663435733",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725897450/cyoa-editor/66df1ae915ccc12663435733.png",
+      "remote_version": 1725897450,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66df1ae915ccc12663435737",
+      "type": "image",
+      "name": "C - Opium Fiends B",
+      "_created": "2024-09-09T15:57:29.560Z",
+      "_updated": "2024-09-09T15:57:29.560Z",
+      "remote_id": "cyoa-editor/66df1ae915ccc12663435737",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725897450/cyoa-editor/66df1ae915ccc12663435737.png",
+      "remote_version": 1725897450,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66df1ae915ccc12663435736",
+      "type": "image",
+      "name": "C - Opium Fiends C",
+      "_created": "2024-09-09T15:57:29.555Z",
+      "_updated": "2024-09-09T15:57:29.555Z",
+      "remote_id": "cyoa-editor/66df1ae915ccc12663435736",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725897450/cyoa-editor/66df1ae915ccc12663435736.png",
+      "remote_version": 1725897450,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "67079ee1ff61df952dfc9c05",
+      "type": "image",
+      "name": "C - Parent - Father",
+      "_created": "2024-10-10T09:31:13.482Z",
+      "_updated": "2024-10-10T09:31:13.482Z",
+      "remote_id": "cyoa-editor/67079ee1ff61df952dfc9c05",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1728572543/cyoa-editor/67079ee1ff61df952dfc9c05.png",
+      "remote_version": 1728572543,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "67079f84ff61df952dfc9ce4",
+      "type": "image",
+      "name": "C - Parent - Mother",
+      "_created": "2024-10-10T09:33:56.942Z",
+      "_updated": "2024-10-10T09:33:56.942Z",
+      "remote_id": "cyoa-editor/67079f84ff61df952dfc9ce4",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1728572539/cyoa-editor/67079f84ff61df952dfc9ce4.png",
+      "remote_version": 1728572539,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66f11b03cce7d0d2ca639d4a",
+      "type": "image",
+      "name": "C - Shadow Lion",
+      "_created": "2024-09-23T07:38:43.809Z",
+      "_updated": "2024-09-23T07:38:43.809Z",
+      "remote_id": "cyoa-editor/66f11b03cce7d0d2ca639d4a",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729603765/cyoa-editor/66f11b03cce7d0d2ca639d4a.png",
+      "remote_version": 1729603765,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "670d68f9b3d10b553f201ba6",
+      "type": "image",
+      "name": "C - Starving Pirate",
+      "_created": "2024-10-14T18:54:49.241Z",
+      "_updated": "2024-10-14T18:54:49.241Z",
+      "remote_id": "cyoa-editor/670d68f9b3d10b553f201ba6",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1728932221/cyoa-editor/670d68f9b3d10b553f201ba6.png",
+      "remote_version": 1728932221,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "6707be43ff61df952dfcb3e4",
+      "type": "image",
+      "name": "C - Stingray",
+      "_created": "2024-10-10T11:45:07.434Z",
+      "_updated": "2024-10-10T11:45:07.434Z",
+      "remote_id": "cyoa-editor/6707be43ff61df952dfcb3e4",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1729687043/cyoa-editor/6707be43ff61df952dfcb3e4.png",
+      "remote_version": 1729687043,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66df1fa415ccc12663435b99",
+      "type": "image",
+      "name": "C - Tusk Archer",
+      "_created": "2024-09-09T16:17:40.920Z",
+      "_updated": "2024-09-09T16:17:40.920Z",
+      "remote_id": "cyoa-editor/66df1fa415ccc12663435b99",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725898662/cyoa-editor/66df1fa415ccc12663435b99.png",
+      "remote_version": 1725898662,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66df1fde15ccc12663435c52",
+      "type": "image",
+      "name": "C - Tusk Thug A",
+      "_created": "2024-09-09T16:18:38.604Z",
+      "_updated": "2024-09-09T16:18:38.604Z",
+      "remote_id": "cyoa-editor/66df1fde15ccc12663435c52",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1728932253/cyoa-editor/66df1fde15ccc12663435c52.png",
+      "remote_version": 1728932253,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66df204d15ccc12663435c93",
+      "type": "image",
+      "name": "C - Tusk Thug B",
+      "_created": "2024-09-09T16:20:29.249Z",
+      "_updated": "2024-09-09T16:20:29.249Z",
+      "remote_id": "cyoa-editor/66df204d15ccc12663435c93",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725898830/cyoa-editor/66df204d15ccc12663435c93.png",
+      "remote_version": 1725898830,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "66df207e15ccc12663435c98",
+      "type": "image",
+      "name": "C - Tusk Thug C",
+      "_created": "2024-09-09T16:21:18.050Z",
+      "_updated": "2024-09-09T16:21:18.050Z",
+      "remote_id": "cyoa-editor/66df207e15ccc12663435c98",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1728932290/cyoa-editor/66df207e15ccc12663435c98.png",
+      "remote_version": 1728932290,
+      "__v": 0,
+      "category": [
+        "npcCombat"
+      ]
+    },
+    {
+      "_id": "6707c373ff61df952dfcb77a",
+      "type": "image",
+      "name": "C- Mantis",
+      "_created": "2024-10-10T12:07:15.495Z",
+      "_updated": "2024-10-10T12:07:15.495Z",
+      "remote_id": "cyoa-editor/6707c373ff61df952dfcb77a",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1728916472/cyoa-editor/6707c373ff61df952dfcb77a.png",
+      "remote_version": 1728916472,
       "__v": 0,
       "category": [
         "npcCombat"
@@ -612,8 +1461,8 @@
       "_created": "2024-09-04T09:31:03.235Z",
       "_updated": "2024-09-04T09:31:03.235Z",
       "remote_id": "cyoa-editor/66d828d715ccc126634288ca",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725442264/cyoa-editor/66d828d715ccc126634288ca.png",
-      "remote_version": 1725442264,
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1725898476/cyoa-editor/66d828d715ccc126634288ca.png",
+      "remote_version": 1725898476,
       "__v": 0,
       "category": [
         "npcCombat"
@@ -858,26 +1707,26 @@
       ]
     },
     {
-      "_id": "5df2a8acf75a97d9995a078c",
-      "_created": "2019-12-12T20:53:00.856Z",
-      "_updated": "2019-12-12T20:53:00.856Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a97d9995a078c",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332646/cyoa-editor/5df2a8acf75a97d9995a078c.png",
-      "remote_version": 1576332646,
+      "_id": "5df2a8acf75a97e6625a0789",
+      "_created": "2019-12-12T20:53:00.798Z",
+      "_updated": "2019-12-12T20:53:00.798Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a97e6625a0789",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332600/cyoa-editor/5df2a8acf75a97e6625a0789.png",
+      "remote_version": 1576332600,
       "__v": 0,
-      "name": "Graefir Island - ",
+      "name": "Graefir - Rocky Shore",
       "type": "image",
       "category": [
         "background"
       ]
     },
     {
-      "_id": "5df2a8acf75a97fecd5a0788",
-      "_created": "2019-12-12T20:53:00.789Z",
-      "_updated": "2019-12-12T20:53:00.789Z",
-      "remote_id": "cyoa-editor/5df2a8acf75a97fecd5a0788",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332666/cyoa-editor/5df2a8acf75a97fecd5a0788.png",
-      "remote_version": 1576332666,
+      "_id": "5df2a8acf75a97d9995a078c",
+      "_created": "2019-12-12T20:53:00.856Z",
+      "_updated": "2019-12-12T20:53:00.856Z",
+      "remote_id": "cyoa-editor/5df2a8acf75a97d9995a078c",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1576332646/cyoa-editor/5df2a8acf75a97d9995a078c.png",
+      "remote_version": 1576332646,
       "__v": 0,
       "name": "Graefir Island - ",
       "type": "image",
@@ -1109,6 +1958,28 @@
       ]
     },
     {
+      "_id": "671c0a38574fa4dd9819fcaf",
+      "type": "audio",
+      "name": "M - Ending Dark Brigade",
+      "_created": "2024-10-25T21:14:32.400Z",
+      "_updated": "2024-10-25T21:14:32.400Z",
+      "remote_id": "cyoa-editor/671c0a38574fa4dd9819fcaf",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1729932556/cyoa-editor/671c0a38574fa4dd9819fcaf.ogg",
+      "remote_version": 1729932556,
+      "__v": 0
+    },
+    {
+      "_id": "671caa2e574fa4dd981a5614",
+      "type": "audio",
+      "name": "M - Ending rest",
+      "_created": "2024-10-26T08:37:02.294Z",
+      "_updated": "2024-10-26T08:37:02.294Z",
+      "remote_id": "cyoa-editor/671caa2e574fa4dd981a5614",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1729931823/cyoa-editor/671caa2e574fa4dd981a5614.ogg",
+      "remote_version": 1729931823,
+      "__v": 0
+    },
+    {
       "_id": "5e10ce4576343396915ac8df",
       "name": "msc_action",
       "type": "audio",
@@ -1172,6 +2043,17 @@
       "remote_id": "cyoa-editor/5e49848ca74d95c320de4d15",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1581876366/cyoa-editor/5e49848ca74d95c320de4d15.mp3",
       "remote_version": 1581876366,
+      "__v": 0
+    },
+    {
+      "_id": "670d7642b3d10b553f20977d",
+      "type": "audio",
+      "name": "msc_memories",
+      "_created": "2024-10-14T19:51:30.168Z",
+      "_updated": "2024-10-14T19:51:30.168Z",
+      "remote_id": "cyoa-editor/670d7642b3d10b553f20977d",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1728940787/cyoa-editor/670d7642b3d10b553f20977d.mp3",
+      "remote_version": 1728940787,
       "__v": 0
     },
     {
@@ -1402,6 +2284,20 @@
       "remote_id": "cyoa-editor/5e45bf33a74d95ca96de4c4d",
       "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1582752493/cyoa-editor/5e45bf33a74d95ca96de4c4d.png",
       "remote_version": 1582752493,
+      "__v": 0,
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5e204f8f98fb234d53ff9074",
+      "name": "Noble Heights - Stray Wolf Inn",
+      "type": "image",
+      "_created": "2020-01-16T11:57:03.361Z",
+      "_updated": "2020-01-16T11:57:03.361Z",
+      "remote_id": "cyoa-editor/5e204f8f98fb234d53ff9074",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278247/cyoa-editor/5e204f8f98fb234d53ff9074.png",
+      "remote_version": 1579278247,
       "__v": 0,
       "category": [
         "background"
@@ -1730,20 +2626,6 @@
       ]
     },
     {
-      "_id": "5dd70e76f75a97009a59eaf4",
-      "_created": "2019-11-21T22:23:50.356Z",
-      "_updated": "2019-11-21T22:23:50.356Z",
-      "remote_id": "cyoa-editor/5dd70e76f75a97009a59eaf4",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1574866263/cyoa-editor/5dd70e76f75a97009a59eaf4.png",
-      "remote_version": 1574866263,
-      "__v": 0,
-      "name": "Set - ",
-      "type": "image",
-      "category": [
-        "background"
-      ]
-    },
-    {
       "_id": "5dd70e76f75a978bef59eaef",
       "_created": "2019-11-21T22:23:50.333Z",
       "_updated": "2019-11-21T22:23:50.333Z",
@@ -1864,6 +2746,20 @@
       "remote_version": 1574866253,
       "__v": 0,
       "name": "Set - Market B",
+      "type": "image",
+      "category": [
+        "background"
+      ]
+    },
+    {
+      "_id": "5dd70e76f75a97009a59eaf4",
+      "_created": "2019-11-21T22:23:50.356Z",
+      "_updated": "2019-11-21T22:23:50.356Z",
+      "remote_id": "cyoa-editor/5dd70e76f75a97009a59eaf4",
+      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1574866263/cyoa-editor/5dd70e76f75a97009a59eaf4.png",
+      "remote_version": 1574866263,
+      "__v": 0,
+      "name": "Set - Tavern",
       "type": "image",
       "category": [
         "background"
@@ -2299,17 +3195,6 @@
       "__v": 0
     },
     {
-      "_id": "5f2d40295b1a16fe9d757140",
-      "name": "sound_notification",
-      "type": "audio",
-      "_created": "2020-08-07T11:51:05.307Z",
-      "_updated": "2020-08-07T11:51:05.307Z",
-      "remote_id": "cyoa-editor/5f2d40295b1a16fe9d757140",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1596801065/cyoa-editor/5f2d40295b1a16fe9d757140.wav",
-      "remote_version": 1596801065,
-      "__v": 0
-    },
-    {
       "_id": "5f3a38665b1a16019175714b",
       "name": "sound_parry-setup",
       "type": "audio",
@@ -2396,20 +3281,6 @@
       "remote_url": "https://res.cloudinary.com/gotterdammerung/video/upload/v1597651049/cyoa-editor/5f3a38685b1a165b3c757151.wav",
       "remote_version": 1597651049,
       "__v": 0
-    },
-    {
-      "_id": "5e204f8f98fb234d53ff9074",
-      "name": "Stray Wolf Inn",
-      "type": "image",
-      "_created": "2020-01-16T11:57:03.361Z",
-      "_updated": "2020-01-16T11:57:03.361Z",
-      "remote_id": "cyoa-editor/5e204f8f98fb234d53ff9074",
-      "remote_url": "https://res.cloudinary.com/gotterdammerung/image/upload/v1579278247/cyoa-editor/5e204f8f98fb234d53ff9074.png",
-      "remote_version": 1579278247,
-      "__v": 0,
-      "category": [
-        "background"
-      ]
     },
     {
       "_id": "5dd70d7cf75a97084759ea8b",

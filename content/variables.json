@@ -1,6 +1,34 @@
 {
-  "total": 0,
+  "total": 3,
   "limit": 1500,
   "skip": 0,
-  "data": []
+  "data": [
+    {
+      "_id": "66e013f915ccc126634394fb",
+      "_created": "2024-09-10T09:40:09.241Z",
+      "_updated": "2024-09-10T09:40:09.241Z",
+      "name": "Main ending partial",
+      "type": "string",
+      "value": null,
+      "__v": 0
+    },
+    {
+      "_id": "66e357e7cce7d0d2ca62ebb7",
+      "name": "Turned in medallions",
+      "type": "number",
+      "value": 0,
+      "_created": "2024-09-12T21:06:47.196Z",
+      "_updated": "2024-09-12T21:06:47.196Z",
+      "__v": 0
+    },
+    {
+      "_id": "671b5599574fa4dd98192421",
+      "name": "Ranged Attacks",
+      "type": "number",
+      "value": 0,
+      "_created": "2024-10-25T08:23:53.005Z",
+      "_updated": "2024-10-25T08:23:53.005Z",
+      "__v": 0
+    }
+  ]
 }

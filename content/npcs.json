@@ -1,5 +1,5 @@
 {
-  "total": 136,
+  "total": 133,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -22,8 +22,8 @@
         [
           {
             "damage": {
-              "min": 7,
-              "max": 12
+              "min": 10,
+              "max": 18
             },
             "combatActions": [],
             "ranged": false,
@@ -39,9 +39,10 @@
     {
       "_id": "5c7d8829fd6b492258456b99",
       "_created": "2019-03-04T20:18:49.655Z",
-      "_updated": "2024-09-05T21:14:13.133Z",
+      "_updated": "2024-10-08T13:35:45.457Z",
       "name": "Druid War Chief",
       "_alias": null,
+      "portrait": "670534f7ff61df952dfb3df1",
       "level": 10,
       "strength": 3,
       "charisma": 3,
@@ -52,8 +53,8 @@
         [
           {
             "damage": {
-              "min": 6,
-              "max": 18
+              "min": 9,
+              "max": 27
             },
             "ranged": false,
             "combatActions": [],
@@ -78,10 +79,11 @@
       "_id": "5c80303b0e374858f8c6017e",
       "template": "66d82ad115ccc12663428a53",
       "templateLevel": "2",
+      "portrait": "66f11b03cce7d0d2ca639d48",
       "name": "Wild Dog",
       "_alias": "Wild Dog",
       "_created": "2019-03-06T20:40:27.448Z",
-      "_updated": "2024-09-04T09:40:14.076Z",
+      "_updated": "2024-10-15T10:30:05.728Z",
       "__v": 0,
       "__t": "template"
     },
@@ -89,19 +91,20 @@
       "_id": "5c817e240e37485f1bc601e1",
       "template": "66d82ad115ccc12663428a53",
       "templateLevel": "4",
+      "portrait": "671788bd574fa4dd98179ad0",
       "name": "Gray Dog",
       "_alias": "Gray Dog",
       "_created": "2019-03-07T20:25:08.253Z",
-      "_updated": "2024-09-04T09:40:39.084Z",
+      "_updated": "2024-10-22T11:13:24.415Z",
       "__v": 0,
       "__t": "template"
     },
     {
       "_id": "5c85d3f30e3748205fc6035c",
       "_created": "2019-03-11T03:20:19.163Z",
-      "_updated": "2024-09-04T11:51:15.367Z",
-      "name": "Swordsman of Woe",
-      "_alias": null,
+      "_updated": "2024-10-25T13:24:55.717Z",
+      "name": "Apostle",
+      "_alias": "Apostle 4 (Swords)",
       "portrait": "66d848a915ccc12663429375",
       "level": 3,
       "strength": 2,
@@ -109,21 +112,30 @@
       "resilience": 1,
       "agility": 2,
       "perception": 1,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.5
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 1,
-              "max": 4
+              "min": 6,
+              "max": 9
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "thrust"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "armor": 0,
       "behavior": "fighter",
       "baseImmunities": [],
@@ -134,43 +146,60 @@
     },
     {
       "_id": "5c869283bbdb6b1bf15865e2",
-      "name": "Berserker of Woe",
+      "_created": "2019-03-11T16:53:23.766Z",
+      "_updated": "2024-10-16T09:58:04.117Z",
+      "name": "Apostle",
+      "_alias": "Apostle 3 (Berserker)",
+      "portrait": "66f3aebdcce7d0d2ca63d3d3",
+      "level": 3,
       "strength": 2,
       "charisma": 1,
       "resilience": 2,
       "agility": 1,
       "perception": 1,
-      "armor": 0,
-      "experience": 30,
-      "_created": "2019-03-11T16:53:23.766Z",
-      "__v": 0,
-      "_updated": "2020-04-17T22:54:55.639Z",
-      "level": 3,
-      "bargain": [],
+      "innateStatModifiers": [
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 1.25
+        },
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.25
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 1,
-              "max": 3
+              "min": 4,
+              "max": 5
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "cleave"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
+      "armor": 0,
+      "behavior": "unstoppable",
+      "baseImmunities": [],
+      "experience": 30,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5c869a09bbdb6b717658660d",
       "_created": "2019-03-11T17:25:29.394Z",
-      "_updated": "2024-09-04T11:51:39.996Z",
-      "name": "Maceman of Woe",
-      "_alias": null,
+      "_updated": "2024-10-16T09:58:24.131Z",
+      "name": "Apostle",
+      "_alias": "Apostle 1 (Mace)",
       "portrait": "66d848cd15ccc1266342937a",
       "level": 4,
       "strength": 4,
@@ -178,22 +207,31 @@
       "resilience": 1,
       "agility": 1,
       "perception": 1,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.5
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 1,
-              "max": 6
+              "min": 4,
+              "max": 8
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "stun"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
       "combatActions": [],
       "maxActionPoints": 2,
-      "armor": 1,
+      "armor": 0,
       "behavior": "fighter",
       "baseImmunities": [],
       "experience": 30,
@@ -204,7 +242,7 @@
     {
       "_id": "5c869a7abbdb6bfda058660e",
       "_created": "2019-03-11T17:27:22.496Z",
-      "_updated": "2024-09-04T11:52:26.456Z",
+      "_updated": "2024-09-11T09:55:58.853Z",
       "name": "Alchemist of Woe",
       "_alias": null,
       "portrait": "66d849ea15ccc12663429544",
@@ -219,7 +257,7 @@
           {
             "damage": {
               "min": 1,
-              "max": 2
+              "max": 3
             },
             "ranged": false,
             "combatActions": [],
@@ -228,7 +266,7 @@
         ]
       ],
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
       "armor": 0,
       "behavior": "fighter",
       "baseImmunities": [],
@@ -239,44 +277,61 @@
     },
     {
       "_id": "5c869b49bbdb6b483f58663b",
-      "name": "Assassin of Woe",
+      "_created": "2019-03-11T17:30:49.970Z",
+      "_updated": "2024-10-24T12:16:01.882Z",
+      "name": "Apostle",
+      "_alias": "Apostle 2 (Assassin)",
+      "portrait": "671a38da574fa4dd9818a2eb",
+      "level": 3,
       "strength": 1,
       "charisma": 1,
       "resilience": 1,
       "agility": 2,
       "perception": 2,
-      "armor": 0,
-      "experience": 30,
-      "_created": "2019-03-11T17:30:49.970Z",
-      "__v": 0,
-      "_updated": "2019-06-08T08:32:24.168Z",
-      "loot": "5c86d948bbdb6b695e5868e8",
-      "level": 3,
-      "bargain": [],
+      "innateStatModifiers": [
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 1.25
+        },
+        {
+          "statName": "evadeMeleeChance",
+          "type": "term",
+          "value": 0.1
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 1,
-              "max": 2
+              "min": 4,
+              "max": 5
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "swipe"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 1,
+      "maxActionPoints": 2,
+      "armor": 0,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "loot": "5c86d948bbdb6b695e5868e8",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5c86bef6bbdb6b42665867f1",
       "_created": "2019-03-11T20:03:02.610Z",
-      "_updated": "2024-09-04T11:51:28.828Z",
-      "name": "Guardian of Woe",
-      "_alias": null,
+      "_updated": "2024-10-16T09:58:30.933Z",
+      "name": "Apostle",
+      "_alias": "Apostle 5 (Guardian)",
       "portrait": "66d848a915ccc12663429375",
       "level": 4,
       "strength": 3,
@@ -284,22 +339,31 @@
       "resilience": 2,
       "agility": 1,
       "perception": 1,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.5
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 1,
-              "max": 8
+              "min": 6,
+              "max": 9
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "thrust"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
       "combatActions": [],
       "maxActionPoints": 2,
-      "armor": 1,
+      "armor": 0,
       "behavior": "fighter",
       "baseImmunities": [],
       "experience": 30,
@@ -309,44 +373,50 @@
     },
     {
       "_id": "5c8ae564190288b993f94cd9",
+      "_created": "2019-03-14T23:36:04.563Z",
+      "_updated": "2024-10-16T09:42:12.236Z",
       "name": "Druid Archer",
+      "_alias": null,
+      "portrait": "66e69bdccce7d0d2ca630a30",
+      "level": 4,
       "strength": 1,
       "charisma": 2,
       "resilience": 1,
       "agility": 1,
       "perception": 3,
-      "armor": 1,
-      "experience": 25,
-      "_created": "2019-03-14T23:36:04.563Z",
-      "_updated": "2020-03-10T10:57:18.840Z",
-      "__v": 0,
-      "level": 4,
-      "bargain": [],
-      "loot": "5e67726dd5f2ff6e702357b6",
       "attackSets": [
         [
           {
             "damage": {
-              "min": 1,
-              "max": 4
+              "min": 6,
+              "max": 12
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "stab"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 3,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 25,
+      "loot": "5e67726dd5f2ff6e702357b6",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5c8b205419028820c8f94cda",
       "_created": "2019-03-15T03:47:32.789Z",
-      "_updated": "2024-09-05T15:18:39.080Z",
+      "_updated": "2024-10-23T14:05:36.066Z",
       "name": "Druid Guard",
       "_alias": null,
+      "portrait": "66f7d3aacce7d0d2ca641f0e",
       "level": 6,
       "strength": 3,
       "charisma": 1,
@@ -357,11 +427,13 @@
         [
           {
             "damage": {
-              "min": 1,
-              "max": 6
+              "min": 6,
+              "max": 9
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "hamstring"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -379,102 +451,143 @@
     },
     {
       "_id": "5c8ba99f1902882f2ff94cdb",
+      "_created": "2019-03-15T13:33:19.234Z",
+      "_updated": "2024-10-16T09:42:48.912Z",
       "name": "Druid Assassin",
+      "_alias": null,
+      "portrait": "66f7d3aacce7d0d2ca641f0b",
+      "level": 7,
       "strength": 1,
       "charisma": 3,
       "resilience": 1,
       "agility": 3,
       "perception": 3,
-      "armor": 1,
-      "experience": 50,
-      "_created": "2019-03-15T13:33:19.234Z",
-      "_updated": "2020-05-07T14:26:54.692Z",
-      "__v": 0,
-      "loot": "5c9351e73bae8d4ce62b6257",
-      "level": 7,
-      "bargain": [],
+      "innateStatModifiers": [
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 1.25
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 2,
-              "max": 8
+              "min": 4,
+              "max": 12
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "hamstring"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 3,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 50,
+      "loot": "5c9351e73bae8d4ce62b6257",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5c8f0664d26f5013ba85f5f4",
+      "_created": "2019-03-18T02:45:56.027Z",
+      "_updated": "2024-09-17T13:03:58.127Z",
       "name": "Dusk Wolf",
+      "_alias": null,
+      "portrait": "66e97defcce7d0d2ca638c2d",
+      "level": 5,
       "strength": 3,
       "charisma": 1,
       "resilience": 1,
       "agility": 2,
       "perception": 2,
-      "armor": 1,
-      "experience": 40,
-      "_created": "2019-03-18T02:45:56.027Z",
-      "_updated": "2019-06-08T11:23:29.347Z",
-      "__v": 0,
-      "bargain": [],
-      "level": 5,
+      "innateStatModifiers": [
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 1,
-              "max": 5
+              "min": 3,
+              "max": 8
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "bite"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 0,
+      "behavior": "unstoppable",
+      "baseImmunities": [],
+      "experience": 40,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5c92d64b3bae8d70052b5f88",
+      "_created": "2019-03-21T00:09:47.267Z",
+      "_updated": "2024-10-15T13:50:32.210Z",
       "name": "Shadow Lion",
+      "_alias": null,
+      "portrait": "66f11b03cce7d0d2ca639d4a",
+      "level": 8,
       "strength": 3,
       "charisma": 1,
       "resilience": 4,
       "agility": 2,
       "perception": 2,
-      "experience": 50,
-      "armor": 0,
-      "_created": "2019-03-21T00:09:47.267Z",
-      "_updated": "2019-06-09T21:29:22.569Z",
-      "__v": 0,
-      "level": 8,
-      "bargain": [],
+      "innateStatModifiers": [
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 1.2
+        },
+        {
+          "statName": "evadeMeleeChance",
+          "type": "factor",
+          "value": 1.1
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "max": 4,
-              "min": 4
+              "min": 6,
+              "max": 9
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "bite"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 0,
+      "behavior": "unstoppable",
+      "baseImmunities": [],
+      "experience": 50,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -536,7 +649,7 @@
           {
             "damage": {
               "min": 1,
-              "max": 5
+              "max": 8
             },
             "combatActions": [],
             "ranged": false,
@@ -551,372 +664,188 @@
     },
     {
       "_id": "5c94c358683e5d1e064f2e27",
-      "name": "Druid Scoundrel",
-      "strength": 3,
-      "agility": 2,
-      "charisma": 3,
-      "resilience": 1,
-      "perception": 3,
-      "armor": 2,
-      "experience": 40,
       "_created": "2019-03-22T11:13:28.970Z",
-      "_updated": "2019-04-25T07:45:35.067Z",
-      "__v": 0,
-      "loot": "5c94d342683e5d543b4f2e33",
+      "_updated": "2024-10-16T09:42:38.008Z",
+      "name": "Druid Scoundrel",
+      "_alias": null,
+      "portrait": "66f7d3aacce7d0d2ca641f0b",
       "level": 8,
-      "bargain": [],
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 1,
-              "max": 8
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 2,
-      "__t": "npc"
-    },
-    {
-      "_id": "5c9b13cb3790353c3ab1bd6a",
-      "name": "Mountain Lion",
-      "strength": 2,
-      "charisma": 1,
-      "resilience": 1,
-      "agility": 3,
-      "perception": 2,
-      "armor": 0,
-      "experience": 25,
-      "_created": "2019-03-27T06:10:19.461Z",
-      "_updated": "2019-04-25T07:22:36.044Z",
-      "bargain": [],
-      "__v": 0,
-      "level": 5,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 1,
-              "max": 6
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 2,
-      "__t": "npc"
-    },
-    {
-      "_id": "5c9b90153790350fd5b1bf80",
-      "name": "Arvie Graker",
-      "strength": 1,
+      "strength": 3,
       "charisma": 3,
       "resilience": 1,
-      "agility": 4,
-      "perception": 1,
-      "armor": 1,
-      "experience": 10,
-      "_created": "2019-03-27T15:00:37.897Z",
-      "_updated": "2020-04-19T15:56:34.930Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5c9b93573790351a05b1bf87",
-      "level": 6,
-      "healthOverride": 12,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 2,
-              "max": 4
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 2,
-      "__t": "npc"
-    },
-    {
-      "_id": "5ca3f68a3790351522b1ce57",
-      "name": "Druid Swordsman",
-      "strength": 2,
-      "charisma": 1,
-      "resilience": 1,
       "agility": 2,
-      "perception": 4,
-      "armor": 4,
-      "experience": 25,
-      "_created": "2019-04-02T23:55:54.827Z",
-      "_updated": "2020-03-18T07:50:28.973Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5ca43eea3790357c7eb1cf1e",
-      "level": 6,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 2,
-              "max": 5
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 2,
-      "__t": "npc"
-    },
-    {
-      "_id": "5ca5caf83790350e2bb1f631",
-      "name": "Druid Gardener",
-      "strength": 4,
-      "charisma": 1,
-      "resilience": 2,
-      "agility": 1,
-      "perception": 2,
-      "armor": 1,
-      "experience": 25,
-      "_created": "2019-04-04T09:14:32.720Z",
-      "_updated": "2020-03-18T07:51:04.268Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5ca5f496379035016eb1fdff",
-      "level": 6,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 1,
-              "max": 9
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 2,
-      "__t": "npc"
-    },
-    {
-      "_id": "5cab279e379035ed17b2239e",
-      "name": "Mev",
-      "strength": 4,
-      "charisma": 4,
-      "resilience": 6,
-      "agility": 3,
-      "perception": 2,
-      "armor": 4,
-      "_created": "2019-04-08T10:51:10.979Z",
-      "_updated": "2019-04-14T16:03:12.585Z",
-      "bargain": [
-        {
-          "_id": "5cb359c0c065f079ab943381",
-          "items": [
-            {
-              "_id": "5cb359c0c065f0628c943386",
-              "item": "5cb3564fc065f08fda94337d"
-            },
-            {
-              "_id": "5cb359c0c065f016a0943385",
-              "item": "5cb35818c065f0135594337e"
-            },
-            {
-              "_id": "5cb359c0c065f02fa4943384",
-              "item": "5cb35965c065f048a294337f"
-            },
-            {
-              "_id": "5cb359c0c065f05d88943383",
-              "item": "5caabbcf37903537d9b22137"
-            },
-            {
-              "_id": "5cb359c0c065f04501943382",
-              "item": "5c935e073bae8df83c2b629a"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "__v": 0,
-      "level": 15,
-      "experience": 100,
-      "loot": "5cb33275c065f08343943258",
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 6,
-              "max": 12
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 4,
-      "__t": "npc"
-    },
-    {
-      "_id": "5cb7bbcdc065f010629435f5",
-      "name": "Ato Triasteen",
-      "strength": 1,
-      "charisma": 4,
-      "resilience": 3,
-      "agility": 4,
       "perception": 3,
-      "armor": 8,
-      "experience": 10,
-      "level": 11,
-      "_created": "2019-04-17T23:50:37.296Z",
-      "_updated": "2019-11-11T14:59:18.617Z",
-      "bargain": [
+      "innateStatModifiers": [
         {
-          "_id": "5d168b65ebd3dc7ff454cb01",
-          "items": [
-            {
-              "_id": "5d168b65ebd3dc474d54cb04",
-              "item": "5d12279340fcff8734fb7f70"
-            },
-            {
-              "_id": "5d168b65ebd3dc52a454cb03",
-              "item": "5cd26364f7cea27c6b745002"
-            },
-            {
-              "_id": "5d168b65ebd3dc6f6954cb02",
-              "item": "5cd262abf7cea25c17745001"
-            }
-          ],
-          "conditions": []
+          "statName": "speed",
+          "type": "factor",
+          "value": 1.25
         }
       ],
-      "__v": 0,
-      "loot": "5dc97601f75a974bdd597d5e",
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 5,
-              "max": 15
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 3,
-      "__t": "npc"
-    },
-    {
-      "_id": "5cb8c838c065f0d85a9439e8",
-      "name": "Young Prison Guard",
-      "strength": 2,
-      "charisma": 2,
-      "resilience": 3,
-      "agility": 1,
-      "perception": 2,
-      "level": 6,
-      "armor": 2,
-      "experience": 10,
-      "_created": "2019-04-18T18:55:52.574Z",
-      "_updated": "2019-04-25T07:27:15.584Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5cb91eb9c065f0361a943b47",
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 4,
-              "max": 6
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 2,
-      "__t": "npc"
-    },
-    {
-      "_id": "5cb8c8a0c065f0c1889439e9",
-      "name": "Prison Warden",
-      "strength": 4,
-      "charisma": 4,
-      "resilience": 4,
-      "agility": 1,
-      "perception": 2,
-      "armor": 4,
-      "experience": 60,
-      "_created": "2019-04-18T18:57:36.400Z",
-      "_updated": "2020-03-04T13:49:55.018Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5cb91ccec065f09f7c943b35",
-      "level": 11,
       "attackSets": [
         [
           {
             "damage": {
               "min": 7,
-              "max": 11
+              "max": 14
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "hamstring"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 3,
+      "maxActionPoints": 2,
+      "armor": 4,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 40,
+      "loot": "5c94d342683e5d543b4f2e33",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
-      "_id": "5cb8e2e9c065f01019943a01",
-      "name": "Old Prison Guard",
-      "strength": 3,
+      "_id": "5c9b13cb3790353c3ab1bd6a",
+      "_created": "2019-03-27T06:10:19.461Z",
+      "_updated": "2024-10-15T13:50:57.920Z",
+      "name": "Mountain Lion",
+      "_alias": null,
+      "portrait": "66fd1b0dff61df952df90bcb",
+      "level": 5,
+      "strength": 2,
       "charisma": 1,
-      "resilience": 5,
-      "agility": 1,
+      "resilience": 1,
+      "agility": 3,
       "perception": 2,
-      "level": 8,
-      "armor": 2,
-      "experience": 20,
-      "_created": "2019-04-18T20:49:45.299Z",
-      "_updated": "2019-06-09T21:37:34.447Z",
+      "innateStatModifiers": [
+        {
+          "statName": "evadeMeleeChance",
+          "type": "factor",
+          "value": 1.1
+        },
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 1,
+              "max": 9
+            },
+            "ranged": false,
+            "combatActions": [],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
+      "combatActions": [],
+      "maxActionPoints": 2,
+      "armor": 0,
+      "behavior": "unstoppable",
+      "baseImmunities": [],
+      "experience": 25,
       "bargain": [],
       "__v": 0,
-      "loot": "5cb91eb9c065f0361a943b47",
+      "__t": "npc"
+    },
+    {
+      "_id": "5c9b90153790350fd5b1bf80",
+      "_created": "2019-03-27T15:00:37.897Z",
+      "_updated": "2024-09-10T11:56:10.826Z",
+      "name": "Arvie Graker",
+      "_alias": null,
+      "portrait": "66df1ae915ccc12663435733",
+      "level": 6,
+      "strength": 1,
+      "charisma": 3,
+      "resilience": 1,
+      "agility": 4,
+      "perception": 1,
+      "healthOverride": 12,
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 7,
+              "max": 15
+            },
+            "ranged": false,
+            "combatActions": [],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
+      "combatActions": [],
+      "maxActionPoints": 2,
+      "armor": 3,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 10,
+      "loot": "5c9b93573790351a05b1bf87",
+      "bargain": [],
+      "__v": 0,
+      "__t": "npc"
+    },
+    {
+      "_id": "5ca3f68a3790351522b1ce57",
+      "_created": "2019-04-02T23:55:54.827Z",
+      "_updated": "2024-10-23T14:05:11.270Z",
+      "name": "Druid Swordsman",
+      "_alias": null,
+      "portrait": "66e69bdccce7d0d2ca630a32",
+      "level": 6,
+      "strength": 2,
+      "charisma": 1,
+      "resilience": 1,
+      "agility": 2,
+      "perception": 4,
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 6,
+              "max": 9
+            },
+            "ranged": false,
+            "combatActions": [
+              "thrust"
+            ],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
+      "combatActions": [],
+      "maxActionPoints": 2,
+      "armor": 6,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 25,
+      "loot": "5ca43eea3790357c7eb1cf1e",
+      "bargain": [],
+      "__v": 0,
+      "__t": "npc"
+    },
+    {
+      "_id": "5ca5caf83790350e2bb1f631",
+      "_created": "2019-04-04T09:14:32.720Z",
+      "_updated": "2024-10-23T14:04:49.036Z",
+      "name": "Druid Gardener",
+      "_alias": null,
+      "portrait": "66f7d463cce7d0d2ca642118",
+      "level": 6,
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 1,
+      "perception": 2,
       "attackSets": [
         [
           {
@@ -924,386 +853,527 @@
               "min": 6,
               "max": 8
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "swipe"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
-      "__t": "npc"
-    },
-    {
-      "_id": "5cb9146dc065f04565943b30",
-      "name": "Hooded Prison Guard",
-      "strength": 3,
-      "charisma": 1,
-      "resilience": 4,
-      "agility": 2,
-      "perception": 2,
-      "level": 8,
-      "armor": 5,
-      "experience": 25,
-      "_created": "2019-04-19T00:21:01.558Z",
-      "_updated": "2020-03-04T13:48:59.252Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5cb91eb9c065f0361a943b47",
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 5,
-              "max": 12
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 2,
-      "__t": "npc"
-    },
-    {
-      "_id": "5cb91547c065f03579943b31",
-      "name": "Cowled Prison Guard",
-      "strength": 1,
-      "charisma": 1,
-      "perception": 3,
       "armor": 4,
+      "behavior": "fighter",
+      "baseImmunities": [],
       "experience": 25,
-      "level": 9,
-      "_created": "2019-04-19T00:24:39.110Z",
-      "_updated": "2019-06-10T16:32:40.297Z",
+      "loot": "5ca5f496379035016eb1fdff",
       "bargain": [],
       "__v": 0,
-      "loot": "5cb91eb9c065f0361a943b47",
-      "agility": 5,
-      "resilience": 3,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 1,
-              "max": 6
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 3,
       "__t": "npc"
     },
     {
-      "_id": "5cda4c473e44ee55b17abf8c",
-      "name": "Albino Jackal",
-      "strength": 1,
-      "charisma": 1,
-      "resilience": 2,
+      "_id": "5cab279e379035ed17b2239e",
+      "_created": "2019-04-08T10:51:10.979Z",
+      "_updated": "2024-10-24T08:16:13.181Z",
+      "name": "Mev",
+      "_alias": null,
+      "portrait": "670534f7ff61df952dfb3df3",
+      "level": 16,
+      "strength": 2,
+      "charisma": 6,
+      "resilience": 4,
       "agility": 4,
       "perception": 4,
-      "level": 8,
-      "armor": 3,
-      "experience": 25,
-      "_created": "2019-05-14T05:04:07.968Z",
-      "_updated": "2020-03-18T12:53:31.804Z",
-      "bargain": [],
-      "__v": 0,
+      "innateStatModifiers": [
+        {
+          "statName": "initiative",
+          "type": "factor",
+          "value": 1.5
+        },
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.3
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 1,
-              "max": 12
+              "min": 12,
+              "max": 16
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "puncture"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 2,
+      "maxActionPoints": 3,
+      "armor": 4,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 100,
+      "loot": "5cb33275c065f08343943258",
+      "bargain": [
+        {
+          "conditions": [],
+          "items": [
+            {
+              "item": "5cb3564fc065f08fda94337d",
+              "_id": "5cb359c0c065f0628c943386"
+            },
+            {
+              "item": "5cb35818c065f0135594337e",
+              "_id": "5cb359c0c065f016a0943385"
+            },
+            {
+              "item": "5cb35965c065f048a294337f",
+              "_id": "5cb359c0c065f02fa4943384"
+            },
+            {
+              "item": "5caabbcf37903537d9b22137",
+              "_id": "5cb359c0c065f05d88943383"
+            },
+            {
+              "item": "5c935e073bae8df83c2b629a",
+              "_id": "5cb359c0c065f04501943382"
+            }
+          ],
+          "_id": "5cb359c0c065f079ab943381"
+        }
+      ],
+      "__v": 0,
       "__t": "npc"
     },
     {
-      "_id": "5ce4acc0c3e78f95a55bcbcf",
-      "name": "Knight",
+      "_id": "5cb7bbcdc065f010629435f5",
+      "_created": "2019-04-17T23:50:37.296Z",
+      "_updated": "2024-10-16T13:21:16.327Z",
+      "name": "Ato Triasteen",
+      "_alias": null,
+      "portrait": "66f7d3aacce7d0d2ca641f09",
+      "level": 12,
+      "strength": 2,
+      "charisma": 4,
+      "resilience": 3,
+      "agility": 4,
+      "perception": 3,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.15
+        }
+      ],
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 10,
+              "max": 22
+            },
+            "ranged": false,
+            "combatActions": [
+              "thrust"
+            ],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
+      "combatActions": [
+        "glide"
+      ],
+      "maxActionPoints": 3,
+      "armor": 10,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 10,
+      "loot": "5dc97601f75a974bdd597d5e",
+      "bargain": [
+        {
+          "conditions": [],
+          "items": [
+            {
+              "item": "5d12279340fcff8734fb7f70",
+              "_id": "5d168b65ebd3dc474d54cb04"
+            },
+            {
+              "item": "5cd26364f7cea27c6b745002",
+              "_id": "5d168b65ebd3dc52a454cb03"
+            },
+            {
+              "item": "5cd262abf7cea25c17745001",
+              "_id": "5d168b65ebd3dc6f6954cb02"
+            }
+          ],
+          "_id": "5d168b65ebd3dc7ff454cb01"
+        }
+      ],
+      "__v": 0,
+      "__t": "npc"
+    },
+    {
+      "_id": "5cb8c838c065f0d85a9439e8",
+      "template": "670f92e0b3d10b553f21a459",
+      "templateLevel": "6",
+      "name": "Young Prison Guard",
+      "_alias": "Young Prison Guard",
+      "experience": 10,
+      "_created": "2019-04-18T18:55:52.574Z",
+      "_updated": "2024-10-16T10:19:56.303Z",
+      "__v": 0,
+      "__t": "template"
+    },
+    {
+      "_id": "5cb8c8a0c065f0c1889439e9",
+      "_created": "2019-04-18T18:57:36.400Z",
+      "_updated": "2024-10-24T06:49:27.581Z",
+      "name": "Prison Warden",
+      "_alias": null,
+      "portrait": "66f7d3aacce7d0d2ca641f0f",
+      "level": 10,
       "strength": 3,
-      "charisma": 2,
+      "charisma": 5,
       "resilience": 3,
-      "agility": 2,
+      "agility": 1,
       "perception": 2,
-      "level": 8,
-      "armor": 6,
-      "experience": 40,
-      "_created": "2019-05-22T01:58:24.207Z",
-      "_updated": "2019-06-10T16:36:39.936Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5ced4754c3e78fe0b15beaad",
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 5,
-              "max": 9
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.25
+        }
       ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 2,
-      "__t": "npc"
-    },
-    {
-      "_id": "5ce4ad57c3e78f616d5bcbd0",
-      "name": "Vengeful Knight",
-      "strength": 4,
-      "charisma": 2,
-      "resilience": 3,
-      "agility": 2,
-      "perception": 2,
-      "level": 9,
-      "armor": 7,
-      "experience": 40,
-      "_created": "2019-05-22T02:00:55.473Z",
-      "_updated": "2019-05-28T15:00:09.945Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5ced4cc3c3e78f353c5beabb",
       "attackSets": [
         [
           {
             "damage": {
               "min": 6,
-              "max": 14
+              "max": 9
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "thrust"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
-      "combatActions": [],
+      "combatActions": [
+        "trip"
+      ],
       "maxActionPoints": 3,
+      "armor": 12,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 60,
+      "loot": "5cb91ccec065f09f7c943b35",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
+      "_id": "5cb8e2e9c065f01019943a01",
+      "template": "670f92e0b3d10b553f21a459",
+      "name": "Old Prison Guard",
+      "_alias": "Old Prison Guard",
+      "experience": 20,
+      "_created": "2019-04-18T20:49:45.299Z",
+      "_updated": "2024-10-16T10:19:01.952Z",
+      "__v": 0,
+      "__t": "template"
+    },
+    {
+      "_id": "5cb9146dc065f04565943b30",
+      "template": "670f92e0b3d10b553f21a459",
+      "name": "Hooded Prison Guard",
+      "_alias": "Hooded Prison Guard",
+      "_created": "2019-04-19T00:21:01.558Z",
+      "_updated": "2024-10-16T10:19:22.070Z",
+      "__v": 0,
+      "__t": "template"
+    },
+    {
+      "_id": "5cb91547c065f03579943b31",
+      "template": "670f92e0b3d10b553f21a459",
+      "name": "Cowled Prison Guard",
+      "_alias": "Cowled Prison Guard",
+      "_created": "2019-04-19T00:24:39.110Z",
+      "_updated": "2024-10-16T10:19:40.345Z",
+      "__v": 0,
+      "__t": "template"
+    },
+    {
+      "_id": "5cda4c473e44ee55b17abf8c",
+      "_created": "2019-05-14T05:04:07.968Z",
+      "_updated": "2024-09-23T07:40:48.115Z",
+      "name": "Albino Jackal",
+      "_alias": null,
+      "portrait": "66e97defcce7d0d2ca638c2b",
+      "level": 8,
+      "strength": 1,
+      "charisma": 1,
+      "resilience": 2,
+      "agility": 4,
+      "perception": 4,
+      "innateStatModifiers": [
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 1,
+              "max": 18
+            },
+            "ranged": false,
+            "combatActions": [],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
+      "combatActions": [],
+      "maxActionPoints": 3,
+      "armor": 0,
+      "behavior": "unstoppable",
+      "baseImmunities": [],
+      "experience": 25,
+      "bargain": [],
+      "__v": 0,
+      "__t": "npc"
+    },
+    {
+      "_id": "5ce4acc0c3e78f95a55bcbcf",
+      "template": "6719eece574fa4dd98185311",
+      "name": "Knight",
+      "_alias": "Knight A",
+      "loot": "5ced4754c3e78fe0b15beaad",
+      "experience": 40,
+      "_created": "2019-05-22T01:58:24.207Z",
+      "_updated": "2024-10-24T06:53:32.405Z",
+      "__v": 0,
+      "__t": "template"
+    },
+    {
+      "_id": "5ce4ad57c3e78f616d5bcbd0",
+      "template": "6719eece574fa4dd98185311",
+      "name": "Vengeful Knight",
+      "_alias": "Knight C",
+      "loot": "5ced4cc3c3e78f353c5beabb",
+      "experience": 40,
+      "_created": "2019-05-22T02:00:55.473Z",
+      "_updated": "2024-10-24T06:53:22.826Z",
+      "__v": 0,
+      "__t": "template"
+    },
+    {
       "_id": "5ce52292c3e78f82c55bd909",
+      "_created": "2019-05-22T10:21:06.822Z",
+      "_updated": "2024-10-16T08:05:09.418Z",
       "name": "Mastaba",
+      "_alias": null,
+      "portrait": "670f7371b3d10b553f2181cf",
+      "level": 12,
       "strength": 6,
       "charisma": 1,
       "resilience": 4,
       "agility": 2,
       "perception": 3,
-      "level": 12,
-      "armor": 0,
-      "experience": 35,
-      "_created": "2019-05-22T10:21:06.822Z",
-      "_updated": "2020-03-18T16:25:45.570Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 4,
-              "max": 10
+              "min": 9,
+              "max": 20
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "thrust"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
-      "combatActions": [],
+      "combatActions": [
+        "hook"
+      ],
       "maxActionPoints": 3,
+      "armor": 5,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 35,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5ced2decc3e78f2bf85be638",
+      "_created": "2019-05-28T12:47:40.469Z",
+      "_updated": "2024-10-23T12:41:35.811Z",
       "name": "Starving Pirate",
-      "level": 3,
-      "strength": 1,
+      "_alias": null,
+      "portrait": "670d68f9b3d10b553f201ba6",
+      "level": 5,
+      "strength": 2,
       "charisma": 1,
       "resilience": 1,
       "agility": 3,
-      "perception": 1,
-      "armor": 0,
-      "experience": 5,
-      "_created": "2019-05-28T12:47:40.469Z",
-      "_updated": "2019-05-28T12:47:40.469Z",
-      "bargain": [],
-      "__v": 0,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 1,
-              "max": 3
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 1,
-      "__t": "npc"
-    },
-    {
-      "_id": "5cf71702c3e78f3dd85c15fa",
-      "name": "Knight Swordsman",
-      "strength": 4,
-      "level": 9,
-      "resilience": 4,
-      "charisma": 2,
-      "agility": 1,
       "perception": 2,
-      "armor": 8,
-      "experience": 40,
-      "loot": "5ced4754c3e78fe0b15beaad",
-      "_created": "2019-06-05T01:12:34.273Z",
-      "_updated": "2019-06-05T01:12:34.273Z",
-      "bargain": [],
-      "__v": 0,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 4,
-              "max": 18
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 3,
-      "__t": "npc"
-    },
-    {
-      "_id": "5cf77e92c3e78f5d395c2a1d",
-      "name": "Knife Thug",
-      "level": 10,
-      "charisma": 2,
-      "resilience": 4,
-      "agility": 3,
-      "perception": 2,
-      "armor": 5,
-      "experience": 25,
-      "_created": "2019-06-05T08:34:26.984Z",
-      "_updated": "2019-06-13T06:19:30.833Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5cf78465c3e78fce345c2a23",
-      "strength": 3,
       "attackSets": [
         [
           {
             "damage": {
               "min": 3,
-              "max": 7
+              "max": 6
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 3,
+      "maxActionPoints": 2,
+      "armor": 0,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 5,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
-      "_id": "5cf78c94c3e78f33505c2a76",
-      "name": "Crazed Hoodlum",
-      "strength": 5,
-      "charisma": 1,
-      "resilience": 4,
-      "perception": 1,
-      "agility": 2,
-      "level": 9,
-      "armor": 5,
-      "experience": 25,
-      "_created": "2019-06-05T09:34:12.549Z",
-      "_updated": "2019-06-10T16:47:14.874Z",
-      "bargain": [],
+      "_id": "5cf71702c3e78f3dd85c15fa",
+      "template": "6719eece574fa4dd98185311",
+      "name": "Knight Swordsman",
+      "_alias": "Knight B",
+      "loot": "5ced4754c3e78fe0b15beaad",
+      "experience": 40,
+      "_created": "2019-06-05T01:12:34.273Z",
+      "_updated": "2024-10-24T06:53:41.849Z",
       "__v": 0,
-      "loot": "5cf78ea4c3e78fd97c5c2a85",
+      "__t": "template"
+    },
+    {
+      "_id": "5cf77e92c3e78f5d395c2a1d",
+      "_created": "2019-06-05T08:34:26.984Z",
+      "_updated": "2024-09-09T16:24:31.963Z",
+      "name": "Knife Thug",
+      "_alias": null,
+      "portrait": "66df204d15ccc12663435c93",
+      "level": 10,
+      "strength": 3,
+      "charisma": 2,
+      "resilience": 4,
+      "agility": 3,
+      "perception": 2,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 2,
-              "max": 16
+              "min": 4,
+              "max": 11
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 5,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 25,
+      "loot": "5cf78465c3e78fce345c2a23",
+      "bargain": [],
+      "__v": 0,
+      "__t": "npc"
+    },
+    {
+      "_id": "5cf78c94c3e78f33505c2a76",
+      "_created": "2019-06-05T09:34:12.549Z",
+      "_updated": "2024-10-24T06:54:44.068Z",
+      "name": "Crazed Hoodlum",
+      "_alias": null,
+      "portrait": "66df1fde15ccc12663435c52",
+      "level": 9,
+      "strength": 5,
+      "charisma": 1,
+      "resilience": 4,
+      "agility": 2,
+      "perception": 1,
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 8,
+              "max": 16
+            },
+            "ranged": false,
+            "combatActions": [
+              "cut"
+            ],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
+      "combatActions": [],
+      "maxActionPoints": 3,
+      "armor": 5,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 25,
+      "loot": "5cf78ea4c3e78fd97c5c2a85",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5cf78f7dc3e78f44a35c2a93",
+      "_created": "2019-06-05T09:46:37.735Z",
+      "_updated": "2024-09-09T16:23:17.144Z",
       "name": "Ruthless Knife Thug",
+      "_alias": null,
+      "portrait": "66df207e15ccc12663435c98",
       "level": 12,
-      "experience": 25,
       "strength": 6,
       "charisma": 1,
       "resilience": 5,
-      "perception": 2,
-      "armor": 8,
-      "loot": "5cf78465c3e78fce345c2a23",
-      "_created": "2019-06-05T09:46:37.735Z",
-      "_updated": "2019-06-10T20:40:29.047Z",
-      "bargain": [],
-      "__v": 0,
       "agility": 2,
+      "perception": 2,
       "attackSets": [
         [
           {
             "damage": {
               "min": 1,
-              "max": 10
+              "max": 15
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 8,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 25,
+      "loot": "5cf78465c3e78fce345c2a23",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -1327,7 +1397,7 @@
           {
             "damage": {
               "min": 1,
-              "max": 12
+              "max": 18
             },
             "combatActions": [],
             "ranged": false,
@@ -1360,8 +1430,8 @@
         [
           {
             "damage": {
-              "min": 5,
-              "max": 15
+              "min": 7,
+              "max": 23
             },
             "combatActions": [],
             "ranged": false,
@@ -1404,8 +1474,8 @@
         [
           {
             "damage": {
-              "min": 2,
-              "max": 3
+              "min": 3,
+              "max": 5
             },
             "combatActions": [],
             "ranged": false,
@@ -1448,8 +1518,8 @@
         [
           {
             "damage": {
-              "min": 6,
-              "max": 12
+              "min": 9,
+              "max": 18
             },
             "combatActions": [],
             "ranged": false,
@@ -1464,36 +1534,39 @@
     },
     {
       "_id": "5d16e49cebd3dc1e1154ccc8",
+      "_created": "2019-06-29T04:10:04.836Z",
+      "_updated": "2024-09-09T16:19:32.724Z",
       "name": "Pale Knife Thug",
+      "_alias": null,
+      "portrait": "66df1fde15ccc12663435c52",
       "level": 8,
       "strength": 2,
       "charisma": 1,
       "resilience": 2,
       "agility": 3,
       "perception": 4,
-      "armor": 2,
-      "experience": 30,
-      "loot": "5cf78465c3e78fce345c2a23",
-      "_created": "2019-06-29T04:10:04.836Z",
-      "_updated": "2019-06-29T04:10:04.836Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
               "min": 1,
-              "max": 16
+              "max": 24
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 2,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "loot": "5cf78465c3e78fce345c2a23",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -1513,8 +1586,8 @@
         [
           {
             "damage": {
-              "min": 8,
-              "max": 14
+              "min": 12,
+              "max": 21
             },
             "ranged": false,
             "combatActions": [
@@ -1539,103 +1612,123 @@
     },
     {
       "_id": "5d172b4eebd3dcd5be54cf5a",
+      "_created": "2019-06-29T09:11:42.266Z",
+      "_updated": "2024-10-14T18:59:32.765Z",
       "name": "Wounded Bandit",
+      "_alias": null,
+      "portrait": "66df20bf15ccc12663435cc0",
       "level": 7,
       "strength": 3,
       "charisma": 1,
       "resilience": 2,
       "agility": 3,
       "perception": 2,
-      "armor": 2,
-      "experience": 30,
-      "loot": "5cf78465c3e78fce345c2a23",
-      "_created": "2019-06-29T09:11:42.266Z",
-      "_updated": "2019-06-29T11:05:36.657Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 3,
-              "max": 12
+              "min": 4,
+              "max": 18
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 2,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "loot": "5cf78465c3e78fce345c2a23",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5d172d9cebd3dc594d54cf6d",
+      "_created": "2019-06-29T09:21:32.711Z",
+      "_updated": "2024-09-09T16:23:00.693Z",
       "name": "Vicious Knife Thug",
+      "_alias": null,
+      "portrait": "66df1fde15ccc12663435c52",
       "level": 8,
       "strength": 2,
       "charisma": 1,
       "resilience": 2,
       "agility": 5,
       "perception": 2,
-      "armor": 2,
-      "experience": 30,
-      "_created": "2019-06-29T09:21:32.711Z",
-      "_updated": "2019-06-29T11:05:22.284Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5cf78465c3e78fce345c2a23",
       "attackSets": [
         [
           {
             "damage": {
-              "min": 3,
-              "max": 14
+              "min": 4,
+              "max": 21
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 2,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "loot": "5cf78465c3e78fce345c2a23",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5d1f3b955892bb3555eabb56",
+      "_created": "2019-07-05T11:59:17.712Z",
+      "_updated": "2024-10-23T08:43:53.452Z",
       "name": "Nomad Sentry",
+      "_alias": null,
+      "portrait": "6718b693574fa4dd9817d484",
       "level": 8,
-      "charisma": 1,
       "strength": 2,
+      "charisma": 1,
       "resilience": 3,
       "agility": 3,
       "perception": 3,
-      "armor": 3,
-      "_created": "2019-07-05T11:59:17.712Z",
-      "_updated": "2019-07-05T11:59:43.996Z",
-      "bargain": [],
-      "__v": 0,
-      "experience": 30,
+      "innateStatModifiers": [
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 1,
-              "max": 10
+              "min": 5,
+              "max": 15
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "jab"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
-      "combatActions": [],
+      "combatActions": [
+        "trip"
+      ],
       "maxActionPoints": 2,
+      "armor": 6,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -1668,8 +1761,8 @@
         [
           {
             "damage": {
-              "min": 5,
-              "max": 7
+              "min": 7,
+              "max": 11
             },
             "combatActions": [],
             "ranged": false,
@@ -1702,7 +1795,7 @@
           {
             "damage": {
               "min": 1,
-              "max": 12
+              "max": 18
             },
             "combatActions": [],
             "ranged": false,
@@ -1718,7 +1811,7 @@
     {
       "_id": "5d4439d38335b4bdac884b3c",
       "_created": "2019-08-02T13:25:39.019Z",
-      "_updated": "2024-09-05T12:12:02.211Z",
+      "_updated": "2024-10-16T10:34:29.604Z",
       "name": "Bandit War Lord",
       "_alias": null,
       "portrait": "66d99ff815ccc12663432f40",
@@ -1733,8 +1826,8 @@
         [
           {
             "damage": {
-              "min": 4,
-              "max": 18
+              "min": 6,
+              "max": 27
             },
             "ranged": false,
             "combatActions": [],
@@ -1743,7 +1836,7 @@
         ]
       ],
       "combatActions": [],
-      "maxActionPoints": 4,
+      "maxActionPoints": 3,
       "armor": 5,
       "blockChance": 0.3,
       "behavior": "fighter",
@@ -1755,136 +1848,80 @@
       "__t": "npc"
     },
     {
-      "_id": "5d4445638335b45397884b69",
-      "name": "Soldier",
-      "level": 7,
-      "strength": 4,
-      "charisma": 1,
-      "resilience": 3,
-      "agility": 2,
-      "perception": 1,
-      "armor": 12,
-      "experience": 25,
-      "_created": "2019-08-02T14:14:59.335Z",
-      "_updated": "2019-08-02T14:14:59.335Z",
-      "bargain": [],
-      "__v": 0,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 1,
-              "max": 17
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 2,
-      "__t": "npc"
-    },
-    {
       "_id": "5d4445b78335b4aaaf884b6a",
+      "_created": "2019-08-02T14:16:23.278Z",
+      "_updated": "2024-10-24T08:44:50.344Z",
       "name": "Field Commander",
-      "level": 9,
-      "charisma": 3,
+      "_alias": null,
+      "portrait": "66f11b04cce7d0d2ca639d4e",
+      "level": 12,
       "strength": 6,
-      "resilience": 2,
+      "charisma": 3,
+      "resilience": 5,
       "agility": 1,
       "perception": 1,
-      "armor": 14,
-      "experience": 30,
-      "_created": "2019-08-02T14:16:23.278Z",
-      "_updated": "2019-08-02T14:16:23.278Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 1,
-              "max": 18
+              "min": 15,
+              "max": 27
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "thrust"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
-      "combatActions": [],
+      "combatActions": [
+        "glide"
+      ],
       "maxActionPoints": 3,
-      "__t": "npc"
-    },
-    {
-      "_id": "5d44462d8335b40ff6884b6b",
-      "name": "Injured Soldier",
-      "level": 7,
-      "strength": 3,
-      "resilience": 1,
-      "charisma": 1,
-      "agility": 3,
-      "perception": 2,
-      "armor": 11,
-      "experience": 20,
-      "_created": "2019-08-02T14:18:21.934Z",
-      "_updated": "2019-08-02T14:18:21.934Z",
+      "armor": 18,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
       "bargain": [],
       "__v": 0,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 2,
-              "max": 10
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
       "_id": "5d4ad8538335b417a4884edb",
+      "_created": "2019-08-07T13:55:31.797Z",
+      "_updated": "2024-10-15T09:56:19.943Z",
       "name": "Injured Bandit",
+      "_alias": null,
+      "portrait": "66df207e15ccc12663435c98",
       "level": 5,
       "strength": 1,
       "charisma": 1,
       "resilience": 1,
       "agility": 5,
       "perception": 1,
-      "armor": 2,
-      "experience": 15,
-      "_created": "2019-08-07T13:55:31.797Z",
-      "_updated": "2019-08-07T13:58:15.249Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5d4ad8e38335b460ee884edc",
       "attackSets": [
         [
           {
             "damage": {
               "min": 1,
-              "max": 8
+              "max": 12
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 2,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 15,
+      "loot": "5d4ad8e38335b460ee884edc",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -1906,8 +1943,8 @@
         [
           {
             "damage": {
-              "min": 3,
-              "max": 6
+              "min": 4,
+              "max": 9
             },
             "combatActions": [],
             "ranged": false,
@@ -1940,8 +1977,8 @@
         [
           {
             "damage": {
-              "min": 6,
-              "max": 17
+              "min": 9,
+              "max": 26
             },
             "combatActions": [],
             "ranged": false,
@@ -2021,7 +2058,7 @@
           {
             "damage": {
               "min": 1,
-              "max": 4
+              "max": 6
             },
             "combatActions": [],
             "ranged": false,
@@ -2085,8 +2122,8 @@
         [
           {
             "damage": {
-              "min": 7,
-              "max": 10
+              "min": 10,
+              "max": 15
             },
             "combatActions": [],
             "ranged": false,
@@ -2129,8 +2166,8 @@
         [
           {
             "damage": {
-              "min": 4,
-              "max": 6
+              "min": 6,
+              "max": 9
             },
             "combatActions": [],
             "ranged": false,
@@ -2189,8 +2226,8 @@
         [
           {
             "damage": {
-              "min": 2,
-              "max": 4
+              "min": 3,
+              "max": 6
             },
             "combatActions": [],
             "ranged": false,
@@ -2242,7 +2279,7 @@
           {
             "damage": {
               "min": 1,
-              "max": 5
+              "max": 8
             },
             "combatActions": [],
             "ranged": false,
@@ -2257,190 +2294,91 @@
     },
     {
       "_id": "5d559b6d8335b45e6b885325",
+      "_created": "2019-08-15T17:50:37.821Z",
+      "_updated": "2024-09-09T19:37:31.593Z",
       "name": "Lone Fisherman",
+      "_alias": null,
+      "portrait": "66df4e6415ccc12663436190",
       "level": 4,
       "strength": 2,
       "charisma": 1,
       "resilience": 2,
       "agility": 2,
       "perception": 1,
-      "armor": 1,
-      "experience": 5,
-      "_created": "2019-08-15T17:50:37.821Z",
-      "_updated": "2019-08-15T17:56:52.373Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5d559cd48335b4d30e885328",
       "attackSets": [
         [
           {
             "damage": {
-              "min": 4,
-              "max": 6
+              "min": 6,
+              "max": 9
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 5,
+      "loot": "5d559cd48335b4d30e885328",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5d5f754d8335b479c78854df",
+      "_created": "2019-08-23T05:10:37.405Z",
+      "_updated": "2024-09-10T14:31:38.118Z",
       "name": "Concubine",
+      "_alias": null,
+      "portrait": "66df6fc515ccc126634372bf",
       "level": 8,
       "strength": 1,
       "charisma": 3,
       "resilience": 1,
       "agility": 4,
       "perception": 3,
-      "armor": 1,
-      "experience": 25,
-      "_created": "2019-08-23T05:10:37.405Z",
-      "_updated": "2019-09-04T13:10:17.961Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5d4ad8e38335b460ee884edc",
       "attackSets": [
         [
           {
             "damage": {
               "min": 1,
-              "max": 9
+              "max": 14
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 25,
+      "loot": "5d4ad8e38335b460ee884edc",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5d5f77c48335b4b6808854e0",
+      "_created": "2019-08-23T05:21:08.318Z",
+      "_updated": "2024-09-09T16:23:33.378Z",
       "name": "One-eyed Knife Thug",
+      "_alias": null,
+      "portrait": "66df204d15ccc12663435c93",
       "level": 6,
       "strength": 2,
       "charisma": 1,
       "resilience": 2,
       "agility": 4,
       "perception": 1,
-      "armor": 1,
-      "experience": 20,
-      "_created": "2019-08-23T05:21:08.318Z",
-      "_updated": "2019-09-04T13:07:32.711Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5d4ad8e38335b460ee884edc",
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 1,
-              "max": 10
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 2,
-      "__t": "npc"
-    },
-    {
-      "_id": "5d5f78178335b445818854e1",
-      "name": "Merciless Knife Thug",
-      "level": 9,
-      "strength": 2,
-      "charisma": 1,
-      "resilience": 3,
-      "agility": 4,
-      "perception": 3,
-      "armor": 1,
-      "experience": 20,
-      "_created": "2019-08-23T05:22:31.543Z",
-      "_updated": "2020-03-18T16:53:21.282Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5d4ad8e38335b460ee884edc",
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "max": 12,
-              "min": 6
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 3,
-      "__t": "npc"
-    },
-    {
-      "_id": "5d5f78618335b477ab8854e2",
-      "name": "Swift Knife Thug",
-      "level": 10,
-      "strength": 1,
-      "charisma": 2,
-      "resilience": 1,
-      "agility": 8,
-      "perception": 2,
-      "armor": 1,
-      "experience": 20,
-      "_created": "2019-08-23T05:23:45.433Z",
-      "_updated": "2020-03-18T16:54:04.732Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5d4ad8e38335b460ee884edc",
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 3,
-              "max": 9
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 3,
-      "__t": "npc"
-    },
-    {
-      "_id": "5d5f78b48335b42b558854e3",
-      "name": "Brutish Knife Thug",
-      "level": 9,
-      "strength": 4,
-      "charisma": 1,
-      "resilience": 5,
-      "agility": 1,
-      "perception": 2,
-      "armor": 4,
-      "experience": 20,
-      "_created": "2019-08-23T05:25:08.446Z",
-      "_updated": "2019-09-04T13:08:51.988Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5d4ad8e38335b460ee884edc",
       "attackSets": [
         [
           {
@@ -2448,49 +2386,169 @@
               "min": 1,
               "max": 15
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
+      "combatActions": [],
+      "maxActionPoints": 2,
+      "armor": 1,
       "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "loot": "5d4ad8e38335b460ee884edc",
+      "bargain": [],
+      "__v": 0,
+      "__t": "npc"
+    },
+    {
+      "_id": "5d5f78178335b445818854e1",
+      "_created": "2019-08-23T05:22:31.543Z",
+      "_updated": "2024-09-09T16:21:31.749Z",
+      "name": "Merciless Knife Thug",
+      "_alias": null,
+      "portrait": "66df204d15ccc12663435c93",
+      "level": 9,
+      "strength": 2,
+      "charisma": 1,
+      "resilience": 3,
+      "agility": 4,
+      "perception": 3,
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 9,
+              "max": 18
+            },
+            "ranged": false,
+            "combatActions": [],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "loot": "5d4ad8e38335b460ee884edc",
+      "bargain": [],
+      "__v": 0,
+      "__t": "npc"
+    },
+    {
+      "_id": "5d5f78618335b477ab8854e2",
+      "_created": "2019-08-23T05:23:45.433Z",
+      "_updated": "2024-09-09T16:19:08.655Z",
+      "name": "Swift Knife Thug",
+      "_alias": null,
+      "portrait": "66df1fde15ccc12663435c52",
+      "level": 10,
+      "strength": 1,
+      "charisma": 2,
+      "resilience": 1,
+      "agility": 8,
+      "perception": 2,
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 4,
+              "max": 14
+            },
+            "ranged": false,
+            "combatActions": [],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
+      "combatActions": [],
+      "maxActionPoints": 3,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "loot": "5d4ad8e38335b460ee884edc",
+      "bargain": [],
+      "__v": 0,
+      "__t": "npc"
+    },
+    {
+      "_id": "5d5f78b48335b42b558854e3",
+      "_created": "2019-08-23T05:25:08.446Z",
+      "_updated": "2024-09-09T21:17:01.590Z",
+      "name": "Brutish Knife Thug",
+      "_alias": null,
+      "portrait": "66df207e15ccc12663435c98",
+      "level": 9,
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 5,
+      "agility": 1,
+      "perception": 2,
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 1,
+              "max": 23
+            },
+            "ranged": false,
+            "combatActions": [],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
+      "combatActions": [],
+      "maxActionPoints": 3,
+      "armor": 4,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "loot": "5d4ad8e38335b460ee884edc",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5d5f79268335b45b588854e4",
+      "_created": "2019-08-23T05:27:02.311Z",
+      "_updated": "2024-09-09T21:16:26.799Z",
       "name": "Scarred Knife Thug",
+      "_alias": null,
+      "portrait": "66df204d15ccc12663435c93",
       "level": 10,
       "strength": 3,
       "charisma": 1,
       "resilience": 3,
       "agility": 3,
       "perception": 4,
-      "armor": 4,
-      "experience": 20,
-      "_created": "2019-08-23T05:27:02.311Z",
-      "_updated": "2019-09-04T13:07:50.006Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5d4ad8e38335b460ee884edc",
       "attackSets": [
         [
           {
             "damage": {
               "min": 1,
-              "max": 13
+              "max": 20
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 4,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "loot": "5d4ad8e38335b460ee884edc",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -2539,8 +2597,8 @@
         [
           {
             "damage": {
-              "min": 4,
-              "max": 9
+              "min": 6,
+              "max": 14
             },
             "combatActions": [],
             "ranged": false,
@@ -2595,8 +2653,8 @@
         [
           {
             "damage": {
-              "min": 3,
-              "max": 6
+              "min": 4,
+              "max": 9
             },
             "combatActions": [],
             "ranged": false,
@@ -2611,35 +2669,38 @@
     },
     {
       "_id": "5d9bb921ba4a3f516d31183d",
+      "_created": "2019-10-07T22:16:01.719Z",
+      "_updated": "2024-10-10T11:45:30.598Z",
       "name": "Stingray",
+      "_alias": null,
+      "portrait": "6707be43ff61df952dfcb3e4",
       "level": 1,
       "strength": 1,
       "charisma": 1,
       "resilience": 1,
       "agility": 1,
       "perception": 1,
-      "armor": 0,
-      "experience": 50,
-      "_created": "2019-10-07T22:16:01.719Z",
-      "_updated": "2020-03-05T13:52:44.234Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 5,
-              "max": 5
+              "min": 7,
+              "max": 8
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 1,
+      "armor": 0,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 50,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -2661,8 +2722,8 @@
         [
           {
             "damage": {
-              "min": 9,
-              "max": 15
+              "min": 13,
+              "max": 23
             },
             "combatActions": [],
             "ranged": false,
@@ -2677,70 +2738,64 @@
     },
     {
       "_id": "5da38924356ecd64df701b0e",
+      "_created": "2019-10-13T20:29:24.801Z",
+      "_updated": "2024-10-10T15:05:10.697Z",
       "name": "Father",
+      "_alias": null,
+      "portrait": "67079ee1ff61df952dfc9c05",
       "level": 5,
       "strength": 2,
       "charisma": 3,
       "resilience": 2,
       "agility": 1,
       "perception": 1,
-      "armor": 1,
+      "healthOverride": 1,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 0.2
+        }
+      ],
+      "combatActions": [],
+      "maxActionPoints": 1,
+      "armor": 0,
+      "behavior": "fighter",
+      "baseImmunities": [],
       "experience": 0,
-      "_created": "2019-10-13T20:29:24.801Z",
-      "_updated": "2020-03-06T22:34:50.439Z",
       "bargain": [],
       "__v": 0,
-      "healthOverride": 1,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 1,
-              "max": 1
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
       "_id": "5da38954356ecd81ea701b0f",
+      "_created": "2019-10-13T20:30:12.841Z",
+      "_updated": "2024-10-10T15:05:00.713Z",
       "name": "Mother",
+      "_alias": null,
+      "portrait": "67079f84ff61df952dfc9ce4",
       "level": 6,
       "strength": 1,
       "charisma": 3,
       "resilience": 1,
       "agility": 1,
       "perception": 4,
-      "armor": 1,
+      "healthOverride": 1,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 0.2
+        }
+      ],
+      "combatActions": [],
+      "maxActionPoints": 1,
+      "armor": 0,
+      "behavior": "glassCannon",
+      "baseImmunities": [],
       "experience": 0,
-      "_created": "2019-10-13T20:30:12.841Z",
-      "_updated": "2020-03-06T22:34:37.681Z",
       "bargain": [],
       "__v": 0,
-      "healthOverride": 1,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 1,
-              "max": 1
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 2,
       "__t": "npc"
     },
     {
@@ -2781,8 +2836,8 @@
         [
           {
             "damage": {
-              "min": 6,
-              "max": 15
+              "min": 9,
+              "max": 23
             },
             "combatActions": [],
             "ranged": false,
@@ -2815,7 +2870,7 @@
           {
             "damage": {
               "min": 1,
-              "max": 12
+              "max": 18
             },
             "combatActions": [],
             "ranged": false,
@@ -2829,354 +2884,426 @@
       "__t": "npc"
     },
     {
-      "_id": "5da6d064ff2c1927bbdb282c",
-      "name": "Druid Ranger",
-      "level": 10,
-      "strength": 3,
-      "charisma": 2,
-      "resilience": 3,
-      "agility": 3,
-      "perception": 3,
-      "armor": 12,
-      "experience": 25,
-      "_created": "2019-10-16T08:10:12.028Z",
-      "_updated": "2019-10-16T08:10:12.028Z",
-      "bargain": [],
-      "__v": 0,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 8,
-              "max": 12
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 3,
-      "__t": "npc"
-    },
-    {
       "_id": "5db1dbe4ff2c195773db2f99",
+      "_created": "2019-10-24T17:14:12.730Z",
+      "_updated": "2024-09-09T16:22:39.391Z",
       "name": "Cowled Knife Thug",
+      "_alias": null,
+      "portrait": "66df20bf15ccc12663435cc0",
       "level": 10,
       "strength": 4,
       "charisma": 1,
       "resilience": 2,
       "agility": 4,
       "perception": 3,
-      "armor": 10,
-      "experience": 20,
-      "_created": "2019-10-24T17:14:12.730Z",
-      "_updated": "2019-11-01T15:50:31.848Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 6,
-              "max": 12
+              "min": 9,
+              "max": 18
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 10,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5db200d7ff2c198d52db33ec",
+      "_created": "2019-10-24T19:51:51.230Z",
+      "_updated": "2024-09-09T16:17:58.506Z",
       "name": "Rogue Archer",
+      "_alias": null,
+      "portrait": "66df1fa415ccc12663435b99",
       "level": 9,
       "strength": 3,
       "charisma": 1,
       "resilience": 2,
       "agility": 3,
       "perception": 4,
-      "experience": 20,
-      "_created": "2019-10-24T19:51:51.230Z",
-      "_updated": "2022-04-15T16:15:17.781Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5d4ad8e38335b460ee884edc",
-      "armor": 7,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 7,
-              "max": 12
+              "min": 10,
+              "max": 18
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 7,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "loot": "5d4ad8e38335b460ee884edc",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5db25d2bff2c198951db4d86",
+      "_created": "2019-10-25T02:25:47.309Z",
+      "_updated": "2024-10-21T18:49:39.678Z",
       "name": "Lawless Colossus",
+      "_alias": null,
+      "portrait": "6716a225574fa4dd9817241f",
       "level": 14,
       "strength": 8,
       "charisma": 1,
       "resilience": 7,
       "agility": 1,
       "perception": 1,
-      "armor": 20,
-      "experience": 30,
-      "_created": "2019-10-25T02:25:47.309Z",
-      "_updated": "2020-03-18T18:31:13.881Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5d4ad8e38335b460ee884edc",
-      "healthOverride": 130,
+      "innateStatModifiers": [
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 0.7
+        },
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.5
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 18,
-              "max": 30
+              "min": 27,
+              "max": 45
             },
+            "ranged": false,
             "combatActions": [
               "slam"
             ],
-            "ranged": false,
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 4,
+      "maxActionPoints": 3,
+      "armor": 20,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "loot": "5d4ad8e38335b460ee884edc",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5dba3f56ff2c19053ddb6090",
+      "_created": "2019-10-31T01:56:38.304Z",
+      "_updated": "2024-10-16T13:50:52.926Z",
       "name": "Cartel Bodyguard",
-      "strength": 4,
+      "_alias": null,
+      "portrait": "66df21a215ccc12663435e07",
       "level": 10,
+      "strength": 4,
       "charisma": 1,
       "resilience": 3,
       "agility": 3,
       "perception": 3,
-      "armor": 8,
-      "experience": 20,
-      "_created": "2019-10-31T01:56:38.304Z",
-      "_updated": "2020-03-05T15:43:55.211Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 5,
-              "max": 15
+              "min": 7,
+              "max": 23
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 8,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5dba3ffcff2c19e5f4db609f",
+      "_created": "2019-10-31T01:59:24.909Z",
+      "_updated": "2024-10-21T10:04:16.235Z",
       "name": "Mantis",
+      "_alias": null,
+      "portrait": "6707c373ff61df952dfcb77a",
       "level": 25,
       "strength": 4,
       "charisma": 9,
       "resilience": 2,
       "agility": 9,
       "perception": 5,
-      "armor": 4,
-      "experience": 0,
-      "_created": "2019-10-31T01:59:24.909Z",
-      "_updated": "2020-11-09T21:08:05.870Z",
-      "bargain": [],
-      "__v": 0,
-      "healthOverride": 230,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 12,
-              "max": 16
+              "min": 15,
+              "max": 23
             },
+            "ranged": false,
             "combatActions": [
               "cut"
             ],
-            "ranged": false,
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [
         "parry"
       ],
       "maxActionPoints": 4,
+      "armor": 8,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 0,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5dba412cff2c1966abdb60bd",
+      "_created": "2019-10-31T02:04:28.914Z",
+      "_updated": "2024-10-16T13:50:37.295Z",
       "name": "Cartel Bodyguard",
+      "_alias": null,
+      "portrait": "66df21a115ccc12663435e05",
       "level": 10,
       "strength": 3,
       "charisma": 1,
       "resilience": 3,
       "agility": 3,
       "perception": 4,
-      "armor": 4,
-      "experience": 20,
-      "_created": "2019-10-31T02:04:28.914Z",
-      "_updated": "2020-03-05T15:43:22.365Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 6,
-              "max": 14
+              "min": 9,
+              "max": 21
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 4,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5dbb1b8eff2c19059bdb68a8",
+      "_created": "2019-10-31T17:36:14.460Z",
+      "_updated": "2024-10-26T07:05:47.095Z",
       "name": "Drunken Smuggler",
-      "level": 8,
-      "strength": 2,
+      "_alias": null,
+      "portrait": "671c94ad574fa4dd981a33f5",
+      "level": 10,
+      "strength": 3,
       "charisma": 4,
-      "resilience": 2,
+      "resilience": 3,
       "agility": 2,
       "perception": 2,
-      "armor": 6,
-      "experience": 20,
-      "_created": "2019-10-31T17:36:14.460Z",
-      "_updated": "2019-10-31T22:43:04.847Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5d4ad8e38335b460ee884edc",
+      "innateStatModifiers": [
+        {
+          "statName": "hitMeleeChance",
+          "type": "factor",
+          "value": 0.7
+        },
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.25
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 6,
-              "max": 12
+              "min": 9,
+              "max": 18
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "pummel"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 2,
+      "maxActionPoints": 3,
+      "armor": 6,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "loot": "5d4ad8e38335b460ee884edc",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5dbb6448ff2c195241db6ec4",
-      "name": "The Ironclad Vagrant",
-      "level": 35,
-      "strength": 10,
-      "charisma": 5,
-      "resilience": 10,
-      "agility": 6,
-      "perception": 8,
-      "armor": 60,
-      "experience": 500,
       "_created": "2019-10-31T22:46:32.492Z",
-      "_updated": "2019-10-31T22:46:32.492Z",
-      "bargain": [],
-      "__v": 0,
+      "_updated": "2024-10-24T07:22:15.736Z",
+      "name": "The Ironclad Vagrant",
+      "_alias": null,
+      "portrait": "670d2c53b3d10b553f201118",
+      "level": 35,
+      "strength": 12,
+      "charisma": 6,
+      "resilience": 11,
+      "agility": 4,
+      "perception": 4,
+      "innateStatModifiers": [
+        {
+          "statName": "evadeMeleeChance",
+          "type": "factor",
+          "value": 0.1
+        },
+        {
+          "statName": "evadeRangedChance",
+          "type": "factor",
+          "value": 0.1
+        },
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 0.6
+        },
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 4
+        },
+        {
+          "statName": "initiative",
+          "type": "term",
+          "value": -1
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 20,
-              "max": 30
+              "min": 30,
+              "max": 45
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 4,
+      "armor": 60,
+      "behavior": "unstoppable",
+      "baseImmunities": [
+        "bleeding"
+      ],
+      "experience": 500,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5dc3ba67f75a97bb97596d92",
+      "_created": "2019-11-07T06:32:07.279Z",
+      "_updated": "2024-10-26T07:02:26.805Z",
       "name": "Cartel Assassin",
+      "_alias": null,
+      "portrait": "671c93b3574fa4dd981a3114",
       "level": 12,
       "strength": 3,
       "charisma": 2,
       "resilience": 2,
       "agility": 5,
       "perception": 4,
-      "armor": 8,
-      "experience": 30,
-      "_created": "2019-11-07T06:32:07.279Z",
-      "_updated": "2019-11-21T00:26:58.570Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5dd5d9b9f75a97e2b659e245",
+      "innateStatModifiers": [
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 1.2
+        },
+        {
+          "statName": "evadeMeleeChance",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 7,
-              "max": 12
+              "min": 10,
+              "max": 14
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "hamstring"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 8,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "loot": "5dd5d9b9f75a97e2b659e245",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5dcec3ccf75a97bb545982b3",
       "_created": "2019-11-15T15:27:08.249Z",
-      "_updated": "2024-09-04T09:24:35.273Z",
+      "_updated": "2024-10-16T07:58:03.935Z",
       "name": "Foreign Soldier",
-      "_alias": null,
-      "portrait": "66d8272c15ccc12663427e79",
+      "_alias": "Foreign Soldier C",
+      "portrait": "670f71b4b3d10b553f217fae",
       "level": 13,
       "strength": 6,
       "charisma": 2,
@@ -3187,8 +3314,8 @@
         [
           {
             "damage": {
-              "min": 8,
-              "max": 17
+              "min": 12,
+              "max": 26
             },
             "ranged": false,
             "combatActions": [],
@@ -3211,9 +3338,9 @@
     {
       "_id": "5dd422f5f75a97ec4c598e33",
       "_created": "2019-11-19T17:14:29.493Z",
-      "_updated": "2024-09-04T09:24:50.034Z",
+      "_updated": "2024-10-16T07:57:20.595Z",
       "name": "Foreign Soldier",
-      "_alias": null,
+      "_alias": "Foreign Soldier A",
       "portrait": "66d8272c15ccc12663427e79",
       "level": 12,
       "strength": 4,
@@ -3225,8 +3352,8 @@
         [
           {
             "damage": {
-              "min": 10,
-              "max": 15
+              "min": 15,
+              "max": 23
             },
             "ranged": false,
             "combatActions": [],
@@ -3249,9 +3376,9 @@
     {
       "_id": "5dd425d9f75a977e73598f84",
       "_created": "2019-11-19T17:26:49.680Z",
-      "_updated": "2024-09-04T09:24:45.388Z",
+      "_updated": "2024-10-16T07:57:25.588Z",
       "name": "Foreign Soldier",
-      "_alias": null,
+      "_alias": "Foreign Soldier B",
       "portrait": "66d8272c15ccc12663427e79",
       "level": 13,
       "strength": 6,
@@ -3263,8 +3390,8 @@
         [
           {
             "damage": {
-              "min": 8,
-              "max": 17
+              "min": 12,
+              "max": 26
             },
             "ranged": false,
             "combatActions": [],
@@ -3302,8 +3429,8 @@
         [
           {
             "damage": {
-              "min": 12,
-              "max": 22
+              "min": 18,
+              "max": 33
             },
             "ranged": false,
             "combatActions": [],
@@ -3340,8 +3467,8 @@
         [
           {
             "damage": {
-              "min": 8,
-              "max": 12
+              "min": 12,
+              "max": 18
             },
             "ranged": false,
             "combatActions": [],
@@ -3379,8 +3506,8 @@
         [
           {
             "damage": {
-              "min": 2,
-              "max": 4
+              "min": 3,
+              "max": 6
             },
             "combatActions": [],
             "ranged": false,
@@ -3435,8 +3562,8 @@
         [
           {
             "damage": {
-              "min": 3,
-              "max": 4
+              "min": 4,
+              "max": 6
             },
             "combatActions": [],
             "ranged": false,
@@ -3507,8 +3634,8 @@
         [
           {
             "damage": {
-              "min": 5,
-              "max": 13
+              "min": 7,
+              "max": 20
             },
             "combatActions": [],
             "ranged": false,
@@ -3541,7 +3668,7 @@
           {
             "damage": {
               "min": 1,
-              "max": 5
+              "max": 8
             },
             "combatActions": [],
             "ranged": false,
@@ -3617,7 +3744,7 @@
           {
             "damage": {
               "min": 1,
-              "max": 4
+              "max": 6
             },
             "combatActions": [],
             "ranged": false,
@@ -3632,799 +3759,1009 @@
     },
     {
       "_id": "5def21c2f75a9766e059fc2e",
+      "_created": "2019-12-10T04:40:34.437Z",
+      "_updated": "2024-10-21T19:57:44.907Z",
       "name": "Madam Brimstone",
+      "_alias": null,
+      "portrait": "6716b1d7574fa4dd9817264a",
       "level": 8,
       "strength": 1,
       "charisma": 5,
       "resilience": 1,
       "agility": 3,
       "perception": 2,
-      "armor": 2,
-      "experience": 10,
-      "_created": "2019-12-10T04:40:34.437Z",
-      "_updated": "2019-12-10T05:15:10.275Z",
-      "bargain": [
-        {
-          "_id": "5def29def75a972b4559fc53",
-          "items": [
-            {
-              "_id": "5def29def75a97329559fc54",
-              "item": "5def297ff75a97ff0359fc51"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 5,
-              "max": 8
+              "min": 7,
+              "max": 12
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 2,
+      "maxActionPoints": 1,
+      "armor": 0,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 10,
+      "bargain": [
+        {
+          "conditions": [],
+          "items": [
+            {
+              "item": "5def297ff75a97ff0359fc51",
+              "_id": "5def29def75a97329559fc54"
+            }
+          ],
+          "_id": "5def29def75a972b4559fc53"
+        }
+      ],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5def2231f75a9729ad59fc2f",
+      "_created": "2019-12-10T04:42:25.694Z",
+      "_updated": "2024-09-23T07:41:47.447Z",
       "name": "Brothel Guard",
+      "_alias": null,
+      "portrait": "66f11b03cce7d0d2ca639d4c",
       "level": 9,
       "strength": 4,
       "charisma": 1,
       "resilience": 3,
       "agility": 2,
       "perception": 3,
-      "armor": 3,
-      "experience": 15,
-      "_created": "2019-12-10T04:42:25.694Z",
-      "_updated": "2019-12-12T06:55:08.570Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5df1e43ff75a97fdd65a050d",
       "attackSets": [
         [
           {
             "damage": {
-              "min": 6,
-              "max": 12
+              "min": 9,
+              "max": 18
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 3,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 15,
+      "loot": "5df1e43ff75a97fdd65a050d",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5def227ff75a9722df59fc30",
+      "_created": "2019-12-10T04:43:43.956Z",
+      "_updated": "2024-09-09T22:02:07.520Z",
       "name": "Courtesan",
+      "_alias": null,
+      "portrait": "66df6fc515ccc126634372bf",
       "level": 8,
       "strength": 1,
       "charisma": 4,
       "resilience": 2,
       "agility": 4,
       "perception": 1,
-      "armor": 1,
-      "experience": 15,
-      "_created": "2019-12-10T04:43:43.956Z",
-      "_updated": "2019-12-12T21:44:08.392Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 5,
-              "max": 10
+              "min": 7,
+              "max": 15
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 0,
+      "behavior": "unstoppable",
+      "baseImmunities": [],
+      "experience": 15,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5df90f0cf75a9754ab5a104c",
+      "_created": "2019-12-17T17:23:24.026Z",
+      "_updated": "2024-10-25T08:07:33.840Z",
       "name": "Cleo Verdandi",
+      "_alias": "Cleo Verdandi",
+      "portrait": "66dffec015ccc12663437518",
       "level": 20,
       "strength": 4,
       "charisma": 4,
       "resilience": 2,
       "agility": 6,
       "perception": 8,
-      "armor": 6,
-      "experience": 50,
-      "_created": "2019-12-17T17:23:24.026Z",
-      "_updated": "2020-03-18T20:16:44.266Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5e3cde06e094785094338c0a",
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.25
+        },
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 1.3
+        },
+        {
+          "statName": "evadeMeleeChance",
+          "type": "factor",
+          "value": 1.15
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "max": 18,
-              "min": 1
+              "min": 13,
+              "max": 20
             },
+            "ranged": false,
             "combatActions": [
               "stab"
             ],
-            "ranged": false,
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 4,
+      "maxActionPoints": 3,
+      "armor": 8,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 50,
+      "loot": "5e3cde06e094785094338c0a",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5dfc0101f75a9742615a119d",
+      "_created": "2019-12-19T23:00:17.124Z",
+      "_updated": "2024-09-09T16:28:26.569Z",
       "name": "Cartel Thug",
+      "_alias": null,
+      "portrait": "66df21a115ccc12663435e05",
       "level": 9,
       "strength": 6,
       "charisma": 1,
       "resilience": 2,
       "agility": 2,
       "perception": 2,
-      "armor": 8,
-      "experience": 20,
-      "_created": "2019-12-19T23:00:17.124Z",
-      "_updated": "2019-12-19T23:00:17.124Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 6,
-              "max": 14
+              "min": 9,
+              "max": 21
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 8,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5dfc014ff75a975d6a5a119e",
+      "_created": "2019-12-19T23:01:35.450Z",
+      "_updated": "2024-09-09T16:29:36.936Z",
       "name": "Cartel Enforcer",
+      "_alias": null,
+      "portrait": "66df21a115ccc12663435e05",
       "level": 13,
       "strength": 5,
       "charisma": 1,
       "resilience": 4,
       "agility": 3,
       "perception": 4,
-      "armor": 12,
-      "experience": 25,
-      "_created": "2019-12-19T23:01:35.450Z",
-      "_updated": "2020-03-18T19:59:45.984Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 7,
-              "max": 18
+              "min": 10,
+              "max": 27
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 12,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 25,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5dfc01c5f75a97521a5a119f",
+      "_created": "2019-12-19T23:03:33.176Z",
+      "_updated": "2024-10-16T13:51:31.392Z",
       "name": "Cartel Hoodlum",
+      "_alias": null,
+      "portrait": "66df21a215ccc12663435e09",
       "level": 7,
       "strength": 3,
       "charisma": 1,
       "resilience": 1,
       "agility": 5,
       "perception": 1,
-      "armor": 8,
-      "experience": 20,
-      "_created": "2019-12-19T23:03:33.176Z",
-      "_updated": "2019-12-19T23:03:33.176Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 2,
-              "max": 10
+              "min": 3,
+              "max": 15
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 8,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5dfc40f6f75a97c3365a1506",
-      "level": 18,
+      "_created": "2019-12-20T03:33:10.950Z",
+      "_updated": "2024-10-21T09:52:08.267Z",
       "name": "Lucian Verdandi",
+      "_alias": null,
+      "portrait": "66dffec015ccc12663437516",
+      "level": 18,
       "strength": 9,
       "charisma": 1,
       "resilience": 9,
       "agility": 1,
       "perception": 2,
-      "armor": 12,
-      "experience": 50,
-      "_created": "2019-12-20T03:33:10.950Z",
-      "_updated": "2020-03-18T20:09:16.922Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5dfcb22af75a973b4f5a152a",
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.5
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "max": 35,
-              "min": 15
+              "min": 22,
+              "max": 53
             },
+            "ranged": false,
             "combatActions": [
               "cleave"
             ],
-            "ranged": false,
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 4,
+      "maxActionPoints": 3,
+      "armor": 12,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 50,
+      "loot": "5dfcb22af75a973b4f5a152a",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e1f078276343359275ace1a",
+      "_created": "2020-01-15T12:37:22.167Z",
+      "_updated": "2024-10-16T10:15:49.775Z",
       "name": "Cartel Guardian",
+      "_alias": null,
+      "portrait": "670f7081b3d10b553f217c3e",
       "level": 14,
       "strength": 7,
       "charisma": 1,
       "resilience": 5,
       "agility": 3,
       "perception": 2,
-      "armor": 15,
-      "experience": 30,
-      "_created": "2020-01-15T12:37:22.167Z",
-      "_updated": "2020-03-06T12:49:07.874Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5e1f32bd76343363b15ace63",
       "attackSets": [
         [
           {
             "damage": {
-              "max": 20,
-              "min": 6
+              "min": 9,
+              "max": 30
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
+      "combatActions": [
+        "sweep",
+        "parry"
+      ],
+      "maxActionPoints": 3,
+      "armor": 15,
       "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 4,
+      "baseImmunities": [],
+      "experience": 30,
+      "loot": "5e1f32bd76343363b15ace63",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e1f098c763433dfc55ace26",
+      "_created": "2020-01-15T12:46:04.175Z",
+      "_updated": "2024-10-16T11:36:13.443Z",
       "name": "Nomad Merchant",
+      "_alias": null,
       "level": 11,
       "strength": 2,
       "charisma": 6,
       "resilience": 2,
-      "perception": 3,
       "agility": 2,
-      "armor": 4,
-      "experience": 20,
-      "_created": "2020-01-15T12:46:04.175Z",
-      "_updated": "2020-03-05T06:03:50.433Z",
-      "bargain": [
-        {
-          "_id": "5e3b6a79e09478276333820c",
-          "items": [
-            {
-              "_id": "5e3b6a79e0947852dc33820d",
-              "item": "5c8e8003153140832b805840"
-            },
-            {
-              "_id": "5e5fdf80fe7d0d71916c5fd3",
-              "item": "5d12279340fcff8734fb7f70"
-            },
-            {
-              "_id": "5e5fdf80fe7d0d6ace6c5fd2",
-              "item": "5e3b6fa5e09478d094338212"
-            },
-            {
-              "_id": "5e5fdf80fe7d0db09d6c5fd1",
-              "item": "5e3b7255e094783013338219"
-            },
-            {
-              "_id": "5e5fdf80fe7d0d5c456c5fd0",
-              "item": "5e3b72ece09478cf58338222"
-            },
-            {
-              "_id": "5e609646fe7d0d37496c9a12",
-              "item": "5e6095c7fe7d0d74f46c9a10"
-            }
-          ],
-          "conditions": []
-        }
-      ],
-      "__v": 0,
+      "perception": 3,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 6,
-              "max": 13
+              "min": 9,
+              "max": 20
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 4,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 20,
+      "bargain": [
+        {
+          "conditions": [],
+          "items": [
+            {
+              "item": "5c8e8003153140832b805840",
+              "_id": "5e3b6a79e0947852dc33820d"
+            },
+            {
+              "item": "5d12279340fcff8734fb7f70",
+              "_id": "5e5fdf80fe7d0d71916c5fd3"
+            },
+            {
+              "item": "5e3b6fa5e09478d094338212",
+              "_id": "5e5fdf80fe7d0d6ace6c5fd2"
+            },
+            {
+              "item": "5e3b7255e094783013338219",
+              "_id": "5e5fdf80fe7d0db09d6c5fd1"
+            },
+            {
+              "item": "5e3b72ece09478cf58338222",
+              "_id": "5e5fdf80fe7d0d5c456c5fd0"
+            },
+            {
+              "item": "5e6095c7fe7d0d74f46c9a10",
+              "_id": "5e609646fe7d0d37496c9a12"
+            },
+            {
+              "item": "670fa417b3d10b553f21b208",
+              "_id": "670fa52db3d10b553f21b4c2"
+            }
+          ],
+          "_id": "5e3b6a79e09478276333820c"
+        }
+      ],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e2559123a36bf00cf3e42ac",
+      "_created": "2020-01-20T07:38:58.762Z",
+      "_updated": "2024-09-09T16:29:29.653Z",
       "name": "Cartel Sentry",
+      "_alias": null,
+      "portrait": "66df21a215ccc12663435e07",
       "level": 13,
       "strength": 5,
       "charisma": 1,
       "resilience": 3,
       "agility": 4,
       "perception": 4,
-      "armor": 12,
-      "experience": 30,
-      "_created": "2020-01-20T07:38:58.762Z",
-      "_updated": "2020-03-18T20:52:53.184Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5e26bfc13a36bf6a693e46e3",
       "attackSets": [
         [
           {
             "damage": {
-              "min": 6,
-              "max": 16
+              "min": 9,
+              "max": 24
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 12,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "loot": "5e26bfc13a36bf6a693e46e3",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e2700323a36bfa3ac3e4721",
+      "_created": "2020-01-21T13:44:18.760Z",
+      "_updated": "2024-10-24T20:14:30.580Z",
       "name": "Cartel Swordsman",
-      "level": 9,
+      "_alias": null,
+      "portrait": "66df21a115ccc12663435e05",
+      "level": 10,
       "strength": 3,
       "charisma": 2,
-      "resilience": 2,
+      "resilience": 3,
       "agility": 4,
       "perception": 2,
-      "armor": 8,
-      "experience": 30,
-      "_created": "2020-01-21T13:44:18.760Z",
-      "_updated": "2020-03-06T13:07:33.214Z",
-      "bargain": [],
-      "__v": 0,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 7,
-              "max": 16
+              "min": 10,
+              "max": 22
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 8,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e2700fc3a36bf3f6b3e4722",
-      "name": "Cartel Marauder",
-      "level": 9,
-      "strength": 4,
-      "charisma": 1,
-      "resilience": 2,
-      "agility": 5,
-      "perception": 1,
-      "armor": 12,
-      "experience": 30,
       "_created": "2020-01-21T13:47:40.113Z",
-      "_updated": "2020-03-06T13:08:16.652Z",
-      "bargain": [],
-      "__v": 0,
+      "_updated": "2024-10-24T20:24:19.909Z",
+      "name": "Cartel Marauder",
+      "_alias": null,
+      "portrait": "6717497a574fa4dd9817673c",
+      "level": 10,
+      "strength": 3,
+      "charisma": 2,
+      "resilience": 2,
+      "agility": 4,
+      "perception": 3,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "max": 12,
-              "min": 6
+              "min": 9,
+              "max": 18
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 12,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e2701bb3a36bf49703e4723",
+      "_created": "2020-01-21T13:50:51.660Z",
+      "_updated": "2024-10-24T20:24:03.841Z",
       "name": "Cartel Ruffian",
+      "_alias": null,
+      "portrait": "670f715ab3d10b553f217de6",
       "level": 10,
-      "strength": 5,
+      "strength": 4,
       "charisma": 1,
-      "resilience": 4,
+      "resilience": 5,
       "agility": 2,
       "perception": 2,
-      "armor": 14,
-      "experience": 40,
-      "_created": "2020-01-21T13:50:51.660Z",
-      "_updated": "2020-01-21T13:50:51.660Z",
-      "bargain": [],
-      "__v": 0,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 8,
-              "max": 20
+              "min": 12,
+              "max": 30
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "stun"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 14,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 40,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e2702bd3a36bfe0693e4724",
+      "_created": "2020-01-21T13:55:09.406Z",
+      "_updated": "2024-10-25T08:20:53.912Z",
       "name": "Cartel Goon",
+      "_alias": null,
+      "portrait": "670f6fe4b3d10b553f217b59",
       "level": 10,
       "strength": 4,
       "charisma": 2,
       "resilience": 3,
       "agility": 2,
       "perception": 3,
-      "armor": 12,
-      "blockChance": 0.16,
-      "experience": 40,
-      "_created": "2020-01-21T13:55:09.406Z",
-      "_updated": "2020-01-21T13:55:09.406Z",
-      "bargain": [],
-      "__v": 0,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 4,
-              "max": 18
+              "min": 9,
+              "max": 23
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
-      "combatActions": [],
+      "combatActions": [
+        "bash"
+      ],
       "maxActionPoints": 3,
+      "armor": 12,
+      "blockChance": 0.3,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 40,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e2703473a36bfddd73e4725",
+      "_created": "2020-01-21T13:57:27.205Z",
+      "_updated": "2024-10-24T20:23:51.542Z",
       "name": "Cartel Roughneck",
+      "_alias": null,
+      "portrait": "66df21a215ccc12663435e07",
       "level": 10,
       "strength": 4,
-      "resilience": 4,
       "charisma": 1,
-      "perception": 2,
+      "resilience": 3,
       "agility": 3,
-      "armor": 12,
-      "experience": 40,
-      "_created": "2020-01-21T13:57:27.205Z",
-      "_updated": "2020-03-06T13:13:19.312Z",
-      "bargain": [],
-      "__v": 0,
+      "perception": 3,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 8,
-              "max": 14
+              "min": 12,
+              "max": 21
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 12,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 40,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e2704003a36bffaa03e4726",
+      "_created": "2020-01-21T14:00:32.030Z",
+      "_updated": "2024-10-24T20:23:19.477Z",
       "name": "Cartel Scoundrel",
+      "_alias": null,
+      "portrait": "67174baf574fa4dd98176a56",
       "level": 10,
       "strength": 2,
       "charisma": 2,
       "resilience": 1,
       "agility": 7,
       "perception": 2,
-      "armor": 4,
-      "experience": 40,
-      "_created": "2020-01-21T14:00:32.030Z",
-      "_updated": "2020-03-06T13:17:11.891Z",
-      "bargain": [],
-      "__v": 0,
+      "innateStatModifiers": [
+        {
+          "statName": "evadeMeleeChance",
+          "type": "term",
+          "value": 0.25
+        },
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 10,
-              "max": 18
+              "min": 15,
+              "max": 22
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "stab"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 6,
+      "behavior": "unstoppable",
+      "baseImmunities": [],
+      "experience": 40,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e2704e93a36bfe6363e4727",
-      "name": "Cartel Bruiser",
-      "level": 11,
-      "strength": 7,
-      "charisma": 1,
-      "resilience": 5,
-      "agility": 1,
-      "perception": 1,
-      "armor": 16,
-      "experience": 50,
       "_created": "2020-01-21T14:04:25.408Z",
-      "_updated": "2020-01-21T14:04:25.408Z",
+      "_updated": "2024-10-25T08:22:31.472Z",
+      "name": "Cartel Bruiser",
+      "_alias": null,
+      "portrait": "6716a197574fa4dd98172000",
+      "level": 11,
+      "strength": 5,
+      "charisma": 1,
+      "resilience": 4,
+      "agility": 3,
+      "perception": 2,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.75
+        }
+      ],
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 15,
+              "max": 20
+            },
+            "ranged": false,
+            "combatActions": [
+              "pummel"
+            ],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
+      "combatActions": [],
+      "maxActionPoints": 3,
+      "armor": 16,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 50,
       "bargain": [],
       "__v": 0,
+      "__t": "npc"
+    },
+    {
+      "_id": "5e27063b3a36bf12723e4728",
+      "_created": "2020-01-21T14:10:03.652Z",
+      "_updated": "2024-10-24T20:18:39.640Z",
+      "name": "Cartel Hatchet Man",
+      "_alias": null,
+      "portrait": "671a393a574fa4dd9818a2f6",
+      "level": 11,
+      "strength": 4,
+      "charisma": 1,
+      "resilience": 4,
+      "agility": 3,
+      "perception": 3,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 13,
+              "max": 23
+            },
+            "ranged": false,
+            "combatActions": [
+              "cleave"
+            ],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
+      "combatActions": [
+        "hook"
+      ],
+      "maxActionPoints": 3,
+      "armor": 12,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 50,
+      "bargain": [],
+      "__v": 0,
+      "__t": "npc"
+    },
+    {
+      "_id": "5e2706d23a36bf7f253e4729",
+      "_created": "2020-01-21T14:12:34.885Z",
+      "_updated": "2024-10-24T20:24:29.465Z",
+      "name": "Cartel Rogue",
+      "_alias": null,
+      "portrait": "67175092574fa4dd98177b3e",
+      "level": 11,
+      "strength": 2,
+      "charisma": 2,
+      "resilience": 2,
+      "agility": 6,
+      "perception": 3,
+      "innateStatModifiers": [
+        {
+          "statName": "evadeMeleeChance",
+          "type": "factor",
+          "value": 1.25
+        },
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
               "min": 10,
-              "max": 25
+              "max": 23
             },
-            "combatActions": [],
             "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 3,
-      "__t": "npc"
-    },
-    {
-      "_id": "5e27063b3a36bf12723e4728",
-      "name": "Cartel Hatchet Man",
-      "level": 11,
-      "strength": 4,
-      "charisma": 1,
-      "agility": 3,
-      "perception": 3,
-      "armor": 8,
-      "experience": 50,
-      "_created": "2020-01-21T14:10:03.652Z",
-      "_updated": "2020-03-06T13:14:56.927Z",
-      "bargain": [],
-      "__v": 0,
-      "resilience": 4,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 9,
-              "max": 15
-            },
-            "combatActions": [],
-            "ranged": false,
-            "usageTerm": "attack"
-          }
-        ]
-      ],
-      "behavior": "fighter",
-      "combatActions": [],
-      "maxActionPoints": 3,
-      "__t": "npc"
-    },
-    {
-      "_id": "5e2706d23a36bf7f253e4729",
-      "name": "Cartel Rogue",
-      "level": 11,
-      "strength": 3,
-      "charisma": 2,
-      "resilience": 2,
-      "agility": 6,
-      "perception": 2,
-      "experience": 50,
-      "_created": "2020-01-21T14:12:34.885Z",
-      "_updated": "2020-03-18T21:05:16.279Z",
-      "bargain": [],
-      "__v": 0,
-      "armor": 7,
-      "attackSets": [
-        [
-          {
-            "damage": {
-              "min": 1,
-              "max": 22
-            },
             "combatActions": [
               "stab"
             ],
-            "ranged": false,
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 7,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 50,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e2708383a36bf58bd3e472a",
+      "_created": "2020-01-21T14:18:32.927Z",
+      "_updated": "2024-10-24T20:19:20.978Z",
       "name": "Cartel Raider",
+      "_alias": null,
+      "portrait": "671a39de574fa4dd9818a3b4",
       "level": 11,
       "strength": 4,
       "charisma": 1,
       "resilience": 3,
       "agility": 4,
       "perception": 3,
-      "armor": 14,
-      "experience": 50,
-      "_created": "2020-01-21T14:18:32.927Z",
-      "_updated": "2020-01-21T14:18:32.927Z",
-      "bargain": [],
-      "__v": 0,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 5,
-              "max": 14
+              "min": 15,
+              "max": 20
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "puncture"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 14,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 50,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e2709503a36bf30243e472b",
+      "_created": "2020-01-21T14:23:12.609Z",
+      "_updated": "2024-10-26T07:04:24.905Z",
       "name": "Cartel Cutthroat",
+      "_alias": null,
+      "portrait": "671c943e574fa4dd981a32f6",
       "level": 12,
       "strength": 2,
       "charisma": 1,
       "resilience": 2,
       "agility": 4,
       "perception": 7,
-      "armor": 16,
-      "experience": 60,
-      "_created": "2020-01-21T14:23:12.609Z",
-      "_updated": "2020-01-21T14:23:12.609Z",
-      "bargain": [],
-      "__v": 0,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 4,
-              "max": 16
+              "min": 8,
+              "max": 21
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 16,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 60,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e2709ea3a36bffeda3e472c",
+      "_created": "2020-01-21T14:25:46.069Z",
+      "_updated": "2024-10-24T20:22:45.780Z",
       "name": "Cartel Executioner",
+      "_alias": null,
+      "portrait": "66df21a115ccc12663435e05",
       "level": 13,
       "strength": 6,
+      "charisma": 1,
       "resilience": 4,
       "agility": 3,
       "perception": 3,
-      "charisma": 1,
-      "armor": 18,
-      "experience": 70,
-      "_created": "2020-01-21T14:25:46.069Z",
-      "_updated": "2020-03-06T16:05:58.542Z",
-      "bargain": [],
-      "__v": 0,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.5
+        }
+      ],
       "attackSets": [
         [
           {
@@ -4432,15 +4769,24 @@
               "min": 20,
               "max": 30
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [
+              "cleave"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
-      "combatActions": [],
+      "combatActions": [
+        "parry"
+      ],
       "maxActionPoints": 3,
+      "armor": 18,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 70,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
@@ -4462,8 +4808,8 @@
         [
           {
             "damage": {
-              "min": 6,
-              "max": 18
+              "min": 9,
+              "max": 27
             },
             "combatActions": [],
             "ranged": false,
@@ -4495,8 +4841,8 @@
         [
           {
             "damage": {
-              "min": 2,
-              "max": 3
+              "min": 3,
+              "max": 5
             },
             "combatActions": [],
             "ranged": false,
@@ -4515,8 +4861,9 @@
       "templateLevel": "12",
       "name": "Guard Dog",
       "_alias": "Guard Dog",
+      "experience": 50,
       "_created": "2020-01-29T02:11:02.100Z",
-      "_updated": "2024-09-04T09:40:31.003Z",
+      "_updated": "2024-10-15T09:52:58.889Z",
       "__v": 0,
       "__t": "template"
     },
@@ -4558,8 +4905,8 @@
         [
           {
             "damage": {
-              "min": 6,
-              "max": 13
+              "min": 9,
+              "max": 20
             },
             "combatActions": [],
             "ranged": false,
@@ -4592,7 +4939,7 @@
           {
             "damage": {
               "min": 1,
-              "max": 6
+              "max": 9
             },
             "combatActions": [],
             "ranged": false,
@@ -4607,114 +4954,128 @@
     },
     {
       "_id": "5e4f3b7ba74d95c247debafa",
+      "_created": "2020-02-21T02:07:55.737Z",
+      "_updated": "2024-10-16T07:53:26.807Z",
       "name": "Cartel Debt Collector",
+      "_alias": null,
+      "portrait": "670f70cdb3d10b553f217d12",
       "level": 13,
       "strength": 7,
       "charisma": 2,
       "resilience": 5,
       "agility": 1,
       "perception": 2,
-      "armor": 8,
-      "experience": 30,
-      "_created": "2020-02-21T02:07:55.737Z",
-      "_updated": "2020-10-29T12:03:56.776Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5e5011bfa74d95480edebdb4",
       "attackSets": [
         [
           {
             "damage": {
-              "min": 7,
-              "max": 24
+              "min": 10,
+              "max": 36
             },
+            "ranged": false,
             "combatActions": [
               "slam"
             ],
-            "ranged": false,
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 3,
+      "armor": 8,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 30,
+      "loot": "5e5011bfa74d95480edebdb4",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e4f3ed2a74d95fc2fdebafc",
+      "_created": "2020-02-21T02:22:10.759Z",
+      "_updated": "2024-10-16T10:15:20.320Z",
       "name": "Cartel Paymaster",
+      "_alias": null,
+      "portrait": "670f6f67b3d10b553f21793d",
       "level": 14,
       "strength": 2,
-      "perception": 6,
-      "agility": 2,
-      "resilience": 3,
       "charisma": 5,
-      "armor": 8,
-      "experience": 35,
-      "_created": "2020-02-21T02:22:10.759Z",
-      "_updated": "2020-03-18T19:32:02.373Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5e5011eda74d952c48debdb7",
+      "resilience": 3,
+      "agility": 2,
+      "perception": 6,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 6,
-              "max": 15
+              "min": 9,
+              "max": 23
             },
-            "combatActions": [
-              "cut"
-            ],
             "ranged": false,
+            "combatActions": [
+              "cut",
+              "stab"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 4,
+      "maxActionPoints": 3,
+      "armor": 8,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 35,
+      "loot": "5e5011eda74d952c48debdb7",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e6f2f9121eaaefbd29f5aea",
+      "_created": "2020-03-16T07:49:37.612Z",
+      "_updated": "2024-09-09T15:59:36.403Z",
       "name": "Opium Fiend",
+      "_alias": null,
+      "portrait": "66df1ae915ccc12663435733",
       "level": 6,
       "strength": 3,
       "charisma": 1,
       "resilience": 1,
       "agility": 3,
       "perception": 2,
-      "armor": 1,
       "healthOverride": 22,
-      "experience": 5,
-      "_created": "2020-03-16T07:49:37.612Z",
-      "_updated": "2020-03-18T17:27:56.187Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5e6f343c21eaae3dae9f5aeb",
       "attackSets": [
         [
           {
             "damage": {
-              "min": 4,
-              "max": 12
+              "min": 6,
+              "max": 18
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 5,
+      "loot": "5e6f343c21eaae3dae9f5aeb",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e6f36fd21eaae1a149f5b3a",
+      "_created": "2020-03-16T08:21:17.813Z",
+      "_updated": "2024-09-09T15:58:11.661Z",
       "name": "Crazed Opium Fiend",
+      "_alias": null,
+      "portrait": "66df1ae915ccc12663435733",
       "level": 7,
       "strength": 4,
       "charisma": 1,
@@ -4722,34 +5083,37 @@
       "agility": 2,
       "perception": 2,
       "healthOverride": 29,
-      "armor": 1,
-      "experience": 5,
-      "loot": "5e6f36af21eaae95e29f5b35",
-      "_created": "2020-03-16T08:21:17.813Z",
-      "_updated": "2020-03-18T17:29:43.657Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 7,
-              "max": 11
+              "min": 10,
+              "max": 17
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 5,
+      "loot": "5e6f36af21eaae95e29f5b35",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e6f3b4521eaae087d9f5bd7",
+      "_created": "2020-03-16T08:39:33.935Z",
+      "_updated": "2024-09-09T16:00:48.508Z",
       "name": "Starving Opium Fiend",
+      "_alias": null,
+      "portrait": "66df1ae915ccc12663435736",
       "level": 4,
       "strength": 1,
       "charisma": 1,
@@ -4757,36 +5121,39 @@
       "agility": 2,
       "perception": 1,
       "healthOverride": 18,
-      "armor": 1,
-      "experience": 5,
-      "loot": "5e6f3b0321eaae4ea29f5bd2",
-      "_created": "2020-03-16T08:39:33.935Z",
-      "_updated": "2020-03-18T17:29:36.897Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 3,
-              "max": 4
+              "min": 4,
+              "max": 6
             },
+            "ranged": false,
             "combatActions": [
               "stab"
             ],
-            "ranged": false,
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 5,
+      "loot": "5e6f3b0321eaae4ea29f5bd2",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e6f3e5721eaae6fd29f5cd1",
+      "_created": "2020-03-16T08:52:39.805Z",
+      "_updated": "2024-09-09T16:01:19.347Z",
       "name": "Demented Opium Fiend",
+      "_alias": null,
+      "portrait": "66df1ae915ccc12663435733",
       "level": 8,
       "strength": 6,
       "charisma": 1,
@@ -4794,36 +5161,39 @@
       "agility": 1,
       "perception": 1,
       "healthOverride": 30,
-      "armor": 1,
-      "experience": 5,
-      "loot": "5e6f3de221eaae19d29f5ccc",
-      "_created": "2020-03-16T08:52:39.805Z",
-      "_updated": "2020-03-18T17:29:17.947Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "max": 14,
-              "min": 3
+              "min": 4,
+              "max": 21
             },
+            "ranged": false,
             "combatActions": [
               "slam"
             ],
-            "ranged": false,
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 5,
+      "loot": "5e6f3de221eaae19d29f5ccc",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e6f40ab21eaaee98f9f5d7f",
+      "_created": "2020-03-16T09:02:35.117Z",
+      "_updated": "2024-09-09T15:59:01.483Z",
       "name": "Scarred Opium Fiend",
+      "_alias": null,
+      "portrait": "66df1ae915ccc12663435733",
       "level": 7,
       "strength": 3,
       "charisma": 1,
@@ -4831,33 +5201,36 @@
       "agility": 2,
       "perception": 4,
       "healthOverride": 28,
-      "armor": 1,
-      "experience": 5,
-      "_created": "2020-03-16T09:02:35.117Z",
-      "_updated": "2020-03-18T17:29:13.479Z",
-      "bargain": [],
-      "__v": 0,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 6,
-              "max": 9
+              "min": 9,
+              "max": 14
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 5,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e6f92f921eaaefa519f61de",
+      "_created": "2020-03-16T14:53:45.238Z",
+      "_updated": "2024-09-09T15:59:06.654Z",
       "name": "Murderous Opium Fiend",
+      "_alias": null,
+      "portrait": "66df1ae915ccc12663435737",
       "level": 6,
       "strength": 3,
       "charisma": 1,
@@ -4865,34 +5238,37 @@
       "agility": 3,
       "perception": 2,
       "healthOverride": 24,
-      "armor": 1,
-      "experience": 5,
-      "_created": "2020-03-16T14:53:45.238Z",
-      "_updated": "2020-03-18T17:29:05.839Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5e6f3b0321eaae4ea29f5bd2",
       "attackSets": [
         [
           {
             "damage": {
-              "min": 4,
-              "max": 11
+              "min": 6,
+              "max": 17
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 5,
+      "loot": "5e6f3b0321eaae4ea29f5bd2",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e6fb48d21eaae4c769f736c",
+      "_created": "2020-03-16T17:17:01.221Z",
+      "_updated": "2024-09-09T15:59:12.583Z",
       "name": "Wild Opium Fiend",
+      "_alias": null,
+      "portrait": "66df1ae915ccc12663435736",
       "level": 7,
       "strength": 4,
       "charisma": 1,
@@ -4900,106 +5276,115 @@
       "agility": 3,
       "perception": 2,
       "healthOverride": 22,
-      "armor": 1,
-      "experience": 5,
-      "_created": "2020-03-16T17:17:01.221Z",
-      "_updated": "2020-03-18T17:28:55.504Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5e6f3b0321eaae4ea29f5bd2",
       "attackSets": [
         [
           {
             "damage": {
-              "max": 12,
-              "min": 3
+              "min": 4,
+              "max": 18
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 5,
+      "loot": "5e6f3b0321eaae4ea29f5bd2",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e6fbd1921eaae72da9f75c9",
+      "_created": "2020-03-16T17:53:29.428Z",
+      "_updated": "2024-09-09T15:59:31.058Z",
       "name": "Restless Opium Fiend",
+      "_alias": null,
+      "portrait": "66df1ae915ccc12663435737",
       "level": 6,
       "strength": 2,
       "charisma": 1,
       "resilience": 1,
       "agility": 5,
       "perception": 1,
-      "armor": 1,
       "healthOverride": 20,
-      "experience": 5,
-      "_created": "2020-03-16T17:53:29.428Z",
-      "_updated": "2020-03-18T17:28:24.026Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5e6f343c21eaae3dae9f5aeb",
       "attackSets": [
         [
           {
             "damage": {
               "min": 1,
-              "max": 9
+              "max": 14
             },
+            "ranged": false,
             "combatActions": [
               "stab"
             ],
-            "ranged": false,
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 5,
+      "loot": "5e6f343c21eaae3dae9f5aeb",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e6fc14721eaae444c9f783c",
+      "_created": "2020-03-16T18:11:19.859Z",
+      "_updated": "2024-09-09T15:59:18.265Z",
       "name": "Delirious Opium Fiend",
+      "_alias": null,
+      "portrait": "66df1ae915ccc12663435733",
       "level": 7,
       "strength": 3,
       "charisma": 1,
+      "resilience": 3,
       "agility": 1,
       "perception": 2,
-      "resilience": 3,
       "healthOverride": 29,
-      "armor": 1,
-      "experience": 5,
-      "_created": "2020-03-16T18:11:19.859Z",
-      "_updated": "2020-03-18T17:28:43.173Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5e6f36af21eaae95e29f5b35",
       "attackSets": [
         [
           {
             "damage": {
-              "min": 7,
-              "max": 11
+              "min": 10,
+              "max": 17
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 5,
+      "loot": "5e6f36af21eaae95e29f5b35",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
       "_id": "5e6fd1e98530df82eba02246",
+      "_created": "2020-03-16T19:22:17.605Z",
+      "_updated": "2024-09-09T15:59:24.995Z",
       "name": "Violent Opium Fiend",
+      "_alias": null,
+      "portrait": "66df1ae915ccc12663435736",
       "level": 6,
       "strength": 3,
       "charisma": 1,
@@ -5007,64 +5392,67 @@
       "agility": 2,
       "perception": 2,
       "healthOverride": 23,
-      "armor": 1,
-      "experience": 5,
-      "_created": "2020-03-16T19:22:17.605Z",
-      "_updated": "2020-03-18T17:28:36.163Z",
-      "bargain": [],
-      "__v": 0,
-      "loot": "5e6f3b0321eaae4ea29f5bd2",
       "attackSets": [
         [
           {
             "damage": {
-              "min": 6,
-              "max": 12
+              "min": 9,
+              "max": 18
             },
-            "combatActions": [],
             "ranged": false,
+            "combatActions": [],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
       "maxActionPoints": 2,
+      "armor": 1,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 5,
+      "loot": "5e6f3b0321eaae4ea29f5bd2",
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     },
     {
-      "_id": "5e9b879613e5b97ea8f8fe7f",
-      "name": "Mastaba",
-      "level": 14,
-      "strength": 6,
-      "charisma": 1,
-      "resilience": 4,
-      "agility": 4,
-      "perception": 3,
-      "armor": 3,
-      "experience": 50,
-      "_created": "2020-04-18T23:04:54.629Z",
-      "_updated": "2020-04-18T23:04:54.629Z",
-      "bargain": [],
-      "__v": 0,
+      "_id": "6711cc4477e717d40d39261c",
+      "_created": "2024-10-18T02:47:32.086Z",
+      "_updated": "2024-10-23T12:44:03.745Z",
+      "name": "Thug",
+      "_alias": "Thug 1",
+      "portrait": "670d68f9b3d10b553f201ba6",
+      "level": 11,
+      "strength": 3,
+      "charisma": 2,
+      "resilience": 3,
+      "agility": 3,
+      "perception": 4,
       "attackSets": [
         [
           {
             "damage": {
-              "max": 12,
-              "min": 4
+              "min": 10,
+              "max": 15
             },
-            "combatActions": [
-              "slam"
-            ],
             "ranged": false,
+            "combatActions": [
+              "stab",
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
-      "behavior": "fighter",
       "combatActions": [],
-      "maxActionPoints": 4,
+      "maxActionPoints": 3,
+      "armor": 6,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 10,
+      "bargain": [],
+      "__v": 0,
       "__t": "npc"
     }
   ]

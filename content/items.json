@@ -1,5 +1,5 @@
 {
-  "total": 323,
+  "total": 325,
   "limit": 1500,
   "skip": 0,
   "data": [
@@ -9,10 +9,12 @@
         {
           "damage": {
             "min": 1,
-            "max": 1
+            "max": 2
           },
           "ranged": false,
-          "combatActions": []
+          "combatActions": [
+            "stab"
+          ]
         }
       ],
       "combatActions": [],
@@ -20,10 +22,13 @@
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
       "_created": "2019-03-04T16:56:09.719Z",
-      "_updated": "2019-04-08T16:25:23.977Z",
+      "_updated": "2024-10-20T17:08:29.977Z",
       "name": "Small Rusty Kitchen Knife",
       "description": "The blade is shorter than the handle.",
       "value": 1,
@@ -36,11 +41,13 @@
       "attackSet": [
         {
           "damage": {
-            "min": 1.5,
-            "max": 1.5
+            "min": 1,
+            "max": 2
           },
           "ranged": false,
-          "combatActions": []
+          "combatActions": [
+            "stab"
+          ]
         }
       ],
       "combatActions": [],
@@ -48,10 +55,13 @@
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
       "_created": "2019-03-04T17:00:02.435Z",
-      "_updated": "2019-04-21T19:43:21.174Z",
+      "_updated": "2024-10-20T17:08:48.829Z",
       "name": "Rusty Cooking Knife",
       "description": "The pointy end seems good enough.",
       "value": 1,
@@ -65,10 +75,12 @@
         {
           "damage": {
             "min": 1,
-            "max": 1
+            "max": 2
           },
           "ranged": false,
-          "combatActions": []
+          "combatActions": [
+            "stab"
+          ]
         }
       ],
       "combatActions": [],
@@ -76,10 +88,13 @@
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
       "_created": "2019-03-04T17:02:23.728Z",
-      "_updated": "2019-04-08T16:24:48.974Z",
+      "_updated": "2024-10-20T17:07:57.451Z",
       "name": "Rusty Cutlery",
       "description": "A small, brittle knife, verging on uselessness.",
       "value": 1,
@@ -93,10 +108,12 @@
         {
           "damage": {
             "min": 1,
-            "max": 1
+            "max": 2
           },
           "ranged": false,
-          "combatActions": []
+          "combatActions": [
+            "stab"
+          ]
         }
       ],
       "combatActions": [],
@@ -104,10 +121,13 @@
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
       "_created": "2019-03-04T17:03:35.992Z",
-      "_updated": "2019-04-08T16:24:36.335Z",
+      "_updated": "2024-10-20T17:08:18.428Z",
       "name": "Rusty Eating Knife",
       "description": "It seems to be falling apart on a continuous basis.",
       "value": 1,
@@ -121,10 +141,12 @@
         {
           "damage": {
             "min": 1,
-            "max": 1.5
+            "max": 2
           },
           "ranged": false,
-          "combatActions": []
+          "combatActions": [
+            "stab"
+          ]
         }
       ],
       "combatActions": [],
@@ -132,10 +154,13 @@
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
       "_created": "2019-03-04T17:04:58.633Z",
-      "_updated": "2019-04-08T16:24:26.673Z",
+      "_updated": "2024-10-20T17:08:10.294Z",
       "name": "Rusty Bread Knife",
       "description": "Despite its intended purpose, this blade will mangle a loaf of bread.",
       "value": 1,
@@ -164,14 +189,14 @@
     {
       "_id": "5c7d65b6fd6b493b65456b6b",
       "armor": 1,
-      "encumbrance": 1,
+      "encumbrance": 2,
       "slotSets": [
         [
           "head"
         ]
       ],
       "_created": "2019-03-04T17:51:50.937Z",
-      "_updated": "2020-03-04T07:34:29.819Z",
+      "_updated": "2024-10-19T11:34:38.535Z",
       "name": "Fur Hat",
       "description": "This'll keep you warm, for sure.",
       "value": 5,
@@ -199,15 +224,15 @@
     },
     {
       "_id": "5c7d65eafd6b49ac02456b6d",
-      "armor": 2,
-      "encumbrance": 4,
+      "armor": 1,
+      "encumbrance": 3,
       "slotSets": [
         [
           "body"
         ]
       ],
       "_created": "2019-03-04T17:52:42.851Z",
-      "_updated": "2020-03-04T07:28:17.307Z",
+      "_updated": "2024-10-15T10:46:58.874Z",
       "name": "Patchwork Fur Cloak",
       "description": "Numerous rodents gave their lives to make this happen.",
       "value": 10,
@@ -218,14 +243,14 @@
     {
       "_id": "5c7d66acfd6b4983e7456b6e",
       "armor": 2,
-      "encumbrance": 4,
+      "encumbrance": 3,
       "slotSets": [
         [
           "feet"
         ]
       ],
       "_created": "2019-03-04T17:55:56.868Z",
-      "_updated": "2020-03-04T07:28:40.054Z",
+      "_updated": "2024-10-15T09:57:44.090Z",
       "name": "Large Fur Boots",
       "description": "Functional, but aesthetically disproportionate.",
       "value": 8,
@@ -530,6 +555,7 @@
           },
           "ranged": false,
           "combatActions": [
+            "stab",
             "cut"
           ]
         }
@@ -539,10 +565,13 @@
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
       "_created": "2019-03-07T20:09:01.078Z",
-      "_updated": "2020-02-12T11:08:09.337Z",
+      "_updated": "2024-10-20T17:08:05.090Z",
       "name": "Bronze Hunting Knife",
       "description": "A formidable weapon, although its jagged edges have grown somewhat dull from frequent use.",
       "value": 20,
@@ -589,11 +618,13 @@
             "max": 7
           },
           "ranged": false,
-          "combatActions": []
+          "combatActions": [
+            "thrust"
+          ]
         }
       ],
       "combatActions": [
-        "parry"
+        "glide"
       ],
       "encumbrance": 4,
       "slotSets": [
@@ -602,7 +633,7 @@
         ]
       ],
       "_created": "2019-03-11T09:29:26.311Z",
-      "_updated": "2020-02-18T10:22:30.474Z",
+      "_updated": "2024-10-24T13:12:57.108Z",
       "name": "Rusty Iron Longsword",
       "description": "The blade won't last much longer",
       "value": 26,
@@ -620,7 +651,7 @@
           },
           "ranged": false,
           "combatActions": [
-            "stab"
+            "thrust"
           ]
         }
       ],
@@ -629,10 +660,13 @@
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
       "_created": "2019-03-11T09:31:22.398Z",
-      "_updated": "2020-02-18T10:25:07.943Z",
+      "_updated": "2024-09-10T14:28:36.378Z",
       "name": "Rusty Iron Gladius",
       "description": "Good for a few more stabs",
       "value": 12,
@@ -720,10 +754,13 @@
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
       "_created": "2019-03-11T09:42:03.685Z",
-      "_updated": "2020-02-18T10:23:13.427Z",
+      "_updated": "2024-10-20T17:10:31.172Z",
       "name": "Rusty Iron Short Blade",
       "description": "Imagine, all the lives that have been ruined by this old blade.",
       "value": 14,
@@ -743,7 +780,9 @@
           "combatActions": []
         }
       ],
-      "combatActions": [],
+      "combatActions": [
+        "hook"
+      ],
       "encumbrance": 3,
       "slotSets": [
         [
@@ -751,7 +790,7 @@
         ]
       ],
       "_created": "2019-03-11T09:46:14.894Z",
-      "_updated": "2020-03-18T14:07:13.428Z",
+      "_updated": "2024-09-10T14:20:44.652Z",
       "name": "Bronze Hatchet",
       "description": "This old hatchet has seen better days. More of a skull-basher than a head-chopper, at this point",
       "value": 18,
@@ -773,15 +812,17 @@
           ]
         }
       ],
-      "combatActions": [],
-      "encumbrance": 5,
+      "combatActions": [
+        "hook"
+      ],
+      "encumbrance": 4,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
       "_created": "2019-03-11T09:47:44.381Z",
-      "_updated": "2020-03-18T14:12:04.218Z",
+      "_updated": "2024-10-25T13:30:47.459Z",
       "name": "Rusty Iron War Axe",
       "description": "Many battlegrounds ago, this was a pristine weapon",
       "value": 20,
@@ -825,7 +866,7 @@
       "attackSet": [
         {
           "damage": {
-            "min": 8,
+            "min": 7,
             "max": 11
           },
           "ranged": false,
@@ -843,7 +884,7 @@
         ]
       ],
       "_created": "2019-03-11T09:52:30.463Z",
-      "_updated": "2020-03-05T12:13:13.921Z",
+      "_updated": "2024-10-16T09:54:23.413Z",
       "name": "Rusty Iron Halberd",
       "description": "A two-handed polearm. Probably stolen from a dead guardsman",
       "value": 26,
@@ -863,15 +904,20 @@
           "combatActions": []
         }
       ],
-      "combatActions": [],
+      "combatActions": [
+        "hook"
+      ],
       "encumbrance": 4,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
       "_created": "2019-03-11T09:59:08.263Z",
-      "_updated": "2020-03-18T14:13:38.395Z",
+      "_updated": "2024-10-20T17:06:51.707Z",
       "name": "Rusty Iron Hatchet",
       "description": "A trail of severed limbs led to its current state",
       "value": 24,
@@ -888,7 +934,9 @@
             "max": 8
           },
           "ranged": false,
-          "combatActions": []
+          "combatActions": [
+            "stun"
+          ]
         }
       ],
       "combatActions": [],
@@ -899,7 +947,7 @@
         ]
       ],
       "_created": "2019-03-11T10:01:49.552Z",
-      "_updated": "2020-02-18T10:36:11.437Z",
+      "_updated": "2024-10-16T09:59:29.687Z",
       "name": "Stone Axe",
       "description": "Plausibly, this crude weapon was crafted before the Great Cataclysm",
       "value": 6,
@@ -917,7 +965,7 @@
           },
           "ranged": false,
           "combatActions": [
-            "slam"
+            "stun"
           ]
         }
       ],
@@ -926,10 +974,13 @@
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
       "_created": "2019-03-11T10:28:29.877Z",
-      "_updated": "2020-02-18T10:25:17.954Z",
+      "_updated": "2024-10-20T17:06:27.156Z",
       "name": "Bronze Scepter",
       "description": "This crude weapon seems ancient.",
       "value": 8,
@@ -1043,6 +1094,18 @@
       ],
       "combatActions": [],
       "encumbrance": 10,
+      "sideEffects": {
+        "statModifiers": [
+          {
+            "statName": "speed",
+            "type": "factor",
+            "value": 0.8
+          }
+        ],
+        "immunities": [],
+        "onEquip": [],
+        "onUnEquip": []
+      },
       "slotSets": [
         [
           "mainHand",
@@ -1050,7 +1113,7 @@
         ]
       ],
       "_created": "2019-03-11T10:42:25.628Z",
-      "_updated": "2020-03-06T11:09:54.636Z",
+      "_updated": "2024-09-09T20:25:53.772Z",
       "name": "Stone Maul",
       "description": "A two-handed stone hammer from the dawn of time",
       "value": 20,
@@ -1062,13 +1125,18 @@
       "_id": "5c866f9f0e37487533c604b0",
       "armor": 1,
       "encumbrance": 2,
+      "sideEffects": {
+        "onEquip": [],
+        "onUnEquip": [],
+        "immunities": []
+      },
       "slotSets": [
         [
           "head"
         ]
       ],
       "_created": "2019-03-11T14:24:31.362Z",
-      "_updated": "2020-03-04T08:38:57.235Z",
+      "_updated": "2024-10-24T09:32:26.916Z",
       "name": "Raven Mask",
       "description": "A white wooden mask, sculpted to resemble a raven's beak, surrounded by a pattern of sharp feathers.",
       "value": 0,
@@ -1081,8 +1149,8 @@
       "attackSet": [
         {
           "damage": {
-            "min": 1,
-            "max": 6
+            "min": 3,
+            "max": 7
           },
           "ranged": false,
           "combatActions": [
@@ -1092,13 +1160,28 @@
       ],
       "combatActions": [],
       "encumbrance": 1,
+      "sideEffects": {
+        "statModifiers": [
+          {
+            "statName": "speed",
+            "type": "factor",
+            "value": 1.1
+          }
+        ],
+        "onEquip": [],
+        "onUnEquip": [],
+        "immunities": []
+      },
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
       "_created": "2019-03-11T21:44:36.077Z",
-      "_updated": "2020-02-18T10:36:51.194Z",
+      "_updated": "2024-10-16T09:57:19.902Z",
       "name": "Bone Dagger",
       "description": "Crude and ominous, like a yellow fang stolen from the jaws of an ancient beast.",
       "value": 40,
@@ -1116,19 +1199,39 @@
           },
           "ranged": false,
           "combatActions": [
-            "stab"
+            "puncture"
           ]
         }
       ],
       "combatActions": [],
       "encumbrance": 2,
+      "sideEffects": {
+        "statModifiers": [
+          {
+            "statName": "hitMeleeChance",
+            "type": "term",
+            "value": 0.1
+          },
+          {
+            "statName": "agility",
+            "type": "term",
+            "value": 1
+          }
+        ],
+        "onEquip": [],
+        "onUnEquip": [],
+        "immunities": []
+      },
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
       "_created": "2019-03-11T21:50:13.814Z",
-      "_updated": "2020-03-05T02:31:22.799Z",
+      "_updated": "2024-10-21T13:19:24.836Z",
       "name": "Volcanic Stone Dagger",
       "description": "Made from the elusive red rock, quarried on the Isle of Penance",
       "value": 60,
@@ -1362,9 +1465,9 @@
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "protection",
             "type": "term",
-            "value": 1,
-            "statName": "protection"
+            "value": 1
           }
         ],
         "onEquip": [
@@ -1372,207 +1475,228 @@
             "type": "displayNotification",
             "parameters": [
               "This antique will provide some protection..."
-            ]
+            ],
+            "_id": "66ddc4f715ccc1266343468d"
           }
-        ]
+        ],
+        "immunities": [],
+        "onUnEquip": []
       },
-      "name": "Golden Bracelet",
-      "description": "Adorned with hieroglyphs, this bracelet was stolen from the crypts of Dusk Megalith.",
-      "tier": "3",
-      "type": "treasure",
-      "_created": "2019-03-21T01:52:32.074Z",
-      "_updated": "2020-03-04T08:51:17.698Z",
-      "__v": 0,
-      "value": 50,
       "slotSets": [
         [
-          "accessory"
+          "ornament"
         ]
-      ]
+      ],
+      "_created": "2019-03-21T01:52:32.074Z",
+      "_updated": "2024-09-08T15:38:31.975Z",
+      "name": "Golden Bracelet",
+      "description": "Adorned with hieroglyphs, this bracelet was stolen from the crypts of Dusk Megalith.",
+      "value": 50,
+      "tier": "3",
+      "type": "treasure",
+      "__v": 0
     },
     {
       "_id": "5c92f8863bae8dfca82b605c",
-      "name": "Iron Broadsword",
-      "description": "Black as night. The blade is sharp.",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-03-21T02:35:50.415Z",
-      "_updated": "2020-02-18T10:32:58.060Z",
-      "__v": 0,
-      "value": 40,
       "attackSet": [
         {
           "damage": {
             "min": 7,
             "max": 9
           },
+          "ranged": false,
           "combatActions": [
             "stab"
-          ],
-          "ranged": false
+          ]
         }
-      ],
-      "slotSets": [
-        [
-          "mainHand"
-        ]
       ],
       "combatActions": [
         "parry"
-      ]
+      ],
+      "encumbrance": 4,
+      "slotSets": [
+        [
+          "mainHand"
+        ],
+        [
+          "offHand"
+        ]
+      ],
+      "_created": "2019-03-21T02:35:50.415Z",
+      "_updated": "2024-10-20T17:09:17.351Z",
+      "name": "Iron Broadsword",
+      "description": "Black as night. The blade is sharp.",
+      "value": 40,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c92f8ce3bae8dbec42b605d",
-      "name": "Iron Sabre",
-      "description": "The curved blade is sharp.",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-03-21T02:37:02.820Z",
-      "_updated": "2020-02-21T02:09:09.089Z",
-      "__v": 0,
-      "value": 45,
       "attackSet": [
         {
           "damage": {
             "min": 7,
             "max": 9
           },
+          "ranged": false,
           "combatActions": [
             "cut"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [
+        "glide"
+      ],
+      "encumbrance": 4,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": [
-        "parry"
-      ]
+      "_created": "2019-03-21T02:37:02.820Z",
+      "_updated": "2024-10-24T13:08:22.737Z",
+      "name": "Iron Sabre",
+      "description": "The curved blade is sharp.",
+      "value": 45,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c92f92b3bae8d8ee72b605e",
-      "name": "Iron Hatchet",
-      "description": "Remarkably well-preserved.",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-03-21T02:38:35.835Z",
-      "_updated": "2020-02-18T10:37:21.849Z",
-      "__v": 0,
-      "value": 35,
       "attackSet": [
         {
           "damage": {
             "min": 8,
             "max": 8
           },
+          "ranged": false,
           "combatActions": [
             "cleave"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [
+        "hook"
+      ],
+      "encumbrance": 4,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-21T02:38:35.835Z",
+      "_updated": "2024-10-20T17:09:06.894Z",
+      "name": "Iron Hatchet",
+      "description": "Remarkably well-preserved.",
+      "value": 35,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c92f9883bae8daaed2b605f",
-      "name": "Iron War Axe",
-      "description": "The work of a talented blacksmith.",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 5,
-      "_created": "2019-03-21T02:40:08.904Z",
-      "_updated": "2020-03-18T14:11:40.084Z",
-      "__v": 0,
-      "value": 42,
       "attackSet": [
         {
           "damage": {
             "min": 8,
             "max": 9
           },
+          "ranged": false,
           "combatActions": [
             "cleave"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [
+        "hook"
+      ],
+      "encumbrance": 5,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-21T02:40:08.904Z",
+      "_updated": "2024-10-20T17:06:41.312Z",
+      "name": "Iron War Axe",
+      "description": "The work of a talented blacksmith.",
+      "value": 42,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c92fa2c3bae8d4e102b6060",
-      "name": "Iron Flail",
-      "description": "A spiked iron ball, attached to a chain with a handle.",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 5,
-      "_created": "2019-03-21T02:42:52.846Z",
-      "_updated": "2020-02-18T10:37:37.978Z",
-      "__v": 0,
-      "value": 45,
       "attackSet": [
         {
           "damage": {
             "min": 5,
             "max": 11
           },
+          "ranged": false,
           "combatActions": [
-            "slam"
-          ],
-          "ranged": false
+            "slam",
+            "puncture"
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 5,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-21T02:42:52.846Z",
+      "_updated": "2024-10-19T19:26:22.450Z",
+      "name": "Iron Flail",
+      "description": "A spiked iron ball, attached to a chain with a handle.",
+      "value": 45,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c92fa633bae8d78a32b6061",
-      "name": "Iron Morning Star",
-      "description": "A spiked iron club.",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 5,
-      "_created": "2019-03-21T02:43:47.094Z",
-      "_updated": "2020-02-18T10:37:45.788Z",
-      "__v": 0,
-      "value": 50,
       "attackSet": [
         {
           "damage": {
             "min": 5,
             "max": 13
           },
+          "ranged": false,
           "combatActions": [
-            "slam"
-          ],
-          "ranged": false
+            "stun",
+            "puncture"
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 5,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-21T02:43:47.094Z",
+      "_updated": "2024-10-19T19:26:48.486Z",
+      "name": "Iron Morning Star",
+      "description": "A spiked iron club.",
+      "value": 50,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c92fc163bae8d6b0d2b6062",
@@ -1594,21 +1718,21 @@
     },
     {
       "_id": "5c92fc783bae8d021a2b6063",
-      "name": "Bronze Plate Cuirass",
-      "description": "Slightly tarnished. Nevertheless, this heavy armor piece will provide ample protection.",
-      "tier": "3",
-      "type": "armor",
-      "armor": 6,
-      "_created": "2019-03-21T02:52:40.167Z",
-      "_updated": "2020-03-04T07:37:25.713Z",
-      "__v": 0,
-      "value": 140,
-      "encumbrance": 8,
+      "armor": 5,
+      "encumbrance": 7,
       "slotSets": [
         [
           "body"
         ]
-      ]
+      ],
+      "_created": "2019-03-21T02:52:40.167Z",
+      "_updated": "2024-10-18T11:45:15.641Z",
+      "name": "Tarnished Plate Cuirass",
+      "description": "Slightly tarnished. Nevertheless, this heavy armor piece will provide ample protection.",
+      "value": 130,
+      "tier": "2",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c92fd923bae8d40922b6064",
@@ -1696,51 +1820,66 @@
     },
     {
       "_id": "5c93463d3bae8da4662b61df",
-      "name": "Iron Sickle",
-      "description": "The curved blade is sharp.",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 3,
-      "_created": "2019-03-21T08:07:25.905Z",
-      "_updated": "2020-03-17T20:48:00.188Z",
-      "__v": 0,
-      "value": 32,
       "attackSet": [
         {
           "damage": {
             "min": 6,
             "max": 6
           },
+          "ranged": false,
           "combatActions": [
-            "cut"
-          ],
-          "ranged": false
+            "hamstring"
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 2,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-21T08:07:25.905Z",
+      "_updated": "2024-09-10T14:26:11.992Z",
+      "name": "Iron Sickle",
+      "description": "The curved blade is sharp.",
+      "value": 32,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c93474d3bae8d65752b61e0",
-      "name": "Wolf Gauntlets",
-      "description": "These war gloves have been sown to resemble wolf paws, with claws protruding from the knuckles.",
-      "tier": "3",
-      "type": "armor",
+      "armor": 2,
       "encumbrance": 1,
-      "armor": 1,
-      "_created": "2019-03-21T08:11:57.671Z",
-      "_updated": "2020-03-04T07:40:13.120Z",
-      "__v": 0,
-      "value": 35,
+      "sideEffects": {
+        "statModifiers": [
+          {
+            "statName": "meleeDamage",
+            "type": "term",
+            "value": 1
+          }
+        ],
+        "onEquip": [],
+        "onUnEquip": [],
+        "immunities": []
+      },
       "slotSets": [
         [
           "hands"
         ]
-      ]
+      ],
+      "_created": "2019-03-21T08:11:57.671Z",
+      "_updated": "2024-10-19T07:11:37.936Z",
+      "name": "Wolf Gauntlets",
+      "description": "These war gloves have been sown to resemble wolf paws, with claws protruding from the knuckles.",
+      "value": 35,
+      "tier": "3",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c9348883bae8da7cb2b61e5",
@@ -1778,95 +1917,104 @@
     },
     {
       "_id": "5c9353b83bae8db97b2b625a",
-      "name": "Iron Short Sword",
-      "description": "Frequently used, but well-maintained.",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 3,
-      "_created": "2019-03-21T09:04:56.495Z",
-      "_updated": "2020-02-18T10:38:23.722Z",
-      "__v": 0,
-      "value": 35,
       "attackSet": [
         {
           "damage": {
             "min": 6,
             "max": 7
           },
+          "ranged": false,
           "combatActions": [
-            "stab"
-          ],
-          "ranged": false
+            "thrust"
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 3,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-21T09:04:56.495Z",
+      "_updated": "2024-10-20T17:06:06.768Z",
+      "name": "Iron Short Sword",
+      "description": "Frequently used, but well-maintained.",
+      "value": 35,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c9354783bae8d13442b625b",
-      "description": "The curved blade is quite sharp. Elaborately sculpted, the pommel resembles a demonic serpent.",
-      "tier": "3",
-      "type": "weapon",
-      "name": "Fine Bronze Sabre",
-      "encumbrance": 3,
-      "_created": "2019-03-21T09:08:08.625Z",
-      "_updated": "2020-02-21T02:08:46.551Z",
-      "__v": 0,
-      "value": 42,
       "attackSet": [
         {
           "damage": {
             "min": 6,
             "max": 8
           },
+          "ranged": false,
           "combatActions": [
             "cut"
-          ],
-          "ranged": false
+          ]
         }
-      ],
-      "slotSets": [
-        [
-          "mainHand"
-        ]
       ],
       "combatActions": [
         "parry"
-      ]
+      ],
+      "encumbrance": 3,
+      "slotSets": [
+        [
+          "mainHand"
+        ],
+        [
+          "offHand"
+        ]
+      ],
+      "_created": "2019-03-21T09:08:08.625Z",
+      "_updated": "2024-09-10T14:22:11.336Z",
+      "name": "Fine Bronze Sabre",
+      "description": "The curved blade is quite sharp. Elaborately sculpted, the pommel resembles a demonic serpent.",
+      "value": 42,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c9354ed3bae8d221b2b625c",
-      "name": "Bronze Gladius",
-      "description": "A well-placed thrust will suffice to vanquish the enemy.",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 2,
-      "_created": "2019-03-21T09:10:05.936Z",
-      "_updated": "2020-02-18T10:40:39.037Z",
-      "__v": 0,
-      "value": 25,
       "attackSet": [
         {
           "damage": {
             "min": 4,
             "max": 6
           },
+          "ranged": false,
           "combatActions": [
-            "stab"
-          ],
-          "ranged": false
+            "thrust"
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 2,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-21T09:10:05.936Z",
+      "_updated": "2024-09-10T14:28:25.421Z",
+      "name": "Bronze Gladius",
+      "description": "A well-placed thrust will suffice to vanquish the enemy.",
+      "value": 25,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c9355513bae8d29cf2b625d",
@@ -1917,39 +2065,63 @@
     },
     {
       "_id": "5c94ca69683e5d5f464f2e29",
-      "name": "Crimson Veil",
-      "description": "One of many ways to shroud yourself in mystery.",
-      "tier": "2",
-      "type": "armor",
-      "encumbrance": 1,
       "armor": 1,
-      "_created": "2019-03-22T11:43:37.135Z",
-      "_updated": "2020-03-04T07:58:35.880Z",
-      "__v": 0,
-      "value": 10,
+      "encumbrance": 1,
+      "sideEffects": {
+        "statModifiers": [
+          {
+            "statName": "evadeMeleeChance",
+            "type": "term",
+            "value": 0.05
+          }
+        ],
+        "immunities": [],
+        "onEquip": [],
+        "onUnEquip": []
+      },
       "slotSets": [
         [
-          "head"
+          "accessory"
         ]
-      ]
+      ],
+      "_created": "2019-03-22T11:43:37.135Z",
+      "_updated": "2024-10-24T08:24:24.055Z",
+      "name": "Crimson Veil",
+      "description": "One of many ways to shroud yourself in mystery.",
+      "value": 10,
+      "tier": "2",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c94cb89683e5d4a814f2e2a",
-      "name": "Black Leather Gloves",
-      "description": "Quality leather, almost brand new, perfect fit - what more can you ask for?",
-      "tier": "2",
-      "type": "armor",
-      "encumbrance": 2,
       "armor": 2,
-      "_created": "2019-03-22T11:48:25.534Z",
-      "_updated": "2020-03-04T07:59:00.769Z",
-      "__v": 0,
-      "value": 18,
+      "encumbrance": 2,
+      "sideEffects": {
+        "statModifiers": [
+          {
+            "statName": "blockChance",
+            "type": "term",
+            "value": 0.02
+          }
+        ],
+        "immunities": [],
+        "onEquip": [],
+        "onUnEquip": []
+      },
       "slotSets": [
         [
           "hands"
         ]
-      ]
+      ],
+      "_created": "2019-03-22T11:48:25.534Z",
+      "_updated": "2024-10-24T08:19:13.742Z",
+      "name": "Black Leather Gloves",
+      "description": "Quality leather, almost brand new, perfect fit - what more can you ask for?",
+      "value": 18,
+      "tier": "2",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5c94cd85683e5d397f4f2e2b",
@@ -1985,33 +2157,36 @@
     },
     {
       "_id": "5c94ce4c683e5d389b4f2e2e",
-      "name": "Bronze Punch Dagger",
-      "description": "Some hoodlums are brawlers, some rogues are knife thugs. Some ruffians want the best of both underworlds.",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-03-22T12:00:12.572Z",
-      "_updated": "2020-02-18T10:39:02.619Z",
-      "__v": 0,
-      "value": 18,
       "attackSet": [
         {
           "damage": {
-            "max": 5,
-            "min": 1
+            "min": 1,
+            "max": 5
           },
+          "ranged": false,
           "combatActions": [
-            "stab"
-          ],
-          "ranged": false
+            "pummel"
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-22T12:00:12.572Z",
+      "_updated": "2024-09-10T14:25:04.097Z",
+      "name": "Bronze Punch Dagger",
+      "description": "Some hoodlums are brawlers, some rogues are knife thugs. Some ruffians want the best of both underworlds.",
+      "value": 18,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c94cee1683e5d12724f2e30",
@@ -2077,42 +2252,47 @@
     },
     {
       "_id": "5c94d260683e5d04a74f2e32",
-      "name": "Iron Rapier",
-      "description": "Requires some finesse.",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-03-22T12:17:36.209Z",
-      "_updated": "2020-02-12T21:20:02.186Z",
-      "__v": 0,
-      "value": 25,
       "attackSet": [
         {
           "damage": {
             "min": 2,
             "max": 5
           },
-          "combatActions": [
-            "stab"
-          ],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
       ],
+      "combatActions": [
+        "parry",
+        "glide"
+      ],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-22T12:17:36.209Z",
+      "_updated": "2024-10-24T13:11:32.860Z",
+      "name": "Iron Rapier",
+      "description": "Requires some finesse.",
+      "value": 25,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c9b196b3790358e08b1bd6b",
+      "_created": "2019-03-27T06:34:19.449Z",
+      "_updated": "2024-10-06T17:29:20.289Z",
       "name": "Silver Brooch",
-      "description": "A large silver brooch, setting a sculpted stingray, encapsulated by a wreath of amethysts. The mere sight of this object fills you with dread and disgust.",
+      "description": "A cloak pin made of silver. It's shaped like a stingray. The mere sight of it brings back a lot of bad memories.",
+      "value": 0,
       "tier": "5",
       "type": "treasure",
-      "_created": "2019-03-27T06:34:19.449Z",
-      "_updated": "2019-03-27T06:34:19.449Z",
       "__v": 0
     },
     {
@@ -2164,33 +2344,36 @@
     },
     {
       "_id": "5c9b928c3790355729b1bf86",
-      "name": "Shiv",
-      "description": "A makeshift blade, designed for quick stabbin'",
-      "tier": "1",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-03-27T15:11:08.871Z",
-      "_updated": "2020-02-18T10:38:49.635Z",
-      "__v": 0,
-      "value": 1,
       "attackSet": [
         {
           "damage": {
             "min": 1,
             "max": 4
           },
+          "ranged": false,
           "combatActions": [
             "stab"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-03-27T15:11:08.871Z",
+      "_updated": "2024-09-10T14:29:21.463Z",
+      "name": "Shiv",
+      "description": "A makeshift blade, designed for quick stabbin'",
+      "value": 1,
+      "tier": "1",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5c9c0868379035450eb1c010",
@@ -2212,95 +2395,95 @@
     },
     {
       "_id": "5ca404413790357ad9b1ceba",
-      "name": "Bronze Javelin",
-      "tier": "2",
-      "description": "This short spear can be held in one hand.",
-      "type": "weapon",
-      "encumbrance": 2,
-      "_created": "2019-04-03T00:54:25.189Z",
-      "_updated": "2020-03-18T14:15:18.057Z",
-      "__v": 0,
-      "value": 30,
       "attackSet": [
         {
           "damage": {
             "min": 1,
-            "max": 8
+            "max": 11
           },
+          "ranged": false,
           "combatActions": [
-            "stab"
-          ],
-          "ranged": false
+            "jab"
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 2,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-04-03T00:54:25.189Z",
+      "_updated": "2024-10-02T10:17:29.793Z",
+      "name": "Bronze Javelin",
+      "description": "This short spear can be held in one hand.",
+      "value": 30,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5ca404ce379035592ab1cebb",
+      "attackSet": [
+        {
+          "damage": {
+            "min": 8,
+            "max": 12
+          },
+          "ranged": false,
+          "combatActions": []
+        }
+      ],
+      "combatActions": [
+        "sweep"
+      ],
+      "encumbrance": 7,
+      "slotSets": [
+        [
+          "mainHand",
+          "offHand"
+        ]
+      ],
+      "_created": "2019-04-03T00:56:46.706Z",
+      "_updated": "2024-10-16T09:55:04.453Z",
       "name": "Bronze Halberd",
       "description": "This heavy polearm is in excellent condition.",
+      "value": 40,
       "tier": "2",
       "type": "weapon",
-      "encumbrance": 7,
-      "_created": "2019-04-03T00:56:46.706Z",
-      "_updated": "2020-03-05T12:13:09.307Z",
-      "__v": 0,
-      "value": 40,
+      "__v": 0
+    },
+    {
+      "_id": "5ca40537379035a01cb1cebc",
       "attackSet": [
         {
           "damage": {
             "min": 9,
-            "max": 12
-          },
-          "combatActions": [],
-          "ranged": false
-        }
-      ],
-      "slotSets": [
-        [
-          "mainHand",
-          "offHand"
-        ]
-      ],
-      "combatActions": [
-        "sweep"
-      ]
-    },
-    {
-      "_id": "5ca40537379035a01cb1cebc",
-      "name": "Fine Bronze Halberd",
-      "description": "This heavy polearm seems almost unused.",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 7,
-      "_created": "2019-04-03T00:58:31.591Z",
-      "_updated": "2020-03-05T12:13:04.780Z",
-      "__v": 0,
-      "value": 60,
-      "attackSet": [
-        {
-          "damage": {
-            "min": 10,
             "max": 13
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": []
         }
       ],
+      "combatActions": [
+        "sweep"
+      ],
+      "encumbrance": 7,
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": [
-        "sweep"
-      ]
+      "_created": "2019-04-03T00:58:31.591Z",
+      "_updated": "2024-10-16T09:55:16.940Z",
+      "name": "Fine Bronze Halberd",
+      "description": "This heavy polearm seems almost unused.",
+      "value": 60,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5ca4063c379035798cb1cebd",
@@ -2376,35 +2559,35 @@
     },
     {
       "_id": "5ca438713790356b37b1cf1b",
-      "name": "Bronze Longsword",
-      "description": "Aside from a few notches on the blade, this sword is in excellent condition.",
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-04-03T04:37:05.069Z",
-      "_updated": "2020-02-18T10:39:54.461Z",
-      "__v": 0,
-      "value": 40,
       "attackSet": [
         {
           "damage": {
             "min": 7,
             "max": 8
           },
+          "ranged": false,
           "combatActions": [
-            "stab"
-          ],
-          "ranged": false
+            "thrust"
+          ]
         }
       ],
+      "combatActions": [
+        "parry"
+      ],
+      "encumbrance": 4,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": [
-        "parry"
-      ]
+      "_created": "2019-04-03T04:37:05.069Z",
+      "_updated": "2024-10-02T10:17:07.594Z",
+      "name": "Bronze Longsword",
+      "description": "Aside from a few notches on the blade, this sword is in excellent condition.",
+      "value": 40,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5ca43b9e3790354da9b1cf1c",
@@ -2662,21 +2845,21 @@
     },
     {
       "_id": "5ca5efa4379035e7ffb1fdfa",
-      "name": "Iron Circlet",
-      "description": "A crude iron circlet, riddled with impurities.",
-      "tier": "1",
-      "type": "armor",
+      "armor": 2,
       "encumbrance": 1,
-      "armor": 1,
-      "_created": "2019-04-04T11:51:00.904Z",
-      "_updated": "2020-03-04T07:48:40.789Z",
-      "__v": 0,
-      "value": 15,
       "slotSets": [
         [
           "head"
         ]
-      ]
+      ],
+      "_created": "2019-04-04T11:51:00.904Z",
+      "_updated": "2024-10-24T08:23:13.695Z",
+      "name": "Iron Circlet",
+      "description": "A crude iron circlet, riddled with impurities.",
+      "value": 15,
+      "tier": "1",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5ca5f12e379035d830b1fdfb",
@@ -2745,9 +2928,9 @@
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "protection",
             "type": "term",
-            "value": 1,
-            "statName": "protection"
+            "value": 1
           }
         ],
         "onEquip": [
@@ -2755,23 +2938,26 @@
             "type": "displayNotification",
             "parameters": [
               "This will protect you in the heat of battle..."
-            ]
+            ],
+            "_id": "66ddc52d15ccc126634346cb"
           }
-        ]
+        ],
+        "immunities": [],
+        "onUnEquip": []
       },
-      "name": "Wooden Bracelet",
-      "description": "Sculpted to resemble rooks, wolves and serpentine flames.",
-      "tier": "1",
-      "type": "treasure",
-      "_created": "2019-04-04T12:04:54.483Z",
-      "_updated": "2020-03-04T08:50:33.013Z",
-      "__v": 0,
-      "value": 10,
       "slotSets": [
         [
-          "accessory"
+          "ornament"
         ]
-      ]
+      ],
+      "_created": "2019-04-04T12:04:54.483Z",
+      "_updated": "2024-09-08T15:39:25.552Z",
+      "name": "Wooden Bracelet",
+      "description": "Sculpted to resemble rooks, wolves and serpentine flames.",
+      "value": 10,
+      "tier": "1",
+      "type": "treasure",
+      "__v": 0
     },
     {
       "_id": "5ca5f33c379035241fb1fdfe",
@@ -2826,82 +3012,89 @@
     },
     {
       "_id": "5cab7c5e379035ff3eb223f6",
+      "armor": 3,
+      "encumbrance": 2,
+      "slotSets": [
+        [
+          "body"
+        ]
+      ],
+      "_created": "2019-04-08T16:52:46.777Z",
+      "_updated": "2024-10-19T07:13:08.975Z",
       "name": "Studded Leather Cuirass",
       "description": "Studded black leather. Incredibly robust. The result of fine craftmanship.",
       "value": 55,
       "tier": "3",
       "type": "armor",
-      "encumbrance": 3,
-      "armor": 3,
-      "_created": "2019-04-08T16:52:46.777Z",
-      "_updated": "2020-03-04T07:49:26.757Z",
-      "__v": 0,
-      "slotSets": [
-        [
-          "body"
-        ]
-      ]
+      "__v": 0
     },
     {
       "_id": "5cab7db4379035d0f0b223f7",
-      "name": "Iron Dagger",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 1,
-      "value": 28,
-      "description": "The quintessential black iron dagger, favored by the rogues and assassins of Tem Khiris.",
-      "_created": "2019-04-08T16:58:28.225Z",
-      "_updated": "2020-02-18T10:32:34.645Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 3,
-            "max": 5
+            "max": 7
           },
+          "ranged": false,
           "combatActions": [
             "cut",
             "stab"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-04-08T16:58:28.225Z",
+      "_updated": "2024-10-15T10:47:47.328Z",
+      "name": "Iron Dagger",
+      "description": "The quintessential black iron dagger, favored by the rogues and assassins of Tem Khiris.",
+      "value": 28,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5cab7e533790353dc8b223f8",
-      "name": "Iron Scepter",
-      "description": "If nothing else, this weapon commands respect.",
-      "value": 30,
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 5,
-      "_created": "2019-04-08T17:01:07.787Z",
-      "_updated": "2020-02-18T10:35:23.919Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 4,
             "max": 10
           },
+          "ranged": false,
           "combatActions": [
-            "slam"
-          ],
-          "ranged": false
+            "slam",
+            "stun"
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 5,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-04-08T17:01:07.787Z",
+      "_updated": "2024-10-20T17:06:20.559Z",
+      "name": "Iron Scepter",
+      "description": "If nothing else, this weapon commands respect.",
+      "value": 30,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5cab7f1737903512c8b223f9",
@@ -2929,39 +3122,39 @@
     },
     {
       "_id": "5cab803337903554f2b223fb",
+      "armor": 2,
+      "encumbrance": 2,
+      "slotSets": [
+        [
+          "body"
+        ]
+      ],
+      "_created": "2019-04-08T17:09:07.221Z",
+      "_updated": "2024-10-19T07:12:35.791Z",
       "name": "Red Cloak",
       "description": "A red linen cloak. The unusual color makes it slightly less affordable.",
       "value": 8,
       "tier": "1",
       "type": "armor",
-      "encumbrance": 1,
-      "armor": 1,
-      "_created": "2019-04-08T17:09:07.221Z",
-      "_updated": "2020-03-04T07:49:47.722Z",
-      "__v": 0,
-      "slotSets": [
-        [
-          "body"
-        ]
-      ]
+      "__v": 0
     },
     {
       "_id": "5cab80c6379035dfc8b223fc",
+      "armor": 2,
+      "encumbrance": 1,
+      "slotSets": [
+        [
+          "head"
+        ]
+      ],
+      "_created": "2019-04-08T17:11:34.167Z",
+      "_updated": "2024-10-19T07:12:19.442Z",
       "name": "Black Turban",
       "description": "These are supposedly fashionable among Panossian elites.",
       "value": 3,
       "tier": "1",
       "type": "armor",
-      "encumbrance": 1,
-      "armor": 1,
-      "_created": "2019-04-08T17:11:34.167Z",
-      "_updated": "2020-03-04T07:50:07.091Z",
-      "__v": 0,
-      "slotSets": [
-        [
-          "head"
-        ]
-      ]
+      "__v": 0
     },
     {
       "_id": "5cacf362379035d02cb22754",
@@ -2981,35 +3174,47 @@
     },
     {
       "_id": "5cacf3cc3790355a8eb22755",
+      "slotSets": [
+        [
+          "ornament"
+        ]
+      ],
+      "_created": "2019-04-09T19:34:36.009Z",
+      "_updated": "2024-09-08T15:40:02.414Z",
       "name": "Silver Earrings",
       "description": "Ripped from the ears of a desecrated corpse.",
       "value": 14,
       "tier": "1",
       "type": "treasure",
-      "_created": "2019-04-09T19:34:36.009Z",
-      "_updated": "2019-05-22T18:29:01.471Z",
-      "__v": 0,
+      "__v": 0
+    },
+    {
+      "_id": "5cacf4673790351829b22756",
+      "sideEffects": {
+        "statModifiers": [
+          {
+            "statName": "charisma",
+            "type": "term",
+            "value": -1
+          }
+        ],
+        "onEquip": [],
+        "onUnEquip": [],
+        "immunities": []
+      },
       "slotSets": [
         [
           "accessory"
         ]
-      ]
-    },
-    {
-      "_id": "5cacf4673790351829b22756",
+      ],
+      "_created": "2019-04-09T19:37:11.087Z",
+      "_updated": "2024-10-24T09:33:39.268Z",
       "name": "Glass Eye",
       "description": "Green iris. Removed from the left eye socket of a desecrated corpse.",
       "value": 1,
       "tier": "1",
       "type": "treasure",
-      "_created": "2019-04-09T19:37:11.087Z",
-      "_updated": "2019-05-28T17:09:10.270Z",
-      "__v": 0,
-      "slotSets": [
-        [
-          "accessory"
-        ]
-      ]
+      "__v": 0
     },
     {
       "_id": "5cacf53437903576dbb22757",
@@ -3027,9 +3232,9 @@
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "protection",
             "type": "term",
-            "value": 1,
-            "statName": "protection"
+            "value": 1
           }
         ],
         "onEquip": [
@@ -3037,23 +3242,26 @@
             "type": "displayNotification",
             "parameters": [
               "This robust ankle bracelet will provide some protection..."
-            ]
+            ],
+            "_id": "66ddc53615ccc126634346dc"
           }
-        ]
+        ],
+        "onUnEquip": [],
+        "immunities": []
       },
+      "slotSets": [
+        [
+          "ornament"
+        ]
+      ],
+      "_created": "2019-04-09T19:42:57.810Z",
+      "_updated": "2024-10-19T11:20:29.254Z",
       "name": "Bronze Ankle Bracelet",
       "description": "Fashionable among the native druids on the Isle of Dusk.",
       "value": 11,
       "tier": "1",
       "type": "treasure",
-      "_created": "2019-04-09T19:42:57.810Z",
-      "_updated": "2020-03-04T08:49:37.267Z",
-      "__v": 0,
-      "slotSets": [
-        [
-          "accessory"
-        ]
-      ]
+      "__v": 0
     },
     {
       "_id": "5cad5a913790354ae0b2285c",
@@ -3127,97 +3335,120 @@
     },
     {
       "_id": "5cb3324ac065f08683943257",
-      "name": "Black Phosphorus",
-      "description": "A unique masterwork morning star, reputedly crafted by the infamous Blacksmith of Woe.",
-      "value": 300,
-      "tier": "4",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-04-14T13:14:50.845Z",
-      "_updated": "2020-02-18T10:35:16.158Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 8,
-            "max": 18
+            "max": 16
           },
+          "ranged": false,
           "combatActions": [
-            "slam"
-          ],
-          "ranged": false
+            "slam",
+            "puncture"
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 6,
+      "sideEffects": {
+        "statModifiers": [
+          {
+            "statName": "hitMeleeChance",
+            "type": "term",
+            "value": 0.1
+          },
+          {
+            "statName": "initiative",
+            "type": "factor",
+            "value": 1.5
+          }
+        ],
+        "onEquip": [],
+        "onUnEquip": [],
+        "immunities": []
+      },
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-04-14T13:14:50.845Z",
+      "_updated": "2024-10-20T17:13:20.084Z",
+      "name": "Black Phosphorus",
+      "description": "A unique masterwork morning star, reputedly crafted by the infamous Blacksmith of Woe.",
+      "value": 300,
+      "tier": "4",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5cb3564fc065f08fda94337d",
-      "name": "Fine Bronze Cutlass",
-      "description": "The broad blade of this short sabre is remarkably sharp. The pommel is adorned with hieroglyphs.",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 2,
-      "value": 30,
-      "_created": "2019-04-14T15:48:31.079Z",
-      "_updated": "2020-03-11T16:38:30.636Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 3,
             "max": 9
           },
+          "ranged": false,
           "combatActions": [
             "cut"
-          ],
-          "ranged": false
+          ]
         }
-      ],
-      "slotSets": [
-        [
-          "mainHand"
-        ]
       ],
       "combatActions": [
         "parry"
-      ]
+      ],
+      "encumbrance": 2,
+      "slotSets": [
+        [
+          "mainHand"
+        ],
+        [
+          "offHand"
+        ]
+      ],
+      "_created": "2019-04-14T15:48:31.079Z",
+      "_updated": "2024-09-10T14:21:56.123Z",
+      "name": "Fine Bronze Cutlass",
+      "description": "The broad blade of this short sabre is remarkably sharp. The pommel is adorned with hieroglyphs.",
+      "value": 30,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5cb35818c065f0135594337e",
-      "name": "Iron Scythe",
-      "description": "The wooden handle has been reinforced with iron bands. The black blade is sharp enough to harvest souls and crops in equal measure.",
-      "value": 40,
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-04-14T15:56:08.745Z",
-      "_updated": "2020-03-11T16:40:46.419Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
-            "max": 12,
-            "min": 1
+            "min": 5,
+            "max": 12
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": [
+            "hamstring"
+          ]
         }
       ],
+      "combatActions": [
+        "trip"
+      ],
+      "encumbrance": 6,
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": [
-        "sweep"
-      ]
+      "_created": "2019-04-14T15:56:08.745Z",
+      "_updated": "2024-10-24T13:12:32.096Z",
+      "name": "Iron Scythe",
+      "description": "The wooden handle has been reinforced with iron bands. The black blade is sharp enough to harvest souls and crops in equal measure.",
+      "value": 40,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5cb35965c065f048a294337f",
@@ -3285,21 +3516,33 @@
     },
     {
       "_id": "5cb7a6e7c065f0aa059434e7",
+      "armor": 6,
+      "encumbrance": 6,
+      "sideEffects": {
+        "statModifiers": [
+          {
+            "statName": "hitMeleeChance",
+            "type": "term",
+            "value": 0.1
+          }
+        ],
+        "onEquip": [],
+        "onUnEquip": [],
+        "immunities": []
+      },
+      "slotSets": [
+        [
+          "head"
+        ]
+      ],
+      "_created": "2019-04-17T22:21:27.056Z",
+      "_updated": "2024-10-21T09:25:24.317Z",
       "name": "Iron Mask of Celestial Triad",
       "description": "A heavy iron mask with three faces: a wolf, a wise sage and a woman.",
       "value": 50,
       "tier": "3",
       "type": "armor",
-      "encumbrance": 7,
-      "armor": 7,
-      "_created": "2019-04-17T22:21:27.056Z",
-      "_updated": "2020-03-04T07:50:45.511Z",
-      "__v": 0,
-      "slotSets": [
-        [
-          "head"
-        ]
-      ]
+      "__v": 0
     },
     {
       "_id": "5cb7a7b7c065f092659434e8",
@@ -3334,35 +3577,38 @@
     },
     {
       "_id": "5cb9160dc065f0a88a943b32",
-      "name": "Bronze Broadsword",
-      "description": "There are a few notches in this otherwise serviceable blade.",
-      "value": 26,
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 3,
-      "_created": "2019-04-19T00:27:57.493Z",
-      "_updated": "2020-02-18T10:33:20.732Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 6,
             "max": 7
           },
+          "ranged": false,
           "combatActions": [
             "stab"
-          ],
-          "ranged": false
+          ]
         }
-      ],
-      "slotSets": [
-        [
-          "mainHand"
-        ]
       ],
       "combatActions": [
         "parry"
-      ]
+      ],
+      "encumbrance": 3,
+      "slotSets": [
+        [
+          "mainHand"
+        ],
+        [
+          "offHand"
+        ]
+      ],
+      "_created": "2019-04-19T00:27:57.493Z",
+      "_updated": "2024-10-20T17:10:10.578Z",
+      "name": "Bronze Broadsword",
+      "description": "There are a few notches in this otherwise serviceable blade.",
+      "value": 26,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5cb91a26c065f03801943b33",
@@ -3420,33 +3666,36 @@
     },
     {
       "_id": "5cbb8367c065f0fb96944ecd",
-      "name": "Ancient Iron Dagger",
-      "description": "A long dagger with serrated edges, plagued by ancient rust.",
-      "value": 25,
-      "tier": "2",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-04-20T20:39:03.252Z",
-      "_updated": "2020-02-18T10:14:11.569Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 2,
             "max": 5
           },
+          "ranged": false,
           "combatActions": [
             "cut"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-04-20T20:39:03.252Z",
+      "_updated": "2024-09-10T14:23:27.891Z",
+      "name": "Ancient Iron Dagger",
+      "description": "A long dagger with serrated edges, plagued by ancient rust.",
+      "value": 25,
+      "tier": "2",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5cc12f51c065f025be9464e1",
@@ -3574,14 +3823,30 @@
     },
     {
       "_id": "5cd262abf7cea25c17745001",
+      "combatActions": [
+        "bash"
+      ],
+      "blockChance": 0.16,
+      "encumbrance": 4,
+      "slotSets": [
+        [
+          "offHand"
+        ]
+      ],
+      "_created": "2019-05-08T05:01:31.570Z",
+      "_updated": "2024-10-17T10:40:32.762Z",
       "name": "Domed Shield of Rook",
       "description": "A large round wooden shield, adorned by the painted silhouette of a rook.",
       "value": 14,
       "tier": "2",
       "type": "shield",
-      "_created": "2019-05-08T05:01:31.570Z",
-      "_updated": "2020-03-05T06:03:05.667Z",
-      "__v": 0,
+      "__v": 0
+    },
+    {
+      "_id": "5cd26364f7cea27c6b745002",
+      "combatActions": [
+        "bash"
+      ],
       "blockChance": 0.16,
       "encumbrance": 4,
       "slotSets": [
@@ -3589,43 +3854,28 @@
           "offHand"
         ]
       ],
-      "combatActions": []
-    },
-    {
-      "_id": "5cd26364f7cea27c6b745002",
+      "_created": "2019-05-08T05:04:36.601Z",
+      "_updated": "2024-10-17T10:40:42.259Z",
       "name": "Domed Shield of Dusk",
       "description": "A large round wooden shield, adorned with a painted sunset.",
       "value": 14,
       "tier": "2",
       "type": "shield",
-      "_created": "2019-05-08T05:04:36.601Z",
-      "_updated": "2020-03-05T06:02:54.637Z",
-      "__v": 0,
-      "blockChance": 0.16,
-      "encumbrance": 4,
-      "slotSets": [
-        [
-          "offHand"
-        ]
-      ],
-      "combatActions": []
+      "__v": 0
     },
     {
       "_id": "5cd2fe93f7cea24a9e74582a",
-      "name": "Orb of Reflection",
-      "type": "treasure",
-      "tier": "4",
-      "description": "A spherical mirror, stolen from the Tomb of Hieronymus.",
-      "value": 50,
-      "_created": "2019-05-08T16:06:43.802Z",
-      "_updated": "2019-10-16T09:31:39.167Z",
-      "__v": 0,
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "charisma",
             "type": "term",
-            "value": 1,
-            "statName": "charisma"
+            "value": 1
+          },
+          {
+            "statName": "initiative",
+            "type": "factor",
+            "value": 2
           }
         ],
         "onEquip": [
@@ -3633,33 +3883,50 @@
             "type": "displayNotification",
             "parameters": [
               "A mesmerizing sphere..."
-            ]
+            ],
+            "_id": "671136e377e717d40d38175e"
           }
-        ]
+        ],
+        "immunities": [],
+        "onUnEquip": []
       },
       "slotSets": [
         [
           "offHand"
         ]
-      ]
+      ],
+      "_created": "2019-05-08T16:06:43.802Z",
+      "_updated": "2024-10-17T16:10:11.468Z",
+      "name": "Orb of Reflection",
+      "description": "A spherical mirror, stolen from the Tomb of Hieronymus.",
+      "value": 50,
+      "tier": "4",
+      "type": "treasure",
+      "__v": 0
     },
     {
       "_id": "5cd31c97f7cea2056a745932",
-      "name": "Crimson Falcata",
-      "description": "A short-bladed sickle-sword. Made from the elusive red rock, quarried on the Isle of Penance. Crafted by a master blacksmith. Adorned with cryptic runes.",
-      "value": 150,
-      "tier": "4",
-      "type": "weapon",
+      "attackSet": [
+        {
+          "damage": {
+            "min": 7,
+            "max": 14
+          },
+          "ranged": false,
+          "combatActions": [
+            "hamstring",
+            "swipe"
+          ]
+        }
+      ],
+      "combatActions": [],
       "encumbrance": 4,
-      "_created": "2019-05-08T18:14:47.433Z",
-      "_updated": "2020-02-21T02:11:26.614Z",
-      "__v": 0,
       "sideEffects": {
         "statModifiers": [
           {
-            "type": "term",
-            "value": 1,
-            "statName": "agility"
+            "statName": "speed",
+            "type": "factor",
+            "value": 1.15
           }
         ],
         "onEquip": [
@@ -3667,30 +3934,29 @@
             "type": "displayNotification",
             "parameters": [
               "Unnatural forces linger in the black runes of this red blade."
-            ]
+            ],
+            "_id": "6711377677e717d40d3817a3"
           }
-        ]
+        ],
+        "onUnEquip": [],
+        "immunities": []
       },
-      "attackSet": [
-        {
-          "damage": {
-            "max": 14,
-            "min": 6
-          },
-          "combatActions": [
-            "cut"
-          ],
-          "ranged": false
-        }
-      ],
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": [
-        "parry"
-      ]
+      "_created": "2019-05-08T18:14:47.433Z",
+      "_updated": "2024-10-25T06:56:26.167Z",
+      "name": "Crimson Falcata",
+      "description": "A short-bladed sickle-sword. Made from the elusive red rock, quarried on the Isle of Penance. Crafted by a master blacksmith. Adorned with cryptic runes.",
+      "value": 150,
+      "tier": "4",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5cd38285f7cea24517745cff",
@@ -3730,9 +3996,9 @@
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "protection",
             "type": "term",
-            "value": 1,
-            "statName": "protection"
+            "value": 1
           }
         ],
         "onEquip": [
@@ -3740,37 +4006,35 @@
             "type": "displayNotification",
             "parameters": [
               "This exquisite armband is sturdy enough to provide some protection..."
-            ]
+            ],
+            "_id": "66ddc53d15ccc126634346ed"
           }
-        ]
+        ],
+        "immunities": [],
+        "onUnEquip": []
       },
+      "slotSets": [
+        [
+          "ornament"
+        ]
+      ],
+      "_created": "2019-05-16T22:24:00.586Z",
+      "_updated": "2024-09-08T15:39:41.370Z",
       "name": "Golden Armband",
       "description": "A thick golden bracelet, shaped like an ouroboros.",
       "value": 60,
       "tier": "3",
       "type": "treasure",
-      "_created": "2019-05-16T22:24:00.586Z",
-      "_updated": "2020-03-04T08:47:22.119Z",
-      "__v": 0,
-      "slotSets": [
-        [
-          "accessory"
-        ]
-      ]
+      "__v": 0
     },
     {
       "_id": "5cdde5cfc3e78f575c5bc006",
-      "name": "Sapphire Ring",
-      "description": "Shaped like a wreath of serpents, this gold ring is endowed with a sizable gemstone.",
-      "value": 250,
-      "tier": "4",
-      "type": "treasure",
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "charisma",
             "type": "term",
-            "value": 1,
-            "statName": "charisma"
+            "value": 1
           }
         ],
         "onEquip": [
@@ -3778,97 +4042,104 @@
             "type": "displayNotification",
             "parameters": [
               "Your confidence grows when you put the ring on your finger."
-            ]
+            ],
+            "_id": "66ddc54315ccc126634346fe"
           }
-        ]
+        ],
+        "immunities": [],
+        "onUnEquip": []
       },
-      "_created": "2019-05-16T22:35:59.512Z",
-      "_updated": "2019-11-04T20:40:53.904Z",
-      "__v": 0,
       "slotSets": [
         [
-          "accessory"
+          "ornament"
         ]
-      ]
+      ],
+      "_created": "2019-05-16T22:35:59.512Z",
+      "_updated": "2024-09-08T15:39:47.934Z",
+      "name": "Sapphire Ring",
+      "description": "Shaped like a wreath of serpents, this gold ring is endowed with a sizable gemstone.",
+      "value": 250,
+      "tier": "4",
+      "type": "treasure",
+      "__v": 0
     },
     {
       "_id": "5cddf94cc3e78f663e5bc014",
-      "name": "Wooden Staff",
-      "description": "A long stick made of wood. Nothing more to it, really.",
-      "value": 1,
-      "tier": "1",
-      "type": "weapon",
-      "encumbrance": 3,
-      "_created": "2019-05-16T23:59:08.958Z",
-      "_updated": "2020-02-18T10:32:17.811Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 1,
-            "max": 3
+            "max": 4
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": [
+            "stun"
+          ]
         }
       ],
+      "combatActions": [
+        "sweep"
+      ],
+      "encumbrance": 3,
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": [
-        "sweep"
-      ]
+      "_created": "2019-05-16T23:59:08.958Z",
+      "_updated": "2024-10-24T06:50:58.042Z",
+      "name": "Wooden Staff",
+      "description": "A long stick made of wood. Nothing more to it, really.",
+      "value": 1,
+      "tier": "1",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5cddfaa3c3e78f6efe5bc019",
-      "name": "Iron Claymore",
-      "type": "weapon",
-      "encumbrance": 7,
-      "description": "A heavy two-handed sword. The blade is sharp.",
-      "value": 60,
-      "tier": "3",
-      "_created": "2019-05-17T00:04:51.873Z",
-      "_updated": "2020-02-18T10:32:08.197Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 11,
             "max": 14
           },
+          "ranged": false,
           "combatActions": [
-            "cleave"
-          ],
-          "ranged": false
+            "cleave",
+            "sever"
+          ]
         }
       ],
+      "combatActions": [
+        "parry"
+      ],
+      "encumbrance": 7,
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": [
-        "parry"
-      ]
+      "_created": "2019-05-17T00:04:51.873Z",
+      "_updated": "2024-10-21T09:27:11.735Z",
+      "name": "Iron Claymore",
+      "description": "A heavy two-handed sword. The blade is sharp.",
+      "value": 60,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5cde01e3c3e78f766c5bc020",
-      "name": "Black Iron Gauntlets",
-      "value": 50,
-      "tier": "3",
-      "description": "Heavy iron gauntlets. Crude and cumbersome.",
-      "type": "armor",
-      "encumbrance": 8,
       "armor": 5,
+      "encumbrance": 4,
       "sideEffects": {
         "statModifiers": [
           {
-            "type": "meleeDamage",
-            "value": null
+            "statName": "meleeDamage",
+            "type": "term",
+            "value": 2
           }
         ],
         "onEquip": [
@@ -3876,18 +4147,26 @@
             "type": "displayNotification",
             "parameters": [
               "For a moment, you are haunted by visions of death..."
-            ]
+            ],
+            "_id": "66e0551815ccc12663448216"
           }
-        ]
+        ],
+        "onUnEquip": [],
+        "immunities": []
       },
-      "_created": "2019-05-17T00:35:47.023Z",
-      "_updated": "2020-03-04T09:00:57.001Z",
-      "__v": 0,
       "slotSets": [
         [
           "hands"
         ]
-      ]
+      ],
+      "_created": "2019-05-17T00:35:47.023Z",
+      "_updated": "2024-09-10T14:18:48.924Z",
+      "name": "Black Iron Gauntlets",
+      "description": "Heavy iron gauntlets. Crude and cumbersome.",
+      "value": 50,
+      "tier": "3",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5cde0370c3e78f77235bc022",
@@ -3920,17 +4199,17 @@
     },
     {
       "_id": "5ce52540c3e78f175a5bd9a4",
-      "name": "Crown of Wildflowers",
-      "tier": "4",
-      "type": "treasure",
-      "value": 40,
-      "description": "A wreath of exuberant and exotic wildflowers, covering a broad range of colors.",
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "protection",
             "type": "term",
-            "value": 4,
-            "statName": "protection"
+            "value": 1
+          },
+          {
+            "statName": "evadeMeleeChance",
+            "type": "term",
+            "value": 0.075
           }
         ],
         "onEquip": [
@@ -3938,18 +4217,26 @@
             "type": "displayNotification",
             "parameters": [
               "The smell of brimstone..."
-            ]
+            ],
+            "_id": "66e0549815ccc12663448157"
           }
-        ]
+        ],
+        "onUnEquip": [],
+        "immunities": []
       },
-      "_created": "2019-05-22T10:32:32.344Z",
-      "_updated": "2020-04-18T12:06:39.774Z",
-      "__v": 0,
       "slotSets": [
         [
           "head"
         ]
-      ]
+      ],
+      "_created": "2019-05-22T10:32:32.344Z",
+      "_updated": "2024-10-25T06:48:51.991Z",
+      "name": "Crown of Wildflowers",
+      "description": "A wreath of exuberant and exotic wildflowers, covering a broad range of colors.",
+      "value": 40,
+      "tier": "4",
+      "type": "treasure",
+      "__v": 0
     },
     {
       "_id": "5ce526ddc3e78f3d005bda13",
@@ -3989,9 +4276,9 @@
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "protection",
             "type": "term",
-            "value": 1,
-            "statName": "protection"
+            "value": 2
           }
         ],
         "onEquip": [
@@ -3999,23 +4286,26 @@
             "type": "displayNotification",
             "parameters": [
               "This bracelet is not only expensive, it should provide a small amount of protection..."
-            ]
+            ],
+            "_id": "66ddc4e815ccc1266343467c"
           }
-        ]
+        ],
+        "onUnEquip": [],
+        "immunities": []
       },
+      "slotSets": [
+        [
+          "ornament"
+        ]
+      ],
+      "_created": "2019-05-22T10:43:48.499Z",
+      "_updated": "2024-09-11T07:45:48.927Z",
       "name": "Ruby Bracelet",
       "description": "A golden bracelet with five sizable, rectangular rubies.",
       "value": 75,
       "tier": "4",
       "type": "treasure",
-      "_created": "2019-05-22T10:43:48.499Z",
-      "_updated": "2020-03-04T08:54:59.870Z",
-      "__v": 0,
-      "slotSets": [
-        [
-          "accessory"
-        ]
-      ]
+      "__v": 0
     },
     {
       "_id": "5ce5283fc3e78f05f05bda17",
@@ -4067,19 +4357,19 @@
     },
     {
       "_id": "5ce529aac3e78fcdde5bda1a",
+      "slotSets": [
+        [
+          "ornament"
+        ]
+      ],
+      "_created": "2019-05-22T10:51:22.411Z",
+      "_updated": "2024-09-08T15:37:22.450Z",
       "name": "Silver Ring",
       "description": "A silver ring with no additional adornments. Sterling.",
       "value": 22,
       "tier": "3",
       "type": "treasure",
-      "_created": "2019-05-22T10:51:22.411Z",
-      "_updated": "2020-03-04T08:53:29.142Z",
-      "__v": 0,
-      "slotSets": [
-        [
-          "accessory"
-        ]
-      ]
+      "__v": 0
     },
     {
       "_id": "5ce52a92c3e78fb3b95bda1b",
@@ -4145,21 +4435,33 @@
     },
     {
       "_id": "5ce52d19c3e78f39915bda20",
+      "armor": 1,
+      "encumbrance": 1,
+      "sideEffects": {
+        "statModifiers": [
+          {
+            "statName": "charisma",
+            "type": "term",
+            "value": 1
+          }
+        ],
+        "immunities": [],
+        "onEquip": [],
+        "onUnEquip": []
+      },
+      "slotSets": [
+        [
+          "head"
+        ]
+      ],
+      "_created": "2019-05-22T11:06:01.919Z",
+      "_updated": "2024-10-24T08:22:48.451Z",
       "name": "Fraternal Headpiece",
       "description": "A tall hat which seems comically ornate and elaborate in its design.",
       "value": 8,
       "tier": "2",
       "type": "armor",
-      "encumbrance": 1,
-      "armor": 1,
-      "_created": "2019-05-22T11:06:01.919Z",
-      "_updated": "2020-03-04T07:55:57.096Z",
-      "__v": 0,
-      "slotSets": [
-        [
-          "head"
-        ]
-      ]
+      "__v": 0
     },
     {
       "_id": "5ce52fcdc3e78f6c915bda6f",
@@ -4500,21 +4802,21 @@
     },
     {
       "_id": "5cf77fe1c3e78f52c75c2a1e",
+      "armor": 2,
+      "encumbrance": 1,
+      "slotSets": [
+        [
+          "body"
+        ]
+      ],
+      "_created": "2019-06-05T08:40:01.290Z",
+      "_updated": "2024-10-19T07:09:57.617Z",
       "name": "Brown Tunic",
       "description": "This tattered linen garment has been soiled by blood and mead.",
       "value": 3,
       "tier": "1",
       "type": "armor",
-      "encumbrance": 1,
-      "armor": 1,
-      "_created": "2019-06-05T08:40:01.290Z",
-      "_updated": "2020-03-04T08:03:02.731Z",
-      "__v": 0,
-      "slotSets": [
-        [
-          "body"
-        ]
-      ]
+      "__v": 0
     },
     {
       "_id": "5cf780bdc3e78f65115c2a1f",
@@ -4608,49 +4910,52 @@
     },
     {
       "_id": "5cf786c5c3e78fa2705c2a2d",
+      "slotSets": [
+        [
+          "ornament"
+        ]
+      ],
+      "_created": "2019-06-05T09:09:25.424Z",
+      "_updated": "2024-09-08T15:37:54.269Z",
       "name": "Tusk Medallion",
       "description": "A strange medallion. Fragments of a shattered boar tusk have been pieced together with an iron chain, forming a crude necklace.",
       "value": 5,
       "tier": "1",
       "type": "treasure",
-      "_created": "2019-06-05T09:09:25.424Z",
-      "_updated": "2019-06-05T09:09:25.424Z",
-      "__v": 0,
-      "slotSets": [
-        [
-          "accessory"
-        ]
-      ]
+      "__v": 0
     },
     {
       "_id": "5cf7879bc3e78f31535c2a42",
-      "name": "Iron Punch Dagger",
-      "description": "Some hoodlums are brawlers, some rogues are knife thugs. Some ruffians want the best of both underworlds.",
-      "value": 25,
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-06-05T09:12:59.508Z",
-      "_updated": "2020-03-18T14:21:23.837Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 3,
             "max": 7
           },
+          "ranged": false,
           "combatActions": [
-            "stab"
-          ],
-          "ranged": false
+            "pummel"
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-06-05T09:12:59.508Z",
+      "_updated": "2024-09-10T14:25:15.699Z",
+      "name": "Iron Punch Dagger",
+      "description": "Some hoodlums are brawlers, some rogues are knife thugs. Some ruffians want the best of both underworlds.",
+      "value": 25,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5cf7b0dec3e78f6c805c2de2",
@@ -4804,17 +5109,12 @@
     },
     {
       "_id": "5d443c4f8335b47dbf884b41",
-      "name": "Bone Crown",
-      "description": "A cylindrical crown of tall spikes, made from boar tusks and ivory.",
-      "value": 75,
-      "tier": "4",
-      "type": "treasure",
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "protection",
             "type": "term",
-            "value": 8,
-            "statName": "protection"
+            "value": 2
           }
         ],
         "onEquip": [
@@ -4822,49 +5122,60 @@
             "type": "displayNotification",
             "parameters": [
               "Cold shivers tingle down your spine..."
-            ]
+            ],
+            "_id": "66df5ddd15ccc12663436aa6"
           }
-        ]
+        ],
+        "immunities": [],
+        "onUnEquip": []
       },
-      "_created": "2019-08-02T13:36:15.857Z",
-      "_updated": "2020-04-18T09:54:23.777Z",
-      "__v": 0,
       "slotSets": [
         [
           "accessory"
         ]
-      ]
+      ],
+      "_created": "2019-08-02T13:36:15.857Z",
+      "_updated": "2024-09-09T20:43:09.703Z",
+      "name": "Bone Crown",
+      "description": "A cylindrical crown of tall spikes, made from boar tusks and ivory.",
+      "value": 75,
+      "tier": "4",
+      "type": "treasure",
+      "__v": 0
     },
     {
       "_id": "5d5479a48335b4c9d888506a",
-      "name": "Iron Battle Axe",
-      "description": "A two-handed axe. Faded runes are inscribed across the twin blades of this cumbersome weapon.",
-      "value": 55,
-      "tier": "4",
-      "type": "weapon",
-      "encumbrance": 6,
-      "_created": "2019-08-14T21:14:12.103Z",
-      "_updated": "2020-02-18T10:30:48.707Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 9,
             "max": 13
           },
+          "ranged": false,
           "combatActions": [
-            "cleave"
-          ],
-          "ranged": false
+            "cleave",
+            "sever"
+          ]
         }
       ],
+      "combatActions": [
+        "hook"
+      ],
+      "encumbrance": 6,
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-08-14T21:14:12.103Z",
+      "_updated": "2024-10-16T13:53:40.922Z",
+      "name": "Iron Battle Axe",
+      "description": "A two-handed axe. Faded runes are inscribed across the twin blades of this cumbersome weapon.",
+      "value": 55,
+      "tier": "4",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5d547aa68335b4f1ef88506c",
@@ -4995,83 +5306,89 @@
     },
     {
       "_id": "5d54cd178335b4ed5988520e",
-      "name": "Iron Pike",
-      "description": "A heavy, iron-tipped spear with considerable reach. Intended for two-handed, close combat.",
-      "tier": "3",
-      "value": 30,
-      "type": "weapon",
-      "encumbrance": 8,
-      "_created": "2019-08-15T03:10:15.654Z",
-      "_updated": "2020-03-05T12:15:44.603Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 3,
             "max": 20
           },
+          "ranged": false,
           "combatActions": [
-            "stab"
-          ],
-          "ranged": false
+            "stab",
+            "puncture"
+          ]
         }
       ],
+      "combatActions": [
+        "sweep"
+      ],
+      "encumbrance": 8,
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": [
-        "sweep"
-      ]
+      "_created": "2019-08-15T03:10:15.654Z",
+      "_updated": "2024-10-19T19:24:54.610Z",
+      "name": "Iron Pike",
+      "description": "A heavy, iron-tipped spear with considerable reach. Intended for two-handed, close combat.",
+      "value": 30,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5d54ce838335b402a788520f",
-      "name": "Iron War Sickle",
-      "description": "A heavy iron sickle. Its outward curvature is disrupted by sharp angles.",
-      "tier": "4",
-      "type": "weapon",
-      "value": 50,
-      "encumbrance": 5,
-      "_created": "2019-08-15T03:16:19.440Z",
-      "_updated": "2020-02-21T02:11:53.917Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 10,
             "max": 10
           },
+          "ranged": false,
           "combatActions": [
-            "cut"
-          ],
-          "ranged": false
+            "hamstring"
+          ]
         }
-      ],
-      "slotSets": [
-        [
-          "mainHand"
-        ]
       ],
       "combatActions": [
         "parry"
-      ]
+      ],
+      "encumbrance": 4,
+      "slotSets": [
+        [
+          "mainHand"
+        ],
+        [
+          "offHand"
+        ]
+      ],
+      "_created": "2019-08-15T03:16:19.440Z",
+      "_updated": "2024-09-10T14:26:59.434Z",
+      "name": "Iron War Sickle",
+      "description": "A heavy iron sickle. Its outward curvature is disrupted by sharp angles.",
+      "value": 50,
+      "tier": "4",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5d54d09a8335b4689b885212",
-      "name": "Black Iron Shield",
-      "description": "A heavy round shield, reinforced by dark iron. Nigh impenetrable, yet cumbersome - the sheer size of it will provide a measure of safety.",
-      "tier": "3",
-      "type": "shield",
-      "encumbrance": 5,
-      "blockChance": 0.18,
+      "combatActions": [],
+      "blockChance": 0.2,
+      "encumbrance": 8,
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "protection",
             "type": "term",
-            "value": 20,
-            "statName": "protection"
+            "value": 5
+          },
+          {
+            "statName": "resilience",
+            "type": "term",
+            "value": 1
           }
         ],
         "onEquip": [
@@ -5079,20 +5396,26 @@
             "type": "displayNotification",
             "parameters": [
               "Carrying the heavy shield instills a feeling of invulnerability..."
-            ]
+            ],
+            "_id": "66e0552515ccc12663448227"
           }
-        ]
+        ],
+        "onUnEquip": [],
+        "immunities": []
       },
-      "value": 50,
-      "_created": "2019-08-15T03:25:14.985Z",
-      "_updated": "2020-05-02T23:25:05.765Z",
-      "__v": 0,
       "slotSets": [
         [
           "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-08-15T03:25:14.985Z",
+      "_updated": "2024-10-17T10:42:02.321Z",
+      "name": "Black Iron Shield",
+      "description": "A heavy round shield, reinforced by dark iron. Nigh impenetrable, yet cumbersome - the sheer size of it will provide a measure of safety.",
+      "value": 50,
+      "tier": "3",
+      "type": "shield",
+      "__v": 0
     },
     {
       "_id": "5d54f7028335b4572f88526e",
@@ -5118,17 +5441,12 @@
     },
     {
       "_id": "5d559c758335b42267885326",
-      "name": "Silver Pendant",
-      "description": "Jewelry. An heirloom pendant with an engraving of a wolf. Previously owned by a fisherman from the Town of Set.",
-      "value": 35,
-      "tier": "3",
-      "type": "treasure",
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "protection",
             "type": "term",
-            "value": 1,
-            "statName": "protection"
+            "value": 1
           }
         ],
         "onEquip": [
@@ -5136,18 +5454,26 @@
             "type": "displayNotification",
             "parameters": [
               "The pendant inspires a feeling of reverence. Praised be Phenris!"
-            ]
+            ],
+            "_id": "66ddc4c715ccc12663434645"
           }
-        ]
+        ],
+        "immunities": [],
+        "onUnEquip": []
       },
-      "_created": "2019-08-15T17:55:01.970Z",
-      "_updated": "2019-08-15T17:55:01.970Z",
-      "__v": 0,
       "slotSets": [
         [
-          "accessory"
+          "ornament"
         ]
-      ]
+      ],
+      "_created": "2019-08-15T17:55:01.970Z",
+      "_updated": "2024-09-08T15:37:43.200Z",
+      "name": "Silver Pendant",
+      "description": "Jewelry. An heirloom pendant with an engraving of a wolf. Previously owned by a fisherman from the Town of Set.",
+      "value": 35,
+      "tier": "3",
+      "type": "treasure",
+      "__v": 0
     },
     {
       "_id": "5d6fe9ba8335b43d678868dc",
@@ -5175,16 +5501,14 @@
     },
     {
       "_id": "5d715ea8e6ecf34e69a286a0",
-      "name": "Gotterdammerung",
-      "value": 500,
-      "tier": "4",
-      "type": "armor",
+      "armor": 10,
+      "encumbrance": 8,
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "perception",
             "type": "term",
-            "value": -1,
-            "statName": "perception"
+            "value": -1
           }
         ],
         "onEquip": [
@@ -5192,21 +5516,26 @@
             "type": "displayNotification",
             "parameters": [
               "The world seems darker now..."
-            ]
+            ],
+            "_id": "670f95b4b3d10b553f21a6f8"
           }
-        ]
+        ],
+        "onUnEquip": [],
+        "immunities": []
       },
-      "encumbrance": 8,
-      "armor": 10,
-      "description": "A great helm, crafted from meteoric steel. Two massive horns have been placed on each side. It was discovered in the Underworld beneath Dusk Megalith.",
-      "_created": "2019-09-05T19:14:48.079Z",
-      "_updated": "2020-03-04T08:07:37.578Z",
-      "__v": 0,
       "slotSets": [
         [
           "head"
         ]
-      ]
+      ],
+      "_created": "2019-09-05T19:14:48.079Z",
+      "_updated": "2024-10-21T09:25:00.855Z",
+      "name": "Gotterdammerung",
+      "description": "A great helm, crafted from meteoric steel. Two massive horns have been placed on each side. It was discovered in the Underworld beneath Dusk Megalith.",
+      "value": 500,
+      "tier": "4",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5d7cf1f1e6ecf3799ca2a2ba",
@@ -5413,17 +5742,14 @@
     },
     {
       "_id": "5d818559e6ecf31951a2c87a",
-      "name": "Spiked Gauntlets",
-      "description": "A pair of iron war gauntlets with large spikes protruding from the knuckles.",
-      "value": 150,
-      "tier": "4",
-      "type": "armor",
       "armor": 5,
+      "encumbrance": 5,
       "sideEffects": {
         "statModifiers": [
           {
-            "type": "meleeDamage",
-            "value": null
+            "statName": "meleeDamage",
+            "type": "term",
+            "value": 1
           }
         ],
         "onEquip": [
@@ -5431,19 +5757,26 @@
             "type": "displayNotification",
             "parameters": [
               "Time to do some damage..."
-            ]
+            ],
+            "_id": "66ddc01115ccc126634345e8"
           }
-        ]
+        ],
+        "onUnEquip": [],
+        "immunities": []
       },
-      "_created": "2019-09-18T01:16:09.776Z",
-      "_updated": "2020-03-04T08:15:10.562Z",
-      "__v": 0,
-      "encumbrance": 8,
       "slotSets": [
         [
           "hands"
         ]
-      ]
+      ],
+      "_created": "2019-09-18T01:16:09.776Z",
+      "_updated": "2024-09-10T14:18:55.359Z",
+      "name": "Spiked Gauntlets",
+      "description": "A pair of iron war gauntlets with large spikes protruding from the knuckles.",
+      "value": 150,
+      "tier": "4",
+      "type": "armor",
+      "__v": 0
     },
     {
       "_id": "5d8186abe6ecf3a4b3a2c87c",
@@ -5520,93 +5853,105 @@
     },
     {
       "_id": "5d824d71b97fb3561f7c2f8d",
+      "attackSet": [
+        {
+          "damage": {
+            "min": 5,
+            "max": 10
+          },
+          "ranged": false,
+          "combatActions": [
+            "stab"
+          ]
+        }
+      ],
+      "combatActions": [
+        "glide"
+      ],
+      "encumbrance": 1,
+      "slotSets": [
+        [
+          "mainHand"
+        ],
+        [
+          "offHand"
+        ]
+      ],
+      "_created": "2019-09-18T15:29:53.859Z",
+      "_updated": "2024-10-24T13:11:02.198Z",
       "name": "Rondel Dagger",
       "description": "The long blade of this dagger is quite slim. Perfect for stabbing vital organs.",
       "value": 25,
       "tier": "3",
       "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-09-18T15:29:53.859Z",
-      "_updated": "2020-03-18T14:21:31.915Z",
-      "__v": 0,
-      "attackSet": [
-        {
-          "damage": {
-            "max": 8,
-            "min": 3
-          },
-          "combatActions": [
-            "stab"
-          ],
-          "ranged": false
-        }
-      ],
-      "slotSets": [
-        [
-          "mainHand"
-        ]
-      ],
-      "combatActions": []
+      "__v": 0
     },
     {
       "_id": "5d824e02b97fb3bcc67c2f8e",
+      "attackSet": [
+        {
+          "damage": {
+            "min": 4,
+            "max": 11
+          },
+          "ranged": false,
+          "combatActions": [
+            "puncture",
+            "jab"
+          ]
+        }
+      ],
+      "combatActions": [],
+      "encumbrance": 1,
+      "slotSets": [
+        [
+          "mainHand"
+        ],
+        [
+          "offHand"
+        ]
+      ],
+      "_created": "2019-09-18T15:32:18.483Z",
+      "_updated": "2024-10-24T13:10:32.712Z",
       "name": "Stiletto",
       "description": "Flesh is the natural habitat of this narrow blade.",
       "value": 27,
       "tier": "3",
       "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-09-18T15:32:18.483Z",
-      "_updated": "2020-03-18T14:21:54.955Z",
-      "__v": 0,
-      "attackSet": [
-        {
-          "damage": {
-            "min": 3,
-            "max": 8
-          },
-          "combatActions": [
-            "stab"
-          ],
-          "ranged": false
-        }
-      ],
-      "slotSets": [
-        [
-          "mainHand"
-        ]
-      ],
-      "combatActions": []
+      "__v": 0
     },
     {
       "_id": "5d824ee48ec25988c3100754",
-      "name": "Iron Butcher Knife",
-      "description": "The intimidation factor is hard to quantify.",
-      "value": 22,
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 2,
-      "_created": "2019-09-18T15:36:04.747Z",
-      "_updated": "2020-02-18T10:28:57.714Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 6,
             "max": 6
           },
+          "ranged": false,
           "combatActions": [
             "cut"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 2,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-09-18T15:36:04.747Z",
+      "_updated": "2024-09-10T14:23:02.727Z",
+      "name": "Iron Butcher Knife",
+      "description": "The intimidation factor is hard to quantify.",
+      "value": 22,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5d824f658ec25911cb100755",
@@ -5738,35 +6083,37 @@
     },
     {
       "_id": "5dd3cc65f75a9767c85984bf",
-      "name": "Iron Falchion",
-      "description": "A single-edged, one-handed iron sabre. The pommel has been sculpted to resemble a howling wolf.",
-      "value": 50,
-      "tier": "4",
-      "type": "weapon",
-      "encumbrance": 4,
-      "_created": "2019-11-19T11:05:09.558Z",
-      "_updated": "2020-02-18T10:28:05.515Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 8,
             "max": 11
           },
+          "ranged": false,
           "combatActions": [
-            "stab"
-          ],
-          "ranged": false
+            "hamstring",
+            "thrust"
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 4,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": [
-        "parry"
-      ]
+      "_created": "2019-11-19T11:05:09.558Z",
+      "_updated": "2024-10-20T17:11:19.606Z",
+      "name": "Iron Falchion",
+      "description": "A single-edged, one-handed iron sabre. The pommel has been sculpted to resemble a howling wolf.",
+      "value": 50,
+      "tier": "4",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5dd3cd0cf75a977a445984c0",
@@ -5914,63 +6261,65 @@
     },
     {
       "_id": "5dd3f340f75a97c5bb59869f",
+      "attackSet": [
+        {
+          "damage": {
+            "min": 5,
+            "max": 16
+          },
+          "ranged": false,
+          "combatActions": [
+            "slam",
+            "puncture"
+          ]
+        }
+      ],
+      "combatActions": [],
+      "encumbrance": 7,
+      "slotSets": [
+        [
+          "mainHand"
+        ]
+      ],
+      "_created": "2019-11-19T13:50:56.227Z",
+      "_updated": "2024-09-10T14:22:39.555Z",
       "name": "Heavy Iron Flail",
       "description": "A spiked iron ball, attached to a chain with a handle.",
       "value": 75,
       "tier": "4",
       "type": "weapon",
-      "encumbrance": 7,
-      "_created": "2019-11-19T13:50:56.227Z",
-      "_updated": "2020-02-18T10:27:39.941Z",
-      "__v": 0,
+      "__v": 0
+    },
+    {
+      "_id": "5dd3f3d6f75a972a545986a0",
       "attackSet": [
         {
           "damage": {
-            "max": 16,
-            "min": 5
+            "min": 10,
+            "max": 17
           },
+          "ranged": false,
           "combatActions": [
-            "slam"
-          ],
-          "ranged": false
+            "slam",
+            "puncture"
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 7,
       "slotSets": [
         [
           "mainHand"
         ]
       ],
-      "combatActions": []
-    },
-    {
-      "_id": "5dd3f3d6f75a972a545986a0",
+      "_created": "2019-11-19T13:53:26.961Z",
+      "_updated": "2024-09-10T14:27:46.903Z",
       "name": "Raven's Beak",
       "description": "A sharp war hammer. The head has been sculpted to resemble a raven's beak. Originates from the distant continent of Qad'Malon.",
       "value": 125,
       "tier": "4",
       "type": "weapon",
-      "encumbrance": 7,
-      "_created": "2019-11-19T13:53:26.961Z",
-      "_updated": "2020-03-18T19:13:08.006Z",
-      "__v": 0,
-      "attackSet": [
-        {
-          "damage": {
-            "max": 17,
-            "min": 10
-          },
-          "combatActions": [
-            "slam"
-          ],
-          "ranged": false
-        }
-      ],
-      "slotSets": [
-        [
-          "mainHand"
-        ]
-      ],
-      "combatActions": []
+      "__v": 0
     },
     {
       "_id": "5dd3f49cf75a975b705986a1",
@@ -6029,33 +6378,48 @@
     },
     {
       "_id": "5dd5d93ff75a9721c459e244",
-      "name": "Snake Dagger",
-      "description": "A short iron dagger. The handle has been sculpted to resemble a coiled serpent.",
-      "value": 35,
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2019-11-21T00:24:31.555Z",
-      "_updated": "2020-03-09T20:18:09.396Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 3,
             "max": 9
           },
+          "ranged": false,
           "combatActions": [
             "cut"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
+      "sideEffects": {
+        "statModifiers": [
+          {
+            "statName": "criticalHitChance",
+            "type": "term",
+            "value": 0.05
+          }
+        ],
+        "onEquip": [],
+        "onUnEquip": [],
+        "immunities": []
+      },
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2019-11-21T00:24:31.555Z",
+      "_updated": "2024-09-10T14:24:44.553Z",
+      "name": "Snake Dagger",
+      "description": "A short iron dagger. The handle has been sculpted to resemble a coiled serpent.",
+      "value": 35,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5dd7378ef75a97535059eb95",
@@ -6175,34 +6539,36 @@
     },
     {
       "_id": "5e1f33ac763433d6ad5ace66",
-      "name": "Iron Halberd",
-      "description": "A two-handed polearm, taken from the cold, dead hands of a colossal brute.",
-      "value": 80,
-      "tier": "4",
-      "type": "weapon",
-      "encumbrance": 7,
-      "_created": "2020-01-15T15:45:48.024Z",
-      "_updated": "2020-03-05T12:11:51.250Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
-            "min": 11,
+            "min": 10,
             "max": 14
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": [
+            "hamstring"
+          ]
         }
       ],
+      "combatActions": [
+        "sweep"
+      ],
+      "encumbrance": 7,
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": [
-        "sweep"
-      ]
+      "_created": "2020-01-15T15:45:48.024Z",
+      "_updated": "2024-10-21T09:26:54.334Z",
+      "name": "Iron Halberd",
+      "description": "A two-handed polearm, taken from the cold, dead hands of a colossal brute.",
+      "value": 80,
+      "tier": "4",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5e1f639198fb23815fff8b5c",
@@ -6278,22 +6644,17 @@
     },
     {
       "_id": "5e314f5854168967a9995ed1",
-      "name": "Red Stone Bracelet",
-      "description": "Mysterious black runes have been carved into this bracelet. Cut from the elusive red rock, quarried on the Isle of Penance.",
-      "value": 150,
-      "tier": "4",
-      "type": "treasure",
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "protection",
             "type": "term",
-            "value": 1,
-            "statName": "agility"
+            "value": 2
           },
           {
-            "type": "term",
-            "value": 4,
-            "statName": "protection"
+            "statName": "initiative",
+            "type": "factor",
+            "value": 1.25
           }
         ],
         "onEquip": [
@@ -6301,18 +6662,26 @@
             "type": "displayNotification",
             "parameters": [
               "Unnatural forces linger in the black runes of this red armband..."
-            ]
+            ],
+            "_id": "66ddc51d15ccc126634346ba"
           }
-        ]
+        ],
+        "onUnEquip": [],
+        "immunities": []
       },
-      "_created": "2020-01-29T09:24:40.647Z",
-      "_updated": "2020-03-04T08:44:35.847Z",
-      "__v": 0,
       "slotSets": [
         [
-          "accessory"
+          "ornament"
         ]
-      ]
+      ],
+      "_created": "2020-01-29T09:24:40.647Z",
+      "_updated": "2024-10-17T16:11:18.349Z",
+      "name": "Red Stone Bracelet",
+      "description": "Mysterious black runes have been carved into this bracelet. Cut from the elusive red rock, quarried on the Isle of Penance.",
+      "value": 150,
+      "tier": "4",
+      "type": "treasure",
+      "__v": 0
     },
     {
       "_id": "5e31625c541689ee7a995f9b",
@@ -6411,19 +6780,15 @@
     },
     {
       "_id": "5e3b77cde09478125e33822f",
-      "name": "Desert Cavalry Shield",
-      "description": "A large oval shield, favored by the nomads of Triniset. Blessed by the sigil of Ebiddon, a military leader from ancient times.",
-      "value": 100,
-      "tier": "4",
-      "type": "shield",
-      "encumbrance": 7,
+      "combatActions": [],
       "blockChance": 0.23,
+      "encumbrance": 7,
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "protection",
             "type": "term",
-            "value": 10,
-            "statName": "protection"
+            "value": 3
           }
         ],
         "onEquip": [
@@ -6431,19 +6796,26 @@
             "type": "displayNotification",
             "parameters": [
               "It's as if the soul of Ebiddon himself rests within this shield..."
-            ]
+            ],
+            "_id": "66df6d8515ccc12663437088"
           }
-        ]
+        ],
+        "immunities": [],
+        "onUnEquip": []
       },
-      "_created": "2020-02-06T02:19:57.627Z",
-      "_updated": "2020-03-17T02:41:02.038Z",
-      "__v": 0,
       "slotSets": [
         [
           "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2020-02-06T02:19:57.627Z",
+      "_updated": "2024-09-09T21:49:57.099Z",
+      "name": "Desert Cavalry Shield",
+      "description": "A large oval shield, favored by the nomads of Triniset. Blessed by the sigil of Ebiddon, a military leader from ancient times.",
+      "value": 100,
+      "tier": "4",
+      "type": "shield",
+      "__v": 0
     },
     {
       "_id": "5e3b826ae094788433338236",
@@ -6526,35 +6898,38 @@
     },
     {
       "_id": "5e405b5b6a062f1490162f45",
-      "name": "Knightly Sword",
-      "description": "This iron sword is traditionally favored by the knights of Roeburgh. It has a short hilt, made for single-handed use.",
-      "tier": "4",
-      "type": "weapon",
-      "encumbrance": 4,
-      "value": 90,
-      "_created": "2020-02-09T19:19:55.431Z",
-      "_updated": "2020-03-06T12:33:55.299Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 6,
             "max": 14
           },
+          "ranged": false,
           "combatActions": [
-            "stab"
-          ],
-          "ranged": false
+            "cleave"
+          ]
         }
-      ],
-      "slotSets": [
-        [
-          "mainHand"
-        ]
       ],
       "combatActions": [
         "parry"
-      ]
+      ],
+      "encumbrance": 4,
+      "slotSets": [
+        [
+          "mainHand"
+        ],
+        [
+          "offHand"
+        ]
+      ],
+      "_created": "2020-02-09T19:19:55.431Z",
+      "_updated": "2024-09-10T14:27:34.291Z",
+      "name": "Knightly Sword",
+      "description": "This iron sword is traditionally favored by the knights of Roeburgh. It has a short hilt, made for single-handed use.",
+      "value": 90,
+      "tier": "4",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5e406e246a062f422a162ff2",
@@ -6609,21 +6984,33 @@
     },
     {
       "_id": "5e40da356a062f7aea16305d",
+      "armor": 1,
+      "encumbrance": 1,
+      "sideEffects": {
+        "statModifiers": [
+          {
+            "statName": "blockChance",
+            "type": "term",
+            "value": 0.05
+          }
+        ],
+        "onEquip": [],
+        "onUnEquip": [],
+        "immunities": []
+      },
+      "slotSets": [
+        [
+          "hands"
+        ]
+      ],
+      "_created": "2020-02-10T04:21:09.519Z",
+      "_updated": "2024-09-09T20:38:32.999Z",
       "name": "Kidskin Gloves",
       "description": "White leather gloves, made from the skin of young goats.",
       "value": 20,
       "tier": "4",
       "type": "armor",
-      "encumbrance": 1,
-      "armor": 1,
-      "_created": "2020-02-10T04:21:09.519Z",
-      "_updated": "2020-03-04T08:23:54.465Z",
-      "__v": 0,
-      "slotSets": [
-        [
-          "hands"
-        ]
-      ]
+      "__v": 0
     },
     {
       "_id": "5e40dadf6a062f4bb216305e",
@@ -6796,48 +7183,46 @@
     },
     {
       "_id": "5e4f68fda74d958aeadebc2f",
-      "name": "Steel Dagger",
-      "type": "weapon",
-      "encumbrance": 1,
-      "tier": "4",
-      "value": 80,
-      "description": "A masterwork dagger. Long and sharp, the blade is crafted from the meteoric steel of Triniset.",
-      "_created": "2020-02-21T05:22:05.860Z",
-      "_updated": "2020-02-21T05:24:53.783Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 4,
             "max": 10
           },
+          "ranged": false,
           "combatActions": [
             "cut",
             "stab"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2020-02-21T05:22:05.860Z",
+      "_updated": "2024-09-10T14:23:51.025Z",
+      "name": "Steel Dagger",
+      "description": "A masterwork dagger. Long and sharp, the blade is crafted from the meteoric steel of Triniset.",
+      "value": 80,
+      "tier": "4",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5e54a352b723c23b4a4acf4c",
-      "name": "Wolf Medallion",
-      "description": "A silver medallion with an iron chain. It has been sculpted to resemble the face of a wolf. The relic was blessed by the preacher of Noble Heights.",
-      "value": 100,
-      "tier": "4",
-      "type": "treasure",
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "resilience",
             "type": "term",
-            "value": 1,
-            "statName": "resilience"
+            "value": 1
           }
         ],
         "onEquip": [
@@ -6845,32 +7230,35 @@
             "type": "displayNotification",
             "parameters": [
               "You feel empowered by the blessing of this sacred relic..."
-            ]
+            ],
+            "_id": "66ddc50a15ccc126634346ab"
           }
-        ]
+        ],
+        "immunities": [],
+        "onUnEquip": []
       },
-      "_created": "2020-02-25T04:32:18.184Z",
-      "_updated": "2020-02-25T04:32:18.184Z",
-      "__v": 0,
       "slotSets": [
         [
-          "accessory"
+          "ornament"
         ]
-      ]
-    },
-    {
-      "_id": "5e54a433b723c2454a4acf4e",
-      "name": "Fire Medallion",
-      "description": "A golden medallion with an iron chain. A wreath of flames, forming a circle around nine eyes. This relic was blessed by the preacher of Noble Heights.",
+      ],
+      "_created": "2020-02-25T04:32:18.184Z",
+      "_updated": "2024-09-08T15:38:50.738Z",
+      "name": "Wolf Medallion",
+      "description": "A silver medallion with an iron chain. It has been sculpted to resemble the face of a wolf. The relic was blessed by the preacher of Noble Heights.",
       "value": 100,
       "tier": "4",
       "type": "treasure",
+      "__v": 0
+    },
+    {
+      "_id": "5e54a433b723c2454a4acf4e",
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "charisma",
             "type": "term",
-            "value": 1,
-            "statName": "charisma"
+            "value": 1
           }
         ],
         "onEquip": [
@@ -6878,32 +7266,35 @@
             "type": "displayNotification",
             "parameters": [
               "The sacred relic inspires a feeling of confidence..."
-            ]
+            ],
+            "_id": "66ddc4dd15ccc12663434669"
           }
-        ]
+        ],
+        "immunities": [],
+        "onUnEquip": []
       },
-      "_created": "2020-02-25T04:36:03.683Z",
-      "_updated": "2020-03-17T02:43:07.976Z",
-      "__v": 0,
       "slotSets": [
         [
-          "accessory"
+          "ornament"
         ]
-      ]
-    },
-    {
-      "_id": "5e54a575b723c2411b4acf50",
-      "name": "Rook Medallion",
-      "description": "A silver medallion with an iron chain. Sculpted to resemble the silhouette of a rook. This sacred relic was blessed by the preacher of Noble Heights.",
+      ],
+      "_created": "2020-02-25T04:36:03.683Z",
+      "_updated": "2024-09-08T15:38:05.969Z",
+      "name": "Fire Medallion",
+      "description": "A golden medallion with an iron chain. A wreath of flames, forming a circle around nine eyes. This relic was blessed by the preacher of Noble Heights.",
       "value": 100,
       "tier": "4",
       "type": "treasure",
+      "__v": 0
+    },
+    {
+      "_id": "5e54a575b723c2411b4acf50",
       "sideEffects": {
         "statModifiers": [
           {
+            "statName": "perception",
             "type": "term",
-            "value": 1,
-            "statName": "perception"
+            "value": 1
           }
         ],
         "onEquip": [
@@ -6911,18 +7302,26 @@
             "type": "displayNotification",
             "parameters": [
               "The relic inspires a greater awareness of the world around you..."
-            ]
+            ],
+            "_id": "66ddc50015ccc1266343469c"
           }
-        ]
+        ],
+        "immunities": [],
+        "onUnEquip": []
       },
-      "_created": "2020-02-25T04:41:25.742Z",
-      "_updated": "2020-02-25T04:41:25.742Z",
-      "__v": 0,
       "slotSets": [
         [
-          "accessory"
+          "ornament"
         ]
-      ]
+      ],
+      "_created": "2020-02-25T04:41:25.742Z",
+      "_updated": "2024-09-08T15:38:40.607Z",
+      "name": "Rook Medallion",
+      "description": "A silver medallion with an iron chain. Sculpted to resemble the silhouette of a rook. This sacred relic was blessed by the preacher of Noble Heights.",
+      "value": 100,
+      "tier": "4",
+      "type": "treasure",
+      "__v": 0
     },
     {
       "_id": "5e55b456b723c287fd4adb7b",
@@ -6969,85 +7368,89 @@
     },
     {
       "_id": "5e609b2efe7d0d92976c9a18",
-      "name": "Highland Targe",
-      "description": "An iron-plated wooden buckler. This small round shield is the work of a master.",
-      "value": 65,
-      "tier": "4",
-      "type": "shield",
+      "combatActions": [
+        "bash"
+      ],
       "blockChance": 0.16,
-      "_created": "2020-03-05T06:24:46.257Z",
-      "_updated": "2020-03-10T19:55:07.646Z",
-      "__v": 0,
       "encumbrance": 3,
       "slotSets": [
         [
           "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2020-03-05T06:24:46.257Z",
+      "_updated": "2024-10-17T10:39:25.599Z",
+      "name": "Highland Targe",
+      "description": "An iron-plated wooden buckler. This small round shield is the work of a master.",
+      "value": 65,
+      "tier": "4",
+      "type": "shield",
+      "__v": 0
     },
     {
       "_id": "5e60b3a2fe7d0d4ee26c9b49",
-      "name": "War Staff",
-      "tier": "3",
-      "type": "weapon",
-      "encumbrance": 3,
-      "description": "A long wooden staff, reinforced by a few iron bands. Crafted by the druids of Graefir Island.",
-      "value": 25,
-      "_created": "2020-03-05T08:09:06.049Z",
-      "_updated": "2020-03-05T08:11:10.060Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
-            "min": 5,
-            "max": 10
+            "min": 6,
+            "max": 12
           },
-          "combatActions": [],
-          "ranged": false
+          "ranged": false,
+          "combatActions": [
+            "stun"
+          ]
         }
       ],
+      "combatActions": [
+        "parry",
+        "trip"
+      ],
+      "encumbrance": 3,
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": [
-        "parry",
-        "sweep"
-      ]
+      "_created": "2020-03-05T08:09:06.049Z",
+      "_updated": "2024-10-24T06:50:42.973Z",
+      "name": "War Staff",
+      "description": "A long wooden staff, reinforced by a few iron bands. Crafted by the druids of Graefir Island.",
+      "value": 25,
+      "tier": "3",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5e67a17dd5f2ff1392235f0a",
-      "name": "Iron War Hammer",
-      "description": "A heavy iron maul, intended for two-handed use. Crafted by a master blacksmith.",
-      "value": 100,
-      "tier": "4",
-      "type": "weapon",
-      "encumbrance": 9,
-      "_created": "2020-03-10T14:17:33.001Z",
-      "_updated": "2020-03-10T14:17:33.001Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 10,
             "max": 30
           },
+          "ranged": false,
           "combatActions": [
             "slam"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 10,
       "slotSets": [
         [
           "mainHand",
           "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2020-03-10T14:17:33.001Z",
+      "_updated": "2024-09-10T14:26:27.140Z",
+      "name": "Iron War Hammer",
+      "description": "A heavy iron maul, intended for two-handed use. Crafted by a master blacksmith.",
+      "value": 100,
+      "tier": "4",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5e68feded5f2ff23cb23bb10",
@@ -7062,33 +7465,36 @@
     },
     {
       "_id": "5e6f3ab221eaae938e9f5bd1",
-      "name": "Sharpened Stick",
-      "description": "A sharp wooden stick. This primitive weapon can be used with one hand.",
-      "value": 1,
-      "tier": "1",
-      "type": "weapon",
-      "encumbrance": 1,
-      "_created": "2020-03-16T08:37:06.089Z",
-      "_updated": "2020-03-16T08:37:06.089Z",
-      "__v": 0,
       "attackSet": [
         {
           "damage": {
             "min": 2,
             "max": 3
           },
+          "ranged": false,
           "combatActions": [
             "stab"
-          ],
-          "ranged": false
+          ]
         }
       ],
+      "combatActions": [],
+      "encumbrance": 1,
       "slotSets": [
         [
           "mainHand"
+        ],
+        [
+          "offHand"
         ]
       ],
-      "combatActions": []
+      "_created": "2020-03-16T08:37:06.089Z",
+      "_updated": "2024-10-20T17:09:29.600Z",
+      "name": "Sharpened Stick",
+      "description": "A sharp wooden stick. This primitive weapon can be used with one hand.",
+      "value": 1,
+      "tier": "1",
+      "type": "weapon",
+      "__v": 0
     },
     {
       "_id": "5e6f3d6221eaae59dd9f5ccb",
@@ -7188,6 +7594,70 @@
           "body"
         ]
       ]
+    },
+    {
+      "_id": "670fa417b3d10b553f21b208",
+      "consumption": {
+        "actions": [
+          {
+            "type": "addEffect",
+            "parameters": [
+              "stanched"
+            ],
+            "_id": "670fa417b3d10b553f21b209"
+          }
+        ],
+        "uses": 1
+      },
+      "name": "Sanguine Draught",
+      "description": "A small glass vial of red liquid. This alchemical potion prevents bleeding. It must be consumed before engaging in combat.",
+      "value": 20,
+      "tier": "3",
+      "type": "medicine",
+      "_created": "2024-10-16T11:31:35.078Z",
+      "_updated": "2024-10-16T11:31:35.078Z",
+      "__v": 0
+    },
+    {
+      "_id": "67117ba477e717d40d3869e2",
+      "sideEffects": {
+        "statModifiers": [
+          {
+            "statName": "initiative",
+            "type": "factor",
+            "value": 1.2
+          },
+          {
+            "statName": "evadeMeleeChance",
+            "type": "term",
+            "value": 0.1
+          }
+        ],
+        "onEquip": [
+          {
+            "type": "displayNotification",
+            "parameters": [
+              "The smell of brimstone..."
+            ],
+            "_id": "67117ba477e717d40d3869e3"
+          }
+        ],
+        "onUnEquip": [],
+        "immunities": []
+      },
+      "slotSets": [
+        [
+          "head"
+        ]
+      ],
+      "_created": "2024-10-17T21:03:32.791Z",
+      "_updated": "2024-10-25T06:45:47.163Z",
+      "name": "Crown of Wildflowers",
+      "description": "A wreath of colorful wildflowers from the rainswept grasslands of Roe. It was a gift from an evil druid.",
+      "value": 50,
+      "tier": "4",
+      "type": "treasure",
+      "__v": 0
     }
   ]
 }

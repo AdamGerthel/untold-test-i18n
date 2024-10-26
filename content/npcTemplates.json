@@ -1,12 +1,12 @@
 {
-  "total": 1,
+  "total": 3,
   "limit": 1500,
   "skip": 0,
   "data": [
     {
       "_id": "66d82ad115ccc12663428a53",
       "_created": "2024-09-04T09:39:29.834Z",
-      "_updated": "2024-09-04T11:19:33.273Z",
+      "_updated": "2024-10-16T08:17:33.428Z",
       "name": "Dog",
       "_alias": "Dog",
       "portrait": "66d82a8b15ccc12663428a2c",
@@ -20,8 +20,8 @@
         [
           {
             "damage": {
-              "min": 10,
-              "max": 15
+              "min": 18,
+              "max": 24
             },
             "ranged": false,
             "combatActions": [
@@ -37,6 +37,90 @@
       "behavior": "unstoppable",
       "baseImmunities": [],
       "experience": 20,
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "670f92e0b3d10b553f21a459",
+      "_created": "2024-10-16T10:18:08.824Z",
+      "_updated": "2024-10-16T10:18:16.169Z",
+      "name": "Prison Guard",
+      "_alias": "Druid Prison Guard",
+      "portrait": "66e69bdccce7d0d2ca630a32",
+      "level": 8,
+      "strength": 3,
+      "charisma": 1,
+      "resilience": 4,
+      "agility": 2,
+      "perception": 2,
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 7,
+              "max": 15
+            },
+            "ranged": false,
+            "combatActions": [
+              "thrust"
+            ],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
+      "combatActions": [],
+      "maxActionPoints": 2,
+      "armor": 5,
+      "behavior": "fighter",
+      "baseImmunities": [],
+      "experience": 25,
+      "loot": "5cb91eb9c065f0361a943b47",
+      "bargain": [],
+      "__v": 0
+    },
+    {
+      "_id": "6719eece574fa4dd98185311",
+      "_created": "2024-10-24T06:53:02.061Z",
+      "_updated": "2024-10-24T12:19:29.024Z",
+      "name": "Knight",
+      "_alias": "Knight",
+      "portrait": "671a3b3a574fa4dd9818a769",
+      "level": 10,
+      "strength": 4,
+      "charisma": 4,
+      "resilience": 4,
+      "agility": 1,
+      "perception": 1,
+      "innateStatModifiers": [
+        {
+          "statName": "evadeMeleeChance",
+          "type": "term",
+          "value": 0.2
+        }
+      ],
+      "attackSets": [
+        [
+          {
+            "damage": {
+              "min": 6,
+              "max": 10
+            },
+            "ranged": false,
+            "combatActions": [
+              "thrust"
+            ],
+            "usageTerm": "attack"
+          }
+        ]
+      ],
+      "combatActions": [
+        "glide",
+        "parry"
+      ],
+      "maxActionPoints": 3,
+      "armor": 12,
+      "behavior": "tank",
+      "baseImmunities": [],
       "bargain": [],
       "__v": 0
     }
