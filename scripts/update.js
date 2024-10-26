@@ -82,7 +82,7 @@ const init = async function () {
     if (updatesToRun.media.images) {
       const defaultParams = { invalidate: true }
       const backgroundImageParams = { width: 1400 }
-      const characterImageParams = { height: 500 }
+      const characterImageParams = { height: 1500 }
 
       for (let entity of images) {
         if (!entity.category?.length) {
