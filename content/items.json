@@ -777,7 +777,9 @@
             "max": 6
           },
           "ranged": false,
-          "combatActions": []
+          "combatActions": [
+            "cleave"
+          ]
         }
       ],
       "combatActions": [
@@ -790,7 +792,7 @@
         ]
       ],
       "_created": "2019-03-11T09:46:14.894Z",
-      "_updated": "2024-09-10T14:20:44.652Z",
+      "_updated": "2024-10-26T10:38:14.001Z",
       "name": "Bronze Hatchet",
       "description": "This old hatchet has seen better days. More of a skull-basher than a head-chopper, at this point",
       "value": 18,

@@ -78,24 +78,24 @@
     {
       "_id": "5c80303b0e374858f8c6017e",
       "template": "66d82ad115ccc12663428a53",
-      "templateLevel": "2",
+      "templateLevel": "1",
       "portrait": "66f11b03cce7d0d2ca639d48",
       "name": "Wild Dog",
       "_alias": "Wild Dog",
       "_created": "2019-03-06T20:40:27.448Z",
-      "_updated": "2024-10-15T10:30:05.728Z",
+      "_updated": "2024-10-27T11:20:29.981Z",
       "__v": 0,
       "__t": "template"
     },
     {
       "_id": "5c817e240e37485f1bc601e1",
       "template": "66d82ad115ccc12663428a53",
-      "templateLevel": "4",
+      "templateLevel": "3",
       "portrait": "671788bd574fa4dd98179ad0",
       "name": "Gray Dog",
       "_alias": "Gray Dog",
       "_created": "2019-03-07T20:25:08.253Z",
-      "_updated": "2024-10-22T11:13:24.415Z",
+      "_updated": "2024-10-27T11:22:23.158Z",
       "__v": 0,
       "__t": "template"
     },
