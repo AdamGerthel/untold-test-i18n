@@ -1053,6 +1053,74 @@
       "creditsAudio": "5e71398a8530df444ba08252"
     },
     "factions": [],
-    "notifications": []
+    "notifications": [
+      {
+        "title": "Achievements completed yet?",
+        "body": "There might be a treat waiting once you've reached 100%...",
+        "conditions": [
+          {
+            "type": "hasCompletedGame",
+            "parameters": [],
+            "negate": false
+          },
+          {
+            "type": "hasCompletedAllAchievements",
+            "parameters": [],
+            "negate": true
+          },
+          {
+            "type": "random",
+            "parameters": [
+              0.5
+            ],
+            "negate": false
+          }
+        ],
+        "_id": "671f8e39574fa4dd981ba0e2"
+      },
+      {
+        "title": "There are many ways to find the antidote",
+        "body": "Check the achievements for hints! 🕵🏻‍♀️",
+        "conditions": [
+          {
+            "type": "isOnObjective",
+            "parameters": [
+              [
+                "5c8e22cc1902884a12f94ce2",
+                "5caaf31090542e00003c572c"
+              ]
+            ],
+            "negate": false
+          },
+          {
+            "type": "hasCompletedAchievement",
+            "parameters": [
+              "66e1a1ddcce7d0d2ca625a44"
+            ],
+            "negate": true
+          }
+        ],
+        "_id": "671f8e5e392642020e00c1b9"
+      },
+      {
+        "title": "Have you found the other shipwrecked survivor yet?",
+        "body": "Follow the tracks to learn more... 👣",
+        "conditions": [
+          {
+            "type": "hasCompletedGame",
+            "parameters": [],
+            "negate": true
+          },
+          {
+            "type": "hasSeenScene",
+            "parameters": [
+              "5c85bbb80e3748263ac60333"
+            ],
+            "negate": true
+          }
+        ],
+        "_id": "671f8ef3392642020e00c1bc"
+      }
+    ]
   }
 }
