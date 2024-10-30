@@ -39,7 +39,7 @@
     {
       "_id": "5c7d8829fd6b492258456b99",
       "_created": "2019-03-04T20:18:49.655Z",
-      "_updated": "2024-10-08T13:35:45.457Z",
+      "_updated": "2024-10-30T16:17:57.218Z",
       "name": "Druid War Chief",
       "_alias": null,
       "portrait": "670534f7ff61df952dfb3df1",
@@ -49,12 +49,19 @@
       "resilience": 3,
       "agility": 2,
       "perception": 3,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.1
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 9,
-              "max": 27
+              "min": 10,
+              "max": 25
             },
             "ranged": false,
             "combatActions": [],
@@ -66,7 +73,7 @@
         "sweep"
       ],
       "maxActionPoints": 3,
-      "armor": 8,
+      "armor": 10,
       "behavior": "fighter",
       "baseImmunities": [],
       "experience": 75,
@@ -102,7 +109,7 @@
     {
       "_id": "5c85d3f30e3748205fc6035c",
       "_created": "2019-03-11T03:20:19.163Z",
-      "_updated": "2024-10-25T13:24:55.717Z",
+      "_updated": "2024-10-30T16:05:58.206Z",
       "name": "Apostle",
       "_alias": "Apostle 4 (Swords)",
       "portrait": "66d848a915ccc12663429375",
@@ -123,8 +130,8 @@
         [
           {
             "damage": {
-              "min": 6,
-              "max": 9
+              "min": 5,
+              "max": 7
             },
             "ranged": false,
             "combatActions": [
@@ -197,7 +204,7 @@
     {
       "_id": "5c869a09bbdb6b717658660d",
       "_created": "2019-03-11T17:25:29.394Z",
-      "_updated": "2024-10-16T09:58:24.131Z",
+      "_updated": "2024-10-30T17:11:36.965Z",
       "name": "Apostle",
       "_alias": "Apostle 1 (Mace)",
       "portrait": "66d848cd15ccc1266342937a",
@@ -219,7 +226,7 @@
           {
             "damage": {
               "min": 4,
-              "max": 8
+              "max": 6
             },
             "ranged": false,
             "combatActions": [
@@ -329,12 +336,12 @@
     {
       "_id": "5c86bef6bbdb6b42665867f1",
       "_created": "2019-03-11T20:03:02.610Z",
-      "_updated": "2024-10-16T09:58:30.933Z",
+      "_updated": "2024-10-30T16:06:18.366Z",
       "name": "Apostle",
       "_alias": "Apostle 5 (Guardian)",
       "portrait": "66d848a915ccc12663429375",
-      "level": 4,
-      "strength": 3,
+      "level": 3,
+      "strength": 2,
       "charisma": 1,
       "resilience": 2,
       "agility": 1,
@@ -350,8 +357,8 @@
         [
           {
             "damage": {
-              "min": 6,
-              "max": 9
+              "min": 5,
+              "max": 7
             },
             "ranged": false,
             "combatActions": [
@@ -452,7 +459,7 @@
     {
       "_id": "5c8ba99f1902882f2ff94cdb",
       "_created": "2019-03-15T13:33:19.234Z",
-      "_updated": "2024-10-16T09:42:48.912Z",
+      "_updated": "2024-10-30T16:10:55.959Z",
       "name": "Druid Assassin",
       "_alias": null,
       "portrait": "66f7d3aacce7d0d2ca641f0b",
@@ -473,8 +480,8 @@
         [
           {
             "damage": {
-              "min": 4,
-              "max": 12
+              "min": 5,
+              "max": 10
             },
             "ranged": false,
             "combatActions": [
@@ -711,7 +718,7 @@
     {
       "_id": "5c9b13cb3790353c3ab1bd6a",
       "_created": "2019-03-27T06:10:19.461Z",
-      "_updated": "2024-10-15T13:50:57.920Z",
+      "_updated": "2024-10-30T16:12:47.776Z",
       "name": "Mountain Lion",
       "_alias": null,
       "portrait": "66fd1b0dff61df952df90bcb",
@@ -737,8 +744,8 @@
         [
           {
             "damage": {
-              "min": 1,
-              "max": 9
+              "min": 3,
+              "max": 8
             },
             "ranged": false,
             "combatActions": [],
@@ -875,7 +882,7 @@
     {
       "_id": "5cab279e379035ed17b2239e",
       "_created": "2019-04-08T10:51:10.979Z",
-      "_updated": "2024-10-24T08:16:13.181Z",
+      "_updated": "2024-10-30T17:08:14.224Z",
       "name": "Mev",
       "_alias": null,
       "portrait": "670534f7ff61df952dfb3df3",
@@ -902,7 +909,7 @@
           {
             "damage": {
               "min": 12,
-              "max": 16
+              "max": 18
             },
             "ranged": false,
             "combatActions": [
@@ -1342,7 +1349,7 @@
     {
       "_id": "5cf78f7dc3e78f44a35c2a93",
       "_created": "2019-06-05T09:46:37.735Z",
-      "_updated": "2024-09-09T16:23:17.144Z",
+      "_updated": "2024-10-30T16:19:56.617Z",
       "name": "Ruthless Knife Thug",
       "_alias": null,
       "portrait": "66df207e15ccc12663435c98",
@@ -1356,18 +1363,20 @@
         [
           {
             "damage": {
-              "min": 1,
+              "min": 6,
               "max": 15
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
       "combatActions": [],
       "maxActionPoints": 3,
-      "armor": 8,
+      "armor": 7,
       "behavior": "fighter",
       "baseImmunities": [],
       "experience": 25,
@@ -1535,7 +1544,7 @@
     {
       "_id": "5d16e49cebd3dc1e1154ccc8",
       "_created": "2019-06-29T04:10:04.836Z",
-      "_updated": "2024-09-09T16:19:32.724Z",
+      "_updated": "2024-10-30T16:13:42.432Z",
       "name": "Pale Knife Thug",
       "_alias": null,
       "portrait": "66df1fde15ccc12663435c52",
@@ -1549,11 +1558,13 @@
         [
           {
             "damage": {
-              "min": 1,
-              "max": 24
+              "min": 8,
+              "max": 16
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -1572,7 +1583,7 @@
     {
       "_id": "5d1701feebd3dc105b54ce8b",
       "_created": "2019-06-29T06:15:26.144Z",
-      "_updated": "2024-09-04T09:20:48.733Z",
+      "_updated": "2024-10-30T16:19:11.665Z",
       "name": "Arturo the Guardsman",
       "_alias": null,
       "portrait": "66d8265d15ccc12663427d15",
@@ -1582,6 +1593,13 @@
       "resilience": 3,
       "agility": 2,
       "perception": 3,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
@@ -1613,7 +1631,7 @@
     {
       "_id": "5d172b4eebd3dcd5be54cf5a",
       "_created": "2019-06-29T09:11:42.266Z",
-      "_updated": "2024-10-14T18:59:32.765Z",
+      "_updated": "2024-10-30T17:12:31.190Z",
       "name": "Wounded Bandit",
       "_alias": null,
       "portrait": "66df20bf15ccc12663435cc0",
@@ -1627,11 +1645,13 @@
         [
           {
             "damage": {
-              "min": 4,
-              "max": 18
+              "min": 6,
+              "max": 16
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "stab"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -1650,7 +1670,7 @@
     {
       "_id": "5d172d9cebd3dc594d54cf6d",
       "_created": "2019-06-29T09:21:32.711Z",
-      "_updated": "2024-09-09T16:23:00.693Z",
+      "_updated": "2024-10-30T17:12:02.474Z",
       "name": "Vicious Knife Thug",
       "_alias": null,
       "portrait": "66df1fde15ccc12663435c52",
@@ -1664,11 +1684,13 @@
         [
           {
             "damage": {
-              "min": 4,
-              "max": 21
+              "min": 7,
+              "max": 16
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -1890,12 +1912,12 @@
     {
       "_id": "5d4ad8538335b417a4884edb",
       "_created": "2019-08-07T13:55:31.797Z",
-      "_updated": "2024-10-15T09:56:19.943Z",
+      "_updated": "2024-10-30T17:07:08.181Z",
       "name": "Injured Bandit",
       "_alias": null,
       "portrait": "66df207e15ccc12663435c98",
-      "level": 5,
-      "strength": 1,
+      "level": 6,
+      "strength": 2,
       "charisma": 1,
       "resilience": 1,
       "agility": 5,
@@ -1904,11 +1926,13 @@
         [
           {
             "damage": {
-              "min": 1,
-              "max": 12
+              "min": 6,
+              "max": 10
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "stab"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -2369,25 +2393,27 @@
     {
       "_id": "5d5f77c48335b4b6808854e0",
       "_created": "2019-08-23T05:21:08.318Z",
-      "_updated": "2024-09-09T16:23:33.378Z",
+      "_updated": "2024-10-30T16:52:00.001Z",
       "name": "One-eyed Knife Thug",
       "_alias": null,
       "portrait": "66df204d15ccc12663435c93",
-      "level": 6,
+      "level": 7,
       "strength": 2,
       "charisma": 1,
       "resilience": 2,
       "agility": 4,
-      "perception": 1,
+      "perception": 2,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 1,
-              "max": 15
+              "min": 6,
+              "max": 12
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -2406,7 +2432,7 @@
     {
       "_id": "5d5f78178335b445818854e1",
       "_created": "2019-08-23T05:22:31.543Z",
-      "_updated": "2024-09-09T16:21:31.749Z",
+      "_updated": "2024-10-30T17:10:00.369Z",
       "name": "Merciless Knife Thug",
       "_alias": null,
       "portrait": "66df204d15ccc12663435c93",
@@ -2421,16 +2447,18 @@
           {
             "damage": {
               "min": 9,
-              "max": 18
+              "max": 15
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "stab"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
       "combatActions": [],
-      "maxActionPoints": 3,
+      "maxActionPoints": 2,
       "armor": 1,
       "behavior": "fighter",
       "baseImmunities": [],
@@ -2443,7 +2471,7 @@
     {
       "_id": "5d5f78618335b477ab8854e2",
       "_created": "2019-08-23T05:23:45.433Z",
-      "_updated": "2024-09-09T16:19:08.655Z",
+      "_updated": "2024-10-30T16:22:34.573Z",
       "name": "Swift Knife Thug",
       "_alias": null,
       "portrait": "66df1fde15ccc12663435c52",
@@ -2457,11 +2485,13 @@
         [
           {
             "damage": {
-              "min": 4,
-              "max": 14
+              "min": 6,
+              "max": 12
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -2480,7 +2510,7 @@
     {
       "_id": "5d5f78b48335b42b558854e3",
       "_created": "2019-08-23T05:25:08.446Z",
-      "_updated": "2024-09-09T21:17:01.590Z",
+      "_updated": "2024-10-30T16:50:53.840Z",
       "name": "Brutish Knife Thug",
       "_alias": null,
       "portrait": "66df207e15ccc12663435c98",
@@ -2494,11 +2524,13 @@
         [
           {
             "damage": {
-              "min": 1,
-              "max": 23
+              "min": 5,
+              "max": 12
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "stab"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -2922,7 +2954,7 @@
     {
       "_id": "5db200d7ff2c198d52db33ec",
       "_created": "2019-10-24T19:51:51.230Z",
-      "_updated": "2024-09-09T16:17:58.506Z",
+      "_updated": "2024-10-30T16:20:28.676Z",
       "name": "Rogue Archer",
       "_alias": null,
       "portrait": "66df1fa415ccc12663435b99",
@@ -2940,7 +2972,9 @@
               "max": 18
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "hamstring"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -3249,7 +3283,7 @@
     {
       "_id": "5dc3ba67f75a97bb97596d92",
       "_created": "2019-11-07T06:32:07.279Z",
-      "_updated": "2024-10-26T07:02:26.805Z",
+      "_updated": "2024-10-30T17:11:12.991Z",
       "name": "Cartel Assassin",
       "_alias": null,
       "portrait": "671c93b3574fa4dd981a3114",
@@ -3276,7 +3310,7 @@
           {
             "damage": {
               "min": 10,
-              "max": 14
+              "max": 15
             },
             "ranged": false,
             "combatActions": [
@@ -3453,7 +3487,7 @@
     {
       "_id": "5dd579e0f75a97595359c90d",
       "_created": "2019-11-20T17:37:36.533Z",
-      "_updated": "2024-09-04T09:31:24.094Z",
+      "_updated": "2024-10-30T17:12:52.637Z",
       "name": "Foreign Skirmisher",
       "_alias": null,
       "portrait": "66d828d715ccc126634288ca",
@@ -3471,7 +3505,9 @@
               "max": 18
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "spin"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -3807,7 +3843,7 @@
     {
       "_id": "5def2231f75a9729ad59fc2f",
       "_created": "2019-12-10T04:42:25.694Z",
-      "_updated": "2024-09-23T07:41:47.447Z",
+      "_updated": "2024-10-30T16:53:15.014Z",
       "name": "Brothel Guard",
       "_alias": null,
       "portrait": "66f11b03cce7d0d2ca639d4c",
@@ -3825,14 +3861,16 @@
               "max": 18
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "pummel"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
       "combatActions": [],
       "maxActionPoints": 3,
-      "armor": 3,
+      "armor": 4,
       "behavior": "fighter",
       "baseImmunities": [],
       "experience": 15,
@@ -3880,7 +3918,7 @@
     {
       "_id": "5df90f0cf75a9754ab5a104c",
       "_created": "2019-12-17T17:23:24.026Z",
-      "_updated": "2024-10-25T08:07:33.840Z",
+      "_updated": "2024-10-30T17:13:20.261Z",
       "name": "Cleo Verdandi",
       "_alias": "Cleo Verdandi",
       "portrait": "66dffec015ccc12663437518",
@@ -3912,7 +3950,7 @@
           {
             "damage": {
               "min": 13,
-              "max": 20
+              "max": 22
             },
             "ranged": false,
             "combatActions": [
@@ -3936,7 +3974,7 @@
     {
       "_id": "5dfc0101f75a9742615a119d",
       "_created": "2019-12-19T23:00:17.124Z",
-      "_updated": "2024-09-09T16:28:26.569Z",
+      "_updated": "2024-10-30T17:09:04.372Z",
       "name": "Cartel Thug",
       "_alias": null,
       "portrait": "66df21a115ccc12663435e05",
@@ -3954,7 +3992,9 @@
               "max": 21
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -4008,21 +4048,21 @@
     {
       "_id": "5dfc01c5f75a97521a5a119f",
       "_created": "2019-12-19T23:03:33.176Z",
-      "_updated": "2024-10-16T13:51:31.392Z",
+      "_updated": "2024-10-30T17:09:32.730Z",
       "name": "Cartel Hoodlum",
       "_alias": null,
       "portrait": "66df21a215ccc12663435e09",
-      "level": 7,
+      "level": 8,
       "strength": 3,
       "charisma": 1,
-      "resilience": 1,
+      "resilience": 2,
       "agility": 5,
       "perception": 1,
       "attackSets": [
         [
           {
             "damage": {
-              "min": 3,
+              "min": 7,
               "max": 15
             },
             "ranged": false,
@@ -4046,7 +4086,7 @@
     {
       "_id": "5dfc40f6f75a97c3365a1506",
       "_created": "2019-12-20T03:33:10.950Z",
-      "_updated": "2024-10-21T09:52:08.267Z",
+      "_updated": "2024-10-30T17:10:39.866Z",
       "name": "Lucian Verdandi",
       "_alias": null,
       "portrait": "66dffec015ccc12663437516",
@@ -4080,7 +4120,7 @@
       ],
       "combatActions": [],
       "maxActionPoints": 3,
-      "armor": 12,
+      "armor": 14,
       "behavior": "fighter",
       "baseImmunities": [],
       "experience": 50,
@@ -5110,7 +5150,7 @@
     {
       "_id": "5e6f3b4521eaae087d9f5bd7",
       "_created": "2020-03-16T08:39:33.935Z",
-      "_updated": "2024-09-09T16:00:48.508Z",
+      "_updated": "2024-10-30T19:20:50.515Z",
       "name": "Starving Opium Fiend",
       "_alias": null,
       "portrait": "66df1ae915ccc12663435736",
@@ -5125,8 +5165,8 @@
         [
           {
             "damage": {
-              "min": 4,
-              "max": 6
+              "min": 5,
+              "max": 8
             },
             "ranged": false,
             "combatActions": [
