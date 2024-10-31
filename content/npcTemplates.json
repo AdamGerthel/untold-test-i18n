@@ -81,7 +81,7 @@
     {
       "_id": "6719eece574fa4dd98185311",
       "_created": "2024-10-24T06:53:02.061Z",
-      "_updated": "2024-10-24T12:19:29.024Z",
+      "_updated": "2024-10-31T16:08:10.844Z",
       "name": "Knight",
       "_alias": "Knight",
       "portrait": "671a3b3a574fa4dd9818a769",
@@ -95,7 +95,7 @@
         {
           "statName": "evadeMeleeChance",
           "type": "term",
-          "value": 0.2
+          "value": -0.2
         }
       ],
       "attackSets": [
@@ -118,7 +118,7 @@
         "parry"
       ],
       "maxActionPoints": 3,
-      "armor": 12,
+      "armor": 16,
       "behavior": "tank",
       "baseImmunities": [],
       "bargain": [],

@@ -420,7 +420,7 @@
     {
       "_id": "5c8b205419028820c8f94cda",
       "_created": "2019-03-15T03:47:32.789Z",
-      "_updated": "2024-10-23T14:05:36.066Z",
+      "_updated": "2024-10-30T19:34:50.063Z",
       "name": "Druid Guard",
       "_alias": null,
       "portrait": "66f7d3aacce7d0d2ca641f0e",
@@ -435,7 +435,7 @@
           {
             "damage": {
               "min": 6,
-              "max": 9
+              "max": 8
             },
             "ranged": false,
             "combatActions": [
@@ -1118,7 +1118,7 @@
     {
       "_id": "5cda4c473e44ee55b17abf8c",
       "_created": "2019-05-14T05:04:07.968Z",
-      "_updated": "2024-09-23T07:40:48.115Z",
+      "_updated": "2024-10-31T11:55:01.490Z",
       "name": "Albino Jackal",
       "_alias": null,
       "portrait": "66e97defcce7d0d2ca638c2b",
@@ -1139,11 +1139,13 @@
         [
           {
             "damage": {
-              "min": 1,
-              "max": 18
+              "min": 5,
+              "max": 13
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "bite"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -1583,21 +1585,21 @@
     {
       "_id": "5d1701feebd3dc105b54ce8b",
       "_created": "2019-06-29T06:15:26.144Z",
-      "_updated": "2024-10-30T16:19:11.665Z",
+      "_updated": "2024-10-31T15:59:11.062Z",
       "name": "Arturo the Guardsman",
       "_alias": null,
       "portrait": "66d8265d15ccc12663427d15",
-      "level": 12,
+      "level": 13,
       "strength": 4,
       "charisma": 4,
-      "resilience": 3,
+      "resilience": 4,
       "agility": 2,
       "perception": 3,
       "innateStatModifiers": [
         {
           "statName": "maxHealth",
           "type": "factor",
-          "value": 1.2
+          "value": 1.8
         }
       ],
       "attackSets": [
@@ -1619,7 +1621,7 @@
         "parry"
       ],
       "maxActionPoints": 3,
-      "armor": 16,
+      "armor": 25,
       "behavior": "fighter",
       "baseImmunities": [],
       "experience": 50,
@@ -4995,7 +4997,7 @@
     {
       "_id": "5e4f3b7ba74d95c247debafa",
       "_created": "2020-02-21T02:07:55.737Z",
-      "_updated": "2024-10-16T07:53:26.807Z",
+      "_updated": "2024-10-31T16:09:20.723Z",
       "name": "Cartel Debt Collector",
       "_alias": null,
       "portrait": "670f70cdb3d10b553f217d12",
@@ -5005,12 +5007,24 @@
       "resilience": 5,
       "agility": 1,
       "perception": 2,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.5
+        },
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 0.8
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 10,
-              "max": 36
+              "min": 15,
+              "max": 30
             },
             "ranged": false,
             "combatActions": [
@@ -5034,7 +5048,7 @@
     {
       "_id": "5e4f3ed2a74d95fc2fdebafc",
       "_created": "2020-02-21T02:22:10.759Z",
-      "_updated": "2024-10-16T10:15:20.320Z",
+      "_updated": "2024-10-31T16:08:46.328Z",
       "name": "Cartel Paymaster",
       "_alias": null,
       "portrait": "670f6f67b3d10b553f21793d",
@@ -5044,11 +5058,18 @@
       "resilience": 3,
       "agility": 2,
       "perception": 6,
+      "innateStatModifiers": [
+        {
+          "statName": "maxHealth",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 9,
+              "min": 11,
               "max": 23
             },
             "ranged": false,
