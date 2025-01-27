@@ -109,7 +109,7 @@
     {
       "_id": "5c85d3f30e3748205fc6035c",
       "_created": "2019-03-11T03:20:19.163Z",
-      "_updated": "2024-10-30T16:05:58.206Z",
+      "_updated": "2024-11-18T14:20:10.603Z",
       "name": "Apostle",
       "_alias": "Apostle 4 (Swords)",
       "portrait": "66d848a915ccc12663429375",
@@ -130,8 +130,8 @@
         [
           {
             "damage": {
-              "min": 5,
-              "max": 7
+              "min": 4,
+              "max": 6
             },
             "ranged": false,
             "combatActions": [
@@ -154,7 +154,7 @@
     {
       "_id": "5c869283bbdb6b1bf15865e2",
       "_created": "2019-03-11T16:53:23.766Z",
-      "_updated": "2024-10-16T09:58:04.117Z",
+      "_updated": "2024-11-18T14:26:33.238Z",
       "name": "Apostle",
       "_alias": "Apostle 3 (Berserker)",
       "portrait": "66f3aebdcce7d0d2ca63d3d3",
@@ -180,7 +180,7 @@
         [
           {
             "damage": {
-              "min": 4,
+              "min": 3,
               "max": 5
             },
             "ranged": false,
@@ -204,7 +204,7 @@
     {
       "_id": "5c869a09bbdb6b717658660d",
       "_created": "2019-03-11T17:25:29.394Z",
-      "_updated": "2024-10-30T17:11:36.965Z",
+      "_updated": "2024-11-18T14:58:14.488Z",
       "name": "Apostle",
       "_alias": "Apostle 1 (Mace)",
       "portrait": "66d848cd15ccc1266342937a",
@@ -226,7 +226,7 @@
           {
             "damage": {
               "min": 4,
-              "max": 6
+              "max": 5
             },
             "ranged": false,
             "combatActions": [
@@ -381,7 +381,7 @@
     {
       "_id": "5c8ae564190288b993f94cd9",
       "_created": "2019-03-14T23:36:04.563Z",
-      "_updated": "2024-10-16T09:42:12.236Z",
+      "_updated": "2025-01-27T13:39:30.276Z",
       "name": "Druid Archer",
       "_alias": null,
       "portrait": "66e69bdccce7d0d2ca630a30",
@@ -396,7 +396,7 @@
           {
             "damage": {
               "min": 6,
-              "max": 12
+              "max": 8
             },
             "ranged": false,
             "combatActions": [
@@ -420,7 +420,7 @@
     {
       "_id": "5c8b205419028820c8f94cda",
       "_created": "2019-03-15T03:47:32.789Z",
-      "_updated": "2024-10-30T19:34:50.063Z",
+      "_updated": "2024-11-18T14:30:23.914Z",
       "name": "Druid Guard",
       "_alias": null,
       "portrait": "66f7d3aacce7d0d2ca641f0e",
@@ -447,7 +447,7 @@
       ],
       "combatActions": [],
       "maxActionPoints": 2,
-      "armor": 4,
+      "armor": 3,
       "behavior": "fighter",
       "baseImmunities": [],
       "experience": 30,
@@ -550,7 +550,7 @@
     {
       "_id": "5c92d64b3bae8d70052b5f88",
       "_created": "2019-03-21T00:09:47.267Z",
-      "_updated": "2024-10-15T13:50:32.210Z",
+      "_updated": "2024-11-18T14:21:03.244Z",
       "name": "Shadow Lion",
       "_alias": null,
       "portrait": "66f11b03cce7d0d2ca639d4a",
@@ -577,7 +577,7 @@
           {
             "damage": {
               "min": 6,
-              "max": 9
+              "max": 8
             },
             "ranged": false,
             "combatActions": [
@@ -1118,7 +1118,7 @@
     {
       "_id": "5cda4c473e44ee55b17abf8c",
       "_created": "2019-05-14T05:04:07.968Z",
-      "_updated": "2024-10-31T11:55:01.490Z",
+      "_updated": "2024-11-18T14:22:31.769Z",
       "name": "Albino Jackal",
       "_alias": null,
       "portrait": "66e97defcce7d0d2ca638c2b",
@@ -1139,8 +1139,8 @@
         [
           {
             "damage": {
-              "min": 5,
-              "max": 13
+              "min": 6,
+              "max": 10
             },
             "ranged": false,
             "combatActions": [
@@ -1275,7 +1275,7 @@
     {
       "_id": "5cf77e92c3e78f5d395c2a1d",
       "_created": "2019-06-05T08:34:26.984Z",
-      "_updated": "2024-09-09T16:24:31.963Z",
+      "_updated": "2024-11-18T14:25:54.373Z",
       "name": "Knife Thug",
       "_alias": null,
       "portrait": "66df204d15ccc12663435c93",
@@ -1289,11 +1289,13 @@
         [
           {
             "damage": {
-              "min": 4,
-              "max": 11
+              "min": 6,
+              "max": 9
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "stab"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -1351,14 +1353,14 @@
     {
       "_id": "5cf78f7dc3e78f44a35c2a93",
       "_created": "2019-06-05T09:46:37.735Z",
-      "_updated": "2024-10-30T16:19:56.617Z",
+      "_updated": "2024-11-18T14:28:47.818Z",
       "name": "Ruthless Knife Thug",
       "_alias": null,
       "portrait": "66df207e15ccc12663435c98",
-      "level": 12,
-      "strength": 6,
+      "level": 10,
+      "strength": 5,
       "charisma": 1,
-      "resilience": 5,
+      "resilience": 4,
       "agility": 2,
       "perception": 2,
       "attackSets": [
@@ -1366,7 +1368,7 @@
           {
             "damage": {
               "min": 6,
-              "max": 15
+              "max": 13
             },
             "ranged": false,
             "combatActions": [
@@ -1377,7 +1379,7 @@
         ]
       ],
       "combatActions": [],
-      "maxActionPoints": 3,
+      "maxActionPoints": 2,
       "armor": 7,
       "behavior": "fighter",
       "baseImmunities": [],
@@ -1711,14 +1713,14 @@
     {
       "_id": "5d1f3b955892bb3555eabb56",
       "_created": "2019-07-05T11:59:17.712Z",
-      "_updated": "2024-10-23T08:43:53.452Z",
+      "_updated": "2024-11-18T14:29:24.060Z",
       "name": "Nomad Sentry",
       "_alias": null,
       "portrait": "6718b693574fa4dd9817d484",
-      "level": 8,
-      "strength": 2,
+      "level": 10,
+      "strength": 3,
       "charisma": 1,
-      "resilience": 3,
+      "resilience": 4,
       "agility": 3,
       "perception": 3,
       "innateStatModifiers": [
@@ -1732,8 +1734,8 @@
         [
           {
             "damage": {
-              "min": 5,
-              "max": 15
+              "min": 7,
+              "max": 14
             },
             "ranged": false,
             "combatActions": [
@@ -1874,7 +1876,7 @@
     {
       "_id": "5d4445b78335b4aaaf884b6a",
       "_created": "2019-08-02T14:16:23.278Z",
-      "_updated": "2024-10-24T08:44:50.344Z",
+      "_updated": "2024-11-18T14:59:08.959Z",
       "name": "Field Commander",
       "_alias": null,
       "portrait": "66f11b04cce7d0d2ca639d4e",
@@ -1888,7 +1890,7 @@
         [
           {
             "damage": {
-              "min": 15,
+              "min": 16,
               "max": 27
             },
             "ranged": false,
@@ -2358,7 +2360,7 @@
     {
       "_id": "5d5f754d8335b479c78854df",
       "_created": "2019-08-23T05:10:37.405Z",
-      "_updated": "2024-09-10T14:31:38.118Z",
+      "_updated": "2024-11-18T14:29:58.112Z",
       "name": "Concubine",
       "_alias": null,
       "portrait": "66df6fc515ccc126634372bf",
@@ -2372,18 +2374,20 @@
         [
           {
             "damage": {
-              "min": 1,
-              "max": 14
+              "min": 5,
+              "max": 12
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "stab"
+            ],
             "usageTerm": "attack"
           }
         ]
       ],
       "combatActions": [],
       "maxActionPoints": 2,
-      "armor": 1,
+      "armor": 0,
       "behavior": "fighter",
       "baseImmunities": [],
       "experience": 25,
@@ -2395,7 +2399,7 @@
     {
       "_id": "5d5f77c48335b4b6808854e0",
       "_created": "2019-08-23T05:21:08.318Z",
-      "_updated": "2024-10-30T16:52:00.001Z",
+      "_updated": "2024-11-18T14:24:59.702Z",
       "name": "One-eyed Knife Thug",
       "_alias": null,
       "portrait": "66df204d15ccc12663435c93",
@@ -2405,11 +2409,18 @@
       "resilience": 2,
       "agility": 4,
       "perception": 2,
+      "innateStatModifiers": [
+        {
+          "statName": "hitMeleeChance",
+          "type": "factor",
+          "value": 0.8
+        }
+      ],
       "attackSets": [
         [
           {
             "damage": {
-              "min": 6,
+              "min": 9,
               "max": 12
             },
             "ranged": false,
@@ -2422,7 +2433,7 @@
       ],
       "combatActions": [],
       "maxActionPoints": 2,
-      "armor": 1,
+      "armor": 2,
       "behavior": "fighter",
       "baseImmunities": [],
       "experience": 20,
@@ -2473,7 +2484,7 @@
     {
       "_id": "5d5f78618335b477ab8854e2",
       "_created": "2019-08-23T05:23:45.433Z",
-      "_updated": "2024-10-30T16:22:34.573Z",
+      "_updated": "2024-11-18T14:23:57.067Z",
       "name": "Swift Knife Thug",
       "_alias": null,
       "portrait": "66df1fde15ccc12663435c52",
@@ -2483,6 +2494,13 @@
       "resilience": 1,
       "agility": 8,
       "perception": 2,
+      "innateStatModifiers": [
+        {
+          "statName": "speed",
+          "type": "factor",
+          "value": 1.2
+        }
+      ],
       "attackSets": [
         [
           {
@@ -2492,22 +2510,22 @@
             },
             "ranged": false,
             "combatActions": [
-              "cut"
+              "hamstring"
             ],
             "usageTerm": "attack"
           }
         ]
       ],
       "combatActions": [],
-      "maxActionPoints": 3,
+      "maxActionPoints": 2,
       "armor": 1,
       "behavior": "fighter",
       "baseImmunities": [],
       "experience": 20,
       "loot": "5d4ad8e38335b460ee884edc",
-      "bargain": [],
       "__v": 0,
-      "__t": "npc"
+      "__t": "npc",
+      "bargain": []
     },
     {
       "_id": "5d5f78b48335b42b558854e3",
@@ -2551,7 +2569,7 @@
     {
       "_id": "5d5f79268335b45b588854e4",
       "_created": "2019-08-23T05:27:02.311Z",
-      "_updated": "2024-09-09T21:16:26.799Z",
+      "_updated": "2024-11-18T14:32:48.614Z",
       "name": "Scarred Knife Thug",
       "_alias": null,
       "portrait": "66df204d15ccc12663435c93",
@@ -2565,11 +2583,13 @@
         [
           {
             "damage": {
-              "min": 1,
-              "max": 20
+              "min": 5,
+              "max": 10
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "stab"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -4244,7 +4264,7 @@
     {
       "_id": "5e2559123a36bf00cf3e42ac",
       "_created": "2020-01-20T07:38:58.762Z",
-      "_updated": "2024-09-09T16:29:29.653Z",
+      "_updated": "2024-11-18T14:57:21.997Z",
       "name": "Cartel Sentry",
       "_alias": null,
       "portrait": "66df21a215ccc12663435e07",
@@ -4259,10 +4279,12 @@
           {
             "damage": {
               "min": 9,
-              "max": 24
+              "max": 20
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "cut"
+            ],
             "usageTerm": "attack"
           }
         ]
@@ -4326,7 +4348,7 @@
     {
       "_id": "5e2700fc3a36bf3f6b3e4722",
       "_created": "2020-01-21T13:47:40.113Z",
-      "_updated": "2024-10-24T20:24:19.909Z",
+      "_updated": "2024-11-18T14:56:52.802Z",
       "name": "Cartel Marauder",
       "_alias": null,
       "portrait": "6717497a574fa4dd9817673c",
@@ -4348,10 +4370,12 @@
           {
             "damage": {
               "min": 9,
-              "max": 18
+              "max": 14
             },
             "ranged": false,
-            "combatActions": [],
+            "combatActions": [
+              "hamstring"
+            ],
             "usageTerm": "attack"
           }
         ]
