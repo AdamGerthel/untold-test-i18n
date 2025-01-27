@@ -2646,7 +2646,7 @@
     {
       "_id": "5d13aefbebd3dc5e1e54caf7",
       "_created": "2019-06-26T17:44:27.946Z",
-      "_updated": "2024-10-18T03:12:02.428Z",
+      "_updated": "2025-01-12T08:22:56.322Z",
       "from": "5d011f9d0b4b6231fd34cf6a",
       "to": "5d011f8d0b4b6201f434cf69",
       "label": [],
@@ -2681,6 +2681,13 @@
                   ]
                 ],
                 "negate": true
+              },
+              {
+                "type": "hasDefeatedNpcInCombat",
+                "parameters": [
+                  "5ce52292c3e78f82c55bd909"
+                ],
+                "negate": true
               }
             ],
             [
@@ -2694,6 +2701,13 @@
                   ]
                 ],
                 "negate": false
+              },
+              {
+                "type": "hasDefeatedNpcInCombat",
+                "parameters": [
+                  "5ce52292c3e78f82c55bd909"
+                ],
+                "negate": true
               }
             ],
             [
@@ -2706,6 +2720,13 @@
                   ]
                 ],
                 "negate": false
+              },
+              {
+                "type": "hasDefeatedNpcInCombat",
+                "parameters": [
+                  "5ce52292c3e78f82c55bd909"
+                ],
+                "negate": true
               }
             ]
           ],
@@ -3328,22 +3349,22 @@
     },
     {
       "_id": "5d49fd0a8335b42461884e57",
+      "_created": "2019-08-06T22:19:54.310Z",
+      "_updated": "2024-11-15T16:43:54.705Z",
+      "from": "5cda7471c3e78f77335bb2a4",
+      "to": "5cda7453c3e78fd30c5bb2a3",
       "label": [
         "Swim across the river"
       ],
       "weight": 0,
       "map": true,
-      "from": "5cda7471c3e78f77335bb2a4",
-      "to": "5cda7453c3e78fd30c5bb2a3",
-      "_created": "2019-08-06T22:19:54.310Z",
-      "_updated": "2019-09-06T13:12:36.046Z",
       "availability": [],
       "encounters": [
         {
-          "_id": "5d4adce6499acc0000aeab57",
           "scene": [
             "5d4a2e7e8335b45d35884e5e"
           ],
+          "maxAccounts": 1,
           "conditions": [
             {
               "parameters": [
@@ -3354,7 +3375,7 @@
               "negate": true
             }
           ],
-          "maxAccounts": 1
+          "_id": "5d4adce6499acc0000aeab57"
         }
       ],
       "__v": 0

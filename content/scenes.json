@@ -53884,56 +53884,19 @@
     },
     {
       "_id": "5d16ac3febd3dc43df54cb5f",
-      "autoSave": {
-        "save": false,
-        "conditions": []
-      },
+      "name": "Set Rasleen",
       "npcs": [
         "5c7d87f4fd6b4935a4456b98"
       ],
-      "cutScene": false,
-      "name": "Set Rasleen",
       "nodes": [
         {
-          "autoSave": {
-            "save": false,
-            "conditions": []
-          },
           "narrative": [
             "The nomad mercenary is slumped in a chair before the fireplace. She is relaxed, but keeps the sword and dagger within reach. Looking up, Rasleen says: \"You're back. Anything to report?\""
           ],
-          "cutScene": false,
-          "_id": "5d16a7c8ab3c0300005d56c9",
           "options": [
             {
               "label": [
                 "I have gathered significant information about the Khiris Cartel"
-              ],
-              "_id": "5da63a8ab465060000827fd9",
-              "actions": [
-                {
-                  "parameters": [
-                    [
-                      "5caba4683790352caab224ad",
-                      "5ce3f31e12e84d0000cc24d3"
-                    ]
-                  ],
-                  "_id": "5da81266ff2c19298ddb2aeb",
-                  "type": "completeQuestObjective"
-                }
-              ],
-              "outcomes": [
-                {
-                  "_id": "5da67a4e0824a50000fc56e5",
-                  "event": {
-                    "type": "node",
-                    "parameters": [
-                      "5da6457102e93d000092b8a3"
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": []
-                }
               ],
               "maxAccounts": 1,
               "availability": [
@@ -53945,28 +53908,38 @@
                   "type": "isOnQuest"
                 }
               ],
+              "actions": [
+                {
+                  "type": "completeQuestObjective",
+                  "parameters": [
+                    [
+                      "5caba4683790352caab224ad",
+                      "5ce3f31e12e84d0000cc24d3"
+                    ]
+                  ],
+                  "_id": "5da81266ff2c19298ddb2aeb"
+                }
+              ],
+              "outcomes": [
+                {
+                  "actions": [],
+                  "conditions": [],
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5da6457102e93d000092b8a3"
+                    ]
+                  },
+                  "_id": "5da67a4e0824a50000fc56e5"
+                }
+              ],
+              "parent": null,
+              "_id": "5da63a8ab465060000827fd9",
               "_type": "local"
             },
             {
               "label": [
                 "Let's travel to Graefir Island"
-              ],
-              "_id": "5d9c1109ca690600003e93bc",
-              "actions": [],
-              "outcomes": [
-                {
-                  "_id": "5d9c1168ca690600003e93bd",
-                  "event": {
-                    "type": "narrative",
-                    "parameters": [
-                      [
-                        "Nodding, Rasleen says: \"Right behind you. Just got some business to take care of first. I'll meet you down by the shore.\""
-                      ]
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": []
-                }
               ],
               "maxAccounts": 1,
               "availability": [
@@ -53981,108 +53954,29 @@
                   "type": "hasSeenNode"
                 }
               ],
+              "actions": [],
+              "outcomes": [
+                {
+                  "actions": [],
+                  "conditions": [],
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "Nodding, Rasleen says: \"Right behind you. Just got some business to take care of first. I'll meet you down by the shore.\""
+                      ]
+                    ]
+                  },
+                  "_id": "5d9c1168ca690600003e93bd"
+                }
+              ],
+              "parent": null,
+              "_id": "5d9c1109ca690600003e93bc",
               "_type": "local"
             },
             {
               "label": [
                 "Let's travel to the Isle of Bast"
-              ],
-              "_id": "5da6703f343abc00003ae609",
-              "actions": [],
-              "outcomes": [
-                {
-                  "_id": "5da6835e0824a50000fc56fb",
-                  "event": {
-                    "type": "node",
-                    "parameters": [
-                      "5da681770824a50000fc56f8"
-                    ]
-                  },
-                  "actions": [
-                    {
-                      "parameters": [
-                        [
-                          "5d7cd57de6ecf369a5a2a235",
-                          "5da61c6ab465060000827fcc"
-                        ]
-                      ],
-                      "_id": "5da683c9ff2c1969f9db2755",
-                      "type": "completeQuestObjective"
-                    }
-                  ],
-                  "conditions": [
-                    {
-                      "parameters": [
-                        "5c82b9330e3748809dc60273"
-                      ],
-                      "_id": "5da683c9ff2c190e20db2756",
-                      "type": "hasCompletedQuest"
-                    }
-                  ]
-                },
-                {
-                  "_id": "5da6805c0824a50000fc56f2",
-                  "event": {
-                    "type": "node",
-                    "parameters": [
-                      "5da67a9d0824a50000fc56e7"
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": [
-                    {
-                      "parameters": [
-                        "5c82b9330e3748809dc60273"
-                      ],
-                      "_id": "5da683c9ff2c197218db2753",
-                      "type": "hasCompletedQuest",
-                      "negate": true
-                    },
-                    {
-                      "parameters": [
-                        [
-                          "5d16ac3febd3dc43df54cb5f",
-                          "5da67a9d0824a50000fc56e7"
-                        ]
-                      ],
-                      "_id": "5da683c9ff2c19eaf6db2752",
-                      "type": "hasSeenNode",
-                      "negate": true
-                    }
-                  ]
-                },
-                {
-                  "_id": "5da680ab0824a50000fc56f5",
-                  "event": {
-                    "type": "narrative",
-                    "parameters": [
-                      [
-                        "\"Like I said, we're not ready. Not yet.\""
-                      ]
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": [
-                    {
-                      "parameters": [
-                        "5c82b9330e3748809dc60273"
-                      ],
-                      "_id": "5da683c9ff2c19464adb2750",
-                      "type": "hasCompletedQuest",
-                      "negate": true
-                    },
-                    {
-                      "parameters": [
-                        [
-                          "5d16ac3febd3dc43df54cb5f",
-                          "5da67a9d0824a50000fc56e7"
-                        ]
-                      ],
-                      "_id": "5da683c9ff2c19f640db274f",
-                      "type": "hasSeenNode"
-                    }
-                  ]
-                }
               ],
               "availability": [
                 {
@@ -54107,28 +54001,109 @@
                   "type": "hasSeenNode"
                 }
               ],
+              "actions": [],
+              "outcomes": [
+                {
+                  "actions": [
+                    {
+                      "type": "completeQuestObjective",
+                      "parameters": [
+                        [
+                          "5d7cd57de6ecf369a5a2a235",
+                          "5da61c6ab465060000827fcc"
+                        ]
+                      ],
+                      "_id": "5da683c9ff2c1969f9db2755"
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        "5c82b9330e3748809dc60273"
+                      ],
+                      "_id": "5da683c9ff2c190e20db2756",
+                      "type": "hasCompletedQuest"
+                    }
+                  ],
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5da681770824a50000fc56f8"
+                    ]
+                  },
+                  "_id": "5da6835e0824a50000fc56fb"
+                },
+                {
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        "5c82b9330e3748809dc60273"
+                      ],
+                      "_id": "5da683c9ff2c197218db2753",
+                      "type": "hasCompletedQuest",
+                      "negate": true
+                    },
+                    {
+                      "parameters": [
+                        [
+                          "5d16ac3febd3dc43df54cb5f",
+                          "5da67a9d0824a50000fc56e7"
+                        ]
+                      ],
+                      "_id": "5da683c9ff2c19eaf6db2752",
+                      "type": "hasSeenNode",
+                      "negate": true
+                    }
+                  ],
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5da67a9d0824a50000fc56e7"
+                    ]
+                  },
+                  "_id": "5da6805c0824a50000fc56f2"
+                },
+                {
+                  "actions": [],
+                  "conditions": [
+                    {
+                      "parameters": [
+                        "5c82b9330e3748809dc60273"
+                      ],
+                      "_id": "5da683c9ff2c19464adb2750",
+                      "type": "hasCompletedQuest",
+                      "negate": true
+                    },
+                    {
+                      "parameters": [
+                        [
+                          "5d16ac3febd3dc43df54cb5f",
+                          "5da67a9d0824a50000fc56e7"
+                        ]
+                      ],
+                      "_id": "5da683c9ff2c19f640db274f",
+                      "type": "hasSeenNode"
+                    }
+                  ],
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "\"Like I said, we're not ready. Not yet.\""
+                      ]
+                    ]
+                  },
+                  "_id": "5da680ab0824a50000fc56f5"
+                }
+              ],
+              "parent": null,
+              "_id": "5da6703f343abc00003ae609",
               "_type": "local"
             },
             {
               "label": [
                 "Are you familiar with the Tusk Mob?"
-              ],
-              "_id": "5d16a9afab3c0300005d56cc",
-              "actions": [],
-              "outcomes": [
-                {
-                  "_id": "5d16aad8ab3c0300005d56ce",
-                  "event": {
-                    "type": "narrative",
-                    "parameters": [
-                      [
-                        "\"Yeah. A bunch of smugglers. They rule the neighboring Isle of Bast. Seems like they are expanding their territory. Most likely, they are connected to the Khiris Cartel.\""
-                      ]
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": []
-                }
               ],
               "maxAccounts": 1,
               "availability": [
@@ -54145,28 +54120,29 @@
                   "type": "hasSeenOptionOutcome"
                 }
               ],
+              "actions": [],
+              "outcomes": [
+                {
+                  "actions": [],
+                  "conditions": [],
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "\"Yeah. A bunch of smugglers. They rule the neighboring Isle of Bast. Seems like they are expanding their territory. Most likely, they are connected to the Khiris Cartel.\""
+                      ]
+                    ]
+                  },
+                  "_id": "5d16aad8ab3c0300005d56ce"
+                }
+              ],
+              "parent": null,
+              "_id": "5d16a9afab3c0300005d56cc",
               "_type": "local"
             },
             {
               "label": [
                 "Know anything about the Ephemeral Lodge?"
-              ],
-              "_id": "5d16c427ab3c0300005d56e6",
-              "actions": [],
-              "outcomes": [
-                {
-                  "_id": "5d16c47bab3c0300005d56ea",
-                  "event": {
-                    "type": "narrative",
-                    "parameters": [
-                      [
-                        "\"I have crossed paths with them more than once. Druids, independent from the others - peaceful and isolated. They roam the forest of Graefir Island to the west. I can show you the way to the Ephemeral Lodge. Just let me know when you're ready to leave.\""
-                      ]
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": []
-                }
               ],
               "maxAccounts": 1,
               "availability": [
@@ -54181,28 +54157,29 @@
                   "type": "hasCompletedObjective"
                 }
               ],
+              "actions": [],
+              "outcomes": [
+                {
+                  "actions": [],
+                  "conditions": [],
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "\"I have crossed paths with them more than once. Druids, independent from the others - peaceful and isolated. They roam the forest of Graefir Island to the west. I can show you the way to the Ephemeral Lodge. Just let me know when you're ready to leave.\""
+                      ]
+                    ]
+                  },
+                  "_id": "5d16c47bab3c0300005d56ea"
+                }
+              ],
+              "parent": null,
+              "_id": "5d16c427ab3c0300005d56e6",
               "_type": "local"
             },
             {
               "label": [
                 "The merchant from Port Spire has been killed"
-              ],
-              "_id": "5d16c428ab3c0300005d56e7",
-              "actions": [],
-              "outcomes": [
-                {
-                  "_id": "5d16c55fab3c0300005d56ec",
-                  "event": {
-                    "type": "narrative",
-                    "parameters": [
-                      [
-                        "The nomad seems indifferent. \"Unfortunate, but not unexpected. This town is plagued by senseless violence.\""
-                      ]
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": []
-                }
               ],
               "maxAccounts": 1,
               "availability": [
@@ -54219,26 +54196,29 @@
                   "type": "hasSeenOptionOutcome"
                 }
               ],
+              "actions": [],
+              "outcomes": [
+                {
+                  "actions": [],
+                  "conditions": [],
+                  "event": {
+                    "type": "narrative",
+                    "parameters": [
+                      [
+                        "The nomad seems indifferent. \"Unfortunate, but not unexpected. This town is plagued by senseless violence.\""
+                      ]
+                    ]
+                  },
+                  "_id": "5d16c55fab3c0300005d56ec"
+                }
+              ],
+              "parent": null,
+              "_id": "5d16c428ab3c0300005d56e7",
               "_type": "local"
             },
             {
               "label": [
                 "Tell her about the nomad camp"
-              ],
-              "_id": "5d443e2f6d390d0000709a2f",
-              "actions": [],
-              "outcomes": [
-                {
-                  "_id": "5d44425f6d390d0000709a35",
-                  "event": {
-                    "type": "node",
-                    "parameters": [
-                      "5d443ef56d390d0000709a30"
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": []
-                }
               ],
               "maxAccounts": 1,
               "availability": [
@@ -54261,26 +54241,27 @@
                   "negate": true
                 }
               ],
+              "actions": [],
+              "outcomes": [
+                {
+                  "actions": [],
+                  "conditions": [],
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5d443ef56d390d0000709a30"
+                    ]
+                  },
+                  "_id": "5d44425f6d390d0000709a35"
+                }
+              ],
+              "parent": null,
+              "_id": "5d443e2f6d390d0000709a2f",
               "_type": "local"
             },
             {
               "label": [
                 "I have some bad news"
-              ],
-              "_id": "5d8259b0c1af030000a50340",
-              "actions": [],
-              "outcomes": [
-                {
-                  "_id": "5d825c46e0d0600000d44552",
-                  "event": {
-                    "type": "node",
-                    "parameters": [
-                      "5d825a05c1af030000a50341"
-                    ]
-                  },
-                  "actions": [],
-                  "conditions": []
-                }
               ],
               "maxAccounts": 1,
               "availability": [
@@ -54292,59 +54273,68 @@
                   "type": "hasSeenScene"
                 }
               ],
+              "actions": [],
+              "outcomes": [
+                {
+                  "actions": [],
+                  "conditions": [],
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5d825a05c1af030000a50341"
+                    ]
+                  },
+                  "_id": "5d825c46e0d0600000d44552"
+                }
+              ],
+              "parent": null,
+              "_id": "5d8259b0c1af030000a50340",
               "_type": "local"
             },
             {
               "label": [
                 "Leave her alone"
               ],
-              "_id": "5d6f21c50eca2d0000f752c8",
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5d6f21d50eca2d0000f752c9",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "endEncounter",
                     "parameters": []
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5d6f21d50eca2d0000f752c9"
                 }
               ],
-              "availability": [],
+              "parent": null,
+              "_id": "5d6f21c50eca2d0000f752c8",
               "_type": "local"
             }
           ],
-          "audio": null
-        },
-        {
+          "cutScene": false,
           "autoSave": {
             "save": false,
             "conditions": []
           },
+          "audio": null,
+          "_id": "5d16a7c8ab3c0300005d56c9"
+        },
+        {
           "narrative": [
             "\"I see... If you talk to the elder, mention my name. Rest assured, it holds weight.\" Rasleen sighs, adding: \"Here's how I see it... The nomads must kill the serpents of Roeburgh Militia. There is no other way.\""
           ],
-          "cutScene": false,
-          "_id": "5d443ef56d390d0000709a30",
           "options": [
             {
               "label": [
                 "Any thoughts on a peaceful resolution?"
               ],
-              "_id": "5d443fa36d390d0000709a31",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5d4440f06d390d0000709a32",
-                  "event": {
-                    "type": "narrative",
-                    "parameters": [
-                      [
-                        "Having pondered your question, she replies: \"I suppose that the nomads could get rid off the bandits, if the Militia agrees to stand down. It seems doubtful that Elder Ariamnos would agree to trust them, however. All things considered, it seems like a solution that would benefit everyone. Unfortunately, common sense is a rare commodity in this world...\""
-                      ]
-                    ]
-                  },
                   "actions": [],
                   "conditions": [
                     {
@@ -54355,16 +54345,18 @@
                       "type": "hasSeenLocation",
                       "negate": true
                     }
-                  ]
-                },
-                {
-                  "_id": "5d714a7f8976dd00003155b3",
+                  ],
                   "event": {
-                    "type": "node",
+                    "type": "narrative",
                     "parameters": [
-                      "5d71491b8976dd00003155ae"
+                      [
+                        "Having pondered your question, she replies: \"I suppose that the nomads could get rid of the bandits, if the Militia agrees to stand down. It seems doubtful that Elder Ariamnos would agree to trust them, however. All things considered, it seems like a solution that would benefit everyone. Unfortunately, common sense is a rare commodity in this world...\""
+                      ]
                     ]
                   },
+                  "_id": "5d4440f06d390d0000709a32"
+                },
+                {
                   "actions": [],
                   "conditions": [
                     {
@@ -54374,58 +54366,67 @@
                       "_id": "5d714ab7e6ecf3c96da2868e",
                       "type": "hasSeenLocation"
                     }
-                  ]
+                  ],
+                  "event": {
+                    "type": "node",
+                    "parameters": [
+                      "5d71491b8976dd00003155ae"
+                    ]
+                  },
+                  "_id": "5d714a7f8976dd00003155b3"
                 }
               ],
-              "maxAccounts": 1,
-              "availability": [],
+              "parent": null,
+              "_id": "5d443fa36d390d0000709a31",
               "_type": "local"
             },
             {
               "label": [
                 "I see. Farewell"
               ],
-              "_id": "5d4441b66d390d0000709a33",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5d4442426d390d0000709a34",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "endEncounter",
                     "parameters": []
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5d4442426d390d0000709a34"
                 }
               ],
-              "maxAccounts": 1,
               "parent": "5d443fa36d390d0000709a31",
-              "availability": [],
+              "_id": "5d4441b66d390d0000709a33",
               "_type": "local"
             }
           ],
-          "audio": null
-        },
-        {
+          "cutScene": false,
           "autoSave": {
             "save": false,
             "conditions": []
           },
+          "audio": null,
+          "_id": "5d443ef56d390d0000709a30"
+        },
+        {
           "narrative": [
             "Having pondered your question, she replies: \"I suppose that the nomads could get rid of the bandits, if the Militia agrees to stand down. It seems doubtful that Elder Ariamnos would agree to trust them, however. All things considered, it seems like a solution that would benefit everyone. Unfortunately, common sense is a rare commodity...\""
           ],
-          "cutScene": false,
-          "_id": "5d71491b8976dd00003155ae",
           "options": [
             {
               "label": [
                 "The bandits have already been dealt with"
               ],
-              "_id": "5d7149d58976dd00003155af",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5d714a0d8976dd00003155b0",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -54434,59 +54435,60 @@
                       ]
                     ]
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5d714a0d8976dd00003155b0"
                 }
               ],
-              "maxAccounts": 1,
-              "availability": [],
+              "parent": null,
+              "_id": "5d7149d58976dd00003155af",
               "_type": "local"
             },
             {
               "label": [
                 "I see. Farewell"
               ],
-              "_id": "5d714a318976dd00003155b1",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5d714a658976dd00003155b2",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "endEncounter",
                     "parameters": []
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5d714a658976dd00003155b2"
                 }
               ],
-              "maxAccounts": 1,
               "parent": "5d7149d58976dd00003155af",
-              "availability": [],
+              "_id": "5d714a318976dd00003155b1",
               "_type": "local"
             }
           ],
-          "audio": null
-        },
-        {
+          "cutScene": false,
           "autoSave": {
             "save": false,
             "conditions": []
           },
+          "audio": null,
+          "_id": "5d71491b8976dd00003155ae"
+        },
+        {
           "narrative": [
             "\"Go on...\""
           ],
-          "cutScene": false,
-          "_id": "5d825a05c1af030000a50341",
           "options": [
             {
               "label": [
                 "The nomad exiles are dead"
               ],
-              "_id": "5d825a43e0d0600000d4454c",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5d825a61e0d0600000d4454d",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -54495,23 +54497,24 @@
                       ]
                     ]
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5d825a61e0d0600000d4454d"
                 }
               ],
-              "maxAccounts": 1,
-              "availability": [],
+              "parent": null,
+              "_id": "5d825a43e0d0600000d4454c",
               "_type": "local"
             },
             {
               "label": [
                 "They clashed with the Militia..."
               ],
-              "_id": "5d825aa3e0d0600000d4454e",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5d825ab5e0d0600000d4454f",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -54520,60 +54523,60 @@
                       ]
                     ]
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5d825ab5e0d0600000d4454f"
                 }
               ],
-              "maxAccounts": 1,
               "parent": "5d825a43e0d0600000d4454c",
-              "availability": [],
+              "_id": "5d825aa3e0d0600000d4454e",
               "_type": "local"
             },
             {
               "label": [
                 "Leave her alone"
               ],
-              "_id": "5d825bb5e0d0600000d44550",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5d825c11e0d0600000d44551",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "endEncounter",
                     "parameters": []
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5d825c11e0d0600000d44551"
                 }
               ],
-              "maxAccounts": 1,
               "parent": "5d825aa3e0d0600000d4454e",
-              "availability": [],
+              "_id": "5d825bb5e0d0600000d44550",
               "_type": "local"
             }
           ],
-          "audio": null
-        },
-        {
+          "cutScene": false,
           "autoSave": {
             "save": false,
             "conditions": []
           },
+          "audio": null,
+          "_id": "5d825a05c1af030000a50341"
+        },
+        {
           "narrative": [
             "Much to the disappointment of the children in the crowd, you step forward to interrupt the tales of your scarred comrade. Smiling, the nomad mercenary says: \"You have no idea how happy I am to be reunited with my tribal brethren. Thank you, my friend.\""
           ],
-          "cutScene": false,
-          "_id": "5da3329253903400008ba07c",
           "options": [
             {
               "label": [
                 "Don't mention it"
               ],
-              "_id": "5da332c553903400008ba07d",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da332ed53903400008ba07e",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -54582,59 +54585,75 @@
                       ]
                     ]
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5da332ed53903400008ba07e"
                 }
               ],
-              "maxAccounts": 1,
-              "availability": [],
+              "parent": null,
+              "_id": "5da332c553903400008ba07d",
               "_type": "local"
             },
             {
               "label": [
                 "I'll talk to you later"
               ],
-              "_id": "5da3337a53903400008ba07f",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da3338f53903400008ba080",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "endEncounter",
                     "parameters": []
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5da3338f53903400008ba080"
                 }
               ],
-              "maxAccounts": 1,
               "parent": "5da332c553903400008ba07d",
-              "availability": [],
+              "_id": "5da3337a53903400008ba07f",
               "_type": "local"
             }
           ],
-          "audio": null
-        },
-        {
+          "cutScene": false,
           "autoSave": {
             "save": false,
             "conditions": []
           },
+          "audio": null,
+          "_id": "5da3329253903400008ba07c"
+        },
+        {
           "narrative": [
             "\"About time. You know, I've been asking around, but the locals clam up whenever the Cartel is mentioned. Can't blame 'em, I suppose... but it's frustrating... I was beginning to lose hope.\" She takes a sip of moonshine. \"Anyway, let's hear what you've got.\""
           ],
-          "cutScene": false,
-          "_id": "5da6457102e93d000092b8a3",
           "options": [
             {
               "label": [
                 "Have a look at these reports"
               ],
-              "_id": "5da6720d0824a50000fc56d5",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da6734d0824a50000fc56d6",
+                  "actions": [
+                    {
+                      "type": "removeItem",
+                      "parameters": [
+                        "5d6fe9ba8335b43d678868dc"
+                      ],
+                      "_id": "5da6789aff2c190136db24fc"
+                    },
+                    {
+                      "type": "removeItem",
+                      "parameters": [
+                        "5d6ff0f68335b4897f8868de"
+                      ],
+                      "_id": "5da6789aff2c1907b7db24fb"
+                    }
+                  ],
+                  "conditions": [],
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -54643,38 +54662,41 @@
                       ]
                     ]
                   },
-                  "actions": [
-                    {
-                      "parameters": [
-                        "5d6fe9ba8335b43d678868dc"
-                      ],
-                      "_id": "5da6789aff2c190136db24fc",
-                      "type": "removeItem"
-                    },
-                    {
-                      "parameters": [
-                        "5d6ff0f68335b4897f8868de"
-                      ],
-                      "_id": "5da6789aff2c1907b7db24fb",
-                      "type": "removeItem"
-                    }
-                  ],
-                  "conditions": []
+                  "_id": "5da6734d0824a50000fc56d6"
                 }
               ],
-              "maxAccounts": 1,
-              "availability": [],
+              "parent": null,
+              "_id": "5da6720d0824a50000fc56d5",
               "_type": "local"
             },
             {
               "label": [
                 "Wait"
               ],
-              "_id": "5da6743d0824a50000fc56d7",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da6749c0824a50000fc56da",
+                  "actions": [
+                    {
+                      "type": "pickUpItem",
+                      "parameters": [
+                        "5d6fe9ba8335b43d678868dc",
+                        1
+                      ],
+                      "_id": "5da6789aff2c192beadb24f8"
+                    },
+                    {
+                      "type": "pickUpItem",
+                      "parameters": [
+                        "5d6ff0f68335b4897f8868de",
+                        1
+                      ],
+                      "_id": "5da6789aff2c19f1a3db24f7"
+                    }
+                  ],
+                  "conditions": [],
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -54683,41 +54705,24 @@
                       ]
                     ]
                   },
-                  "actions": [
-                    {
-                      "parameters": [
-                        "5d6fe9ba8335b43d678868dc",
-                        1
-                      ],
-                      "_id": "5da6789aff2c192beadb24f8",
-                      "type": "pickUpItem"
-                    },
-                    {
-                      "parameters": [
-                        "5d6ff0f68335b4897f8868de",
-                        1
-                      ],
-                      "_id": "5da6789aff2c19f1a3db24f7",
-                      "type": "pickUpItem"
-                    }
-                  ],
-                  "conditions": []
+                  "_id": "5da6749c0824a50000fc56da"
                 }
               ],
-              "maxAccounts": 1,
               "parent": "5da6720d0824a50000fc56d5",
-              "availability": [],
+              "_id": "5da6743d0824a50000fc56d7",
               "_type": "local"
             },
             {
               "label": [
                 "So... what do you think we should do?"
               ],
-              "_id": "5da676080824a50000fc56dd",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da677010824a50000fc56de",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -54726,24 +54731,36 @@
                       ]
                     ]
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5da677010824a50000fc56de"
                 }
               ],
-              "maxAccounts": 1,
               "parent": "5da6743d0824a50000fc56d7",
-              "availability": [],
+              "_id": "5da676080824a50000fc56dd",
               "_type": "local"
             },
             {
               "label": [
                 "Understood. I'll let you know when I'm ready"
               ],
-              "_id": "5da677ce0824a50000fc56df",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da677f90824a50000fc56e0",
+                  "actions": [
+                    {
+                      "type": "activateQuestObjectiveUpdate",
+                      "parameters": [
+                        [
+                          "5d7cd57de6ecf369a5a2a235",
+                          "5da61c6ab465060000827fcc",
+                          "5da678af0824a50000fc56e3"
+                        ]
+                      ],
+                      "_id": "5da679d9ff2c193630db257f"
+                    }
+                  ],
+                  "conditions": [],
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -54752,72 +54769,60 @@
                       ]
                     ]
                   },
-                  "actions": [
-                    {
-                      "parameters": [
-                        [
-                          "5d7cd57de6ecf369a5a2a235",
-                          "5da61c6ab465060000827fcc",
-                          "5da678af0824a50000fc56e3"
-                        ]
-                      ],
-                      "_id": "5da679d9ff2c193630db257f",
-                      "type": "activateQuestObjectiveUpdate"
-                    }
-                  ],
-                  "conditions": []
+                  "_id": "5da677f90824a50000fc56e0"
                 }
               ],
-              "maxAccounts": 1,
               "parent": "5da676080824a50000fc56dd",
-              "availability": [],
+              "_id": "5da677ce0824a50000fc56df",
               "_type": "local"
             },
             {
               "label": [
                 "Leave her alone"
               ],
-              "_id": "5da6786e0824a50000fc56e1",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da6787d0824a50000fc56e2",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "endEncounter",
                     "parameters": []
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5da6787d0824a50000fc56e2"
                 }
               ],
-              "maxAccounts": 1,
               "parent": "5da677ce0824a50000fc56df",
-              "availability": [],
+              "_id": "5da6786e0824a50000fc56e1",
               "_type": "local"
             }
           ],
-          "audio": null
-        },
-        {
+          "cutScene": false,
           "autoSave": {
             "save": false,
             "conditions": []
           },
+          "audio": null,
+          "_id": "5da6457102e93d000092b8a3"
+        },
+        {
           "narrative": [
             "\"You know, I've been thinking... as much I want to make him suffer, I don't think we're ready to confront Mantis. Not yet.\""
           ],
-          "cutScene": false,
-          "_id": "5da67a9d0824a50000fc56e7",
           "options": [
             {
               "label": [
                 "What makes you say that?"
               ],
-              "_id": "5da67b450824a50000fc56e8",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da67b520824a50000fc56e9",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -54826,23 +54831,36 @@
                       ]
                     ]
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5da67b520824a50000fc56e9"
                 }
               ],
-              "maxAccounts": 1,
-              "availability": [],
+              "parent": null,
+              "_id": "5da67b450824a50000fc56e8",
               "_type": "local"
             },
             {
               "label": [
                 "Good point..."
               ],
-              "_id": "5da67c4a0824a50000fc56ea",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da67cbc0824a50000fc56eb",
+                  "actions": [
+                    {
+                      "type": "activateQuestObjectiveUpdate",
+                      "parameters": [
+                        [
+                          "5d7cd57de6ecf369a5a2a235",
+                          "5da61c6ab465060000827fcc",
+                          "5da67f990824a50000fc56f0"
+                        ]
+                      ],
+                      "_id": "5da683c9ff2c1936d4db270b"
+                    }
+                  ],
+                  "conditions": [],
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -54851,36 +54869,24 @@
                       ]
                     ]
                   },
-                  "actions": [
-                    {
-                      "parameters": [
-                        [
-                          "5d7cd57de6ecf369a5a2a235",
-                          "5da61c6ab465060000827fcc",
-                          "5da67f990824a50000fc56f0"
-                        ]
-                      ],
-                      "_id": "5da683c9ff2c1936d4db270b",
-                      "type": "activateQuestObjectiveUpdate"
-                    }
-                  ],
-                  "conditions": []
+                  "_id": "5da67cbc0824a50000fc56eb"
                 }
               ],
-              "maxAccounts": 1,
               "parent": "5da67b450824a50000fc56e8",
-              "availability": [],
+              "_id": "5da67c4a0824a50000fc56ea",
               "_type": "local"
             },
             {
               "label": [
                 "I'll try to find a way"
               ],
-              "_id": "5da67d510824a50000fc56ec",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da67d810824a50000fc56ed",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "narrative",
                     "parameters": [
@@ -54889,76 +54895,86 @@
                       ]
                     ]
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5da67d810824a50000fc56ed"
                 }
               ],
-              "maxAccounts": 1,
               "parent": "5da67c4a0824a50000fc56ea",
-              "availability": [],
+              "_id": "5da67d510824a50000fc56ec",
               "_type": "local"
             },
             {
               "label": [
                 "Leave her alone"
               ],
-              "_id": "5da67f490824a50000fc56ee",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da67f620824a50000fc56ef",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "endEncounter",
                     "parameters": []
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5da67f620824a50000fc56ef"
                 }
               ],
-              "maxAccounts": 1,
               "parent": "5da67d510824a50000fc56ec",
-              "availability": [],
+              "_id": "5da67f490824a50000fc56ee",
               "_type": "local"
             }
           ],
-          "audio": null
-        },
-        {
+          "cutScene": false,
           "autoSave": {
-            "save": true,
+            "save": false,
             "conditions": []
           },
+          "audio": null,
+          "_id": "5da67a9d0824a50000fc56e7"
+        },
+        {
           "narrative": [
             "She nods. \"Wait for me in the harbor. I need some time to prepare. Don't worry, it won't take long.\""
           ],
-          "cutScene": false,
-          "_id": "5da681770824a50000fc56f8",
           "options": [
             {
               "label": [
                 "Leave her alone"
               ],
-              "_id": "5da682e80824a50000fc56f9",
+              "maxAccounts": 1,
+              "availability": [],
               "actions": [],
               "outcomes": [
                 {
-                  "_id": "5da683260824a50000fc56fa",
+                  "actions": [],
+                  "conditions": [],
                   "event": {
                     "type": "endEncounter",
                     "parameters": []
                   },
-                  "actions": [],
-                  "conditions": []
+                  "_id": "5da683260824a50000fc56fa"
                 }
               ],
-              "maxAccounts": 1,
-              "availability": [],
+              "parent": null,
+              "_id": "5da682e80824a50000fc56f9",
               "_type": "local"
             }
           ],
-          "audio": null
+          "cutScene": false,
+          "autoSave": {
+            "save": true,
+            "conditions": []
+          },
+          "audio": null,
+          "_id": "5da681770824a50000fc56f8"
         }
       ],
+      "cutScene": false,
+      "autoSave": {
+        "save": false,
+        "conditions": []
+      },
       "audio": null,
       "_sharedOptions": []
     },
@@ -134140,7 +134156,7 @@
                     "type": "narrative",
                     "parameters": [
                       [
-                        "After some hesitation, he replies: \"No. I am usually not a man superstition, but... no. I don't want it.\""
+                        "After some hesitation, he replies: \"No. I am usually not a man of superstition, but... no. I don't want it.\""
                       ]
                     ]
                   },
