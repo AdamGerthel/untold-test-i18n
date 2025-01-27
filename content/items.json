@@ -1095,7 +1095,7 @@
         }
       ],
       "combatActions": [],
-      "encumbrance": 10,
+      "encumbrance": 8,
       "sideEffects": {
         "statModifiers": [
           {
@@ -1104,9 +1104,9 @@
             "value": 0.8
           }
         ],
-        "immunities": [],
         "onEquip": [],
-        "onUnEquip": []
+        "onUnEquip": [],
+        "immunities": []
       },
       "slotSets": [
         [
@@ -1115,7 +1115,7 @@
         ]
       ],
       "_created": "2019-03-11T10:42:25.628Z",
-      "_updated": "2024-09-09T20:25:53.772Z",
+      "_updated": "2025-01-27T13:37:42.954Z",
       "name": "Stone Maul",
       "description": "A two-handed stone hammer from the dawn of time",
       "value": 20,
@@ -3279,15 +3279,15 @@
     },
     {
       "_id": "5cad60da3790351127b2285e",
+      "scripture": "5cad6153379035f74db2285f",
+      "_created": "2019-04-10T03:19:54.094Z",
+      "_updated": "2024-12-31T03:49:11.515Z",
       "name": "The Transgression of Hieram Vot",
-      "description": "The red covers of this book contain the arguments of three prominent thinkers. The debate concerns the implications of the assassination of Lord Selikro VIII.",
+      "description": "The red covers of this book contain the arguments of three prominent thinkers. The debate concerns the implications of the assassination of Lord Selikro VII.",
       "value": 20,
       "tier": "3",
       "type": "scripture",
-      "_created": "2019-04-10T03:19:54.094Z",
-      "_updated": "2019-04-24T22:25:37.681Z",
-      "__v": 0,
-      "scripture": "5cad6153379035f74db2285f"
+      "__v": 0
     },
     {
       "_id": "5cae597d01f06a288f493a4b",
