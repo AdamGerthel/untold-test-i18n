@@ -4,15 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "update": "node scripts/update.js",
-    "update:content": "EXCLUDE=media node scripts/update.js",
-    "update:media:images": "EXCLUDE=media.audio node scripts/update.js",
-    "update:media:audio": "EXCLUDE=media.images node scripts/update.js"
+    "update": "ts-node scripts/update.ts",
+    "update:content": "EXCLUDE=media ts-node scripts/update.ts",
+    "update:media:images": "EXCLUDE=media.audio ts-node scripts/update.ts",
+    "update:media:audio": "EXCLUDE=media.images ts-node scripts/update.ts",
+    "locale": "TS_NODE_TRANSPILE_ONLY=true yarn ts-node scripts/getTranslations.ts"
   },
   "dependencies": {
     "dotenv": "^8.1.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "@actnone/editor-untold": "^1.2.0",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2"
   },
   "packageManager": "yarn@4.6.0"
 }

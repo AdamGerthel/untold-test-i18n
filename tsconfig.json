@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": ["es2020"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext"
+  },
+  "exclude": ["node_modules"]
+}
