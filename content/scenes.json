@@ -60,7 +60,6 @@
               ],
               "maxAccounts": 1,
               "availability": [],
-              "actions": [],
               "outcomes": [
                 {
                   "actions": [],
@@ -85,7 +84,8 @@
               ],
               "parent": "5c7d47aa132d9400002ecb69",
               "_id": "5c7d482f132d9400002ecb6b",
-              "_type": "local"
+              "_type": "local",
+              "actions": []
             },
             {
               "label": [

@@ -1163,12 +1163,11 @@
     {
       "_id": "5ce4acc0c3e78f95a55bcbcf",
       "template": "6719eece574fa4dd98185311",
-      "name": "Knight",
       "_alias": "Knight A",
       "loot": "5ced4754c3e78fe0b15beaad",
       "experience": 40,
       "_created": "2019-05-22T01:58:24.207Z",
-      "_updated": "2024-10-24T06:53:32.405Z",
+      "_updated": "2025-02-14T13:59:38.627Z",
       "__v": 0,
       "__t": "template"
     },
