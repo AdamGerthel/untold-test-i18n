@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "update": "ts-node scripts/update.ts",
-    "update:content": "EXCLUDE=media ts-node scripts/update.ts",
-    "update:media:images": "EXCLUDE=media.audio ts-node scripts/update.ts",
-    "update:media:audio": "EXCLUDE=media.images ts-node scripts/update.ts",
+    "update": "node scripts/update.ts && yarn locale",
+    "update:content": "EXCLUDE=media node scripts/update.js && yarn locale",
+    "update:media:images": "EXCLUDE=media.audio node scripts/update.js",
+    "update:media:audio": "EXCLUDE=media.images node scripts/update.js",
     "locale": "TS_NODE_TRANSPILE_ONLY=true yarn ts-node scripts/getTranslations.ts"
   },
   "dependencies": {
