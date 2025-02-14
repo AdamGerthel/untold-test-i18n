@@ -6,6 +6,7 @@ import type {
   EditorItem,
   EditorLocation,
   EditorNpc,
+  EditorNpcTemplate,
   EditorPath,
   EditorQuest,
   EditorScene,
@@ -39,7 +40,10 @@ export const getTranslations = async function () {
     ),
     endings: getEndingTranslations(content.settings.data.ending.partials),
     items: getItemTranslations(content.items.data as EditorItem[]),
-    npcs: getNpcTranslations(content.npcs.data as EditorNpc[]),
+    npcs: getNpcTranslations(
+      content.npcs.data as EditorNpc[],
+      content.npcTemplates.data as EditorNpcTemplate[]
+    ),
     quests: getQuestTranslations(content.quests.data as unknown as EditorQuest[]),
     scenes: getSceneTranslations(content.scenes.data as EditorScene[]),
     scriptures: getScriptureTranslations(content.scriptures.data as EditorScripture[]),
@@ -57,12 +61,19 @@ export const getTranslations = async function () {
         const resourceTranslationsJson = JSON.stringify(translations, null, 2)
         const emptyTranslationsJson = JSON.stringify({}, null, 2)
 
-        return LOCALES.map(locale =>
-          fs.promises.writeFile(
-            `${FOLDER}/${resource}/${locale}.json`,
-            locale === DEFAULT_LOCALE ? resourceTranslationsJson : emptyTranslationsJson
-          )
-        )
+        return LOCALES.map(async locale => {
+          const filePath = `${FOLDER}/${resource}/${locale}.json`
+
+          if (locale === DEFAULT_LOCALE) {
+            return fs.promises.writeFile(filePath, resourceTranslationsJson)
+          }
+
+          try {
+            await fs.promises.access(filePath)
+          } catch {
+            return fs.promises.writeFile(filePath, emptyTranslationsJson)
+          }
+        })
       })
     )
 
@@ -200,11 +211,21 @@ const getWorldTranslations = function (
   return translations
 }
 
-const getNpcTranslations = function (npcs: EditorNpc[]) {
+const getNpcTranslations = function (npcs: EditorNpc[], npcTemplates: EditorNpcTemplate[]) {
   const translations: TTranslationObject = {}
 
   npcs.forEach(npc => {
-    addKey(translations, `NPC-${npc._id}-NAME`, npc.name)
+    if (npc.name) {
+      addKey(translations, `NPC-${npc._id}-NAME`, npc.name)
+    } else if (npc.template) {
+      const template = npcTemplates.find(template => template._id === npc.template)
+
+      if (template) {
+        addKey(translations, `NPC-${npc._id}-NAME`, template.name)
+      } else {
+        throw new Error(`NPC ${npc._id} is missing name`)
+      }
+    }
   })
 
   return translations
