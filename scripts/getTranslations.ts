@@ -1,3 +1,4 @@
+require('dotenv').config()
 import type {
   EditorAchievement,
   EditorAction,
@@ -15,6 +16,7 @@ import fs from 'fs'
 
 type TTranslationObject = Record<string, string>
 
+const LOCALES = process.env.LOCALES ? process.env.LOCALES.split(',') : ['en']
 const DEFAULT_LOCALE = 'en'
 const FOLDER = 'locale'
 
@@ -45,19 +47,44 @@ export const getTranslations = async function () {
       content.areas.data as EditorArea[],
       content.locations.data as unknown as EditorLocation[],
       content.paths.data as unknown as EditorPath[]
-    )
+    ),
+    'push-notifications': getPushNotificationTranslations(content.settings.data.notifications)
   }
 
-  await Promise.all(
-    Object.entries(translations).map(([resource, translations]) => {
-      const resourceTranslationsJson = JSON.stringify(translations, null, 2)
+  try {
+    await Promise.all(
+      Object.entries(translations).flatMap(([resource, translations]) => {
+        const resourceTranslationsJson = JSON.stringify(translations, null, 2)
+        const emptyTranslationsJson = JSON.stringify({}, null, 2)
 
-      return fs.promises.writeFile(
-        `${FOLDER}/${resource}/${DEFAULT_LOCALE}.json`,
-        resourceTranslationsJson
-      )
-    })
-  )
+        return LOCALES.map(locale =>
+          fs.promises.writeFile(
+            `${FOLDER}/${resource}/${locale}.json`,
+            locale === DEFAULT_LOCALE ? resourceTranslationsJson : emptyTranslationsJson
+          )
+        )
+      })
+    )
+
+    const indexContent =
+      'module.exports = {\n' +
+      LOCALES.map(
+        locale =>
+          `  ${locale}: {\n` +
+          Object.keys(translations)
+            .map(
+              resource =>
+                `    ${resource.replace(/-([a-z])/g, (_, letter) => letter.toUpperCase())}: require('./${resource}/${locale}.json')`
+            )
+            .join(',\n') +
+          '\n  }'
+      ).join(',\n') +
+      '\n}'
+
+    await fs.promises.writeFile(`${FOLDER}/index.js`, indexContent)
+  } catch (error) {
+    console.error(error)
+  }
 }
 
 const addKey = function (translations: TTranslationObject, key: string, value: string) {
@@ -75,19 +102,17 @@ const collectKeysFromActions = (
 ) => {
   actions.forEach(action => {
     if (action.type === 'overrideNarrative') {
-      action.parameters.forEach((parameter, index) => {
-        addKey(translations, `${keyPrefix}-NARR_OVERR-${index}`, parameter)
-      })
+      addKey(translations, `${keyPrefix}-NARRATIVE_OVERRIDE`, action.parameters[0])
     }
 
     if (action.type === 'displayNotification') {
-      addKey(translations, `${keyPrefix}-NOTI`, action.parameters[0])
+      addKey(translations, `${keyPrefix}-NOTIFICATION`, action.parameters[0])
     }
 
     if (action.type === 'changeHealth' && action.parameters[1]?.length) {
       action.parameters[1].forEach((narrative, index) => {
         if (typeof narrative === 'string') {
-          addKey(translations, `${keyPrefix}-DEATH-NARR-${index}`, narrative)
+          addKey(translations, `${keyPrefix}-DEATH_NARRATIVE-${index}`, narrative)
         }
       })
     }
@@ -98,7 +123,7 @@ const collectKeysFromActions = (
       if (Array.isArray(deathNarratives)) {
         deathNarratives.forEach((narrative, index) => {
           if (typeof narrative === 'string') {
-            addKey(translations, `${keyPrefix}-DEATH-NARR-${index}`, narrative)
+            addKey(translations, `${keyPrefix}-DEATH_NARRATIVE-${index}`, narrative)
           }
         })
       }
@@ -130,7 +155,7 @@ const getSceneTranslations = function (scenes: EditorScene[]) {
         })
 
         option.outcomes.forEach(outcome => {
-          const outcomeKeyPrefix = `${optionKeyPrefix}-OUTC-${shortenObjectId(outcome._id)}`
+          const outcomeKeyPrefix = `${optionKeyPrefix}-OUT-${shortenObjectId(outcome._id)}`
 
           collectKeysFromActions(translations, outcome.actions, outcomeKeyPrefix)
 
@@ -159,11 +184,11 @@ const getWorldTranslations = function (
   const translations: TTranslationObject = {}
 
   areas.forEach(area => {
-    addKey(translations, `AREA-${area._id}`, area.name)
+    addKey(translations, `AREA-${area._id}-NAME`, area.name)
   })
 
   locations.forEach(location => {
-    addKey(translations, `LOCATION-${location._id}`, location.name)
+    addKey(translations, `LOCATION-${location._id}-NAME`, location.name)
   })
 
   paths.forEach(path => {
@@ -179,7 +204,7 @@ const getNpcTranslations = function (npcs: EditorNpc[]) {
   const translations: TTranslationObject = {}
 
   npcs.forEach(npc => {
-    addKey(translations, `NPC-${npc._id}`, npc.name)
+    addKey(translations, `NPC-${npc._id}-NAME`, npc.name)
   })
 
   return translations
@@ -193,7 +218,7 @@ const getItemTranslations = function (items: EditorItem[]) {
     addKey(translations, `ITEM-${item._id}-DESC`, item.description)
 
     if ('consumption' in item) {
-      collectKeysFromActions(translations, item.consumption.actions, `ITEM-${item._id}-CONS`)
+      collectKeysFromActions(translations, item.consumption.actions, `ITEM-${item._id}-CONSUME`)
     }
 
     if ('sideEffects' in item) {
@@ -238,7 +263,7 @@ const getQuestTranslations = function (quests: EditorQuest[]) {
       objective.updates.forEach(update => {
         addKey(
           translations,
-          `${objectiveKeyPrefix}-UPDATE-${shortenObjectId(update._id)}`,
+          `${objectiveKeyPrefix}-UPDATE-${shortenObjectId(update._id)}-DESC`,
           update.description
         )
       })
@@ -252,14 +277,18 @@ const getAchievementTranslations = function (achievements: EditorAchievement[]) 
   const translations: TTranslationObject = {}
 
   achievements.forEach(achievement => {
-    const achievementKeyPrefix = `${achievement._id}`
+    const achievementKeyPrefix = `ACHIEVEMENT-${achievement._id}`
 
     addKey(translations, `${achievementKeyPrefix}-NAME`, achievement.name)
     addKey(translations, `${achievementKeyPrefix}-DESC`, achievement.description)
 
     if (achievement.descriptiveTasks) {
       achievement.tasks.forEach(task => {
-        addKey(translations, `${achievementKeyPrefix}-TASK-${shortenObjectId(task._id)}`, task.name)
+        addKey(
+          translations,
+          `${achievementKeyPrefix}-TASK-${shortenObjectId(task._id)}-NAME`,
+          task.name
+        )
       })
     }
   })
@@ -271,7 +300,23 @@ const getEndingTranslations = function (partials: EditorSettings['ending']['part
   const translations: TTranslationObject = {}
 
   partials.forEach(partial => {
-    addKey(translations, `ENDING-${partial._id}`, partial.narrative)
+    addKey(translations, `ENDING-${partial._id}-NARRATIVE`, partial.narrative)
+  })
+
+  return translations
+}
+
+const getPushNotificationTranslations = function (
+  pushNotifications: EditorSettings['notifications']
+) {
+  const translations: TTranslationObject = {}
+
+  pushNotifications.forEach(notification => {
+    if (notification.title) {
+      addKey(translations, `PUSH_NOTIFICATION-${notification._id}-TITLE`, notification.title)
+    }
+
+    addKey(translations, `PUSH_NOTIFICATION-${notification._id}-BODY`, notification.body)
   })
 
   return translations
